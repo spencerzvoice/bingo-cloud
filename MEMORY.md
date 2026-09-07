@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-08-30_
+_Last updated: 2026-09-07_
 _Next memory prune: 2026-09-25_ — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). The bulky, fast-moving detail lives in `reference/`; this file is the curated core.
@@ -133,6 +133,7 @@ Business-relevant carry-overs:
 
 ## Key facts & decisions
 
+- 2026-09-07 — Spencer wants to become **more active on social media** to showcase his VO talent (grew out of a YouTube-channel idea he's had for a while). Bingo flagged the YouTube-channel-for-passive-income version as a distraction from the Oct-31 downpayment cash sprint and a different project entirely (content-creator play, 6–12mo before it pays, doesn't build client-facing portfolio) vs. a **showcase/portfolio channel** (short category demo clips — commercial/corporate/promo — which overlaps with the reel-rebuild dependency already on record). Spencer agreed to sequence: no reel rebuild until *after* the Sept 19 Elaine Craig commercial workshop (don't bake in the pre-training read into his showcase piece / DDO resubmission reel). He also self-identified the timing conflict on social media generally and wants to park heavy execution until past the Oct cash crunch, but flagged it as a real goal to come back to. Bingo's standing recommendation: prioritize **LinkedIn** over Instagram/YouTube as the platform, since it's where his actual buyers (agency/brand producers, casting directors — the same people in the Lane 1/Funnel outreach) already live; treat it as a Lane-1 amplifier, not a separate marketing project. Cheap non-time-competing step available now: LinkedIn profile optimization + light engagement (follow/comment) with people already being cold-emailed. Full posting cadence/content-pillar plan tabled until after Oct 31 — revisit then.
 - 2026-08-27 — Bingo created; voice chosen: straight/challenging/honest but supportive mentor. Confirmed this **overrides** the clipped "no name / terminate immediately" rules in the imported memory dumps.
 - 2026-08-27 — Spencer imported 8 files (memory dumps, client directory, pricing guide, resume, session exports). VO business folded into `MEMORY.md` + `reference/`; private/financial/personal detail split into `local/personal-context.md` (desktop-only, not synced) at his request when the workspace went into a GitHub repo.
 - 2026-08-27 — Workspace put under git and pushed to a **private GitHub repo** (`github.com/spencerzvoice/bingo`) so Bingo travels to the phone. Only non-sensitive VO content is in the repo; `local/` is gitignored.
