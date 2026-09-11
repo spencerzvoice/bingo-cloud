@@ -2,6 +2,17 @@
 
 One entry per email. Update "Result" when a reply lands.
 
+## 2026-09-11 — Digest follow-up batch (21 drafts written, none sent)
+Sept 11 daily digest flagged 22 items due (21 follow-ups + 1 fix-email). Bingo drafted all 21 for Spencer to review/send from spencer@spencerzvoice.com. Not pushed to Gmail drafts — the connected Gmail tool authenticates as spencerzpearman@gmail.com (personal), not the business address.
+- **HOLD until ~2026-09-22** (Spencer's own 4-week warm-no-thread cadence, sent Aug 26 — digest's 10-day formula doesn't know this): Dan Haas (ATTN), Craig (Pentak/Condado), Deb (Kanahoma/NMSU). Jeff Fine (Shadow Lion) flagged with the same caution — unclear if his last touch was the same Aug 26 batch.
+- **Sent now, legit due** (Aug 28 batch, follow-up window Sept 4–7 already passed): Melissa Gillis (ATTN), Erin Daughenbaugh (EDP), Mel Kane (Invision), Lucas Bertoli (Laundry Design), Taylor Ballam (Modo), Devin Leisher (TBC).
+- **Poullet Sangbaran (Tellary)** — drafted as first real touch to the replacement contact (Anna Jacobsen bounced).
+- **Jeff McKown (Diamond View) + Michael MacMillan (Anomaly)** — digest called for a NEW HOOK. WebSearch found leads (possible Diamond View funding/expansion; Anomaly × FOX One World Cup campaign) but egress to the source pages was blocked this session — hooks are 🟡 unverified, left bracketed in the drafts. Spencer must verify before sending. Michael MacMillan would be a 3rd touch (already 2nd-followed-up Sept 1) — worth reconsidering without a real hook.
+- **Dan Shaw (Noah Media)** — reused/tightened the warm reconnect already drafted 2026-08-31 (reply in June thread, no full-name intro, rates left out).
+- **Cold tech follow-ups** (Marc Andrews/Webflow, Sydney Halle/Figma, Cory Zapatka/Notion, Andy Orsow/Framer, Ari Mojdeh/Linear, Samuel Rollier/Miro) — no new sample/credit exists since the Aug 31 sends, so these are honest short bumps, not the "new proof" the earlier note called for. Samuel Rollier's Aug 31 status was "recording sample, sending later" — unconfirmed whether it ever actually sent; verify before treating as a follow-up.
+- **Lilah Kohlman (Altra)** — welcome-back touch, her OOO ended per digest.
+- **Not drafted:** Melissa Dunlop Parsons (Octagon) — bounced, needs a working email before any send, not a follow-up.
+
 ## 2026-09-02 — Miro (Drew Jaz) — LinkedIn connection accepted
 - Head of Creative at Miro, above Samuel Rollier + Antoine Levi. Accepted Spencer's connection Sept 2.
 - **DO NOT pitch VO.** He led Miro's Jan 2026 AI brand campaign (AI characters that move + speak). Pitching a human voice = anti-AI / no-homework signal. Value is a warm back-channel only.
