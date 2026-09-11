@@ -10,7 +10,7 @@ Spencer says "full". Target: one response, no tool calls, no hedge round.
 
 1. **Budget under $1,000 AND (worldwide/national scope OR in-perpetuity *broadcast* OR broadcast with no client named)** → **PASS.**
    Say so in one line. Only price it if Spencer says "quote straight" — then use the grid, no discount.
-   *Not this branch:* **local** radio/TV + in-perpetuity *non-broadcast* is legit low-budget work (GVAA low-risk exception) — price it in Step 2, don't auto-pass.
+   *Not this branch:* **local** radio/TV + in-perpetuity *non-broadcast* is legit low-budget work — price it in Step 2, don't auto-pass.
 2. **Budget at or above fair-market mid** (grid below) → **max out the budget.** Quote the ceiling. Show the grid number so he sees the headroom. Done.
 3. **Everything else** → grid lookup, Step 2.
 
@@ -38,7 +38,14 @@ Spencer says "full". Target: one response, no tool calls, no hedge round.
 
 Over 2:00 → take the 1:00–2:00 cell × 1.25.
 
-### NON-BROADCAST / CORPORATE NARRATION — standalone, no ad buy
+### NON-BROADCAST / CORPORATE NARRATION
+
+Priced by **finished runtime** (bands below), not word count and not the
+territory/term multipliers that drive ad/broadcast rates. GVAA keeps non-broadcast
+lower-stakes: modest bumps only — ×1.5 for in-perpetuity OR worldwide-organic, ×2 for
+both. Applies whether it's the primary deliverable (job category is Non-Broadcast /
+Video Narration / Internal Video / eLearning) or a licence stacked on a commercial —
+in the stacked case it's a small add-on row, use the ≤1–2 min band.
 
 | Runtime | Base | + in-perp OR worldwide-organic | + both |
 |---|---|---|---|
@@ -64,39 +71,85 @@ Over 2:00 → take the 1:00–2:00 cell × 1.25.
 - **Directed session: flat +$250, always a separate line — never folded into the read fee.**
 
 ### Stacked licences
-If the job lists two grants (e.g. "Online Ad WW 13wk" **and** "Non-Broadcast In-Perpetuity"), price both cells and **add** them. Also flag it — that combo is incoherent and usually a mislabeled explainer.
+If the job lists an ad grant **and** a "Non-Broadcast Licence": price the ad grant from
+the grid, add a non-broadcast row from the runtime band above (in-perp/worldwide bump
+applies). A second *ad/broadcast* grant (e.g. Online Ad **and** TV Ad) gets priced as
+two cells and flagged — that combo is often a mislabeled or overreaching brief.
 
 ---
 
 ## Output format — DEFAULT for any pasted marketplace job
 
-Plain text, not a code block. Bold section labels, blank line between each block,
-flags as a bullet list. Keep every block to 1–2 lines. Structure:
+Plain text, not a code block. Bold section labels, blank line between blocks. The
+**itemized GVAA table is the core** (Spencer, 2026-09-09 — he wants each spot priced
+as its own line so he can see the build and push on any part). Structure:
 
-> **\<Job\>** — $\<budget\> · \<words\>w / \<length\> · \<category\> · \<territory\> · \<term\>
+> **\<Job\>** — $\<budget\> · \<words\>w / \<length\> · \<category\> · \<licensing\> · \<N deliverables\>
 >
 > **Flags**
 > - \<flag\>
-> - \<flag\>
+> - \<flag\>   (if genuinely none: **Flags:** none)
 >
-> (if genuinely none: **Flags:** none)
+> **GVAA breakdown**
 >
-> **Fair market:** ~$\<X\>. \<one line: grid cell + add-on if stacked\>. \<client's own published anchor, if any\>
+> | Deliverable | Length | Usage applied | GVAA basis (show the math) | Amount |
+> |---|---|---|---|---|
+> | \<hero / anthem / spot 1\> | :30 | online WW 1yr | $2,950 × 3 WW | $8,850 |
+> | \<cutdown\> | :15 | same recording | 25–50% of parent (:15 = 0.75× base first) | $2,200 |
+> | \<non-broadcast grant\> | — | in-perp WW | non-bcast ≤1m band × 2 | $600 |
+> | \<directed session\> | — | — | flat, never folded in | $250 |
+> | **Total** | | | | **$11,900** |
+>
+> Parent spots at full grid rate; cutdowns/lifts from the **same recording** at the
+> reduced convention (~25–50% of parent — say which), not full freight. Session and
+> the perpetual/non-broadcast grant each get their own row. If a multiplier is
+> bracketed, give the Total as a range.
 >
 > **At their $\<budget\>:** \<what that actually buys — or "nothing. \<the gap\>"\>
 >
 > **Verdict:** \<PASS  |  Counter at $\<X\>  |  Quote $\<X\>\>. Floor $\<Y\>. \<one line why\>
+>
+> **Verification footer** (RULE 0): — Verified \<rate basis — source\> / — Bracketed \<item\> / — Unknown \<item\>
 
 Floor = one term-band down, or the low end of the underlying GVAA range (~15–20%
-under the cell). Add the paste-ready Voices.com message only if Spencer says
-"message" / "write-up" / "paste". Log (below) only if he's pursuing it — he'll say
-when he isn't.
+under the cell). Log (below) only if he's pursuing it — he'll say when he isn't.
 
-**RULE 0 (fast version):** the grid cells are 🟡 GVAA-derived — say so if pushed.
-Anything the job post didn't state (client name, real brand, US-vs-worldwide intent)
-is a `[bracket]` or a flag, never asserted as fact. A paste-ready message gets the
-full verification footer (`— Verified / — Bracketed / — Unknown`); the 5-line quote
-itself doesn't need the footer, but every line in it must still be sourced or bracketed.
+## Paste-ready website response — INCLUDE WITH EVERY BRIEF (Spencer, 2026-09-09)
+
+After the internal read, give a response Spencer can paste straight into the site.
+**Prose only — no tables, no bullets. The tables/itemization are internal, for
+Spencer's knowledge, and never appear in the response.** Brief, concise, clear
+paragraphs. **Never open with "Hello, thank you" or any greeting/thanks.**
+
+**If fairly priced or over budget:** one short paragraph — lead with any scope flag,
+then the rate.
+
+**If underpriced (their budget < fair market):** open with
+*"Just to clarify a few things about the project before we get started:"* then, in
+prose:
+1. The findings, run together in a sentence or two — the scope discrepancies (e.g.
+   licensing says worldwide but the creative reads national; "in perpetuity" on a
+   1-year campaign — suggest capping; confirm same-session cutdowns; ambiguous
+   deliverable count).
+2. **As briefed** — one figure for the full scope they asked for, at fair-market
+   GVAA. Never lowballed. Name the scope in the sentence ("online worldwide for one
+   year plus perpetual non-broadcast, across the :45 and its two cutdowns — $X").
+3. **Rescoped** — one figure for what we believe the real need is ("rescoped to US
+   national for one year with non-broadcast capped — $Y"). A smaller package, fewer
+   rights, not a discount on the same rights.
+4. The either/or, in a sentence: "If the campaign is genuinely worldwide/perpetual,
+   the rate is $X; rescoped to national, one year, it's $Y."
+5. Close: "Within your budget of $\<exact figure\>, I can deliver \<the scope/subset
+   that actually fits\>; \<what's excluded\> would be added on top."
+
+Two short paragraphs is the target. Three tiers — as-briefed, rescoped,
+within-budget — give a path to booking without underselling.
+
+**RULE 0:** the grid cells are 🟡 GVAA-derived — say so if pushed. Anything the job
+post didn't state (client name, real brand, US-vs-worldwide intent) is a `[bracket]`
+or a flag, never asserted as fact. Every quote ends with the verification footer
+(`— Verified / — Bracketed / — Unknown`). Never invent a rate or a multiplier that
+isn't in the grid — bracket it and tell Spencer to pull the live GVAA figure.
 
 ## Flag checklist (⚑ line — only the ones that apply)
 

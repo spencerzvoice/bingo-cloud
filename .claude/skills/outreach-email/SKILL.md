@@ -141,6 +141,18 @@ something he isn't. Plain words, contractions, short paragraphs.
   2–3 weeks if mid-conversation on a live project or recent quote; 4–8 weeks for
   a pure check-in with no open thread; 6+ months = treat as a soft reconnect.
 
+### Send-date check (do this before handing over OR scheduling — [[outreach-send-timing]])
+
+Never send to US agencies/brands on a **US federal holiday**, the business day
+**before or after** one, or **Friday afternoon ET**. Best window: Tue–Thu
+mid-morning recipient-local. Non-US recipients (e.g. Untold Studios = London)
+follow their own calendar. If the natural send date is bad, say so and give the
+next good date. US holidays: New Year's · MLK (3rd Mon Jan) · Presidents' (3rd Mon
+Feb) · Memorial (last Mon May) · Juneteenth · July 4 · Labor Day (1st Mon Sep) ·
+Columbus/Indigenous Peoples' (2nd Mon Oct) · Veterans (Nov 11) · Thanksgiving
+(4th Thu Nov) + Fri after · Christmas. Slow zone: last 2 weeks of December.
+(Missed Labor Day 2026-09-07 — a 12-email batch went out into holiday inboxes.)
+
 ## Step 6 — Hand it over
 
 0. **Verification footer (RULE 0 — required).** Before the draft, list every factual
@@ -159,7 +171,11 @@ something he isn't. Plain words, contractions, short paragraphs.
 3. One line: why this angle, whether it's a new email or a thread reply, and what
    a good reply looks like.
 4. The reminder: **Spencer reviews and sends it himself.**
-5. Offer to draft the follow-up now and note the cadence date.
+5. Offer to draft the follow-up now and note the cadence date — run the Step 5
+   send-date check on that date before naming it.
+6. **Send-date sanity line:** state whether *today* (or the intended send day) is a
+   clean day to send per the Step 5 check. If it isn't, say so plainly before
+   Spencer sends.
 
 ## Step 7 — Log it
 

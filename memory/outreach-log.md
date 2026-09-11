@@ -2,6 +2,29 @@
 
 One entry per email. Update "Result" when a reply lands.
 
+## 2026-09-07 — First-follow-up + lighter-touch batch (6) — follow-up [DRAFTED in Gmail, NOT sent]
+Same evening, after the 12 went out. Bingo drafted 6 as thread replies; awaiting Spencer.
+- **First follow-up (cold, 12–14d):** Josephine Gallagher + Nancy Loud (Untold), Laysa Martins (Ogilvy — the Luis redirect), Krista Hansen (GMR — kept low-key, acknowledges she may still be OOO). Short, warm, custom-audition offer. "warm bass/baritone read" descriptor (no "American").
+- **Lighter touch (do-now):** Sam Walsh (Team One — "welcome back" re-touch after his 2nd OOO; Spencer had planned this for ~Sept 5), Nathan Mallon (The Team — 7d on the verified-address pitch, on the early side).
+- **NOT drafted — flagged to Spencer as against his own cadence rules:**
+  - **Dan Haas, Craig, Jeff Fine, Deb** — all "it's been a while" WARM reconnects sent Aug 26 (the 729-day-overdue cohort). `reference/outreach-pipeline.md` is explicit: warm/no-thread = **4-week cadence, do NOT nudge before ~Sept 22**, and bring something new when you do. A 12-day chase reads needy on a warm past client. The Sept 7 digest flagged them "overdue" on date-only logic — the routine's flag, not the right call. **Hold to ~Sept 22.**
+  - **Dan Shaw (Noah Media)** — "checking in after the Preview Series" pure check-in sent Aug 31, warm recurring client, only 7d. Cadence for a warm check-in with no open thread = 4–8 weeks. **Hold to ~late Sept**, then reconnect with something concrete (a new credit / the reel).
+- Result:
+
+## 2026-09-07 — Agency 3rd-touch batch (12) — follow-up [SENT ~19:40–19:56 Lisbon]
+- Bingo drafted 12 as thread replies; Spencer personalized openers/sign-offs and sent all 12 himself same evening.
+- His edits: varied openers ("just dropping in / popping in / tapping in one more time"), varied closes ("Best to you!", "Best!"). Settled on descriptor **"warm bass/baritone male voice"** for most. Stacy got "a mid-30s, warm, bass/baritone male voice". Free custom-read offer kept in all 12.
+- **Two slips (sent):** "American male voice" still went out to **Mark Van Duinen + Didi Fraioli** (both Cheil, US agency — the exact thing Spencer had just said to cut for US clients; Bingo's fix didn't land before send). **Melissa Parsons (Octagon):** typo "use an warm bass/baritone male voice". Both minor, left as-is (a correction email would be worse than the error).
+- Tone note for next batch: consistently soft — "just popping in," "feel free to," "no pressure," "I'll leave it there" across all 12 + free work offered. Fine for a 3rd touch but near-zero value assertion. Dial confidence up next round.
+- Final touch on the cold agency contacts flagged "2nd follow-up, NEW HOOK only" in the Sept 7 digest. Initial ~Jul 29–Aug 6, 1st follow-up Aug 24, no reply to either.
+- **Contacts (all thread replies, business Gmail):** Cheil — Mark Van Duinen, Didi Fraioli, Tim Eger · Untold — Luke Colson, Chelsea Kammeyer · Laundry Service — Stacy Robnett, Abbey Garbarino · Anomaly — Erika Madison, Michelle Price · Team One — Melanie Saitta · Octagon — Melissa Dunlop Parsons · iFIT — Michael Hamblin (warm past client, not cold).
+- **New angle (NOT a news hook — none verified; RULE 0):** concrete zero-friction offer — "send a script or a link to something on your slate and I'll record a full custom read within 24h, free, no obligation." Materially different from the prior two "keep me in mind" touches. Each email varied by recipient (their role / the specific thing named in Spencer's original email); short, 4–5 sentences; soft "I'll leave it here / check back later in the year" close = signals this is the last touch before an October revisit.
+- **Calgary Flames :30** (delivered Sept 7, still with client's reviewer, Voices.com-origin) deliberately left OUT of all drafts — flagged to Spencer as the one genuine fresh credit he could add himself to the sports-adjacent ones (Cheil/Untold/Octagon/Anomaly) if he's comfortable citing it (he cites FootJoy, same origin).
+- **Flagged to Spencer:** offering free custom reads to 12 contacts = a lot of spec work; it's a legit agency door-opener (cf. Rhymesayers free audition) but he may prefer offering a standard demo instead. His call before sending.
+- Draft IDs live in Gmail (thread replies, subjects unchanged). Spencer reviews + sends each himself.
+- Follow up on: no further touches — October revisit if silent (matches Sascha/Tanya/Sean).
+- Result:
+
 ## 2026-09-02 — Miro (Drew Jaz) — LinkedIn connection accepted
 - Head of Creative at Miro, above Samuel Rollier + Antoine Levi. Accepted Spencer's connection Sept 2.
 - **DO NOT pitch VO.** He led Miro's Jan 2026 AI brand campaign (AI characters that move + speak). Pitching a human voice = anti-AI / no-homework signal. Value is a warm back-channel only.
