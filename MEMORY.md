@@ -128,6 +128,7 @@ Business-relevant carry-overs:
 - No Google Contacts tool — contact info comes from Gmail search.
 - HubSpot connector available, not connected.
 - The daily tracker routine has its **own cloud memory** (`/areas/vo-business-operations.md`, `/people/*`) separate from this workspace — see [[bingo-setup]]. Not yet reconciled.
+- **Gmail connector rule (Spencer, 2026-09-11 — hard rule):** always use **FGAC** (`mcp__FGAC_ai__*`) for every Gmail action — reading, drafting, sending — never the separate "Gmail" MCP connector (`mcp__Gmail__*`). That connector authenticates as his **personal** spencerzpearman@gmail.com, not spencer@spencerzvoice.com, and using it misdirects VO business drafts/sends to the wrong mailbox (caught 2026-09-11 before anything was actually sent). FGAC is scoped correctly to the business account — see `list_accounts`.
 
 ---
 
