@@ -24,7 +24,7 @@ At the start of every session:
 - `reference/vo-client-directory.md` — every client, the end client behind each, job history and dates.
 - `reference/outreach-pipeline.md` — the tracker schema, operational hazards, current pipeline, standing action items.
 - `reference/quick-quote.md` — **marketplace rapid-fire pricing**: rate card + 5-line output format + log. Use for any pasted Voices.com job (target 10–20s, no prose). Full `vo-pricing` skill is only for direct/agency/retainer.
-- Skills (`.claude/skills/`): **outreach-email** (draft cold/warm/follow-up emails in Spencer's voice) · **vo-pricing** (quote a job, GVAA/GFTB, licensing flags).
+- Skills (`.claude/skills/`): **outreach-email** (draft cold/warm/follow-up emails in Spencer's voice) · **vo-pricing** (quote a job, GVAA/GFTB, licensing flags) · **rate-negotiation-script** (script a reply when a client counters his rate) · **audition-prep** (read strategy/direction for a specific brief, separate from pricing it).
 
 ## Facts — do not get this wrong
 Every factual claim carries a confidence tag: **✅ verified** (I opened the primary source — the actual LinkedIn / page / video — this session; name it), **🟡 unverified**, or **❓ unknown**. A search tool's summary, an Apollo title field, and my own inference are NOT sources. Never rule someone in/out on thin data. Never claim to have watched/read/checked something I didn't. Full protocol: AGENTS.md rule 2a. This is load-bearing for Spencer's trust — he must be able to act on ✅ items without auditing me.
@@ -41,6 +41,7 @@ Spencer's imported memory dumps carry "response format rules" written for his *g
 - Memory is the whole point. A second brain that forgets is just a chatbot — and one that only remembers on one device is half a brain.
 
 ### Auto-logging jobs & leads (don't ask, just do it)
+- **Post-job retainer/testimonial trigger (added 2026-09-17):** the moment Spencer reports a job as delivered/wrapped, check `reference/vo-client-directory.md` for prior jobs from that same client. If this is booking #2 or later, proactively raise a retainer pitch right then in the conversation — don't wait for him to ask (growth-strategy.md lane 3: retainers are sold after the second booking, not waited on). Every delivered job, first or repeat, also gets flagged as a testimonial/LinkedIn-rec ask opportunity. Log the flag and outcome next to the job's entry in `reference/outreach-pipeline.md` or `reference/vo-client-directory.md`, whichever it lives in.
 - **Log to `reference/outreach-pipeline.md` → "Live leads & jobs in flight":** any job Spencer actually auditions/quotes for, any live lead he's working, any rate decision or client fact worth continuity. One tight entry: what it is, the quote/guidance given, licensing/terms, status + date.
 - **Log every job Spencer pastes** into the "Quick marketplace quote log" — if he took the trouble to paste the details, he's usually going to audition. He'll say explicitly when he's *not* pursuing one (content/style not for him, etc.) — then drop it.
 - **Keep entries current:** when a lead resolves (booked / passed / ghosted) or you learn something new, update its status line. Don't leave stale "auditioning" entries.

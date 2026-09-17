@@ -94,3 +94,5 @@ workspace. Backstop, not the main line of defence — it can't see plain-text an
 - Built so far:
   - **outreach-email** — draft a cold, warm re-engagement, or follow-up client email in Spencer's voice; logs it; never sends.
   - **vo-pricing** — quote and analyse a VO job: fair-market rate (GVAA/GFTB), budget assessment, licensing/scope flags.
+  - **rate-negotiation-script** (added 2026-09-17) — build a talking-points script when a client counters his rate or pushes scope creep; never sends, hands Spencer the lines.
+  - **audition-prep** (added 2026-09-17) — read strategy/direction for a specific brief (tone, pacing, the trap to avoid); kept separate from pricing.

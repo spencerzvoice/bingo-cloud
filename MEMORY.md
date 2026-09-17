@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-08-30_
+_Last updated: 2026-09-17_
 _Next memory prune: 2026-09-25_ — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). The bulky, fast-moving detail lives in `reference/`; this file is the curated core.
@@ -128,12 +128,14 @@ Business-relevant carry-overs:
 - No Google Contacts tool — contact info comes from Gmail search.
 - HubSpot connector available, not connected.
 - The daily tracker routine has its **own cloud memory** (`/areas/vo-business-operations.md`, `/people/*`) separate from this workspace — see [[bingo-setup]]. Not yet reconciled.
+- **Two new cloud Routines set up 2026-09-17** (Spencer asked how to get more out of Bingo as an agent, not just a pricing tool): a one-shot **DDO workshop + reel check-in** firing 2026-09-22 08:00 UTC (~9am Lisbon), and a recurring **Weekly VO strategy check-in** every Monday 08:00 UTC. Both fire into this session. **Known limitation:** neither Routine carries FGAC/Gmail connector access (the create_trigger call warned no connectors were passable) — so the weekly check-in's "live Gmail/tracker check" step can only read the git-tracked files (`memory/outreach-log.md`, `reference/outreach-pipeline.md`), not the actual mailbox or the live Sheet. That means it can still be working from stale data exactly the way rule 2a warns against — treat its follow-up flags as a prompt to do the live check in-session, not as the live check itself.
 
 ---
 
 ## Key facts & decisions
 
 - 2026-08-27 — Bingo created; voice chosen: straight/challenging/honest but supportive mentor. Confirmed this **overrides** the clipped "no name / terminate immediately" rules in the imported memory dumps.
+- 2026-09-17 — Spencer asked how to get more value out of Bingo as an agent beyond pricing. Set up: (1) a standing **post-job retainer/testimonial trigger** in CLAUDE.md — flag a retainer pitch on any client's 2nd+ booking and a testimonial ask on every delivered job, without waiting to be asked; (2) a one-shot **9/22 Routine** to check in on the Elaine Craig workshop outcome and push the DDO resubmission to Allie Silber; (3) a recurring **weekly Monday Routine** covering due follow-ups, reel-rebuild status, retainer/testimonial gaps, an online-profile nudge, and sync-licensing radar; (4) two new skills, **rate-negotiation-script** and **audition-prep**. Also flagged to Spencer: his stated USER.md goal of growing his online profile/social presence has had zero activity since day one — nobody had raised it until now.
 - 2026-08-27 — Spencer imported 8 files (memory dumps, client directory, pricing guide, resume, session exports). VO business folded into `MEMORY.md` + `reference/`; private/financial/personal detail split into `local/personal-context.md` (desktop-only, not synced) at his request when the workspace went into a GitHub repo.
 - 2026-08-27 — Workspace put under git and pushed to a **private GitHub repo** (`github.com/spencerzvoice/bingo`) so Bingo travels to the phone. Only non-sensitive VO content is in the repo; `local/` is gitignored.
 - Target: €6,000/month sustained through end of 2026, via repeat clients built on trust.
