@@ -137,10 +137,19 @@ prose:
 3. **Rescoped** — one figure for what we believe the real need is ("rescoped to US
    national for one year with non-broadcast capped — $Y"). A smaller package, fewer
    rights, not a discount on the same rights.
+   **Hard rule (Spencer, 2026-09-15): any grant briefed as Worldwide is ALWAYS
+   explicitly downsized in the rescoped tier — to National or Regional, whichever
+   fits the brief — every time, no exceptions. Never let "worldwide" survive
+   unaddressed into the rescoped figure or the within-budget close. If a job stacks
+   multiple media (online/radio/TV), rescope the worldwide one down to match whatever
+   territory the other media are already at, unless there's a clear reason to pick
+   otherwise — say which and why.**
 4. The either/or, in a sentence: "If the campaign is genuinely worldwide/perpetual,
    the rate is $X; rescoped to national, one year, it's $Y."
 5. Close: "Within your budget of $\<exact figure\>, I can deliver \<the scope/subset
-   that actually fits\>; \<what's excluded\> would be added on top."
+   that actually fits\>; \<what's excluded\> would be added on top." Name the exact
+   scope (territory + term) on both sides of that sentence — never leave it ambiguous
+   which rate a follow-on grant would cost.
 
 Two short paragraphs is the target. Three tiers — as-briefed, rescoped,
 within-budget — give a path to booking without underselling.
