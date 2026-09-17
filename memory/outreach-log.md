@@ -63,9 +63,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Ask: be the regular/go-to voice for their videos
 - Reel linked: TWO custom samples of their own videos — (1) Webflow MCP 2.0 product video, voiced to their music; (2) "Migrate Your CMS with Webflow MCP" tutorial. Spencer uploading to Drive. + spencerzvoice.com. Credits highlighted: AWS rollouts, Artlist, Venmo, Dell (FIFA dropped — tech audience)
 - New email or thread reply: new email
-- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91).
-- Follow up on: ~2026-09-10 if no reply (10 days) — new angle/proof, not "just bumping"
-- Result:
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91). **Bump sent 2026-09-11** ("Just wanted to bump this back up..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
 
 ## 2026-08-31 — Noah Media (Dan Shaw + Neil Housley) — warm reconnect [DRAFTED]
 - Contacts: Dan Shaw (dan.shaw@noahmediagroup.com), Neil Housley (neil.housley@noahmediagroup.com) — both producers on the FIFA WC 2026 Preview Series, last contact 06/10/2026. Spencer thinks they were contract and have moved on from Noah Media.
@@ -102,8 +102,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Ask: audition for open work; get on the talent roster
 - Reel linked: commercial reel + character reel (both attached). Sent-version note: Spencer framed animation as "wanting to expand more into animation" (honest — not established there yet). Credits: Venmo, NordicTrack, Workday (commercial) + YouTube channels (narration).
 - New email or thread reply: new email. Tracker row 95.
-- Follow up on: ~2026-09-10 if no reply (7–10 days)
-- Result:
+- Status: **follow-up sent 2026-09-02** — only got the CTC after-hours auto-reply back, no human response as of 2026-09-17 (live Gmail check).
+- Follow up on: one light final touch if worth closing the loop, otherwise let it go cold — never got past the auto-responder.
+- Result: no reply yet
 
 ## 2026-08-30 — Notion (Cory Zapatka) — cold
 - Contact: Cory Zapatka, Video Lead (Emmy winner, ex-Vox/Verge Science), coryz@makenotion.com
@@ -111,9 +112,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Ask: be one of the outside voices Notion uses
 - Reel linked: TWO samples — (1) re-voice of "AI Can't Replace Teamwork" spot; (2) a Notion product-update video that had NO narration — Spencer wrote the script + voiced it. + spencerzvoice.com. Credits: FIFA/Noah Media doc series (KEPT — relevant to Cory's documentary background), Venmo, AWS, Dell
 - New email or thread reply: new email
-- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91).
-- Follow up on: ~2026-09-10 if no reply (10 days) — new angle/proof, not "just bumping"
-- Result:
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91). **Bump sent 2026-09-11** ("Wanted to float this back up..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
 
 ## 2026-08-31 — Framer (Andy Orsow) — cold
 - Contact: Andy Orsow, "Video Marketer @ Framer", andy@framer.com
@@ -121,9 +122,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Ask: be the regular voice for their videos
 - Reel linked: TWO samples of their own videos — (1) re-voice of "Framer Agents: Design with AI, Keep Control" spot; (2) "Framer Update: Interactive Shaders" piece. + spencerzvoice.com. Credits: AWS rollouts, Artlist, Venmo, Dell (no FIFA — tech audience)
 - New email or thread reply: new email
-- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer's own revised copy). Tracker rows 92 (Andy), 93 (Ari), 94 (Samuel).
-- Follow up on: ~2026-09-11 if no reply
-- Result:
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer's own revised copy). Tracker rows 92 (Andy), 93 (Ari), 94 (Samuel). **Bump sent 2026-09-11** ("Just circling back..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
 
 ## 2026-08-31 — Linear (Ari Mojdeh) — cold
 - Contact: Ari Mojdeh (she), "Creative & Filmmaking @ Linear", ari@linear.app. (Julian Lehr = fallback, ~2 weeks later.)
@@ -131,9 +132,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Ask: try a voice on one of their product updates
 - Reel linked: TWO samples — (1) re-voice of "Automate Triage" product update; (2) a 17-sec coding-environment update that had no VO — Spencer wrote script + voiced. + spencerzvoice.com. Credits: AWS rollouts, Artlist, Venmo, Dell (no FIFA)
 - New email or thread reply: new email
-- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer's own revised copy). Tracker rows 92 (Andy), 93 (Ari), 94 (Samuel).
-- Follow up on: ~2026-09-11 if no reply
-- Result:
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer's own revised copy). Tracker rows 92 (Andy), 93 (Ari), 94 (Samuel). **Bump sent 2026-09-11** ("Wanted to check back in..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
 
 ## 2026-08-31 — Miro (Samuel Rollier) — cold
 - Contact: Samuel Rollier, Sr. Brand Producer, samuel@miro.com. (Antoine Levi antoine@miro.com = retainer play, later.)
@@ -141,9 +142,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Ask: be the go-to for pieces that use a real voice
 - Reel linked: ONE sample — re-voice of "Miro for Product Acceleration" (currently a weak AI voice). + spencerzvoice.com. Credits: AWS rollouts, Artlist, Venmo, Dell
 - New email or thread reply: new email
-- Status: draft in Bingo — Spencer recording sample, sending later 2026-08-31
-- Follow up on: ~2026-09-11 if no reply
-- Result:
+- Status: SENT 2026-08-31 (confirmed via live Gmail — the "draft, sending later" note was stale). **Bump sent 2026-09-11** ("Just wanted to bump this back up..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
 
 ## 2026-08-30 — Figma (Sydney Halle) — cold
 - Contact: Sydney Halle, Brand Producer (ex-Instrument), shalle@figma.com
@@ -151,6 +152,6 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Ask: be the consistent voice for their videos
 - Reel linked: TWO samples of their own videos — (1) re-voice of "Figma Motion basics: Path trim" tutorial (orig. likely an employee read); (2) "Introducing Figma Make" no-VO spot — Spencer wrote script + voiced. + spencerzvoice.com. Credits: AWS rollouts, Artlist, Venmo, Dell (no FIFA — design/brand audience)
 - New email or thread reply: new email
-- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91).
-- Follow up on: ~2026-09-10 if no reply (10 days) — new angle/proof, not "just bumping"
-- Result:
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91). **Bump sent 2026-09-11** ("Just wanted to check back in..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
