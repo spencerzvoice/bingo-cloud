@@ -192,3 +192,4 @@ Grid is GVAA Rate Guide mid-points (national :30 online $2,950 · regional $1,65
 | 08-28 | Medicaid VA changes | animation/explainer 206w/~1m22 | non-bcast in-perp | $100–249 | $325 | $250 | repeat client (Meg Easterbrook); priced, not confirmed |
 | 08-31 | Delta Force (game) | promo narration 300w/2:00 | Online Ad + non-bcast, WW, in-perp | $500 | $3,500 | $2,500 | flagged — pass or quote straight (Avery trap) |
 | 08-31 | Online Ad WW (unnamed) | online ad 225w/1:30 | Online Ad WW 13wk + non-bcast in-perp | $250 | ~$5,200 (WW 13wk 1:00-2:00 $4,425 + non-bcast in-perp $800) or pass | $3,000 | flagged — Avery trap, 30 responses in |
+| 09-18 | Apps 2.0 Base44 | Online Ad :50 125w (:31–:60 col) | Online WW 1yr + TV Natl 1yr + non-bcast in-perp | $1,500–1,749 | $16,950 as briefed / $7,950 rescoped (Natl) / $1,410 online-only Natl 13wk | $6,500 | counter — stacked WW+TV grants on ~$1.5k
