@@ -40,6 +40,14 @@ The live CRM for Spencer's outreach. **The Google Sheet is ground truth** — Sp
 
 _Auto-logged (see the memory protocol in CLAUDE.md). Keep status lines current; condense/prune resolved + cold entries on the schedule in MEMORY.md._
 
+### Laundry Design → Adobe Creative Cloud — 2×:15 spots (direct agency job) — logged 2026-09-19
+- **Contact:** Lucas Bertoli is on paternity leave (per the client's own email); a colleague is covering — name ❓ not captured. Lucas is in the Old Client Reconnect list above (Laundry Design).
+- **Brief (from the client's email, scripts not received by Bingo):** 2×:15 to showcase Adobe products · record "Friday", ≤2 hrs (expected much shorter), done before 1p PT · Source Connect asked (Spencer has it) · **$2,000 total** · want "as long as possible," at least **1 yr national, "digital and terrestrial radio"** (Bingo's reading: digital + terrestrial *radio* → GVAA Value Menu bundle; 🟡 confirm "digital" ≠ online video).
+- **Pricing (✅ live GVAA guide 2026-09-19):** Radio Terrestrial+Digital bundle, National 1 yr = $2,500–3,250 per spot → **$5,000–6,500 for 2; quote $6,500** (major brand, tech = Tier 1 exclusivity category if they ask for it: 3–5×). Session included. If spot 2 is a lift/version of spot 1: guide says discount the lift 25–50% → $4,875–5,688 total (🟡 scripts unseen). *Old grid had said $9,100 — retired.*
+- **What $2,000 buys (2 spots):** National both channels **1 month = $1,600–2,000** (fits at the top) · National 3 months $2,500–3,000 · Regional both channels 3 months $1,000–1,800 · Regional 1 yr $2,500–4,500 (low end is $500 over).
+- **Recommended counter:** as-briefed $6,500; $2,000 = national 1 month; **$2,500 = national 3 months** (ask them to find the $500); floor $2,000. Renewal path: +40–50%/yr national.
+- **Status:** ❓ unknown whether the reply went out or the session happened — "Friday" was 2026-09-18 and has passed. Ask Spencer.
+
 ### CrowdReply — first Lane 1 (direct-to-brand) opportunity
 - **Contact:** Jim Loining ("Jim L"), **co-founder**, 20s. Met in person 2026-08-28 (padel). Also runs a separate side project, BambooVPN.
 - **Company:** CrowdReply (crowdreply.io) — AI-search-visibility / GEO-AEO platform (get your brand cited by ChatGPT, Perplexity, Gemini, Claude) + Reddit/social listening + backlinks marketplace. Founded Feb 1 2025 by Jim Loining + Dawood Khan. Seed-stage, NZ-linked (Icehouse Ventures), content-marketing-heavy — claims "5,000+ brands" (marketing figure, ~18-month-old company).

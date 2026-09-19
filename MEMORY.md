@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-08-30_
+_Last updated: 2026-09-19_
 _Next memory prune: 2026-09-25_ — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). The bulky, fast-moving detail lives in `reference/`; this file is the curated core.
@@ -139,6 +139,8 @@ Business-relevant carry-overs:
 - Target: €6,000/month sustained through end of 2026, via repeat clients built on trust.
 - DDO representation gated on the Sept 19 Elaine Craig workshop.
 - Pricing is now the `vo-pricing` skill; outreach is the `outreach-email` skill.
+- **2026-09-19 — GVAA rate card rebuilt from the live guide** (globalvoiceacademy.com/gvaa-rate-guide-2/, Spencer logged in, Bingo read it in full). New guide = ranges per spot, terms 1 mo/3 mo/1 yr, **Value Menu combo bundles** (~15–25% off), OTT/CTV under Digital Visual, no length tiers / Worldwide / in-perp ad rates. Old grid (WW column, length multipliers, $2,950 national :30 etc.) **retired** — it ran high (Adobe job: $9,100 old → $6,500 new). Updated: `reference/quick-quote.md`, `vo-pricing` skill, the subagent `~/.claude/agents/bingo.md`. Old log rows (≤09-18) were priced on the retired grid — re-price any live one. Third-party "GVAA 2026 update" search results are unsourced junk; don't use. **Open for Spencer:** keep/retire the :15 = 75% rule; cutdown convention (old 25–50% *of* parent vs guide "discount lift 25–50%").
+- **2026-09-19 — Property/CPCV/downpayment is now handled by Paige (Spencer's personal-assistant agent); Bingo stays in the VO lane** and stops raising it.
 
 ---
 

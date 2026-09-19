@@ -68,18 +68,14 @@ Quote fair market **first**, using GVAA (USD) or GFTB (EUR). Never anchor to the
 
 ## GVAA reference (USD)
 
-**Digital / Online Ad (per :30)**
-- National 12-month: $2,700–$3,200 · Worldwide: 3× national ($8,100–$9,600) · Regional 12-month: $1,500–$1,800
-- In-perp: 2× the 12-month · 2-year: 1.5× · 13-week: 25% · 6-month: 60%
+**The full, current USD card lives in `reference/quick-quote.md` — rebuilt 2026-09-19 from the live GVAA Rate Guide (globalvoiceacademy.com/gvaa-rate-guide-2/, ✅ read in full that day). Use it; do not quote from any older figures.** Summary of how the current guide is built:
 
-**TV Broadcast (per :30)** — National 12-mo $1,800–$2,500 · Regional $1,500–$1,800 · Local $1,200–$1,500
-**Radio Broadcast (per :30)** — National 12-mo $1,500–$1,700 · Regional $600–$800 · Local $400–$600
-
-**Spot-length multipliers (locked — no "≈"):** :00–:30 = 1× · :31–:60 = 1.5× · :61–2:00 = 2× · over 2:00 (promo/explainer) = 2.5× · :15 = 75% · :06 = 30% · :02–:05 tag = 20%. Rates are PER SPOT; cutdowns/versions licensed separately.
-
-**Non-Broadcast / Corporate Narration** — ≤1 min $250–$350 · ≤2 min $300–$500 · ≤5 min $450–$700 · ≤10 min $550–$800 · ≤20 min $750–$1,000 · ≤30 min $900–$1,200
-**eLearning** — $0.25/word standard, $0.35/word technical
-**Audiobooks** — $150–$400 PFH (~9,000 words/finished hour)
+- Rates are **ranges per single spot**, terms **1 month / 3 months / 1 year** (6-mo = 2× the 3-mo). Local = one city · Regional = ≤4 states or one large market · National = nationwide. Low end = smaller brands, **high end = major brands**.
+- **Radio:** National 1-yr single channel $1,500–2,500; **Terrestrial + Digital "Value Menu" bundle** National 1-yr $2,500–3,250 (Local–Regional $1,250–2,250). Session included ($250–350/60–90 min).
+- **TV:** National 1-yr $4,000–8,000 · Local–Regional $1,250–2,250. **OTT/CTV is Digital Visual, not TV:** 1-yr $4,000–6,000. Pre-roll 1-yr $2,250–3,000 · Paid Social 1-yr $1,000–1,500. Session $500/2 hr, +$250/hr.
+- **Value Menu** = combo packages at ~15–25% off the sum of the channels (Radio T+D; Digital Visual + TV). Use the bundle cell, not two stacked channels.
+- **Non-broadcast / corporate narration** by finished runtime: 1–2 min $350–450 · 3–5 $450–550 · 5–10 $600–700 · 10–15 $700–800 · 15–20 $800–950 · PFM $33–40 over 20 min. Corporate training PFM $90–100. eLearning $0.25–0.50/word.
+- The guide has **no length multipliers, no Worldwide category, and no in-perp ad/broadcast rates.** The old "locked" length rule (:31–:60 = 1.5×, :15 = 75%…) and "Worldwide = 3× national" are **not in the guide** — treat as retired house habits (🟡); bracket anything that depends on them.
 
 ## GFTB reference (EUR) — VoiceArchive rates
 
@@ -98,9 +94,9 @@ Quote fair market **first**, using GVAA (USD) or GFTB (EUR). Never anchor to the
 ## Licensing & scope flags — detail
 
 - **Geographic:** Worldwide justified only for genuinely global brands (Wix, EMAAR, FIFA, Manscaped, Royal Caribbean). Overreach = local businesses, regional chains, state universities, single-state services. When correcting, show worldwide fair market AND the corrected-scope rate.
-- **In-perpetuity broadcast:** GVAA doesn't publish in-perp broadcast rates (discourages the practice). Use 2× the 12-month. Flag every time. Low-risk exceptions: local businesses, nonprofits, hospital radio.
+- **In-perpetuity broadcast:** GVAA doesn't publish in-perp ad/broadcast rates (only the non-paid-web 5-year rate for perpetual owned-channel use). Bracket it as custom — the old "2× the 12-month" was a house habit, unverified against the current guide. Flag every time. Low-risk exceptions: local businesses, nonprofits, hospital radio.
 - **Soft exclusivity / category conflict:** flag any in-perp or long-term broadcast deal that closes a competitive category. High-risk: financial services (US Bank, Freddie Mac), gaming (Nintendo, Xbox), beverages (Sprite/NBA), streaming/telecom (DIRECTV).
-- **CTV/OTT:** broadcast-equivalent, not digital — apply TV broadcast rates regardless of how the client labels it.
+- **CTV/OTT:** the current guide prices it under Digital Visual (1-yr $4,000–6,000, includes pre-roll + social) and offers an OTT/CTV + TV bundle in the Value Menu — use those cells, not plain TV rates.
 - **Unlimited lifts/versions:** always flag; must be pinned to a specific version count before signing. Seen on NBA/Sprite, Labcorp, Starbucks, DIRECTV.
 - **AI / synthetic voice:** "new media now known or hereafter created" + unlimited versions = AI exposure. Flag every time. Client cannot use recordings for synthetic-voice generation, AI training, or third-party redistribution.
 
