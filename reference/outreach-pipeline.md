@@ -40,6 +40,13 @@ The live CRM for Spencer's outreach. **The Google Sheet is ground truth** — Sp
 
 _Auto-logged (see the memory protocol in CLAUDE.md). Keep status lines current; condense/prune resolved + cold entries on the schedule in MEMORY.md._
 
+### IMG / EuroLeague — "Preview of the Season 26/27" (POTS) — ✅ read from live Gmail 2026-09-19
+- **Status:** VO delivered 9/18 (2 reads). **€2,500 invoice** sent to Chloe Hubbard (IMG finance); she confirmed 9/18 it's processed Monday 9/21 on **7-day terms** → payment due ~9/28. Do not touch the invoice.
+- **Pickup request 9/19 (Adrian Ross, cc Ian Henderson):** (1) new line "And In Kaunas, another great was returning to his roots" + alternate "And Zeljko wasn't the only one to return to his roots"; (2) re-read of the Sekulic line with SECK-OO-LITCH. Guide audio "Extras for Spencer.m4a" attached — Bingo has NOT listened.
+- **Decision (Bingo advice):** Sekulic re-read = free (pronunciation, covered by Spencer's stated terms). New line/alt = technically chargeable script addition, but ~12 words on an already-low €2,500 → do free **as an explicit one-time courtesy**; further script additions get a pickup fee. Send as a separate pickup file, reply cc Ian + Chloe. Spencer has not confirmed sending yet.
+- **Unknown:** whether "In Kaunas" was in the original script.
+- **Data point:** history quoted £10K → countered $3,750 → £5,000 (passed then); landed €2,500 here. Relationship value (Ian, Jamie, Chloe) > this rate; push rate up next time.
+
 ### Laundry → Adobe Creative Cloud — 2×:15 (came from Spencer's outreach) — ✅ read from live Gmail 2026-09-19
 - **Thread "VO Audition"**, started 2026-09-16: **Gabriel Gerard**, production coordinator (gabriel.gerard@laundry.studio); producer **Ben Rejzer** cc'd (ben.rejzer@laundry.studio). NDA signed + returned 9/16. Scripts PDF "CC Value Phase 3 — YT Audio scripts_9.15.2026.pdf" — Bingo has NOT read it. Lucas Bertoli (Laundry Design) is not in this thread; his paternity leave (back Nov 20) came from his OOO auto-reply on the Sep 11 check-in, which redirected to production@laundry.studio (per tracker).
 - **Brief:** 2×:15 · "record Friday" (9/18), ≤2 hr, done before 1p PT · budget **$2k** · they wanted ≥1 yr national digital + terrestrial radio · creative brief: natural/conversational, avoid robotic/AI-sounding, music bed.
