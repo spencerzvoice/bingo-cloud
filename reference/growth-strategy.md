@@ -86,6 +86,14 @@ Angle by contact type: **Tier 1 leadership** → "consistent voice across your s
 
 ---
 
+### What the work is, per funnel (Bingo's 2026-08-30 breakdown — 🟡 UNVERIFIED: general knowledge of each company's content, no channel opened; check a company's actual videos before pitching a specific angle)
+
+- **A — design-led SaaS:** product-launch films (big set-pieces, ~quarterly), 30–90s feature explainers (monthly→biweekly), occasional brand films, social cutdowns. You'd voice launch films + explainers. Retainer shape: "voice of every feature video + launch films" — lower volume, higher rate per piece. ⚠️ Whether each company narrates at all is per-company (Framer does, Figma's Config recap doesn't) — see the sample section.
+- **B — SaaS with an in-house video team:** feature/product demos + explainers (~weekly), tutorial/how-to series, YouTube series (HubSpot Media = a full media op), onboarding, event sizzles, customer stories. Highest volume → best retainer ("in-house narrator", batched monthly, locked rate); lower per-video, high monthly total.
+- **C — e-learning platforms:** their *marketing* video only, not courses (instructor/staff-narrated): brand campaign films, platform/product tours, learner stories, enterprise sales video, social/YouTube. Campaign-driven, ~monthly→quarterly. "Preferred voice for the marketing team", not a locked retainer.
+- **D — corporate L&D software:** product demos/walkthroughs, webinar sizzles, thought-leadership video, case studies, top-of-funnel explainers; Articulate also makes demo courses (but see Articulate AI-TTS warning below). ~Monthly, product/campaign-driven.
+- **E — streaming/promo:** trailers, on-air promos, sizzles — distinct promo style, own demo, agent-gated. Parked.
+
 ### Funnel A — target table (updated 2026-08-30)
 
 **Confidence tags: ✅ = Spencer confirmed from LinkedIn, OR the person's own LinkedIn headline / their own website appeared verbatim in search results (named inline). 🟡 = only a third-party aggregator (ZoomInfo/TheOrg/RocketReach) or a synthesized summary. ❓ = not found / conflicting.**
