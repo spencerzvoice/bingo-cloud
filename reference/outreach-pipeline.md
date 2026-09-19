@@ -40,13 +40,15 @@ The live CRM for Spencer's outreach. **The Google Sheet is ground truth** — Sp
 
 _Auto-logged (see the memory protocol in CLAUDE.md). Keep status lines current; condense/prune resolved + cold entries on the schedule in MEMORY.md._
 
-### Laundry Design → Adobe Creative Cloud — 2×:15 spots (direct agency job) — logged 2026-09-19
-- **Contact:** Lucas Bertoli is on paternity leave (per the client's own email); a colleague is covering — name ❓ not captured. Lucas is in the Old Client Reconnect list above (Laundry Design).
-- **Brief (from the client's email, scripts not received by Bingo):** 2×:15 to showcase Adobe products · record "Friday", ≤2 hrs (expected much shorter), done before 1p PT · Source Connect asked (Spencer has it) · **$2,000 total** · want "as long as possible," at least **1 yr national, "digital and terrestrial radio"** (Bingo's reading: digital + terrestrial *radio* → GVAA Value Menu bundle; 🟡 confirm "digital" ≠ online video).
-- **Pricing (✅ live GVAA guide 2026-09-19):** Radio Terrestrial+Digital bundle, National 1 yr = $2,500–3,250 per spot → **$5,000–6,500 for 2; quote $6,500** (major brand, tech = Tier 1 exclusivity category if they ask for it: 3–5×). Session included. If spot 2 is a lift/version of spot 1: guide says discount the lift 25–50% → $4,875–5,688 total (🟡 scripts unseen). *Old grid had said $9,100 — retired.*
-- **What $2,000 buys (2 spots):** National both channels **1 month = $1,600–2,000** (fits at the top) · National 3 months $2,500–3,000 · Regional both channels 3 months $1,000–1,800 · Regional 1 yr $2,500–4,500 (low end is $500 over).
-- **Recommended counter:** as-briefed $6,500; $2,000 = national 1 month; **$2,500 = national 3 months** (ask them to find the $500); floor $2,000. Renewal path: +40–50%/yr national.
-- **Status:** ❓ unknown whether the reply went out or the session happened — "Friday" was 2026-09-18 and has passed. Ask Spencer.
+### Laundry → Adobe Creative Cloud — 2×:15 (came from Spencer's outreach) — ✅ read from live Gmail 2026-09-19
+- **Thread "VO Audition"**, started 2026-09-16: **Gabriel Gerard**, production coordinator (gabriel.gerard@laundry.studio); producer **Ben Rejzer** cc'd (ben.rejzer@laundry.studio). NDA signed + returned 9/16. Scripts PDF "CC Value Phase 3 — YT Audio scripts_9.15.2026.pdf" — Bingo has NOT read it. Lucas Bertoli does not appear in this thread (paternity-leave detail came from Spencer, not the email).
+- **Brief:** 2×:15 · "record Friday" (9/18), ≤2 hr, done before 1p PT · budget **$2k** · they wanted ≥1 yr national digital + terrestrial radio · creative brief: natural/conversational, avoid robotic/AI-sounding, music bed.
+- **Usage as clarified:** Spencer wrote "one-year national digital *paid media* plus one-year national radio"; Gabriel: "I believe that's correct" but deferred to Ben (unconfirmed by the producer). So "digital" may mean paid video/social, not digital radio — 🟡 unresolved ("YT Audio" in the script filename is a hint either way).
+- **Source Connect:** Spencer told them 9/16 he has NO active subscription but can get one for the session.
+- **Spencer's quotes (9/16):** $5,500–6,000 [sent as "$5500k-6k"] for the 2-hr live session + full usage; or **$2,200 for 3-mo regional digital + radio**. Sent 2 reads (2 takes each) 20:42 Lisbon. **Gabriel:** could "at most squeeze another 20%" (≈$2,400); "maybe that 3-month option could work"; will keep posted. Spencer: "Keep me posted."
+- **Status (as of 9/19):** silence since 9/16 evening; no booking confirmation; Friday 9/18 passed without one. Waiting on Laundry.
+- **Guide check (✅ GVAA, 2026-09-19):** if digital = digital *radio*: Radio T+D bundle, Natl 1 yr $2,500–3,250/spot → $5,000–6,500 for 2. If digital = paid video (pre-roll $2,250–3,000/1yr) + national radio ($1,500–2,500): $3,750–5,500/spot → $7,500–11,000 before the 15–25% bundle discount. Regional 3-mo radio bundle $500–900/spot (Spencer's $2,200 is above the guide's top); National 3-mo $1,250–1,500/spot ($2,500–3,000 for 2).
+- **Next:** at their ≈$2,400 ceiling — offer national 3-mo both channels at $2,500 (they're $100 short), or hold regional 3-mo at $2,200–2,400. Confirm what "digital" means with Ben before locking a number.
 
 ### CrowdReply — first Lane 1 (direct-to-brand) opportunity
 - **Contact:** Jim Loining ("Jim L"), **co-founder**, 20s. Met in person 2026-08-28 (padel). Also runs a separate side project, BambooVPN.

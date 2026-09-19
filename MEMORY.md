@@ -14,7 +14,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 
 - Business: **Nomadic Light LLC** (California single-member LLC). Business email **spencer@spencerzvoice.com** (all VO correspondence). Personal: spencerzpearman@gmail.com (kept separate — mostly Voices.com "job awarded" notices).
 - Website: spencerzvoice.com. Resume site: spencerzvoice.caard.co.
-- Treated home studio, **Source Connect** + **Pro Tools certified** (ProMedia Training, Sept 2025). 24h standard turnaround, same-day rush.
+- Treated home studio, **Source Connect** + **Pro Tools certified** (ProMedia Training, Sept 2025). 24h standard turnaround, same-day rush. **Source Connect: NO active subscription as of 2026-09-16** (Spencer told Laundry so in writing; can buy one per session) — never assert he has it live.
 - 12+ years audio engineering (Ableton 12+ yrs, Pro Tools, Audition, iZotope RX) across music, documentary, podcast, commercial VO. Also AI/TTS dataset work (micro1, Dec 2025–Jun 2026; VoiceOver LA TTS singing project 2023).
 - BS Mechanical Engineering, University of Miami, 2012.
 - Languages: English (native), Spanish (fluent), Portuguese (fluent) — studies European Portuguese grammar specifically.
