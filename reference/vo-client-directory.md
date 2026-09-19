@@ -13,7 +13,7 @@ Compiled from Spencer's memory exports (2026-08-27). The live outreach pipeline 
 | CGI Interactive Comm | Rebeccah Sheridan | rsheridan@cgiinteractive.com | Dell Technologies — DevOps/Kubernetes VOs (Job #592053, Jan 2023) |
 | Climb High Productions | Evan Kay | evan@climbhighproductions.com | OutThere (via Russell Branding). Phone 847-738-1717 |
 | Coronation Media | Ruthie Mason; Haley Rossi; christian@ | ruthie@coronationmedia.com; hrossi@coronationmedia.com | Mount St. Mary's University (MAAC Sports Spot, Job #575608, 2022); FED152 RTP Cyber & Privacy training video (Jan 2024) |
-| Diamond View Studios | Kayla Gremer Foreid; Jeff McKown (live project); Sherry Livingston (payments) | kayla@diamondviewstudios.com; jeff@diamondviewstudios.com | Kimley-Horn (Feb 2026 project; payment resolved May 1 2026) |
+| Diamond View Studios | Kayla Gremer Foreid; Jeff McKown (Kimley-Horn Feb 2026 project; no open project verified as of 2026-09-19); Sherry Livingston (payments) | kayla@diamondviewstudios.com; jeff@diamondviewstudios.com | Kimley-Horn (Feb 2026 project; payment resolved May 1 2026) |
 | Dove Street Films | Jason Rudeen | jason@dovestreetfilms.com | FIFA World Cup 2026 Preview Series (production partner) |
 | EDP Inc | Erin Daughenbaugh | edaughenbaugh@gmail.com | Informatica — Sales Kickoff Opening Video (Jan 2023) |
 | IMG / EuroLeague | Ian Henderson (Producer, IMG Studios); Jamie Pearson; Chloe Hubbard (coord, billing) | Ian.Henderson@img.com; Jamie.Pearson@img.com | EuroLeague. History: quoted £10K, he countered $3,750, Spencer countered £5,000; passed on that job but promised preseason work. Jamie: paid Nov 2025 Black Friday TV promo. |
