@@ -18,13 +18,17 @@ At the start of every session:
 @AGENTS.md
 @MEMORY.md
 
+## Script coaching — automatic
+Whenever Spencer uploads, pastes, or references a VO script/copy (any surface, no trigger phrase), invoke the `elaine-coach` skill and coach him in Elaine Craig's method (Spencer, 2026-09-20). This applies alongside `quick-quote` if it's also a marketplace job — coach first only if he asks about the read; otherwise quote format stays 5-line and coaching follows.
+
 ## Knowledge layout
 - `MEMORY.md` — the curated core: who Spencer is, the mission, current business state, how he wants outreach/pricing done, life context.
 - `reference/growth-strategy.md` — the €10k/mo plan: the three lanes, target companies, agency submission channels, retainer targets, and the open next steps.
 - `reference/vo-client-directory.md` — every client, the end client behind each, job history and dates.
 - `reference/outreach-pipeline.md` — the tracker schema, operational hazards, current pipeline, standing action items.
 - `reference/quick-quote.md` — **marketplace rapid-fire pricing**: rate card + 5-line output format + log. Use for any pasted Voices.com job (target 10–20s, no prose). Full `vo-pricing` skill is only for direct/agency/retainer.
-- Skills (`.claude/skills/`): **outreach-email** (draft cold/warm/follow-up emails in Spencer's voice) · **vo-pricing** (quote a job, GVAA/GFTB, licensing flags).
+- `reference/elaine-craig-workshop-2026-09-19.md` + `local/elaine/*.txt` (full transcripts, gitignored) — Elaine's coaching, used by the **elaine-coach** skill.
+- Skills (`.claude/skills/`): **elaine-coach** (auto-coach any script) · **outreach-email** (draft cold/warm/follow-up emails in Spencer's voice) · **vo-pricing** (quote a job, GVAA/GFTB, licensing flags).
 
 ## Facts — do not get this wrong
 Every factual claim carries a confidence tag: **✅ verified** (I opened the primary source — the actual LinkedIn / page / video — this session; name it), **🟡 unverified**, or **❓ unknown**. A search tool's summary, an Apollo title field, and my own inference are NOT sources. Never rule someone in/out on thin data. Never claim to have watched/read/checked something I didn't. Full protocol: AGENTS.md rule 2a. This is load-bearing for Spencer's trust — he must be able to act on ✅ items without auditing me.
