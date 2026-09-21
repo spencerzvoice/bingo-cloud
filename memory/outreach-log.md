@@ -103,9 +103,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Reel linked: commercial reel + character reel (both attached). Sent-version note: Spencer framed animation as "wanting to expand more into animation" (honest — not established there yet). Credits: Venmo, NordicTrack, Workday (commercial) + YouTube channels (narration).
 - New email or thread reply: new email. Tracker row 95.
 - Status: **follow-up sent 2026-09-02** — only got the CTC after-hours auto-reply back as of 2026-09-17.
-- **CORRECTION 2026-09-21:** earlier same-day entry said "Portia responded (rate card incomplete)" based on the tracker's Status cell alone — that was wrong to state as fact. **Live Gmail check (all 5 messages in the thread, read directly):** the only inbound message is her Aug 31 after-hours auto-reply. No human reply from Portia exists in Gmail. The tracker's "Responded - Rate Card Still Incomplete" (09/18) is not corroborated there — ❓ unknown whether she replied through Bodalgo/another channel, or whether the tracker status is simply wrong (daily sync routine or a manual entry). **Ask Spencer directly:** did you hear from Portia anywhere outside Gmail?
-- Follow up on: resolve the discrepancy with Spencer before treating this as a live rate-card ask.
-- Result: unclear — tracker and Gmail disagree, unverified
+- **CORRECTION 2026-09-21:** earlier same-day entry said "Portia responded (rate card incomplete)" based on the tracker's Status cell alone — that was wrong to state as fact; no such reply exists in Gmail (only her Aug 31 after-hours auto-reply). **Confirmed with Spencer: he has never heard from Portia anywhere, any channel, period.** The tracker status was simply wrong (source unknown — daily sync routine or a bad manual edit). Sheet row 94 corrected same day: Status → "Follow-Up Sent - No Reply", Next Action + Notes document the correction.
+- Follow up on: Spencer's call — one final light touch, or let it go cold. Never got a real reply across 2 touches (8/31, 9/2).
+- Result: no reply, ever, confirmed
 
 ## 2026-08-30 — Notion (Cory Zapatka) — cold
 - Contact: Cory Zapatka, Video Lead (Emmy winner, ex-Vox/Verge Science), coryz@makenotion.com
