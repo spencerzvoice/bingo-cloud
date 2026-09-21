@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-09-17_
+_Last updated: 2026-09-21_
 _Next memory prune: 2026-09-25_ — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). The bulky, fast-moving detail lives in `reference/`; this file is the curated core.
@@ -76,6 +76,7 @@ Spencer wants pricing advice weighted toward **booking jobs**, not maximising pe
 2. **Allie Silber** (allie@ddoagency.com) — DDO's Head of LA/NY Voiceover, **the actual decision-maker**. Verdict Aug 5: *"I love your voice! I do think you could use some more training — would you be open to taking a commercial class before re-submitting for rep?"* Conditional pass, not a rejection.
 3. Spencer **registered for Elaine Craig's VO Pro 1 workshop** ($500, 5h, **Sept 19 2026**) specifically to satisfy this. Carrie Faverty (VO Bootcamp) is the backup path — fall dates pending.
 4. **Plan:** complete the Sept 19 workshop → resubmit to Allie. This is the concrete route to representation. Track it.
+5. **Update 2026-09-21 (live tracker check):** workshop tracker row now shows "Workshop Completed - Awaiting Workshop #2 Info" (09/20) — ahead of the 9/22 check-in Routine. What "Workshop #2" is is ❓ unknown — ask Spencer. Reel rebuild (Step 3 in growth-strategy) has no evidence of movement — still the blocker on actually resubmitting to Allie.
 
 ### Lane 1 / Funnel A — LIVE as of 2026-08-30
 First 3 cold emails (Webflow/Marc Andrews, Notion/Cory Zapatka, Figma/Sydney Halle) **scheduled by Spencer to land 2026-08-31 ~08:00 recipient-local**, each with 2 real re-voiced samples of the company's own videos. Follow-up ~2026-09-10. Framer/Miro/Linear emails next (Miro = Samuel Rollier samuel@miro.com + Antoine Levi antoine@miro.com). Full state + contact table + per-company angles + the "no-posturing" email voice rule: [[growth-strategy]] and `memory/outreach-log.md`.
