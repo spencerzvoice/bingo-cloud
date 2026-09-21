@@ -102,9 +102,10 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Ask: audition for open work; get on the talent roster
 - Reel linked: commercial reel + character reel (both attached). Sent-version note: Spencer framed animation as "wanting to expand more into animation" (honest — not established there yet). Credits: Venmo, NordicTrack, Workday (commercial) + YouTube channels (narration).
 - New email or thread reply: new email. Tracker row 95.
-- Status: **follow-up sent 2026-09-02** — only got the CTC after-hours auto-reply back as of 2026-09-17. **UPDATE 2026-09-21 (live tracker check):** Portia responded — tracker status "Responded - Rate Card Still Incomplete" (09/18). This needs Spencer's rate card sent to close the loop, not a nudge.
-- Follow up on: send/complete the rate card she asked for.
-- Result: responded — rate card incomplete, awaiting Spencer
+- Status: **follow-up sent 2026-09-02** — only got the CTC after-hours auto-reply back as of 2026-09-17.
+- **CORRECTION 2026-09-21:** earlier same-day entry said "Portia responded (rate card incomplete)" based on the tracker's Status cell alone — that was wrong to state as fact. **Live Gmail check (all 5 messages in the thread, read directly):** the only inbound message is her Aug 31 after-hours auto-reply. No human reply from Portia exists in Gmail. The tracker's "Responded - Rate Card Still Incomplete" (09/18) is not corroborated there — ❓ unknown whether she replied through Bodalgo/another channel, or whether the tracker status is simply wrong (daily sync routine or a manual entry). **Ask Spencer directly:** did you hear from Portia anywhere outside Gmail?
+- Follow up on: resolve the discrepancy with Spencer before treating this as a live rate-card ask.
+- Result: unclear — tracker and Gmail disagree, unverified
 
 ## 2026-08-30 — Notion (Cory Zapatka) — cold
 - Contact: Cory Zapatka, Video Lead (Emmy winner, ex-Vox/Verge Science), coryz@makenotion.com
