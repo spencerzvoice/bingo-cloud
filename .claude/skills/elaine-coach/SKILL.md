@@ -43,6 +43,3 @@ For each script:
 6. **Elaine source** — which notes/transcript line each key call comes from, or "my read."
 
 Limits: I can't hear audio — direction is from the copy. If Spencer sends a recording path/description, react to what he actually reports, don't pretend to have listened.
-
-## LENGTH OVERRIDE (Spencer, 2026-09-21)
-Coaching must be SHORT SNIPPETS — ~10 lines max. Overrides the 6-part format above. Give only: (1) type, (2) marked-up reformatted script, (3) one-line who/anchor, (4) Take 1 + Take 2 as 1-line each, (5) 1–2 watch-outs. No source section unless asked. Offer "want the full breakdown?" instead of dumping it.
