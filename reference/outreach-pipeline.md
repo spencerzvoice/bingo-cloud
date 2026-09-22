@@ -37,6 +37,7 @@ The live CRM for Spencer's outreach. **The Google Sheet is ground truth** — Sp
 - **Professional Development:** Elaine Craig (registered, Sept 19), Carrie Faverty (fall dates pending).
 
 ## Live leads & jobs in flight
+- **KU Marketing (Liz Nelson / Steve Rausch) — retainer offer** (2026-09-22): thread-reply draft in Gmail (check-in + academic-year retainer, no numbers). Send 2026-09-23 ~10am CT; follow up 2026-10-14. Aug preferred-vendor proposal NOT found in Gmail — ❓ sent? Price retainer fresh, don't lock the ≤1 min $200 card.
 
 _Auto-logged (see the memory protocol in CLAUDE.md). Keep status lines current; condense/prune resolved + cold entries on the schedule in MEMORY.md._
 

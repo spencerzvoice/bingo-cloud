@@ -155,3 +155,14 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91). **Bump sent 2026-09-11** ("Just wanted to check back in..."). No reply as of 2026-09-17 (live Gmail check).
 - Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
 - Result: no reply yet
+
+## 2026-09-22 — University of Kansas (KU Marketing) — warm check-in + retainer offer
+- Contact: Liz Nelson (Production Coordinator, Digital Media) liz.nelson@ku.edu; cc Steve Rausch steve.rausch@ku.edu
+- Hook / angle: close the loop on Liz's Aug 20 re-sent Traditions Night link (never acknowledged) → offer an academic-year retainer (monthly VO block, locked rate, priority turnaround). No numbers in the email.
+- Ask: interest in a retainer, or keep project-by-project; offer to send an outline
+- Reel linked: none (spencerzvoice.com in sig)
+- New email or thread reply: thread reply in "Re: VO for Event Video" (thread 19fd29585b421562), Gmail draft r4489703761294617964
+- Status: draft in Gmail, Spencer to send 2026-09-23 ~10am CT (16:00 Lisbon). Reminder task `ku-retainer-send-reminder` fires 15:30 Lisbon.
+- Follow up on: 2026-10-14 if no reply (avoid Oct 12–13 Columbus Day window)
+- Result:
+- Note: memory says a preferred-vendor rate proposal went to Steve in Aug 2026, but no such email exists in spencer@spencerzvoice.com (live check 2026-09-22) — unconfirmed whether it was ever sent. Don't lock the Aug rate card (≤1 min $200) in for a year; price the retainer fresh via vo-pricing.
