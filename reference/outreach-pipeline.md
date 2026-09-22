@@ -7,7 +7,7 @@ The live CRM for Spencer's outreach. **The Google Sheet is ground truth** — Sp
 - Sheet: **"VO Outreach Pipeline Tracker"** — root of My Drive (search by exact title, never a cached link — the file has been deleted/recreated before).
 - spreadsheetId: `1SBauz4dCodqnfSVD5yqKETjU-25TY5HEZ7KRGggbgT0`
 - Tabs: **Outreach Tracker** (sheetId `1117682425`, the CRM) · **Dashboard** (sheetId `777610067`, formula rollups + chart `445011089`) · **Legend & How To Use** (sheetId `792717929`).
-- Gmail account swept: spencer@spencerzvoice.com (business). Personal spencerzpearman@gmail.com holds most Voices.com award notices — excluded from this work.
+- Gmail account swept: spencer@spencerzvoice.com only.
 
 ## Column schema (A–M)
 
@@ -46,6 +46,7 @@ _Auto-logged (see the memory protocol in CLAUDE.md). Keep status lines current; 
 - **Decision (Bingo advice):** Sekulic re-read = free (pronunciation, covered by Spencer's stated terms). New line/alt = technically chargeable script addition, but 10 + 11 words (two alternates, so ~10 usable) on an already-low €2,500 → do free **as an explicit one-time courtesy**; further script additions get a pickup fee. Send as a separate pickup file, reply cc Ian + Chloe. **SENT by Spencer Sat 9/19 16:44 BST** (reply-all to Adrian, Ian cc; attachment "EuroLeague POTS_pickups.mp3"; free, further script additions quoted separately). ✅ live Gmail. Awaiting IMG confirmation that the Preview is final.
 - **Unknown:** whether "In Kaunas" was in the original script.
 - **Data point:** history quoted £10K → countered $3,750 → £5,000 (passed then); landed €2,500 here. Relationship value (Ian, Jamie, Chloe) > this rate; push rate up next time.
+- **Feature-spots pitch (drafted 2026-09-22):** new email to Ian only, "Voicing the EuroLeague feature spots this season" — proposes €1,150/session for up to 4 feature spots, 24h turnaround, locked for season; open question on volume/frequency. References Jamie's £50/spot rate + Mar 2026 batching idea (Jamie never priced the batch — Bingo's earlier "~£62/spot" read was inference, not Jamie's offer; Spencer had rejected bundling outright on 2026-03-04, so pitch reframes it as "makes sense at the right price"). **Correctly saved in spencer@spencerzvoice.com Drafts, msg id `1a0c8df4884356e1`, via FGAC google_api_modify** (an earlier attempt via the generic Gmail connector `create_draft` silently saved to a different mailbox and was deleted; that connector has no account-selection param and doesn't default to spencer@spencerzvoice.com — don't use it for his work, use FGAC for all Gmail writes, not just reads). Two brackets open: spot length (~45s suggested, unconfirmed) and whether revisions included. Not yet sent.
 
 ### Laundry → Adobe Creative Cloud — 2×:15 (came from Spencer's outreach) — ✅ read from live Gmail 2026-09-19
 - **Thread "VO Audition"**, started 2026-09-16: **Gabriel Gerard**, production coordinator (gabriel.gerard@laundry.studio); producer **Ben Rejzer** cc'd (ben.rejzer@laundry.studio). NDA signed + returned 9/16. Scripts PDF "CC Value Phase 3 — YT Audio scripts_9.15.2026.pdf" — Bingo has NOT read it. Lucas Bertoli (Laundry Design) is not in this thread; his paternity leave (back Nov 20) came from his OOO auto-reply on the Sep 11 check-in, which redirected to production@laundry.studio (per tracker).
