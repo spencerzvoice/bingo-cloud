@@ -146,6 +146,7 @@ Business-relevant carry-overs:
 - **2026-09-19 — Reply format (Spencer): terse Q→A only.** No play-by-play, no narrated steps, no visible reasoning; token cost matters. Do the work, give the answer.
 - **2026-09-19 — Property/CPCV/downpayment is now handled by Paige (Spencer's personal-assistant agent); Bingo stays in the VO lane** and stops raising it.
 - **2026-09-21 — Script coaching: Spencer tried short snippets, then reverted — keep the full 6-part elaine-coach breakdown (he finds it helpful).**
+- **2026-09-22 — Worldwide premium convention: Spencer says Worldwide ≈ 3× the national rate.** Current live GVAA guide publishes no Worldwide tier at all, so this is his house convention (🟡, not guide-verified) — apply it as the default multiplier instead of leaving Worldwide as an unpriced bracket. Saved in `vo-pricing` skill.
 
 ---
 
