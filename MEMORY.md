@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-09-21_
+_Last updated: 2026-09-22_
 _Next memory prune: 2026-09-25_ — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). The bulky, fast-moving detail lives in `reference/`; this file is the curated core.
@@ -79,6 +79,9 @@ Spencer wants pricing advice weighted toward **booking jobs**, not maximising pe
 
 ### Lane 1 / Funnel A — LIVE as of 2026-08-30
 First 3 cold emails (Webflow/Marc Andrews, Notion/Cory Zapatka, Figma/Sydney Halle) **scheduled by Spencer to land 2026-08-31 ~08:00 recipient-local**, each with 2 real re-voiced samples of the company's own videos. Follow-up ~2026-09-10. Framer/Miro/Linear emails next (Miro = Samuel Rollier samuel@miro.com + Antoine Levi antoine@miro.com). Full state + contact table + per-company angles + the "no-posturing" email voice rule: [[growth-strategy]] and `memory/outreach-log.md`.
+
+### Funnel B & C re-voicing assets — found 2026-09-22, built 2026-09-10/11
+Real source video + vocals-stripped NOVOX pair + pre-built Ableton project per client, sitting in **`D:\My Drive\Client Outreach\`** (Google-Drive-synced local folder, resolves from the Desktop "Client Outreach" shortcut) — NOT in this repo, which is why it went untracked. Funnel B: 8/9 companies done (Atlassian, Asana, Canva, ClickUp, Grammarly, HubSpot, monday.com, Zoom — Airtable missing). Funnel C: 10 companies/11 videos done (Coursera, Discovery Education, Instructure, Kaplan UK, LearningMate, LinkedIn Learning, Skillshare, Udemy, Masterclass; Big Think dropped — no clean single-VO script). Nothing recorded yet in any `Samples/Recorded/` folder. Funnel C scripts already emailed to spencer@spencerzvoice.com 2026-09-10. Built inside two now-archived chat sessions, never turned into a committed skill — full detail + the correction trail: `memory/2026-09-22.md`. **To-do:** write `.claude/skills/revoice-material/SKILL.md` so this doesn't get lost again; rewrite the 16 Funnel B Gmail drafts' generic hooks to name the actual source video now that we know it.
 
 ### Outreach pipeline
 Google Sheet **"VO Outreach Pipeline Tracker"** (root of My Drive, spreadsheetId `1SBauz4dCodqnfSVD5yqKETjU-25TY5HEZ7KRGggbgT0`). Spencer edits it live; a daily cloud routine syncs it from Gmail and emails him a digest — see [[vo-pipeline-routine]] and full detail in [[outreach-pipeline]].
