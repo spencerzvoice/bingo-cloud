@@ -166,3 +166,12 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Follow up on: 2026-10-14 if no reply (avoid Oct 12–13 Columbus Day window)
 - Result:
 - Note: memory says a preferred-vendor rate proposal went to Steve in Aug 2026, but no such email exists in spencer@spencerzvoice.com (live check 2026-09-22) — unconfirmed whether it was ever sent. Don't lock the Aug rate card (≤1 min $200) in for a year; price the retainer fresh via vo-pricing.
+
+## 2026-09-23 - Funnel C (e-learning) - 9 cold re-voice drafts, NOT SENT
+- Contacts (all live-LinkedIn verified 2026-09-23, emails Apollo-verified, no prior Gmail threads): Luke Sienko / MasterClass; Hasaanah Abdul-Wahid / Skillshare (contract); Jennifer Johnston / Udemy; Kyle Ranson-Walsh / LinkedIn; Brandon Rafalson / Coursera; Mike West / Instructure; Allison Andrews / Discovery Education (2 videos); Rory Green / Kaplan UK; Joanne Pratt / LearningMate.
+- Hook / angle: re-voice of the recipient's own video, Drive link ("your video"), warm bass/baritone + record/produce myself, credits AWS Sagemaker / Artlist / Venmo / Dell, "voice you can call on regularly", locked rate + 24h turnaround. voice.md style, HTML drafts.
+- New email: all 9. Gmail drafts (FGAC): Luke r-4851027839560593920, Hasaanah r-3629004299045061416, Jennifer r-7186100039994434610, Kyle r1110803352703951338, Brandon r1486635724399047156, Mike r5374239571647515948, Allison r-492078533852173384, Rory r-5259049915759077854, Joanne r6856162258379364604.
+- Tracker: 9 rows added 2026-09-23, rows 117-125, Status "Drafted - Not Sent", read back to confirm. Update to "Sent" + dates when Spencer sends.
+- Skipped: Big Think (Joseph Eisenstein) - Spencer's call, no take.
+- Follow up on: ~7-10 days after each send (cold cadence).
+- Result: pending send
