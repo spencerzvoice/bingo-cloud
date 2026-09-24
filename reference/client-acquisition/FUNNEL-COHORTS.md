@@ -2,7 +2,7 @@
 
 **Decided by Spencer, 2026-09-24:** a **Funnel** is a *send cohort* — the group of companies drafted and pitched together, each with a re-voice package in Google Drive `Client Outreach/Funnel <X>/<Company>/`. The Drive folder tree is the source of truth, and the letters below are fixed. New funnels take the next letter (**E**, then F, …) at draft time.
 
-The A–M letters in `FUNNELS.md` / `ROSTER.md` describe *what kind of client* a company is. They collide with the cohort letters (e.g. Roster "D" = Corporate L&D, Drive "D" = the 4 Sept cohort). Proposal: keep that taxonomy, but call it **Segment** and use names, not letters.
+The A–M letters in `FUNNELS.md` / `ROSTER.md` describe *what kind of client* a company is. They collide with the cohort letters (e.g. Roster "D" = Corporate L&D, Drive "D" = the 4 Sept cohort). Approved 09-24: that taxonomy becomes named **Segments**, not letters (posted to HANDOFF.md).
 
 Status verified 2026-09-24 against live Gmail (`in:sent`, `drafts`), the tracker sheet and the Drive folders.
 
@@ -49,8 +49,8 @@ Parked, no Drive folder: Berklee Online (no usable contact; Lucia moved to Alumn
 | Snowflake | Jason Fassler (replaced Oliver Mellan, left) | jason.fassler@snowflake.com |
 | Tendril | Ivelle Jargalyn | ivelle@tendril.ca |
 
-## Not yet in any funnel — 7 drafts from 09-11 (proposed Funnel E)
+## E — the 11 Sept cohort (7) · Spencer approved 09-24; Drive folders + packages being built
 Sprout Social (Rebecca Dole) · Retool (Kasey Hickey) · Splunk (Tom Krymkowski) · PagerDuty (brand@ role inbox, attn. Erica Forte) · Braze (Lauren Bernal) · Zendesk (Ariana Blair) · Grafana Labs (Collins Pace). Old format ("American", "low-register", no sample). They need a Drive folder, a re-voice package and a rewrite before sending.
 
 ## Pending drafts in spencer@spencerzvoice.com: 21 (live count, 09-24)
-10 Funnel D · 2 Airtable (B) · 2 Pluralsight/Thinkific (C2) · 7 proposed-E. (Kansas's retainer reply went out 09-23/24. Funnel A's 6 final touches are *scheduled*, not drafts.)
+10 Funnel D · 2 Airtable (B) · 2 Pluralsight/Thinkific (C2) · 7 Funnel E. (Kansas's retainer reply went out 09-23/24. Funnel A's 6 final touches are *scheduled*, not drafts.)
