@@ -25,6 +25,7 @@ When a send is confirmed in Gmail Sent: write the send date, touch #, and comput
 | Warm check-ins sent 09-11: Dan Shaw, Lilah Kohlman, Melissa Gillis (ATTN), Mel Kane (Invision), Taylor Ballam (Modo), Devin Leisher, Poullet (Tellary) | 2026-09-11 (tracker) | warm (type per tracker block, not re-verified) | next check-in | Thu 2026-10-08 (10-09 is the Fri before the holiday) | Fri 2026-11-06 | |
 | Jim Levi (CrowdReply) | 2026-09-16 (tracker) | check-in | next | Wed 2026-10-14 | - | retainer thread, keep it real not needy |
 | KU (Liz Nelson / Steve Rausch) | 2026-09-23 | replied | warm check-in | Wed 2026-11-04 | - | no retainer pitch |
+| Laundry Studio (Gabriel Gerard, cc Ben Rejzer) | 2026-09-22 (Gmail Sent; Adobe job lost, door open) | warm close | warm check-in | Tue 2026-10-20 | Tue 2026-11-17 | bring something new (new work/credit), not a bump. Lucas Bertoli (Laundry Design) back Nov 20 - separate touch after |
 
 **Unscheduled backlog (needs Spencer go/no-go, NOT on any clock yet):** stale warm check-ins the tracker flags: Ryan Lago, Alexandra Buhrow, Jordan Deva, Erin Daughenbaugh, Ruthie Mason, David Martin, Vishuddha (Tony), Mary Chaplin (Xpedition, fall dates), Luke Mellows, Jamie Pearson (held until the EuroLeague invoice clears). Say which ones to put on the clock.
 
