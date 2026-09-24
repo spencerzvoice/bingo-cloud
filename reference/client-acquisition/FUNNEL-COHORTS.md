@@ -18,7 +18,7 @@ Status verified 2026-09-24 against live Gmail (`in:sent`, `drafts`), the tracker
 
 ## B — work & productivity SaaS (9) · sent 09-22
 Asana (aubreyrogers@; kyleosher@ bounced) · Atlassian (sfink@, gosborne@) · Canva (lydia@, jackt@) · ClickUp (eric@, wes@; bsherry@ left) · Grammarly (lauren.hirata@) · HubSpot (jmeneide@, lhewing@) · monday.com (amaliaho@) · Zoom (dan.schunk@, teddy.sirotek@) — all SENT 09-22.
-Airtable — Rob Nikzad + Kirsten Golden: 2 DRAFTS pending (old format, no sample); re-voice package built 09-24 ("Introducing a new generation of Airtable").
+Airtable — Rob Nikzad (Head of Brand + Creative) + Kirsten Golden (Creative Producer, Brand Ops), both LinkedIn-current 09-24: 2 DRAFTS rewritten 09-24 with the finished take linked (Drive 1Oo6SE2ZS_vgg_SsgUecvwWfWgK5w-vaf), label Funnel B. Ready to send.
 
 ## C — e-learning platforms (10) · sent 09-23
 SENT 09-23: LinkedIn Learning (Kyle Ranson-Walsh), Coursera (Brandon Rafalson), Instructure (Mike West), Discovery Education (Allison Andrews), Kaplan UK (Rory Green), LearningMate (Joanne Pratt), MasterClass (Luke Sienko), Skillshare (Hasaanah Abdul-Wahid), Udemy (Jennifer Johnston).
@@ -59,7 +59,7 @@ Parked, no Drive folder: Berklee Online (no usable contact; Lucia moved to Alumn
 | Braze | Lauren Bernal, Sr. Creative Director | lauren.bernal@braze.com | "BrazeAI™ – AI for Marketing…" (Jan 2026, 104s) |
 | Zendesk | **Cody McPherson**, Sr. Creative Producer (replaces Ariana Blair, left Aug 2026; backup Victor Hugo Duran also left) | cody.mcpherson@zendesk.com | "Introducing Zendesk Copilots" (May 2026, 37s) |
 | Grafana Labs | Collins Pace, Video Producer | collins.pace@grafana.com | "Synthetic Monitoring overview" (May 2026, 92s) |
-Note: the Gmail label "Funnel E" already existed and also sits on the Pluralsight + Thinkific drafts (Drive has them in C2).
+Gmail labels match Drive: Pluralsight + Thinkific moved to a new "Funnel C2" label 09-24.
 
 ## Pending drafts in spencer@spencerzvoice.com: 21 (live count, 09-24)
 10 Funnel D · 2 Airtable (B) · 2 Pluralsight/Thinkific (C2) · 7 Funnel E. (Kansas's retainer reply went out 09-23/24. Funnel A's 6 final touches are *scheduled*, not drafts.)

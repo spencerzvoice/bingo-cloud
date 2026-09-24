@@ -229,3 +229,10 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Angle: re-voice of their own spot (title hyperlinked, placeholder link until the take exists) + current hook where one exists
 - New email (not thread replies). Status: drafts in Gmail, label Funnel E. Waiting on Spencer's takes.
 - Follow up on: 7–10 days after send
+
+## 2026-09-24 — Airtable (Funnel B) — cold, drafts rewritten with finished sample (unsent)
+- Contacts: Rob Nikzad (Head of Brand + Creative, rob.nikzad@airtable.com) · Kirsten Golden (Creative Producer, Brand Ops, kirsten.golden@airtable.com)
+- Hook: Airtable now a connected app in Google Gemini (company LinkedIn post, 09-23)
+- Sample: re-voice of "Introducing a new generation of Airtable - built for the AI era", Drive link in
+- New email. Status: 2 drafts ready. Consider sending one first (two cold emails to the same team).
+- Follow up on: 7–10 days after send

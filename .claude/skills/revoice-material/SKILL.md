@@ -65,6 +65,12 @@ Picture untouched (`-c:v copy`); audio = music/SFX bed only. ~15–60 s/clip on 
 - Re-gzip with `gzip.GzipFile(path,"wb",mtime=0)`; `ET.fromstring()` the XML before and after round-trip.
 Live Ableton needs nothing else to treat an mp4 as video+audio; a bare `VO` track "Sample Offline" and a "Media files are missing" banner on first open come from template leftovers, not the patched clips. Verified: project opened, Video Window played real frames, status bar showed the exact file path.
 Template tracks: `VO Chain` > `VO` (full mix chain), `~VAL/~SHORT/~LMS` refs, `ORIGINAL VIDEO`, `VIDEO WITHOUT VOX`, returns, `Main`.
+**Template mix defaults (Spencer, 2026-09-24), now baked into `Ableton Template.als` (backup `.pre_sidechain`):**
+- No placeholder clip on the `VO` track. Spencer records fresh.
+- `ORIGINAL VIDEO` track volume is −10 dB (0.3162).
+- `VIDEO WITHOUT VOX` track volume is −5 dB (0.5623).
+- `VIDEO WITHOUT VOX` carries Spencer's **sidechain Compressor2**, keyed from `AudioIn/Track.16/PostFxOut` (the `VO` track, Post FX), so the bed ducks under his voice. The source was his Experian project. When copying the device between projects, renumber its AutomationTarget/ModulationTarget Ids from the target's `NextPointeeId` and bump that value.
+- Applied 09-24 to every pending C2/D/E project (backup `.pre_sidechain`). Not applied to Experian (done by hand), Airtable (finished) or sent funnels.
 
 ## Step 6 — Hand-off
 Spencer opens the project, records over NOVOX, exports the take into `Ready to Link to Drafted Email/`, links it in the drafted email. Every Drive client folder gets that subfolder at creation.
