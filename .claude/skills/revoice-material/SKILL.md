@@ -47,6 +47,13 @@ Picture untouched (`-c:v copy`); audio = music/SFX bed only. ~15–60 s/clip on 
 - First line of the file: `Original copy - from captions, verify against the video.` (or `... Whisper transcription ...`).
 - Spencer also gets one `.docx` per spot emailed to himself ("Funnel B Copy" / "Funnel C Copy") — minimal hand-rolled OOXML zips (~1.5 KB each; python-docx output is ~35 KB and too big to inline as base64 attachments).
 - Don't script multi-speaker documentary/interview pieces (Big Think dropped for this reason) — not re-voiceable.
+- **The file must contain the actual spoken VO copy, word for word. Never a summary, a description of the ad, "context", or a "transcribe manually" note (Spencer, 2026-09-24).** Funnel D shipped three scripts with no script in them: Experian (a summary of the ad, with the lines deliberately left out; wrong, because Spencer needs the exact copy to re-voice his own sample), Snowflake and Tendril ("transcription failed — transcribe manually"). If captions are missing or blocked, run Whisper locally (`--model medium` for music-heavy spots). A download or transcription failure is a FAIL for that client, not a placeholder file.
+- **Script gate (run before reporting any package done):** open every `_script.docx` and confirm:
+  1. The body is the narrator's lines, in order.
+  2. The word count is plausible for the video length (≈1.5–3 words/sec of VO).
+  3. There is no "NO CAPTIONS", "transcribe manually", "summary", "structure above" or similar placeholder text.
+  4. The narration matches a fresh listen (a Whisper pass or the captions) of *that* video file.
+  `revoice_build.py` prints a SCRIPT GATE block at the end (placeholder words + words-vs-length); any FAIL there blocks "done". Report each script as ✅ transcript / ❌ missing. One header line (source + "verify against the video") is the only non-copy allowed at the top; notes about the read go *below* the copy.
 
 ## Step 5 — Ableton project per video (fully automated, verified 2026-09-11)
 `.als` = **gzip-compressed XML**. Copy the template folder to `<Client>/<Client> Project/`, rename the `.als` to `<Client> Project.als`, then patch the two clips named `ORIGINAL VIDEO` and `VIDEO WITHOUT VOX`. Inside each `<AudioClip>` → `<SampleRef>`:

@@ -124,6 +124,25 @@ def ableton(client, cdir, src, nv, n=1):
     return pdir
 
 
+BAD_SCRIPT = ("no captions", "transcribe manually", "transcription failed", "summary", "structure above", "context:")
+
+
+def script_gate(cdir):
+    """Every _script.docx must hold the actual VO copy: no placeholders, plausible word count for the video."""
+    import docx
+    out = []
+    vids = videos(cdir)
+    for sp in sorted(f for f in os.listdir(cdir) if f.endswith("_script.docx") and not f.startswith("~$")):
+        paras = [p.text.strip() for p in docx.Document(os.path.join(cdir, sp)).paragraphs if p.text.strip()]
+        body = " ".join(paras[1:]).lower()
+        words = len(body.split())
+        dur = probe(os.path.join(cdir, vids[0]))[0] if vids else 0
+        bad = [b for b in BAD_SCRIPT if b in body]
+        ok = not bad and words >= max(15, dur * 0.8)
+        out.append(f"{'OK' if ok else 'FAIL'} {sp}: {words} words / {dur:.0f}s{' placeholder: ' + ', '.join(bad) if bad else ''}")
+    return out or ["FAIL no _script.docx"]
+
+
 def main():
     fdir = sys.argv[1]
     only = set(sys.argv[2:])
@@ -155,6 +174,12 @@ def main():
     log("\n=== SUMMARY ===")
     for k, v in results.items():
         log(f"{k}: {v}")
+    log("\n=== SCRIPT GATE (every script must be the real VO copy) ===")
+    for client in sorted(os.listdir(fdir)):
+        cdir = os.path.join(fdir, client)
+        if os.path.isdir(cdir) and (not only or client in only) and videos(cdir):
+            for line in script_gate(cdir):
+                log(f"{client}: {line}")
 
 
 if __name__ == "__main__":
