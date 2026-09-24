@@ -175,3 +175,16 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Skipped: Big Think (Joseph Eisenstein) - Spencer's call, no take.
 - Follow up on: ~7-10 days after each send (cold cadence).
 - Result: pending send
+
+## 2026-09-24 — Funnel D (10) — cold, drafts rewritten, NOT sent
+- Shell — Jane Sayers, Global Film Lead — jane.sayers@shell.com — re-voice "Your Car Works Hard" (V-Power NiTRO+)
+- Experian — Daren Levis, Creative Director — daren.levis@experian.com — re-voice "Better your score. Better your story." (replaces Todd Miller, left Aug 2026)
+- Shelter UK — Leanne Ainsworth, Head of Creative & Production — leanne_ainsworth@shelter.org.uk — re-voice #NoHomeKit
+- Purdue — Jason Doty, Director, Purdue Brand Studio Productions — doty@purdue.edu — re-voice "This is Purdue University: Where partnerships change the world"
+- Snowflake — Jason Fassler, Senior Video Producer — jason.fassler@snowflake.com — re-voice Olympics bobsled spot w/ Kaysha Love (replaces Oliver Mellan, left Jan 2026)
+- Sarofsky — Paul Klinke, Lead Senior Producer — paul.klinke@sarofsky.com — re-voice both Penn Medicine spots (replaces Joel Signer, left May 2026)
+- Tendril — Ivelle Jargalyn, EP Innovation — ivelle@tendril.ca — re-voice AutoStore film
+- Goalhanger — Alistair Dixon, Art Director — alistair@goalhanger.com — re-voice "Wayne Rooney: The Man Behind The Goals" trailer (weak sample)
+- iAM Learning — Clare Shepstone, Head of Studio — clare@iamlearningcontent.com — re-voice "iAM Bite Sized"
+- Skillsoft — Alice Lamey, Director, Content Production & Services — alice.lamey@skillsoft.com — re-voice "I Am Open" (replaces Amy Cantin, moved to product)
+- Ask: be a voice they call on regularly; locked rate, 24h turnaround. New emails (not thread replies). Links = [LINK] until takes recorded.
