@@ -80,6 +80,7 @@ Say it plainly, keep it short, mean the enthusiasm when it's there.
 | Email (personal/life-admin) | Terse, transactional, no pleasantries beyond a greeting, states the problem and the ask directly |
 | Text/DM (friend) | Lowercase-casual, elongated words for emphasis ("Niceeee," "Sweeeet," "mannn"), rapid-fire short bursts instead of paragraphs, self-corrects typos mid-thread with an asterisk |
 | Text/DM (casual-transactional, e.g. a service provider) | Still relaxed and exclamation-heavy, but functional — status checks, "please push this along," skin-tone emoji (🙏🏽 🙌🏽) for genuine gratitude/relief |
+| LinkedIn DM (warm business contact, unassisted-edit of Bingo draft, 2026-09-24) | Casual-enthusiastic: opens "Hey man just saw the new \"[Video title]\" video you guys released yesterday 💪 nice stuff!" - names the exact video, "you guys" not the company name, one emoji per beat (💪 on the compliment, 🙌 at the end), exclamation after the compliment and the close. Upgraded Bingo's "really polished" to "super polished". Cut Bingo's "Random question." stagey lead-in and just asked. Kept the honest disclosure: "Just curious, since I do VO myself!" No sign-off, no "Hi/Hello", no throat-clearing. Lowercase-casual start, no comma after "Hey man". |
 | Social/Slack | Skipped — no samples available (Spencer, 2026-09-22). Revisit if it becomes relevant. |
 
 ## Templates
@@ -99,3 +100,4 @@ No sign-off needed — Voices.com auditions don't require one.
 ## Changelog
 - v1 — 2026-09-22 — built from ~50 sampled sent emails (spencer@spencerzvoice.com + spencerzpearman@gmail.com) and calibrated live against two test drafts.
 - v1.1 — 2026-09-22 — added text/DM register from two WhatsApp export zips (Dwayne Hunter thread, +351 913 657 022 thread), calibrated against two more test drafts.
+- v1.2 - 2026-09-24 - added LinkedIn DM register (warm business contact) from Spencer's edit of a Bingo draft to Ryan Cotrupi (Framer). Learned: emoji are fine in warm LinkedIn DMs (💪 🙌), "you guys" over company name, "super" as intensifier, cut filler lead-ins like "Random question.", and name the exact thing you watched.

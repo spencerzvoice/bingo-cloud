@@ -125,6 +125,7 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer's own revised copy). Tracker rows 92 (Andy), 93 (Ari), 94 (Samuel). **Bump sent 2026-09-11** ("Just circling back..."). No reply as of 2026-09-17 (live Gmail check).
 - Follow up on: FINAL new-hook touch ~Tue 2026-09-29 (live Gmail 09-24: still no reply to either email), then stop.
 - **2026-09-24 signal:** Spencer has a genuine LinkedIn convo going with Ryan Cotrupi (Digital Mktg, junior, ally — not the VO booker) and says Framer released a new video 09-23 with a VO (🟡 Spencer-reported, Bingo has not watched it). Bingo call: do NOT pitch Ryan; ask who handles VO; use the new video as the hook in the Andy final touch (no Ryan name-drop unless Ryan OKs).
+- **2026-09-24 11:57 Lisbon: Spencer SENT Ryan Cotrupi a LinkedIn DM** (his own edit of Bingo's draft): "Hey man just saw the new 'Introducing Skills' video you guys released yesterday 💪 nice stuff! That voiceover sounded super polished. Do you all have a go-to voice for those, or does it change project to project? Just curious, since I do VO myself! 🙌" Waiting on answer (incumbent voice vs per-project). Video = 'Introducing Skills'. Log Ryan's reply here; it decides the Andy final-touch angle.
 - Result: no reply yet
 
 ## 2026-08-31 — Linear (Ari Mojdeh) — cold
