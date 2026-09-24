@@ -213,3 +213,4 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Follow-up: thread reply, shorter, two clear asks (reel listen; rates/availability for coaching or reel production). Reel link = [bracket].
 - Follow up on: if silent ~10 days after send, one more short nudge or check her site/booking page for direct 1-on-1 booking.
 - Result: pending send
+- 2026-09-24 update (Elaine): draft saved in Gmail Drafts (spencer@spencerzvoice.com, id r88694683441320932), NEW email (not thread reply), subject "Reel feedback / coaching rates", to coaching@elainecraig.com. Reel link = New VO Reel/Commercial VO Reel 2026 .mov (Drive 1c7_eCvN..., anyone-with-link reader, verified). No .mp4 exists in that folder (only .mov + 2 mp3). Not sent.
