@@ -247,3 +247,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Tracker rows 126-134 added (A:I + L:M; J/K untouched), read back. UK rows = Status "Scheduled" -> flip to Sent + Last Contact 09/29 once they go.
 - Follow up on: US six 10-01 to 10-04 · Skillsoft 10-06 to 10-08 (after her return) · UK three 10-06 to 10-09.
 - Result: sent
+
+## 2026-09-24 (late) — Cold-final drafts rewritten + Deb dropped
+- Spencer flagged the EuroLeague line in Nathan Mallon's and Nancy Loud's drafts as weird ("adding EuroLeague to the recent list", "on top of the FIFA previews"). Tanya, Josephine, Sascha had the same generic-phrasing problem. Root cause: drafts used vague filler instead of the specific credit.
+- Rewrote all 5 unsent cold finals (Nathan, Nancy, Tanya, Josephine, Sascha) in Gmail Drafts using Spencer's own sent wording (Laysa/Dan/Craig/Jeff, live Gmail Sent 09-24): "I don't know if you saw, but this summer I voiced the FIFA World Cup 2026 Preview Series (on FIFA's official YouTube channel) and I just picked up the EuroLeague basketball Season Preview (also live on their official channel)! So staying busy over here!" + each contact's own offer paragraph. Laysa, Dan, Craig, Jeff already SENT by Spencer 09-24.
+- Deb (Kanahoma/NMSU): DROPPED. Spencer believes she left Kanahoma (unverified). Tracker row 81 Status=Dropped, Next Action + Notes updated. Draft r-6575426239184653487 still in Drafts - Spencer to delete.
+- LESSON: never write the credit line as a paraphrase ("recent list", "on top of", "reads living"). Reuse Spencer's own sent phrasing or the specific credit by name.

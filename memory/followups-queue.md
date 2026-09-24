@@ -43,7 +43,7 @@ Warm past-client nudges (4-week hold expired 09-22; brings FIFA series + EuroLea
 | Dan Haas | ATTN | 1a03e41e0bfce309 | r-5890044460425218053 | warm nudge | drafted |
 | Craig Pentak | Pentak Creative (Condado Tacos) | 1a03e43375b1121d | r7405969853842060732 | warm nudge | drafted |
 | Jeff Fine | Shadow Lion | 1a03e51dece46262 | r4701888671178983505 | warm nudge | drafted |
-| Deb Cad | Kanahoma (NMSU) | 1a03e4464c2443bd | r-6575426239184653487 | warm nudge | drafted |
+| Deb Cad | Kanahoma (NMSU) | 1a03e4464c2443bd | r-6575426239184653487 | warm nudge | DROPPED 09-24 (Spencer: believes she left Kanahoma, unverified). Tracker row 81 = Dropped. Draft still in Gmail Drafts - Spencer to delete (trash call was blocked) |
 
 Note: 3 Untold drafts (Tanya/Josephine/Nancy) — stagger sends across days rather than all at once; Luke + Chelsea there already got their final on 09-07.
 
