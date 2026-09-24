@@ -27,7 +27,7 @@ Whenever Spencer uploads, pastes, or references a VO script/copy (any surface, n
 - `reference/vo-client-directory.md` — every client, the end client behind each, job history and dates.
 - `reference/outreach-pipeline.md` — the tracker schema, operational hazards, current pipeline, standing action items.
 - `reference/quick-quote.md` — **marketplace rapid-fire pricing**: rate card + 5-line output format + log. Use for any pasted Voices.com job (target 10–20s, no prose). Full `vo-pricing` skill is only for direct/agency/retainer.
-- `reference/elaine-craig-workshop-2026-09-19.md` + `local/elaine/*.txt` (full transcripts, gitignored) — Elaine's coaching, used by the **elaine-coach** skill.
+- `reference/vo-direction-cheat-sheet.md` (buzzword decoder) · `reference/elaine-craig-workshop-2026-09-19.md` + `local/elaine/*.txt` (full transcripts, gitignored) — Elaine's coaching, used by the **elaine-coach** skill.
 - Skills (`.claude/skills/`): **elaine-coach** (auto-coach any script) · **outreach-email** (draft cold/warm/follow-up emails in Spencer's voice) · **vo-pricing** (quote a job, GVAA/GFTB, licensing flags).
 
 ## Facts — do not get this wrong
