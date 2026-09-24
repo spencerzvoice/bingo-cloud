@@ -237,3 +237,13 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Sample: re-voice of "Introducing a new generation of Airtable - built for the AI era", Drive link in
 - New email. Status: 2 drafts ready. Consider sending one first (two cold emails to the same team).
 - Follow up on: 7–10 days after send
+
+## 2026-09-24 — Funnel D — SENT (6) + SCHEDULED (3). FUNNEL D CLOSED.
+- Verified live Gmail (FGAC, in:sent + in:scheduled), all label Funnel D, new emails:
+  - SENT 09-24 (Lisbon): Skillsoft/Alice Lamey 22:03 · Experian/Daren Levis 22:04 (California, per Spencer) · Purdue/Jason Doty 22:05 · Sarofsky/Paul Klinke 22:07 · Snowflake/Jason Fassler 22:08 · Tendril/Ivelle Jargalyn 22:09
+  - SCHEDULED Tue 09-29 09:00 UK (UK contacts): Shell/Jane Sayers · Goalhanger/Alistair Dixon · iAM Learning/Clare Shepstone
+- Shelter UK skipped (draft trashed).
+- Skillsoft: Alice auto-reply 09-24 — on vacation, back Thu 10-01. Content queries -> LB.Requests@skillsoft.com; urgent contacts listed by content area (Leena Rinne, Casey Maher, Greg Fuller, Devin McDougall; roles unverified). Decision (Bingo, Spencer agreed): do NOT redirect; wait for Alice.
+- Tracker rows 126-134 added (A:I + L:M; J/K untouched), read back. UK rows = Status "Scheduled" -> flip to Sent + Last Contact 09/29 once they go.
+- Follow up on: US six 10-01 to 10-04 · Skillsoft 10-06 to 10-08 (after her return) · UK three 10-06 to 10-09.
+- Result: sent

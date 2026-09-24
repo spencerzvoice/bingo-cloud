@@ -35,7 +35,7 @@ Big Think — DROPPED (no clean single-narrator spot).
 | Thinkific | Eric Smith | eric.smith@thinkific.com | DRAFT 09-11 (old format — rewrite once the take exists) |
 Parked, no Drive folder: Berklee Online (no usable contact; Lucia moved to Alumni Affairs, Craig Reed left) · sofatutor (HELD, reason unrecorded).
 
-## D — the 4 Sept cohort (10) · drafts rewritten 09-24, awaiting takes
+## D — the 4 Sept cohort (10) · CLOSED 09-24: 6 SENT 09-24, 3 UK SCHEDULED 09-29 09:00 UK, Shelter skipped
 | Company | Contact now | Email |
 |---|---|---|
 | Experian | Daren Levis (replaced Todd Miller, left) | daren.levis@experian.com |

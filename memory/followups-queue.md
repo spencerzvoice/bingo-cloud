@@ -55,6 +55,7 @@ Note: 3 Untold drafts (Tanya/Josephine/Nancy) — stagger sends across days rath
 - **Krista Hansen (GMR)** OOO no return date; **Lucas Bertoli** paternity leave; **Melissa Parsons (Octagon)** + **Kyle Osher (Asana)** need working emails.
 
 ## Upcoming (from the log)
+- **Funnel D (sent 09-24 / scheduled 09-29):** Experian, Purdue, Sarofsky, Snowflake, Tendril follow-ups 10-01 to 10-04 · Skillsoft/Alice 10-06 to 10-08 (OOO until 10-01; don't redirect) · Shell, Goalhanger, iAM Learning 10-06 to 10-09 (scheduled send 09-29 09:00 UK; confirm it went).
 - Funnel A final touches: scheduled by Spencer in Gmail for Tue 09-29 (nothing to draft).
 - ~Oct 1-3: Funnel B/C cold follow-ups (ClickUp/Atlassian/Canva/Zoom/HubSpot/monday/Grammarly/Asana, then 9 e-learning) — prep run on Wed 09-30 evening will need current-event hooks; expect >12, cap applies.
 - Wed 09-30: Elaine Craig follow-up if no reply (moved up from ~10-04; she's traveling).
