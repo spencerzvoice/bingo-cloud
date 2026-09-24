@@ -188,3 +188,11 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - iAM Learning — Clare Shepstone, Head of Studio — clare@iamlearningcontent.com — re-voice "iAM Bite Sized"
 - Skillsoft — Alice Lamey, Director, Content Production & Services — alice.lamey@skillsoft.com — re-voice "I Am Open" (replaces Amy Cantin, moved to product)
 - Ask: be a voice they call on regularly; locked rate, 24h turnaround. New emails (not thread replies). Links = [LINK] until takes recorded.
+
+## 2026-09-24 — Funnel A round 2 (Miro/Antoine, Linear/Julian, Framer/Andy) — drafts only, NOT sent
+- Miro: NEW contact Antoine Levi, "Creative Production Lead @ Miro" (🟡 - 8/30 DDG-snippet based, re-check live LinkedIn), antoine@miro.com (🟡 pattern-inferred). New email; references Samuel; no AI mention; re-voice of "Miro for Product Acceleration"; sample [LINK].
+- Linear: NEW contact Julian Lehr, "Content Marketing Manager @ Linear" (🟡 DDG snippet only), julian@linear.app (🟡 pattern-inferred from ari@linear.app). New email; reuses Automate Triage + coding-env samples; [LINK 1]/[LINK 2]. Fallback plan from 8/31 (Ari silent after cold + 9/11 bump).
+- Framer: Andy Orsow 2nd follow-up (thread reply), hook = Framer's "Introducing Skills" video posted same day (YouTube, checked live). No claim about narration.
+- Status: drafts in chat only. Tracker not updated (nothing sent). Add Antoine + Julian rows when sent; fix the corrupted Linear/Ari row (status + note belong to EuroLeague).
+- Follow up on: ~7-10 days after each send; Ari/Andy/Samuel roll to the October revisit if silent.
+- Result: pending send
