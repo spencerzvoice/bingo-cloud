@@ -2,6 +2,14 @@
 
 One entry per email. Update "Result" when a reply lands.
 
+## 2026-09-24 — Funnel A FINAL-touch drafts (6) — [DRAFTED in Gmail, NOT sent; Spencer to review + schedule]
+- Thread replies (subject unchanged), sit in Drafts of spencer@spencerzvoice.com. New angle vs the two bumps: free custom read within 24h for a script/link ("send me the script or a link"), closes as last touch ("I'll leave it here and check back later in the year"). Same free-spec-work offer as the Sept 7 agency batch - Spencer's call to keep. No em dashes (voice.md).
+- Framer/Andy draft also references the new "Introducing Skills" video ("voiceover sounded really polished") - Spencer-reported, he watched it. No mention of Ryan.
+- Draft IDs: Webflow r8194530643463777088 · Notion r-5663360547065162213 · Figma r-1808480185772649877 · Framer r8124052278003578515 · Linear r-577887987499350692 · Miro r6795296829423591467
+- Schedule (Tue 09-29, 8:00 AM contact-local, Lisbon entry time): Miro/Samuel 07:00 · Notion/Cory 13:00 · Linear/Ari 13:00 · Figma/Sydney 15:00 · Webflow/Marc 16:00 · Framer/Andy 16:00.
+- After these: NO further touches. Revisit ~Nov/Jan or on a real signal. Miro: never pitch Drew Jaz.
+- Result:
+
 ## 2026-09-07 — First-follow-up + lighter-touch batch (6) — follow-up [DRAFTED in Gmail, NOT sent]
 Same evening, after the 12 went out. Bingo drafted 6 as thread replies; awaiting Spencer.
 - **First follow-up (cold, 12–14d):** Josephine Gallagher + Nancy Loud (Untold), Laysa Martins (Ogilvy — the Luis redirect), Krista Hansen (GMR — kept low-key, acknowledges she may still be OOO). Short, warm, custom-audition offer. "warm bass/baritone read" descriptor (no "American").
