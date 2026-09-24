@@ -9,7 +9,7 @@ Purpose: for each prospect, one real **scripted single-narrator commercial** the
 
 ## Where everything lives
 - **`D:\My Drive\Client Outreach\`** — Google-Drive-synced local folder (Desktop shortcut "Client Outreach"). Drive folder id `1zZ9owoCgehA-p68i30sC-1u7zPGQtuOh` (My Drive root). NOT in this repo.
-- Layout: `Client Outreach/<Funnel X>/<Client>/` holds: source `.mp4`, `<Client>_NOVOX.mp4`, `<Client>_script.txt`, `sources.txt` (URL per line), `<Client> Project/` (Ableton), and `Ready to Link to Drafted Email/` (finished take goes here).
+- Layout: `Client Outreach/<Funnel X>/<Client>/` holds: source `.mp4`, `<Client>_NOVOX.mp4`, `<Client>_script.docx`, `sources.txt` (URL per line), `<Client> Project/` (Ableton), and `Ready to Link to Drafted Email/` (finished take goes here).
 - Multi-video clients: one Ableton project **per video** — `<Client> Project`, `<Client> 2 Project`.
 - Separate from `New Client Acquisition` (Spencer's finished deliverables) — never write there.
 - Ableton template: `Client Outreach/Ableton Template Project/Ableton Template.als` (Live 12.4.2).
@@ -20,12 +20,15 @@ Purpose: for each prospect, one real **scripted single-narrator commercial** the
 - `python -m pip install --user demucs numpy openai-whisper` (CPU-only torch; no CUDA). numpy must be installed separately.
 - Run ffprobe/ffmpeg via **Python `subprocess` with Windows paths** — Git Bash mangles paths containing `[brackets]`, `’` and spaces.
 
+- **Download fixes learned 2026-09-24 (Funnel D):** `height=1080` misses widescreen crops (1920x1012) — use `height<=1080`. YouTube needs a JS runtime: `pip install --user deno` and put `%APPDATA%\Python\Python314\Scripts` on PATH. Vimeo "only works when logged-in" → use the `player.vimeo.com/video/<id>` embed URL with `--referer <site> --impersonate chrome` (`pip install --user curl_cffi`). Agency sites often embed the full spots from Vimeo — scrape the project page for `player.vimeo.com/video/` ids. Claude Code's Bash sandbox blocks network — downloads need the sandbox off. YouTube "Please sign in" on some videos = bot gate; skip to another candidate rather than using browser cookies.
+- **Builder script:** `.claude/skills/revoice-material/scripts/revoice_build.py "<Funnel dir>" [Client ...]` — idempotent: downloads from `sources.txt` if no video, Demucs NOVOX, Ableton project. Multi-video clients: name NOVOX/script `<Client>_<Title>_NOVOX.mp4` and pass n=2 for `<Client> 2 Project`.
+
 ## Step 1 — Pick the video (per client)
 Real commercial/brand spot, **scripted, single narrator, ~8–125 s**. Reject tutorials, webinars, product overviews/walkthroughs, interviews/panels/podcasts, keynotes, testimonial montages, talking-head, music-only sizzles, anything ≳2 min. Website-embedded marketing videos outrank generic channel uploads. Spencer hand-picked the Funnel B/C sources; the routine (below) scrapes for new funnels.
 
 ## Step 2 — Download
 ```
-python -m yt_dlp -f "bestvideo[height=1080]+bestaudio/bestvideo[height=720]+bestaudio/best[height<=1080]" --merge-output-format mp4 --restrict-filenames -o "<dest>/%(title)s [%(id)s].%(ext)s" "<url>"
+python -m yt_dlp -f "bestvideo[height<=1080][vcodec^=avc1]+bestaudio[ext=m4a]/bestvideo[height<=1080]+bestaudio/best[height<=1080]/best" --merge-output-format mp4 --restrict-filenames -o "<dest>/%(title)s [%(id)s].%(ext)s" "<url>"
 ```
 Unlisted playlists need their `&si=` token. Route by the video's YouTube **channel name → client folder** (matched every client). Write the URL to `sources.txt`.
 
@@ -38,7 +41,7 @@ ffmpeg -i src.mp4 -i stems/htdemucs/audio/no_vocals.wav -map 0:v:0 -map 1:a:0 -c
 ```
 Picture untouched (`-c:v copy`); audio = music/SFX bed only. ~15–60 s/clip on CPU after the one-time ~80 MB model download. Spot-check for ghosting on dense mixes. Skip files that are already music-only (e.g. `MasterClass_Background_Music.mp4`).
 
-## Step 4 — Script → `<Client>_script.txt`
+## Step 4 — Script → `<Client>_script.docx` (**.docx, not .txt** — Spencer, 2026-09-24; python-docx, one paragraph per block)
 - YouTube: `python -m yt_dlp --write-subs --write-auto-subs --sub-langs "en.*" --sub-format vtt --skip-download -o "%(id)s.%(ext)s" <url>` → strip timestamps/tags/dupes → punctuate and paragraph. Prefer human subs over auto.
 - No captions (e.g. iSpot download): `whisper audio.wav --model small --output_format txt` (16 kHz mono wav; ffmpeg must be on PATH).
 - First line of the file: `Original copy - from captions, verify against the video.` (or `... Whisper transcription ...`).
@@ -66,5 +69,5 @@ Spencer opens the project, records over NOVOX, exports the take into `Ready to L
 
 ## Gotchas
 - Always verify the real contact/draft state live (Gmail via FGAC) before touching outreach — see CLAUDE.md 2a.
-- Funnel letters: A/B hand-built, C = e-learning, D = Shell/Experian/Shelter UK/Purdue/Snowflake/Sarofsky/Tendril/Goalhanger/iAM Learning/Skillsoft; next drafted cohort = next letter.
+- Funnel letters: A/B hand-built, C = e-learning, D = Shell/Experian/Shelter UK/Purdue/Snowflake/Sarofsky/Tendril/Goalhanger/iAM Learning/Skillsoft (all 10 packages built 2026-09-24); next drafted cohort = next letter.
 - Big files (>~20 MB) may fail the Drive API base64 upload; Drive-for-Desktop local copy avoids it.
