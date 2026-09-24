@@ -207,3 +207,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Status: drafts in chat only. Tracker not updated (nothing sent). Add Antoine + Julian rows when sent; fix the corrupted Linear/Ari row (status + note belong to EuroLeague).
 - Follow up on: ~7-10 days after each send; Ari/Andy/Samuel roll to the October revisit if silent.
 - Result: pending send
+
+## 2026-09-24 — Elaine Craig (coaching@elainecraig.com) — follow-up 1 — draft, NOT sent
+- Original: Sun 09-20 "Thank you!" (thread 1a0bf95bef407860) asked her to (a) listen to his reel + give pointers, (b) reel-production rates, (c) 1-on-1 direction. No reply as of 09-24 (live Gmail search, FGAC, from:elainecraig.com 10d = 0).
+- Follow-up: thread reply, shorter, two clear asks (reel listen; rates/availability for coaching or reel production). Reel link = [bracket].
+- Follow up on: if silent ~10 days after send, one more short nudge or check her site/booking page for direct 1-on-1 booking.
+- Result: pending send
