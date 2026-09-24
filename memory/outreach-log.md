@@ -123,7 +123,8 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Reel linked: TWO samples of their own videos — (1) re-voice of "Framer Agents: Design with AI, Keep Control" spot; (2) "Framer Update: Interactive Shaders" piece. + spencerzvoice.com. Credits: AWS rollouts, Artlist, Venmo, Dell (no FIFA — tech audience)
 - New email or thread reply: new email
 - Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer's own revised copy). Tracker rows 92 (Andy), 93 (Ari), 94 (Samuel). **Bump sent 2026-09-11** ("Just circling back..."). No reply as of 2026-09-17 (live Gmail check).
-- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Follow up on: FINAL new-hook touch ~Tue 2026-09-29 (live Gmail 09-24: still no reply to either email), then stop.
+- **2026-09-24 signal:** Spencer has a genuine LinkedIn convo going with Ryan Cotrupi (Digital Mktg, junior, ally — not the VO booker) and says Framer released a new video 09-23 with a VO (🟡 Spencer-reported, Bingo has not watched it). Bingo call: do NOT pitch Ryan; ask who handles VO; use the new video as the hook in the Andy final touch (no Ryan name-drop unless Ryan OKs).
 - Result: no reply yet
 
 ## 2026-08-31 — Linear (Ari Mojdeh) — cold
