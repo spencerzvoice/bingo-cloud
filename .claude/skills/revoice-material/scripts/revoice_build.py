@@ -62,23 +62,46 @@ def set_attr(seg, tag, value):
     return re.sub(r'(<%s Value=")[^"]*(" />)' % tag, lambda m: m.group(1) + str(value) + m.group(2), seg, count=1)
 
 
-def patch_clip(xml, clip_name, fpath):
+def patch_clip(xml, track_name, fpath):
+    """Point the one clip on `track_name` at `fpath`, written the way a manual drag-in writes it:
+    clip gain 0 dB (template placeholders sit at -70 dB), unwarped, named after the file.
+    Unwarped clips: CurrentEnd is in beats (120 BPM -> s*2); loop/marker fields are in seconds."""
     dur, sr = probe(fpath)
-    for m in re.finditer(r"<AudioClip [^>]*>", xml):
-        end = xml.find("</AudioClip>", m.start())
-        seg = xml[m.start():end]
-        if f'<Name Value="{clip_name}" />' not in seg:
+    for m in re.finditer(r"<AudioTrack Id=\"\d+\"[^>]*>", xml):
+        tend = xml.find("</AudioTrack>", m.start())
+        track = xml[m.start():tend]
+        if f'<EffectiveName Value="{track_name}" />' not in track:
             continue
-        beats = dur * 2  # template tempo fixed 120 BPM -> 1 beat = 0.5 s
-        for t in ("CurrentEnd", "LoopEnd", "OutMarker", "HiddenLoopEnd", "RightTime"):
-            seg = set_attr(seg, t, beats)
+        cm = re.search(r"<AudioClip [^>]*>.*?</AudioClip>", track, re.S)
+        seg = cm.group(0)
+        seg = set_attr(seg, "Name", os.path.splitext(os.path.basename(fpath))[0])
+        seg = set_attr(seg, "CurrentStart", 0)
+        seg = set_attr(seg, "CurrentEnd", dur * 2)
+        seg = set_attr(seg, "LoopStart", 0)
+        seg = set_attr(seg, "StartRelative", 0)
+        for t in ("LoopEnd", "OutMarker", "HiddenLoopEnd", "RightTime"):
+            seg = set_attr(seg, t, dur)
+        seg = set_attr(seg, "IsWarped", "false")
+        seg = set_attr(seg, "SampleVolume", 1)
         seg = set_attr(seg, "RelativePath", "../" + os.path.basename(fpath))
         seg = set_attr(seg, "Path", fpath.replace("\\", "/"))
         seg = set_attr(seg, "OriginalFileSize", os.path.getsize(fpath))
         seg = set_attr(seg, "DefaultDuration", int(round(dur * sr)))
         seg = set_attr(seg, "DefaultSampleRate", sr)
-        return xml[:m.start()] + seg + xml[end:]
-    raise RuntimeError(f"clip {clip_name} not found")
+        track = track[:cm.start()] + seg + track[cm.end():]
+        return xml[:m.start()] + track + xml[tend:]
+    raise RuntimeError(f"track {track_name} not found")
+
+
+def repatch(als, src, nv):
+    """Re-point an existing project's two video tracks (idempotent)."""
+    xml = gzip.open(als).read().decode("utf-8")
+    xml = patch_clip(xml, "ORIGINAL VIDEO", src)
+    xml = patch_clip(xml, "VIDEO WITHOUT VOX", nv)
+    ET.fromstring(xml.encode("utf-8"))
+    with gzip.GzipFile(als, "wb", mtime=0) as g:
+        g.write(xml.encode("utf-8"))
+    ET.fromstring(gzip.open(als).read())
 
 
 def ableton(client, cdir, src, nv, n=1):
