@@ -137,6 +137,15 @@ something he isn't. Plain words, contractions, short paragraphs.
   (redundant — English email, US VO, they'll hear it) or "low-register."
 - **Reference a specific, verified piece of their work** by name and say what
   stood out — only if confirmed. Never assume or fabricate a credit.
+- **Cold email order (Spencer, 2026-09-24; modelled on his sent Airtable/Rob email):**
+  1. Greeting.
+  2. Hook: one or two lines.
+  3. Who he is: the full intro paragraph, ending "You can hear my work at spencerzvoice.com."
+  4. **Then** the re-voice line with the hyperlinked title: "I put together a re-voice of your "<Title>" video. Give it a listen!"
+  5. Close: "Would love to be a voice you can call on regularly for <Company>'s video work. Locked rate, 24-hour turnaround. Feel free to reach out or schedule a call if this is something you're looking for. Hope to hear from you soon."
+  6. Sign-off.
+
+  Never lead with the sample. Introduce first, then show the work.
 - **Sample link = the video's title, hyperlinked (Spencer, 2026-09-24).** Never write "your video", "[LINK]" or a bare URL. Write e.g. `I put together a re-voice of your <a href="DRIVE_URL">"Better your score. Better your story."</a> spot. Give it a listen!` — the recipient recognises their own title, which reads as real work, not spam. Until the take exists, href = `https://drive.google.com/REPLACE-WITH-SAMPLE-LINK` (two videos: `...-2` for the second) and the plain-text part says `(LINK)`; swap in the Drive link when the take lands.
 - **Website as a full sentence:** "You can hear my work at spencerzvoice.com." —
   never a bare URL fragment.
