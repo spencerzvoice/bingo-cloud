@@ -149,6 +149,7 @@ Business-relevant carry-overs:
 - **2026-09-19 — Property/CPCV/downpayment is now handled by Paige (Spencer's personal-assistant agent); Bingo stays in the VO lane** and stops raising it.
 - **2026-09-21 — Script coaching: Spencer tried short snippets, then reverted — keep the full 6-part elaine-coach breakdown (he finds it helpful).**
 - **2026-09-24 — Every cold email gets a current-event hook (Spencer).** Before drafting, check the contact's LinkedIn recent activity, then the company's posts, for something from the last ~30 days; the post is the source. If nothing current turns up, skip the hook and say so. Method lives in the `outreach-email` skill ("Current-event hook").
+- **2026-09-24 — Live directed session = always its own line on top of usage, even radio (Spencer).** Default $250 (guide radio session $250–350/60–90 min; TV/Digital $500/2 hr +$250/hr). Overrides the "guide includes it" reading; in `reference/quick-quote.md`.
 - **2026-09-22 — Worldwide premium convention: Spencer says Worldwide ≈ 3× the national rate.** Current live GVAA guide publishes no Worldwide tier at all, so this is his house convention (🟡, not guide-verified) — apply it as the default multiplier instead of leaving Worldwide as an unpriced bracket. Saved in `vo-pricing` skill.
 
 ---
