@@ -117,7 +117,7 @@ line so he can see the build and push on any part). Structure:
 >
 > **Verdict:** \<PASS  |  Counter at $\<X\>  |  Quote $\<X\>\>. Floor $\<Y\>. \<one line why\>
 >
-> **Verification footer** (RULE 0): — Verified \<cell — GVAA guide, date\> / — Bracketed \<item\> / — Unknown \<item\>
+> **Verification footer** (RULE 0): — Verified (opened THIS session): \<page/tool — what\> or "none" / — Per card, not reopened: \<cells used, card date\> / — Bracketed \<item\> / — Unknown \<item\>
 
 Floor = **low end of the same cell**, or the next term down at the high end. Log (below) only if he's pursuing it.
 
@@ -138,7 +138,7 @@ After the internal read, give a response Spencer can paste straight into the sit
 
 Two short paragraphs is the target.
 
-**RULE 0:** grid cells are ✅ only if the live guide was opened this session; otherwise tag 🟡 and say the card was last verified 2026-09-19. Anything the brief didn't state (client, real brand, "digital" meaning, territory) is a `[bracket]` or flag, never asserted. Every quote ends with the verification footer. Never invent a rate or multiplier that isn't in the grid — bracket it and open the live guide.
+**RULE 0:** grid cells are ✅ only if the live guide was opened THIS session (it's behind a sign-up gate — Spencer signs in). Otherwise they are "Per card (read 2026-09-19), not reopened" — never write "Verified" for them, and tag each guide claim inline where it's used. Anything the brief didn't state (client, real brand, "digital" meaning, territory) is a `[bracket]` or flag, never asserted. Every quote ends with the verification footer. Never invent a rate or multiplier that isn't in the grid — bracket it and open the live guide.
 
 ## Flag checklist (⚑ line — only the ones that apply)
 
