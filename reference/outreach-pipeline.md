@@ -38,6 +38,7 @@ The live CRM for Spencer's outreach. **The Google Sheet is ground truth** — Sp
 
 ## Live leads & jobs in flight
 - **KU Marketing (Liz Nelson / Steve Rausch) — retainer offer** (sent 2026-09-23): Steve declined for now — project-by-project, "will keep a retainer in mind." Next: warm check-in ~2026-11-04. Aug preferred-vendor proposal still ❓ (not in Gmail). Confirm Traditions Night invoice paid.
+- **Altra Running — Tyler Gorky (Global Creative Producer, per Spencer)** (2026-09-24): Tyler phoned Spencer directly re an INTERNAL video (3rd/4th Altra spot). Prior Altra work all came via independent producer Lilah Kohlman (Run Spot Aug 2025 $2,200; Torin 9 Mar/Apr 2026 $3,200) — zero Gmail threads with Tyler or an altrarunning.com address (live FGAC check 09-24). Lilah's 08-27 + 09-11 check-ins unanswered. Tyler's LinkedIn NOT verified by Bingo (public profile is a blank stub; Spencer read the real one himself). Scope/script/budget not yet in. Plan: quote fair, deliver clean, pitch retainer/preferred-rate block at delivery. Status: awaiting job details.
 
 _Auto-logged (see the memory protocol in CLAUDE.md). Keep status lines current; condense/prune resolved + cold entries on the schedule in MEMORY.md._
 
