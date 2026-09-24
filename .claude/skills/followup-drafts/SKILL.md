@@ -6,14 +6,18 @@ description: >-
 
 # Follow-up drafts + reminders
 
-Spencer's goal (2026-09-24): he falls behind on follow-ups. Every day he has any due, the drafts must already be sitting in his Gmail Drafts and he gets a reminder; on the due day the reminder says "due today, be proactive." **Drafts only. Nothing is ever sent or scheduled by Bingo** (CLAUDE.md hard rule; the Gmail API can't schedule-send anyway).
+Spencer's goal (2026-09-24): he falls behind on follow-ups. Whenever a follow-up is due by the cadence rules, the drafts must already be in his Gmail Drafts and he gets a reminder; on the due day it says "due today, be proactive." Not daily: only when something is due. **Drafts only. Nothing is ever sent or scheduled by Bingo** (CLAUDE.md hard rule; the Gmail API can't schedule-send anyway).
+
+## Schedule-driven, not daily (Spencer, 2026-09-24)
+Reminders fire **only when a follow-up is due by the cadence rules**, not every day. The single source of dates is the **schedule ledger** in `memory/followups-queue.md` (rules table + per-cohort reminder / overdue dates, clock starts at the verified Gmail SEND date). Each due follow-up gets exactly three touchpoints: **prep** (drafts written the evening before), **remind** (once, ON the reminder date: "due today, send"), and **one overdue nudge** on the last day of the window if still unsent. Then stop. On days with nothing due: stay silent.
 
 ## Modes
-- **prep** (evening, Sun-Thu 18:00): find follow-ups due *tomorrow (next business day) or already overdue and undrafted*, draft the missing ones, notify "N drafts ready for tomorrow".
-- **remind** (weekday 09:00, after the ~08:27 Lisbon digest lands): pick up anything newly due in that morning's digest (draft it), then remind on everything in the queue still unsent: "due today".
+- **prep** (evening, Sun-Thu 18:00): find ledger rows whose reminder date (or overdue-nudge date) is the NEXT business day, plus anything overdue and undrafted; draft the missing ones; notify "N drafts ready for tomorrow".
+- **remind** (weekday 09:00): confirm sends since yesterday (Gmail Sent) and roll the ledger forward (next touch date, or "final, revisit <date>"); then notify only for rows whose reminder date is TODAY (or overdue-nudge date is today and still unsent). Also triage that morning's digest for genuinely new items, but the ledger is the authority; the digest only supplements it.
 - **interactive**: Spencer asks; do prep+remind in one pass.
 
 ## Step 1 — Find what's due (digest is INPUT, not gospel)
+0. Read the ledger in `memory/followups-queue.md` FIRST; it decides what is due today/tomorrow. Everything below is triage + supplement.
 1. Read the newest "VO Pipeline Digest" email in spencer@spencerzvoice.com (FGAC `google_api_get`, never the generic Gmail connector) and the tracker (`Outreach Tracker`, spreadsheetId in AGENTS.md). Also `memory/followups-queue.md` and `memory/outreach-log.md` "Follow up on" dates.
 2. **Triage every digest item against live Gmail** before drafting. The tracker flag is date-only and over-flags. Known false positives (2026-09-24): contacts who already replied (Mackenzie Prokos), contacts on their 3rd touch (Michael MacMillan = initial + 8/24 + 9/1 = done), the "data gap" on Nancy Loud (email was nancyloud@untoldstudios.tv, sent 9/7). For each candidate: search `to:<addr>` in Sent and `from:<domain>` in inbox; read the last sent message; confirm no reply, no bounce, no existing draft for that thread (list drafts).
 3. **Cadence rules** (from outreach-email Step 5): cold agency 7-10d, max 3 touches then October revisit (NO 4th touch). Warm past client, no open thread: 4-8 weeks, and the nudge must bring something new. Skip: OOO holds (Krista Hansen, Lucas Bertoli, Becca Winkler, Geminesse Johnson), "Hold" Next Actions, anyone who said "no current need / we'll reach out", Miro/Drew Jaz (never pitch), dropped rows, Voices.com/marketplace items (never in tracker).
@@ -32,12 +36,12 @@ Spencer's goal (2026-09-24): he falls behind on follow-ups. Every day he has any
 - Updating an existing draft = **PUT**, not PATCH. Read one back with `gmail_read` (draft message id) to verify subject/body/thread.
 
 ## Step 4 — Queue, log, notify
-1. Append each draft to `memory/followups-queue.md` (contact, company, thread id, draft id, due date, touch #, status `drafted`). When a later run sees the draft gone from Drafts and a matching message in Sent, mark `sent <date>` and update the tracker (Status, Last Contact Date, Notes) + `memory/outreach-log.md` in the same turn. Tracker edit rules: re-read the row's Name/Company first, write, read back; never write cols J/K.
+1. Append each draft to the draft queue in `memory/followups-queue.md` (contact, company, thread id, draft id, due date, touch #, status `drafted`). When a later run sees the draft gone from Drafts and a matching message in Sent, mark `sent <date>`, set the ledger's next reminder/overdue dates from the SEND date per the cadence table (never leave a sent contact without a next date or an explicit 'no further touch'), and update the tracker (Status, Last Contact Date, Notes) + `memory/outreach-log.md` in the same turn. Tracker edit rules: re-read the row's Name/Company first, write, read back; never write cols J/K.
 2. Log in `memory/outreach-log.md` and `memory/<today>.md`; commit + push (`git add -A && git commit -m "memory: follow-up drafts <date>" && git push`).
 3. **Notify Spencer** (both):
    - `PushNotification` (status "proactive", <200 chars): prep → "N follow-up drafts are in your Gmail Drafts for tomorrow. Quick look, then send." · remind → "N follow-ups are DUE TODAY, drafts ready in Gmail. Review + send now: <names>."
    - Also email him at spencer@spencerzvoice.com from himself via FGAC (same as the digest does), subject `VO follow-ups due today: N drafts ready` / `...due tomorrow...`, body = table of contact | company | touch # | one-line angle | anything to double-check before sending. If the send is blocked by FGAC's whitelist, say so in the run summary.
-4. If nothing is due, send nothing and stay quiet (no "all clear" noise), but still update the queue for anything sent.
+4. If nothing is due today per the ledger, send NOTHING and stay quiet (no "all clear", no daily pings), but still update the queue for anything sent.
 
 ## Standing don'ts
 Never send, schedule, or drop a contact silently. A "drop this" decision must be enacted in Gmail itself (delete the draft), not just written in memory (Kyle Osher lesson, 2026-09-23). Never add marketplace jobs to the tracker.

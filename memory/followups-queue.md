@@ -1,6 +1,32 @@
-# Follow-ups queue — drafts waiting for Spencer to review + send
+# Follow-ups queue + schedule ledger
 
-Maintained by the `followup-drafts` skill. Status: `drafted` → `sent <date>` (verified in Gmail Sent) or `dropped <date, why>`. Draft IDs are FGAC/Gmail draft ids in spencer@spencerzvoice.com.
+Maintained by the `followup-drafts` skill. Two parts: (1) the **schedule ledger** = the reminder dates, driven by the cadence rules; (2) the **draft queue** = drafts waiting for Spencer to review + send.
+
+## Cadence rules (Spencer, 2026-09-24: "follow the rule more closely; remind me when they're DUE, not daily")
+Source: outreach-email skill Step 5 + MEMORY.md. Clock starts at the SEND date of the last touch (verified in Gmail Sent).
+| Type | Touch 2 | Touch 3 (final) | After final |
+|---|---|---|---|
+| Cold agency/brand | day 7 (window 7-10) | day 14 after touch 2 (window 14-21) | STOP. Revisit >= 5 weeks later |
+| Warm past client, no open thread | day 28 (window 4-8 wks), must bring something new | - | re-nudge 4-8 wks |
+| Warm, mid-conversation | day 14-21 | - | - |
+Reminder policy: **prep** the evening before the reminder date, **remind** once ON the reminder date ("due today, send"), **one overdue nudge** on the window's last day (day 10 / day 21 / wk 8) if still unsent, then stop. No daily repeats. Weekend dates move to the prior Friday (overdue nudge) or next Monday (reminder). Send-timing: avoid US holidays and the business day before/after (Columbus/Indigenous Peoples' Day Mon 2026-10-12 => avoid Fri 10-09, Mon 10-12, Tue 10-13), and Friday afternoon ET.
+When a send is confirmed in Gmail Sent: write the send date, touch #, and compute the next reminder date below. Never leave a sent contact without a next date or an explicit "no further touch".
+
+## Schedule ledger (reminder = first day to send; overdue = last day of window)
+| Cohort | Last touch sent | Touch # sent | Next | Reminder | Overdue nudge | Note |
+|---|---|---|---|---|---|---|
+| Funnel B cold (13): ClickUp Wes+Eric, Atlassian Genna+Sarah, Canva Jack+Lydia, Grammarly Lauren, Zoom Teddy+Dan, HubSpot Linda+Jamal, monday Amalia, Asana Aubrey | 2026-09-22 (per tracker) | 1 | touch 2 | Tue 2026-09-29 (prep Mon 09-28 eve) | Fri 2026-10-02 | needs a new angle per contact (current-event hook or new sample); tracker had "~Oct 1-2" |
+| Funnel C cold (9): MasterClass, Skillshare, Udemy, LinkedIn Learning, Coursera, Instructure, Discovery Ed, Kaplan UK, LearningMate | 2026-09-23 (Gmail Sent, per digest/log) | 1 | touch 2 | Wed 2026-09-30 (prep Tue 09-29 eve) | Fri 2026-10-02 (day 10 = Sat) | |
+| Elaine Craig | 2026-09-24 (Sent) | 1 | follow-up 2 | Thu 2026-10-01 | Fri 2026-10-02 | earlier note said ~10-04; rule now 7-10d. Check her site for a booking link instead of a 3rd email |
+| Funnel A (6) | initial 08-31, bump 09-11, FINAL scheduled by Spencer for Tue 09-29 | 3 | none | - | - | after 09-29: STOP; revisit Nov/Jan or on a signal |
+| Cold agency finals sent 09-07 (Cheil x3, Untold Luke+Chelsea, Team One Melanie+Sam Walsh, Laundry Stacy+Abbey, Anomaly Erika+Michelle, Octagon Sean (08-31), iFIT Michael Hamblin) | 2026-09-07 | 3 (final) | revisit | Tue 2026-10-20 (PROPOSED, Spencer to confirm) | - | one light revisit with real new proof, not a bump |
+| Today's 6 cold finals (Sascha, Tanya, Josephine, Nancy, Laysa, Nathan) | drafted 09-24, NOT yet sent | 3 (final) when sent | revisit | send date + ~5 wks | - | set date when sent |
+| Today's 4 warm nudges (Dan Haas, Craig, Jeff Fine, Deb) | drafted 09-24, NOT yet sent | warm nudge when sent | warm re-nudge | send date + 28d | send date + 56d | |
+| Warm check-ins sent 09-11: Dan Shaw, Lilah Kohlman, Melissa Gillis (ATTN), Mel Kane (Invision), Taylor Ballam (Modo), Devin Leisher, Poullet (Tellary) | 2026-09-11 (tracker) | warm (type per tracker block, not re-verified) | next check-in | Thu 2026-10-08 (10-09 is the Fri before the holiday) | Fri 2026-11-06 | |
+| Jim Levi (CrowdReply) | 2026-09-16 (tracker) | check-in | next | Wed 2026-10-14 | - | retainer thread, keep it real not needy |
+| KU (Liz Nelson / Steve Rausch) | 2026-09-23 | replied | warm check-in | Wed 2026-11-04 | - | no retainer pitch |
+
+**Unscheduled backlog (needs Spencer go/no-go, NOT on any clock yet):** stale warm check-ins the tracker flags: Ryan Lago, Alexandra Buhrow, Jordan Deva, Erin Daughenbaugh, Ruthie Mason, David Martin, Vishuddha (Tony), Mary Chaplin (Xpedition, fall dates), Luke Mellows, Jamie Pearson (held until the EuroLeague invoice clears). Say which ones to put on the clock.
 
 ## Batch 2026-09-24 (drafted 20:06 Lisbon, for Fri 2026-09-25) — 10 drafts, NOT sent
 Cold agency 2nd/final touches (new proof: EuroLeague basketball + free custom read; closes as last touch):
