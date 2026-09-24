@@ -17,7 +17,7 @@ When a send is confirmed in Gmail Sent: write the send date, touch #, and comput
 |---|---|---|---|---|---|---|
 | Funnel B cold (13): ClickUp Wes+Eric, Atlassian Genna+Sarah, Canva Jack+Lydia, Grammarly Lauren, Zoom Teddy+Dan, HubSpot Linda+Jamal, monday Amalia, Asana Aubrey | 2026-09-22 (per tracker) | 1 | touch 2 | Tue 2026-09-29 (prep Mon 09-28 eve) | Fri 2026-10-02 | needs a new angle per contact (current-event hook or new sample); tracker had "~Oct 1-2" |
 | Funnel C cold (9): MasterClass, Skillshare, Udemy, LinkedIn Learning, Coursera, Instructure, Discovery Ed, Kaplan UK, LearningMate | 2026-09-23 (Gmail Sent, per digest/log) | 1 | touch 2 | Wed 2026-09-30 (prep Tue 09-29 eve) | Fri 2026-10-02 (day 10 = Sat) | |
-| Elaine Craig | 2026-09-24 (Sent) | 1 | follow-up 2 | Thu 2026-10-01 | Fri 2026-10-02 | earlier note said ~10-04; rule now 7-10d. Check her site for a booking link instead of a 3rd email |
+| Elaine Craig | 2026-09-24 (Sent); she auto-replied 09-24: traveling this week, will reply when back | 1 | follow-up 2 (only if no reply) | Wed 2026-09-30 (one-time task `elaine-followup-reminder`, 09:05) | Fri 2026-10-02 | Spencer's call 09-24: mid-next-week nudge. Check her site for a booking link; thread reply, short, no pressure |
 | Funnel A (6) | initial 08-31, bump 09-11, FINAL scheduled by Spencer for Tue 09-29 | 3 | none | - | - | after 09-29: STOP; revisit Nov/Jan or on a signal |
 | Cold agency finals sent 09-07 (Cheil x3, Untold Luke+Chelsea, Team One Melanie+Sam Walsh, Laundry Stacy+Abbey, Anomaly Erika+Michelle, Octagon Sean (08-31), iFIT Michael Hamblin) | 2026-09-07 | 3 (final) | revisit | Tue 2026-10-20 (PROPOSED, Spencer to confirm) | - | one light revisit with real new proof, not a bump |
 | Today's 6 cold finals (Sascha, Tanya, Josephine, Nancy, Laysa, Nathan) | drafted 09-24, NOT yet sent | 3 (final) when sent | revisit | send date + ~5 wks | - | set date when sent |
@@ -57,5 +57,5 @@ Note: 3 Untold drafts (Tanya/Josephine/Nancy) — stagger sends across days rath
 ## Upcoming (from the log)
 - Funnel A final touches: scheduled by Spencer in Gmail for Tue 09-29 (nothing to draft).
 - ~Oct 1-3: Funnel B/C cold follow-ups (ClickUp/Atlassian/Canva/Zoom/HubSpot/monday/Grammarly/Asana, then 9 e-learning) — prep run on Wed 09-30 evening will need current-event hooks; expect >12, cap applies.
-- ~Oct 4: Elaine Craig (check her site for a booking link instead of a 3rd email).
+- Wed 09-30: Elaine Craig follow-up if no reply (moved up from ~10-04; she's traveling).
 - ~Nov 4: KU warm check-in (Liz/Steve).

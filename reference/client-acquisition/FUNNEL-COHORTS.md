@@ -44,7 +44,7 @@ Parked, no Drive folder: Berklee Online (no usable contact; Lucia moved to Alumn
 | Purdue | Jason Doty | doty@purdue.edu |
 | Sarofsky | Paul Klinke (replaced Joel Signer, left) | paul.klinke@sarofsky.com |
 | Shell | Jane Sayers | jane.sayers@shell.com |
-| Shelter UK | Leanne Ainsworth | leanne_ainsworth@shelter.org.uk |
+| Shelter UK | Leanne Ainsworth — SKIPPED 09-24 (Spencer), draft trashed | — |
 | Skillsoft | Alice Lamey (replaced Amy Cantin, moved roles) | alice.lamey@skillsoft.com |
 | Snowflake | Jason Fassler (replaced Oliver Mellan, left) | jason.fassler@snowflake.com |
 | Tendril | Ivelle Jargalyn | ivelle@tendril.ca |
