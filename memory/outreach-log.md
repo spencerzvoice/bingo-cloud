@@ -223,3 +223,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Digest false positives caught: Nancy Loud email WAS sent 9/7 (nancyloud@untoldstudios.tv; tracker D18/D19 now filled for her + Josephine); MacMillan already 3 touches; Prokos replied 9/2; Luke Mellows reconnect apparently never sent; Jamie Pearson held (Ian/EuroLeague budget + invoice 9/25).
 - Follow up on: none after these (final touches). Warm four: revisit ~4-8 weeks.
 - Result: pending send
+
+## 2026-09-24 — Funnel E (7) — cold, drafts rewritten (unsent)
+- Sprout Social / Rebecca Dole · Retool / Kasey Hickey · Splunk / Tom Krymkowski · PagerDuty / Stephanie Muniz (NEW, replaces Erica Forte) · Braze / Lauren Bernal · Zendesk / Cody McPherson (NEW, replaces Ariana Blair) · Grafana Labs / Collins Pace
+- Angle: re-voice of their own spot (title hyperlinked, placeholder link until the take exists) + current hook where one exists
+- New email (not thread replies). Status: drafts in Gmail, label Funnel E. Waiting on Spencer's takes.
+- Follow up on: 7–10 days after send

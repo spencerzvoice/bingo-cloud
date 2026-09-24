@@ -49,8 +49,17 @@ Parked, no Drive folder: Berklee Online (no usable contact; Lucia moved to Alumn
 | Snowflake | Jason Fassler (replaced Oliver Mellan, left) | jason.fassler@snowflake.com |
 | Tendril | Ivelle Jargalyn | ivelle@tendril.ca |
 
-## E — the 11 Sept cohort (7) · Spencer approved 09-24; Drive folders + packages being built
-Sprout Social (Rebecca Dole) · Retool (Kasey Hickey) · Splunk (Tom Krymkowski) · PagerDuty (brand@ role inbox, attn. Erica Forte) · Braze (Lauren Bernal) · Zendesk (Ariana Blair) · Grafana Labs (Collins Pace). Old format ("American", "low-register", no sample). They need a Drive folder, a re-voice package and a rewrite before sending.
+## E — the 11 Sept cohort (7) · packages built + drafts rewritten 09-24, awaiting takes
+| Company | Contact (LinkedIn-checked 09-24) | Email | Sample video |
+|---|---|---|---|
+| Sprout Social | Rebecca Dole, Sr. Director Creative Ops | rebecca.dole@sproutsocial.com | "Employee Advocacy by Sprout Social" (2022, 45s) |
+| Retool | Kasey Hickey, Sr. Director Content & Brand Marketing | kasey.hickey@retool.com | "Retool Apps \| Build polished apps, fast" (2024, 93s) |
+| Splunk | Tom Krymkowski, Staff Video Producer | tkrymkowski@splunk.com | "Hidden Value" (Feb 2026, 44s) |
+| PagerDuty | **Stephanie Muniz**, Creative Project Manager (replaces Erica Forte, left Jul 2025; backup Shannon Boston also left) | smuniz@pagerduty.com | "When Minutes Matter, Records Aren't Enough" (Feb 2026, 60s) |
+| Braze | Lauren Bernal, Sr. Creative Director | lauren.bernal@braze.com | "BrazeAI™ – AI for Marketing…" (Jan 2026, 104s) |
+| Zendesk | **Cody McPherson**, Sr. Creative Producer (replaces Ariana Blair, left Aug 2026; backup Victor Hugo Duran also left) | cody.mcpherson@zendesk.com | "Introducing Zendesk Copilots" (May 2026, 37s) |
+| Grafana Labs | Collins Pace, Video Producer | collins.pace@grafana.com | "Synthetic Monitoring overview" (May 2026, 92s) |
+Note: the Gmail label "Funnel E" already existed and also sits on the Pluralsight + Thinkific drafts (Drive has them in C2).
 
 ## Pending drafts in spencer@spencerzvoice.com: 21 (live count, 09-24)
 10 Funnel D · 2 Airtable (B) · 2 Pluralsight/Thinkific (C2) · 7 Funnel E. (Kansas's retainer reply went out 09-23/24. Funnel A's 6 final touches are *scheduled*, not drafts.)
