@@ -162,9 +162,9 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Ask: interest in a retainer, or keep project-by-project; offer to send an outline
 - Reel linked: none (spencerzvoice.com in sig)
 - New email or thread reply: thread reply in "Re: VO for Event Video" (thread 19fd29585b421562), Gmail draft r4489703761294617964
-- Status: draft in Gmail, Spencer to send 2026-09-23 ~10am CT (16:00 Lisbon). Reminder task `ku-retainer-send-reminder` fires 15:30 Lisbon.
-- Follow up on: 2026-10-14 if no reply (avoid Oct 12–13 Columbus Day window)
-- Result:
+- Status: SENT 2026-09-23 21:28 Lisbon (live Gmail check).
+- Follow up on: ~2026-11-04 warm check-in (no retainer pitch). Oct 14 follow-up cancelled — they replied.
+- Result: Steve Rausch replied 2026-09-23: project-by-project for now, will keep a retainer in mind, thanked Spencer for the work. Spencer acknowledged same night. Retainer = soft no, relationship intact.
 - Note: memory says a preferred-vendor rate proposal went to Steve in Aug 2026, but no such email exists in spencer@spencerzvoice.com (live check 2026-09-22) — unconfirmed whether it was ever sent. Don't lock the Aug rate card (≤1 min $200) in for a year; price the retainer fresh via vo-pricing.
 
 ## 2026-09-23 - Funnel C (e-learning) - 9 cold re-voice drafts, NOT SENT
