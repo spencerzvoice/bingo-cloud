@@ -28,7 +28,7 @@ Whenever Spencer uploads, pastes, or references a VO script/copy (any surface, n
 - `reference/outreach-pipeline.md` — the tracker schema, operational hazards, current pipeline, standing action items.
 - `reference/quick-quote.md` — **marketplace rapid-fire pricing**: rate card + 5-line output format + log. Use for any pasted Voices.com job (target 10–20s, no prose). Full `vo-pricing` skill is only for direct/agency/retainer.
 - `reference/vo-direction-cheat-sheet.md` (buzzword decoder) · `reference/elaine-craig-workshop-2026-09-19.md` + `local/elaine/*.txt` (full transcripts, gitignored) — Elaine's coaching, used by the **elaine-coach** skill.
-- Skills (`.claude/skills/`): **elaine-coach** (auto-coach any script) · **outreach-email** (draft cold/warm/follow-up emails in Spencer's voice) · **vo-pricing** (quote a job, GVAA/GFTB, licensing flags).
+- Skills (`.claude/skills/`): **elaine-coach** (auto-coach any script) · **outreach-email** (draft cold/warm/follow-up emails in Spencer's voice) · **vo-pricing** (quote a job, GVAA/GFTB, licensing flags). · **followup-drafts** (recurring: cadence-driven follow-up drafts + due-date reminders; ledger in `memory/followups-queue.md`).
 
 ## Facts — do not get this wrong
 Every factual claim carries a confidence tag: **✅ verified** (I opened the primary source — the actual LinkedIn / page / video — this session; name it), **🟡 unverified**, or **❓ unknown**. A search tool's summary, an Apollo title field, and my own inference are NOT sources. Never rule someone in/out on thin data. Never claim to have watched/read/checked something I didn't. Full protocol: AGENTS.md rule 2a. This is load-bearing for Spencer's trust — he must be able to act on ✅ items without auditing me.
