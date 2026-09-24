@@ -51,11 +51,41 @@ Ask Spencer only for what's missing:
   and tell Spencer which in the handoff (a "Re:" subject with no real prior
   thread is a stylistic convention here, not a literal reply; flag that).
 
-**News hook:** proactively search for one genuine, recent hook (award, campaign
-launch, new hire, milestone) before drafting. Use first-hand reputable sources.
-**If nothing real turns up, do NOT invent one** — use a plain "I've kept busy
-with…" line instead. (Spencer nearly sent a fabricated Cisco connection once
-because of a name collision — verify every credit/connection claim.)
+**Current-event hook — REQUIRED step for every cold email (Spencer, 2026-09-24).**
+Before drafting, find one genuine, *current* hook, ideally from the last ~30 days.
+Run it in this order and stop at the first real hit:
+1. **The contact's own LinkedIn activity.** In Spencer's logged-in Chrome (Claude in
+   Chrome, not the in-app browser), open `linkedin.com/in/<slug>/recent-activity/all/`,
+   scroll once, and read the top ~6 posts *with their age* ("17h", "3w"). Best hits:
+   something they're presenting or attending, a launch they posted, a festival or
+   award, a new role, a press feature they shared.
+2. **The company's LinkedIn posts** (`linkedin.com/company/<slug>/posts/?feedView=all`):
+   a new series or campaign, a line from a brand post worth quoting (keep the quote
+   under 15 words), an event.
+3. **The contact's recent-post pattern ties to Spencer.** If a hook links to a
+   verified credit, use it: e.g. The Rest Is Football ↔ the FIFA World Cup 2026
+   preview series.
+
+Rules:
+- **The post itself is the source.** Cite it in the verification footer as
+  "<person/company> LinkedIn post, <age>, read <date>". A search snippet is not a
+  source (AGENTS.md).
+- **Say only what the post shows.** If they *shared* an article, the hook is "saw
+  your Campaign UK feature", not "I read…", unless the article was opened. Don't
+  credit them with producing something the post doesn't say they made.
+- **One or two plain, fan-note sentences**, placed right after the greeting and
+  before the "I put together a re-voice of…" line. No analysis of their business
+  (Step 4 voice rule).
+- **Stale hooks:** reposts older than ~3 months, or a 1-year-old job post, don't
+  count. Event-dated hooks ("this week", "this Thursday") go stale fast: write them
+  so they still read right a week or two later ("Saw your post about presenting…"),
+  and flag those drafts in the handoff as send-soon.
+- **If nothing current turns up, do NOT invent one.** Skip the hook line and let
+  the re-voice sample be the opener, then say so in the handoff ("no current hook:
+  latest activity 8mo"). (Spencer nearly sent a fabricated Cisco connection once
+  because of a name collision, so verify every credit/connection claim.)
+- Re-check the hook when a draft has sat unsent for more than 2 weeks, since it
+  may have gone stale.
 
 ## Step 3 — Rate guardrail
 
