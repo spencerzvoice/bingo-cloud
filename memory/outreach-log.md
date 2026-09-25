@@ -223,7 +223,7 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Warm nudges (thread replies): Dan Haas (ATTN), Craig Pentak (Condado Tacos), Jeff Fine (Shadow Lion), Deb Cad (Kanahoma/NMSU) - 4-week hold expired 09-22; new = FIFA series + EuroLeague.
 - Digest false positives caught: Nancy Loud email WAS sent 9/7 (nancyloud@untoldstudios.tv; tracker D18/D19 now filled for her + Josephine); MacMillan already 3 touches; Prokos replied 9/2; Luke Mellows reconnect apparently never sent; Jamie Pearson held (Ian/EuroLeague budget + invoice 9/25).
 - Follow up on: none after these (final touches). Warm four: revisit ~4-8 weeks.
-- Result (live Gmail 2026-09-25): SENT 09-24 evening: Laysa, Dan Haas, Craig Pentak, Jeff Fine (warm re-nudge 10-22, Laysa revisit 10-29). Deb dropped, draft deleted. Still unsent, due 09-25: Sascha, Nathan, Tanya (send 09-25), Josephine (09-28), Nancy (09-29). Their subjects were mojibake; fixed in place 09-25.
+- Result (live Gmail 2026-09-25): SENT 09-24 evening: Laysa, Dan Haas, Craig Pentak, Jeff Fine (warm re-nudge 10-22, Laysa revisit 10-29). Deb dropped, draft deleted. Still unsent, due 09-25: Sascha, Nathan, Tanya (send 09-25), Josephine + Nancy together Mon 09-28. Their subjects were mojibake; fixed in place 09-25.
 
 ## 2026-09-24 — Funnel E (7) — cold, drafts rewritten (unsent)
 - Sprout Social / Rebecca Dole · Retool / Kasey Hickey · Splunk / Tom Krymkowski · PagerDuty / Stephanie Muniz (NEW, replaces Erica Forte) · Braze / Lauren Bernal · Zendesk / Cody McPherson (NEW, replaces Ariana Blair) · Grafana Labs / Collins Pace
