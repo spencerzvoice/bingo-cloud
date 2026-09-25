@@ -23,8 +23,11 @@ When a send is confirmed in Gmail Sent: write the send date, touch #, and comput
 | Funnel D UK (3): Shell Jane Sayers, Goalhanger Alistair Dixon, iAM Learning Clare Shepstone | SCHEDULED Tue 2026-09-29 09:00 UK - confirm in Sent | 1 (once sent) | touch 2 | Tue 2026-10-06 (prep Mon 10-05 eve) | Fri 2026-10-09 (UK, US holiday rule n/a; send UK morning) | tracker rows 132-134: flip to Sent + Last Contact 09/29 when confirmed |
 | Funnel A (6) | initial 08-31, bump 09-11, FINAL scheduled by Spencer for Tue 09-29 | 3 | none | - | - | after 09-29: STOP; revisit Nov/Jan or on a signal |
 | Cold agency finals sent 09-07 (Cheil x3, Untold Luke+Chelsea, Team One Melanie+Sam Walsh, Laundry Stacy+Abbey, Anomaly Erika+Michelle, Octagon Sean (08-31), iFIT Michael Hamblin) | 2026-09-07 | 3 (final) | revisit | Tue 2026-10-20 (PROPOSED, Spencer to confirm) | - | one light revisit with real new proof, not a bump |
-| Today's 6 cold finals (Sascha, Tanya, Josephine, Nancy, Laysa, Nathan) | drafted 09-24, NOT yet sent | 3 (final) when sent | revisit | send date + ~5 wks | - | set date when sent |
-| Today's 4 warm nudges (Dan Haas, Craig, Jeff Fine, Deb) | drafted 09-24, NOT yet sent | warm nudge when sent | warm re-nudge | send date + 28d | send date + 56d | |
+| Laysa Martins (Ogilvy) | 2026-09-24 22:20 Lisbon (Gmail Sent) | 2nd/final | revisit | Thu 2026-10-29 | - | final done; revisit only with real new proof |
+| Cold finals still unsent: Sascha (Team One), Tanya, Josephine, Nancy (Untold), Nathan (The Team) | drafted 09-24; subjects re-fixed 09-25 | 3 (final) when sent | send | **Fri 2026-09-25 (DUE, reminded)** | Fri 2026-10-02 (one nudge if still unsent) | Untold 3: stagger; set revisit = send + ~5 wks |
+| Warm nudges Dan Haas (ATTN), Craig Pentak, Jeff Fine (Shadow Lion) | 2026-09-24 ~22:17-22:19 Lisbon (Gmail Sent) | warm nudge | warm re-nudge | Thu 2026-10-22 | Thu 2026-11-19 | Deb dropped, draft deleted (gone from Drafts 09-25) |
+| Funnel D US six (Experian Daren, Purdue Jason, Sarofsky Paul, Snowflake Jason F, Tendril Ivelle) + Skillsoft Alice | 2026-09-24 (tracker/log) | 1 | touch 2 | Thu 2026-10-01 (Skillsoft: Tue 10-06) | Fri 2026-10-02 (Skillsoft: Thu 10-08) | Alice OOO auto-reply until 10-01 |
+| Airtable: Kirsten Golden, Rob Nikzad | 2026-09-24 (tracker + digest; not in ledger before) | 1 | touch 2 | Thu 2026-10-01 | Fri 2026-10-02 (day 10 = Sun) | added 09-25 |
 | Warm check-ins sent 09-11: Dan Shaw, Lilah Kohlman, Melissa Gillis (ATTN), Mel Kane (Invision), Taylor Ballam (Modo), Devin Leisher, Poullet (Tellary) | 2026-09-11 (tracker) | warm (type per tracker block, not re-verified) | next check-in | Thu 2026-10-08 (10-09 is the Fri before the holiday) | Fri 2026-11-06 | |
 | Jim Levi (CrowdReply) | 2026-09-16 (tracker) | check-in | next | Wed 2026-10-14 | - | retainer thread, keep it real not needy |
 | KU (Liz Nelson / Steve Rausch) | 2026-09-23 | replied | warm check-in | Wed 2026-11-04 | - | no retainer pitch |
@@ -36,17 +39,17 @@ When a send is confirmed in Gmail Sent: write the send date, touch #, and comput
 Cold agency 2nd/final touches (new proof: EuroLeague basketball + free custom read; closes as last touch):
 | Contact | Company | Thread | Draft ID | Touch | Status |
 |---|---|---|---|---|---|
-| Sascha Peuckert | Team One | 19fcd6e367fefe95 | r-2714561536969292648 | 3rd/final | drafted |
-| Tanya Ferguson | Untold Studios | 19fd6b0e85e17a8d | r-6613706186512581303 | 3rd/final | drafted |
-| Josephine Gallagher | Untold Studios | 1a03e32d830bc89b | r-3921571371785875438 | 2nd/final | drafted |
-| Nancy Loud | Untold Studios | 1a03e3509096758e | r-2797302026367439198 | 2nd/final | drafted |
-| Laysa Martins | Ogilvy NY | 1a0332b414944dfc | r9038748080707755500 | 2nd/final | drafted |
-| Nathan Mallon | The Team | 1a05897ced01a41a | r4877179739108546755 | 2nd/final | drafted |
+| Sascha Peuckert | Team One | 19fcd6e367fefe95 | r-2714561536969292648 | 3rd/final | drafted (subject fixed 09-25) |
+| Tanya Ferguson | Untold Studios | 19fd6b0e85e17a8d | r-6613706186512581303 | 3rd/final | drafted (subject fixed 09-25) |
+| Josephine Gallagher | Untold Studios | 1a03e32d830bc89b | r-3921571371785875438 | 2nd/final | drafted (subject fixed 09-25) |
+| Nancy Loud | Untold Studios | 1a03e3509096758e | r-2797302026367439198 | 2nd/final | drafted (subject fixed 09-25) |
+| Laysa Martins | Ogilvy NY | 1a0332b414944dfc | r9038748080707755500 | 2nd/final | sent 2026-09-24 |
+| Nathan Mallon | The Team | 1a05897ced01a41a | r4877179739108546755 | 2nd/final | drafted (subject fixed 09-25) |
 Warm past-client nudges (4-week hold expired 09-22; brings FIFA series + EuroLeague as new):
-| Dan Haas | ATTN | 1a03e41e0bfce309 | r-5890044460425218053 | warm nudge | drafted |
-| Craig Pentak | Pentak Creative (Condado Tacos) | 1a03e43375b1121d | r7405969853842060732 | warm nudge | drafted |
-| Jeff Fine | Shadow Lion | 1a03e51dece46262 | r4701888671178983505 | warm nudge | drafted |
-| Deb Cad | Kanahoma (NMSU) | 1a03e4464c2443bd | r-6575426239184653487 | warm nudge | DROPPED 09-24 (Spencer: believes she left Kanahoma, unverified). Tracker row 81 = Dropped. Draft still in Gmail Drafts - Spencer to delete (trash call was blocked) |
+| Dan Haas | ATTN | 1a03e41e0bfce309 | r-5890044460425218053 | warm nudge | sent 2026-09-24 |
+| Craig Pentak | Pentak Creative (Condado Tacos) | 1a03e43375b1121d | r7405969853842060732 | warm nudge | sent 2026-09-24 |
+| Jeff Fine | Shadow Lion | 1a03e51dece46262 | r4701888671178983505 | warm nudge | sent 2026-09-24 |
+| Deb Cad | Kanahoma (NMSU) | 1a03e4464c2443bd | r-6575426239184653487 | warm nudge | DROPPED 09-24 (Spencer: believes she left Kanahoma, unverified). Tracker row 81 = Dropped. Draft confirmed gone from Drafts 09-25 (not sent) |
 
 Note: 3 Untold drafts (Tanya/Josephine/Nancy) — stagger sends across days rather than all at once; Luke + Chelsea there already got their final on 09-07.
 
