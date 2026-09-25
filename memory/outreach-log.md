@@ -259,5 +259,5 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Funnel E: 7 existing drafts re-PUT (they had the sample BEFORE the intro and lacked the "reach out or schedule a call" line). Hooks unchanged from 09-24.
 - Funnel C2: IxDF, PINKTUM, 2U, Domestika NEW; Pluralsight, Thinkific rewritten (old 09-11 versions had "American"/speculative hooks). Hooks: PINKTUM (Patrick's post 2d), Domestika/Pluralsight/Thinkific (company YouTube uploads). None: IxDF, 2U. PINKTUM sample is German - Spencer's call.
 - Funnel F (NEW cohort, 6): Zapier, Dropbox, Intercom, Descript, Smartsheet, Box. Contacts verified live on LinkedIn experience pages 09-25; gmail shows no prior contact. Packages built in Drive `Funnel F/`. Targeted send: Mon 09-28 once takes are recorded (US contacts; not a holiday).
-- Drafts now 24 (5 follow-up replies + 7 E + 6 C2 + 6 F). Detail tables: reference/client-acquisition/FUNNEL-COHORTS.md.
+- Drafts now 19 live (7 E + 6 C2 + 6 F); the 5 follow-up replies are gone from Drafts (unchecked whether sent). Detail tables: reference/client-acquisition/FUNNEL-COHORTS.md.
 - Follow up on: 7-10 days after each send.
