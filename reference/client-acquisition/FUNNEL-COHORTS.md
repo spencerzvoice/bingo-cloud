@@ -29,7 +29,7 @@ Format = Spencer's sent Airtable/Kirsten email (hook -> intro -> hyperlinked re-
 | Company | Contact | Email | Hook (source, read 09-25) |
 |---|---|---|---|
 | IxDF | Roman Kurachenko, Head of Video (Apollo: since 2021; LinkedIn profile has no activity) | roman@team.interaction-design.org | none (no activity; company posts generic). Weak sample: first-person course trailer |
-| PINKTUM (DROPPED, draft trashed 09-25) | Patrick Pakulat, Marketing Manager | patrick.pakulat@pinktum.com | his LinkedIn post (2d): colleague Dr. Britta Leusing's Corporate Learning Community session. **Sample is a GERMAN spot - no English script; Spencer's call** |
+| PINKTUM (DROPPED: draft trashed, Drive folder deleted 09-25) | Patrick Pakulat, Marketing Manager | patrick.pakulat@pinktum.com | his LinkedIn post (2d): colleague Dr. Britta Leusing's Corporate Learning Community session. **Sample is a GERMAN spot - no English script; Spencer's call** |
 | 2U / edX | Toby Riley, Creative Director | triley@2u.com | none (his last post 3yr; 2U posts are market-intel) |
 | Domestika | Valeria Flores, Content Production Manager | valeria@domestika.org | Domestika English YouTube: "Animal Drawings for Beginners..." (3d) |
 | Pluralsight | Lydia Crisp, Sr Manager Content Production (LinkedIn /in/lydiacrisp) | lydia-crisp@pluralsight.com | Pluralsight YouTube: "How to Evaluate Employee Capability..." (3w). Rewritten from 09-11 draft |
