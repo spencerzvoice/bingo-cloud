@@ -24,12 +24,12 @@ Airtable — Rob Nikzad (Head of Brand + Creative) + Kirsten Golden (Creative Pr
 SENT 09-23: LinkedIn Learning (Kyle Ranson-Walsh), Coursera (Brandon Rafalson), Instructure (Mike West), Discovery Education (Allison Andrews), Kaplan UK (Rory Green), LearningMate (Joanne Pratt), MasterClass (Luke Sienko), Skillshare (Hasaanah Abdul-Wahid), Udemy (Jennifer Johnston).
 Big Think — DROPPED (no clean single-narrator spot).
 
-## C2 — e-learning, the rest of C (6 + 2 parked) · ALL 6 DRAFTED 09-25 (Gmail label "Funnel C2"), packages built 09-24, awaiting takes
+## C2 — e-learning, the rest of C (5 live + 3 parked) · 5 drafted 09-25, PINKTUM DROPPED 09-25 (Spencer) (Gmail label "Funnel C2"), packages built 09-24, awaiting takes
 Format = Spencer's sent Airtable/Kirsten email (hook -> intro -> hyperlinked re-voice title -> close). Links are REPLACE-WITH-SAMPLE-LINK placeholders until takes exist.
 | Company | Contact | Email | Hook (source, read 09-25) |
 |---|---|---|---|
 | IxDF | Roman Kurachenko, Head of Video (Apollo: since 2021; LinkedIn profile has no activity) | roman@team.interaction-design.org | none (no activity; company posts generic). Weak sample: first-person course trailer |
-| PINKTUM | Patrick Pakulat, Marketing Manager | patrick.pakulat@pinktum.com | his LinkedIn post (2d): colleague Dr. Britta Leusing's Corporate Learning Community session. **Sample is a GERMAN spot - no English script; Spencer's call** |
+| PINKTUM (DROPPED, draft trashed 09-25) | Patrick Pakulat, Marketing Manager | patrick.pakulat@pinktum.com | his LinkedIn post (2d): colleague Dr. Britta Leusing's Corporate Learning Community session. **Sample is a GERMAN spot - no English script; Spencer's call** |
 | 2U / edX | Toby Riley, Creative Director | triley@2u.com | none (his last post 3yr; 2U posts are market-intel) |
 | Domestika | Valeria Flores, Content Production Manager | valeria@domestika.org | Domestika English YouTube: "Animal Drawings for Beginners..." (3d) |
 | Pluralsight | Lydia Crisp, Sr Manager Content Production (LinkedIn /in/lydiacrisp) | lydia-crisp@pluralsight.com | Pluralsight YouTube: "How to Evaluate Employee Capability..." (3w). Rewritten from 09-11 draft |
@@ -74,4 +74,4 @@ Contacts opened live on LinkedIn /details/experience/ 09-25 (primary source). Li
 | Box | John Jordan, Video Producer (CONTRACT since Feb 2026) | jjordan@box.com | "Box Shield Pro: AI threat analysis simplifies threat feed remediation" (86s, screen demo) | his post (1w): getting Boxers to say a few things they love about Box |
 Dropped from F candidates 09-25: Calendly (Rachel Burns is now Senior Copywriter, not video) · Squarespace (Nolan Gordin records the tutorial VO himself per his LinkedIn - the pitch would land on the in-house narrator; Rebecca Patrick's LinkedIn not found) · Datadog (Andrew Cashin verified current, but every candidate spot is music-only) · Wix (right Dan Segal not found) · Discord (Soojin Lim changed to Creative Producer Jul 2026 from program mgmt). Descript Adrien: LinkedIn headline reads "Lo-fi Lens Witch"; role from experience page.
 
-## Pending drafts in spencer@spencerzvoice.com: 19 (live count 09-25 evening) = 7 E + 6 C2 + 6 F. The 5 follow-up replies seen at 14:00 are no longer in Drafts (sent or removed by Spencer; not checked which)
+## Pending drafts in spencer@spencerzvoice.com: 18 = 7 E + 5 C2 + 6 F (PINKTUM trashed 09-25). The 5 follow-up replies seen at 14:00 are no longer in Drafts (sent or removed by Spencer; not checked which)
