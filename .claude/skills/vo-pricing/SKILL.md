@@ -97,6 +97,7 @@ Quote fair market **first**, using GVAA (USD) or GFTB (EUR). Never anchor to the
 - **In-perpetuity broadcast:** GVAA doesn't publish in-perp ad/broadcast rates (only the non-paid-web 5-year rate for perpetual owned-channel use). Bracket it as custom — the old "2× the 12-month" was a house habit, unverified against the current guide. Flag every time. Low-risk exceptions: local businesses, nonprofits, hospital radio.
 - **Soft exclusivity / category conflict:** flag any in-perp or long-term broadcast deal that closes a competitive category. High-risk: financial services (US Bank, Freddie Mac), gaming (Nintendo, Xbox), beverages (Sprite/NBA), streaming/telecom (DIRECTV).
 - **CTV/OTT:** the current guide prices it under Digital Visual (1-yr $4,000–6,000, includes pre-roll + social) and offers an OTT/CTV + TV bundle in the Value Menu — use those cells, not plain TV rates.
+- **Lift pricing (Spencer, 2026-09-25):** a lift/cutdown from the SAME recording = parent usage **minus 25–50%** (client pays 50–75% of parent); open at 25% off, 50% off is the floor for multi-lift bundles. Old "25–50% of parent" convention retired.
 - **Unlimited lifts/versions:** always flag; must be pinned to a specific version count before signing. Seen on NBA/Sprite, Labcorp, Starbucks, DIRECTV.
 - **AI / synthetic voice:** "new media now known or hereafter created" + unlimited versions = AI exposure. Flag every time. Client cannot use recordings for synthetic-voice generation, AI training, or third-party redistribution.
 
