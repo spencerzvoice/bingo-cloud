@@ -11,7 +11,7 @@ Spencer says "full". Target: one response, no tool calls, no hedge round.
 - **Where in the range:** low end = local / small / unknown brand; **high end = major brands** (guide names Target, Best Buy, Nintendo, automotive, insurance, fast food, banking). Adobe-tier = high end.
 - **Local = one city. Regional = up to 4 states or ONE large market (NYC/LA/Chicago/Atlanta/Philadelphia). National = nationwide.**
 - Radio rates **include** the session ($250–350 for 60–90 min). TV / Digital Visual: $500 for a 2-hr session, **+$250 each additional hour**.
-- Multiple spots: rate is negotiable; 1–2 spots is typical; a bulk discount is only suggested at 5+ (talent's call). **Lifts/edits/versions: don't grant unlimited — cap the count; discount lift usage 25–50% per spot.**
+- Multiple spots: rate is negotiable; 1–2 spots is typical; a bulk discount is only suggested at 5+ (talent's call). **Lifts/edits/versions: don't grant unlimited — cap the count; price lifts by length per the house rule below (:15 = 75%, :06 = 30% of parent).**
 - **Value Menu** = the guide's new combo packages: bundle discount typically **15–25% off combined individual rates**, same term mirrored across channels. Use the bundle cell instead of adding two channels.
 - Source Connect / ISDN: guide says do NOT bill separately — it's inside the rate.
 
@@ -86,9 +86,9 @@ Non-broadcast never carries the ad-grid territory/term math. A non-broadcast gra
 ### HOUSE CONVENTIONS — NOT in the guide (🟡; Spencer's own, flag when used)
 - **Worldwide:** the guide publishes no Worldwide tier at all. **Spencer's convention (2026-09-22): Worldwide ≈ 3× the National rate.** Apply this as the default multiplier on the National ad-rights cell (not on flat non-broadcast/session add-ons) instead of leaving it as an unpriced bracket — still tag 🟡, it's a house convention, not guide-verified.
 - **In-perpetuity ad or broadcast:** the guide publishes none. Never quote from memory — bracket it as custom and say so. Perpetual = only as the guide's non-paid web 5-yr rate.
-- **Cutdowns / lifts from the SAME recording — SETTLED (Spencer, 2026-09-25):** price lift usage at the guide's discount: **25–50% off the parent per spot (client pays 50–75% of parent)**. Open at 25% off; 50% off is the floor, for a client bundling several lifts. Cap the count in writing. The old "25–50% *of* parent" convention is **retired**. Example: $2,000 national radio :30 → lift $1,000–1,500. Re-recorded versions are pickups, not lifts.
+- **Cutdowns / lifts from the SAME recording — SETTLED (Spencer, 2026-09-26): priced proportionally by length, as a % of the :30 parent's price: :15 = 75%, :06 = 30%, tag = 20%.** Not stacked with any other lift discount. Cap the count in writing. Supersedes the 09-25 "parent minus 25–50%" rule and the old "25–50% of parent" convention. Example on a $2,000 national radio :30: :15 lift $1,500, :06 lift $600. Re-recorded versions are pickups, not lifts. 🟡 house convention, not in the guide (the guide only says discount lift usage 25–50%).
 - **Directed session (Spencer, 2026-09-24): a live directed session is ALWAYS its own line, priced on top of the usage fee — even on radio, where the guide folds it into the range.** Default $250 (guide's radio session value is $250–350 for 60–90 min; TV/Digital $500/2 hr, +$250/hr). Supersedes the "guide includes it" reading. Source Connect itself is still not billed separately.
-- **:15 = 75%, :06 = 30%, tag = 20%, :31–:60 = 1.5× etc.:** old length rule, **not in the guide** (guide prices per spot, tags flat). Not applied by default now — discounting a :15 is a concession the guide doesn't require. Spencer to confirm keep/retire.
+- **:15 = 75%, :06 = 30%, tag = 20%: KEPT for lifts only (Spencer, 2026-09-26)** — see the lift rule above. For stand-alone spots the guide prices per spot with no length tiers, so no length discount by default. The old :31–:60 = 1.5× multiplier is still not applied.
 - **"Always rescope the worldwide" (Spencer, 2026-09-15):** unchanged. It's strategy, not a rate.
 
 ---
@@ -109,7 +109,7 @@ line so he can see the build and push on any part). Structure:
 > | Deliverable | Length | Usage applied | GVAA basis (cell + where in range + why) | Amount |
 > |---|---|---|---|---|
 > | \<spot 1\> | :15 | Radio bundle, National, 1 yr | Value Menu $2,500–3,250 → high end (major brand) | $3,250 |
-> | \<lift / spot 2\> | :15 | same recording | lift: 25–50% off usage — say which | $… |
+> | \<lift / spot 2\> | :15 | same recording | lift by length: :15 = 75% / :06 = 30% of parent | $… |
 > | \<add-on\> | — | — | e.g. +$250/extra session hr, own line | $250 |
 > | **Total** | | | | **$…** (range if a cell is bracketed) |
 >
