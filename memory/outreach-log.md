@@ -262,3 +262,6 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Drafts now 19 live (7 E + 6 C2 + 6 F); the 5 follow-up replies are gone from Drafts (unchecked whether sent). Detail tables: reference/client-acquisition/FUNNEL-COHORTS.md.
 - Follow up on: 7-10 days after each send.
 - 2026-09-25: PINKTUM (Patrick Pakulat) DROPPED by Spencer; draft trashed.
+
+## 2026-09-28 - Funnel B touch 2 - 13 threaded drafts, NOT sent (for Tue 09-29)
+Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (Grammarly), Teddy + Dan (Zoom), Linda + Jamal (HubSpot), Amalia (monday), Aubrey (Asana). Hooks = company LinkedIn posts read 09-28; new proof = EuroLeague 2026-27 Preview of the Season + FIFA WC 2026 Preview Series + free custom read. Brian Sherry (ClickUp) left the company (auto-reply 09-22 -> Wes). Follow up on: final touch = send date + 14d (~Tue 10-13 if sent 09-29; note 10-13 is the day after Columbus Day, so Wed 10-14).

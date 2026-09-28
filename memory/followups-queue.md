@@ -15,7 +15,7 @@ When a send is confirmed in Gmail Sent: write the send date, touch #, and comput
 ## Schedule ledger (reminder = first day to send; overdue = last day of window)
 | Cohort | Last touch sent | Touch # sent | Next | Reminder | Overdue nudge | Note |
 |---|---|---|---|---|---|---|
-| Funnel B cold (13): ClickUp Wes+Eric, Atlassian Genna+Sarah, Canva Jack+Lydia, Grammarly Lauren, Zoom Teddy+Dan, HubSpot Linda+Jamal, monday Amalia, Asana Aubrey | 2026-09-22 (per tracker) | 1 | touch 2 | Tue 2026-09-29 (prep Mon 09-28 eve) | Fri 2026-10-02 | needs a new angle per contact (current-event hook or new sample); tracker had "~Oct 1-2" |
+| Funnel B cold (13): ClickUp Wes+Eric, Atlassian Genna+Sarah, Canva Jack+Lydia, Grammarly Lauren, Zoom Teddy+Dan, HubSpot Linda+Jamal, monday Amalia, Asana Aubrey | 2026-09-22 (Gmail Sent, verified 09-28) | 1 | touch 2 | Tue 2026-09-29 - **13 DRAFTED 09-28 eve** (see batch below) | Fri 2026-10-02 | Brian Sherry left ClickUp (auto-reply -> Wes); no replies/bounces otherwise (live Gmail 09-28). After send: touch 3 (final) reminder = send + 14d |
 | Funnel C cold (9): MasterClass, Skillshare, Udemy, LinkedIn Learning, Coursera, Instructure, Discovery Ed, Kaplan UK, LearningMate | 2026-09-23 (Gmail Sent, per digest/log) | 1 | touch 2 | Wed 2026-09-30 (prep Tue 09-29 eve) | Fri 2026-10-02 (day 10 = Sat) | |
 | Elaine Craig | 2026-09-24 (Sent); she auto-replied 09-24: traveling this week, will reply when back | 1 | follow-up 2 (only if no reply) | Wed 2026-09-30 (one-time task `elaine-followup-reminder`, 09:05) | Fri 2026-10-02 | Spencer's call 09-24: mid-next-week nudge. Check her site for a booking link; thread reply, short, no pressure |
 | Funnel D US (5): Experian Daren Levis, Purdue Jason Doty, Sarofsky Paul Klinke, Snowflake Jason Fassler, Tendril Ivelle Jargalyn | 2026-09-24 (Gmail Sent, verified) | 1 | touch 2 | Thu 2026-10-01 (prep Wed 09-30 eve) | Fri 2026-10-02 (day 10 = Sun) | tracker rows 126-129, 131 |
@@ -34,6 +34,25 @@ When a send is confirmed in Gmail Sent: write the send date, touch #, and comput
 | Laundry Studio (Gabriel Gerard, cc Ben Rejzer) | 2026-09-22 (Gmail Sent; Adobe job lost, door open) | warm close | warm check-in | Tue 2026-10-20 | Tue 2026-11-17 | bring something new (new work/credit), not a bump. Lucas Bertoli (Laundry Design) back Nov 20 - separate touch after |
 
 **Unscheduled backlog (needs Spencer go/no-go, NOT on any clock yet):** stale warm check-ins the tracker flags: Ryan Lago, Alexandra Buhrow, Jordan Deva, Erin Daughenbaugh, Ruthie Mason, David Martin, Vishuddha (Tony), Mary Chaplin (Xpedition, fall dates), Luke Mellows, Jamie Pearson (held until the EuroLeague invoice clears). Say which ones to put on the clock.
+
+## Batch 2026-09-28 (drafted ~18:15 Lisbon, for Tue 2026-09-29) - Funnel B touch 2, 13 drafts, NOT sent
+Angle: company LinkedIn post hook (read 09-28) + new proof (EuroLeague 2026-27 Preview of the Season, FIFA WC 2026 Preview Series) + free custom read offer. No em dashes.
+| Contact | Company | Thread | Draft ID | Touch | Hook | Status |
+|---|---|---|---|---|---|---|
+| Wes Brummette | ClickUp | 1a0caaf357a64c77 | r471915603342985594 | 2 | Skills launch (1w) | drafted |
+| Eric Cirillo | ClickUp | 1a06bd5efc931595 | r3628999415999122561 | 2 | Skills launch (1w) | drafted |
+| Genna Osborne | Atlassian | 1a06bd6614724044 | r-2694650798815851444 | 2 | Waddingham / Team '26 Europe (5d) | drafted, send soon (event 10-06) |
+| Sarah Fink | Atlassian | 1a06bd6840f6d132 | r8947600556443684983 | 2 | same | drafted, send soon |
+| Jack Toohey | Canva | 1a06bd6a0535c183 | r-2210125806990533984 | 2 | Canva World Tour (5d) | drafted |
+| Lydia Sarks | Canva | 1a06bd691621309d | r-6133141088652476565 | 2 | Canva World Tour (5d) | drafted |
+| Lauren Hirata | Grammarly | 1a06bd5e2363ffef | r4933243735456274209 | 2 | Superhuman Go deep-dive (3d) | drafted |
+| Teddy Sirotek | Zoom | 1a06bd62c47cfa2b | r3178038184281728417 | 2 | Zoom Canvas video (2h) | drafted |
+| Dan Schunk | Zoom | 1a06bd63ae1546e9 | r-555077627177330769 | 2 | Zoom Canvas video (2h) | drafted |
+| Linda Hewing | HubSpot | 1a06bd6af9864f58 | r-8489287318290318324 | 2 | Loop launch (6d) | drafted |
+| Jamal Meneide | HubSpot | 1a06bd6b80c43fc6 | r5784046396947582029 | 2 | Loop launch (6d) | drafted |
+| Amalia Hochmann | monday.com | 1a06765c7f9b1b89 | r7065992824818218863 | 2 | Sidekick in WhatsApp (3h) | drafted |
+| Aubrey Rogers | Asana | 1a06bd654a30ca76 | r1389494282575639053 | 2 | Command by Asana (4d) | drafted |
+Flagged, not drafted: Brian Sherry (left ClickUp, auto-reply -> Wes, already covered); Kyle Osher (dropped).
 
 ## Batch 2026-09-24 (drafted 20:06 Lisbon, for Fri 2026-09-25) — 10 drafts, NOT sent
 Cold agency 2nd/final touches (new proof: EuroLeague basketball + free custom read; closes as last touch):
