@@ -85,3 +85,19 @@ Note: 3 Untold drafts (Tanya/Josephine/Nancy) — stagger sends across days rath
 - ~Oct 1-3: Funnel B/C cold follow-ups (ClickUp/Atlassian/Canva/Zoom/HubSpot/monday/Grammarly/Asana, then 9 e-learning) — prep run on Wed 09-30 evening will need current-event hooks; expect >12, cap applies.
 - Wed 09-30: Elaine Craig follow-up if no reply (moved up from ~10-04; she's traveling).
 - ~Nov 4: KU warm check-in (Liz/Steve).
+
+## Batch 2026-09-29 (evening prep, for Wed 2026-09-30) - 10 drafts, NOT sent
+Live Gmail 09-29: all 9 Funnel C threads single-message (no replies/bounces), no existing drafts. Elaine = her 09-24 auto-reply only. Touch-2 angle: FIFA WC 2026 Preview Series + EuroLeague Season Preview (Spencer's own 09-24 wording) + free custom read within 24h. NO current-event hook (cloud routine cannot open LinkedIn); Spencer may add a line.
+| Contact | Company | Thread | Draft ID | Touch | Status |
+|---|---|---|---|---|---|
+| Kyle Ranson-Walsh | LinkedIn Learning | 1a0cfcf350a117a9 | r-2087610992848162174 | 2 | drafted |
+| Brandon Rafalson | Coursera | 1a0cfcf56907511b | r-5723047855152860342 | 2 | drafted |
+| Mike West | Instructure | 1a0cfcf7dbd16c98 | r-2620586965226494152 | 2 | drafted |
+| Allison Andrews | Discovery Education | 1a0cfcfa9db157fd | r6048776424196156542 | 2 | drafted |
+| Rory Green | Kaplan UK | 1a0cfcfd00bcff29 | r-8749052371912695809 | 2 | drafted (UK, send UK morning) |
+| Joanne Pratt | LearningMate | 1a0cfcff5c6fa14e | r5162263286788460862 | 2 | drafted |
+| Luke Sienko | MasterClass | 1a0cfde2ca0728a1 | r5587015754126640048 | 2 | drafted |
+| Jennifer Johnston | Udemy | 1a0cfefa529d0337 | r3612285866776761751 | 2 | drafted |
+| Hasaanah Abdul-Wahid | Skillshare | 1a0cfde549415cf6 | r-2612100320049571667 | 2 | drafted |
+| Elaine Craig | coaching | 1a0d3f234d1f6e73 | r-6458967470504094105 | follow-up 2 | drafted |
+After sending: Funnel C touch 3 (final) window = send + 14-21d.

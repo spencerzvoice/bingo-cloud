@@ -265,3 +265,7 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 
 ## 2026-09-28 - Funnel B touch 2 - 13 threaded drafts, NOT sent (for Tue 09-29)
 Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (Grammarly), Teddy + Dan (Zoom), Linda + Jamal (HubSpot), Amalia (monday), Aubrey (Asana). Hooks = company LinkedIn posts read 09-28; new proof = EuroLeague 2026-27 Preview of the Season + FIFA WC 2026 Preview Series + free custom read. Brian Sherry (ClickUp) left the company (auto-reply 09-22 -> Wes). Follow up on: final touch = send date + 14d (~Tue 10-13 if sent 09-29; note 10-13 is the day after Columbus Day, so Wed 10-14).
+
+## 2026-09-29 - Follow-up prep (for Wed 09-30): Funnel C touch 2 x9 + Elaine Craig follow-up 2
+- 10 threaded reply drafts in Gmail Drafts (IDs in memory/followups-queue.md). Not sent. Follow up on: send Wed 09-30/Thu 10-01, last day Fri 10-02.
+- Result: pending send
