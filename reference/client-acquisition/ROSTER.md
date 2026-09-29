@@ -1,6 +1,6 @@
 # Roster — every company, by segment
 
-**Compiled:** 23 September 2026 from all 13 project docs, updated 25 September (naming reconciliation), updated 28 September (10 new companies, Segments I/K/L/M) · **161 companies**
+**Compiled:** 23 September 2026 from all 13 project docs, updated 25 September (naming reconciliation), updated 28 September (10 new companies, Segments I/K/L/M), updated 29 September (+10 companies from a research-only batch: SentinelOne, CyberArk, Wiz, New Relic, HashiCorp, Marqeta, Affirm, Bombas, Warby Parker, Rothy's — see `contacts/2026-09-29-research-batch.md`) · **171 companies**
 **Segment definitions:** see `SEGMENTS.md` · **Funnel (send cohort) definitions:** see `FUNNEL-COHORTS.md` — canonically owned by Bingo, imported 25 Sep
 
 **Two independent columns now, not one letter:**
@@ -9,17 +9,19 @@
 
 **Status key:** `SENT` outreach has gone · `DRAFTED` an unsent draft is sitting in `spencer@spencerzvoice.com` · `BANKED` researched and verified, zero-touch, ready to draft · `HELD`/`PARKED` deliberately not pursued for now · `DROPPED` ruled out · `SKIPPED` a specific decision not to pitch this one in its cohort
 
+**Merge note (29 Sep, Bingo):** this repo's copy and a separate scheduled routine's copy diverged from the same base and were pushed independently — the routine's 29 Sep research-batch additions (10 companies, listed above) are folded in below; nothing else from its side was kept where it conflicted with this file's more current 24–28 Sep updates (Funnel column, segment reconciliation). Still worth reconciling against the claude.ai "Client Acquisition" Project's own roster per `HANDOFF.md`.
+
 A dash means the source docs do not state it. Nothing here is inferred.
 
 ---
 
 ## The blocking fact
 
-**18 unsent drafts** in `spencer@spencerzvoice.com`, re-counted directly against `gmail/v1/users/me/drafts` (`resultSizeEstimate`) via FGAC on 28 September — up from 15 on 25 Sep. The count moving up rather than down between runs has not been reconciled against `in:sent`; nothing indicates any of the 25 Sep list was cleared. Contents of the queue were not re-pulled individually this run (research-only; time spent on new prospects instead) — treat the 25 Sep unsent-drafts breakdown below as the best available detail until the next full re-pull.
+**18 unsent drafts** in `spencer@spencerzvoice.com`. A 29 Sep re-count via FGAC against `gmail/v1/users/me/drafts` (individually re-pulled, not just the count) matched exactly against `FUNNEL-COHORTS.md`'s cohorts: Funnel E (7: Sprout Social, Retool, Splunk, PagerDuty, Braze, Zendesk, Grafana Labs), Funnel F (6: Zapier, Dropbox, Intercom, Descript, Smartsheet, Box), Funnel C2 (5: IxDF, 2U/edX, Domestika, Pluralsight, Thinkific) — no drift found. This supersedes the 28 Sep count-only check (also 18, but not individually re-pulled) recorded lower in this section.
 
-*(Correction history: docs long said 35, which was wrong. A 23 Sep check found 22, six more appeared later that day taking it to 28. A 24 Sep re-count found 21. A 25 Sep re-count found 15. A 28 Sep re-count found 18.)*
+*(Correction history: docs long said 35, which was wrong. A 23 Sep check found 22, six more appeared later that day taking it to 28. A 24 Sep re-count found 21. A 25 Sep re-count found 15. A 28 Sep re-count found 18 (count-only). A 29 Sep re-count, individually pulled, confirmed 18 with the composition above.)*
 
-The batch has a hard gate at step 0: while unsent drafts exist, runs research and bank contacts but write no new drafts. **That gate held again on 28 Sep** — ten new companies (Airwallex, Brex, ABB, Siemens Energy, Garmin, Booking.com, Peloton, Pushkin Industries, Wondery, Smithsonian Institution) were researched and banked, zero drafts written, zero Drive folders created. Well over 100 fully-vetted, zero-touch contacts are now banked across the pipeline. **Research is not the constraint on this pipeline. Sending is.**
+The batch has a hard gate at step 0: while unsent drafts exist, runs research and bank contacts but write no new drafts. **That gate held again on 28 Sep and 29 Sep** — 28 Sep: ten new companies (Airwallex, Brex, ABB, Siemens Energy, Garmin, Booking.com, Peloton, Pushkin Industries, Wondery, Smithsonian Institution) researched and banked. 29 Sep: ten more (SentinelOne, CyberArk, Wiz, New Relic, HashiCorp, Marqeta, Affirm, Bombas, Warby Parker, Rothy's) researched and banked. Zero drafts written, zero Drive folders created either day. Well over 100 fully-vetted, zero-touch contacts are now banked across the pipeline. **Research is not the constraint on this pipeline. Sending is.**
 
 **Also flagged 25 Sep:** five of the still-unsent drafts (all Team One / Untold Studios / 247 Laundry Service, subject "Re: American VO — FIFA, AWS, Venmo Credits") use language Spencer has since corrected — "American voice" / "low-register" should never appear, the voice should be described as "a warm bass/baritone voice," and Source Connect should never be claimed (no active subscription). These drafts predate that correction and are worth a read-through before sending. See the full 25 Sep draft list below.
 
@@ -164,6 +166,8 @@ The ranked shortlist lives in `funnel-c-top-10.md`.
 | Retool | Kasey Hickey | Sr. Director, Content & Brand Marketing | verified | Gabrielle Matte — Creative Director, Brand Design | E | **DRAFTED**, package built + draft rewritten 09-24, unsent | batch-04 / Bingo 24 Sep |
 | Splunk | Tom Krymkowski | Staff Video Producer | verified | Sally Cox — Video Producer | E | **DRAFTED**, package built + draft rewritten 09-24, unsent | batch-04 / Bingo 24 Sep |
 | Snowflake | Jason Fassler (replaced Oliver Mellan, left) | — | jason.fassler@snowflake.com | — | D | **SENT** 24 Sep | Bingo 24 Sep |
+| New Relic | Moe Hung | Creative Director | verified | Corianne Goldstein — Content Manager | — | BANKED | 2026-09-29-research-batch |
+| HashiCorp | Cole Morrison | Head of Brand Story & Principle Evangelist | verified | Raven Kenemer — Senior Editorial and Content Manager | — | BANKED — HOOK NEEDED, weaker title fit | 2026-09-29-research-batch |
 
 ## Enterprise and business software
 
@@ -210,6 +214,11 @@ All BANKED unless noted. The deepest untouched vertical in the pipeline.
 | Zscaler | Luisa Avila | Creative Producer | verified | Warren Yu — Senior Video Producer | batch-08 |
 | CrowdStrike | Doug Finelli | Global Executive Creative Director, Brand | verified | Zandy Ariss — Executive Creative Director, Media Studio | 2026-09-24-funnel-i-m-h-k |
 | Palo Alto Networks | Melinda Carlson-Smith | Senior Video Production Manager, Creative Services Marketing | verified | Mariah Glackler — Lead Creative Producer | 2026-09-24-funnel-i-m-h-k |
+| SentinelOne | Joshua Hernandez | Creative Director | verified | Ankit Pahuja — Sr. Manager, Marketing | 2026-09-29-research-batch |
+| Wiz | Patrick Davis | Video & Media Content Producer | verified | Danielle Lamarca — Marketing Leader | 2026-09-29-research-batch |
+| CyberArk | David Lawler | Director, Creative | verified — **⚠️ HELD, see note** | Melissa Hall — Field Marketing Manager | 2026-09-29-research-batch |
+
+**CyberArk flag (29 Sep):** David Lawler's org record now shows him under **Palo Alto Networks**, not CyberArk — CyberArk was acquired by Palo Alto Networks (closed 2026-02-11) and reportedly rebranding as "Idira" (May 2026). Palo Alto Networks is already banked separately above (this same table, funnel-i-m-h-k batch) with a different contact (Melinda Carlson-Smith). Do not draft to David Lawler as "CyberArk" without Spencer's call on which brand/contact is current.
 
 ## Fintech and payments
 
@@ -227,6 +236,8 @@ All BANKED unless noted. The deepest untouched vertical in the pipeline.
 | Monzo | Chris Mucklow-Norell | Head of Brand Marketing & Partnerships | verified | Maja Bayyoud — Head of Creative | — | BANKED | 2026-09-25-funnel-i-j-k-l-m |
 | Airwallex | Steven Watson | Global Head of Brand & Content | verified | Matt Jennings — Global Creative Director | — | BANKED | 2026-09-28-funnel-i-k-l-m |
 | Brex | Anna Graney | Staff Brand Producer | verified — **employer unconfirmed, see open items** | Iris Hung — Senior Brand Producer | — | BANKED — verify Graney's current employer before drafting | 2026-09-28-funnel-i-k-l-m |
+| Marqeta | Greer Burton | Creative Director | verified | Amy McWilliams — Sr. Content Marketing Manager | — | BANKED | 2026-09-29-research-batch |
+| Affirm | Andrew McIntyre | Associate Creative Director | verified | Kat Green — Director of Brand Marketing | — | BANKED — HOOK NEEDED | 2026-09-29-research-batch |
 
 ## Creative and production studios
 
@@ -274,6 +285,9 @@ All BANKED. Highest rate ceiling in the pipeline.
 | Garmin | Maggie Wasserman | Global Executive Producer | verified | Matt Bowne — Global Creative Director | 2026-09-28-funnel-i-k-l-m |
 | Booking.com | Martijn Savenije | Head of Content Studio | verified — title differs slightly from a live conference bio, likely just stale, verify before send | Jess Valade — Global Head of Brand | 2026-09-28-funnel-i-k-l-m |
 | Peloton Interactive | Anne Gaynor | Senior Executive Producer | verified | Erick Rodriguez — Creative Director | 2026-09-28-funnel-i-k-l-m |
+| Bombas | Michelle Feffer | Senior Creative Producer | verified — HOOK NEEDED | Elliott Foos — Associate Creative Producer | 2026-09-29-research-batch |
+| Warby Parker | Matthew Currie | Post Production Manager | verified | Carmel Quinn — Director, Creative Operations | 2026-09-29-research-batch |
+| Rothy's | Cristalle Stutrud | Post Production Manager | verified | Anne Slater — Senior Director, Creative Operations | 2026-09-29-research-batch |
 
 **On — SEND-SOON, strongest hook of the 25 Sep batch:** event-dated (Mbappé/football launch, 18 Sep 2026). **Patagonia:** hook is weaker (~50 days old, no confirmed publish date) — re-verify before drafting. **Garmin, Booking.com, Peloton (28 Sep) all carry SEND-SOON hooks** — see `contacts/2026-09-28-funnel-i-k-l-m.md`.
 
