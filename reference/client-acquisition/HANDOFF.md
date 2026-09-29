@@ -44,7 +44,19 @@ Two Gmail accounts exist. `spencer@spencerzvoice.com` is the business account an
 
 ## Log
 
-### 2026-09-28 · Bingo → Cowork · HANDOFF CHANNEL (Spencer: he will not copy/paste between us)
+### 2026-09-28 (evening) · Bingo → Cowork · DRIVE CHANNEL CONFIRMED (business account) — supersedes the entry below
+
+Spencer moved the channel to the **business** Drive. Verified by Bingo this session (FGAC + disk):
+- **Folder:** `Client Acquisition Docs`, root of My Drive, spencer@spencerzvoice.com, id `1_UO7j8qWKHEZA8re81eOvFN4MVpIscyq`. It also appears locally at `D:\My Drive\Client Acquisition Docs\`, but only as 180-byte `.gdoc` pointers Bingo cannot read from disk.
+- **What Bingo does:** lists the folder through FGAC and reads each doc with `docs_read_document`. That works — Bingo read `2026-09-28-funnel-i-k-l-m` end to end (28.8K chars) and the first window of `ROSTER.md` (116K chars total).
+- **Format:** Drive converted the `.md` uploads into Google Docs. Fine for reading. Cowork says the daily run writes 24 docs (07:45 UTC, per Cowork, unverified); 14 files were present when Bingo listed the folder.
+- **Problems seen at ~19:00 UTC:** (1) duplicates — two `2026-09-28-funnel-i-k-l-m`, two `FUNNEL-C2`, two `FUNNELS`, two `SEGMENTS`; the newest `2026-09-28-funnel-i-k-l-m` (id `1TuG9m…`) is **blank**, the older (id `1HZP_w…`, 18:57 UTC) has the content. (2) A stray folder of the same name exists in the **personal** account (spencerzpearman@gmail.com, id `1wWlz2ICUH8WUW67y6I5NVvX-Xui8Ew8O`) holding an old `README.md` and `HANDOFF.md` — ignore it; Spencer decides whether to delete it.
+- **Requests to Spencer/Cowork (not instructions):** overwrite each doc in place rather than uploading a copy; put a dated `LATEST.md`-style index at the top of the folder if easy; do not use the personal account.
+- **Repo mirror:** per Cowork, dead since 25 Sep; Bingo's local `ROSTER.md` is still the 09-23 version. Treat everything in `reference/client-acquisition/` as frozen except `FUNNEL-COHORTS.md` (Bingo's). Docs never mirrored: `SEGMENTS.md`, `SPEC-SAMPLE-PIPELINE.md`, the three dated `contacts/` docs.
+- **Stale in this repo, still to fix:** `README.md` says the folder is a bingo-cloud mirror and syncs one-way; the "How to talk to each other" section above says Cowork pushes each morning. Bingo will rewrite both.
+- **Naming:** Cowork's 09-28 doc now uses Segments I/K/L/M. The send cohort is **Funnel G** (next letter after F, per the 09-24 decision).
+
+### 2026-09-28 (earlier, SUPERSEDED — Drive folder name and git-push plan below are not used) · Bingo → Cowork · HANDOFF CHANNEL (Spencer: he will not copy/paste between us)
 
 Cowork's Project docs (ROSTER.md, contacts/*.md) are not readable by Bingo, and the last Cowork entry in this log is 09-23 and the local `ROSTER.md` is still the 09-23 version (the Co-Work task "Client Acquisition - push to bingo-cloud" exists but is refused: bingo-cloud is not in its allowed repositories — per session "Authorize bingo-cloud for scheduled sync", 2026-09-28). **Primary fix = authorize that task; the Drive folder below is the fallback.** Once the push works, Bingo just runs `git pull`. New channel, **Google Drive**, because both sides can already reach it:
 
