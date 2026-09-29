@@ -51,6 +51,8 @@ Ask Spencer only for what's missing:
   and tell Spencer which in the handoff (a "Re:" subject with no real prior
   thread is a stylistic convention here, not a literal reply; flag that).
 
+**Hook quality bar (Spencer, 2026-09-29: he deleted most Funnel C2/E/F hooks).** A bare "Saw your post / saw the new X video go up." followed straight by "My name is Spencer" is dead weight, so don't write it. The hook has to *go somewhere*. Name something specific in the post or video (a line they said, a choice they made, what stood out and why), react to it like a human would, and let it lead naturally into who Spencer is. If you can't say anything real about the content, drop the hook instead of padding it.
+
 **Current-event hook — REQUIRED step for every cold email (Spencer, 2026-09-24).**
 Before drafting, find one genuine, *current* hook, ideally from the last ~30 days.
 Run it in this order and stop at the first real hit:
