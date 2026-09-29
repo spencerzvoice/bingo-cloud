@@ -1,7 +1,9 @@
 # Roster — every company, by funnel
 
-**Compiled:** 23 September 2026 from all 13 project docs · **132 companies**
+**Compiled:** 23 September 2026 from all 13 project docs · **132 companies** · updated 29 September (+10 companies: SentinelOne, CyberArk, Wiz, New Relic, HashiCorp, Marqeta, Affirm, Bombas, Warby Parker, Rothy's — research-only, see `contacts/2026-09-29-research-batch.md`)
 **Funnel definitions:** see `FUNNELS.md`
+
+**Data-source note (29 Sep):** this file is behind the claude.ai "Client Aquisition" Project's own roster (161 companies as of 28 Sep, funnels through M) — the two have diverged since the Project's Cowork sessions write to Drive/the Project, not this repo, and this scheduled routine is instructed to read/write only this repo. Worth reconciling; flagged to Spencer in the 29 Sep digest.
 
 **Status key:** `SENT` outreach has gone · `DRAFTED` an unsent draft is sitting in `spencer@spencerzvoice.com` · `BANKED` researched and verified, zero-touch, ready to draft · `HELD` deliberately parked · `DROPPED` ruled out
 
@@ -11,11 +13,11 @@ A dash means the source docs do not state it. Nothing here is inferred.
 
 ## The blocking fact
 
-**28 unsent drafts** in `spencer@spencerzvoice.com`, enumerated against the mailbox on 23 Sep. The count has gone *up*, not down.
+**18 unsent drafts** in `spencer@spencerzvoice.com`, re-counted directly against `gmail/v1/users/me/drafts` (`resultSizeEstimate`) via FGAC on 29 Sep: Funnel E (7: Sprout Social, Retool, Splunk, PagerDuty, Braze, Zendesk, Grafana Labs), Funnel F (6: Zapier, Dropbox, Intercom, Descript, Smartsheet, Box), Funnel C2 (5: IxDF, 2U/edX, Domestika, Pluralsight, Thinkific). Individually re-pulled and matched exactly against `FUNNEL-COHORTS.md`'s E/F/C2 cohorts — no drift found this time.
 
-*(Correction history: docs long said 35, which was wrong. A 23 Sep check found 22. Six more were created later that same day, taking it to 28.)*
+*(Correction history: docs long said 35, which was wrong. A 23 Sep check found 22. Six more were created later that same day, taking it to 28. This file's own Funnel-cohort doc records 21 on 24 Sep, 18 on 25 Sep — i.e. the count came back down between 23 and 25 Sep and has held at 18 through 29 Sep.)*
 
-The batch has a hard gate at step 0: while unsent drafts exist, runs research and bank contacts but write no new drafts. **That gate is not holding** — see "Open problems". Roughly 95 fully-vetted, zero-touch contacts are banked. **Research is not the constraint on this pipeline. Sending is.**
+The batch has a hard gate at step 0: while unsent drafts exist, runs research and bank contacts but write no new drafts. **That gate held on 29 Sep** — 10 new companies (SentinelOne, CyberArk, Wiz, New Relic, HashiCorp, Marqeta, Affirm, Bombas, Warby Parker, Rothy's) were researched and banked, zero drafts written, zero Drive folders created. Well over 100 fully-vetted, zero-touch contacts are now banked across the pipeline. **Research is not the constraint on this pipeline. Sending is.**
 
 ### What has actually been sent
 
@@ -159,6 +161,8 @@ The ranked shortlist lives in `funnel-c-top-10.md`.
 | Retool | Kasey Hickey | Head of Content & Brand | verified | Gabrielle Matte — Creative Director, Brand Design | **DRAFTED** | batch-04 |
 | Splunk | Tom Krymkowski | Staff Video Producer | verified | Sally Cox — Video Producer | **DRAFTED** | batch-04 |
 | Snowflake | — | — | — | — | **DRAFTED** | batch-05 |
+| New Relic | Moe Hung | Creative Director | verified | Corianne Goldstein — Content Manager | BANKED | 2026-09-29-research-batch |
+| HashiCorp | Cole Morrison | Head of Brand Story & Principle Evangelist | verified | Raven Kenemer — Senior Editorial and Content Manager | BANKED — HOOK NEEDED, weaker title fit | 2026-09-29-research-batch |
 
 ## G — Enterprise and business software (17)
 
@@ -203,6 +207,11 @@ All BANKED. The deepest untouched vertical in the pipeline.
 | Tenable | Christiano Dias | Senior Video Producer | verified | Sean Carnell — Director, Corporate Communications | batch-08 |
 | WatchGuard | Wes Warfield | Video Production Manager | verified | Cortney Albrecht — Creative Director | batch-10 |
 | Zscaler | Luisa Avila | Creative Producer | verified | Warren Yu — Senior Video Producer | batch-08 |
+| SentinelOne | Joshua Hernandez | Creative Director | verified | Ankit Pahuja — Sr. Manager, Marketing | 2026-09-29-research-batch |
+| Wiz | Patrick Davis | Video & Media Content Producer | verified | Danielle Lamarca — Marketing Leader | 2026-09-29-research-batch |
+| CyberArk | David Lawler | Director, Creative | verified — **⚠️ HELD, see note** | Melissa Hall — Field Marketing Manager | 2026-09-29-research-batch |
+
+**CyberArk flag (29 Sep):** David Lawler's org record now shows him under **Palo Alto Networks**, not CyberArk — CyberArk was acquired by Palo Alto Networks (closed 2026-02-11) and reportedly rebranding as "Idira" (May 2026). Palo Alto Networks is already banked separately in the claude.ai Project's roster with a different contact (Melinda Carlson-Smith). Do not draft to David Lawler as "CyberArk" without Spencer's call on which brand/contact is current.
 
 ## I — Fintech and payments (5)
 
@@ -213,6 +222,8 @@ All BANKED. The deepest untouched vertical in the pipeline.
 | Jack Henry | Matt Teleha | Senior Video Producer | verified | Ken Schultz — Head of Live Video Productions | BANKED | batch-08 |
 | Stripe | Olivia Chernoff | Executive Producer, Brand Studio | verified | Nicole Pizzie — Sr. Creative Producer, Brand | BANKED | batch-03 |
 | Experian | — | — | — | — | **DRAFTED** | batch-05 |
+| Marqeta | Greer Burton | Creative Director | verified | Amy McWilliams — Sr. Content Marketing Manager | BANKED | 2026-09-29-research-batch |
+| Affirm | Andrew McIntyre | Associate Creative Director | verified | Kat Green — Director of Brand Marketing | BANKED — HOOK NEEDED | 2026-09-29-research-batch |
 
 ## J — Creative and production studios (6)
 
@@ -247,6 +258,9 @@ All BANKED. Highest rate ceiling in the pipeline.
 | Lonely Planet | Max Dickson | Video Producer & Editor | verified | Deepa Lakshmin — Head of Social Media & Video | batch-06 |
 | Tripadvisor | Ivana Milovanovic | Executive Producer | verified | Heather Clifford — Sr. Creative Producer, Wanderlab EMEA | batch-06 |
 | Wilson Sporting Goods | Naotaka Aogaki | Global Creative Director | verified | Tim McCaffrey — Creative Director | batch-06 |
+| Bombas | Michelle Feffer | Senior Creative Producer | verified — HOOK NEEDED | Elliott Foos — Associate Creative Producer | 2026-09-29-research-batch |
+| Warby Parker | Matthew Currie | Post Production Manager | verified | Carmel Quinn — Director, Creative Operations | 2026-09-29-research-batch |
+| Rothy's | Cristalle Stutrud | Post Production Manager | verified | Anne Slater — Senior Director, Creative Operations | 2026-09-29-research-batch |
 
 ## M — Institutions, nonprofits and media (4)
 
