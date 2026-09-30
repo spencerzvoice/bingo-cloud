@@ -255,7 +255,7 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 | Affirm | Andrew McIntyre | Associate Creative Director | verified | Kat Green — Director of Brand Marketing | — | BANKED — HOOK NEEDED | 2026-09-29-research-batch |
 | Plaid | Heather Mounsey | Head of Brand and Creative | hmounsey@plaid.com, Apollo-verified | Linda Eliasen — Head of Creative | — | BANKED — HOOK NEEDED, promising unverified lead (Tearsheet.co rebrand interview) — see contacts doc | 2026-09-30-research-batch |
 | Ramp | Paul Jun | Creative Director, Brand | paul.jun@ramp.com, Apollo-verified | Karly Snajczuk — Senior Creative Producer | — | BANKED — HOOK NEEDED | 2026-09-30-research-batch |
-| Robinhood | Jen Vladimirsky | Creative Producer | jen.vladimirsky@robinhood.com, Apollo-verified | Stephanie Albala — Senior Creative Producer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| Robinhood | Jen Vladimirsky | Creative Producer | jen.vladimirsky@robinhood.com, Apollo-verified | Stephanie Albala — Senior Creative Producer | G | **DRAFTED** 30 Sep, hook added — SEND-SOON, event-dated (HOOD Summit '26, Sept 29-30 2026) | 2026-09-30-funnel-g |
 | SoFi | Kelly Bonner | Creative Director | kbonner@sofi.com, Apollo-verified | Troy Huie — Creative Director (email domain returned as sofi.org by Apollo — unusual, verify before relying on it) | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 | Coinbase | Nicholas Dahl | Product Creative Producer | nicholas.dahl@coinbase.com, Apollo-verified | Kate Oliver — Sr. Creative Producer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
@@ -311,11 +311,11 @@ Highest rate ceiling in the pipeline. Mostly BANKED; six DRAFTED 30 Sep (Funnel 
 | Rothy's | Cristalle Stutrud | Post Production Manager | verified | Anne Slater — Senior Director, Creative Operations | — | BANKED | 2026-09-29-research-batch |
 | Vuori | Mark Tesi | Creative Director | mtesi@vuoriclothing.com, Apollo-verified — HOOK NEEDED | Daniella Carrera — Senior Manager, Creative Production | — | BANKED | 2026-09-30-research-batch |
 | YETI | Jesse Hill | Creative Producer (Apollo title garbled as "Creative PR Ducer") | jesse.hill@yeti.com, Apollo-verified | Sarah Guidry — Associate Creative Director, Editorial | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
-| Away | Dustin Grant | Executive Creative Producer | dustin.grant@awaytravel.com, Apollo-verified | Brendan Rosell — Director, Creative Operations | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| Away | Dustin Grant | Executive Creative Producer | dustin.grant@awaytravel.com, Apollo-verified | Brendan Rosell — Director, Creative Operations | G | **DRAFTED** 30 Sep, hook added (the "1 of 1" Colman Domingo campaign, launched 29 Sep 2026) | 2026-09-30-funnel-g |
 | lululemon | Cameron Aspinwall | Producer, Global Brand Creative | caspinwall@lululemon.com, Apollo-verified | Laura-Le Vandenbergh — Senior Creative Director | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 | Instacart | Taylor Erin | Head of Creative | taylor.erin@instacart.com, Apollo-verified | Justine Mar — Executive Producer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
-| DoorDash | Chris Allick | Creative Director | chris.allick@doordash.com, Apollo-verified | Kamil Kowalczyk — Creative Director | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
-| DraftKings | Matthew Zaifert | Creative Director | m.zaifert@draftkings.com, Apollo-verified | Thomas Murray — Creative Director | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| DoorDash | Chris Allick | Creative Director | chris.allick@doordash.com, Apollo-verified | Kamil Kowalczyk — Creative Director | G | **DRAFTED** 30 Sep, hook added ("Don't Fan for Free" campaign, launched 1 Sep 2026) | 2026-09-30-funnel-g |
+| DraftKings | Matthew Zaifert | Creative Director | m.zaifert@draftkings.com, Apollo-verified | Thomas Murray — Creative Director | G | **DRAFTED** 30 Sep, hook added ("Take Your Game Anywhere" with Kevin Hart & Nick Jonas, launched 1 Sep 2026) | 2026-09-30-funnel-g |
 
 **On — SEND-SOON, strongest hook of the 25 Sep batch:** event-dated (Mbappé/football launch, 18 Sep 2026). **Patagonia:** hook is weaker (~50 days old, no confirmed publish date) — re-verify before drafting. **Garmin, Booking.com, Peloton (28 Sep) all carry SEND-SOON hooks** — see `contacts/2026-09-28-funnel-i-k-l-m.md`.
 
