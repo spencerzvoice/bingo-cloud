@@ -99,8 +99,179 @@ Drafted 2026-09-30 by the cloud lead-batch run. WebFetch failed session-wide dur
 | Gong | Enterprise and business software | Hannah Brozek, Senior Content Marketing Manager | hannah.brozek@gong.io | Caroline Redmond — Web Producer | HOOK NEEDED — most recent press ("Mission Andromeda") dated Feb 2026, too stale |
 | Fastly | Developer and infrastructure platforms | Alina Lehtinen-Vela, Content Marketing Manager | alina.lehtinen-vela@fastly.com | Ashley Hurwitz — Content Marketing Manager | HOOK NEEDED — only investor-relations content found |
 
+**Update 30 Sep, afternoon (desktop Bingo):** all 16 now carry a verified hook (the 12 "HOOK NEEDED" rows above were researched and written in place via FGAC PUT; sources in `memory/2026-09-30.md`): YETI Four Letters · lululemon Quiet the Weather · Instacart Local Produce In-House Agency of the Year · Audible Stories that Speak to You · Psyop Independent Media Group · SoFi Face of Finance · Coinbase Your Way Out · Netskope Security Visionaries podcast · Duolingo Phonetic Collection · Toast ICC UK Trade & Export · Gong Celebrate '26 · Fastly x Comcast/Peacock.
+**Funnel G also holds 3 more drafts** written by an earlier same-day test run, now formally in G (Gmail label "Funnel G", Drive folders created): **Hitachi Rail** (Ian Wiggins, ian.wiggins@hitachirail.com), **Group-IB** (Meeba Gracy, m.gracy@group-ib.com), **UiPath** (Carter Elkin-Paris, carter.elkinparis@uipath.com). Their "American" / "low-register" lines were corrected to the house voice line. 🟡 Their hooks (HMAX at InnoTrans, Meeba's incident-response piece, FUSION demos) were not verified by Bingo - check before sending. **Funnel G = 19 drafts.** Gmail label "Funnel G" applied to all 19 (a draft PUT drops labels - re-apply after any edit).
+
 **IxDF flag:** a stray NEW-CLIENT PITCH draft to Roman Kurachenko (roman@team.interaction-design.org, IxDF) was found already sitting in Drafts at the start of this run — created by an earlier same-day test run of the lead-batch skill. It directly contradicts Spencer's 09-30 decision to cut IxDF from the funnels ("do not send or follow up" — tracker row, Dropped). It was **not** touched (this run's rule is never delete/edit/move an existing draft) but it should not be sent. Flagged in the digest for Spencer to trash.
 
 **Smartsheet flag:** a second stray draft to Kendra Sherrill (kendra.sherrill@smartsheet.com, Smartsheet), also from the same earlier test run, is a duplicate cold pitch to someone Spencer already emailed 29 Sep (Funnel F, "A voice for Smartsheet's video work" — sent, verified in Gmail). It does not count as a new-client pitch (the recipient has already been contacted) and was left untouched. Flagged for Spencer to trash.
 
 ## Pitch-queue count after this run: N=4 pre-existing NEW-CLIENT PITCH drafts (IxDF/Roman, Hitachi Rail/Ian Wiggins, Group-IB/Meeba Gracy, UiPath/Carter Elkin-Paris — all from an earlier same-day test run) + 16 new (Funnel G) = 20/20. The 5th pre-existing draft found (Smartsheet/Kendra Sherrill) does NOT count — Kendra was already sent to 29 Sep (Funnel F). Recount from live Gmail before the next run, don't trust this line.
+
+---
+
+## H to R: the whole BANKED pool, pre-assigned (Spencer, 2026-09-30)
+
+**Decision (Spencer, 30 Sep):** research and drafting feed ONE pipeline. Every company that was researched and banked is now assigned to a send cohort of **10**, with its Drive folder `Client Outreach/Funnel <X>/<Company>/Ready to Link to Drafted Email/` already created. Drafts are written **funnel by funnel, in letter order**, as the 20-pitch queue frees up (the daily Lead Batch tops up from the lowest undrafted funnel first; it sources NEW companies only once R is exhausted, and new companies then form Funnel S, T... in 10s with folders built at assignment). Nothing banked is left unassigned, so no research is wasted.
+
+**Naming note:** Cowork's older docs named `2026-09-24-funnel-i-m-h-k`, `2026-09-25-funnel-i-j-k-l-m`, `2026-09-28-funnel-i-k-l-m` use the OLD client-type letters (I = Fintech, K = Corporate in-house, L = Consumer, M = Institutions, H = Cybersecurity) - those are **Segments**, not send cohorts, and were research-only (nothing drafted). Their companies are folded into the cohorts below. From now on H to R mean ONLY the send cohorts listed here.
+
+Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before they go stale); I to R follow Segment order in `ROSTER.md` so each cohort is mostly one client type. Contacts are the roster's primaries; Every contact is re-verified with Apollo (people match: current employer, title, email_status=verified) AT DRAFT TIME by the Lead Batch - not in advance, because contacts churn while a cohort waits (4 of the original Funnel D contacts had moved on) and verifying twice would spend Apollo credits twice. A primary that fails switches to the backup, then to a fresh Apollo search at the same company; an unverified or extrapolated email is never drafted to.
+
+
+### Funnel H
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| ABB | Corporate and industrial in-house | Jose Monrabal | Kristen Smith | BANKED — SEND-SOON, event-dated hook (Ferrari Hypersail partnership) |
+| Pushkin Industries | Institutions and nonprofits and media | Constanza Gallardo | Justin Richmond | BANKED — SEND-SOON, event-dated hook (Revisionist History Reconstruction series) |
+| Smithsonian Institution | Institutions and nonprofits and media | Ariana Lilligren | Jonathan Ray | BANKED — SEND-SOON, event-dated hook (National Air and Space Museum video series) |
+| BUCK | Creative and production studios | Jordan Howes | Rebecca Dell | BANKED — SEND-SOON, event-dated hook (Ladder Lad reveal) |
+| Garmin | Consumer brands and travel | Maggie Wasserman | Matt Bowne | BANKED |
+| Peloton Interactive | Consumer brands and travel | Anne Gaynor | Erick Rodriguez | BANKED |
+| The Economist | Institutions and nonprofits and media | Liv Moloney | Saniya Keswani | BANKED — strongest hook this batch |
+| Booking.com | Consumer brands and travel | Martijn Savenije | Jess Valade | BANKED |
+| Airwallex | Fintech and payments | Steven Watson | Matt Jennings | BANKED |
+| Plaid | Fintech and payments | Heather Mounsey | Linda Eliasen | BANKED — HOOK NEEDED, promising unverified lead (Tearsheet.co rebrand interview) — see con |
+
+### Funnel I
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| 360Learning | Corporate L&D and LMS software | Marta Lisboa | Robin Nichols | BANKED |
+| Absorb Software | Corporate L&D and LMS software | Sue Funke | — | BANKED |
+| Articulate | Corporate L&D and LMS software | Sara Heegaard | — | BANKED |
+| Cornerstone OnDemand | Corporate L&D and LMS software | Matthew Hyland | Amanda Murrin | BANKED |
+| Docebo | Corporate L&D and LMS software | Manny Gonzalez | — | BANKED |
+| Go1 | Corporate L&D and LMS software | Olivia Mitchell | Lara Stewart | BANKED |
+| Vyond | Corporate L&D and LMS software | Kevin Kartono | — | BANKED |
+| Litmos | Corporate L&D and LMS software | Thao Ngo | Nikki Yttermalm | BANKED — HOOK NEEDED |
+| Cloudflare | Developer and infrastructure platforms | Jessica Liu | Emanuel Caetano | BANKED |
+| Confluent | Developer and infrastructure platforms | Daniel Yoo | Marissa Schneider | BANKED |
+
+### Funnel J
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| Elastic | Developer and infrastructure platforms | Erika Alexander | Yichun Hsieh | BANKED |
+| GitLab | Developer and infrastructure platforms | Adam Mittner | Matthew Jordan | BANKED |
+| Harness | Developer and infrastructure platforms | Ben Hoedt | Mitch Rymeski | BANKED |
+| JetBrains | Developer and infrastructure platforms | Alex Gauermann | Anna Rudaia | BANKED |
+| LaunchDarkly | Developer and infrastructure platforms | Jamal Farley | Jena Boyle | BANKED |
+| MongoDB | Developer and infrastructure platforms | Pablo Zubieta | Jerzy Fischer | BANKED |
+| Postman | Developer and infrastructure platforms | Colin Goheen | Shruthi Venkatesh | BANKED |
+| Twilio | Developer and infrastructure platforms | Riley West | Sara Bell | BANKED |
+| Unity | Developer and infrastructure platforms | Eddie Russell | James Turnage-Lannan | BANKED |
+| New Relic | Developer and infrastructure platforms | Moe Hung | Corianne Goldstein | BANKED |
+
+### Funnel K
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| HashiCorp | Developer and infrastructure platforms | Cole Morrison | Raven Kenemer | BANKED — HOOK NEEDED, weaker title fit |
+| Amplitude | Enterprise and business software | Helsi Robino | Michael Heriford | BANKED |
+| Applied Intuition | Enterprise and business software | Jorge Salgado | Matt Boyd | BANKED |
+| Autodesk | Enterprise and business software | Jack Headley | Christopher Sherwin | BANKED |
+| Celonis | Enterprise and business software | Alice Monnet | David Pohl | BANKED |
+| DocuSign | Enterprise and business software | Matthew Moresco | Shameika Ejiasi | BANKED |
+| Justworks | Enterprise and business software | Jonathan Lopez | Alexander Riezebeek | BANKED |
+| Klaviyo | Enterprise and business software | Karim El-Sayed | Robb D'Agostino | BANKED |
+| Okta | Enterprise and business software | Katie Mitchell | Devin Cornwall | BANKED |
+| Personio | Enterprise and business software | Andrew Wilson | Mia Worts | BANKED |
+
+### Funnel L
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| Qualtrics | Enterprise and business software | Janssen Weeks | Tori Youngblood | BANKED |
+| ServiceNow | Enterprise and business software | Joe Gagliardi | Daniel Koga | BANKED |
+| Shopify | Enterprise and business software | Jess Peterson | Neal Hicks | BANKED |
+| Workday | Enterprise and business software | Jim Johnson | Tosh Xiong | BANKED |
+| Pegasystems | Enterprise and business software | Liz Colanto | Carlos Perez | BANKED — HOOK NEEDED |
+| Anaplan | Enterprise and business software | Georgina Lipovac | Jamieson Copeland | BANKED — HOOK NEEDED |
+| Freshworks | Enterprise and business software | Pete Anderson | Mark Girgis | BANKED — HOOK NEEDED, verify Anderson's current title before drafting |
+| Darktrace | Cybersecurity vendors | Gus Teixeira | Kevin Ginosian | BANKED |
+| EC-Council | Cybersecurity vendors | Garrett Goeckner | Swati Salian | BANKED |
+| F5 | Cybersecurity vendors | Roland Luitgaarden | David Wulzen | BANKED |
+
+### Funnel M
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| Huntress | Cybersecurity vendors | Bryan Sarmiento | Robert Zelin | BANKED |
+| Kaseya | Cybersecurity vendors | Matthew Ninaber | Lisa Luk | BANKED |
+| LastPass | Cybersecurity vendors | Justin Miller | Eric Hines | BANKED |
+| Mimecast | Cybersecurity vendors | Doug Van Sickle | Roger Cameron | BANKED |
+| N-able | Cybersecurity vendors | Madden Meiners | Alberto Bravo | BANKED |
+| Proofpoint | Cybersecurity vendors | Nicholas Radcliffe | Daniel Morales | BANKED |
+| SANS Institute | Cybersecurity vendors | Vincent Sarageno | Nicholas Wessel | BANKED |
+| Sophos | Cybersecurity vendors | Rick Colina | Hannah Wallace | BANKED |
+| Tenable | Cybersecurity vendors | Christiano Dias | Sean Carnell | BANKED |
+| WatchGuard | Cybersecurity vendors | Wes Warfield | Cortney Albrecht | BANKED |
+
+### Funnel N
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| Zscaler | Cybersecurity vendors | Luisa Avila | Warren Yu | BANKED |
+| CrowdStrike | Cybersecurity vendors | Doug Finelli | Zandy Ariss | BANKED |
+| Palo Alto Networks | Cybersecurity vendors | Melinda Carlson-Smith | Mariah Glackler | BANKED |
+| SentinelOne | Cybersecurity vendors | Joshua Hernandez | Ankit Pahuja | BANKED |
+| Wiz | Cybersecurity vendors | Patrick Davis | Danielle Lamarca | BANKED |
+| Fortinet | Cybersecurity vendors | Brian Kirby | William Yeung | BANKED |
+| Check Point Software | Cybersecurity vendors | Lia Lerer | Johnny Thompson | BANKED |
+| Arctic Wolf | Cybersecurity vendors | Erin Russell | Katie Garske | BANKED |
+| Cash App | Fintech and payments | Matt Van Dzura | Andrea Kim | BANKED |
+| Chime | Fintech and payments | Francis Basco | Alisha Shimada | BANKED |
+
+### Funnel O
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| Jack Henry | Fintech and payments | Matt Teleha | Ken Schultz | BANKED |
+| Stripe | Fintech and payments | Olivia Chernoff | Nicole Pizzie | BANKED |
+| Wise | Fintech and payments | Pankaj Das | Alejandro Negueruela | BANKED |
+| Klarna | Fintech and payments | Rebecca Tepavac | Isabel Clifford | 2026-09-24-funnel-i-m-h-k |
+| Revolut | Fintech and payments | Tobi Fink | Jack Denyer | BANKED |
+| Adyen | Fintech and payments | Hannes Michelke | Geert Van 't Riet | BANKED — hook is 46 days old, re-check before drafting |
+| Monzo | Fintech and payments | Chris Mucklow-Norell | Maja Bayyoud | BANKED |
+| Brex | Fintech and payments | Anna Graney | Iris Hung | BANKED — verify Graney's current employer before drafting |
+| Marqeta | Fintech and payments | Greer Burton | Amy McWilliams | BANKED |
+| Affirm | Fintech and payments | Andrew McIntyre | Kat Green | BANKED — HOOK NEEDED |
+
+### Funnel P
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| Ramp | Fintech and payments | Paul Jun | Karly Snajczuk | BANKED — HOOK NEEDED |
+| Hornet | Creative and production studios | Marty Geren | Dez Stavracos | BANKED |
+| Nexus Studios | Creative and production studios | Kristin Glushon | Diego Rosner | BANKED |
+| THE LINE | Creative and production studios | Nick Miller | Eva Dahlqvist | BANKED |
+| Maersk | Corporate and industrial in-house | Shantanu Harjeet | Swapnita Roychaudhuri | BANKED |
+| Siemens | Corporate and industrial in-house | Sergio Manzo | Annie Mullen | BANKED |
+| Arizona Public Service | Corporate and industrial in-house | Scott Anderson | Rory Gonzalez | BANKED — no hook verified yet |
+| Tennessee Valley Authority | Corporate and industrial in-house | Bleu Hayes | Marc Murano | BANKED — no hook verified yet |
+| Ørsted | Corporate and industrial in-house | Pelle Iversen | Jacob Søndergaard | BANKED — HOOK NEEDED, check LinkedIn recent activity |
+| Schneider Electric | Corporate and industrial in-house | Ajay Seethala | Christophe Doré | BANKED |
+
+### Funnel Q
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| Siemens Energy | Corporate and industrial in-house | Natascha Ladstaetter | Natascha Ladstaetter | BANKED — verify "Chen L"'s full name/role before drafting; hook is 76 days old |
+| Airbnb | Consumer brands and travel | Sarah Karlan | Jordan Sider | BANKED |
+| Brooks Running | Consumer brands and travel | Christina Harp | Gavin Doremus | BANKED |
+| Calm | Consumer brands and travel | Daniel Szeto | Casey Daigle | BANKED |
+| Columbia Sportswear | Consumer brands and travel | Allison Straughan | Chris Araujo | BANKED |
+| Lonely Planet | Consumer brands and travel | Max Dickson | Deepa Lakshmin | BANKED |
+| Tripadvisor | Consumer brands and travel | Ivana Milovanovic | Heather Clifford | BANKED |
+| Wilson Sporting Goods | Consumer brands and travel | Naotaka Aogaki | Tim McCaffrey | BANKED |
+| On | Consumer brands and travel | Freddie Young | Luiza Baffa | BANKED |
+| Patagonia | Consumer brands and travel | Tristan Ahern | Vanina Lucas | BANKED |
+
+### Funnel R
+| Company | Segment | Primary | Backup | Roster note |
+|---|---|---|---|---|
+| Bombas | Consumer brands and travel | Michelle Feffer | Elliott Foos | BANKED |
+| Warby Parker | Consumer brands and travel | Matthew Currie | Carmel Quinn | BANKED |
+| Rothy's | Consumer brands and travel | Cristalle Stutrud | Anne Slater | BANKED |
+| Vuori | Consumer brands and travel | Mark Tesi | Daniella Carrera | BANKED |
+| National Geographic | Institutions and nonprofits and media | Jon Kroll | Lauren Jackson | BANKED |
+| NPR | Institutions and nonprofits and media | Mito Habe-Evans | Suraya Mohamed | BANKED — no hook verified yet |
+| TED Conferences | Institutions and nonprofits and media | Eric Kondo | Michael Femia | BANKED |
+| Wondery | Institutions and nonprofits and media | Tracy Egbas | Michaela Myers | BANKED — HOOK NEEDED, check LinkedIn recent activity |
+
+### Not in a funnel yet (need a new contact, kept so they are not lost)
+- **Calendly** (Rachel Burns moved to Senior Copywriter) · **Wix** (right Dan Segal not found) · **Discord** (Soojin Lim moved to Creative Producer from program mgmt - may still fit, re-check) · **Vercel** (no contact ever found). The next Lead Batch run that needs NEW companies sources a contact for these first.
+- **Parked for fit, not contact:** Squarespace (the in-house tutorial narrator would receive the pitch) · Datadog (every candidate spot is music-only). Revisit only on a signal.
+- **Siemens Energy:** Apollo's "Chen L" was unverifiable, so the primary is now backup Natascha Ladstaetter. **Brex:** Anna Graney's employer unconfirmed; Iris Hung is the fallback. **Sophos / Wise:** emails were extrapolated; must verify before drafting.
