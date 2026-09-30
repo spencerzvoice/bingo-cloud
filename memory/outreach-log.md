@@ -269,3 +269,5 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 ## 2026-09-29 - Follow-up prep (for Wed 09-30): Funnel C touch 2 x9 + Elaine Craig follow-up 2
 - 10 threaded reply drafts in Gmail Drafts (IDs in memory/followups-queue.md). Not sent. Follow up on: send Wed 09-30/Thu 10-01, last day Fri 10-02.
 - Result: pending send
+
+- 2026-09-30: Funnel C touch 2 sent (9, Kaplan 09-30); Elaine follow-up sent 09-29. Touch 3 due 10-14 (window to 10-20/21).
