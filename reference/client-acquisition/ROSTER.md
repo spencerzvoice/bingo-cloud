@@ -1,6 +1,6 @@
 # Roster — every company, by segment
 
-**Compiled:** 23 September 2026 from all 13 project docs, updated 25 September (naming reconciliation), updated 28 September (10 new companies, Segments I/K/L/M), updated 29 September (+10 companies from a research-only batch: SentinelOne, CyberArk, Wiz, New Relic, HashiCorp, Marqeta, Affirm, Bombas, Warby Parker, Rothy's — see `contacts/2026-09-29-research-batch.md`), updated 30 September (+10 companies, all BANKED/HOOK NEEDED — drafts gate was clear but hook verification failed session-wide, see `contacts/2026-09-30-research-batch.md`) · **181 companies**
+**Compiled:** 23 September 2026 from all 13 project docs, updated 25 September (naming reconciliation), updated 28 September (10 new companies, Segments I/K/L/M), updated 29 September (+10 companies from a research-only batch: SentinelOne, CyberArk, Wiz, New Relic, HashiCorp, Marqeta, Affirm, Bombas, Warby Parker, Rothy's — see `contacts/2026-09-29-research-batch.md`), updated 30 September morning (+10 companies, all BANKED/HOOK NEEDED — drafts gate was clear but hook verification failed session-wide, see `contacts/2026-09-30-research-batch.md`), updated 30 September (+16 companies, all **DRAFTED as Funnel G** under the new 20-pitch queue model — YETI, Away, lululemon, Instacart, DoorDash, DraftKings, Audible, Psyop, Robinhood, SoFi, Coinbase, Netskope, Duolingo, Toast, Gong, Fastly; all HOOK NEEDED, WebFetch blocked session-wide after one PROVENANCE_REQUIRED failure — see `contacts/2026-09-30-funnel-g.md`) · **197 companies**
 **Segment definitions:** see `SEGMENTS.md` · **Funnel (send cohort) definitions:** see `FUNNEL-COHORTS.md` — canonically owned by Bingo, imported 25 Sep
 
 **Two independent columns now, not one letter:**
@@ -171,6 +171,7 @@ The ranked shortlist lives in `funnel-c-top-10.md`.
 | Snowflake | Jason Fassler (replaced Oliver Mellan, left) | — | jason.fassler@snowflake.com | — | D | **SENT** 24 Sep | Bingo 24 Sep |
 | New Relic | Moe Hung | Creative Director | verified | Corianne Goldstein — Content Manager | — | BANKED | 2026-09-29-research-batch |
 | HashiCorp | Cole Morrison | Head of Brand Story & Principle Evangelist | verified | Raven Kenemer — Senior Editorial and Content Manager | — | BANKED — HOOK NEEDED, weaker title fit | 2026-09-29-research-batch |
+| Fastly | Alina Lehtinen-Vela | Content Marketing Manager | alina.lehtinen-vela@fastly.com, Apollo-verified | Ashley Hurwitz — Content Marketing Manager | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
 ## Enterprise and business software
 
@@ -196,36 +197,39 @@ The ranked shortlist lives in `funnel-c-top-10.md`.
 | Pegasystems | Liz Colanto | Head of Post, Lead Video Editor | liz.colanto@pega.com, Apollo-verified | Carlos Perez — Global Creative Director | — | BANKED — HOOK NEEDED | 2026-09-30-research-batch |
 | Anaplan | Georgina Lipovac | Senior Creative Director | georgina.brown@anaplan.com, Apollo-verified (prefix ≠ surname, likely legacy alias) | Jamieson Copeland — Sr. Video, Events and Content Producer | — | BANKED — HOOK NEEDED | 2026-09-30-research-batch |
 | Freshworks | Pete Anderson | Executive Producer — ⚠️ title unconfirmed, see note | pete.anderson@freshworks.com, Apollo-verified | Mark Girgis — Creative Director, Brand | — | BANKED — HOOK NEEDED, verify Anderson's current title before drafting | 2026-09-30-research-batch |
+| Toast | Eleanor Scott | Content Marketing Manager, International | eleanor.scott@toasttab.com, Apollo-verified | Christy Smits — Director, Brand Activation & Creative Strategy | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| Gong | Hannah Brozek | Senior Content Marketing Manager | hannah.brozek@gong.io, Apollo-verified | Caroline Redmond — Web Producer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
 ## Cybersecurity vendors
 
-All BANKED unless noted. The deepest untouched vertical in the pipeline.
+Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — one DRAFTED 30 Sep (Funnel G).
 
-| Company | Primary contact | Title | Email | Backup | Source |
-|---|---|---|---|---|---|
-| Darktrace | Gus Teixeira | Video Producer | verified | Kevin Ginosian — Content Marketing Manager | batch-08 |
-| EC-Council | Garrett Goeckner | Video Producer | verified | Swati Salian — Content Manager | batch-10 |
-| F5 | Roland Luitgaarden | Lead Creative Producer | verified | David Wulzen — Video Post Production Manager | batch-10 |
-| Group-IB | Meeba Gracy | Content Marketing Manager | verified | Maria Viderman — Content Marketing Manager | batch-11 |
-| Huntress | Bryan Sarmiento | Video Production Manager | verified | Robert Zelin — Creative Director | batch-10 |
-| Kaseya | Matthew Ninaber | Senior Video Producer | verified | Lisa Luk — Executive Creative Director | batch-10 |
-| LastPass | Justin Miller | Instructional Video Producer | verified | Eric Hines — Creative Director | batch-10 |
-| Mimecast | Doug Van Sickle | Post Production Manager | verified | Roger Cameron — Creative Director | batch-06 |
-| N-able | Madden Meiners | Senior Video Producer | verified | Alberto Bravo — Video Production Manager | batch-10 |
-| Proofpoint | Nicholas Radcliffe | Video Producer | verified | Daniel Morales — Senior Director, Creative | batch-08 |
-| SANS Institute | Vincent Sarageno | Video Production Manager | verified | Nicholas Wessel — Manager of Media Production | batch-10 |
-| Sophos | Rick Colina | Video Producer and Editor | **extrapolated — weakest card** | Hannah Wallace — Content Marketing Manager | batch-08 |
-| Tenable | Christiano Dias | Senior Video Producer | verified | Sean Carnell — Director, Corporate Communications | batch-08 |
-| WatchGuard | Wes Warfield | Video Production Manager | verified | Cortney Albrecht — Creative Director | batch-10 |
-| Zscaler | Luisa Avila | Creative Producer | verified | Warren Yu — Senior Video Producer | batch-08 |
-| CrowdStrike | Doug Finelli | Global Executive Creative Director, Brand | verified | Zandy Ariss — Executive Creative Director, Media Studio | 2026-09-24-funnel-i-m-h-k |
-| Palo Alto Networks | Melinda Carlson-Smith | Senior Video Production Manager, Creative Services Marketing | verified | Mariah Glackler — Lead Creative Producer | 2026-09-24-funnel-i-m-h-k |
-| SentinelOne | Joshua Hernandez | Creative Director | verified | Ankit Pahuja — Sr. Manager, Marketing | 2026-09-29-research-batch |
-| Wiz | Patrick Davis | Video & Media Content Producer | verified | Danielle Lamarca — Marketing Leader | 2026-09-29-research-batch |
-| CyberArk | David Lawler | Director, Creative | verified — **⚠️ HELD, see note** | Melissa Hall — Field Marketing Manager | 2026-09-29-research-batch |
-| Fortinet | Brian Kirby | Senior Video Production Manager | bkirby@fortinet.com, Apollo-verified | William Yeung — Video Producer | 2026-09-30-research-batch |
-| Check Point Software | Lia Lerer | Head of Video Production | lial@checkpoint.com, Apollo-verified | Johnny Thompson — Creative Director (no email found) | 2026-09-30-research-batch |
-| Arctic Wolf | Erin Russell | Senior Director, Creative | erin.russell@arcticwolf.com, Apollo-verified | Katie Garske — Senior Manager, Content Marketing (no email found) | 2026-09-30-research-batch |
+| Company | Primary contact | Title | Email | Backup | Funnel | Status | Source |
+|---|---|---|---|---|---|---|---|
+| Darktrace | Gus Teixeira | Video Producer | verified | Kevin Ginosian — Content Marketing Manager | — | BANKED | batch-08 |
+| EC-Council | Garrett Goeckner | Video Producer | verified | Swati Salian — Content Manager | — | BANKED | batch-10 |
+| F5 | Roland Luitgaarden | Lead Creative Producer | verified | David Wulzen — Video Post Production Manager | — | BANKED | batch-10 |
+| Group-IB | Meeba Gracy | Content Marketing Manager | verified | Maria Viderman — Content Marketing Manager | — | BANKED | batch-11 |
+| Huntress | Bryan Sarmiento | Video Production Manager | verified | Robert Zelin — Creative Director | — | BANKED | batch-10 |
+| Kaseya | Matthew Ninaber | Senior Video Producer | verified | Lisa Luk — Executive Creative Director | — | BANKED | batch-10 |
+| LastPass | Justin Miller | Instructional Video Producer | verified | Eric Hines — Creative Director | — | BANKED | batch-10 |
+| Mimecast | Doug Van Sickle | Post Production Manager | verified | Roger Cameron — Creative Director | — | BANKED | batch-06 |
+| N-able | Madden Meiners | Senior Video Producer | verified | Alberto Bravo — Video Production Manager | — | BANKED | batch-10 |
+| Proofpoint | Nicholas Radcliffe | Video Producer | verified | Daniel Morales — Senior Director, Creative | — | BANKED | batch-08 |
+| SANS Institute | Vincent Sarageno | Video Production Manager | verified | Nicholas Wessel — Manager of Media Production | — | BANKED | batch-10 |
+| Sophos | Rick Colina | Video Producer and Editor | **extrapolated — weakest card** | Hannah Wallace — Content Marketing Manager | — | BANKED | batch-08 |
+| Tenable | Christiano Dias | Senior Video Producer | verified | Sean Carnell — Director, Corporate Communications | — | BANKED | batch-08 |
+| WatchGuard | Wes Warfield | Video Production Manager | verified | Cortney Albrecht — Creative Director | — | BANKED | batch-10 |
+| Zscaler | Luisa Avila | Creative Producer | verified | Warren Yu — Senior Video Producer | — | BANKED | batch-08 |
+| CrowdStrike | Doug Finelli | Global Executive Creative Director, Brand | verified | Zandy Ariss — Executive Creative Director, Media Studio | — | BANKED | 2026-09-24-funnel-i-m-h-k |
+| Palo Alto Networks | Melinda Carlson-Smith | Senior Video Production Manager, Creative Services Marketing | verified | Mariah Glackler — Lead Creative Producer | — | BANKED | 2026-09-24-funnel-i-m-h-k |
+| SentinelOne | Joshua Hernandez | Creative Director | verified | Ankit Pahuja — Sr. Manager, Marketing | — | BANKED | 2026-09-29-research-batch |
+| Wiz | Patrick Davis | Video & Media Content Producer | verified | Danielle Lamarca — Marketing Leader | — | BANKED | 2026-09-29-research-batch |
+| CyberArk | David Lawler | Director, Creative | verified — **⚠️ HELD, see note** | Melissa Hall — Field Marketing Manager | — | HELD | 2026-09-29-research-batch |
+| Fortinet | Brian Kirby | Senior Video Production Manager | bkirby@fortinet.com, Apollo-verified | William Yeung — Video Producer | — | BANKED | 2026-09-30-research-batch |
+| Check Point Software | Lia Lerer | Head of Video Production | lial@checkpoint.com, Apollo-verified | Johnny Thompson — Creative Director (no email found) | — | BANKED | 2026-09-30-research-batch |
+| Arctic Wolf | Erin Russell | Senior Director, Creative | erin.russell@arcticwolf.com, Apollo-verified | Katie Garske — Senior Manager, Content Marketing (no email found) | — | BANKED | 2026-09-30-research-batch |
+| Netskope | Emily Wearmouth | Brand Director | ewearmouth@netskope.com, Apollo-verified | no backup found (Apollo returned only one video/creative/content contact) | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
 **All three 30 Sep cybersecurity adds are BANKED — HOOK NEEDED** (WebFetch blocked session-wide, see `contacts/2026-09-30-research-batch.md`).
 
@@ -251,6 +255,9 @@ All BANKED unless noted. The deepest untouched vertical in the pipeline.
 | Affirm | Andrew McIntyre | Associate Creative Director | verified | Kat Green — Director of Brand Marketing | — | BANKED — HOOK NEEDED | 2026-09-29-research-batch |
 | Plaid | Heather Mounsey | Head of Brand and Creative | hmounsey@plaid.com, Apollo-verified | Linda Eliasen — Head of Creative | — | BANKED — HOOK NEEDED, promising unverified lead (Tearsheet.co rebrand interview) — see contacts doc | 2026-09-30-research-batch |
 | Ramp | Paul Jun | Creative Director, Brand | paul.jun@ramp.com, Apollo-verified | Karly Snajczuk — Senior Creative Producer | — | BANKED — HOOK NEEDED | 2026-09-30-research-batch |
+| Robinhood | Jen Vladimirsky | Creative Producer | jen.vladimirsky@robinhood.com, Apollo-verified | Stephanie Albala — Senior Creative Producer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| SoFi | Kelly Bonner | Creative Director | kbonner@sofi.com, Apollo-verified | Troy Huie — Creative Director (email domain returned as sofi.org by Apollo — unusual, verify before relying on it) | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| Coinbase | Nicholas Dahl | Product Creative Producer | nicholas.dahl@coinbase.com, Apollo-verified | Kate Oliver — Sr. Creative Producer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
 ## Creative and production studios
 
@@ -264,6 +271,7 @@ All BANKED unless noted. The deepest untouched vertical in the pipeline.
 | Tendril | Ivelle Jargalyn | — | ivelle@tendril.ca | — | D | **SENT** 24 Sep | Bingo 24 Sep |
 | BUCK | Jordan Howes | Head of Production | verified | Rebecca Dell — Executive Producer | — | BANKED — SEND-SOON, event-dated hook (Ladder Lad reveal) | 2026-09-25-funnel-i-j-k-l-m |
 | Company 3 | Gurucharan Kirtiwar | Head of Production | verified | Michael Maida — Head of Production | — | BANKED — title mismatch vs. his own LinkedIn ("Line Producer"), verify before drafting | 2026-09-25-funnel-i-j-k-l-m |
+| Psyop | Andrew Linsk | Executive Producer | alinsk@psyop.tv, Apollo-verified | Ksenia Strelets — Producer | G | **DRAFTED** 30 Sep — pitch angle adjusted per segment note (reliability/turnaround over brand fit); HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
 ## Corporate and industrial in-house
 
@@ -282,26 +290,32 @@ All BANKED unless noted. The deepest untouched vertical in the pipeline.
 
 ## Consumer brands and travel
 
-All BANKED. Highest rate ceiling in the pipeline.
+Highest rate ceiling in the pipeline. Mostly BANKED; six DRAFTED 30 Sep (Funnel G).
 
-| Company | Primary contact | Title | Email | Backup | Source |
-|---|---|---|---|---|---|
-| Airbnb | Sarah Karlan | Creative Producer | verified | Jordan Sider — Creative Producer | batch-06 |
-| Brooks Running | Christina Harp | Lead Creative Producer | verified | Gavin Doremus — Creative Producer | batch-06 |
-| Calm | Daniel Szeto | ECD, VP Calm Studios | verified | Casey Daigle — Creative Producer, Calm Health | batch-06 |
-| Columbia Sportswear | Allison Straughan | Post Production Manager | verified | Chris Araujo — Sr. Director, Columbia Creative | batch-06 |
-| Lonely Planet | Max Dickson | Video Producer & Editor | verified | Deepa Lakshmin — Head of Social Media & Video | batch-06 |
-| Tripadvisor | Ivana Milovanovic | Executive Producer | verified | Heather Clifford — Sr. Creative Producer, Wanderlab EMEA | batch-06 |
-| Wilson Sporting Goods | Naotaka Aogaki | Global Creative Director | verified | Tim McCaffrey — Creative Director | batch-06 |
-| On | Freddie Young | Head of Brand Studio, EMEA | verified | Luiza Baffa — Global Senior Director of Creative Studio | 2026-09-25-funnel-i-j-k-l-m |
-| Patagonia | Tristan Ahern | Producer, Global Storytelling Content and Brand Campaigns | verified | Vanina Lucas — Senior Film & Video Producer | 2026-09-25-funnel-i-j-k-l-m |
-| Garmin | Maggie Wasserman | Global Executive Producer | verified | Matt Bowne — Global Creative Director | 2026-09-28-funnel-i-k-l-m |
-| Booking.com | Martijn Savenije | Head of Content Studio | verified — title differs slightly from a live conference bio, likely just stale, verify before send | Jess Valade — Global Head of Brand | 2026-09-28-funnel-i-k-l-m |
-| Peloton Interactive | Anne Gaynor | Senior Executive Producer | verified | Erick Rodriguez — Creative Director | 2026-09-28-funnel-i-k-l-m |
-| Bombas | Michelle Feffer | Senior Creative Producer | verified — HOOK NEEDED | Elliott Foos — Associate Creative Producer | 2026-09-29-research-batch |
-| Warby Parker | Matthew Currie | Post Production Manager | verified | Carmel Quinn — Director, Creative Operations | 2026-09-29-research-batch |
-| Rothy's | Cristalle Stutrud | Post Production Manager | verified | Anne Slater — Senior Director, Creative Operations | 2026-09-29-research-batch |
-| Vuori | Mark Tesi | Creative Director | mtesi@vuoriclothing.com, Apollo-verified — HOOK NEEDED | Daniella Carrera — Senior Manager, Creative Production | 2026-09-30-research-batch |
+| Company | Primary contact | Title | Email | Backup | Funnel | Status | Source |
+|---|---|---|---|---|---|---|---|
+| Airbnb | Sarah Karlan | Creative Producer | verified | Jordan Sider — Creative Producer | — | BANKED | batch-06 |
+| Brooks Running | Christina Harp | Lead Creative Producer | verified | Gavin Doremus — Creative Producer | — | BANKED | batch-06 |
+| Calm | Daniel Szeto | ECD, VP Calm Studios | verified | Casey Daigle — Creative Producer, Calm Health | — | BANKED | batch-06 |
+| Columbia Sportswear | Allison Straughan | Post Production Manager | verified | Chris Araujo — Sr. Director, Columbia Creative | — | BANKED | batch-06 |
+| Lonely Planet | Max Dickson | Video Producer & Editor | verified | Deepa Lakshmin — Head of Social Media & Video | — | BANKED | batch-06 |
+| Tripadvisor | Ivana Milovanovic | Executive Producer | verified | Heather Clifford — Sr. Creative Producer, Wanderlab EMEA | — | BANKED | batch-06 |
+| Wilson Sporting Goods | Naotaka Aogaki | Global Creative Director | verified | Tim McCaffrey — Creative Director | — | BANKED | batch-06 |
+| On | Freddie Young | Head of Brand Studio, EMEA | verified | Luiza Baffa — Global Senior Director of Creative Studio | — | BANKED | 2026-09-25-funnel-i-j-k-l-m |
+| Patagonia | Tristan Ahern | Producer, Global Storytelling Content and Brand Campaigns | verified | Vanina Lucas — Senior Film & Video Producer | — | BANKED | 2026-09-25-funnel-i-j-k-l-m |
+| Garmin | Maggie Wasserman | Global Executive Producer | verified | Matt Bowne — Global Creative Director | — | BANKED | 2026-09-28-funnel-i-k-l-m |
+| Booking.com | Martijn Savenije | Head of Content Studio | verified — title differs slightly from a live conference bio, likely just stale, verify before send | Jess Valade — Global Head of Brand | — | BANKED | 2026-09-28-funnel-i-k-l-m |
+| Peloton Interactive | Anne Gaynor | Senior Executive Producer | verified | Erick Rodriguez — Creative Director | — | BANKED | 2026-09-28-funnel-i-k-l-m |
+| Bombas | Michelle Feffer | Senior Creative Producer | verified — HOOK NEEDED | Elliott Foos — Associate Creative Producer | — | BANKED | 2026-09-29-research-batch |
+| Warby Parker | Matthew Currie | Post Production Manager | verified | Carmel Quinn — Director, Creative Operations | — | BANKED | 2026-09-29-research-batch |
+| Rothy's | Cristalle Stutrud | Post Production Manager | verified | Anne Slater — Senior Director, Creative Operations | — | BANKED | 2026-09-29-research-batch |
+| Vuori | Mark Tesi | Creative Director | mtesi@vuoriclothing.com, Apollo-verified — HOOK NEEDED | Daniella Carrera — Senior Manager, Creative Production | — | BANKED | 2026-09-30-research-batch |
+| YETI | Jesse Hill | Creative Producer (Apollo title garbled as "Creative PR Ducer") | jesse.hill@yeti.com, Apollo-verified | Sarah Guidry — Associate Creative Director, Editorial | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| Away | Dustin Grant | Executive Creative Producer | dustin.grant@awaytravel.com, Apollo-verified | Brendan Rosell — Director, Creative Operations | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| lululemon | Cameron Aspinwall | Producer, Global Brand Creative | caspinwall@lululemon.com, Apollo-verified | Laura-Le Vandenbergh — Senior Creative Director | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| Instacart | Taylor Erin | Head of Creative | taylor.erin@instacart.com, Apollo-verified | Justine Mar — Executive Producer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| DoorDash | Chris Allick | Creative Director | chris.allick@doordash.com, Apollo-verified | Kamil Kowalczyk — Creative Director | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
+| DraftKings | Matthew Zaifert | Creative Director | m.zaifert@draftkings.com, Apollo-verified | Thomas Murray — Creative Director | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
 **On — SEND-SOON, strongest hook of the 25 Sep batch:** event-dated (Mbappé/football launch, 18 Sep 2026). **Patagonia:** hook is weaker (~50 days old, no confirmed publish date) — re-verify before drafting. **Garmin, Booking.com, Peloton (28 Sep) all carry SEND-SOON hooks** — see `contacts/2026-09-28-funnel-i-k-l-m.md`.
 
@@ -320,6 +334,7 @@ All BANKED. Highest rate ceiling in the pipeline.
 | Pushkin Industries | Constanza Gallardo | Head of Production & Executive Producer | verified | Justin Richmond — Executive Producer | — | BANKED — SEND-SOON, event-dated hook (Revisionist History Reconstruction series) | 2026-09-28-funnel-i-k-l-m |
 | Wondery | Tracy Egbas | Senior Producer | verified | Michaela Myers — Senior Producer | — | BANKED — HOOK NEEDED, check LinkedIn recent activity | 2026-09-28-funnel-i-k-l-m |
 | Smithsonian Institution | Ariana Lilligren | Head of Production | verified | Jonathan Ray — Producer, Webcast | — | BANKED — SEND-SOON, event-dated hook (National Air and Space Museum video series) | 2026-09-28-funnel-i-k-l-m |
+| Audible | Miguel Barbieri | Video Producer | migbarbi@audible.com, Apollo-verified | Jaclyn Cataldi — Video Producer & Motion Designer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
 ---
 

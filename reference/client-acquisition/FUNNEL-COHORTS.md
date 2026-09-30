@@ -75,3 +75,32 @@ Contacts opened live on LinkedIn /details/experience/ 09-25 (primary source). Li
 Dropped from F candidates 09-25: Calendly (Rachel Burns is now Senior Copywriter, not video) · Squarespace (Nolan Gordin records the tutorial VO himself per his LinkedIn - the pitch would land on the in-house narrator; Rebecca Patrick's LinkedIn not found) · Datadog (Andrew Cashin verified current, but every candidate spot is music-only) · Wix (right Dan Segal not found) · Discord (Soojin Lim changed to Creative Producer Jul 2026 from program mgmt). Descript Adrien: LinkedIn headline reads "Lo-fi Lens Witch"; role from experience page.
 
 ## Pending drafts in spencer@spencerzvoice.com: 18 = 7 E + 5 C2 + 6 F (PINKTUM trashed 09-25). The 5 follow-up replies seen at 14:00 are no longer in Drafts (sent or removed by Spencer; not checked which)
+
+## G — 30 Sep top-up cohort (16), first cohort drafted under the new 20-pitch queue model (Spencer, 09-30: queue model replaces the old all-or-nothing drafts gate)
+
+Drafted 2026-09-30 by the cloud lead-batch run. WebFetch failed session-wide after one PROVENANCE_REQUIRED timeout (first call, `blog.duolingo.com`) — one-strike rule applied, so **every contact below is HOOK NEEDED**; no hook was invented. Spans multiple Segments (Consumer brands and travel ×6, Fintech and payments ×3, Enterprise and business software ×2, Institutions/nonprofits/media, Creative and production studios, Cybersecurity vendors, E-learning platforms, Developer and infrastructure platforms ×1 each) — a Funnel is a send cohort, not a segment, per the 24 Sep decision. None of the 16 emails claims a specific re-voiced sample (no take could be researched/verified this run); each closes with an offer of a custom read instead. Contact research: `contacts/2026-09-30-funnel-g.md`.
+
+| Company | Segment | Contact | Email | Backup |
+|---|---|---|---|---|
+| YETI | Consumer brands and travel | Jesse Hill, Creative Producer (Apollo title garbled) | jesse.hill@yeti.com | Sarah Guidry — Associate Creative Director, Editorial |
+| Away | Consumer brands and travel | Dustin Grant, Executive Creative Producer | dustin.grant@awaytravel.com | Brendan Rosell — Director, Creative Operations |
+| lululemon | Consumer brands and travel | Cameron Aspinwall, Producer, Global Brand Creative | caspinwall@lululemon.com | Laura-Le Vandenbergh — Senior Creative Director |
+| Instacart | Consumer brands and travel | Taylor Erin, Head of Creative | taylor.erin@instacart.com | Justine Mar — Executive Producer |
+| DoorDash | Consumer brands and travel | Chris Allick, Creative Director | chris.allick@doordash.com | Kamil Kowalczyk — Creative Director |
+| DraftKings | Consumer brands and travel | Matthew Zaifert, Creative Director | m.zaifert@draftkings.com | Thomas Murray — Creative Director |
+| Audible | Institutions, nonprofits and media | Miguel Barbieri, Video Producer | migbarbi@audible.com | Jaclyn Cataldi — Video Producer & Motion Designer |
+| Psyop | Creative and production studios | Andrew Linsk, Executive Producer | alinsk@psyop.tv | Ksenia Strelets — Producer |
+| Robinhood | Fintech and payments | Jen Vladimirsky, Creative Producer | jen.vladimirsky@robinhood.com | Stephanie Albala — Senior Creative Producer |
+| SoFi | Fintech and payments | Kelly Bonner, Creative Director | kbonner@sofi.com | Troy Huie — Creative Director (email domain returned as sofi.org by Apollo, unusual) |
+| Coinbase | Fintech and payments | Nicholas Dahl, Product Creative Producer | nicholas.dahl@coinbase.com | Kate Oliver — Sr. Creative Producer |
+| Netskope | Cybersecurity vendors | Emily Wearmouth, Brand Director | ewearmouth@netskope.com | none found |
+| Duolingo | E-learning platforms | Sabine Jung, Creative Producer | sabine@duolingo.com | Iman Benbourenane — Creative Producer |
+| Toast | Enterprise and business software | Eleanor Scott, Content Marketing Manager, International | eleanor.scott@toasttab.com | Christy Smits — Director, Brand Activation & Creative Strategy |
+| Gong | Enterprise and business software | Hannah Brozek, Senior Content Marketing Manager | hannah.brozek@gong.io | Caroline Redmond — Web Producer |
+| Fastly | Developer and infrastructure platforms | Alina Lehtinen-Vela, Content Marketing Manager | alina.lehtinen-vela@fastly.com | Ashley Hurwitz — Content Marketing Manager |
+
+**IxDF flag:** a stray NEW-CLIENT PITCH draft to Roman Kurachenko (roman@team.interaction-design.org, IxDF) was found already sitting in Drafts at the start of this run — created by an earlier same-day test run of the lead-batch skill. It directly contradicts Spencer's 09-30 decision to cut IxDF from the funnels ("do not send or follow up" — tracker row, Dropped). It was **not** touched (this run's rule is never delete/edit/move an existing draft) but it should not be sent. Flagged in the digest for Spencer to trash.
+
+**Smartsheet flag:** a second stray draft to Kendra Sherrill (kendra.sherrill@smartsheet.com, Smartsheet), also from the same earlier test run, is a duplicate cold pitch to someone Spencer already emailed 29 Sep (Funnel F, "A voice for Smartsheet's video work" — sent, verified in Gmail). It does not count as a new-client pitch (the recipient has already been contacted) and was left untouched. Flagged for Spencer to trash.
+
+## Pitch-queue count after this run: N=4 pre-existing NEW-CLIENT PITCH drafts (IxDF/Roman, Hitachi Rail/Ian Wiggins, Group-IB/Meeba Gracy, UiPath/Carter Elkin-Paris — all from an earlier same-day test run) + 16 new (Funnel G) = 20/20. The 5th pre-existing draft found (Smartsheet/Kendra Sherrill) does NOT count — Kendra was already sent to 29 Sep (Funnel F). Recount from live Gmail before the next run, don't trust this line.
