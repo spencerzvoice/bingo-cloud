@@ -3,7 +3,9 @@
     "allow": [
       "Bash(git push:*)",
       "Bash(git pull:*)",
-      "Bash(git fetch:*)"
+      "Bash(git fetch:*)",
+      "WebFetch",
+      "WebSearch"
     ]
   },
   "hooks": {
