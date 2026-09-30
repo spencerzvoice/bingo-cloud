@@ -270,6 +270,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | NPR | Institutions and nonprofits and media | Mito Habe-Evans | Suraya Mohamed | BANKED — no hook verified yet |
 | TED Conferences | Institutions and nonprofits and media | Eric Kondo | Michael Femia | BANKED |
 | Wondery | Institutions and nonprofits and media | Tracy Egbas | Michaela Myers | BANKED — HOOK NEEDED, check LinkedIn recent activity |
+| Company 3 | Creative and production studios | Gurucharan Kirtiwar | Michael Maida | BANKED — title mismatch (Apollo "Head of Production" vs LinkedIn "Line Producer, Company3 Method India"); added to R 30 Sep after a parse miss |
 
 ### Not in a funnel yet (need a new contact, kept so they are not lost)
 - **Calendly** (Rachel Burns moved to Senior Copywriter) · **Wix** (right Dan Segal not found) · **Discord** (Soojin Lim moved to Creative Producer from program mgmt - may still fit, re-check) · **Vercel** (no contact ever found). The next Lead Batch run that needs NEW companies sources a contact for these first.

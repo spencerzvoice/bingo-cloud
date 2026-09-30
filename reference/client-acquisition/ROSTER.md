@@ -270,7 +270,7 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 | Sarofsky | Paul Klinke (replaced Joel Signer, left) | — | paul.klinke@sarofsky.com | — | D | **SENT** 24 Sep | Bingo 24 Sep |
 | Tendril | Ivelle Jargalyn | — | ivelle@tendril.ca | — | D | **SENT** 24 Sep | Bingo 24 Sep |
 | BUCK | Jordan Howes | Head of Production | verified | Rebecca Dell — Executive Producer | H | BANKED — SEND-SOON, event-dated hook (Ladder Lad reveal) | 2026-09-25-funnel-i-j-k-l-m |
-| Company 3 | Gurucharan Kirtiwar | Head of Production | verified | Michael Maida — Head of Production | — | BANKED — title mismatch vs. his own LinkedIn ("Line Producer"), verify before drafting | 2026-09-25-funnel-i-j-k-l-m |
+| Company 3 | Gurucharan Kirtiwar | Head of Production | verified | Michael Maida — Head of Production | R | BANKED — title mismatch vs. his own LinkedIn ("Line Producer"), verify before drafting | 2026-09-25-funnel-i-j-k-l-m |
 | Psyop | Andrew Linsk | Executive Producer | alinsk@psyop.tv, Apollo-verified | Ksenia Strelets — Producer | G | **DRAFTED** 30 Sep — pitch angle adjusted per segment note (reliability/turnaround over brand fit); HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
 ## Corporate and industrial in-house

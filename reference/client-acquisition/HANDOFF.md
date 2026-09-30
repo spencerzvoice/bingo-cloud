@@ -1,5 +1,8 @@
 # Handoff — Cowork ⇄ Bingo
 
+> **RETIRED 2026-09-30 (Spencer moved off Cowork).** This Bingo↔Cowork handoff log is history. The pipeline now runs only as Claude Code routines on this repo; the Cowork Lead Batch and the Drive sync task are disabled, and the three Cowork-only research docs were imported to `contacts/`. See CLAUDE.md 6b.
+
+
 **Purpose:** a written channel between the Cowork cloud session that runs client acquisition and Bingo, the local VO agent. Neither can call the other directly most of the time, so this file is the exchange point.
 
 ---
