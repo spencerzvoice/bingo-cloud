@@ -104,3 +104,16 @@ After sending: Funnel C touch 3 (final) window = send + 14-21d.
 
 ## 2026-09-30 remind run
 All 10 drafts from the 09-29 batch SENT (drafts mailbox empty, Sent verified); statuses: sent 09-29 (Kaplan 09-30). Nothing due today, nothing notified. Digest overdue list (Anomaly/MacMillan is 3-touch done; Attn/Invision/Modo/Tellary/etc. warm check-ins) = unscheduled/warm backlog on the ledger, not due; Zapier/IxDF/Grafana rows 'Drafted - Not Sent' have no draft in Gmail (need Spencer's go).
+
+## Batch 2026-09-30 (evening prep, for Thu 2026-10-01) - 7 drafts, NOT sent
+Live Gmail 09-30: all 7 threads single-message (sent 09-24), no replies/bounces. Drafts box otherwise = 19 Funnel G pitches. Angle: FIFA WC 2026 Preview + EuroLeague Season Preview + free custom read. No hook (cloud can't open LinkedIn). Day-before email + push sent.
+| Contact | Company | Thread | Draft ID | Touch | Status |
+|---|---|---|---|---|---|
+| Daren Levis | Experian | 1a0d520197f24028 | r3242941349282030826 | 2 | drafted |
+| Jason Doty | Purdue | 1a0d520e15ef0a58 | r2485252869613484957 | 2 | drafted |
+| Paul Klinke | Sarofsky | 1a0d522c161a804a | r6196767492538507157 | 2 | drafted |
+| Jason Fassler | Snowflake | 1a0d5220724457d0 | r-8877124572411327641 | 2 | drafted |
+| Ivelle Jargalyn | Tendril | 1a0d5238a5cc0e8e | r-4870925542109111922 | 2 | drafted |
+| Rob Nikzad | Airtable | 1a0d4cb38e96c2d5 | r6313046449729910051 | 2 | drafted |
+| Kirsten Golden | Airtable | 1a0d4cc06c04b85e | r-6540220505899591091 | 2 | drafted |
+After sending: touch 3 (final) window = send + 14-21d.
