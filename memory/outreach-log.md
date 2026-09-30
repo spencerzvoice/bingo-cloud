@@ -271,3 +271,4 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 - Result: pending send
 
 - 2026-09-30: Funnel C touch 2 sent (9, Kaplan 09-30); Elaine follow-up sent 09-29. Touch 3 due 10-14 (window to 10-20/21).
+- 2026-09-30: Zapier, IxDF, Grafana dropped from funnels (Spencer). Tracker Dropped.
