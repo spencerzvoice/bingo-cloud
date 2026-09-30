@@ -62,10 +62,12 @@ def set_attr(seg, tag, value):
     return re.sub(r'(<%s Value=")[^"]*(" />)' % tag, lambda m: m.group(1) + str(value) + m.group(2), seg, count=1)
 
 
-def patch_clip(xml, track_name, fpath):
+def patch_clip(xml, track_name, fpath, abs_path=None):
     """Point the one clip on `track_name` at `fpath`, written the way a manual drag-in writes it:
     clip gain 0 dB (template placeholders sit at -70 dB), unwarped, named after the file.
-    Unwarped clips: CurrentEnd is in beats (120 BPM -> s*2); loop/marker fields are in seconds."""
+    Unwarped clips: CurrentEnd is in beats (120 BPM -> s*2); loop/marker fields are in seconds.
+    abs_path: the path Ableton should record (e.g. Spencer's D:/My Drive/... path when the project
+    is built in the cloud); defaults to fpath."""
     dur, sr = probe(fpath)
     for m in re.finditer(r"<AudioTrack Id=\"\d+\"[^>]*>", xml):
         tend = xml.find("</AudioTrack>", m.start())
@@ -84,7 +86,7 @@ def patch_clip(xml, track_name, fpath):
         seg = set_attr(seg, "IsWarped", "false")
         seg = set_attr(seg, "SampleVolume", 1)
         seg = set_attr(seg, "RelativePath", "../" + os.path.basename(fpath))
-        seg = set_attr(seg, "Path", fpath.replace("\\", "/"))
+        seg = set_attr(seg, "Path", (abs_path or fpath).replace("\\", "/"))
         seg = set_attr(seg, "OriginalFileSize", os.path.getsize(fpath))
         seg = set_attr(seg, "DefaultDuration", int(round(dur * sr)))
         seg = set_attr(seg, "DefaultSampleRate", sr)
