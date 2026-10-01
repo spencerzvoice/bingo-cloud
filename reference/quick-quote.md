@@ -2,6 +2,8 @@
 
 **Rebuilt 2026-09-19 from the live GVAA Rate Guide** (globalvoiceacademy.com/gvaa-rate-guide-2/ — opened and read in full by Bingo this date, Spencer logged in). The previous grid (territory × term × :30 with Worldwide/in-perp columns and a length multiplier) is **retired** — it is not what the current guide publishes. Old copy: scratchpad backup only; do not resurrect its numbers.
 
+**Cross-checked 2026-10-01 against Spencer's full paste of the live guide** (pasted in chat, not re-opened by Bingo). Every rate cell below matched the paste exactly — no numbers changed. The paste also had wording/coverage the card was missing; folded in below and marked "per Spencer's 10-01 paste."
+
 Load ONCE per session on the first pasted job. Don't load the full `vo-pricing`
 skill or `outreach-pipeline.md` for these — only for direct/agency/retainer, or if
 Spencer says "full". Target: one response, no tool calls, no hedge round.
@@ -77,16 +79,29 @@ Tags: local/regional $200–225 · national $225–300 each.
 
 Non-broadcast never carries the ad-grid territory/term math. A non-broadcast grant stacked on an ad = a small add-on row from the Industrial add-on line or the ≤2 min band above.
 
+**Corporate narration scope (per Spencer's 10-01 paste):** this row is for ONE video — overview/about-us, internal comms, general business narration, investor updates. No TV/digital/web ad usage. A promo or product video that gets placed publicly goes under Non-Paid Web (Digital Visual section) instead, not this row.
+
+**Training extras (per Spencer's 10-01 paste):** on 30+ min projects, a discount of roughly $25–50/finished minute off PFM is a reasonable starting point. License for 1 year where possible; offer a 2–5 yr license as an alternative to a full buyout, in-perpetuity at talent's discretion.
+
+**eLearning extras (per Spencer's 10-01 paste, not yet in the table above):** $0.15/word is acceptable over ~50k words (5+ hrs of material). File splits $1/split (can be no-charge as a value-add). Per raw hour (no editing) $600–2,400. On small jobs ≤~15 min finished, ~$800 per 15 min is an average rate. 1 hr of finished work ≈ 10k words. If the client resells the eLearning for profit (not internal training), negotiate a separate 1-yr continuous sales-usage contract.
+
 ### Add-ons / rules (all ✅ from the guide unless marked)
-- **Exclusivity** (none is included in any range): Tier 1 (auto, telecom, insurance, retail, banking, pharma, **tech/software**) **3–5× base** · Tier 2 (food/bev, beauty, apparel, airlines, travel) 2–3× · Tier 3 (sports gear, toys, pet, paint…) 1–2×.
+- **Exclusivity** (none is included in any range): Tier 1 (auto, telecom, insurance, retail, banking, pharma, **tech/software**) **3–5× base** · Tier 2 (food/bev, beauty, **athletic** apparel — not apparel generally, per Spencer's 10-01 paste, airlines, travel) 2–3× · Tier 3 (sports gear, toys, pet, paint…) 1–2×. Lists are partial — guide says use judgment on brand/client.
+- **Exclusivity, radio:** rare in non-union but "starting to be requested" (per Spencer's 10-01 paste) — don't assume it's off the table.
+- **Exclusivity, TV:** automatic on union jobs; non-union needs the multiplier above, same as other media (per Spencer's 10-01 paste).
 - **Renewals:** session + usage + bump — 10–15%/yr local/regional, **40–50%/yr national or large brand** (digital visual: rate +10–20%). Put 30-day renewal notice in writing.
 - **Pickups:** talent error $0 · minor <15 min $150 min or 50% of original · major/rewrites $260 per 30 min in session.
-- **Automotive tiers, PSA ($500–600+, ≤:60), promo/imaging, trailers, cinema, events, animation, games, IVR/MOH, museum, YouTube:** in the guide — pull the live page rather than trusting memory.
+- **Radio session fee, even if usage is cancelled or audio unused:** guide says a base session fee is still owed (per Spencer's 10-01 paste) — don't waive it on a kill.
+- **Automotive:** national brand spots = union only, via agent. Non-union regional tags (on an existing national spot) $75–200/spot. Non-union local dealer :30/:60 $150–200/spot, :15/:10/:16 $75–100/spot. Same rate across TV/radio/digital; length doesn't change automotive rates (per Spencer's 10-01 paste).
+- **In-show / documentary narration** (the Noah/FIFA lane): 24 fin. min $1,000–1,500 · 48 fin. min $2,000–3,000, more for longer. Lower end = less dense (4–5 min of narration); upper end = dense interspersed narration (experts/re-creations). **+$250 if recording at home** and handling labeling/organizing/sending files (no add-on for Source Connect or an outside studio). **+20–25% per extra usage source** (e.g. streaming add, another international market) (per Spencer's 10-01 paste).
+- **Direct-response TV (DRTV):** national 1 yr $1,750 · North America (US+Canada) 1 yr $2,500 — per script, up to 2-hr session, includes cuts/versions + up to 10 phone numbers ($42/extra). Pickups $500, up to 2-hr session (per Spencer's 10-01 paste).
+- **PSA:** :60 or less, $500–600+.
+- **Not yet carded (in the guide — pull the live page before quoting these):** point-of-sale video, mnemonics, radio/podcast dramas, IVR/message-on-hold, YouTube content, animation, dubbing, video games, toys/mobile apps, promo & imaging, trailers, cinema, events/trade shows, kiosk/lobby video, airport announcements, ACX/audiobook royalty models, medical ISI/MOA.
 
 ### HOUSE CONVENTIONS — NOT in the guide (🟡; Spencer's own, flag when used)
 - **Worldwide:** the guide publishes no Worldwide tier at all. **Spencer's convention (2026-09-22): Worldwide ≈ 3× the National rate.** Apply this as the default multiplier on the National ad-rights cell (not on flat non-broadcast/session add-ons) instead of leaving it as an unpriced bracket — still tag 🟡, it's a house convention, not guide-verified.
 - **In-perpetuity ad or broadcast:** the guide publishes none. Never quote from memory — bracket it as custom and say so. Perpetual = only as the guide's non-paid web 5-yr rate.
-- **Cutdowns / lifts from the SAME recording — SETTLED (Spencer, 2026-09-26): priced proportionally by length, as a % of the :30 parent's price: :15 = 75%, :06 = 30%, tag = 20%.** Not stacked with any other lift discount. Cap the count in writing. Supersedes the 09-25 "parent minus 25–50%" rule and the old "25–50% of parent" convention. Example on a $2,000 national radio :30: :15 lift $1,500, :06 lift $600. Re-recorded versions are pickups, not lifts. 🟡 house convention, not in the guide (the guide only says discount lift usage 25–50%).
+- **Cutdowns / lifts from the SAME recording — SETTLED (Spencer, 2026-09-26): priced proportionally by length, as a % of the :30 parent's price: :15 = 75%, :06 = 30%, tag = 20%.** Not stacked with any other lift discount. Cap the count in writing. Supersedes the 09-25 "parent minus 25–50%" rule and the old "25–50% of parent" convention. Example on a $2,000 national radio :30: :15 lift $1,500, :06 lift $600. Re-recorded versions are pickups, not lifts. 🟡 house convention, not in the guide. **Note (per Spencer's 10-01 paste):** the guide actually lists 3 separate options to combat unlimited L/E/V asks — cap the count, limit the usage length, OR discount usage 25–50% — not a single mandated discount. Spencer's length-scale rule is our pick among those options, not a guide requirement.
 - **Directed session (Spencer, 2026-09-24): a live directed session is ALWAYS its own line, priced on top of the usage fee — even on radio, where the guide folds it into the range.** Default $250 (guide's radio session value is $250–350 for 60–90 min; TV/Digital $500/2 hr, +$250/hr). Supersedes the "guide includes it" reading. Source Connect itself is still not billed separately.
 - **:15 = 75%, :06 = 30%, tag = 20%: KEPT for lifts only (Spencer, 2026-09-26)** — see the lift rule above. For stand-alone spots the guide prices per spot with no length tiers, so no length discount by default. The old :31–:60 = 1.5× multiplier is still not applied.
 - **"Always rescope the worldwide" (Spencer, 2026-09-15):** unchanged. It's strategy, not a rate.
@@ -162,7 +177,7 @@ Two short paragraphs is the target.
 
 ## Source & confidence
 
-✅ **GVAA Rate Guide, globalvoiceacademy.com/gvaa-rate-guide-2/ — read in full 2026-09-19** (all tables above except the "House conventions" block). The guide states it "reflects ranges observed in the market and is not an attempt to set, fix, or standardize industry pricing." Third-party "GVAA 2026 update" articles found via search were contradictory and unsourced — do NOT use them. Re-open the page if more than ~a month old or before a big quote.
+✅ **GVAA Rate Guide, globalvoiceacademy.com/gvaa-rate-guide-2/ — read in full 2026-09-19** (all tables above except the "House conventions" block). **Cross-checked against Spencer's full paste of the guide text, 2026-10-01 — no rate discrepancies found; the paste added wording/categories folded in above and tagged "per Spencer's 10-01 paste."** The guide states it "reflects ranges observed in the market and is not an attempt to set, fix, or standardize industry pricing." Third-party "GVAA 2026 update" articles found via search were contradictory and unsourced — do NOT use them. Re-open the page if more than ~a month old or before a big quote.
 
 ## Log (append 1 line here, then commit silently)
 
