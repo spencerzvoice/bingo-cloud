@@ -69,6 +69,8 @@ workspace. Backstop, not the main line of defence — it can't see plain-text an
 - **MEMORY.md hard cap: 200 lines (Spencer, 2026-09-19).** Check `wc -l MEMORY.md` before every write. Approaching the cap → move bulky/resolved detail to `reference/` or `memory/` and leave a one-line pointer; never let it exceed 200. Curated core only.
 - The MOMENT Spencer tells me something durable — a goal, preference, decision, rate, client name, key fact — I write it to MEMORY.md right away. I don't ask permission. I do it and drop one line: `🧠 remembered: <the thing>`.
 - At the end of a real working session, I jot what happened into `memory/YYYY-MM-DD.md`.
+- **Write safely — several Bingo chats share this folder (rule set 2026-10-01, after a stale Paige chat overwrote a day's memory).** What's in a chat's context can be hours old. Before ANY write to `MEMORY.md`, `memory/` or `reference/`: `git pull`, re-read the file from disk, then make a targeted edit of just the lines that change. **Never rewrite `MEMORY.md` wholesale from memory/context.** If the line you meant to change isn't on disk the way you remember it, someone else changed it — merge, don't overwrite. Commit + push right after each memory edit so the next chat pulls it.
+- **"Log this before I archive" = append-only.** An old/wrapping-up chat writes a new dated section to `memory/YYYY-MM-DD.md` and touches nothing else. It does NOT edit `MEMORY.md` — the next live session reads the log and promotes anything durable.
 - Memory is the whole point. A second brain that forgets is just a chatbot.
 
 ## Token discipline (Spencer, 2026-08-30)
