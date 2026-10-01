@@ -120,3 +120,6 @@ After sending: touch 3 (final) window = send + 14-21d.
 
 ## 2026-10-01 remind run
 7 drafts from the 09-30 batch still unsent as of morning (reminder fired 10-01; push + email sent). Overdue nudge Fri 10-02 if still unsent. Once sent: touch 3 window = send + 14-21d.
+
+## 2026-10-01 evening prep run
+Live Gmail 10-01 eve: all 7 drafts from the 09-30 batch still in Drafts (unsent), threads single-message + draft, no replies/bounces. Overdue nudge due Fri 10-02 (last day of window). Push + email "VO follow-ups due tomorrow (Fri 10/02): 7 drafts ready" sent. No new drafts needed. Nothing else due 10-02 (Skillsoft + Shell/Goalhanger/iAM reminders Tue 10-06).
