@@ -117,3 +117,6 @@ Live Gmail 09-30: all 7 threads single-message (sent 09-24), no replies/bounces.
 | Rob Nikzad | Airtable | 1a0d4cb38e96c2d5 | r6313046449729910051 | 2 | drafted |
 | Kirsten Golden | Airtable | 1a0d4cc06c04b85e | r-6540220505899591091 | 2 | drafted |
 After sending: touch 3 (final) window = send + 14-21d.
+
+## 2026-10-01 remind run
+7 drafts from the 09-30 batch still unsent as of morning (reminder fired 10-01; push + email sent). Overdue nudge Fri 10-02 if still unsent. Once sent: touch 3 window = send + 14-21d.
