@@ -278,6 +278,17 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 
 ## Pitch-queue count after the 2026-10-01 Lead Batch run: 19 pre-existing (all Funnel G) + 1 new (ABB, Funnel H) = 20/20. Recount from live Gmail before the next run, don't trust this line. Detail: `contacts/2026-10-01-funnel-h.md`.
 
+**Hook Sweep run, 1 Oct (LinkedIn-first pass):** checked all 20 new-client pitch drafts in spencer@spencerzvoice.com (19 Funnel G + ABB/Funnel H). All 20 already carried a non-LinkedIn hook — none was "NO HOOK." Ran LinkedIn research (4 parallel subagents, 5 drafts each, WebSearch + WebFetch, activity-ID dating) on all 20 to try to upgrade. **Result: 0 of 20 upgraded** — existing hooks left untouched for all 20, per protocol. No draft edits made (no PUT calls needed), so the banned-wording check did not separately run this sweep.
+**Blocker persists, 2nd day running:** every `linkedin.com/in/...` and `linkedin.com/posts/...` URL — profile pages AND post pages — returned ROBOTS_DISALLOWED to WebFetch in this environment, even URLs WebSearch itself returned. Same as the 09-30 sweep. "LinkedIn hooks first" is not achievable from this cloud environment without a browser-capable tool until this is fixed — worth Spencer's attention; the daily sweep keeps burning a cycle on it for zero upgrades.
+**Identity/title flags surfaced this run (not acted on, none sent/edited):**
+- **Jesse Hill (YETI)** — LinkedIn/theorg.com show his title as "Manager, Content Production," not "Creative Producer" as currently in the roster/draft. Check before this one sends.
+- **Cameron Aspinwall (lululemon)** — the only LinkedIn profile findable under this name reads "Follower of Jesus," no lululemon or producer mention anywhere. Could not confirm this is even the right person (not a "left the company" signal — a genuinely unresolved identity match). Flag for a human check with real LinkedIn access before sending.
+- **Kelly Bonner (SoFi)** — every LinkedIn search result is a different Kelly Bonner (Wells Fargo, Capri Holdings, etc.); no profile match found at all.
+- **Carter Elkin-Paris (UiPath)** — no personal LinkedIn profile found via search (only ZoomInfo/RocketReach stubs).
+- **Ian Wiggins (Hitachi Rail)** — multiple same-name LinkedIn profiles found, none listing Hitachi Rail; actual profile unresolved.
+- **Jen Vladimirsky (Robinhood)** — search structurally collides with the unrelated "Robin Hood" nonprofit/charity brand; could not locate her profile or a HOOD Summit '26 post from the real company page.
+None of the above are "contact may have left" — they're identity-match failures in LinkedIn search, distinct from a confirmed departure. Full subagent reports: `memory/2026-10-01.md`.
+
 ### Not in a funnel yet (need a new contact, kept so they are not lost)
 - **Calendly** (Rachel Burns moved to Senior Copywriter) · **Wix** (right Dan Segal not found) · **Discord** (Soojin Lim moved to Creative Producer from program mgmt - may still fit, re-check) · **Vercel** (no contact ever found). The next Lead Batch run that needs NEW companies sources a contact for these first.
 - **Parked for fit, not contact:** Squarespace (the in-house tutorial narrator would receive the pitch) · Datadog (every candidate spot is music-only). Revisit only on a signal.
