@@ -285,7 +285,7 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 | Tennessee Valley Authority (TVA) | Bleu Hayes | Video Producer | verified | Marc Murano — Video Producer | P | BANKED — no hook verified yet | 2026-09-24-funnel-i-m-h-k |
 | Ørsted | Pelle Iversen | Lead Creative Producer, Global Branding & Marketing | verified | Jacob Søndergaard — Head of Global Content | P | BANKED — HOOK NEEDED, check LinkedIn recent activity | 2026-09-25-funnel-i-j-k-l-m |
 | Schneider Electric | Ajay Seethala | Video Production Manager | verified | Christophe Doré — Brand & Campaign Video Producer | P | BANKED | 2026-09-25-funnel-i-j-k-l-m |
-| ABB | Jose Monrabal | Head of Global Brand Communications | verified | Kristen Smith — Creative Director | H | BANKED — SEND-SOON, event-dated hook (Ferrari Hypersail partnership) | 2026-09-28-funnel-i-k-l-m |
+| ABB | Jose Monrabal | Head of Global Brand Communications | verified | Kristen Smith — Creative Director | H | DRAFTED 2026-10-01 (re-verified live via Apollo, still current) | 2026-09-28-funnel-i-k-l-m |
 | Siemens Energy | "Chen L" (name incomplete in Apollo, unverified) | Head of Content Engagement | verified email, name unconfirmed | Natascha Ladstaetter — Marketing Manager (cleaner card, consider as primary) | Q | BANKED — verify "Chen L"'s full name/role before drafting; hook is 76 days old | 2026-09-28-funnel-i-k-l-m |
 
 ## Consumer brands and travel

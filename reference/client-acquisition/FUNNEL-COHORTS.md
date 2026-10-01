@@ -126,7 +126,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 ### Funnel H
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| ABB | Corporate and industrial in-house | Jose Monrabal | Kristen Smith | BANKED — SEND-SOON, event-dated hook (Ferrari Hypersail partnership) |
+| ABB | Corporate and industrial in-house | Jose Monrabal | Kristen Smith | **DRAFTED 2026-10-01** — contact re-verified live via Apollo (still Head of Global Brand Communications, email verified); hook = ABB joins Ferrari Hypersail as Electrification Partner, GlobeNewswire 14 Sep 2026 (17 days old at draft time, worded to still read right); no re-voice sample built yet, draft closes with a custom-read offer instead; Gmail label "Funnel H" applied |
 | Pushkin Industries | Institutions and nonprofits and media | Constanza Gallardo | Justin Richmond | BANKED — SEND-SOON, event-dated hook (Revisionist History Reconstruction series) |
 | Smithsonian Institution | Institutions and nonprofits and media | Ariana Lilligren | Jonathan Ray | BANKED — SEND-SOON, event-dated hook (National Air and Space Museum video series) |
 | BUCK | Creative and production studios | Jordan Howes | Rebecca Dell | BANKED — SEND-SOON, event-dated hook (Ladder Lad reveal) |
@@ -275,6 +275,8 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | TED Conferences | Institutions and nonprofits and media | Eric Kondo | Michael Femia | BANKED |
 | Wondery | Institutions and nonprofits and media | Tracy Egbas | Michaela Myers | BANKED — HOOK NEEDED, check LinkedIn recent activity |
 | Company 3 | Creative and production studios | Gurucharan Kirtiwar | Michael Maida | BANKED — title mismatch (Apollo "Head of Production" vs LinkedIn "Line Producer, Company3 Method India"); added to R 30 Sep after a parse miss |
+
+## Pitch-queue count after the 2026-10-01 Lead Batch run: 19 pre-existing (all Funnel G) + 1 new (ABB, Funnel H) = 20/20. Recount from live Gmail before the next run, don't trust this line. Detail: `contacts/2026-10-01-funnel-h.md`.
 
 ### Not in a funnel yet (need a new contact, kept so they are not lost)
 - **Calendly** (Rachel Burns moved to Senior Copywriter) · **Wix** (right Dan Segal not found) · **Discord** (Soojin Lim moved to Creative Producer from program mgmt - may still fit, re-check) · **Vercel** (no contact ever found). The next Lead Batch run that needs NEW companies sources a contact for these first.
