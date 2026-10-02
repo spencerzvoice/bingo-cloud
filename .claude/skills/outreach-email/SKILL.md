@@ -148,6 +148,7 @@ something he isn't. Plain words, contractions, short paragraphs.
   6. Sign-off.
 
   Never lead with the sample. Introduce first, then show the work.
+- **The re-voice line is NEVER omitted from a cold pitch (Spencer, 2026-10-02 — all 19 Funnel G drafts went out of the batch without it).** If the video isn't picked yet, write the line with the literal marker: `I put together a re-voice of your <a href="https://drive.google.com/REPLACE-WITH-SAMPLE-LINK">"VIDEO TITLE PENDING"</a> spot. Give it a listen!` — never a "custom read" offer or any other substitute. The **Video Title Sync** routine (`trig_01MEKNw1RisQBJax4WELao1z`, 06:50 UTC weekdays) swaps the marker for the winner title from the funnel's `_candidates` doc and flags anything still pending.
 - **Sample link = the video's title, hyperlinked (Spencer, 2026-09-24).** Never write "your video", "[LINK]" or a bare URL. Write e.g. `I put together a re-voice of your <a href="DRIVE_URL">"Better your score. Better your story."</a> spot. Give it a listen!` — the recipient recognises their own title, which reads as real work, not spam. Until the take exists, href = `https://drive.google.com/REPLACE-WITH-SAMPLE-LINK` (two videos: `...-2` for the second) and the plain-text part says `(LINK)`; swap in the Drive link when the take lands.
 - **Website as a full sentence:** "You can hear my work at spencerzvoice.com." —
   never a bare URL fragment.
