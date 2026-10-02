@@ -35,10 +35,11 @@ Unlisted playlists need their `&si=` token. Route by the video's YouTube **chann
 ## Step 3 — Strip the vocals → `<Client>_NOVOX.mp4`
 Offline via **Demucs** (replaces lalal.ai; Funnel B was originally split with lalal.ai — those files are `*_no_vocals_split_by_lalalai.mp4`).
 ```
-ffmpeg -i src.mp4 -vn -ac 2 -ar 44100 audio.wav
+ffmpeg -i "<Client> - SOURCE - <title>.mp4" -vn -ac 2 -ar 44100 audio.wav
 python -m demucs --two-stems=vocals -o stems audio.wav        # -> stems/htdemucs/audio/no_vocals.wav
-ffmpeg -i src.mp4 -i stems/htdemucs/audio/no_vocals.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -shortest "<Client>_NOVOX.mp4"
+ffmpeg -i "<Client> - SOURCE - <title>.mp4" -i stems/htdemucs/audio/no_vocals.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -shortest "<Client>_NOVOX.mp4"
 ```
+**Name the source file `<Client> - SOURCE - <title>.mp4` right after download, before Step 5, and upload it under exactly that name.** The `.als` links by filename. On 2026-09-30, 11 of 18 Funnel G projects were built from a scratch `src.mp4` that was renamed on upload, which left ORIGINAL VIDEO pointing at a file that didn't exist. `cloud_ableton.py` now refuses any other name. Check or repair a funnel on desktop with `python cloud_ableton.py --check "D:/My Drive/Client Outreach/<Funnel>" [--fix]`. A package isn't done until that prints 0 broken.
 Picture untouched (`-c:v copy`); audio = music/SFX bed only. ~15–60 s/clip on CPU after the one-time ~80 MB model download. Spot-check for ghosting on dense mixes. Skip files that are already music-only (e.g. `MasterClass_Background_Music.mp4`).
 
 ## Step 4 — Script → `<Client>_script.docx` (**.docx, not .txt** — Spencer, 2026-09-24; python-docx, one paragraph per block)
