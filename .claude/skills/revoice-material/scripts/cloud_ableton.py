@@ -14,7 +14,9 @@ Needs ffprobe on PATH. Upload <out>/* into the client's Drive folder (rclone cop
 --src / --novox MUST already carry their final Drive names ("<Client> - SOURCE - <title>.mp4",
 "<Client>_NOVOX.mp4"): the .als links by filename, so a scratch name like src.mp4 that gets renamed
 on upload leaves ORIGINAL VIDEO pointing at a file that doesn't exist (Funnel G, 2026-09-30: 11 of 18
-broken). build() refuses any other name. Desktop check/repair of a whole funnel:
+broken). build() refuses any other name. After uploading, the cloud gate is:
+  python cloud_ableton.py --verify-remote <clientFolderId> --als "<out>/<Client> Project/<Client> Project.als"
+Desktop check/repair of a whole funnel:
   python cloud_ableton.py --check "D:/My Drive/Client Outreach/Funnel G" [--fix]
 """
 import argparse, glob, gzip, os, re, shutil, sys
@@ -92,6 +94,31 @@ def check_links(funnel_dir, fix=False):
     return broken
 
 
+def linked_names(als):
+    """Filenames the two video tracks point at."""
+    xml = gzip.open(als).read().decode("utf-8")
+    names = {}
+    for track in ("ORIGINAL VIDEO", "VIDEO WITHOUT VOX"):
+        i = xml.find(f'<EffectiveName Value="{track}" />')
+        seg = xml[i:xml.find("</AudioTrack>", i)]
+        names[track] = os.path.basename(re.search(r'<Path Value="([^"]*)"', seg).group(1))
+    return names
+
+
+def verify_remote(als, folder_id, remote="bizdrive:"):
+    """Cloud gate after upload: both linked filenames must be in the client's Drive folder.
+    A package is not done until this prints OK."""
+    import subprocess
+    listing = subprocess.run(["rclone", "lsf", remote, "--drive-root-folder-id", folder_id],
+                             capture_output=True, text=True, check=True).stdout.splitlines()
+    missing = [f"{t} -> {n}" for t, n in linked_names(als).items() if n not in listing]
+    if missing:
+        print("LINK CHECK FAILED - not in the Drive folder:\n  " + "\n  ".join(missing))
+        return False
+    print("LINK CHECK OK - " + " | ".join(linked_names(als).values()))
+    return True
+
+
 def build(template, funnel, client, src, novox, out, n=1):
     check_names(client, src, novox)
     pname = f"{client} Project" if n == 1 else f"{client} {n} Project"
@@ -123,12 +150,19 @@ if __name__ == "__main__":
     a = argparse.ArgumentParser()
     a.add_argument("--check", help="funnel dir: verify every project's video links")
     a.add_argument("--fix", action="store_true", help="with --check: repair by same-size match")
+    a.add_argument("--verify-remote", metavar="FOLDER_ID",
+                   help="cloud: confirm the .als (--als) links match files in this Drive folder")
+    a.add_argument("--als")
     for k in ("template", "funnel", "client", "src", "novox", "out"):
         a.add_argument("--" + k)
     a.add_argument("--n", type=int, default=1)
     p = a.parse_args()
     if p.check:
         sys.exit(1 if check_links(p.check, p.fix) else 0)
+    if p.verify_remote:
+        if not p.als:
+            a.error("--verify-remote needs --als")
+        sys.exit(0 if verify_remote(p.als, p.verify_remote) else 1)
     missing = [k for k in ("template", "funnel", "client", "src", "novox", "out") if not getattr(p, k)]
     if missing:
         a.error("missing: " + ", ".join("--" + k for k in missing))
