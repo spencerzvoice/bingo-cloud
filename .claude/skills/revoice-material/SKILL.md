@@ -35,10 +35,11 @@ Unlisted playlists need their `&si=` token. Route by the video's YouTube **chann
 ## Step 3 — Strip the vocals → `<Client>_NOVOX.mp4`
 Offline via **Demucs** (replaces lalal.ai; Funnel B was originally split with lalal.ai — those files are `*_no_vocals_split_by_lalalai.mp4`).
 ```
-ffmpeg -i src.mp4 -vn -ac 2 -ar 44100 audio.wav
+ffmpeg -i "<Client> - SOURCE - <title>.mp4" -vn -ac 2 -ar 44100 audio.wav
 python -m demucs --two-stems=vocals -o stems audio.wav        # -> stems/htdemucs/audio/no_vocals.wav
-ffmpeg -i src.mp4 -i stems/htdemucs/audio/no_vocals.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -shortest "<Client>_NOVOX.mp4"
+ffmpeg -i "<Client> - SOURCE - <title>.mp4" -i stems/htdemucs/audio/no_vocals.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -shortest "<Client>_NOVOX.mp4"
 ```
+**Name the source file `<Client> - SOURCE - <title>.mp4` right after download, before Step 5, and upload it under exactly that name.** The `.als` links by filename. On 2026-09-30, 11 of 18 Funnel G projects were built from a scratch `src.mp4` that was renamed on upload, which left ORIGINAL VIDEO pointing at a file that didn't exist. `cloud_ableton.py` now refuses any other name. Check or repair a funnel on desktop with `python cloud_ableton.py --check "D:/My Drive/Client Outreach/<Funnel>" [--fix]`. A package isn't done until that prints 0 broken.
 Picture untouched (`-c:v copy`); audio = music/SFX bed only. ~15–60 s/clip on CPU after the one-time ~80 MB model download. Spot-check for ghosting on dense mixes. Skip files that are already music-only (e.g. `MasterClass_Background_Music.mp4`).
 
 ## Step 4 — Script → `<Client>_script.docx` (**.docx, not .txt** — Spencer, 2026-09-24; python-docx, one paragraph per block)
@@ -92,7 +93,7 @@ This step runs over **every** client the run touched (not just newly-built ones)
 
 ## Automation (cloud routines)
 - **Daily VO Lead Batch** (`trig_01GycTKwkwLwvNhYL6huQQ2w`, weekdays 03:00 UTC; Code routine since 2026-09-30, replaced the Cowork one `trig_0169…`, now disabled): keeps 20 new-client pitch drafts in Drafts, drafting from the pre-assigned 10-company funnels in `reference/client-acquisition/FUNNEL-COHORTS.md` (H–R, folders already built). FGAC only; never the personal Gmail/Google_Drive connectors.
-- **Re-Voicing Material Retrieval — daily** (`trig_01L7j1hN3yToMTFnbBkSTAg2`, weekdays 10:00 UTC): READY = has a Funnel folder + an unsent Gmail draft to that company + folder has no video yet. Scrapes site/YouTube for the spot, downloads, Demucs-strips, extracts script, uploads to Drive (base64; 720p re-encode fallback if too big). **Stage 2 (download→Demucs→upload) was never proven end-to-end** — assets to date were built locally. Funnel membership comes from the Drive folder tree, never the tracker sheet.
+- **Re-Voicing Material Retrieval — daily** (`trig_01L7j1hN3yToMTFnbBkSTAg2`, weekdays 03:00 UTC, in parallel with the Lead Batch): READY = has a Funnel folder + no pitch SENT to that company yet + folder has no video yet. **No draft required (Spencer, 2026-10-02)**: it builds ahead in funnel-letter order (clients with an unsent draft first), 20 per run. Every build ends with the LINK GATE (`cloud_ableton.py --verify-remote`). Scrapes site/YouTube for the spot, downloads, Demucs-strips, extracts script, uploads to Drive (base64; 720p re-encode fallback if too big). Stage 2 proven end-to-end in the cloud 2026-09-30 (Funnel G). Funnel membership comes from the Drive folder tree, never the tracker sheet.
 - Manage via the `RemoteTrigger` tool. `job_config.ccr` is full-replace on update; connector `tool_policy_overrides` = `always_allow` prevents headless permission stalls (WebFetch domain prompts can't be pre-approved this way — `auto_mode_allow` was tried 2026-09-11, unverified).
 
 ## Gotchas

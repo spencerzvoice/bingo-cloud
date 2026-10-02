@@ -123,3 +123,7 @@ After sending: touch 3 (final) window = send + 14-21d.
 
 ## 2026-10-01 evening prep run
 Live Gmail 10-01 eve: all 7 drafts from the 09-30 batch still in Drafts (unsent), threads single-message + draft, no replies/bounces. Overdue nudge due Fri 10-02 (last day of window). Push + email "VO follow-ups due tomorrow (Fri 10/02): 7 drafts ready" sent. No new drafts needed. Nothing else due 10-02 (Skillsoft + Shell/Goalhanger/iAM reminders Tue 10-06).
+
+## 2026-10-02 remind run
+Live Gmail 10-02: all 7 drafts from the 09-30 batch SENT Thu 10-01 ~20:12-20:13 Lisbon (Sent, same threads; none left in Drafts; no replies/bounces; tracker rows 126-129, 131, Airtable already show Follow-Up Sent 10/01). Touch 2 done. **Ledger roll-forward (clock = 10-01): Experian Daren, Purdue Jason, Sarofsky Paul, Snowflake Jason F, Tendril Ivelle, Airtable Rob + Kirsten -> touch 3 (final) reminder Thu 2026-10-15 (day 14; avoids Columbus Day 10-09/12/13), overdue nudge Thu 2026-10-22 (day 21). Prep eve Wed 10-14.** Supersedes the earlier Funnel D US / Airtable rows (Thu 10-01 / Fri 10-02). Nothing due today -> no push, no email.
+Gap found: Funnel F (Box, Smartsheet, Descript, Intercom; Zapier/Dropbox not verified) sent 09-29 per tracker, not on ledger. Touch 2 window 10-06 to 10-09 (hold off 10-09 for the holiday rule, so effectively Tue 10-06 to Thu 10-08). Needs ledger row + prep Mon 10-05 eve; Skillsoft + Shell/Goalhanger/iAM share the same 10-06 reminder.

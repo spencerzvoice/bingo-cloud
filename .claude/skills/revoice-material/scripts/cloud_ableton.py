@@ -10,8 +10,16 @@ Writes into <out>/:
 The .als records Spencer's local Drive path (D:/My Drive/Client Outreach/<Funnel>/<Client>/<file>) plus
 RelativePath ../<file>, so it opens straight from his synced folder even though it was built elsewhere.
 Needs ffprobe on PATH. Upload <out>/* into the client's Drive folder (rclone copy).
+
+--src / --novox MUST already carry their final Drive names ("<Client> - SOURCE - <title>.mp4",
+"<Client>_NOVOX.mp4"): the .als links by filename, so a scratch name like src.mp4 that gets renamed
+on upload leaves ORIGINAL VIDEO pointing at a file that doesn't exist (Funnel G, 2026-09-30: 11 of 18
+broken). build() refuses any other name. After uploading, the cloud gate is:
+  python cloud_ableton.py --verify-remote <clientFolderId> --als "<out>/<Client> Project/<Client> Project.als"
+Desktop check/repair of a whole funnel:
+  python cloud_ableton.py --check "D:/My Drive/Client Outreach/Funnel G" [--fix]
 """
-import argparse, gzip, os, shutil, sys
+import argparse, glob, gzip, os, re, shutil, sys
 import xml.etree.ElementTree as ET
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -36,7 +44,83 @@ pause
 '''
 
 
+def check_names(client, src, novox):
+    """Refuse scratch filenames: the .als records basename(src)/basename(novox) as the Drive file."""
+    s, v = os.path.basename(src), os.path.basename(novox)
+    bad = []
+    if not (s.startswith(f"{client} - SOURCE - ") and s.lower().endswith(".mp4")):
+        bad.append(f"--src is '{s}', must be '{client} - SOURCE - <title>.mp4'")
+    if v != f"{client}_NOVOX.mp4":
+        bad.append(f"--novox is '{v}', must be '{client}_NOVOX.mp4'")
+    if bad:
+        sys.exit("REFUSED - rename the file(s) to their final Drive names BEFORE building, "
+                 "then upload under exactly those names:\n  " + "\n  ".join(bad))
+
+
+def check_links(funnel_dir, fix=False):
+    """Report (and with fix=True, repair) ORIGINAL VIDEO / VIDEO WITHOUT VOX links that point at
+    missing files. Repair only when exactly one same-size candidate exists in the client folder."""
+    from revoice_build import patch_clip as _patch
+    broken = 0
+    for als in sorted(glob.glob(os.path.join(funnel_dir, "*", "*Project", "*.als"))):
+        cdir = os.path.dirname(os.path.dirname(als))
+        client = os.path.basename(cdir)
+        xml = gzip.open(als).read().decode("utf-8")
+        changed = False
+        for track, pat in (("ORIGINAL VIDEO", f"{client} - SOURCE - *.mp4"),
+                           ("VIDEO WITHOUT VOX", f"{client}_NOVOX.mp4")):
+            i = xml.find(f'<EffectiveName Value="{track}" />')
+            if i < 0:
+                continue
+            seg = xml[i:xml.find("</AudioTrack>", i)]
+            path = re.search(r'<Path Value="([^"]*)"', seg).group(1)
+            if os.path.exists(path):
+                continue
+            broken += 1
+            size = int(re.search(r'<OriginalFileSize Value="(\d+)"', seg).group(1))
+            cands = [f for f in glob.glob(os.path.join(cdir, pat)) if os.path.getsize(f) == size]
+            if fix and len(cands) == 1:
+                xml = _patch(xml, track, cands[0].replace("\\", "/"))
+                changed = True
+                print(f"FIXED  {client} / {track} -> {os.path.basename(cands[0])}")
+            else:
+                print(f"BROKEN {client} / {track} -> {path}  (candidates: {len(cands)})")
+        if changed:
+            ET.fromstring(xml.encode("utf-8"))
+            with gzip.GzipFile(als, "wb", mtime=0) as g:
+                g.write(xml.encode("utf-8"))
+            ET.fromstring(gzip.open(als).read())
+    print(f"{broken} broken link(s) found")
+    return broken
+
+
+def linked_names(als):
+    """Filenames the two video tracks point at."""
+    xml = gzip.open(als).read().decode("utf-8")
+    names = {}
+    for track in ("ORIGINAL VIDEO", "VIDEO WITHOUT VOX"):
+        i = xml.find(f'<EffectiveName Value="{track}" />')
+        seg = xml[i:xml.find("</AudioTrack>", i)]
+        names[track] = os.path.basename(re.search(r'<Path Value="([^"]*)"', seg).group(1))
+    return names
+
+
+def verify_remote(als, folder_id, remote="bizdrive:"):
+    """Cloud gate after upload: both linked filenames must be in the client's Drive folder.
+    A package is not done until this prints OK."""
+    import subprocess
+    listing = subprocess.run(["rclone", "lsf", remote, "--drive-root-folder-id", folder_id],
+                             capture_output=True, text=True, check=True).stdout.splitlines()
+    missing = [f"{t} -> {n}" for t, n in linked_names(als).items() if n not in listing]
+    if missing:
+        print("LINK CHECK FAILED - not in the Drive folder:\n  " + "\n  ".join(missing))
+        return False
+    print("LINK CHECK OK - " + " | ".join(linked_names(als).values()))
+    return True
+
+
 def build(template, funnel, client, src, novox, out, n=1):
+    check_names(client, src, novox)
     pname = f"{client} Project" if n == 1 else f"{client} {n} Project"
     pdir = os.path.join(out, pname)
     if os.path.exists(pdir):
@@ -64,8 +148,22 @@ def build(template, funnel, client, src, novox, out, n=1):
 
 if __name__ == "__main__":
     a = argparse.ArgumentParser()
+    a.add_argument("--check", help="funnel dir: verify every project's video links")
+    a.add_argument("--fix", action="store_true", help="with --check: repair by same-size match")
+    a.add_argument("--verify-remote", metavar="FOLDER_ID",
+                   help="cloud: confirm the .als (--als) links match files in this Drive folder")
+    a.add_argument("--als")
     for k in ("template", "funnel", "client", "src", "novox", "out"):
-        a.add_argument("--" + k, required=True)
+        a.add_argument("--" + k)
     a.add_argument("--n", type=int, default=1)
     p = a.parse_args()
+    if p.check:
+        sys.exit(1 if check_links(p.check, p.fix) else 0)
+    if p.verify_remote:
+        if not p.als:
+            a.error("--verify-remote needs --als")
+        sys.exit(0 if verify_remote(p.als, p.verify_remote) else 1)
+    missing = [k for k in ("template", "funnel", "client", "src", "novox", "out") if not getattr(p, k)]
+    if missing:
+        a.error("missing: " + ", ".join("--" + k for k in missing))
     print(build(p.template, p.funnel, p.client, p.src, p.novox, p.out, p.n))
