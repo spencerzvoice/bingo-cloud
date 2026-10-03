@@ -36,4 +36,7 @@ Spencer asked (2026-10-02) for a running log of good and bad source-video picks,
 | 2026-10-02 | lululemon | "Meet the blissfeel running shoe" (75s) | FLAG, needs Spencer's call | Female VO "a woman's foot...", women runners on screen. Likely awkward in a male voice. |
 | 2026-10-02 | Gong | Super Bowl 2022 (30s) | FLAG, needs Spencer's call | Male spokesman talking on camera, so lip-sync. |
 | 2026-10-02 | Instacart | "Apartment Farm" (30s) | FLAG | Script only 18 words; narration covers the back half only. |
+| 2026-10-03 | Gong | Super Bowl Commercial 2022 | BAD (Spencer) | Spokesman talking on camera, so it would be dubbing an on-screen person. |
+| 2026-10-03 | Gong | "Gong Product Overview Video" (rx4Te6c9tEs, 99s, 1080p) | Replacement, pending Spencer | Motion graphics + product UI, off-screen announcer. The C-F style. |
+| 2026-10-03 | Group-IB | "Masked Actors Trailer" (podcast trailer) | QUESTIONED (Spencer: "podcast intro, seems random") | Not a brand/product film. Their channel has product explainers, which are the better genre. |
 | 2026-10-01 | Psyop | none | NO MATCH x3 | Production studio, not a brand; spots gated on Vimeo. Pick a brand they made instead. |
