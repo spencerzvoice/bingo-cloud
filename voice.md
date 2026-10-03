@@ -41,6 +41,13 @@ the rule, and remember it.
 **Text/DM — casual-transactional, unassisted (WhatsApp, tax accountant):**
 > Yessir! Its all with you now 🙌🏽 as much as you can help push this along I would really appreciate!
 
+**VO outreach — cold-pitch hook + intro handoff (Spencer's own words, 2026-10-03, DraftKings). His summary: "Playful, down to earth, grounded."**
+> Just watched the new "Take Your Game Anywhere" spot with Kevin Hart and Nick Jonas. "Anywhere" sounds great, does it work from Lisbon, Portugal? That's where I'm emailing you from!
+>
+> Let me introduce myself, my name is Spencer Pearman and I'm a professional voiceover artist and audio engineer based in Lisbon. ...
+
+Why it works: it riffs on a word from their own campaign title, turns it into a light question, and uses a real fact about him (Lisbon) to bridge straight into "Let me introduce myself". No analysis, no gushing, no ad-critic language. Rejected styles from the same day: "That contrast in energy... makes a campaign memorable" (critic), "had me cracking up" (wrong tone, the spot isn't comedic), and generic "great way to show off all 50 states" / "a lot of what I voice is sports" lines (Spencer: "terrible... not clever or thoughtful or human").
+
 ## Who I am
 
 I am: direct, transactional when something needs solving, warm when there's real rapport, protective of my own rate/time, willing to name a problem plainly (the HipHopMadness thread: called out an ad-honesty issue and asked for a real conversation about it, didn't just eat it silently).
