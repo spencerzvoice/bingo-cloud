@@ -48,6 +48,8 @@ the rule, and remember it.
 
 Why it works: it riffs on a word from their own campaign title, turns it into a light question, and uses a real fact about him (Lisbon) to bridge straight into "Let me introduce myself". No analysis, no gushing, no ad-critic language. Rejected styles from the same day: "That contrast in energy... makes a campaign memorable" (critic), "had me cracking up" (wrong tone, the spot isn't comedic), and generic "great way to show off all 50 states" / "a lot of what I voice is sports" lines (Spencer: "terrible... not clever or thoughtful or human").
 
+Also rejected (2026-10-03, a 14-hook batch Bingo wrote): "Hablo español, so that was a fun surprise!" and similar self-referential jokes (Spencer: "these hooks sound nerdy"). Since then Bingo writes only the event line and Spencer writes the take ([YOUR TAKE] placeholder). Add each take he writes below as a new gold example.
+
 ## Who I am
 
 I am: direct, transactional when something needs solving, warm when there's real rapport, protective of my own rate/time, willing to name a problem plainly (the HipHopMadness thread: called out an ad-honesty issue and asked for a real conversation about it, didn't just eat it silently).

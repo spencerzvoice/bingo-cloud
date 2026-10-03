@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-02_
+_Last updated: 2026-10-03_
 _Next memory prune: 2026-09-25_ — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). The bulky, fast-moving detail lives in `reference/`; this file is the curated core.
@@ -164,6 +164,7 @@ Business-relevant carry-overs:
 - **2026-09-30 — ONE pipeline, funnels of 10 (Spencer):** research never sits "banked" again. The whole banked pool (108 cos) is pre-assigned to send cohorts **Funnels H–R, 10 each**, with Drive folders already built (`Client Outreach/Funnel X/<Co>/Ready to Link to Drafted Email/`). Lead Batch drafts them in letter order as the 20-pitch queue frees up, re-verifying each contact with Apollo AT DRAFT TIME (not in advance, so credits aren't spent twice); new sourcing only after R, in new 10-company funnels. Funnel G = 19 drafts (16 + Hitachi Rail, Group-IB, UiPath). Gmail label "Funnel X" on every draft (a PUT drops labels, re-apply). Cowork's old "funnel-i-k-l-m" docs = old Segment letters, not cohorts. Detail: `reference/client-acquisition/FUNNEL-COHORTS.md`.
 - **2026-10-02 — Re-voice video picks (Spencer):** no VO that belongs to a woman on screen. A female *announcer* is fine. Reject a woman on camera as talking head/lead, or a female VO that is the on-screen woman's own voice (inner thoughts, first person). No talking heads/lip-sync, no novelty tie-in promos. Gate: `narrator_check.py`. Good/bad verdicts are logged in `reference/client-acquisition/VIDEO-PICKS.md`; read it before picking, add to it on every verdict.
 - **2026-10-03 — Watch every video a hook references (Spencer).** Transcript + frame sheet before writing it; the hook reacts to what's actually in the video and matches its tone (DraftKings "cracking up" on a non-comedic spot). Can't watch it = no video hook. In the `outreach-email` skill.
+- **2026-10-03 — Hooks: Bingo writes the event line only, Spencer writes the take (Spencer: "these hooks sound nerdy").** One factual sentence naming the event, then a highlighted `[YOUR TAKE]`; he does the research and writes the reaction. His takes go into `voice.md`; Bingo suggests a take only if he asks, once there are ~10 examples. In the `outreach-email` skill and the routines.
 - **2026-09-22 — Worldwide premium convention: Spencer says Worldwide ≈ 3× the national rate.** Current live GVAA guide publishes no Worldwide tier at all, so this is his house convention (🟡, not guide-verified) — apply it as the default multiplier instead of leaving Worldwide as an unpriced bracket. Saved in `vo-pricing` skill.
 
 ---
