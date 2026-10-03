@@ -18,7 +18,7 @@ Spencer asked (2026-10-02) for a running log of good and bad source-video picks,
 ## What makes a bad pick
 - Woman on camera speaking, or her voice as the VO (Coinbase "15 bank visits").
 - Novelty/tie-in promos that aren't really ads for the core product (DraftKings "Love Love" fragrance promo).
-- Low-res sources (360p) and very thin scripts (Instacart, 18 words).
+- Low-res sources (360p) and thin scripts where the visuals carry the spot (Instacart "Apartment Farm", 18 words). Aim for narration that runs the whole length, roughly 2+ words/sec.
 - Celebrity on camera carrying the spot (most DraftKings/Kevin Hart ads).
 
 ## Log
@@ -39,4 +39,6 @@ Spencer asked (2026-10-02) for a running log of good and bad source-video picks,
 | 2026-10-03 | Gong | Super Bowl Commercial 2022 | BAD (Spencer) | Spokesman talking on camera, so it would be dubbing an on-screen person. |
 | 2026-10-03 | Gong | "Gong Product Overview Video" (rx4Te6c9tEs, 99s, 1080p) | Replacement, pending Spencer | Motion graphics + product UI, off-screen announcer. The C-F style. |
 | 2026-10-03 | Group-IB | "Masked Actors Trailer" (podcast trailer) | QUESTIONED (Spencer: "podcast intro, seems random") | Not a brand/product film. Their channel has product explainers, which are the better genre. |
+| 2026-10-03 | Instacart | "Apartment Farm" | BAD (Spencer) | Too little VO (18 words); the spot leans on the visuals. Pick reads with steady narration from start to finish. |
+| 2026-10-03 | Instacart | "Summer like it's 1999, pay like it's 2025 | Instacart x Venmo" (BUnJYWtx0q0, 30s, 1080p) | Replacement, pending Spencer | Off-screen announcer over a 3D cart ride, no people, 55 words. Ties to Spencer's Venmo credit. |
 | 2026-10-01 | Psyop | none | NO MATCH x3 | Production studio, not a brand; spots gated on Vimeo. Pick a brand they made instead. |
