@@ -67,6 +67,7 @@ Say it plainly, keep it short, mean the enthusiasm when it's there.
 ## NEVER list
 - **Em dashes — banned. This is the #1 dealbreaker (confirmed 2026-09-22).** Use a regular hyphen with spaces ("Been a while - hope you're well") or just a period, never an em dash, even for a mid-sentence pivot.
 - "Hope this message finds you well" — reserved ONLY for the stiffest formal/corporate cold opens where you genuinely don't know the person. Never the default.
+- No ad-critic commentary in hooks (2026-10-03, Spencer: "not my voice at all"). Rejected line: "That contrast in energy between the two of them is exactly the kind of thing that makes a campaign memorable." Spencer reacts like a fan, short and genuine ("had me cracking up!"); he doesn't analyze why a campaign works.
 - No corporate filler (leverage, streamline, elevate, etc.) — none appeared anywhere in 50+ real samples, keep it that way.
 
 ## Structure & signature moves
