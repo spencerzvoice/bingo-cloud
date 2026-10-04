@@ -22,3 +22,9 @@ If the [YOUR TAKE] placeholder has no "Source:" link, add one. Use the source UR
 ## Also replace this example line in both
 
 `"Just watched the Ferrari Hypersail film."` → `"Saw the Toast Fuel launch."` (the ABB line wasn't backed by its source).
+
+## Both routines also need: EMPLOYMENT QC GATE (Spencer, 2026-10-04)
+
+```
+EMPLOYMENT QC GATE (Spencer, 2026-10-04, HARD RULE). Before drafting to anyone, and before calling any draft ready, confirm the contact's CURRENT employer from a source opened in this run: an Apollo people match run today (current employer + title must match), plus the LinkedIn profile page if it opens. Apollo email_status "verified", a roster checkmark or an earlier run's check is NOT proof of current employment. If it can't be confirmed (no profile, several same-name profiles, blocked, Apollo error): put <span style="background-color:#ffff00">[VERIFY EMPLOYMENT: couldn't confirm <Name> is still at <Company>. Check before sending]</span> as the first line of the draft body, list the contact under "NOT READY: EMPLOYMENT UNCONFIRMED" at the TOP of the digest and in the push notification, and never count them as send-ready. If they've left: clear the draft's To field and swap to the backup only after the backup passes this same check.
+```

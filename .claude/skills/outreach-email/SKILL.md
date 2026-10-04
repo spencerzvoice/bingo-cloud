@@ -21,6 +21,16 @@ sends himself (hard rule).
   next booking; treat it as the priority.
 - **follow-up** — a nudge on a cold or warm email that got no reply.
 
+## Step 0b — EMPLOYMENT QC GATE (Spencer, 2026-10-04, HARD RULE: "this is a waste of time")
+
+Ian Wiggins (Hitachi Rail) sat in Drafts for 4 days with a recorded sample and got handed to Spencer as a send candidate after he'd left the company. The "unresolved" flag was buried in FUNNEL-COHORTS.md and nobody told Spencer. Never again:
+
+1. **A contact is send-ready only when their CURRENT employer is confirmed from a live source opened THIS session**: their LinkedIn profile page showing the company as current, or an Apollo people match run today showing the same current employer and title. Two sources that agree is best.
+2. **These are NOT proof of current employment:** Apollo `email_status: verified` (only means the mailbox exists, and many companies accept all addresses), a ✅ in ROSTER/batch docs, an earlier session's check, a search-result snippet or summary, a company page or press release that mentions them.
+3. **Re-check at every hand-off:** when drafting, when recording/building a sample for them, and whenever Spencer asks what to send or schedule. A check from a week ago doesn't count.
+4. **Unresolved = NOT READY, said out loud.** That covers no profile found, several same-name profiles, LinkedIn blocked, or Apollo down. Put a yellow line at the very top of the draft body: `<span style="background-color:#ffff00">[VERIFY EMPLOYMENT: couldn't confirm <Name> is still at <Company>. Check before sending]</span>`. Lead your answer to Spencer with it, before anything else. Never list an unresolved contact as a send candidate. A flag that only lives in a repo doc doesn't count.
+5. **Contact left → enact it in Gmail the same turn.** Clear the To field so the draft can't go to them, then update ROSTER.md and FUNNEL-COHORTS.md. Swap in the backup only after the backup passes check 1 (same lesson as Kyle Osher, 09-23).
+
 ## Step 0 — Never guess a fact about Spencer
 
 Accent, location, studio gear, availability, credits, rates — if it's not in the
