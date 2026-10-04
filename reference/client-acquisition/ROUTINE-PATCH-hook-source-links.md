@@ -28,3 +28,9 @@ If the [YOUR TAKE] placeholder has no "Source:" link, add one. Use the source UR
 ```
 EMPLOYMENT QC GATE (Spencer, 2026-10-04, HARD RULE). Before drafting to anyone, and before calling any draft ready, confirm the contact's CURRENT employer from a source opened in this run: an Apollo people match run today (current employer + title must match), plus the LinkedIn profile page if it opens. Apollo email_status "verified", a roster checkmark or an earlier run's check is NOT proof of current employment. If it can't be confirmed (no profile, several same-name profiles, blocked, Apollo error): put <span style="background-color:#ffff00">[VERIFY EMPLOYMENT: couldn't confirm <Name> is still at <Company>. Check before sending]</span> as the first line of the draft body, list the contact under "NOT READY: EMPLOYMENT UNCONFIRMED" at the TOP of the digest and in the push notification, and never count them as send-ready. If they've left: clear the draft's To field and swap to the backup only after the backup passes this same check.
 ```
+
+## Both routines: FINAL LINKEDIN CHECK (Spencer, 2026-10-04: "no questions or excuses")
+
+```
+FINAL LINKEDIN CHECK (Spencer, 2026-10-04, HARD RULE). The only proof a contact still holds the job is their live LinkedIn profile page showing <Company> as the current position. This cloud run cannot open LinkedIn, so EVERY draft you create or touch starts with this as its first line: <span style="background-color:#ffff00">[NOT READY: final LinkedIn check pending for <Name>, <Title>, <Company>. Delete this line once done]</span>. List all NOT READY drafts at the TOP of the digest and in the push notification, with each person's LinkedIn profile URL if search found one, so the check takes Spencer seconds. Never call a draft send-ready, and never remove that line yourself.
+```
