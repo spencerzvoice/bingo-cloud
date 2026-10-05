@@ -33,7 +33,7 @@ Reminders fire **only when a follow-up is due by the cadence rules**, not every 
 - Lands **Nov 23 - Jan 4** → move to Tue-Thu **Jan 5-15** (Thanksgiving week + holiday blackout; December is the worst reply month, Belkins). Thanksgiving 2026 = Thu Nov 26.
 - UK/EU contact landing in **August** → move to Sep 1-11.
 - Normal send-date rules (US holidays and the day before/after, Friday afternoon ET).
-- Inside the window, prefer the company's new-budget month if known (FY table: `research_notes/Campaign budgets and VO timing/brand_budget_cycles.md`: Jan-31 FY → late Jan/Feb · calendar FY → mid-Jan/Feb · Jun-30 FY → Mar-May).
+- Inside the window, prefer the company's best pitch window from its row in `reference/client-acquisition/BUDGET-CALENDAR.md` (FY end, new-money month, archetype). No row → add one (rules in that file) before picking the date.
 - A real trigger (product launch, new video, new role, funding, rebrand) can pull a touch forward, but never sooner than 45 days after the last touch.
 - Revisit dates already in the ledger (Spencer's earlier calls) count as LT1; quarterly runs from their send.
 - Big waves: still max ~12 drafts per run. Stagger the cohort across the window, oldest final first.
