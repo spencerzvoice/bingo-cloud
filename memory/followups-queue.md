@@ -168,3 +168,4 @@ Use these for scheduling touch 2 and touch 3. Target 8:00 AM local. Lisbon offse
 | Tom Krymkowski, Splunk | San Francisco, CA | 16:00 |
 | Rebecca Dole, Sprout Social | Raleigh, NC (Eastern) | 13:00 |
 All 12 still list the target company as current employer (live profile 10-05).
+Live Gmail re-check 10-05 late eve: all 12 touch-2 drafts (same draft IDs as the 10-05 batch table) hold the Sprout wording + capitalized "Voiceover Artist"; `in:drafts FIFA` / `in:drafts EuroLeague` hit only 3 first-touch pitches (Mito/NPR, Ariana/Smithsonian, Jon Kroll/Nat Geo), where it's the PITCH-TEMPLATE credits line. Spencer: leave the pitches as they are (credits line stays). If he sees old text in Gmail, it's a stale open compose window: close without typing, reload.
