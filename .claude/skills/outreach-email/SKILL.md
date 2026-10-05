@@ -35,6 +35,18 @@ Ian Wiggins (Hitachi Rail) sat in Drafts for 4 days with a recorded sample and g
    - **Check fails** (left, different title, no matching profile): handle it per item 6 the same turn.
 6. **Contact left → enact it in Gmail the same turn.** Clear the To field so the draft can't go to them, then update ROSTER.md and FUNNEL-COHORTS.md. Swap in the backup only after the backup passes check 1 (same lesson as Kyle Osher, 09-23).
 
+## Step 0c — EVERY EDIT TO A PITCH DRAFT = FULL FORMAT CHECK (Spencer, 2026-10-05: "you didn't follow the standard wording")
+
+The Hitachi Rail draft came from a 09-30 test run, before the standard format existed. On 10-04 and 10-05 Bingo swapped the recipient and greeting and deleted a paragraph, but never rebuilt the rest. It went out to Spencer thin and off-format, with the old "Please keep me in mind" close and no credits in the intro. A small edit never makes a draft exempt. Whenever you touch a pitch draft for ANY reason (recipient swap, hook, link, one word), rebuild it to the standard 6 parts, then read it back:
+1. Greeting ("Hello <First>, I hope this message finds you well." or "Hi <First>, hope you're doing well.")
+2. Hook: event line + yellow `[YOUR TAKE] Source: <link>` (or the `[HOOK: nothing current found...]` placeholder)
+3. Intro: "Let me introduce myself, my name is Spencer Pearman and I'm a professional voiceover artist and audio engineer based in Lisbon, Portugal. I've got a warm bass/baritone voice, and I record and produce everything myself, so turnaround is fast. Recent work includes <2-4 relevant credits>, among others. You can hear my work at spencerzvoice.com."
+4. Re-voice line: `I put together a re-voice of your <a href="...">"<title>"</a> spot/video. Give it a listen!` (or `VIDEO TITLE PENDING`)
+5. Close: "Would love to be a voice you can call on regularly for <Company>'s video work. Locked rate, 24-hour turnaround. Feel free to reach out or schedule a call if this is something you're looking for. Hope to hear from you soon!"
+6. Sign-off: Best,<br>Spencer<br>spencerzvoice.com link
+Then read back: 6 paragraphs, no em/en dashes, no "Please keep me in mind" or "keep on file" closes, no leftover paragraphs from an older format. Spencer's own hook text and takes are kept word for word.
+**If Spencer has the draft open in Gmail** (the message id changes between your GET and PUT, or his edit lands right after yours), stop PUTting. His open compose window overwrites yours. Give him the corrected text to paste instead.
+
 ## Step 0 — Never guess a fact about Spencer
 
 Accent, location, studio gear, availability, credits, rates — if it's not in the
