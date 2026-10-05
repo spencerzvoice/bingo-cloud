@@ -211,7 +211,9 @@ something he isn't. Plain words, contractions, short paragraphs.
 ## Step 5 — Follow-up cadence (for scheduling the nudge)
 
 - **Cold agency contacts:** 7–10 days. 0–6 days is too soon; 10+ with no reply =
-  overdue, send the follow-up.
+  overdue, send the follow-up. Touch 3 = final in the sequence, then a **quarterly
+  long-tail touch** every ~90 days (new email, must bring something new): full
+  rules in the `followup-drafts` skill (Spencer, 2026-10-05).
 - **Warm / recurring clients:** slower — fast follow-up reads as needy.
   2–3 weeks if mid-conversation on a live project or recent quote; 4–8 weeks for
   a pure check-in with no open thread; 6+ months = treat as a soft reconnect.

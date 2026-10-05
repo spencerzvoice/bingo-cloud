@@ -1,7 +1,7 @@
 ---
 name: followup-drafts
 description: >-
-  Daily follow-up engine for Spencer's outreach. Finds which follow-ups are truly due (using the VO Pipeline Digest + tracker + live Gmail, with cadence judgment), writes the drafts into spencer@spencerzvoice.com Drafts as threaded replies, queues them in memory/followups-queue.md, and reminds Spencer to review + send. Never sends. Use when Spencer says "what's due", "draft my follow-ups", or when the followup-drafts scheduled tasks fire.
+  Daily follow-up engine for Spencer's outreach. Finds which follow-ups are truly due (using the VO Pipeline Digest + tracker + live Gmail, with cadence judgment), writes the drafts into spencer@spencerzvoice.com Drafts as threaded replies (quarterly long-tail touches after the final = new emails), queues them in memory/followups-queue.md, and reminds Spencer to review + send. Never sends. Use when Spencer says "what's due", "draft my follow-ups", or when the followup-drafts scheduled tasks fire.
 ---
 
 # Follow-up drafts + reminders
@@ -20,9 +20,27 @@ Reminders fire **only when a follow-up is due by the cadence rules**, not every 
 0. Read the ledger in `memory/followups-queue.md` FIRST; it decides what is due today/tomorrow. Everything below is triage + supplement.
 1. Read the newest "VO Pipeline Digest" email in spencer@spencerzvoice.com (FGAC `google_api_get`, never the generic Gmail connector) and the tracker (`Outreach Tracker`, spreadsheetId in AGENTS.md). Also `memory/followups-queue.md` and `memory/outreach-log.md` "Follow up on" dates.
 2. **Triage every digest item against live Gmail** before drafting. The tracker flag is date-only and over-flags. Known false positives (2026-09-24): contacts who already replied (Mackenzie Prokos), contacts on their 3rd touch (Michael MacMillan = initial + 8/24 + 9/1 = done), the "data gap" on Nancy Loud (email was nancyloud@untoldstudios.tv, sent 9/7). For each candidate: search `to:<addr>` in Sent and `from:<domain>` in inbox; read the last sent message; confirm no reply, no bounce, no existing draft for that thread (list drafts).
-3. **Cadence rules** (from outreach-email Step 5): cold agency 7-10d, max 3 touches then October revisit (NO 4th touch). Warm past client, no open thread: 4-8 weeks, and the nudge must bring something new. Skip: OOO holds (Krista Hansen, Lucas Bertoli, Becca Winkler, Geminesse Johnson), "Hold" Next Actions, anyone who said "no current need / we'll reach out", Miro/Drew Jaz (never pitch), dropped rows, Voices.com/marketplace items (never in tracker).
+3. **Cadence rules** (from outreach-email Step 5): cold agency 7-10d, 3 touches in the sequence, then the **quarterly long-tail touch** (section below) instead of stopping. A contact whose sequence is done is NOT "skip, 3rd touch done" when its ledger row shows an LT touch due. Warm past client, no open thread: 4-8 weeks, and the nudge must bring something new. Skip: OOO holds (Krista Hansen, Lucas Bertoli, Becca Winkler, Geminesse Johnson), "Hold" Next Actions, anyone who said "no current need / we'll reach out", Miro/Drew Jaz (never pitch), dropped rows, Voices.com/marketplace items (never in tracker).
 4. Anything that can't be drafted honestly (no thread history, unknown context, first-ever reconnect with no prior email found, e.g. Luke Mellows, Jamie Pearson on 2026-09-24) goes in a **"flagged, not drafted"** list with the reason. Do not guess.
 5. Cap: max ~12 drafts per run. If more are due, draft the highest-value/oldest and say what was left.
+
+## Quarterly long-tail touch (Spencer, 2026-10-05: replaces "stop after the final touch")
+**Why:** final VO gets cast in days, from a 1-5 voice shortlist of people the producer already knows, and buyers start ~83% of vendor contacts themselves (6sense). A cold sequence can't hit the job. It gets him into the pool, and the long tail keeps him there. VO coaches say quarterly, indefinitely, 6-12 touches (Paul Schmidt/VO Pro, Such A Voice), and follow-ups bring 42% of replies (Instantly). Source: `reports/Campaign budgets and VO timing.md`.
+
+**Who:** every cold contact whose sequence is done (final touch sent) with no reply, no "no", no bounce. Warm past clients keep their own 4-8 week cadence; this rule isn't for them.
+
+**When:** every ~90 days from the last SENT touch (window day 85-105). Ledger touch labels: `LT1`, `LT2`, ...; reminder = day 90, overdue = day 105, both after the shifts below.
+- Lands **Nov 23 - Jan 4** → move to Tue-Thu **Jan 5-15** (Thanksgiving week + holiday blackout; December is the worst reply month, Belkins). Thanksgiving 2026 = Thu Nov 26.
+- UK/EU contact landing in **August** → move to Sep 1-11.
+- Normal send-date rules (US holidays and the day before/after, Friday afternoon ET).
+- Inside the window, prefer the company's new-budget month if known (FY table: `research_notes/Campaign budgets and VO timing/brand_budget_cycles.md`: Jan-31 FY → late Jan/Feb · calendar FY → mid-Jan/Feb · Jun-30 FY → Mar-May).
+- A real trigger (product launch, new video, new role, funding, rebrand) can pull a touch forward, but never sooner than 45 days after the last touch.
+- Revisit dates already in the ledger (Spencer's earlier calls) count as LT1; quarterly runs from their send.
+- Big waves: still max ~12 drafts per run. Stagger the cohort across the window, oldest final first.
+
+**Form:** a **NEW email, not a thread reply** (three unanswered messages underneath reads needy). Fresh subject naming the new thing. One line placing him ("I reached out earlier this year about voiceover for <company>'s videos"), then the new thing, a short close, the standard sign-off. **It must carry something new and true:** a new verified credit or job, a fresh re-voice of one of their recent videos, or a hook on their recent launch (hook rules: event line + `[YOUR TAKE]`, watch any video it references). Nothing new = flagged, not drafted. Never "just checking in."
+
+**Exits:** reply → warm track · "no" / "we'll reach out" → stop for good (a "not now, try <month>" → one dated touch then) · bounce / left the company → flag for re-sourcing (a new contact there starts a fresh cold sequence) · asked not to be contacted → stop. **After LT4 (≈1 year) with zero response → flag for Spencer's go/no-go**, don't keep going on autopilot.
 
 ## Step 2 — Draft (Spencer's voice)
 - Read `outreach-email` SKILL Step 4 + `.claude/skills/outreach-email/voice.md`. Casual, contractions, short, no em dashes in the body, sign-off exactly `Best,\nSpencer\nspencerzvoice.com`. "warm bass/baritone" (never "American"). Formal opener (Hello) for women / older men.
@@ -30,7 +48,8 @@ Reminders fire **only when a follow-up is due by the cadence rules**, not every 
 - 3rd touch = closes as last touch ("I'll leave it here and check back later in the year").
 - Send-date sanity (outreach-email Step 5): no US holidays / day before-after, no Friday afternoon ET.
 
-## Step 3 — Create the draft (FGAC, threaded)
+## Step 3 — Create the draft (FGAC, threaded; LT touches = new email)
+- **LT touch exception:** POST the draft with no `threadId`, no `In-Reply-To`/`References`, and a fresh subject (not "Re:"). Everything else in this step applies.
 - `google_api_modify` POST `gmail/v1/users/me/drafts` with `{"message":{"threadId":..., "raw": <base64url RFC822>}}`, account spencer@spencerzvoice.com.
 - Build the raw with Python `email.message.EmailMessage(policy=SMTP)` so a non-ASCII subject (the original subjects contain an em dash) is MIME-encoded. **Subject must match the thread ("Re: <original>")**, plus `In-Reply-To` = last Message-ID in the thread and `References` = earlier + last, or Gmail won't thread it. Get Message-IDs with `threads/<id>?format=metadata&metadataHeaders=Message-ID&metadataHeaders=Subject&metadataHeaders=To`.
 - Updating an existing draft = **PUT**, not PATCH. Read one back with `gmail_read` (draft message id) to verify subject/body/thread.
