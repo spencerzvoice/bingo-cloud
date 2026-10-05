@@ -146,3 +146,6 @@ Live Gmail 10-05 eve: no replies/bounces on these threads. Angle = Spencer's own
 | Rebecca Dole | Sprout Social | 1a0ee5a2f1f6dd28 | r-5185619113671714630 | 2 | drafted |
 Flagged / not drafted: **Shell Jane Sayers REPLIED 10-05 (blocked link, wants re-voice as attachment); Spencer answered 13:31 UK -> warm, off cold cadence (remove from touch-2 row).** Still to draft Tue 10-06 eve for Wed 10-07: Retool Kasey Hickey, PagerDuty Stephanie Muniz, Braze Lauren Bernal, Zendesk Cody McPherson + Natalie Fudge (all sent 09-29 eve). Dead addresses (re-source): Thinkific Eric Smith / Kevin C / Evan Lepage (auto-reply "no longer in use"), Domestika Valeria (hard bounce). Tracker not updated this run (no sends confirmed).
 After sending: touch 3 (final) window = send + 14-21d.
+
+## 2026-10-05 late eve - touch-2 wording swap
+Spencer rewrote the Sprout Social touch-2 himself (cut the FIFA/EuroLeague line) and asked for all touch-2 drafts to match it word for word. The other 11 drafts in the 10-05 batch (Alice, Alistair, Clare, Toby, Lydia, Kendra, Adrien, John, Bijan, Natalia, Tom) were rewritten via FGAC PUT (same draft IDs and threads, In-Reply-To kept); readback OK. This text is now the touch-2 standard in the `followup-drafts` skill Step 2. Retool/PagerDuty/Braze/Zendesk (prep Tue 10-06) use it too.
