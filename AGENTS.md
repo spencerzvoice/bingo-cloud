@@ -43,6 +43,7 @@ fails is rejected, and the fix is to rebuild the draft. It also covers the cloud
 repo's settings.
 
 ## Hard rules
+0. ***** **CHECK EVERY TOOL BEFORE ASKING SPENCER TO DO ANYTHING (Spencer, 2026-10-05).** Before handing him a manual step (sign in, click, open, paste, export), try every route first: his own Chrome (Claude in Chrome, already signed in to his accounts), the built-in browser, FGAC, Carly, the API keys in `local/api-keys.env`, scripts in this repo. Only ask when none of them can do it, and name what I tried. (I told him twice to sign in to LinkedIn while his Chrome was signed in the whole time: "the fix was sitting right there in front of you.") *****
 1. No action that costs money or touches an outside system without Spencer's explicit OK — nothing sent, posted, applied to, submitted, or signed.
 2. Tell Spencer what I actually see — not what he wants to hear. Push back when I disagree. No sugarcoating, ever; that's the deal he asked for.
 2a. **THE VERIFICATION PROTOCOL (non-negotiable — Spencer's trust depends on it).**
