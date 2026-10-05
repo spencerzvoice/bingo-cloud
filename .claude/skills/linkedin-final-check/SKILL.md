@@ -1,8 +1,8 @@
 ---
 name: linkedin-final-check
 description: >-
-  Final job verification for outreach contacts on their live LinkedIn profile, done by Bingo in the
-  Claude Desktop app's built-in browser. Clears the yellow [NOT READY: final LinkedIn check pending]
+  Final job verification for outreach contacts on their live LinkedIn profile, done by Bingo in
+  Spencer's own Chrome (Claude in Chrome; built-in browser as fallback). Clears the yellow [NOT READY: final LinkedIn check pending]
   line from pitch drafts that pass, and pulls the recipient from any draft whose contact has left.
   Use for "LinkedIn-check the drafts", "run the LinkedIn check", or when the daily desktop scheduled
   task fires. Desktop only. Cloud sessions can't load LinkedIn.
@@ -21,10 +21,16 @@ with a real browser can open LinkedIn.
 
 ## Steps
 
-0. `git pull`. Load the `anthropic-skills:built-in-browser` skill before the first browser call.
-   If no built-in browser (`mcp__Claude_Browser__*`) is available, stop and report:
-   "LinkedIn check didn't run: no browser in this session." Never fall back to WebFetch, search
-   snippets or Apollo. None of those count as the final check.
+0. `git pull`. **Browser = Spencer's own Chrome via Claude in Chrome (`mcp__claude-in-chrome__*`), first
+   choice (Spencer, 2026-10-05: "find a long-lasting solution").** The app's built-in browser dropped his
+   LinkedIn login within hours of signing in (10-05, likely on app restart); his real Chrome keeps it for
+   weeks. Load the Chrome tools in one ToolSearch, `tabs_context_mcp {createIfEmpty:true}`, do every
+   profile in that one tab (`navigate` + `javascript_tool` with the tabId), close the tab at the end.
+   Fallback only if Chrome isn't connected (`list_connected_browsers` empty): the built-in browser
+   (`mcp__Claude_Browser__*`, load `anthropic-skills:built-in-browser` first).
+   If neither browser is available or both are signed out, mark everything UNRESOLVED and send the
+   push in step 3's sign-out rule. Never fall back to WebFetch, search snippets or Apollo. None of
+   those count as the final check.
 
 1. **Find the drafts to check.** FGAC `google_api_get gmail/v1/users/me/drafts?maxResults=200`, then
    each draft with `format=full`. Decode the HTML body. Check a draft if its body contains
@@ -40,15 +46,16 @@ with a real browser can open LinkedIn.
    search results page is only a lead. The profile page is the source. Save the URL you found in the
    LINKEDIN-CHECKS line so the next run doesn't search again.
 
-3. **Open the profile in the built-in browser** (signed in as Spencer, one-time sign-in done
-   2026-10-05; it persists). Go straight to `https://www.linkedin.com/in/<slug>/details/experience/`,
+3. **Open the profile in Chrome** (step 0; signed in as Spencer). Go straight to `https://www.linkedin.com/in/<slug>/details/experience/`,
    because the main profile page lazy-loads Experience and its text often comes back without it. Then run
    `javascript_tool`: `await new Promise(r=>setTimeout(r,2500)); location.href+"
 "+document.title+"
 "+(document.querySelector('main')||document.body).innerText.slice(0,500)`.
-   If the URL comes back as `/authwall` or a login page, the session expired: stop the whole run,
-   mark everything UNRESOLVED, and tell Spencer "LinkedIn signed out in the app browser. Sign in once
-   (Ctrl+Shift+B) and I'll rerun." Never type his password.
+   If the URL comes back as `/authwall` or a login page in Chrome, try the built-in browser once; if
+   that's signed out too, stop the whole run, mark everything UNRESOLVED, and send a `PushNotification`
+   (status "proactive"): "LinkedIn is signed out in Chrome. N drafts are waiting on the LinkedIn check.
+   Sign in at linkedin.com in Chrome and I'll rerun." Never type his password. The cloud API check
+   (no login) keeps clearing everything it can meanwhile.
    - **PASS:** the current position (shown as "Present") is at the draft's company, and the title is
      the same role or close to it.
    - **WRONG FIT (still employed, wrong buyer):** the role is current, but the work described is not
