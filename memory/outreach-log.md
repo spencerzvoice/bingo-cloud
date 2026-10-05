@@ -275,3 +275,9 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 
 ## 2026-10-05: Hitachi Rail / Janet Klinke SENT
 - Janet Klinke, Communications Manager Content & Digital, Hitachi Rail, janet.klinke@hitachirail.com. Sent by Spencer Mon 10-05 11:54 Lisbon (Gmail 1a10bb33cf02b312), "A voice for Hitachi's communcations", re-voice "The New Hitachi Rail" (Drive). Replaced Ian Wiggins (left). Tracker row 165. **Follow up on: 10-12 to 10-15.**
+
+## 2026-10-05 - Funnel G2 (cold, 7 new-client pitches) - DRAFTED, NOT sent
+- F5 Roland Luitgaarden, Siemens Sergio Manzo, Siemens Energy Natascha Ladstaetter, TVA Bleu Hayes, NPR Mito Habe-Evans, Smithsonian Ariana Lilligren, Nat Geo (To empty, no send-ready contact).
+- Why now: FY started ~Oct 1 for all seven (BUDGET-CALENDAR). Template = PITCH-TEMPLATE.md; hooks = event line + [YOUR TAKE] link (Siemens Energy none). New emails, not thread replies.
+- Status: drafts in Gmail (label Funnel G2), all carry NOT READY (LinkedIn) or VERIFY (Nat Geo). Re-voice titles pending except Smithsonian.
+- Follow up on: 7-10 days after each send.

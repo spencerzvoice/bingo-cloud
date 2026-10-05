@@ -114,6 +114,19 @@ Drafted 2026-09-30 by the cloud lead-batch run. WebFetch failed session-wide dur
 
 ---
 
+## G2 — new-money cohort (7) · drafted 2026-10-05 (Spencer: "New Funnel to go out today. Label it Funnel G2"), Gmail label "Funnel G2", Drive `Funnel G2/`
+Pulled forward from Funnels H/L/P/Q/R because each company's fiscal year started ~Oct 1 (BUDGET-CALENDAR.md). Apollo same-day match + waterfall 10-05; all drafts carry the NOT READY LinkedIn line (built-in browser not signed in to LinkedIn). Re-voice: only Smithsonian has a source video; the rest = VIDEO TITLE PENDING. Detail: `contacts/2026-10-05-funnel-g2.md`.
+
+| Company | Contact | Email | Draft id | Status |
+|---|---|---|---|---|
+| F5 | Roland Luitgaarden, Lead Creative Producer | r.luitgaarden@f5.com | r-6106568462963572362 | DRAFTED, NOT READY (LinkedIn) |
+| Siemens | Sergio Manzo, Marketing Video Studio Production Manager | sergio.manzo@siemens.com | r-3518333476330658444 | DRAFTED, NOT READY (LinkedIn) |
+| Siemens Energy | Natascha Ladstaetter, Marketing Manager | natascha.ladstaetter@siemens-energy.com | r-1053189823657684936 | DRAFTED, NOT READY (LinkedIn), no hook |
+| Tennessee Valley Authority | Bleu Hayes, Video Producer | bhayes2@tva.gov | r-5729103239488553907 | DRAFTED, NOT READY (LinkedIn) |
+| National Geographic | none send-ready (Jon Kroll email invalid; Lauren Jackson left Jan 2026 per Apollo, email extrapolated) | To EMPTY | r1422019982960983528 | DRAFTED, VERIFY EMPLOYMENT, needs new contact |
+| NPR | Mito Habe-Evans, Creative Director / Supervising Producer, NPR Video | mhabeevans@npr.org (catch-all domain) | r-5650231547639135472 | DRAFTED, NOT READY (LinkedIn) |
+| Smithsonian Institution | Ariana Lilligren, Head of Production | lilligrena@si.edu | r-6252769941679098524 | DRAFTED, NOT READY (LinkedIn) |
+
 ## H to R: the whole BANKED pool, pre-assigned (Spencer, 2026-09-30)
 
 **Decision (Spencer, 30 Sep):** research and drafting feed ONE pipeline. Every company that was researched and banked is now assigned to a send cohort of **10**, with its Drive folder `Client Outreach/Funnel <X>/<Company>/Ready to Link to Drafted Email/` already created. Drafts are written **funnel by funnel, in letter order**, as the 20-pitch queue frees up (the daily Lead Batch tops up from the lowest undrafted funnel first; it sources NEW companies only once R is exhausted, and new companies then form Funnel S, T... in 10s with folders built at assignment). Nothing banked is left unassigned, so no research is wasted.
@@ -128,7 +141,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 |---|---|---|---|---|
 | ABB | Corporate and industrial in-house | Jose Monrabal | Kristen Smith | **DRAFTED 2026-10-01** — contact re-verified live via Apollo (still Head of Global Brand Communications, email verified); hook = ABB joins Ferrari Hypersail as Electrification Partner, GlobeNewswire 14 Sep 2026 (17 days old at draft time, worded to still read right); no re-voice sample built yet, draft closes with a custom-read offer instead; Gmail label "Funnel H" applied |
 | Pushkin Industries | Institutions and nonprofits and media | Constanza Gallardo | Justin Richmond | BANKED — SEND-SOON, event-dated hook (Revisionist History Reconstruction series) |
-| Smithsonian Institution | Institutions and nonprofits and media | Ariana Lilligren | Jonathan Ray | BANKED — SEND-SOON, event-dated hook (National Air and Space Museum video series) |
+| Smithsonian Institution | Institutions and nonprofits and media | Ariana Lilligren | Jonathan Ray | BANKED — SEND-SOON, event-dated hook (National Air and Space Museum video series) · MOVED to Funnel G2 2026-10-05 |
 | BUCK | Creative and production studios | Jordan Howes | Rebecca Dell | BANKED — SEND-SOON, event-dated hook (Ladder Lad reveal) |
 | Garmin | Consumer brands and travel | Maggie Wasserman | Matt Bowne | BANKED |
 | Peloton Interactive | Consumer brands and travel | Anne Gaynor | Erick Rodriguez | BANKED |
@@ -191,7 +204,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Freshworks | Enterprise and business software | Pete Anderson | Mark Girgis | BANKED — HOOK NEEDED, verify Anderson's current title before drafting |
 | Darktrace | Cybersecurity vendors | Gus Teixeira | Kevin Ginosian | BANKED |
 | EC-Council | Cybersecurity vendors | Garrett Goeckner | Swati Salian | BANKED |
-| F5 | Cybersecurity vendors | Roland Luitgaarden | David Wulzen | BANKED |
+| F5 | Cybersecurity vendors | Roland Luitgaarden | David Wulzen | BANKED · MOVED to Funnel G2 2026-10-05 |
 
 ### Funnel M
 | Company | Segment | Primary | Backup | Roster note |
@@ -243,16 +256,16 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Nexus Studios | Creative and production studios | Kristin Glushon | Diego Rosner | BANKED |
 | THE LINE | Creative and production studios | Nick Miller | Eva Dahlqvist | BANKED |
 | Maersk | Corporate and industrial in-house | Shantanu Harjeet | Swapnita Roychaudhuri | BANKED |
-| Siemens | Corporate and industrial in-house | Sergio Manzo | Annie Mullen | BANKED |
+| Siemens | Corporate and industrial in-house | Sergio Manzo | Annie Mullen | BANKED · MOVED to Funnel G2 2026-10-05 |
 | Arizona Public Service | Corporate and industrial in-house | Scott Anderson | Rory Gonzalez | BANKED — no hook verified yet |
-| Tennessee Valley Authority | Corporate and industrial in-house | Bleu Hayes | Marc Murano | BANKED — no hook verified yet |
+| Tennessee Valley Authority | Corporate and industrial in-house | Bleu Hayes | Marc Murano | BANKED — no hook verified yet · MOVED to Funnel G2 2026-10-05 |
 | Ørsted | Corporate and industrial in-house | Pelle Iversen | Jacob Søndergaard | BANKED — HOOK NEEDED, check LinkedIn recent activity |
 | Schneider Electric | Corporate and industrial in-house | Ajay Seethala | Christophe Doré | BANKED |
 
 ### Funnel Q
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| Siemens Energy | Corporate and industrial in-house | Natascha Ladstaetter | Natascha Ladstaetter | BANKED — verify "Chen L"'s full name/role before drafting; hook is 76 days old |
+| Siemens Energy | Corporate and industrial in-house | Natascha Ladstaetter | Natascha Ladstaetter | BANKED — verify "Chen L"'s full name/role before drafting; hook is 76 days old · MOVED to Funnel G2 2026-10-05 |
 | Airbnb | Consumer brands and travel | Sarah Karlan | Jordan Sider | BANKED |
 | Brooks Running | Consumer brands and travel | Christina Harp | Gavin Doremus | BANKED |
 | Calm | Consumer brands and travel | Daniel Szeto | Casey Daigle | BANKED |
@@ -270,8 +283,8 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Warby Parker | Consumer brands and travel | Matthew Currie | Carmel Quinn | BANKED |
 | Rothy's | Consumer brands and travel | Cristalle Stutrud | Anne Slater | BANKED |
 | Vuori | Consumer brands and travel | Mark Tesi | Daniella Carrera | BANKED |
-| National Geographic | Institutions and nonprofits and media | Jon Kroll | Lauren Jackson | BANKED |
-| NPR | Institutions and nonprofits and media | Mito Habe-Evans | Suraya Mohamed | BANKED — no hook verified yet |
+| National Geographic | Institutions and nonprofits and media | Jon Kroll | Lauren Jackson | BANKED · MOVED to Funnel G2 2026-10-05 |
+| NPR | Institutions and nonprofits and media | Mito Habe-Evans | Suraya Mohamed | BANKED — no hook verified yet · MOVED to Funnel G2 2026-10-05 |
 | TED Conferences | Institutions and nonprofits and media | Eric Kondo | Michael Femia | BANKED |
 | Wondery | Institutions and nonprofits and media | Tracy Egbas | Michaela Myers | BANKED — HOOK NEEDED, check LinkedIn recent activity |
 | Company 3 | Creative and production studios | Gurucharan Kirtiwar | Michael Maida | BANKED — title mismatch (Apollo "Head of Production" vs LinkedIn "Line Producer, Company3 Method India"); added to R 30 Sep after a parse miss |

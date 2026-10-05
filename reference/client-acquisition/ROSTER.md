@@ -209,7 +209,7 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 |---|---|---|---|---|---|---|---|
 | Darktrace | Gus Teixeira | Video Producer | verified | Kevin Ginosian — Content Marketing Manager | L | BANKED | batch-08 |
 | EC-Council | Garrett Goeckner | Video Producer | verified | Swati Salian — Content Manager | L | BANKED | batch-10 |
-| F5 | Roland Luitgaarden | Lead Creative Producer | verified | David Wulzen — Video Post Production Manager | L | BANKED | batch-10 |
+| F5 | Roland Luitgaarden | Lead Creative Producer | verified | David Wulzen — Video Post Production Manager | G2 | DRAFTED 10-05 (LinkedIn check pending) | batch-10 |
 | Group-IB | Meeba Gracy | Content Marketing Manager | verified | Maria Viderman — Content Marketing Manager | G | **DRAFTED** 30 Sep (Funnel G, Gmail label "Funnel G") | batch-11 |
 | Huntress | Bryan Sarmiento | Video Production Manager | verified | Robert Zelin — Creative Director | M | BANKED | batch-10 |
 | Kaseya | Matthew Ninaber | Senior Video Producer | verified | Lisa Luk — Executive Creative Director | M | BANKED | batch-10 |
@@ -280,14 +280,14 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 |---|---|---|---|---|---|---|---|
 | Hitachi Rail | Janet Klinke (replaces Ian Wiggins, LEFT per Spencer 04 Oct) | Communications Manager Content & Digital (Apollo 05 Oct, since Sep 2024), Germany | janet.klinke@hitachirail.com, Apollo waterfall Verified + ZeroBounce valid 05 Oct; LinkedIn final check PENDING (linkedin.com/in/janet-klinke) | Julie (Rolland-)Didelin, External Comms Manager GTS, France, NO email findable (Apollo + waterfall 05 Oct) | G | **NOT READY** - draft To = Janet 05 Oct, NOT READY line until the LinkedIn check | batch-11 |
 | Maersk | Shantanu Harjeet | Group Head Video | verified | Swapnita Roychaudhuri — Video Group Head | P | BANKED | batch-03 |
-| Siemens | Sergio Manzo | Marketing Video Studio Production Manager | verified | Annie Mullen — Assoc. Team Manager, Content Production | P | BANKED | batch-03 |
+| Siemens | Sergio Manzo | Marketing Video Studio Production Manager | verified | Annie Mullen — Assoc. Team Manager, Content Production | G2 | DRAFTED 10-05 (LinkedIn check pending) | batch-03 |
 | Shell | Jane Sayers | — | jane.sayers@shell.com | — | D | **SCHEDULED** 29 Sep 09:00 UK | Bingo 24 Sep |
 | Arizona Public Service (APS) | Scott Anderson | Video Producer | verified | Rory Gonzalez — Video Producer | P | BANKED — no hook verified yet | 2026-09-24-funnel-i-m-h-k |
-| Tennessee Valley Authority (TVA) | Bleu Hayes | Video Producer | verified | Marc Murano — Video Producer | P | BANKED — no hook verified yet | 2026-09-24-funnel-i-m-h-k |
+| Tennessee Valley Authority (TVA) | Bleu Hayes | Video Producer | verified | Marc Murano — Video Producer | G2 | DRAFTED 10-05 (LinkedIn check pending) | 2026-09-24-funnel-i-m-h-k |
 | Ørsted | Pelle Iversen | Lead Creative Producer, Global Branding & Marketing | verified | Jacob Søndergaard — Head of Global Content | P | BANKED — HOOK NEEDED, check LinkedIn recent activity | 2026-09-25-funnel-i-j-k-l-m |
 | Schneider Electric | Ajay Seethala | Video Production Manager | verified | Christophe Doré — Brand & Campaign Video Producer | P | BANKED | 2026-09-25-funnel-i-j-k-l-m |
 | ABB | Jose Monrabal | Head of Global Brand Communications | verified | Kristen Smith — Creative Director | H | DRAFTED 2026-10-01 (re-verified live via Apollo, still current) | 2026-09-28-funnel-i-k-l-m |
-| Siemens Energy | "Chen L" (name incomplete in Apollo, unverified) | Head of Content Engagement | verified email, name unconfirmed | Natascha Ladstaetter — Marketing Manager (cleaner card, consider as primary) | Q | BANKED — verify "Chen L"'s full name/role before drafting; hook is 76 days old | 2026-09-28-funnel-i-k-l-m |
+| Siemens Energy | Natascha Ladstaetter (primary since 10-05; "Chen L" dropped) | Head of Content Engagement | verified email, name unconfirmed | Natascha Ladstaetter — Marketing Manager (cleaner card, consider as primary) | G2 | DRAFTED 10-05 (LinkedIn check pending) | 2026-09-28-funnel-i-k-l-m |
 
 ## Consumer brands and travel
 
@@ -329,12 +329,12 @@ Highest rate ceiling in the pipeline. Mostly BANKED; six DRAFTED 30 Sep (Funnel 
 | Purdue | Jason Doty | — | doty@purdue.edu | — | D | **SCHEDULED** 29 Sep 09:00 UK | Bingo 24 Sep |
 | Shelter (UK) | Leanne Ainsworth | — | — | — | D | **SKIPPED** 24 Sep — Spencer's decision, draft trashed | Bingo 24 Sep |
 | The Economist | Liv Moloney | Head of Video | verified | Saniya Keswani — Brand Marketing Manager | H | BANKED — strongest hook this batch | 2026-09-24-funnel-i-m-h-k |
-| National Geographic | Jon Kroll | Executive Producer | verified | Lauren Jackson — Creative Producer + Strategist | R | BANKED | 2026-09-24-funnel-i-m-h-k |
-| NPR | Mito Habe-Evans | Creative Director / Supervising Producer, NPR Video | verified | Suraya Mohamed — Executive Producer | R | BANKED — no hook verified yet | 2026-09-24-funnel-i-m-h-k |
+| National Geographic | Jon Kroll | Executive Producer | verified | Lauren Jackson — Creative Producer + Strategist | G2 | DRAFTED 10-05 (VERIFY: no send-ready contact) | 2026-09-24-funnel-i-m-h-k |
+| NPR | Mito Habe-Evans | Creative Director / Supervising Producer, NPR Video | verified | Suraya Mohamed — Executive Producer | G2 | DRAFTED 10-05 (LinkedIn check pending) | 2026-09-24-funnel-i-m-h-k |
 | TED Conferences | Eric Kondo | Executive Producer | verified | Michael Femia — Creative Director | R | BANKED | 2026-09-25-funnel-i-j-k-l-m |
 | Pushkin Industries | Constanza Gallardo | Head of Production & Executive Producer | verified | Justin Richmond — Executive Producer | H | BANKED — SEND-SOON, event-dated hook (Revisionist History Reconstruction series) | 2026-09-28-funnel-i-k-l-m |
 | Wondery | Tracy Egbas | Senior Producer | verified | Michaela Myers — Senior Producer | R | BANKED — HOOK NEEDED, check LinkedIn recent activity | 2026-09-28-funnel-i-k-l-m |
-| Smithsonian Institution | Ariana Lilligren | Head of Production | verified | Jonathan Ray — Producer, Webcast | H | BANKED — SEND-SOON, event-dated hook (National Air and Space Museum video series) | 2026-09-28-funnel-i-k-l-m |
+| Smithsonian Institution | Ariana Lilligren | Head of Production | verified | Jonathan Ray — Producer, Webcast | G2 | DRAFTED 10-05 (LinkedIn check pending) | 2026-09-28-funnel-i-k-l-m |
 | Audible | Miguel Barbieri | Video Producer | migbarbi@audible.com, Apollo-verified | Jaclyn Cataldi — Video Producer & Motion Designer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
 ---
