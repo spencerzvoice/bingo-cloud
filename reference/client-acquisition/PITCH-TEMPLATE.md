@@ -5,7 +5,7 @@ Source: Spencer's own Hitachi Rail email to Janet Klinke, sent 2026-10-05 11:54 
 **Spencer's TVA send (scheduled 2026-10-05 night for Tue 10-06 13:32, Gmail `1a111330a0779b60`) is the voice model from here on ("look at the scheduled email that I sent to TVA to get an idea of how I want these to be voiced"):**
 - His take after the event line is short, warm, a congratulation: "From what I read that's history in the making. Congrats to you and TVA!" (still Spencer-written, never Bingo's).
 - "My work is high quality", not "reliable".
-- The go-to line can tie back to the hook ("...that come through TVA, and hopefully ones that will spread the word about the history you all just made."). That clause is Spencer's to write, like the take; Bingo leaves it out.
+- **Default bridge (Spencer, 2026-10-05 night: "make that bridge the default"):** when the hook is a launch, award, premiere or milestone, `<BRIDGE>` = ", starting with the videos that will tell this story" ("...for the projects that come through TVA, starting with the videos that will tell this story."). No hook, or a hook that isn't news a video would be made about = no bridge, the sentence ends at the company name. The pitch is: congrats on the news, I want to voice the videos that share it. Tie it to the video, never "bring this to the world" or "everybody should hear about". Spencer may rewrite the bridge per draft (his TVA send: ", and hopefully ones that will spread the word about the history you all just made").
 - Credits end with "among others (FIFA, EuroLeague Basketball)" when FIFA/EuroLeague aren't already named.
 - Close: "Feel free to reach out or schedule a call if you'd like to talk about working together. I hope to hear from you soon!"
 
@@ -24,7 +24,7 @@ Hello <First>, I hope this message finds you well!          (casual, younger men
 
 My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal.
 
-I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through <Company><optional, Spencer-written: a clause tying back to the hook, e.g. ", and hopefully ones that will spread the word about the history you all just made">. My work is high quality, my turnaround is within 24 hours, and I run self-directed sessions, so it's one less thing to manage on a job.
+I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through <Company><BRIDGE>. My work is high quality, my turnaround is within 24 hours, and I run self-directed sessions, so it's one less thing to manage on a job.
 
 My recent work includes <2-4 relevant credits, e.g. Dell Technologies, Cisco, and Amazon AWS>, among others (FIFA, EuroLeague Basketball), and you can hear my work at spencerzvoice.com.
 
