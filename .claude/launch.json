@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "spencerzvoice-site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/spenc/spencerzvoice-site/scroll-craft/scripts/serve.mjs",
+        "--root", "C:/Users/spenc/spencerzvoice-site/builds/spencerzvoice",
+        "--port", "4500"
+      ],
+      "port": 4500
+    }
+  ]
+}
