@@ -115,17 +115,17 @@ Drafted 2026-09-30 by the cloud lead-batch run. WebFetch failed session-wide dur
 ---
 
 ## G2 — new-money cohort (7) · drafted 2026-10-05 (Spencer: "New Funnel to go out today. Label it Funnel G2"), Gmail label "Funnel G2", Drive `Funnel G2/`
-Pulled forward from Funnels H/L/P/Q/R because each company's fiscal year started ~Oct 1 (BUDGET-CALENDAR.md). Apollo same-day match + waterfall 10-05; all drafts carry the NOT READY LinkedIn line (built-in browser not signed in to LinkedIn). Re-voice: only Smithsonian has a source video; the rest = VIDEO TITLE PENDING. Detail: `contacts/2026-10-05-funnel-g2.md`.
+Pulled forward from Funnels H/L/P/Q/R because each company's fiscal year started ~Oct 1 (BUDGET-CALENDAR.md). Apollo same-day match + waterfall 10-05; all drafts carry the NOT READY LinkedIn line (built-in browser not signed in to LinkedIn). Re-voice: all 7 packages built 2026-10-05 on desktop (cloud Re-Voicing skips G2, CLAUDE.md override 6); real titles in every draft. Detail: `contacts/2026-10-05-funnel-g2.md`.
 
 | Company | Contact | Email | Draft id | Status |
 |---|---|---|---|---|
 | F5 | Roland Luitgaarden, Lead Creative Producer | r.luitgaarden@f5.com | r-6106568462963572362 | DRAFTED, LinkedIn PASS 10-05, package BUILT 10-05 (u4kk3JhTHMM), title in draft. Awaiting take + sample link |
-| Siemens | Sergio Manzo, Marketing Video Studio Production Manager | sergio.manzo@siemens.com | r-3518333476330658444 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
-| Siemens Energy | Natascha Ladstaetter, Marketing Manager | natascha.ladstaetter@siemens-energy.com | r-1053189823657684936 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title, no hook |
-| Tennessee Valley Authority | Bleu Hayes, Video Producer | bhayes2@tva.gov | r-5729103239488553907 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
-| National Geographic | Amanda Baumgart, Video Production Manager, Nat Geo & Disney CreativeWorks (backup Brett Reinke, Post Production Supervisor) | amanda.baumgart@natgeo.com | r1422019982960983528 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
-| NPR | Mito Habe-Evans, Creative Director / Supervising Producer, NPR Video | mhabeevans@npr.org (catch-all domain) | r-5650231547639135472 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
-| Smithsonian Institution | Jonathan Ray, Producer Webcast (backup Emily Frost, Web and Digital Content Producer); Ariana Lilligren = wrong fit (exhibit fabrication) | rayj@si.edu | r-6252769941679098524 | DRAFTED, LinkedIn PASS 10-05, ready (record the hurricane re-voice) |
+| Siemens | Sergio Manzo, Marketing Video Studio Production Manager | sergio.manzo@siemens.com | r-3518333476330658444 | DRAFTED, LinkedIn PASS 10-05, package BUILT 10-05 (-BXxYD7Wyqw), title in draft. Awaiting take + sample link |
+| Siemens Energy | Natascha Ladstaetter, Marketing Manager | natascha.ladstaetter@siemens-energy.com | r-1053189823657684936 | DRAFTED, LinkedIn PASS 10-05, no hook, package BUILT 10-05 (klM_ku40Jxg), title in draft. Awaiting take + sample link |
+| Tennessee Valley Authority | Bleu Hayes, Video Producer | bhayes2@tva.gov | r-5729103239488553907 | DRAFTED, LinkedIn PASS 10-05, package BUILT 10-05 (GDhSTqXdknA), title in draft. Awaiting take + sample link |
+| National Geographic | Amanda Baumgart, Video Production Manager, Nat Geo & Disney CreativeWorks (backup Brett Reinke, Post Production Supervisor) | amanda.baumgart@natgeo.com | r1422019982960983528 | DRAFTED, LinkedIn PASS 10-05, package BUILT 10-05 (6UqiDs-_1A8), title in draft. Awaiting take + sample link |
+| NPR | Mito Habe-Evans, Creative Director / Supervising Producer, NPR Video | mhabeevans@npr.org (catch-all domain) | r-5650231547639135472 | DRAFTED, LinkedIn PASS 10-05, package BUILT 10-05 (O4aZzxEnIhE), title in draft. Awaiting take + sample link |
+| Smithsonian Institution | Jonathan Ray, Producer Webcast (backup Emily Frost, Web and Digital Content Producer); Ariana Lilligren = wrong fit (exhibit fabrication) | rayj@si.edu | r-6252769941679098524 | DRAFTED, LinkedIn PASS 10-05, package BUILT (CKX8nzIKX5Q; Ableton links repointed from Funnel H to G2 10-05). Awaiting take + sample link |
 
 ## H to R: the whole BANKED pool, pre-assigned (Spencer, 2026-09-30)
 
