@@ -78,6 +78,9 @@ Template tracks: `VO Chain` > `VO` (full mix chain), `~VAL/~SHORT/~LMS` refs, `O
 ## Step 6 — Hand-off
 Spencer opens the project, records over NOVOX, exports the take into `Ready to Link to Drafted Email/`, links it in the drafted email. Every Drive client folder gets that subfolder at creation.
 
+## Video = the hook (Spencer, 2026-10-05, HARD RULE: "this is your new shit, listen to my voice over your new shit")
+When the pitch hook is a video, series, campaign, trailer or launch, the re-voice sample IS that video (its official trailer/spot). Pick anything else only when the hook isn't a video or the hook video breaks the narrator rules, and say why. Nat Geo G2 went out first with a 2018 Galapagos clip while the hook was the new Africa: Earth's Wild Home series; rebuilt on the series trailer.
+
 ## Video age (Spencer, 2026-10-05, HARD RULE)
 Check `python -m yt_dlp --skip-download --print upload_date <url>` before picking. **Prefer the last 3 years. 3-5 years is OK only when nothing newer fits** (say so in the report, with the upload date). **Over 5 years = rejected outright, never "flagged."** `revoice_build.py` refuses anything over 5 years or undatable (AGE GATE) and prints an AGE NOTE for 3-5. Why: the G2 NPR pick was a 2013 Planet Money video, flagged in a footnote instead of rejected, and Spencer linked it in a pitch.
 
