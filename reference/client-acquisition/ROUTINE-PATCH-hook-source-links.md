@@ -40,3 +40,11 @@ FINAL LINKEDIN CHECK (Spencer, 2026-10-04, HARD RULE). The only proof a contact 
 ```
 APOLLO WATERFALL EMAIL, ALWAYS (Spencer, 2026-10-05: "always run it when we're enriching contacts"). Every Apollo people match / bulk match you run for a contact sets run_waterfall_email: true. It's async: take the top-level request_id and poll apollo_webhook_result_show, backing off (~15s, then ~30s, up to ~3 minutes). Use the email it returns only if it comes back verified. Credits vary by provider; log the actual spend per person in APOLLO-LEDGER.md. Standing approval, so don't ask.
 ```
+
+## Lead Batch: REPLACE the whole "DRAFT FORMAT - HARD RULE" block (Spencer, 2026-10-05)
+
+Delete the old DRAFT FORMAT block and paste this in its place. Until you do, the `pitch_draft_qc.py` hook will reject the routine's drafts, and its error message tells the routine what to fix.
+
+```
+DRAFT FORMAT - HARD RULE (Spencer, 2026-10-05: Spencer's own Hitachi Rail email is the template, "copy across all other drafts now and moving forward"). Read reference/client-acquisition/PITCH-TEMPLATE.md and build every pitch from it word for word, filling only the slots: greeting name, optional hook paragraph (event line + [YOUR TAKE] Source link), company, 2-4 credits, exact video title + link (or VIDEO TITLE PENDING), video/spot. First line of every cloud-built draft: the yellow [NOT READY: Bingo's LinkedIn check pending ...] line. The repo hook .claude/hooks/pitch_draft_qc.py blocks any draft write that doesn't match. If it blocks you, rebuild the draft to the template and retry. Never route around it.
+```

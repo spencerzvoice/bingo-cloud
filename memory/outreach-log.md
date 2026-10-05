@@ -272,3 +272,6 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 
 - 2026-09-30: Funnel C touch 2 sent (9, Kaplan 09-30); Elaine follow-up sent 09-29. Touch 3 due 10-14 (window to 10-20/21).
 - 2026-09-30: Zapier, IxDF, Grafana dropped from funnels (Spencer). Tracker Dropped.
+
+## 2026-10-05: Hitachi Rail / Janet Klinke SENT
+- Janet Klinke, Communications Manager Content & Digital, Hitachi Rail, janet.klinke@hitachirail.com. Sent by Spencer Mon 10-05 11:54 Lisbon (Gmail 1a10bb33cf02b312), "A voice for Hitachi's communcations", re-voice "The New Hitachi Rail" (Drive). Replaced Ian Wiggins (left). Tracker row 165. **Follow up on: 10-12 to 10-15.**

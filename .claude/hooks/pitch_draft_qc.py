@@ -45,15 +45,20 @@ def ban(pattern, label):
     if re.search(pattern, text, re.I):
         fails.append("banned " + label)
 
-need("Let me introduce myself, my name is Spencer Pearman", "intro opener")
-need("warm bass/baritone voice", "voice line")
-need("Recent work includes", "credits in the intro")
-need("You can hear my work at spencerzvoice.com", "website line")
-if "I put together a re-voice of your" not in text and "VIDEO TITLE PENDING" not in text:
-    fails.append("missing re-voice line (real title or VIDEO TITLE PENDING)")
-need("Would love to be a voice you can call on regularly for", "standard close")
-need("Feel free to reach out or schedule a call if this is something you're looking for. Hope to hear from you soon!", "standard close CTA")
+# House template = Spencer's own Hitachi Rail email, sent 2026-10-05 11:54 (Gmail 1a10bb33cf02b312).
+need("My name is Spencer Pearman and I'm a professional voiceover artist and audio engineer based in Lisbon, Portugal.", "intro")
+need("I have a warm bass/baritone voice, and I record and produce everything myself, so turnaround is fast.", "voice line")
+need("I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through", "reaching-out paragraph")
+need("My work is reliable, my turnaround is within 24hrs, and I run self-directed sessions, so it's one less thing to manage on a job.", "reliability line")
+need("My recent work includes", "credits paragraph")
+need("and you can hear my work at spencerzvoice.com", "website line")
+if "Also, I put together a re-voice of your" not in text and "VIDEO TITLE PENDING" not in text:
+    fails.append("missing re-voice line ('Also, I put together a re-voice of your ...' or VIDEO TITLE PENDING)")
+need("so you can hear how my voice meshes well with your content. I'd appreciate it if you gave it a listen!", "re-voice follow-on")
+need("Feel free to reach out or schedule a call if this is something you need. Hope to hear from you soon!", "close")
 need("Best,", "sign-off")
+ban(r"would love to be a voice you can call on regularly", "old close 'Would love to be a voice you can call on regularly'")
+ban(r"let me introduce myself", "old intro 'Let me introduce myself' (template starts 'My name is')")
 ban(r"[—–]", "em/en dash")
 ban(r"please keep me in mind", "old close 'Please keep me in mind'")
 ban(r"keep on file", "old close 'keep on file'")
@@ -67,8 +72,8 @@ if "[YOUR TAKE]" in content and "href" not in content.split("[YOUR TAKE]", 1)[1]
 
 if fails:
     sys.stderr.write(
-        "BLOCKED by pitch_draft_qc (Spencer's standard 6-part format, outreach-email Step 0c). "
-        "Rebuild the draft and retry. Problems: " + "; ".join(fails) + "\n"
+        "BLOCKED by pitch_draft_qc: pitch drafts must follow the house template (Spencer's Hitachi Rail email of 2026-10-05; "
+        "full text in .claude/skills/outreach-email/SKILL.md Step 0c). Rebuild the draft to it and retry. Problems: " + "; ".join(fails) + "\n"
     )
     sys.exit(2)
 sys.exit(0)

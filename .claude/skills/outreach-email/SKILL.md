@@ -35,17 +35,12 @@ Ian Wiggins (Hitachi Rail) sat in Drafts for 4 days with a recorded sample and g
    - **Check fails** (left, different title, no matching profile): handle it per item 6 the same turn.
 6. **Contact left → enact it in Gmail the same turn.** Clear the To field so the draft can't go to them, then update ROSTER.md and FUNNEL-COHORTS.md. Swap in the backup only after the backup passes check 1 (same lesson as Kyle Osher, 09-23).
 
-## Step 0c — EVERY EDIT TO A PITCH DRAFT = FULL FORMAT CHECK (Spencer, 2026-10-05: "you didn't follow the standard wording")
+## Step 0c — HOUSE TEMPLATE + FULL CHECK ON EVERY EDIT (Spencer, 2026-10-05)
 
-The Hitachi Rail draft came from a 09-30 test run, before the standard format existed. On 10-04 and 10-05 Bingo swapped the recipient and greeting and deleted a paragraph, but never rebuilt the rest. It went out to Spencer thin and off-format, with the old "Please keep me in mind" close and no credits in the intro. A small edit never makes a draft exempt. Whenever you touch a pitch draft for ANY reason (recipient swap, hook, link, one word), rebuild it to the standard 6 parts, then read it back:
-1. Greeting ("Hello <First>, I hope this message finds you well." or "Hi <First>, hope you're doing well.")
-2. Hook: event line + yellow `[YOUR TAKE] Source: <link>` (or the `[HOOK: nothing current found...]` placeholder)
-3. Intro: "Let me introduce myself, my name is Spencer Pearman and I'm a professional voiceover artist and audio engineer based in Lisbon, Portugal. I've got a warm bass/baritone voice, and I record and produce everything myself, so turnaround is fast. Recent work includes <2-4 relevant credits>, among others. You can hear my work at spencerzvoice.com."
-4. Re-voice line: `I put together a re-voice of your <a href="...">"<title>"</a> spot/video. Give it a listen!` (or `VIDEO TITLE PENDING`)
-5. Close: "Would love to be a voice you can call on regularly for <Company>'s video work. Locked rate, 24-hour turnaround. Feel free to reach out or schedule a call if this is something you're looking for. Hope to hear from you soon!"
-6. Sign-off: Best,<br>Spencer<br>spencerzvoice.com link
-Then read back: 6 paragraphs, no em/en dashes, no "Please keep me in mind" or "keep on file" closes, no leftover paragraphs from an older format. Spencer's own hook text and takes are kept word for word.
-**If Spencer has the draft open in Gmail** (the message id changes between your GET and PUT, or his edit lands right after yours), stop PUTting. His open compose window overwrites yours. Give him the corrected text to paste instead.
+**The template is Spencer's own Hitachi Rail email** (sent 10-05, "copy across all other drafts now and moving forward"). The full text is in `reference/client-acquisition/PITCH-TEMPLATE.md`. Read it before writing or touching any pitch draft. Fill only the slots (greeting name, optional hook paragraph, company, credits, video title, link) and leave the wording alone. It replaces the old "Let me introduce myself" / "Would love to be a voice you can call on regularly" format.
+
+Every edit to a pitch draft, even a recipient swap or a one-word fix, means rebuilding it to the template, then reading it back. Spencer's own hook text and takes are kept word for word. `.claude/hooks/pitch_draft_qc.py` blocks any FGAC draft write that doesn't match. If it blocks you, rebuild the draft; never route around the hook.
+**If Spencer has the draft open in Gmail** (the message id changes between your GET and PUT), stop PUTting. His compose window overwrites yours.
 
 ## Step 0 — Never guess a fact about Spencer
 
