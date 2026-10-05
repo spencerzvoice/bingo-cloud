@@ -127,3 +127,22 @@ Live Gmail 10-01 eve: all 7 drafts from the 09-30 batch still in Drafts (unsent)
 ## 2026-10-02 remind run
 Live Gmail 10-02: all 7 drafts from the 09-30 batch SENT Thu 10-01 ~20:12-20:13 Lisbon (Sent, same threads; none left in Drafts; no replies/bounces; tracker rows 126-129, 131, Airtable already show Follow-Up Sent 10/01). Touch 2 done. **Ledger roll-forward (clock = 10-01): Experian Daren, Purdue Jason, Sarofsky Paul, Snowflake Jason F, Tendril Ivelle, Airtable Rob + Kirsten -> touch 3 (final) reminder Thu 2026-10-15 (day 14; avoids Columbus Day 10-09/12/13), overdue nudge Thu 2026-10-22 (day 21). Prep eve Wed 10-14.** Supersedes the earlier Funnel D US / Airtable rows (Thu 10-01 / Fri 10-02). Nothing due today -> no push, no email.
 Gap found: Funnel F (Box, Smartsheet, Descript, Intercom; Zapier/Dropbox not verified) sent 09-29 per tracker, not on ledger. Touch 2 window 10-06 to 10-09 (hold off 10-09 for the holiday rule, so effectively Tue 10-06 to Thu 10-08). Needs ledger row + prep Mon 10-05 eve; Skillsoft + Shell/Goalhanger/iAM share the same 10-06 reminder.
+
+## Batch 2026-10-05 (evening prep, for Tue 2026-10-06) - 12 touch-2 drafts, NOT sent
+Live Gmail 10-05 eve: no replies/bounces on these threads. Angle = Spencer's own 10-01 touch-2 wording (FIFA WC 2026 Preview + EuroLeague Season Preview + free custom read). No hook (cloud can't open LinkedIn). Day-before email + push sent. Window for the 09-29 wave = Tue 10-06..Thu 10-08 (avoid Fri 10-09).
+| Contact | Company | Thread | Draft ID | Touch | Status |
+|---|---|---|---|---|---|
+| Alice Lamey | Skillsoft | 1a0d5265b24fd669 | r-4878683151870114430 | 2 | drafted |
+| Alistair Dixon | Goalhanger (UK) | 1a0d524b2c95ab77 | r859755362179059026 | 2 | drafted |
+| Clare Shepstone | iAM Learning (UK) | 1a0d525872cd7560 | r5873041479019160727 | 2 | drafted |
+| Toby Riley | 2U | 1a0ee53d723b2dc3 | r-5657214177314374400 | 2 | drafted |
+| Lydia Crisp | Pluralsight | 1a0ee59fb60cebd9 | r-576877403431309359 | 2 | drafted |
+| Kendra Sherrill | Smartsheet | 1a0ee59fe0f63c9b | r-414559506894817048 | 2 | drafted |
+| Adrien Colon | Descript | 1a0ee5a04025d1c7 | r5623914080846109148 | 2 | drafted |
+| John Jordan | Box | 1a0ee776166bfdee | r798264742924853008 | 2 | drafted |
+| Bijan Rafie | Dropbox | 1a0ee5a0ff1d463d | r1195406568083169722 | 2 | drafted |
+| Natalia De Rubira | Intercom | 1a0ee5a0aad02439 | r-3325101677153638376 | 2 | drafted |
+| Tom Krymkowski | Splunk | 1a0ee763981faf6e | r32940193022420936 | 2 | drafted |
+| Rebecca Dole | Sprout Social | 1a0ee5a2f1f6dd28 | r-5185619113671714630 | 2 | drafted |
+Flagged / not drafted: **Shell Jane Sayers REPLIED 10-05 (blocked link, wants re-voice as attachment); Spencer answered 13:31 UK -> warm, off cold cadence (remove from touch-2 row).** Still to draft Tue 10-06 eve for Wed 10-07: Retool Kasey Hickey, PagerDuty Stephanie Muniz, Braze Lauren Bernal, Zendesk Cody McPherson + Natalie Fudge (all sent 09-29 eve). Dead addresses (re-source): Thinkific Eric Smith / Kevin C / Evan Lepage (auto-reply "no longer in use"), Domestika Valeria (hard bounce). Tracker not updated this run (no sends confirmed).
+After sending: touch 3 (final) window = send + 14-21d.
