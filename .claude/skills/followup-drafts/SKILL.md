@@ -49,7 +49,7 @@ Reminders fire **only when a follow-up is due by the cadence rules**, not every 
   ```
   Hello <First>,
 
-  Following up on the re-voice I sent last week. I hope you like what you hear! I'd love to chat about working with you all as your go-to voiceover artist.
+  Following up on the re-voice I sent last week. I hope you like what you hear! I'd love to chat about working with you all as your go-to Voiceover Artist.
 
   If it's useful, send me a script or a link to something on your slate and I'll record a full custom read within 24 hours, free, no obligation.
 

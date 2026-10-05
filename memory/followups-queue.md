@@ -149,3 +149,4 @@ After sending: touch 3 (final) window = send + 14-21d.
 
 ## 2026-10-05 late eve - touch-2 wording swap
 Spencer rewrote the Sprout Social touch-2 himself (cut the FIFA/EuroLeague line) and asked for all touch-2 drafts to match it word for word. The other 11 drafts in the 10-05 batch (Alice, Alistair, Clare, Toby, Lydia, Kendra, Adrien, John, Bijan, Natalia, Tom) were rewritten via FGAC PUT (same draft IDs and threads, In-Reply-To kept); readback OK. This text is now the touch-2 standard in the `followup-drafts` skill Step 2. Retool/PagerDuty/Braze/Zendesk (prep Tue 10-06) use it too.
+Capitalized "Voiceover Artist" in all 12 touch-2 drafts incl. Sprout (Spencer, 10-05 late eve); skill text updated to match.
