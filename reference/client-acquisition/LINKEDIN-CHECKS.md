@@ -24,3 +24,6 @@ Pending Funnel G2 (Apollo-confirmed 2026-10-05; built-in browser hit LinkedIn au
 2026-10-05 | Hannah Brozek | Gong | linkedin.com/in/hannahbrozek | "Senior Content Marketing Manager, Gong, Aug 2025 - Present" | PASS
 2026-10-05 | Carter Elkin-Paris | UiPath | linkedin.com/in/carterep | "Senior Producer, Global Brand Studio, UiPath, Nov 2018 - Present" | PASS
 2026-10-05 | Andrew Linsk | Psyop | linkedin.com/in/andrew-linsk-04bb95 | "Executive Producer, Psyop, Jan 2018 - Present" | PASS
+
+API test 2026-10-05 (cloud_check.py, desktop, ZenRows; Bright Data returned 502 for that batch): 16/16 PASS on company, matching the live-page checks above; control Lauren Jackson (Nat Geo role ended per Apollo) = HIDDEN, correctly not passed. Spencer approved API clearing 2026-10-05.
+API lines use: `date | Name | Company | URL | "public profile company: X (source)" | API-PASS / API-MISMATCH / API-HIDDEN`

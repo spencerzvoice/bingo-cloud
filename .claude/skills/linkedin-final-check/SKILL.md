@@ -28,7 +28,7 @@ with a real browser can open LinkedIn.
 
 1. **Find the drafts to check.** FGAC `google_api_get gmail/v1/users/me/drafts?maxResults=200`, then
    each draft with `format=full`. Decode the HTML body. Check a draft if its body contains
-   `[NOT READY: final LinkedIn check pending` or `[VERIFY EMPLOYMENT:`. Also check any new-client pitch
+   `[NOT READY:` (any wording, e.g. "Bingo's LinkedIn check pending") or `[VERIFY EMPLOYMENT:`. Also check any new-client pitch
    draft (not a reply, recipient never emailed) whose recipient has no PASS line in
    `reference/client-acquisition/LINKEDIN-CHECKS.md` dated within the last 14 days.
 
