@@ -54,7 +54,7 @@ with a real browser can open LinkedIn.
    - **WRONG FIT (still employed, wrong buyer):** the role is current, but the work described is not
      video, content, creative, brand or production for media (e.g. Smithsonian's Ariana Lilligren
      runs exhibit fabrication shops, 2026-10-05). Leave NOT READY, log it, and recommend a video or
-     content contact at the same company.
+     content contact at the same company. Replace the yellow line with `[WRONG FIT: <Name> is current at <Company> but <what they do>, not video (LinkedIn <date>). Needs a video/content contact before sending]` so neither this check nor the cloud API check (which only look for `[NOT READY:`) ever clears it.
    - **FAIL, LEFT:** the current position is at another company, or the company role has an end date.
    - **UNRESOLVED:** the profile won't load, is private or signed-out, several same-name profiles
      could fit, or the title is a different job at the same company. Never guess. UNRESOLVED stays
