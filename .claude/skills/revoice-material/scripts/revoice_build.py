@@ -44,19 +44,23 @@ def download(cdir, url):
          "--ffmpeg-location", FF, "-o", os.path.join(cdir, "%(title)s [%(id)s].%(ext)s"), url])
 
 
-MAX_AGE_DAYS = 3 * 365  # Spencer, 2026-10-05: "only finding videos in the last 3 years" (NPR pick was from 2013)
+PREFER_DAYS = 3 * 365  # Spencer, 2026-10-05: prefer the last 3 years
+MAX_AGE_DAYS = 5 * 365  # 3-5 years is OK when nothing newer fits; over 5 = rejected (NPR pick was from 2013)
 
 
 def age_gate(url):
-    """Return a reason string if the video is older than 3 years (or its date can't be read), else None."""
+    """Return a reason string if the video is older than 5 years (or its date can't be read), else None."""
     import datetime
     try:
         d = run([sys.executable, "-m", "yt_dlp", "--skip-download", "--print", "upload_date", url]).strip().splitlines()[-1]
         up = datetime.datetime.strptime(d, "%Y%m%d").date()
     except Exception as e:
         return f"AGE GATE: can't read upload date ({e}); pick a video you can date"
-    if (datetime.date.today() - up).days > MAX_AGE_DAYS:
-        return f"AGE GATE: uploaded {up}, older than 3 years; pick a newer video"
+    age = (datetime.date.today() - up).days
+    if age > MAX_AGE_DAYS:
+        return f"AGE GATE: uploaded {up}, older than 5 years; pick a newer video"
+    if age > PREFER_DAYS:
+        log(f"AGE NOTE: uploaded {up} (3-5 years old). Allowed only if nothing within 3 years fits; say so in the report.")
     return None
 
 

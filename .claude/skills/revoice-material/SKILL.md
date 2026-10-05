@@ -79,7 +79,7 @@ Template tracks: `VO Chain` > `VO` (full mix chain), `~VAL/~SHORT/~LMS` refs, `O
 Spencer opens the project, records over NOVOX, exports the take into `Ready to Link to Drafted Email/`, links it in the drafted email. Every Drive client folder gets that subfolder at creation.
 
 ## Video age (Spencer, 2026-10-05, HARD RULE)
-Only videos uploaded within the last 3 years. Check `python -m yt_dlp --skip-download --print upload_date <url>` before picking; older = rejected outright, never "flagged". `revoice_build.py` refuses anything older (AGE GATE). Why: the G2 NPR pick was a 2013 Planet Money video, flagged in a footnote instead of rejected, and Spencer linked it in a pitch.
+Check `python -m yt_dlp --skip-download --print upload_date <url>` before picking. **Prefer the last 3 years. 3-5 years is OK only when nothing newer fits** (say so in the report, with the upload date). **Over 5 years = rejected outright, never "flagged."** `revoice_build.py` refuses anything over 5 years or undatable (AGE GATE) and prints an AGE NOTE for 3-5. Why: the G2 NPR pick was a 2013 Planet Money video, flagged in a footnote instead of rejected, and Spencer linked it in a pitch.
 
 ## Step 7 — FINAL QC (mandatory, last step of every run, on every client touched — Spencer, 2026-10-02)
 
