@@ -150,3 +150,21 @@ After sending: touch 3 (final) window = send + 14-21d.
 ## 2026-10-05 late eve - touch-2 wording swap
 Spencer rewrote the Sprout Social touch-2 himself (cut the FIFA/EuroLeague line) and asked for all touch-2 drafts to match it word for word. The other 11 drafts in the 10-05 batch (Alice, Alistair, Clare, Toby, Lydia, Kendra, Adrien, John, Bijan, Natalia, Tom) were rewritten via FGAC PUT (same draft IDs and threads, In-Reply-To kept); readback OK. This text is now the touch-2 standard in the `followup-drafts` skill Step 2. Retool/PagerDuty/Braze/Zendesk (prep Tue 10-06) use it too.
 Capitalized "Voiceover Artist" in all 12 touch-2 drafts incl. Sprout (Spencer, 10-05 late eve); skill text updated to match.
+
+## 2026-10-05 - contact locations for the 12 touch-2 drafts (live LinkedIn profiles, opened this session)
+Use these for scheduling touch 2 and touch 3. Target 8:00 AM local. Lisbon offsets apply until the 10-25 clock change.
+| Contact | Location (LinkedIn) | 8:00 local = Lisbon |
+|---|---|---|
+| Alice Lamey, Skillsoft | Canada (city not shown; UNB alum, Skillsoft Fredericton office = Atlantic, unconfirmed) | 13:00 (8 Eastern / 9 Atlantic) |
+| Alistair Dixon, Goalhanger | London, UK | 08:00 |
+| Clare Shepstone, iAM (profile now says "iAM Compliant") | Cheshire West & Chester, UK | 08:00 |
+| Toby Riley, 2U | Phoenix, AZ (MST, no DST) | 16:00 |
+| Lydia Crisp, Pluralsight | Greater Melbourne, Australia (AEDT UTC+11) | 22:00 the PREVIOUS day |
+| Kendra Sherrill, Smartsheet | "United States" only (Smartsheet Bellevue WA + Seattle film work = likely Pacific, unconfirmed) | 16:00 |
+| Adrien Colon, Descript | SF Bay Area | 16:00 |
+| John Jordan, Box | San Francisco, CA | 16:00 |
+| Bijan Rafie-Tari, Dropbox | Los Angeles area | 16:00 |
+| Natalia de Rubira, Intercom | SF Bay Area | 16:00 |
+| Tom Krymkowski, Splunk | San Francisco, CA | 16:00 |
+| Rebecca Dole, Sprout Social | Raleigh, NC (Eastern) | 13:00 |
+All 12 still list the target company as current employer (live profile 10-05).
