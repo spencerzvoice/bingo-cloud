@@ -48,7 +48,7 @@ def ban(pattern, label):
 # House template = Spencer's own Hitachi Rail email, sent 2026-10-05 11:54 (Gmail 1a10bb33cf02b312),
 # plus his 10-05 edits: "turnaround is fast" cut from the intro, "24hrs" -> "24 hours", "Voiceover Artist" capitalized.
 need("My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal.", "intro")
-need("I have a warm bass/baritone voice, and I record and produce everything myself.", "voice line")
+ban(r"warm bass/baritone|record and produce everything myself", "voice line (Spencer 10-05 night: cut, the samples show the voice)")
 ban(r"so turnaround is fast", "duplicate turnaround line (Spencer 10-05: cut it from the intro)")
 need("I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through", "reaching-out paragraph")
 need("My work is reliable, my turnaround is within 24 hours, and I run self-directed sessions, so it's one less thing to manage on a job.", "reliability line")

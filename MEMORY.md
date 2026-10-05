@@ -18,7 +18,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 - 12+ years audio engineering (Ableton 12+ yrs, Pro Tools, Audition, iZotope RX) across music, documentary, podcast, commercial VO. Also AI/TTS dataset work (micro1, Dec 2025–Jun 2026; VoiceOver LA TTS singing project 2023).
 - BS Mechanical Engineering, University of Miami, 2012.
 - Languages: English (native), Spanish (fluent), Portuguese (fluent) — studies European Portuguese grammar specifically.
-- Voice descriptor in outreach emails: **"warm bass/baritone voice"** — drop "American" (redundant; he's a US VO writing in English, they'll hear it). Not "low-register."
+- Voice descriptor in outreach emails: **none in cold pitches (Spencer, 2026-10-05 night: "if we're attaching samples, I don't need to say what kind of voice I have")**; the "warm bass/baritone ... record and produce everything myself" line is cut and the QC hook bans it. Never "American" or "low-register".
 - Also releases music and is pursuing **sync placements** (detail in `local/`).
 - Markets both US (GVAA framework) and Europe (GFTB framework) — serves clients via Voices.com, VoiceArchive, direct bookings.
 

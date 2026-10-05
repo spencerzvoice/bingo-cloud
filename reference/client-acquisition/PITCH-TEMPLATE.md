@@ -2,6 +2,8 @@
 
 Source: Spencer's own Hitachi Rail email to Janet Klinke, sent 2026-10-05 11:54 Lisbon (Gmail `1a10bb33cf02b312`). He rewrote it himself, then said: "read the wording and format of the Hitachi draft and copy across all other drafts now and moving forward." This replaces the earlier 6-part template. `.claude/hooks/pitch_draft_qc.py` enforces it on every FGAC draft write.
 
+**Voice line CUT (Spencer, 2026-10-05 night):** "I have a warm bass/baritone voice, and I record and produce everything myself." is gone from every pitch. The samples show the voice, and self-producing is irrelevant to the buyer. The intro paragraph ends at "Lisbon, Portugal." The QC hook now rejects the old line.
+
 **Spencer's 10-05 edits to his own email (applied):** cut "so turnaround is fast" from the intro (the turnaround line already covers it), "24hrs" → "24 hours", "Voiceover Artist" capitalized in both places. **"meshes well with your content" is his voice. Keep it, never "improve" it.**
 
 Paragraphs are separated by `<br><br>`. Fill only the `<...>` slots and leave every other word as it is.
@@ -13,7 +15,7 @@ Hello <First>, I hope this message finds you well!          (casual, younger men
 
 <hook paragraph: event line + <span style="background-color:#ffff00">[YOUR TAKE] Source: <a href="URL">Publication, Mon D, YYYY</a></span>, or Spencer's own written hook; leave it out if there is none>
 
-My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal. I have a warm bass/baritone voice, and I record and produce everything myself.
+My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal.
 
 I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through <Company>. My work is reliable, my turnaround is within 24 hours, and I run self-directed sessions, so it's one less thing to manage on a job.
 

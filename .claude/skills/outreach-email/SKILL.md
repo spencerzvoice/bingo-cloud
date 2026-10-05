@@ -170,8 +170,9 @@ something he isn't. Plain words, contractions, short paragraphs.
 - **Full-name intro (required, for cold or anyone who won't remember him):**
   "My name is Spencer Pearman and I'm a professional Voiceover Artist and audio
   engineer based in Lisbon, Portugal." ("Voiceover Artist" capitalized, Spencer 10-05.)
-- **Voice descriptor:** "a warm bass/baritone voice." Do NOT write "American voice"
-  (redundant — English email, US VO, they'll hear it) or "low-register."
+- **Voice descriptor: NONE in cold pitches (Spencer, 2026-10-05 night).** "I have a warm bass/baritone
+  voice, and I record and produce everything myself" is cut: the attached samples show the voice and
+  self-producing is irrelevant. Never "American voice" or "low-register" anywhere.
 - **Reference a specific, verified piece of their work** by name and say what
   stood out — only if confirmed. Never assume or fabricate a credit.
 - **Cold email order = `reference/client-acquisition/PITCH-TEMPLATE.md`, word for word (Spencer, 2026-10-05; replaces the 09-24 order/close).** Greeting → optional hook → "My name is..." intro → "I'm reaching out because I'd love to be your go-to Voiceover Artist..." → "My recent work includes..." → "Also, I put together a re-voice of your ..." → "Feel free to reach out or schedule a call if this is something you need. Hope to hear from you soon!" → sign-off. `pitch_draft_qc.py` blocks anything else.
