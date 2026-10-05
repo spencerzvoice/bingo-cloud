@@ -119,7 +119,7 @@ Pulled forward from Funnels H/L/P/Q/R because each company's fiscal year started
 
 | Company | Contact | Email | Draft id | Status |
 |---|---|---|---|---|
-| F5 | Roland Luitgaarden, Lead Creative Producer | r.luitgaarden@f5.com | r-6106568462963572362 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
+| F5 | Roland Luitgaarden, Lead Creative Producer | r.luitgaarden@f5.com | r-6106568462963572362 | DRAFTED, LinkedIn PASS 10-05, package BUILT 10-05 (u4kk3JhTHMM), title in draft. Awaiting take + sample link |
 | Siemens | Sergio Manzo, Marketing Video Studio Production Manager | sergio.manzo@siemens.com | r-3518333476330658444 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
 | Siemens Energy | Natascha Ladstaetter, Marketing Manager | natascha.ladstaetter@siemens-energy.com | r-1053189823657684936 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title, no hook |
 | Tennessee Valley Authority | Bleu Hayes, Video Producer | bhayes2@tva.gov | r-5729103239488553907 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
