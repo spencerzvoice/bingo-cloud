@@ -34,3 +34,9 @@ EMPLOYMENT QC GATE (Spencer, 2026-10-04, HARD RULE). Before drafting to anyone, 
 ```
 FINAL LINKEDIN CHECK (Spencer, 2026-10-04, HARD RULE). The only proof a contact still holds the job is their live LinkedIn profile page showing <Company> as the current position. This cloud run cannot open LinkedIn, so EVERY draft you create or touch starts with this as its first line: <span style="background-color:#ffff00">[NOT READY: final LinkedIn check pending for <Name>, <Title>, <Company>. Delete this line once done]</span>. List all NOT READY drafts at the TOP of the digest and in the push notification, with each person's LinkedIn profile URL if search found one, so the check takes Spencer seconds. Never call a draft send-ready, and never remove that line yourself.
 ```
+
+## Lead Batch: ALWAYS RUN WATERFALL EMAIL (Spencer, 2026-10-05)
+
+```
+APOLLO WATERFALL EMAIL, ALWAYS (Spencer, 2026-10-05: "always run it when we're enriching contacts"). Every Apollo people match / bulk match you run for a contact sets run_waterfall_email: true. It's async: take the top-level request_id and poll apollo_webhook_result_show, backing off (~15s, then ~30s, up to ~3 minutes). Use the email it returns only if it comes back verified. Credits vary by provider; log the actual spend per person in APOLLO-LEDGER.md. Standing approval, so don't ask.
+```

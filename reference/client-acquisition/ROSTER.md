@@ -277,7 +277,7 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 
 | Company | Primary contact | Title | Email | Backup | Funnel | Status | Source |
 |---|---|---|---|---|---|---|---|
-| Hitachi Rail | Julie Rolland-Didelin (replaces Ian Wiggins, LEFT per Spencer 04 Oct) | Digital and Content Manager | named as author with this title on hitachirail.com blog, 1 Jul 2026 (opened 04 Oct); LinkedIn final check PENDING; email UNKNOWN | Rebekka Fredrich, Senior Manager Content & Digital Comms, Stuttgart (search result only) | G | **NOT READY** - draft re-addressed to Julie 04 Oct (greeting + NOT READY line), To empty until email found | batch-11 |
+| Hitachi Rail | Janet Klinke (replaces Ian Wiggins, LEFT per Spencer 04 Oct) | Communications Manager Content & Digital (Apollo 05 Oct, since Sep 2024), Germany | janet.klinke@hitachirail.com, Apollo waterfall Verified + ZeroBounce valid 05 Oct; LinkedIn final check PENDING (linkedin.com/in/janet-klinke) | Julie (Rolland-)Didelin, External Comms Manager GTS, France, NO email findable (Apollo + waterfall 05 Oct) | G | **NOT READY** - draft To = Janet 05 Oct, NOT READY line until the LinkedIn check | batch-11 |
 | Maersk | Shantanu Harjeet | Group Head Video | verified | Swapnita Roychaudhuri — Video Group Head | P | BANKED | batch-03 |
 | Siemens | Sergio Manzo | Marketing Video Studio Production Manager | verified | Annie Mullen — Assoc. Team Manager, Content Production | P | BANKED | batch-03 |
 | Shell | Jane Sayers | — | jane.sayers@shell.com | — | D | **SCHEDULED** 29 Sep 09:00 UK | Bingo 24 Sep |
