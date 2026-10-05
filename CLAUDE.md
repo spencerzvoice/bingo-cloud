@@ -21,6 +21,7 @@ Every cloud routine runs in this repo and loads this file. Where a routine's pro
 3. **Employment gate:** before drafting to anyone, run an Apollo people match that same day, and confirm the current employer and title. "Email verified" alone is not proof. If you can't confirm, add a yellow `[VERIFY EMPLOYMENT: ...]` line and list the contact first in the digest. If they've left, clear `To` and use the backup only after the backup passes the same check.
 4. **Apollo:** every people match / bulk match sets `run_waterfall_email: true`. Poll `apollo_webhook_result_show` with the top-level request_id, backing off up to ~3 min. Use only Verified emails, and log the spend in `APOLLO-LEDGER.md`.
 5. **Hooks:** the event line is followed by `[YOUR TAKE] Source: <a href=...>Publication, date</a>` (yellow). The link is the page the line is based on (the video itself if the line says watched/spot/film). No openable source = no hook.
+6. **Re-Voicing skips Funnel G2 (Spencer, 2026-10-05: "skip G2 so it doesn't get double tapped").** G2's packages (F5, Siemens, Siemens Energy, Tennessee Valley Authority, National Geographic, NPR, Smithsonian Institution) are built by the desktop session. The Re-Voicing routine must not pick videos, download, or write anything in `Client Outreach/Funnel G2/`, even when a G2 client has an unsent draft and no package. Treat the folder as read-only.
 Full rules: `outreach-email` skill Steps 0b/0c, AGENTS.md forcing function 5.
 
 @SOUL.md
