@@ -44,6 +44,22 @@ def download(cdir, url):
          "--ffmpeg-location", FF, "-o", os.path.join(cdir, "%(title)s [%(id)s].%(ext)s"), url])
 
 
+MAX_AGE_DAYS = 3 * 365  # Spencer, 2026-10-05: "only finding videos in the last 3 years" (NPR pick was from 2013)
+
+
+def age_gate(url):
+    """Return a reason string if the video is older than 3 years (or its date can't be read), else None."""
+    import datetime
+    try:
+        d = run([sys.executable, "-m", "yt_dlp", "--skip-download", "--print", "upload_date", url]).strip().splitlines()[-1]
+        up = datetime.datetime.strptime(d, "%Y%m%d").date()
+    except Exception as e:
+        return f"AGE GATE: can't read upload date ({e}); pick a video you can date"
+    if (datetime.date.today() - up).days > MAX_AGE_DAYS:
+        return f"AGE GATE: uploaded {up}, older than 3 years; pick a newer video"
+    return None
+
+
 def novox(client, cdir, src):
     out = os.path.join(cdir, f"{client}_NOVOX.mp4")
     if os.path.exists(out):
@@ -189,6 +205,11 @@ def main():
             continue
         try:
             url = [l.strip() for l in open(sf, encoding="utf-8-sig") if l.strip().startswith("http")][0]
+            too_old = age_gate(url)
+            if too_old:
+                results[client] = "FAIL - " + too_old
+                log(client, "->", results[client])
+                continue
             if not videos(cdir):
                 log(client, "downloading", url)
                 download(cdir, url)

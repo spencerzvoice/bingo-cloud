@@ -78,6 +78,9 @@ Template tracks: `VO Chain` > `VO` (full mix chain), `~VAL/~SHORT/~LMS` refs, `O
 ## Step 6 — Hand-off
 Spencer opens the project, records over NOVOX, exports the take into `Ready to Link to Drafted Email/`, links it in the drafted email. Every Drive client folder gets that subfolder at creation.
 
+## Video age (Spencer, 2026-10-05, HARD RULE)
+Only videos uploaded within the last 3 years. Check `python -m yt_dlp --skip-download --print upload_date <url>` before picking; older = rejected outright, never "flagged". `revoice_build.py` refuses anything older (AGE GATE). Why: the G2 NPR pick was a 2013 Planet Money video, flagged in a footnote instead of rejected, and Spencer linked it in a pitch.
+
 ## Step 7 — FINAL QC (mandatory, last step of every run, on every client touched — Spencer, 2026-10-02)
 
 **Why this exists:** on 2026-10-02 Spencer went to use Funnel G (marked "complete" on 09-30/10-01) and found it wasn't usable — no hooks, no line referencing the re-voice in the pitch email, an Ableton project that wasn't actually wired up. The failure was that "done" meant *a file with the right name exists in the folder* — nobody had opened any of the files to check what was actually inside them. A directory listing is not QC. **Never report a client "done" on file existence alone.** For every client this run touched, before the digest goes out:
