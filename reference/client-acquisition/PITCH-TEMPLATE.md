@@ -2,6 +2,13 @@
 
 Source: Spencer's own Hitachi Rail email to Janet Klinke, sent 2026-10-05 11:54 Lisbon (Gmail `1a10bb33cf02b312`). He rewrote it himself, then said: "read the wording and format of the Hitachi draft and copy across all other drafts now and moving forward." This replaces the earlier 6-part template. `.claude/hooks/pitch_draft_qc.py` enforces it on every FGAC draft write.
 
+**Spencer's TVA send (scheduled 2026-10-05 night for Tue 10-06 13:32, Gmail `1a111330a0779b60`) is the voice model from here on ("look at the scheduled email that I sent to TVA to get an idea of how I want these to be voiced"):**
+- His take after the event line is short, warm, a congratulation: "From what I read that's history in the making. Congrats to you and TVA!" (still Spencer-written, never Bingo's).
+- "My work is high quality", not "reliable".
+- The go-to line can tie back to the hook ("...that come through TVA, and hopefully ones that will spread the word about the history you all just made."). That clause is Spencer's to write, like the take; Bingo leaves it out.
+- Credits end with "among others (FIFA, EuroLeague Basketball)" when FIFA/EuroLeague aren't already named.
+- Close: "Feel free to reach out or schedule a call if you'd like to talk about working together. I hope to hear from you soon!"
+
 **Voice line CUT (Spencer, 2026-10-05 night):** "I have a warm bass/baritone voice, and I record and produce everything myself." is gone from every pitch. The samples show the voice, and self-producing is irrelevant to the buyer. The intro paragraph ends at "Lisbon, Portugal." The QC hook now rejects the old line.
 
 **Spencer's 10-05 edits to his own email (applied):** cut "so turnaround is fast" from the intro (the turnaround line already covers it), "24hrs" → "24 hours", "Voiceover Artist" capitalized in both places. **"meshes well with your content" is his voice. Keep it, never "improve" it.**
@@ -17,14 +24,14 @@ Hello <First>, I hope this message finds you well!          (casual, younger men
 
 My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal.
 
-I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through <Company>. My work is reliable, my turnaround is within 24 hours, and I run self-directed sessions, so it's one less thing to manage on a job.
+I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through <Company><optional, Spencer-written: a clause tying back to the hook, e.g. ", and hopefully ones that will spread the word about the history you all just made">. My work is high quality, my turnaround is within 24 hours, and I run self-directed sessions, so it's one less thing to manage on a job.
 
-My recent work includes <2-4 relevant credits, e.g. Venmo, Dell Technologies, and Artlist.io>, among others, and you can hear my work at spencerzvoice.com.
+My recent work includes <2-4 relevant credits, e.g. Dell Technologies, Cisco, and Amazon AWS>, among others (FIFA, EuroLeague Basketball), and you can hear my work at spencerzvoice.com.
 
 Also, I put together a re-voice of your <a href="<Drive link or https://drive.google.com/REPLACE-WITH-SAMPLE-LINK>">"<exact video title>"</a> <video|spot> so you can hear how my voice meshes well with your content. I'd appreciate it if you gave it a listen!
    (no video picked yet: use the title text VIDEO TITLE PENDING)
 
-Feel free to reach out or schedule a call if this is something you need. Hope to hear from you soon!
+Feel free to reach out or schedule a call if you'd like to talk about working together. I hope to hear from you soon!
 
 Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
 ```
