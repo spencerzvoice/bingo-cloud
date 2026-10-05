@@ -27,3 +27,7 @@ Pending Funnel G2 (Apollo-confirmed 2026-10-05; built-in browser hit LinkedIn au
 
 API test 2026-10-05 (cloud_check.py, desktop, ZenRows; Bright Data returned 502 for that batch): 16/16 PASS on company, matching the live-page checks above; control Lauren Jackson (Nat Geo role ended per Apollo) = HIDDEN, correctly not passed. Spencer approved API clearing 2026-10-05.
 API lines use: `date | Name | Company | URL | "public profile company: X (source)" | API-PASS / API-MISMATCH / API-HIDDEN`
+2026-10-05 | Amanda Baumgart | National Geographic | linkedin.com/in/amanda-baumgart-3b5a697 | "Production Manager, National Geographic & Disney CreativeWorks, Apr 2022 - Present (branded content + social video campaigns)" | PASS
+2026-10-05 | Brett Reinke | National Geographic | linkedin.com/in/brett-reinke-a73581125 | "Post Production Supervisor, National Geographic Partners" (no dates shown) | PASS (backup)
+2026-10-05 | Jonathan Ray | Smithsonian Institution | linkedin.com/in/jonathan-m-ray | "Producer Webcast, Smithsonian, Aug 2023 - Present (producer, sound engineer, video/audio editor)" | PASS
+2026-10-05 | Emily Frost | Smithsonian Institution | linkedin.com/in/emily-frost-1b27a19 | "Web and Digital Content Producer, Smithsonian, Feb 2023 - Present" | PASS (backup)

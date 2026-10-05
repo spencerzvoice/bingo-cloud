@@ -123,9 +123,9 @@ Pulled forward from Funnels H/L/P/Q/R because each company's fiscal year started
 | Siemens | Sergio Manzo, Marketing Video Studio Production Manager | sergio.manzo@siemens.com | r-3518333476330658444 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
 | Siemens Energy | Natascha Ladstaetter, Marketing Manager | natascha.ladstaetter@siemens-energy.com | r-1053189823657684936 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title, no hook |
 | Tennessee Valley Authority | Bleu Hayes, Video Producer | bhayes2@tva.gov | r-5729103239488553907 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
-| National Geographic | none send-ready (Jon Kroll email invalid; Lauren Jackson left Jan 2026 per Apollo, email extrapolated) | To EMPTY | r1422019982960983528 | DRAFTED, VERIFY EMPLOYMENT, needs new contact |
+| National Geographic | Amanda Baumgart, Video Production Manager, Nat Geo & Disney CreativeWorks (backup Brett Reinke, Post Production Supervisor) | amanda.baumgart@natgeo.com | r1422019982960983528 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
 | NPR | Mito Habe-Evans, Creative Director / Supervising Producer, NPR Video | mhabeevans@npr.org (catch-all domain) | r-5650231547639135472 | DRAFTED, LinkedIn PASS 10-05, ready except re-voice title |
-| Smithsonian Institution | Ariana Lilligren, Head of Production | lilligrena@si.edu | r-6252769941679098524 | DRAFTED, NOT READY: Ariana runs exhibit fabrication, not video (LinkedIn 10-05) - needs a video contact |
+| Smithsonian Institution | Jonathan Ray, Producer Webcast (backup Emily Frost, Web and Digital Content Producer); Ariana Lilligren = wrong fit (exhibit fabrication) | rayj@si.edu | r-6252769941679098524 | DRAFTED, LinkedIn PASS 10-05, ready (record the hurricane re-voice) |
 
 ## H to R: the whole BANKED pool, pre-assigned (Spencer, 2026-09-30)
 
