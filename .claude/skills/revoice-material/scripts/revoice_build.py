@@ -1,7 +1,7 @@
 """Funnel re-voicing package builder (Steps 2, 3, 5 of revoice-material-process.md).
 Usage: python revoice_build.py "<Funnel dir>" [Client ...]
 Per client with a sources.txt: download source if missing, Demucs NOVOX if missing,
-Ableton project from template if missing. Idempotent: only fills gaps.
+Ableton project from template if missing, MAKE VIDEO button in Ready to Link. Idempotent: only fills gaps.
 """
 import gzip, json, os, re, shutil, subprocess, sys, tempfile
 import xml.etree.ElementTree as ET
@@ -126,6 +126,35 @@ def ableton(client, cdir, src, nv, n=1):
     return pdir
 
 
+BUTTON = r"""@echo off
+title Make Video - {client}
+echo.
+echo  {client} : putting your newest WAV mix onto the original video...
+echo.
+"C:\Users\spenc\AppData\Local\Programs\Python\Python314\python.exe" "C:\Users\spenc\Bingo\.claude\skills\revoice-material\scripts\mux_take.py" "%~dp0.."
+if errorlevel 1 (
+  echo.
+  echo  Something went wrong. Make sure you exported a .wav from Ableton into this folder.
+) else (
+  echo.
+  echo  Done. The .mp4 is in this folder, named after your .wav.
+)
+echo.
+pause
+"""
+
+
+def button(client, cdir):
+    """Spencer's one-click MAKE VIDEO button in Ready to Link (muxes his WAV onto the source). Every package needs it."""
+    rdir = os.path.join(cdir, "Ready to Link to Drafted Email")
+    os.makedirs(rdir, exist_ok=True)
+    bat = os.path.join(rdir, "MAKE VIDEO - double-click me.bat")
+    if not os.path.exists(bat):
+        with open(bat, "w", encoding="ascii", newline="\r\n") as f:
+            f.write(BUTTON.format(client=client))
+    return bat
+
+
 BAD_SCRIPT = ("no captions", "transcribe manually", "transcription failed", "summary", "structure above", "context:")
 
 
@@ -159,7 +188,7 @@ def main():
             results[client] = "SKIP - no sources.txt (needs a pick)"
             continue
         try:
-            url = [l.strip() for l in open(sf, encoding="utf-8") if l.strip().startswith("http")][0]
+            url = [l.strip() for l in open(sf, encoding="utf-8-sig") if l.strip().startswith("http")][0]
             if not videos(cdir):
                 log(client, "downloading", url)
                 download(cdir, url)
@@ -168,6 +197,7 @@ def main():
             nv = novox(client, cdir, src)
             log(client, "Ableton")
             ableton(client, cdir, src, nv)
+            button(client, cdir)
             dur, _ = probe(src)
             results[client] = f"OK - {os.path.basename(src)} ({dur:.0f}s)"
         except Exception as e:
