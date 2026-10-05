@@ -1,3 +1,5 @@
+> **2026-10-05: superseded.** These rules now live in CLAUDE.md, "Routine overrides". Every routine loads that file and it overrides the prompt text, so nothing below needs pasting. Kept for history.
+
 # Routine patch: source link inside [YOUR TAKE] (2026-10-03)
 
 Bingo can't edit these two routines (update_trigger refuses routines created outside an agent). Spencer pastes this in at claude.ai/code/routines. Delete this file once both are done.
