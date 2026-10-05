@@ -45,11 +45,13 @@ def ban(pattern, label):
     if re.search(pattern, text, re.I):
         fails.append("banned " + label)
 
-# House template = Spencer's own Hitachi Rail email, sent 2026-10-05 11:54 (Gmail 1a10bb33cf02b312).
-need("My name is Spencer Pearman and I'm a professional voiceover artist and audio engineer based in Lisbon, Portugal.", "intro")
-need("I have a warm bass/baritone voice, and I record and produce everything myself, so turnaround is fast.", "voice line")
+# House template = Spencer's own Hitachi Rail email, sent 2026-10-05 11:54 (Gmail 1a10bb33cf02b312),
+# plus his 10-05 edits: "turnaround is fast" cut from the intro, "24hrs" -> "24 hours", "Voiceover Artist" capitalized.
+need("My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal.", "intro")
+need("I have a warm bass/baritone voice, and I record and produce everything myself.", "voice line")
+ban(r"so turnaround is fast", "duplicate turnaround line (Spencer 10-05: cut it from the intro)")
 need("I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through", "reaching-out paragraph")
-need("My work is reliable, my turnaround is within 24hrs, and I run self-directed sessions, so it's one less thing to manage on a job.", "reliability line")
+need("My work is reliable, my turnaround is within 24 hours, and I run self-directed sessions, so it's one less thing to manage on a job.", "reliability line")
 need("My recent work includes", "credits paragraph")
 need("and you can hear my work at spencerzvoice.com", "website line")
 if "Also, I put together a re-voice of your" not in text and "VIDEO TITLE PENDING" not in text:

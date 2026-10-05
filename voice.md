@@ -111,3 +111,9 @@ No sign-off needed — Voices.com auditions don't require one.
 - v1 — 2026-09-22 — built from ~50 sampled sent emails (spencer@spencerzvoice.com + spencerzpearman@gmail.com) and calibrated live against two test drafts.
 - v1.1 — 2026-09-22 — added text/DM register from two WhatsApp export zips (Dwayne Hunter thread, +351 913 657 022 thread), calibrated against two more test drafts.
 - v1.2 - 2026-09-24 - added LinkedIn DM register (warm business contact) from Spencer's edit of a Bingo draft to Ryan Cotrupi (Framer). Learned: emoji are fine in warm LinkedIn DMs (💪 🙌), "you guys" over company name, "super" as intensifier, cut filler lead-ins like "Random question.", and name the exact thing you watched.
+
+
+## Pitch wording Spencer owns (2026-10-05)
+- "so you can hear how my voice meshes well with your content" is his voice. Bingo suggested "fits your content" and Spencer kept his. Don't smooth it.
+- "Voiceover Artist" is capitalized in pitches.
+- He drops a hook rather than force one when the source gives nothing real to say ("without it sounding like it was reaching too much").
