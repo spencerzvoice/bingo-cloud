@@ -34,6 +34,14 @@ before the copy.
 **4. Hook.** A settings.json hook re-injects RULE 0 whenever I write to the
 workspace. Backstop, not the main line of defence — it can't see plain-text answers.
 
+**5. Pitch-draft QC hook (Spencer, 2026-10-05: "is this something you can revise so you never skip it again").**
+`.claude/hooks/pitch_draft_qc.py` runs before EVERY FGAC write to `gmail/v1/users/me/drafts`. It decodes the
+message and blocks it if a new-client pitch breaks the 6-part format: the standard intro with credits, the
+re-voice line, the standard close and CTA, no em dashes, no "Please keep me in mind" or "keep on file", and
+`[YOUR TAKE]` carrying a source link. Replies and follow-ups pass through. This is enforcement: a write that
+fails is rejected, and the fix is to rebuild the draft. It also covers the cloud routines, which run on this
+repo's settings.
+
 ## Hard rules
 1. No action that costs money or touches an outside system without Spencer's explicit OK — nothing sent, posted, applied to, submitted, or signed.
 2. Tell Spencer what I actually see — not what he wants to hear. Push back when I disagree. No sugarcoating, ever; that's the deal he asked for.
