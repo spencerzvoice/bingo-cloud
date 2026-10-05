@@ -50,6 +50,18 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "PY=$(command -v python3 || command -v python); \"$PY\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/ask_spencer_gate.py\"",
+            "timeout": 10
+          }
+        ]
+      }
     ]
   }
 }
