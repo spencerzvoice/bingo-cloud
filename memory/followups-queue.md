@@ -198,3 +198,6 @@ Tracker fix 10-06 (desktop): 12 touch-2 rows from the 10-05 batch verified one b
 Shell / Jane Sayers (warm, 10-06): live Gmail = Jane 10-05 12:25 UTC asked for the V-Power re-voice as an attachment (firewall blocked link); Spencer sent it 10-05 13:31 Lisbon; nothing from her since. Spencer waiting. Warm nudge Mon 2026-10-19 if silent (window to 10-26). Tracker row 132 -> "Responded - Awaiting Her Reply", Last Contact 10/05.
 
 | Allie Silber, DDO (warm, rep resubmission) | 2026-10-06 (Gmail Sent 1a111f646b9cd269, verified) | 1 | warm nudge | Tue 2026-10-20 (prep Mon 10-19 eve) | Tue 2026-10-27 | thread reply; if she asks for reads, send main + alternate within 24h |
+
+## 2026-10-06 evening prep (cloud, for Wed 2026-10-07)
+Ledger check: no reminder or overdue date falls on Wed 10-07. Next due: warm check-ins sent 09-11 (Dan Shaw, Lilah, Melissa, Mel Kane, Taylor Ballam, Devin Leisher, Poullet) reminder Thu 10-08 -> prep Wed 10-07 eve. Nothing drafted, no push, no email. Live Gmail not queried (nothing due).
