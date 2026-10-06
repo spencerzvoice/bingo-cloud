@@ -6,10 +6,27 @@
       "runtimeExecutable": "node",
       "runtimeArgs": [
         "C:/Users/spenc/spencerzvoice-site/scroll-craft/scripts/serve.mjs",
-        "--root", "C:/Users/spenc/spencerzvoice-site/builds/spencerzvoice",
-        "--port", "4500"
+        "--root",
+        "C:/Users/spenc/spencerzvoice-site/builds/spencerzvoice",
+        "--port",
+        "4500"
       ],
       "port": 4500
+    },
+    {
+      "name": "spencerzvoice-worker",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/spenc/spencerzvoice-site/builds/spencerzvoice/node_modules/wrangler/bin/wrangler.js",
+        "dev",
+        "--config",
+        "C:/Users/spenc/spencerzvoice-site/builds/spencerzvoice/wrangler.jsonc",
+        "--port",
+        "8788",
+        "--ip",
+        "127.0.0.1"
+      ],
+      "port": 8788
     }
   ]
 }
