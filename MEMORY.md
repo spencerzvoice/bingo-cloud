@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-05_
+_Last updated: 2026-10-06_
 _Next memory prune: 2026-09-25_ — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). The bulky, fast-moving detail lives in `reference/`; this file is the curated core.
@@ -118,7 +118,7 @@ Spencer's private/financial context — US-expat tax restructuring, a Lisbon pro
 Business-relevant carry-overs:
 - Also a musician pursuing **sync placements** — a possible secondary revenue avenue worth keeping on the radar.
 - **Invoicing:** sequential `NL-YYYY-###`, next to assign **NL-2026-003**. ReportLab PDF template, finalised Aug 2026.
-- **spencerzvoice.com** rebuilt as a standalone HTML file for Netlify (navy/coral Montserrat, client-spotlight accordions, video modal). Google Drive embeds are blocked — use YouTube unlisted.
+- **spencerzvoice.com** — Scrollcraft rebuild (2026-10-06) lives in `C:\Users\spenc\spencerzvoice-site\builds\spencerzvoice\` (deploy folder `dist\`, rebuild with `python build.py`); not deployed until Spencer OKs. Spot videos: `D:\My Drive\Spencer Pearman VO Spots\` + `F:\0. Spencer Z Voice\Voiceover Work\2. Awarded Jobs\1. Video Assets\`. Site copy rules (Spencer, 10-06): never cite GVAA as the source of the rates (antitrust worry); never downplay his career ("in just five years" cut); brand = "Spencer Z Voiceovers"; credit = "EuroLeague Basketball".
 - Has a personal commitment the last week of Nov 2026 — less available then (detail in `local/`).
 
 ---
