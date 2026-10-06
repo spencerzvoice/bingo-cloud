@@ -27,6 +27,20 @@
         "127.0.0.1"
       ],
       "port": 8788
+    },
+    {
+      "name": "spencerzvoice-i18n-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8791",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "C:/Users/spenc/spencerzvoice-i18n/builds/spencerzvoice/dist"
+      ],
+      "port": 8791
     }
   ]
 }
