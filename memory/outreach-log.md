@@ -315,3 +315,7 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 - Primal Space / Ewan (spaceprimal@gmail.com): Spencer sent a NEW email 19:58 Lisbon, "Hey Ewan! Hope all is well, two asks:" (Gmail 1a1129479d86c890). Includes asking them to change "Narrator: Spencer Pearman" to "Narrated by Spencer Z. Pearman, spencerzvoice.com" in video descriptions. Not in tracker (Primal Space has no row).
 - Noah Media / Neil Housley: reply in "Checking in after the Preview Series" thread, sent 19:59 Lisbon (Gmail 1a11295b37997461), asking to add narrator credit + link to FIFA Preview Series YouTube descriptions or point him to whoever handles FIFA uploads. Tracker row 70 updated (Last Contact 10/06, Next Action, Notes), read back OK.
 - Follow up on: no chase (a favour ask to warm clients). Warm check-in ~early Nov if silent; verify live Gmail first.
+
+## 2026-10-07 — Great Voices (Lisbon VO agency) — roster submission [SENT by Spencer]
+- hello@great-voices.com, subject "Voiceover talent submission: Spencer Pearman (American English, Lisbon)". Gmail msg 1a1152970c7b98c0, scheduled send Wed 10-07 08:00 Lisbon. Links latest commercial reel (spencerzvoice.com/assets/reel-commercial.mp3) + spencerzvoice.com. Tracker row 169.
+- Follow up on: 10-14 to 10-17 if no reply (cold agency 7-10 days). Verify live Gmail first.
