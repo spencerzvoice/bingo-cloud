@@ -122,6 +122,7 @@ Business-relevant carry-overs:
 
 ## Tools & known issues
 
+- **HyperFrames** (HeyGen's open-source HTML-to-video, installed 2026-10-06; skills in `~/.claude/skills/hyperframes*`) = how Bingo makes promo videos. First one: website sizzle for LinkedIn (`C:\Users\spenc\spencerzvoice-promo\videos\spencerzvoice-promo`, final in `F:\0. Spencer Z Voice\New Website Sizzle Reel Project\`). Spencer's rules: his own voice only (never TTS) and his own music ("SAY IT TO ME" v3 instrumental bed); he mixes his VO himself (won the blind A/B 10-06).
 - **Wispr Flow Pro** (voice dictation) — Spencer signed up 2026-08-27 with promo code `PETERWISPRFLOW` (**6 months free**) and immediately cancelled auto-renewal, so there's no charge coming — Pro access just runs out ≈ late Feb 2027. Around then, check whether it earned a place in his workflow (email drafts, Bingo prompts, post-call notes); if yes, he re-subscribes, if not, nothing to do.
 - **FGAC.ai connector** has blanket permission from Spencer — never ask before using it for Gmail/Sheets/Drive. Exception: FGAC's own `sheets_edit` scope gate can return "No approval received" — that's a real gate on FGAC's side, state it, don't retry.
 - **Standard Gmail connector has a confirmed staleness bug** — returns incomplete thread results, misses recent messages. Use FGAC's direct Gmail API (`google_api_get` against `gmail/v1/users/me/...`) for anything time-sensitive. Bug reported to Anthropic.
