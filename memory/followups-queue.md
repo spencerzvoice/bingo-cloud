@@ -180,3 +180,13 @@ Nothing due today -> no push, no email.
 
 ## 2026-10-06 Elaine update (desktop, appended)
 Elaine tap-in 3 = Spencer's edited version, in Gmail Scheduled for Tue 10-06 16:51 Lisbon (msg 1a111e93b94ca023; VO2 line cut, added "say the word and I'll remove it" re the site listing). Supersedes "Spencer sends" in the Elaine ledger row. If she stays silent: no more emails; resubmit to DDO without her feedback.
+
+## 2026-10-06 desktop: Retool/PagerDuty/Braze/Zendesk touch 2 DRAFTED (Spencer asked; evening prep: do NOT re-draft these)
+Live Gmail before drafting: all 4 originals sent 09-29 20:20-20:34 Lisbon, each with a re-voice link; no replies, no existing drafts. Cody McPherson (Zendesk) left (auto-reply 09-29) -> no touch; Natalie Fudge is the Zendesk contact. Apollo same-day match: all 4 current, emails Verified (10 credits, APOLLO-LEDGER). Text = touch-2 standard word for word. Send window Wed 10-07 or Thu 10-08 (not Fri 10-09, before Columbus Day). 8:00 local = Kasey/Lauren/Stephanie (Pacific) 16:00 Lisbon, Natalie (Denver) 15:00 Lisbon.
+| Contact | Company | Thread | Draft ID | Touch | Status |
+|---|---|---|---|---|---|
+| Kasey Hickey | Retool | 1a0ee5a2870acccd | r3057684992569687807 | 2 | drafted |
+| Stephanie Muniz | PagerDuty | 1a0ee5a2107a6f0a | r7021686228648356241 | 2 | drafted |
+| Lauren Bernal | Braze | 1a0ee5a1b3555a2c | r-6595696012016656852 | 2 | drafted |
+| Natalie Fudge | Zendesk | 1a0eea8a211de52b | r3324094676227793776 | 2 | drafted |
+After sending: touch 3 (final) = send + 14-21d.
