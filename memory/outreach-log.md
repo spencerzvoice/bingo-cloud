@@ -281,3 +281,13 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 - Why now: FY started ~Oct 1 for all seven (BUDGET-CALENDAR). Template = PITCH-TEMPLATE.md; hooks = event line + [YOUR TAKE] link (Siemens Energy none). New emails, not thread replies.
 - Status: drafts in Gmail (label Funnel G2), all carry NOT READY (LinkedIn) or VERIFY (Nat Geo). Re-voice titles pending except Smithsonian.
 - Follow up on: 7-10 days after each send.
+
+## 2026-10-06 — Venmo (Alisa Lee) — warm
+- Contact: Alisa Lee, Creative Producer, Venmo, alislee@paypal.com (likely hers: Apollo Verified + ZeroBounce valid 10-06; she's the only Alisa Lee at PayPal/Venmo on LinkedIn; alisa.lee@venmo.com is ZB-invalid)
+- Hook / angle: Venmo Days Live Phase spots (Voices.com Job #865391, Jul 27-31 2026); she wrote "The last read was perfect!"
+- Ask: any VO in the pipeline + links to the aired spots
+- Reel linked: none (spencerzvoice.com line)
+- New email or thread reply: new email (no prior direct thread; Spencer also messaged her on Voices.com 10-06 01:43 BST)
+- Status: draft in Gmail (draft r-1005099987912861289), Spencer to send
+- Follow up on: ~2026-11-04 if no reply (warm 4-8 wks)
+- Result:
