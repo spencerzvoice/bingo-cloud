@@ -301,3 +301,9 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 - Status: drafted in chat 10-06, NOT in Gmail; Spencer to edit + send Thu 10-08 ~9:30am MDT
 - Follow up on: 7-10 days after send (warm mid-conversation 2-3 wks per cadence; pick 10-20 if no reply)
 - Result:
+
+## 2026-10-06 - Funnel E touch 2 SENT: Retool (Kasey Hickey), PagerDuty (Stephanie Muniz), Braze (Lauren Bernal), Zendesk (Natalie Fudge)
+- Sent by Spencer 10-06 ~16:05 Lisbon, thread replies, touch-2 standard text (live Gmail Sent, verified)
+- Status: Follow-Up Sent; tracker rows 149, 150, 152, 156 updated
+- Follow up on: Tue 2026-10-20 (touch 3, final); overdue 10-27
+- Result:

@@ -190,3 +190,7 @@ Live Gmail before drafting: all 4 originals sent 09-29 20:20-20:34 Lisbon, each 
 | Lauren Bernal | Braze | 1a0ee5a1b3555a2c | r-6595696012016656852 | 2 | drafted |
 | Natalie Fudge | Zendesk | 1a0eea8a211de52b | r3324094676227793776 | 2 | drafted |
 After sending: touch 3 (final) = send + 14-21d.
+
+## 2026-10-06 - Retool/PagerDuty/Braze/Zendesk touch 2 SENT (live Gmail)
+Spencer sent all 4 himself Tue 10-06 ~16:05 Lisbon (Sent msgs: Retool 1a111bf6dfa70f4b, PagerDuty 1a111bf50986ae43, Braze 1a111bf21b97e58b, Zendesk/Natalie 1a111befb223def4; same threads; drafts gone). Tracker rows 149, 150, 152, 156 -> Follow-Up Sent, Last Contact 10/06.
+**Ledger roll-forward -> touch 3 (final):** Kasey Hickey (Retool), Stephanie Muniz (PagerDuty), Lauren Bernal (Braze), Natalie Fudge (Zendesk): reminder Tue 2026-10-20 (day 14; prep Mon 10-19 eve), overdue nudge Tue 2026-10-27 (day 21). Same dates as Goalhanger + iAM.
