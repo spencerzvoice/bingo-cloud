@@ -32,3 +32,12 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-05 | Jonathan Ray | Smithsonian Institution | linkedin.com/in/jonathan-m-ray | "Producer Webcast, Smithsonian, Aug 2023 - Present (producer, sound engineer, video/audio editor)" | PASS
 2026-10-05 | Emily Frost | Smithsonian Institution | linkedin.com/in/emily-frost-1b27a19 | "Web and Digital Content Producer, Smithsonian, Feb 2023 - Present" | PASS (backup)
 2026-10-06 | Steven Watson | Airwallex | linkedin.com/in/stevenwatson3 | "public profile company: Airwallex (brightdata)" | API-PASS
+2026-10-06 | Sue Funke | Absorb Software | linkedin.com/in/thesuefunke | "Senior Brand Marketing Manager, Absorb Software, Feb 2025 - Present (leads video production)" | PASS
+2026-10-06 | Marta Lisboa | 360Learning | linkedin.com/in/martalisboa | "Creative Director, 360Learning, May 2026 - Present, Paris" | PASS
+2026-10-06 | Heather Mounsey | Plaid | linkedin.com/in/heathermounsey | "Head of Brand and Creative, Plaid, Jan 2024 - Present" | PASS
+2026-10-06 | Martijn Savenije | Booking.com | linkedin.com/in/martijnsavenije | "Senior Manager Content Studio, Booking.com, Oct 2025 - Present (headline: Head of Content Studio)" | PASS
+2026-10-06 | Liv Moloney | The Economist | linkedin.com/in/livmoloney | "Head of Video, The Economist, Feb 2024 - Present" | PASS
+2026-10-06 | Anne Gaynor | Peloton Interactive | linkedin.com/in/anne-marie-gaynor-a1bb9928 | "Senior Executive Producer, Peloton Interactive, Aug 2021 - Present" | PASS
+2026-10-06 | Maggie Wasserman | Garmin | linkedin.com/in/maggie-wasserman | "Global Executive Producer, Garmin International, 2017 - Present" | PASS
+2026-10-06 | Jordan Howes | BUCK | linkedin.com/in/jordan-howes-7094b347 | "Head of Production, BUCK, Oct 2023 - Present, Sydney" | PASS
+2026-10-06 | Constanza Gallardo | Pushkin Industries | linkedin.com/in/constanzagp | "Head of Production & Executive Producer, Pushkin Industries, Aug 2025 - Present" | PASS
