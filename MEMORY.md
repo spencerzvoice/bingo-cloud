@@ -23,7 +23,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 - Markets both US (GVAA framework) and Europe (GFTB framework) — serves clients via Voices.com, VoiceArchive, direct bookings.
 
 ### Established credits (use in outreach, only when verified)
-FIFA World Cup 2026 Preview Series (Noah Media Group — documentary narration) · Primal Space (YouTube animated history-of-tech explainers — narration; e.g. "Why Inventing Color TV Was So Difficult", 2026-03-31; Spencer confirmed 2026-10-06) · Venmo (2 national paid-social spots) · Amazon AWS · NordicTrack · Cisco · Brave Browser · FootJoy · Fabletics · Condado Tacos · University of Kansas · EuroLeague (IMG) · Venum (global web + French TV) · Artlist · Travelpro · Dell Technologies.
+FIFA World Cup 2026 Preview Series (Noah Media Group — documentary narration) · Primal Space (YouTube animated history-of-tech explainers — narration; e.g. "Why Inventing Color TV Was So Difficult" 2026-03-31, "Killing Russia's Most Hated Man" 2025-07-30; Spencer confirmed 2026-10-06) · Venmo (2 national paid-social spots) · Amazon AWS · NordicTrack · Cisco · Brave Browser · FootJoy · Fabletics · Condado Tacos · University of Kansas · EuroLeague (IMG) · Venum (global web + French TV) · Artlist · Travelpro · Dell Technologies.
 
 Full client → end-client directory and job history: [[vo-client-directory]].
 
