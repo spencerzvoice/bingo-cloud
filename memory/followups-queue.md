@@ -177,3 +177,16 @@ Live Gmail (FGAC): nothing left to draft for Funnel D. Skillsoft/Alice touch 2 S
 Live Gmail (FGAC): all 12 touch-2 drafts from the 10-05 batch SENT (Skillsoft Alice 10-05; Splunk, Sprout, Smartsheet, Descript, Box, Dropbox, Intercom, 2U, Pluralsight 10-05 evening, Lisbon time; Goalhanger Alistair + iAM Clare 10-06 07:42 UK via Scheduled). No replies/bounces on those threads. Shell/Jane = warm, off cadence (replied 10-05, Spencer answered). Drafts box now = 10 new-client pitches (Psyop, YETI, etc.), not follow-ups.
 **Ledger roll-forward -> touch 3 (final):** sent 10-05 cohort (Skillsoft, Splunk, Sprout, Smartsheet, Descript, Box, Dropbox, Intercom, 2U, Pluralsight): reminder Mon 2026-10-19 (day 14; prep Sun 10-18 eve), overdue nudge Mon 2026-10-26 (day 21). Goalhanger + iAM (sent 10-06): reminder Tue 2026-10-20, overdue Tue 2026-10-27. Retool/PagerDuty/Braze/Zendesk touch 2 still to draft (prep 10-06 eve, per 10-05 note). Tracker rows for these 12 not yet updated this run (Status/Last Contact) - do on next desktop pass.
 Nothing due today -> no push, no email.
+
+## 2026-10-06 Elaine update (desktop, appended)
+Elaine tap-in 3 = Spencer's edited version, in Gmail Scheduled for Tue 10-06 16:51 Lisbon (msg 1a111e93b94ca023; VO2 line cut, added "say the word and I'll remove it" re the site listing). Supersedes "Spencer sends" in the Elaine ledger row. If she stays silent: no more emails; resubmit to DDO without her feedback.
+
+## 2026-10-06 desktop: Retool/PagerDuty/Braze/Zendesk touch 2 DRAFTED (Spencer asked; evening prep: do NOT re-draft these)
+Live Gmail before drafting: all 4 originals sent 09-29 20:20-20:34 Lisbon, each with a re-voice link; no replies, no existing drafts. Cody McPherson (Zendesk) left (auto-reply 09-29) -> no touch; Natalie Fudge is the Zendesk contact. Apollo same-day match: all 4 current, emails Verified (10 credits, APOLLO-LEDGER). Text = touch-2 standard word for word. Send window Wed 10-07 or Thu 10-08 (not Fri 10-09, before Columbus Day). 8:00 local = Kasey/Lauren/Stephanie (Pacific) 16:00 Lisbon, Natalie (Denver) 15:00 Lisbon.
+| Contact | Company | Thread | Draft ID | Touch | Status |
+|---|---|---|---|---|---|
+| Kasey Hickey | Retool | 1a0ee5a2870acccd | r3057684992569687807 | 2 | drafted |
+| Stephanie Muniz | PagerDuty | 1a0ee5a2107a6f0a | r7021686228648356241 | 2 | drafted |
+| Lauren Bernal | Braze | 1a0ee5a1b3555a2c | r-6595696012016656852 | 2 | drafted |
+| Natalie Fudge | Zendesk | 1a0eea8a211de52b | r3324094676227793776 | 2 | drafted |
+After sending: touch 3 (final) = send + 14-21d.
