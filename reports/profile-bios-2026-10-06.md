@@ -72,3 +72,19 @@ Paste this as the Intch bio:
 > Known for his versatility across commercial and narration work, he takes direction fast and delivers polished results every time. Behind the voice are 12 years as an audio engineer and musician, so every file leaves his fully treated studio in Portugal broadcast-ready, with fast turnaround and Source-Connect available on request.
 >
 > spencerzvoice.com
+
+---
+
+## LinkedIn About, rewritten in FIRST PERSON (Spencer: "from my point of view, not third person"), saved 2026-10-06 ~23:40 Lisbon
+
+> I'm a voiceover artist based in Lisbon, and brands like FIFA, Amazon Web Services, NordicTrack, FootJoy and EuroLeague Basketball have booked my voice.
+>
+> I work across commercial and narration: national paid-social spots, product videos, documentary series and season previews. I take direction fast and deliver polished results every time.
+>
+> Behind the voice are 12 years as an audio engineer and musician, so every file leaves my treated studio in Portugal broadcast-ready, with fast turnaround and Source-Connect available on request.
+>
+> I record in English, Spanish and Portuguese, and I'm coached by Elaine Craig and Scott Burns.
+>
+> Hear the reels, price your project and book a session at spencerzvoice.com.
+
+Verified saved by reopening the Edit about form.
