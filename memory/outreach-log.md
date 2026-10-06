@@ -288,6 +288,6 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 - Ask: any VO in the pipeline + links to the aired spots
 - Reel linked: none (spencerzvoice.com line)
 - New email or thread reply: new email (no prior direct thread; Spencer also messaged her on Voices.com 10-06 01:43 BST)
-- Status: draft in Gmail (draft r-1005099987912861289), Spencer to send. Tracker row 166 added 10-06.
+- Status: SCHEDULED by Spencer 10-06 for Wed 10-07 morning SF time (Gmail Scheduled msg 1a111d42c0ae9937, his edited subject "Venmo Days spot, and anything next?", body now names Voices.com). Tracker row 166 = Scheduled.
 - Follow up on: ~2026-11-04 if no reply (warm 4-8 wks)
 - Result:
