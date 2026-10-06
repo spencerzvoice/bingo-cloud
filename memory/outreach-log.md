@@ -245,7 +245,7 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - Shelter UK skipped (draft trashed).
 - Skillsoft: Alice auto-reply 09-24 — on vacation, back Thu 10-01. Content queries -> LB.Requests@skillsoft.com; urgent contacts listed by content area (Leena Rinne, Casey Maher, Greg Fuller, Devin McDougall; roles unverified). Decision (Bingo, Spencer agreed): do NOT redirect; wait for Alice.
 - Tracker rows 126-134 added (A:I + L:M; J/K untouched), read back. UK rows = Status "Scheduled" -> flip to Sent + Last Contact 09/29 once they go.
-- Follow up on: US six 10-01 to 10-04 · Skillsoft 10-06 to 10-08 (after her return) · UK three 10-06 to 10-09.
+- Follow up on: touch 2 ALL SENT (US six 10-01; Skillsoft 10-05; Goalhanger + iAM 10-06 07:42 UK; Shell = warm, Jane replied 10-05). Touch 3 (final): Skillsoft 10-19 to 10-26 · Goalhanger + iAM 10-20 to 10-27 · Shell warm nudge 10-19 if silent. Live Gmail check 2026-10-06. Ledger = memory/followups-queue.md.
 - Result: sent
 
 ## 2026-09-24 (late) — Cold-final drafts rewritten + Deb dropped
