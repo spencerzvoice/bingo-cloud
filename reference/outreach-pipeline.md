@@ -60,7 +60,7 @@ Rapid-fire marketplace quotes now live in **`reference/quick-quote.md`** (compac
 
 1. **Bounced addresses still to fix:** Maya Roberts, Tami Hachiya, Janae David (Team One), Nathan Mallon (The Team, Mimecast 550), Anna Jacobsen (Tellary: try `poullet@tellary.com`). Status ❓ since 08-31.
 2. **Robert Salas** (GMR Marketing, Senior Producer): re-add to the tracker. Status ❓.
-3. **Resubmit to Allie Silber at DDO** (workshop done 09-19). Waiting on Elaine's reel feedback first (third tap-in drafted 10-06).
+3. **Resubmit to Allie Silber at DDO** (workshop done 09-19). **DRAFTED 2026-10-06** as a reply in the "Hey Allie!" thread (Gmail draft r-1389575815376953760, cc Alicia): workshop + 2 takeaways, 1:37 commercial reel link, EuroLeague 26/27, offer of fresh reads. Spencer reviews + sends; not holding for Elaine's reply (her tap-in 3 scheduled 10-06).
 4. Lori Lins Plaud + AT&T Quantum Fiber auditions (due Aug 28): status ❓, likely stale. Drop at the next prune if nothing turns up.
 5. Dead addresses from the 09-29 wave: re-source Thinkific (Eric Smith, Kevin C, Evan Lepage) and Domestika (Valeria).
 
