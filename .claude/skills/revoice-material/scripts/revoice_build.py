@@ -15,6 +15,8 @@ import xml.etree.ElementTree as ET
 FF = r"C:\Users\spenc\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.1-full_build\bin"
 DENO = r"C:\Users\spenc\AppData\Roaming\Python\Python314\Scripts"
 os.environ["PATH"] = FF + os.pathsep + DENO + os.pathsep + os.environ["PATH"]
+os.environ["PYTHONIOENCODING"] = "utf-8"  # titles with full-width ':' / '|' crashed cp1252 output (Klarna, Chime, 10-06)
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 TEMPLATE = r"D:\My Drive\Client Outreach\Ableton Template Project"
 WORK = os.path.join(tempfile.gettempdir(), "revoice_work")
 FMT = "bestvideo[height<=1080][vcodec^=avc1]+bestaudio[ext=m4a]/bestvideo[height<=1080]+bestaudio/best[height<=1080]/best"
@@ -65,9 +67,18 @@ def download(client, cdir, url, opt):
         if f.endswith((".part", ".ytdl")) or ".part-Frag" in f:
             os.remove(os.path.join(cdir, f))
     # cloud_ableton.py links by this exact name: "<Client> - SOURCE - <title>.mp4"
-    run([sys.executable, "-m", "yt_dlp", "-f", FMT, "--merge-output-format", "mp4", "--windows-filenames",
-         "--ffmpeg-location", FF, "-o", os.path.join(cdir, f"{client} - SOURCE - %(title)s.%(ext)s")]
-        + ytdlp_target(url, opt))
+    out = os.path.join(cdir, f"{client} - SOURCE - %(title)s.%(ext)s")
+    # 403s hit some YouTube formats (avc1 SABR streams); fall back to any format, then to the default pick
+    for fmt in (FMT, "bestvideo[height<=1080]+bestaudio/best[height<=1080]/best", None):
+        try:
+            run([sys.executable, "-m", "yt_dlp"] + (["-f", fmt] if fmt else []) +
+                ["--merge-output-format", "mp4", "--windows-filenames", "--ffmpeg-location", FF, "-o", out]
+                + ytdlp_target(url, opt))
+            return
+        except RuntimeError as e:
+            err = e
+            log(f"  download retry ({str(e).splitlines()[-1][:120]})")
+    raise err
 
 
 PREFER_DAYS = 3 * 365  # Spencer, 2026-10-05: prefer the last 3 years
@@ -280,7 +291,8 @@ def build_funnel(fdir, only, results):
         try:
             url, opt = read_sources(sf)
             note = ""
-            if not videos(cdir):
+            fresh = not videos(cdir)
+            if fresh:
                 too_old = age_gate(url, opt)
                 if too_old:
                     results[key] = "FAIL - " + too_old
@@ -294,6 +306,8 @@ def build_funnel(fdir, only, results):
             if not has_script(cdir):
                 log(key, "Whisper script")
                 whisper_script(client, cdir, src)
+                fresh = True
+            if fresh:  # the cloud couldn't hear this video, so its narrator gate never ran
                 note = " | " + narrator(cdir, src, nv)
             log(key, "Ableton")
             ableton(client, cdir, src, nv)
