@@ -307,3 +307,6 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 - Status: Follow-Up Sent; tracker rows 149, 150, 152, 156 updated
 - Follow up on: Tue 2026-10-20 (touch 3, final); overdue 10-27
 - Result:
+
+## 2026-10-06: DDO / Allie Silber resubmission SENT
+- Allie Silber (allie@ddoagency.com), cc Alicia Beekman. Sent by Spencer Tue 10-06 17:05 Lisbon (Gmail 1a111f646b9cd269), reply in "Hey Allie!" thread. Spencer's own rewrite of Bingo's draft: cut the Elaine takeaways; added "great coach", planned 1-on-1 coaching with Elaine, "a lot of your DDO talents in that workshop", "thank you for sending me Elaine's way", EuroLeague "available on their official YouTube channel". Tracker row 83 -> Resubmitted - Awaiting Reply, 10/06. **Follow up on: 10-20 to 10-27** (warm, mid-conversation 2-3 wks).
