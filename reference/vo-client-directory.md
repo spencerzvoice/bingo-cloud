@@ -45,7 +45,7 @@ DDO Artists Agency (see [[../MEMORY]] — the live thread) · deVine Voices (UK,
 
 ### Platform / gig work
 - **micro1 / Mercor** — AI voice-data contract work (OAI Onyx project as "Expert" + Reviewer). Dec 2025–Jun 2026 on the resume.
-- **Voices.com** — Zulubot Bravo Inc (Job #861714, case study videos, deposit received Aug 2025); FootJoy (Fair Folk, #832715); Georgia Power (#833137); WA Cares (#832178, #835853); plus one-offs.
+- **Voices.com** — Zulubot Bravo Inc (Job #861714, case study videos, deposit received Aug 2025); FootJoy (Fair Folk, #832715); Georgia Power (#833137); WA Cares (#832178, #835853); **Venmo** (2 national paid-social spots; contact **Alisa Lee**, Creative Producer, Venmo, San Francisco, worked with her through Voices.com per Spencer 2026-10-06; LinkedIn linkedin.com/in/alisa-lee-47898529; work email unconfirmed: alisa.lee@venmo.com came back ZeroBounce-invalid 10-06); plus one-offs.
 - **Creator Mill** (Sean Callaghan, Gonçalo Santos) — YouTube channel VO, Jan–Apr 2025. Removed from active client list (channel management, not casting).
 
 ## Not on the client list (per Spencer's explicit instruction)
