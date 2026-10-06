@@ -291,3 +291,13 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 - Status: SCHEDULED by Spencer 10-06 for Wed 10-07 morning SF time (Gmail Scheduled msg 1a111d42c0ae9937, his edited subject "Venmo Days spot, and anything next?", body now names Voices.com). Tracker row 166 = Scheduled.
 - Follow up on: ~2026-11-04 if no reply (warm 4-8 wks)
 - Result:
+
+## 2026-10-06 - Altra Running (Tyler Gorky + Dani Coplen) - warm, retainer pitch
+- Contact: Tyler Gorky (Global Creative Producer, Tyler_Gorky@vfc.com) + Dani Coplen (Global Creative Director, dani_coplen@vfc.com); addresses from live Gmail headers 10-06
+- Hook / angle: 15 Year Sizzle recorded Mon 10-05, Dani praised the read on the call; offer a 6-month prepaid-credit standing arrangement (Option 1 $750/mo = $900 credit, Option 2 $1,500/mo = $1,800 credit)
+- Ask: interest + rough VO volume for next 6 months; short call
+- Reel linked: none
+- New email or thread reply: NEW email to Tyler + Dani only (not Paul/Kelly, not the sizzle thread)
+- Status: drafted in chat 10-06, NOT in Gmail; Spencer to edit + send Thu 10-08 ~9:30am MDT
+- Follow up on: 7-10 days after send (warm mid-conversation 2-3 wks per cadence; pick 10-20 if no reply)
+- Result:
