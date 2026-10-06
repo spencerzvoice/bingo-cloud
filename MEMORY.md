@@ -1,6 +1,6 @@
 # MEMORY — Bingo's long-term brain
 _Last updated: 2026-10-06_
-_Next memory prune: 2026-09-25_ — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
+_Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). The bulky, fast-moving detail lives in `reference/`; this file is the curated core.
 
@@ -90,11 +90,7 @@ Google Sheet **"VO Outreach Pipeline Tracker"** (root of My Drive, spreadsheetId
 
 Active agency targets: **Cheil USA, Team One, Untold Studios, Octagon, Anomaly, The Team, Laundry Service, Ogilvy, GMR Marketing, IMG.** Big recurring relationships: **Noah Media Group** (FIFA series), **Lori Lins Ltd** (36+ threads, audition agency), **"Voices Talent"/Anthony** (98 threads), **Shadow Lion, Xpedition Media, Diamond View, Kansas University** (live paid project). *(Voices.com/marketplace jobs — incl. Zulubot Bravo Inc — are NOT tracked here or in the outreach tracker; delivered ones live in [[vo-client-directory]] + the invoice log. See `reference/outreach-pipeline.md` rule 6.)*
 
-Standing to-dos (structural — details in reference):
-- Fix + resend 4 bounced emails: Maya Roberts, Tami Hachiya, Janae David (Team One), Nathan Mallon (The Team). Anna Jacobsen (Tellary) — try poullet@tellary.com.
-- ~18 reconnect drafts written but **not sent** (Part 9 of [[outreach-pipeline]]).
-- Re-add **Robert Salas** (GMR Marketing) — his row vanished before send.
-- Lori Lins auditions: Plaud + AT&T Quantum Fiber (were due Aug 28).
+Standing to-dos: see "Standing action items" in [[outreach-pipeline]] (pruned 2026-10-06: bounced addresses, Robert Salas, DDO resubmit, dead 09-29 addresses).
 
 ---
 
