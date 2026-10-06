@@ -1,7 +1,13 @@
-"""Funnel re-voicing package builder (Steps 2, 3, 5 of revoice-material-process.md).
+"""Funnel re-voicing package builder (Steps 2, 3, 4, 5 of revoice-material-process.md).
 Usage: python revoice_build.py "<Funnel dir>" [Client ...]
-Per client with a sources.txt: download source if missing, Demucs NOVOX if missing,
-Ableton project from template if missing, MAKE VIDEO button in Ready to Link. Idempotent: only fills gaps.
+       python revoice_build.py --all      (desktop relay: every Funnel folder under Client Outreach)
+Per client with a sources.txt: download source if missing (as "<Client> - SOURCE - <title>.mp4"),
+Demucs NOVOX if missing, Whisper script .docx if no script exists, Ableton project from template
+if missing, MAKE VIDEO button in Ready to Link. Idempotent: only fills gaps; complete packages are
+skipped without touching the network.
+Desktop relay (Spencer, 2026-10-06): YouTube blocks the cloud's IP, not this PC's. When a cloud run
+can't download its pick, it uploads sources.txt (URL on line 1) to the client folder and moves on;
+`--all` on the desktop finishes the package and Drive sync uploads it.
 """
 import gzip, json, os, re, shutil, subprocess, sys, tempfile
 import xml.etree.ElementTree as ET
@@ -36,24 +42,49 @@ def videos(cdir):
     return sorted(f for f in os.listdir(cdir) if f.lower().endswith((".mp4", ".mov", ".webm")) and "NOVOX" not in f and "no_vocals" not in f)
 
 
-def download(cdir, url):
+def read_sources(sf):
+    """sources.txt: first http line = the pick. Optional lines: 'referer: <url>' (Vimeo embeds),
+    'date: YYYY-MM-DD' (upload date when the host hides it, e.g. Vimeo player pages)."""
+    lines = [l.strip() for l in open(sf, encoding="utf-8-sig") if l.strip()]
+    url = next(l for l in lines if l.startswith("http"))
+    opt = {k: l.split(":", 1)[1].strip() for l in lines for k in ("referer", "date") if l.lower().startswith(k + ":")}
+    return url, opt
+
+
+def ytdlp_target(url, opt):
+    """Vimeo pages say 'only works when logged-in'; the player embed URL with a referer works (skill, 09-24)."""
+    m = re.match(r"https?://(?:www\.)?vimeo\.com/(\d+)", url)
+    if m:
+        return ["--referer", opt.get("referer", "https://vimeo.com/"), "--impersonate", "chrome",
+                f"https://player.vimeo.com/video/{m.group(1)}"]
+    return [url]
+
+
+def download(client, cdir, url, opt):
     for f in os.listdir(cdir):
         if f.endswith((".part", ".ytdl")) or ".part-Frag" in f:
             os.remove(os.path.join(cdir, f))
-    run([sys.executable, "-m", "yt_dlp", "-f", FMT, "--merge-output-format", "mp4", "--restrict-filenames",
-         "--ffmpeg-location", FF, "-o", os.path.join(cdir, "%(title)s [%(id)s].%(ext)s"), url])
+    # cloud_ableton.py links by this exact name: "<Client> - SOURCE - <title>.mp4"
+    run([sys.executable, "-m", "yt_dlp", "-f", FMT, "--merge-output-format", "mp4", "--windows-filenames",
+         "--ffmpeg-location", FF, "-o", os.path.join(cdir, f"{client} - SOURCE - %(title)s.%(ext)s")]
+        + ytdlp_target(url, opt))
 
 
 PREFER_DAYS = 3 * 365  # Spencer, 2026-10-05: prefer the last 3 years
 MAX_AGE_DAYS = 5 * 365  # 3-5 years is OK when nothing newer fits; over 5 = rejected (NPR pick was from 2013)
 
 
-def age_gate(url):
+def age_gate(url, opt=None):
     """Return a reason string if the video is older than 5 years (or its date can't be read), else None."""
     import datetime
+    opt = opt or {}
     try:
-        d = run([sys.executable, "-m", "yt_dlp", "--skip-download", "--print", "upload_date", url]).strip().splitlines()[-1]
-        up = datetime.datetime.strptime(d, "%Y%m%d").date()
+        if opt.get("date"):
+            up = datetime.date.fromisoformat(opt["date"])
+        else:
+            d = run([sys.executable, "-m", "yt_dlp", "--skip-download", "--print", "upload_date"]
+                    + ytdlp_target(url, opt)).strip().splitlines()[-1]
+            up = datetime.datetime.strptime(d, "%Y%m%d").date()
     except Exception as e:
         return f"AGE GATE: can't read upload date ({e}); pick a video you can date"
     age = (datetime.date.today() - up).days
@@ -191,52 +222,113 @@ def script_gate(cdir):
         bad = [b for b in BAD_SCRIPT if b in body]
         ok = not bad and words >= max(15, dur * 0.8)
         out.append(f"{'OK' if ok else 'FAIL'} {sp}: {words} words / {dur:.0f}s{' placeholder: ' + ', '.join(bad) if bad else ''}")
+    if not out and has_script(cdir):
+        return ["OK script is a Google Doc (cloud-built, not checked here)"]
     return out or ["FAIL no _script.docx"]
 
 
-def main():
-    fdir = sys.argv[1]
-    only = set(sys.argv[2:])
-    os.makedirs(WORK, exist_ok=True)
-    results = {}
+def has_script(cdir):
+    return any(f.endswith(("_script.docx", "_script.gdoc")) and not f.startswith("~$") for f in os.listdir(cdir))
+
+
+def whisper_script(client, cdir, src):
+    """Write <Client>_script.docx from a local Whisper pass (desktop relay: no YouTube captions needed)."""
+    import docx
+    tmp = tempfile.mkdtemp(dir=WORK)
+    wav = os.path.join(tmp, "vo.wav")
+    run(["ffmpeg", "-y", "-i", src, "-vn", "-ac", "1", "-ar", "16000", wav])
+    run([sys.executable, "-m", "whisper", wav, "--model", "small", "--language", "en",
+         "--output_format", "txt", "--output_dir", tmp])
+    lines = [l.strip() for l in open(os.path.join(tmp, "vo.txt"), encoding="utf-8") if l.strip()]
+    d = docx.Document()
+    d.add_paragraph("Original copy - from Whisper transcription (desktop relay), verify against the video.")
+    for l in lines:
+        d.add_paragraph(l)
+    d.save(os.path.join(cdir, f"{client}_script.docx"))
+    shutil.rmtree(tmp, ignore_errors=True)
+
+
+def narrator(cdir, src, nv):
+    """Narrator gate on a fresh download; the verdict + contact sheet go in the summary for a look."""
+    sheet = os.path.join(WORK, os.path.basename(cdir) + "_frames.jpg")
+    r = subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "narrator_check.py"),
+                        "--src", src, "--novox", nv, "--sheet", sheet],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    voice = next((l for l in r.stdout.splitlines() if l.startswith("VOICE")), "VOICE: ?")
+    return f"{voice} | sheet {sheet}"
+
+
+def complete(client, cdir):
+    return bool(videos(cdir)) and os.path.exists(os.path.join(cdir, f"{client}_NOVOX.mp4")) and has_script(cdir) \
+        and any(f.endswith(".als") for _, _, fs in os.walk(cdir) for f in fs) \
+        and os.path.exists(os.path.join(cdir, "Ready to Link to Drafted Email", "MAKE VIDEO - double-click me.bat"))
+
+
+def build_funnel(fdir, only, results):
     for client in sorted(os.listdir(fdir)):
         cdir = os.path.join(fdir, client)
-        if not os.path.isdir(cdir) or (only and client not in only):
+        if not os.path.isdir(cdir) or client.startswith("_") or (only and client not in only):
             continue
+        key = f"{os.path.basename(fdir)}/{client}"
         sf = os.path.join(cdir, "sources.txt")
         if not os.path.exists(sf):
-            results[client] = "SKIP - no sources.txt (needs a pick)"
+            if only:
+                results[key] = "SKIP - no sources.txt (needs a pick)"
+            continue  # whole-funnel / --all: no pick yet, nothing for this script to do
+        if complete(client, cdir):
             continue
         try:
-            url = [l.strip() for l in open(sf, encoding="utf-8-sig") if l.strip().startswith("http")][0]
-            too_old = age_gate(url)
-            if too_old:
-                results[client] = "FAIL - " + too_old
-                log(client, "->", results[client])
-                continue
+            url, opt = read_sources(sf)
+            note = ""
             if not videos(cdir):
-                log(client, "downloading", url)
-                download(cdir, url)
+                too_old = age_gate(url, opt)
+                if too_old:
+                    results[key] = "FAIL - " + too_old
+                    log(key, "->", results[key])
+                    continue
+                log(key, "downloading", url)
+                download(client, cdir, url, opt)
             src = os.path.join(cdir, videos(cdir)[0])
-            log(client, "NOVOX from", os.path.basename(src))
+            log(key, "NOVOX from", os.path.basename(src))
             nv = novox(client, cdir, src)
-            log(client, "Ableton")
+            if not has_script(cdir):
+                log(key, "Whisper script")
+                whisper_script(client, cdir, src)
+                note = " | " + narrator(cdir, src, nv)
+            log(key, "Ableton")
             ableton(client, cdir, src, nv)
             button(client, cdir)
             dur, _ = probe(src)
-            results[client] = f"OK - {os.path.basename(src)} ({dur:.0f}s)"
+            results[key] = f"OK - {os.path.basename(src)} ({dur:.0f}s){note}"
         except Exception as e:
-            results[client] = f"FAIL - {e}"
-        log(client, "->", results[client])
+            results[key] = f"FAIL - {e}"
+        log(key, "->", results[key])
+
+
+def main():
+    os.makedirs(WORK, exist_ok=True)
+    if sys.argv[1] == "--all":
+        root = os.path.dirname(TEMPLATE)
+        # Funnel H onward only: A-G2 are sent or desktop-owned and use older file names
+        fdirs = [os.path.join(root, d) for d in sorted(os.listdir(root)) if d.startswith("Funnel ") and d[7:8] >= "H"]
+        only = set()
+    else:
+        fdirs, only = [sys.argv[1]], set(sys.argv[2:])
+    results = {}
+    for fdir in fdirs:
+        build_funnel(fdir, only, results)
     log("\n=== SUMMARY ===")
     for k, v in results.items():
         log(f"{k}: {v}")
+    if not results:
+        log("nothing to do")
     log("\n=== SCRIPT GATE (every script must be the real VO copy) ===")
-    for client in sorted(os.listdir(fdir)):
-        cdir = os.path.join(fdir, client)
-        if os.path.isdir(cdir) and (not only or client in only) and videos(cdir):
+    root = os.path.dirname(fdirs[0])
+    for k in results:
+        cdir = os.path.join(root, *k.split("/", 1))
+        if os.path.isdir(cdir) and videos(cdir):
             for line in script_gate(cdir):
-                log(f"{client}: {line}")
+                log(f"{k}: {line}")
 
 
 if __name__ == "__main__":
