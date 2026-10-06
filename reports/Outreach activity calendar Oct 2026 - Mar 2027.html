@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Outreach activity calendar</title>
+<style>
+:root { --bg:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781; --grid:#e1e0d9; }
+@media (prefers-color-scheme: dark) { :root { --bg:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --grid:#2c2c2a; } }
+body { margin:0; padding:24px 16px; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:900px; margin:0 auto; }
+h1 { font-size:22px; font-weight:500; margin:0 0 4px; }
+p { color:var(--ink2); font-size:14px; line-height:1.6; margin:0 0 16px; }
+.legend { display:flex; flex-wrap:wrap; gap:16px; margin:0 0 8px; font-size:12px; color:var(--ink2); }
+.legend span { display:flex; align-items:center; gap:6px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Who to contact when, Oct 2026 to Mar 2027</h1>
+<p>Weekly outreach intensity from <code>reports/Campaign budgets and VO timing.md</code> (2026-10-05). The levels are Bingo's reading of that calendar, not measured data: read the shape, not exact heights.</p>
+<div class="legend">
+<span><span style="width:18px;height:3px;background:#2a78d6;border-radius:2px"></span>Cold sends (new pitches)</span>
+<span><span style="width:18px;height:0;border-top:3px dashed #eb6834"></span>Warm and long-tail touches</span>
+<span><span style="width:12px;height:12px;background:rgba(227,73,72,0.14);border-radius:2px"></span>Blackout / no US sends</span>
+</div>
+<div style="position:relative;width:100%;height:420px">
+<canvas id="cal" role="img" aria-label="Weekly outreach activity, October 2026 to March 2027"></canvas>
+</div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+const muted = '#898781', grid = dark ? '#2c2c2a' : '#e1e0d9', ink = dark ? '#c3c2b7' : '#52514e';
+const weeks = [];
+for (let d = new Date(2026, 9, 5); d <= new Date(2027, 2, 29); d.setDate(d.getDate() + 7)) weeks.push(new Date(d));
+const inR = (d, a, b) => d >= a && d <= b;
+const D = (y, m, d) => new Date(y, m - 1, d);
+function cold(d) {
+  if (inR(d, D(2026,10,5), D(2026,11,1))) return 10;
+  if (inR(d, D(2026,11,2), D(2026,11,22))) return 9;
+  if (inR(d, D(2026,11,23), D(2026,11,29))) return 1;
+  if (inR(d, D(2026,11,30), D(2026,12,13))) return 3;
+  if (inR(d, D(2026,12,14), D(2027,1,4))) return 0;
+  if (inR(d, D(2027,1,5), D(2027,1,11))) return 6;
+  if (inR(d, D(2027,1,12), D(2027,1,31))) return 9;
+  if (inR(d, D(2027,2,1), D(2027,2,28))) return 10;
+  if (inR(d, D(2027,3,1), D(2027,3,21))) return 9;
+  return 5;
+}
+function warm(d) {
+  if (inR(d, D(2026,10,5), D(2026,11,22))) return 4;
+  if (inR(d, D(2026,11,23), D(2026,11,29))) return 0;
+  if (inR(d, D(2026,11,30), D(2026,12,13))) return 8;
+  if (inR(d, D(2026,12,14), D(2027,1,4))) return 2;
+  if (inR(d, D(2027,1,5), D(2027,1,31))) return 7;
+  if (inR(d, D(2027,2,1), D(2027,2,28))) return 5;
+  return 4;
+}
+const labels = weeks.map(d => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }));
+const idx = dt => weeks.findIndex(w => w >= dt);
+const bands = [
+  { a: idx(D(2026,11,23)), b: idx(D(2026,11,30)), t: 'Thanksgiving' },
+  { a: idx(D(2026,12,14)), b: idx(D(2027,1,4)), t: 'Blackout' }
+];
+const notes = [
+  { i: idx(D(2026,10,12)), t: 'Best window', y: 10 },
+  { i: idx(D(2026,11,16)), t: 'Last funnel ~Nov 20', y: 9 },
+  { i: idx(D(2026,12,7)), t: 'Warm push', y: 8 },
+  { i: idx(D(2027,1,11)), t: 'Quarterly touches', y: 7 },
+  { i: idx(D(2027,2,15)), t: 'Peak month', y: 10 }
+];
+const deco = {
+  id: 'deco',
+  beforeDatasetsDraw(c) {
+    const { ctx, chartArea: ca, scales: { x } } = c;
+    ctx.save();
+    bands.forEach(b => {
+      const x1 = x.getPixelForValue(b.a) - 6, x2 = x.getPixelForValue(b.b) + 6;
+      ctx.fillStyle = 'rgba(227,73,72,0.12)';
+      ctx.fillRect(x1, ca.top, x2 - x1, ca.bottom - ca.top);
+      ctx.fillStyle = dark ? '#e66767' : '#a32d2d';
+      ctx.font = '11px sans-serif'; ctx.textAlign = 'center';
+      ctx.fillText(b.t, (x1 + x2) / 2, ca.bottom - 8);
+    });
+    ctx.restore();
+  },
+  afterDatasetsDraw(c) {
+    const { ctx, scales: { x, y } } = c;
+    ctx.save(); ctx.fillStyle = ink; ctx.font = '11px sans-serif'; ctx.textAlign = 'center';
+    notes.forEach(n => ctx.fillText(n.t, x.getPixelForValue(n.i), y.getPixelForValue(n.y) - 10));
+    ctx.restore();
+  }
+};
+new Chart(document.getElementById('cal'), {
+  type: 'line',
+  data: { labels, datasets: [
+    { label: 'Cold sends', data: weeks.map(cold), borderColor: '#2a78d6', backgroundColor: 'rgba(42,120,214,0.10)', fill: true, stepped: 'middle', borderWidth: 2, pointRadius: 0, pointHoverRadius: 5 },
+    { label: 'Warm and long-tail', data: weeks.map(warm), borderColor: '#eb6834', borderDash: [6, 4], stepped: 'middle', borderWidth: 2, pointRadius: 0, pointHoverRadius: 5, fill: false }
+  ] },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    interaction: { mode: 'index', intersect: false },
+    layout: { padding: { top: 14 } },
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { display: false }, ticks: { color: muted, autoSkip: true, maxRotation: 0, maxTicksLimit: 12 } },
+      y: { min: 0, max: 11, grid: { color: grid }, ticks: { color: muted, stepSize: 5, callback: v => ({0:'None',5:'Medium',10:'Full'})[v] ?? '' }, title: { display: true, text: 'Activity', color: muted } }
+    }
+  },
+  plugins: [deco]
+});
+</script>
+</body>
+</html>
