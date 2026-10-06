@@ -172,3 +172,8 @@ Live Gmail re-check 10-05 late eve: all 12 touch-2 drafts (same draft IDs as the
 
 ## 2026-10-06 desktop check (Spencer asked to draft the remaining Funnel D follow-ups)
 Live Gmail (FGAC): nothing left to draft for Funnel D. Skillsoft/Alice touch 2 SENT Mon 10-05 19:15 Lisbon. Goalhanger/Alistair + iAM/Clare touch 2 are in Gmail **Scheduled** (msgs 1a10ff29a4b4b977, 1a10ff29aacb3108; the API doesn't show the send time). Shell/Jane is warm: Spencer sent the attachment 10-05 13:31, no reply from Jane since. Funnel D touch 3 (final) window = touch-2 send + 14-21d: Skillsoft 10-19..10-26; Goalhanger/iAM from their scheduled send date.
+
+## 2026-10-06 remind run (cloud)
+Live Gmail (FGAC): all 12 touch-2 drafts from the 10-05 batch SENT (Skillsoft Alice 10-05; Splunk, Sprout, Smartsheet, Descript, Box, Dropbox, Intercom, 2U, Pluralsight 10-05 evening, Lisbon time; Goalhanger Alistair + iAM Clare 10-06 07:42 UK via Scheduled). No replies/bounces on those threads. Shell/Jane = warm, off cadence (replied 10-05, Spencer answered). Drafts box now = 10 new-client pitches (Psyop, YETI, etc.), not follow-ups.
+**Ledger roll-forward -> touch 3 (final):** sent 10-05 cohort (Skillsoft, Splunk, Sprout, Smartsheet, Descript, Box, Dropbox, Intercom, 2U, Pluralsight): reminder Mon 2026-10-19 (day 14; prep Sun 10-18 eve), overdue nudge Mon 2026-10-26 (day 21). Goalhanger + iAM (sent 10-06): reminder Tue 2026-10-20, overdue Tue 2026-10-27. Retool/PagerDuty/Braze/Zendesk touch 2 still to draft (prep 10-06 eve, per 10-05 note). Tracker rows for these 12 not yet updated this run (Status/Last Contact) - do on next desktop pass.
+Nothing due today -> no push, no email.
