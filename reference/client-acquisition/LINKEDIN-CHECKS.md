@@ -31,3 +31,4 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-05 | Brett Reinke | National Geographic | linkedin.com/in/brett-reinke-a73581125 | "Post Production Supervisor, National Geographic Partners" (no dates shown) | PASS (backup)
 2026-10-05 | Jonathan Ray | Smithsonian Institution | linkedin.com/in/jonathan-m-ray | "Producer Webcast, Smithsonian, Aug 2023 - Present (producer, sound engineer, video/audio editor)" | PASS
 2026-10-05 | Emily Frost | Smithsonian Institution | linkedin.com/in/emily-frost-1b27a19 | "Web and Digital Content Producer, Smithsonian, Feb 2023 - Present" | PASS (backup)
+2026-10-06 | Steven Watson | Airwallex | linkedin.com/in/stevenwatson3 | "public profile company: Airwallex (brightdata)" | API-PASS
