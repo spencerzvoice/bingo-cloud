@@ -310,3 +310,8 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 
 ## 2026-10-06: DDO / Allie Silber resubmission SENT
 - Allie Silber (allie@ddoagency.com), cc Alicia Beekman. Sent by Spencer Tue 10-06 17:05 Lisbon (Gmail 1a111f646b9cd269), reply in "Hey Allie!" thread. Spencer's own rewrite of Bingo's draft: cut the Elaine takeaways; added "great coach", planned 1-on-1 coaching with Elaine, "a lot of your DDO talents in that workshop", "thank you for sending me Elaine's way", EuroLeague "available on their official YouTube channel". Tracker row 83 -> Resubmitted - Awaiting Reply, 10/06. **Follow up on: 10-20 to 10-27** (warm, mid-conversation 2-3 wks).
+
+## 2026-10-06 — Credit asks: Primal Space + Noah Media (SENT by Spencer)
+- Primal Space / Ewan (spaceprimal@gmail.com): Spencer sent a NEW email 19:58 Lisbon, "Hey Ewan! Hope all is well, two asks:" (Gmail 1a1129479d86c890). Includes asking them to change "Narrator: Spencer Pearman" to "Narrated by Spencer Z. Pearman, spencerzvoice.com" in video descriptions. Not in tracker (Primal Space has no row).
+- Noah Media / Neil Housley: reply in "Checking in after the Preview Series" thread, sent 19:59 Lisbon (Gmail 1a11295b37997461), asking to add narrator credit + link to FIFA Preview Series YouTube descriptions or point him to whoever handles FIFA uploads. Tracker row 70 updated (Last Contact 10/06, Next Action, Notes), read back OK.
+- Follow up on: no chase (a favour ask to warm clients). Warm check-in ~early Nov if silent; verify live Gmail first.
