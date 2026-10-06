@@ -76,4 +76,4 @@ Primal Space & Hip Hop Madness (recurring direct YouTube-channel clients — tra
 | Noah Media Group | FIFA inquiry Mar 4 2026; Ep 11 completed/invoiced May 20–22 2026 |
 | Xpedition Media | Monthly; invoice #0002 May 28 2026 ($3,000); re-engaged Jul 31 2026 |
 | Zulubot Bravo Inc | Job #861714 awarded Aug 24 2025, deposit + payment Aug 25 |
-- **CrowdReply** (direct, co-founder Jim): came on board after the 08-28 re-voice samples; Spencer voiced a job for them in September 2026 (Spencer, 2026-10-06). Fee, deliverable and dates not logged yet. Retainer plan in `reference/outreach-pipeline.md`.
+- **CrowdReply** (direct, co-founder Jim): came on board after the 08-28 re-voice samples; Spencer voiced a job for them in September 2026: one :30 VO, $250 (Spencer, 2026-10-06). Usage/licensing ❓ not logged. Retainer plan in `reference/outreach-pipeline.md`.
