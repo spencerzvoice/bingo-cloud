@@ -17,7 +17,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 - Treated home studio, **Source Connect** + **Pro Tools certified** (ProMedia Training, Sept 2025). 24h standard turnaround, same-day rush. **Source Connect: NO active subscription as of 2026-09-16** (Spencer told Laundry so in writing; can buy one per session) — never assert he has it live.
 - 12+ years audio engineering (Ableton 12+ yrs, Pro Tools, Audition, iZotope RX) across music, documentary, podcast, commercial VO. Also AI/TTS dataset work (micro1, Dec 2025–Jun 2026; VoiceOver LA TTS singing project 2023).
 - BS Mechanical Engineering, University of Miami, 2012.
-- VO coaches (Spencer, 2026-10-06; on the website "Coached by"): Elaine Craig, Scott Burns, Joshua Alexander. No other detail on Burns/Alexander yet.
+- VO coaches on the website "Coached by" (Spencer, 2026-10-06): Elaine Craig, Scott Burns (bookscottburns.com, Spencer-supplied). Joshua Alexander was listed, then removed by Spencer the same night (reason not given; his site couldn't be confirmed).
 - Languages: English (native), Spanish (fluent), Portuguese (fluent) — studies European Portuguese grammar specifically. **Offers VO in English, Spanish and Portuguese** (Spencer, 2026-10-06), but has no ES/PT bookings yet, so never cite an ES/PT credit.
 - Voice descriptor in outreach emails: **none in cold pitches (Spencer, 2026-10-05 night: "if we're attaching samples, I don't need to say what kind of voice I have")**; the "warm bass/baritone ... record and produce everything myself" line is cut and the QC hook bans it. Never "American" or "low-register".
 - Also releases music and is pursuing **sync placements** (detail in `local/`).
