@@ -130,8 +130,8 @@ The ranked shortlist lives in `funnel-c-top-10.md`.
 
 | Company | Primary contact | Title | Email | Backup | Funnel | Status | Source |
 |---|---|---|---|---|---|---|---|
-| 360Learning | Marta Lisboa | Creative Director | verified | Robin Nichols — Global Head of Content | I | BANKED | funnels-c-d-e |
-| Absorb Software | Sue Funke | Senior Brand Marketing Manager | verified | — | I | BANKED | funnels-c-d-e |
+| 360Learning | Marta Lisboa | Creative Director | marta.lisboa@360learning.com, Apollo-verified 10-06 | Robin Nichols — Global Head of Content | I | **DRAFTED** 2026-10-06, HOOK NEEDED | funnels-c-d-e |
+| Absorb Software | Sue Funke | Senior Brand Marketing Manager | sue.funke@absorblms.com, Apollo-verified 10-06 | — | I | **DRAFTED** 2026-10-06, HOOK NEEDED | funnels-c-d-e |
 | Articulate | Sara Heegaard | Senior Content Marketing Manager | verified | — | I | BANKED | funnels-c-d-e |
 | Cornerstone OnDemand | Matthew Hyland | Lead Video Producer | verified | Amanda Murrin — Creative Director | I | BANKED | batch-08 |
 | Docebo | Manny Gonzalez | Sr. Creative Director | verified | — | I | BANKED | funnels-c-d-e |
@@ -250,11 +250,11 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 | Revolut | Tobi Fink | Head of Brand Activation | verified | Jack Denyer — Head of Creative Campaigns | O | BANKED | 2026-09-24-funnel-i-m-h-k |
 | Adyen | Hannes Michelke | VP, Head of Digital Content, Media & Communications | verified | Geert Van 't Riet — Head of Content & Design | O | BANKED — hook is 46 days old, re-check before drafting | 2026-09-25-funnel-i-j-k-l-m |
 | Monzo | Chris Mucklow-Norell | Head of Brand Marketing & Partnerships | verified | Maja Bayyoud — Head of Creative | O | BANKED | 2026-09-25-funnel-i-j-k-l-m |
-| Airwallex | Steven Watson | Global Head of Brand & Content | verified | Matt Jennings — Global Creative Director | H | BANKED | 2026-09-28-funnel-i-k-l-m |
+| Airwallex | Steven Watson | Global Head of Brand & Content | steven.watson@airwallex.com, Apollo-verified 10-06 | Matt Jennings — Global Creative Director | H | **DRAFTED** 2026-10-06, HOOK NEEDED | 2026-09-28-funnel-i-k-l-m |
 | Brex | Anna Graney | Staff Brand Producer | verified — **employer unconfirmed, see open items** | Iris Hung — Senior Brand Producer | O | BANKED — verify Graney's current employer before drafting | 2026-09-28-funnel-i-k-l-m |
 | Marqeta | Greer Burton | Creative Director | verified | Amy McWilliams — Sr. Content Marketing Manager | O | BANKED | 2026-09-29-research-batch |
 | Affirm | Andrew McIntyre | Associate Creative Director | verified | Kat Green — Director of Brand Marketing | O | BANKED — HOOK NEEDED | 2026-09-29-research-batch |
-| Plaid | Heather Mounsey | Head of Brand and Creative | hmounsey@plaid.com, Apollo-verified | Linda Eliasen — Head of Creative | H | BANKED — HOOK NEEDED, promising unverified lead (Tearsheet.co rebrand interview) — see contacts doc | 2026-09-30-research-batch |
+| Plaid | Heather Mounsey | Head of Brand and Creative | hmounsey@plaid.com, Apollo-verified 10-06 | Linda Eliasen — Head of Creative | H | **DRAFTED** 2026-10-06, HOOK NEEDED (the Tearsheet.co rebrand lead was opened 10-06 and confirmed real but dated Mar 2025 — too stale to use) | 2026-09-30-research-batch |
 | Ramp | Paul Jun | Creative Director, Brand | paul.jun@ramp.com, Apollo-verified | Karly Snajczuk — Senior Creative Producer | P | BANKED — HOOK NEEDED | 2026-09-30-research-batch |
 | Robinhood | Jen Vladimirsky | Creative Producer | jen.vladimirsky@robinhood.com, Apollo-verified | Stephanie Albala — Senior Creative Producer | G | **DRAFTED** 30 Sep, hook added — SEND-SOON, event-dated (HOOD Summit '26, Sept 29-30 2026) | 2026-09-30-funnel-g |
 | SoFi | Kelly Bonner | Creative Director | kbonner@sofi.com, Apollo-verified | Troy Huie — Creative Director (email domain returned as sofi.org by Apollo — unusual, verify before relying on it) | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
@@ -270,7 +270,7 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 | M2 Film | Marianne Bech | Executive Producer | confirmed on site | Kristian Mott — *not on team page, unresolved* | — | HELD | batch-11 |
 | Sarofsky | Paul Klinke (replaced Joel Signer, left) | — | paul.klinke@sarofsky.com | — | D | **SENT** 24 Sep | Bingo 24 Sep |
 | Tendril | Ivelle Jargalyn | — | ivelle@tendril.ca | — | D | **SENT** 24 Sep | Bingo 24 Sep |
-| BUCK | Jordan Howes | Head of Production | verified | Rebecca Dell — Executive Producer | H | BANKED — SEND-SOON, event-dated hook (Ladder Lad reveal) | 2026-09-25-funnel-i-j-k-l-m |
+| BUCK | Jordan Howes | Head of Production | jordan@buck.co, Apollo-verified 10-06 | Rebecca Dell — Executive Producer | H | **DRAFTED** 2026-10-06, hook verified 10-06 (Ladder Lad gameplay reveal, Gematsu, Sep 11 2026) | 2026-09-25-funnel-i-j-k-l-m |
 | Company 3 | Gurucharan Kirtiwar | Head of Production | verified | Michael Maida — Head of Production | R | BANKED — title mismatch vs. his own LinkedIn ("Line Producer"), verify before drafting | 2026-09-25-funnel-i-j-k-l-m |
 | Psyop | Andrew Linsk | Executive Producer | alinsk@psyop.tv, Apollo-verified | Ksenia Strelets — Producer | G | **DRAFTED** 30 Sep — pitch angle adjusted per segment note (reliability/turnaround over brand fit); HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |
 
@@ -304,9 +304,9 @@ Highest rate ceiling in the pipeline. Mostly BANKED; six DRAFTED 30 Sep (Funnel 
 | Wilson Sporting Goods | Naotaka Aogaki | Global Creative Director | verified | Tim McCaffrey — Creative Director | Q | BANKED | batch-06 |
 | On | Freddie Young | Head of Brand Studio, EMEA | verified | Luiza Baffa — Global Senior Director of Creative Studio | Q | BANKED | 2026-09-25-funnel-i-j-k-l-m |
 | Patagonia | Tristan Ahern | Producer, Global Storytelling Content and Brand Campaigns | verified | Vanina Lucas — Senior Film & Video Producer | Q | BANKED | 2026-09-25-funnel-i-j-k-l-m |
-| Garmin | Maggie Wasserman | Global Executive Producer | verified | Matt Bowne — Global Creative Director | H | BANKED | 2026-09-28-funnel-i-k-l-m |
-| Booking.com | Martijn Savenije | Head of Content Studio | verified — title differs slightly from a live conference bio, likely just stale, verify before send | Jess Valade — Global Head of Brand | H | BANKED | 2026-09-28-funnel-i-k-l-m |
-| Peloton Interactive | Anne Gaynor | Senior Executive Producer | verified | Erick Rodriguez — Creative Director | H | BANKED | 2026-09-28-funnel-i-k-l-m |
+| Garmin | Maggie Wasserman | Global Executive Producer | maggie.wasserman@garmin.com, Apollo-verified 10-06 | Matt Bowne — Global Creative Director | H | **DRAFTED** 2026-10-06, HOOK NEEDED | 2026-09-28-funnel-i-k-l-m |
+| Booking.com | Martijn Savenije | Head of Content Studio | martijn.savenije@booking.com, Apollo-verified 10-06 (title confirmed current) | Jess Valade — Global Head of Brand | H | **DRAFTED** 2026-10-06, HOOK NEEDED | 2026-09-28-funnel-i-k-l-m |
+| Peloton Interactive | Anne Gaynor | Senior Executive Producer | annemarie.gaynor@onepeloton.com, Apollo-verified 10-06 | Erick Rodriguez — Creative Director | H | **DRAFTED** 2026-10-06, hook verified 10-06 ("Let Yourself Run" Miley Cyrus Tread Flex campaign, PeloBuddy, Sep 22 2026) | 2026-09-28-funnel-i-k-l-m |
 | Bombas | Michelle Feffer | Senior Creative Producer | verified — HOOK NEEDED | Elliott Foos — Associate Creative Producer | R | BANKED | 2026-09-29-research-batch |
 | Warby Parker | Matthew Currie | Post Production Manager | verified | Carmel Quinn — Director, Creative Operations | R | BANKED | 2026-09-29-research-batch |
 | Rothy's | Cristalle Stutrud | Post Production Manager | verified | Anne Slater — Senior Director, Creative Operations | R | BANKED | 2026-09-29-research-batch |
@@ -328,11 +328,11 @@ Highest rate ceiling in the pipeline. Mostly BANKED; six DRAFTED 30 Sep (Funnel 
 | Goalhanger | Alistair Dixon | — | alistair@goalhanger.com | — | D | **SENT** 24 Sep | Bingo 24 Sep |
 | Purdue | Jason Doty | — | doty@purdue.edu | — | D | **SCHEDULED** 29 Sep 09:00 UK | Bingo 24 Sep |
 | Shelter (UK) | Leanne Ainsworth | — | — | — | D | **SKIPPED** 24 Sep — Spencer's decision, draft trashed | Bingo 24 Sep |
-| The Economist | Liv Moloney | Head of Video | verified | Saniya Keswani — Brand Marketing Manager | H | BANKED — strongest hook this batch | 2026-09-24-funnel-i-m-h-k |
+| The Economist | Liv Moloney | Head of Video | livmoloney@economist.com, Apollo-verified 10-06 | Saniya Keswani — Brand Marketing Manager | H | **DRAFTED** 2026-10-06, HOOK NEEDED (the vertical-video-strategy hook and the Insider video-series launch were both checked 10-06 and are too stale — Mar 2026 and Oct 2025) | 2026-09-24-funnel-i-m-h-k |
 | National Geographic | Jon Kroll | Executive Producer | verified | Lauren Jackson — Creative Producer + Strategist | G2 | DRAFTED 10-05 (VERIFY: no send-ready contact) | 2026-09-24-funnel-i-m-h-k |
 | NPR | Mito Habe-Evans | Creative Director / Supervising Producer, NPR Video | verified | Suraya Mohamed — Executive Producer | G2 | DRAFTED 10-05, LinkedIn PASS 10-05 | 2026-09-24-funnel-i-m-h-k |
 | TED Conferences | Eric Kondo | Executive Producer | verified | Michael Femia — Creative Director | R | BANKED | 2026-09-25-funnel-i-j-k-l-m |
-| Pushkin Industries | Constanza Gallardo | Head of Production & Executive Producer | verified | Justin Richmond — Executive Producer | H | BANKED — SEND-SOON, event-dated hook (Revisionist History Reconstruction series) | 2026-09-28-funnel-i-k-l-m |
+| Pushkin Industries | Constanza Gallardo | Head of Production & Executive Producer | constanza.gallardo@pushkin.fm, Apollo-verified 10-06 | Justin Richmond — Executive Producer | H | **DRAFTED** 2026-10-06, HOOK NEEDED (the Reconstruction series hook was checked 10-06: premiered Jun 5 2026, episodes ended Jul 16 2026 — too stale to use as a current event) | 2026-09-28-funnel-i-k-l-m |
 | Wondery | Tracy Egbas | Senior Producer | verified | Michaela Myers — Senior Producer | R | BANKED — HOOK NEEDED, check LinkedIn recent activity | 2026-09-28-funnel-i-k-l-m |
 | Smithsonian Institution | Ariana Lilligren | Head of Production | verified | Jonathan Ray — Producer, Webcast | G2 | DRAFTED 10-05, WRONG FIT: Ariana = exhibit fabrication, not video (LinkedIn 10-05); try Jonathan Ray (Webcast) or a video producer | 2026-09-28-funnel-i-k-l-m |
 | Audible | Miguel Barbieri | Video Producer | migbarbi@audible.com, Apollo-verified | Jaclyn Cataldi — Video Producer & Motion Designer | G | **DRAFTED** 30 Sep — HOOK NEEDED (WebFetch blocked session-wide) | 2026-09-30-funnel-g |

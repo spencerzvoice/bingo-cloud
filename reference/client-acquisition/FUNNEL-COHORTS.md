@@ -142,21 +142,21 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
 | ABB | Corporate and industrial in-house | Jose Monrabal | Kristen Smith | **DRAFTED 2026-10-01** — contact re-verified live via Apollo (still Head of Global Brand Communications, email verified); hook = ABB joins Ferrari Hypersail as Electrification Partner, GlobeNewswire 14 Sep 2026 (17 days old at draft time, worded to still read right); no re-voice sample built yet, draft closes with a custom-read offer instead; Gmail label "Funnel H" applied |
-| Pushkin Industries | Institutions and nonprofits and media | Constanza Gallardo | Justin Richmond | BANKED — SEND-SOON, event-dated hook (Revisionist History Reconstruction series) |
+| Pushkin Industries | Institutions and nonprofits and media | Constanza Gallardo | Justin Richmond | **DRAFTED 2026-10-06** — Apollo re-verified, email constanza.gallardo@pushkin.fm Verified; the Reconstruction-series hook was opened 10-06 and found too stale (premiered Jun 5 2026, episodes ended Jul 16 2026) — drafted HOOK NEEDED |
 | Smithsonian Institution | Institutions and nonprofits and media | Ariana Lilligren | Jonathan Ray | BANKED — SEND-SOON, event-dated hook (National Air and Space Museum video series) · MOVED to Funnel G2 2026-10-05 |
-| BUCK | Creative and production studios | Jordan Howes | Rebecca Dell | BANKED — SEND-SOON, event-dated hook (Ladder Lad reveal) |
-| Garmin | Consumer brands and travel | Maggie Wasserman | Matt Bowne | BANKED |
-| Peloton Interactive | Consumer brands and travel | Anne Gaynor | Erick Rodriguez | BANKED |
-| The Economist | Institutions and nonprofits and media | Liv Moloney | Saniya Keswani | BANKED — strongest hook this batch |
-| Booking.com | Consumer brands and travel | Martijn Savenije | Jess Valade | BANKED |
-| Airwallex | Fintech and payments | Steven Watson | Matt Jennings | BANKED |
-| Plaid | Fintech and payments | Heather Mounsey | Linda Eliasen | BANKED — HOOK NEEDED, promising unverified lead (Tearsheet.co rebrand interview) — see con |
+| BUCK | Creative and production studios | Jordan Howes | Rebecca Dell | **DRAFTED 2026-10-06** — Apollo re-verified, email jordan@buck.co Verified; hook verified 10-06: BUCK Games' "Ladder Lad" first-15-minutes gameplay reveal, Gematsu, Sep 11 2026 |
+| Garmin | Consumer brands and travel | Maggie Wasserman | Matt Bowne | **DRAFTED 2026-10-06** — Apollo re-verified, email maggie.wasserman@garmin.com Verified; no current verifiable hook found (newsroom checked through page 2, nothing since Jun 2026) — drafted HOOK NEEDED |
+| Peloton Interactive | Consumer brands and travel | Anne Gaynor | Erick Rodriguez | **DRAFTED 2026-10-06** — Apollo re-verified, email annemarie.gaynor@onepeloton.com Verified; hook verified 10-06: Peloton's "Let Yourself Run" campaign with Miley Cyrus for the new Tread Flex treadmill, PeloBuddy, Sep 22 2026 |
+| The Economist | Institutions and nonprofits and media | Liv Moloney | Saniya Keswani | **DRAFTED 2026-10-06** — Apollo re-verified, email livmoloney@economist.com Verified; the old "strongest hook" (vertical-video strategy, Mar 2026) and a fresher-looking Insider video-series launch (amediaoperator.com) were both opened 10-06 and are too stale (Mar 2026 / Oct 2025) — drafted HOOK NEEDED |
+| Booking.com | Consumer brands and travel | Martijn Savenije | Jess Valade | **DRAFTED 2026-10-06** — Apollo re-verified (title confirmed current), email martijn.savenije@booking.com Verified; no current verifiable hook found (Idris Elba "Booking.yeah" campaign found is from 2022) — drafted HOOK NEEDED |
+| Airwallex | Fintech and payments | Steven Watson | Matt Jennings | **DRAFTED 2026-10-06** — Apollo re-verified, email steven.watson@airwallex.com Verified; no current verifiable hook found (the "wrecking ball" brand campaign found is dated Aug 2025) — drafted HOOK NEEDED |
+| Plaid | Fintech and payments | Heather Mounsey | Linda Eliasen | **DRAFTED 2026-10-06** — Apollo re-verified, email hmounsey@plaid.com Verified; the Tearsheet.co rebrand/Heather Mounsey quote lead was opened 10-06 and confirmed real but dated Mar 11 2025 — too stale — drafted HOOK NEEDED |
 
 ### Funnel I
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| 360Learning | Corporate L&D and LMS software | Marta Lisboa | Robin Nichols | BANKED |
-| Absorb Software | Corporate L&D and LMS software | Sue Funke | — | BANKED |
+| 360Learning | Corporate L&D and LMS software | Marta Lisboa | Robin Nichols | **DRAFTED 2026-10-06** — Apollo re-verified, email marta.lisboa@360learning.com Verified; no current verifiable hook found — drafted HOOK NEEDED |
+| Absorb Software | Corporate L&D and LMS software | Sue Funke | — | **DRAFTED 2026-10-06** — Apollo re-verified, email sue.funke@absorblms.com Verified; no current verifiable hook found — drafted HOOK NEEDED |
 | Articulate | Corporate L&D and LMS software | Sara Heegaard | — | BANKED |
 | Cornerstone OnDemand | Corporate L&D and LMS software | Matthew Hyland | Amanda Murrin | BANKED |
 | Docebo | Corporate L&D and LMS software | Manny Gonzalez | — | BANKED |
@@ -365,3 +365,29 @@ Ran LinkedIn research (2 parallel subagents, WebSearch + WebFetch, activity-ID d
 **Separate finding, outside Hook Sweep's scope to fix:** all 9 TAKE PENDING drafts (built 2026-10-05 ~10:33 Pacific, i.e. before that night's decision) still carry the line "I have a warm bass/baritone voice, and I record and produce everything myself" — per MEMORY.md Key facts (2026-10-05 night), Spencer cut this line from cold pitches ("if we're attaching samples, I don't need to say what kind of voice I have") and the QC hook now bans it on new writes. Hook Sweep's mandate only touches the hook paragraph (and the intro line, which these drafts already have correctly per the PITCH-TEMPLATE.md override — "My name is Spencer Pearman...", NOT the routine prompt's stale "Let me introduce myself" instruction, which CLAUDE.md's 2026-10-05 override explicitly replaces and was correctly skipped this run). Rewriting the voice-line wording across 9 live drafts is out of scope here; flagging for Spencer or the next Lead Batch/QC pass to clean up.
 
 ## Pitch-queue count after this run: N=10, unchanged (no new drafts created — this is a Hook Sweep run, not a Lead Batch run). Recount from live Gmail before the next run, don't trust this line.
+
+## Lead Batch run, 2026-10-06 — 10 new drafts, queue topped up to 20/20
+
+Pitch queue recount from live Gmail at run start (all 10 drafts read, headers checked — none are replies, none start "Re:"; `in:sent` checked for all 10 recipients, zero prior contact): **N = 10** pre-existing new-client pitch drafts (Psyop/Andrew Linsk, UiPath/Carter Elkin-Paris, Gong/Hannah Brozek, SoFi/Kelly Bonner, Robinhood/Jen Vladimirsky, ABB/Jose Monrabal — all Funnel G/H — plus lululemon/Cameron Aspinwall, Instacart/Taylor Erin, Toast/Eleanor Scott, YETI/Jesse Hill, all Funnel G). The Hitachi Rail/Julie Rolland-Didelin NOT READY draft noted in the 10-05 run doc is no longer in Drafts (not in Sent or Trash either — not investigated further this run).
+
+**Apollo re-verification:** 10-person bulk match + waterfall email, all 10 CURRENT at the same title/company as the roster, all emails Verified (ZeroBounce valid 2026-10-06) — see APOLLO-LEDGER.md entry same date (23 credits, balance 2447 -> 2424).
+
+**Drafted this run, strict funnel order per CLAUDE.md override 5d (H before I), exhausting the rest of Funnel H first:**
+| Company | Funnel | Contact | Email | Hook |
+|---|---|---|---|---|
+| Pushkin Industries | H | Constanza Gallardo | constanza.gallardo@pushkin.fm | HOOK NEEDED (Reconstruction series too stale, see roster) |
+| BUCK | H | Jordan Howes | jordan@buck.co | Verified — Ladder Lad gameplay reveal, Gematsu, Sep 11 2026 |
+| Garmin | H | Maggie Wasserman | maggie.wasserman@garmin.com | HOOK NEEDED |
+| Peloton Interactive | H | Anne Gaynor | annemarie.gaynor@onepeloton.com | Verified — "Let Yourself Run" Miley Cyrus Tread Flex campaign, PeloBuddy, Sep 22 2026 |
+| The Economist | H | Liv Moloney | livmoloney@economist.com | HOOK NEEDED |
+| Booking.com | H | Martijn Savenije | martijn.savenije@booking.com | HOOK NEEDED |
+| Airwallex | H | Steven Watson | steven.watson@airwallex.com | HOOK NEEDED |
+| Plaid | H | Heather Mounsey | hmounsey@plaid.com | HOOK NEEDED (Tearsheet.co lead confirmed real but too stale) |
+| 360Learning | I | Marta Lisboa | marta.lisboa@360learning.com | HOOK NEEDED |
+| Absorb Software | I | Sue Funke | sue.funke@absorblms.com | HOOK NEEDED |
+
+This exhausts the rest of Funnel H (the remaining 2 — Smithsonian and the earlier note's companies — were already moved to Funnel G2 on 10-05) and opens Funnel I with its first 2 of 10. **Funnel H is now fully drafted** (ABB 10-01, Smithsonian + TVA + Siemens Energy + NPR moved to G2 10-05, these 8 today). Funnel I has 8 companies remaining (Articulate, Cornerstone OnDemand, Docebo, Go1, Vyond, Litmos, Cloudflare, Confluent) for the next run.
+
+All 10 drafts carry the yellow NOT READY LinkedIn-check line (cloud-built, per CLAUDE.md override 2) and the house PITCH-TEMPLATE.md format (QC hook passed on every write, no retries needed). Gmail label "Funnel H" applied to the 8 Funnel H drafts (label created 09-30, `Label_4`); label "Funnel I" created this run (`Label_6`) and applied to the 2 Funnel I drafts. Detail doc: `contacts/2026-10-06-funnel-h-i.md`.
+
+**Pitch-queue count after this run: N=10 existing + 10 new = 20/20.** Recount from live Gmail before the next run, don't trust this line.
