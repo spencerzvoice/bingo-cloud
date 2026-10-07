@@ -324,3 +324,7 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 - daniel@micro1.ai, "A voice for micro1's video work". Gmail msg 1a116fe314c4cc3f, **scheduled for Wed 10-07 16:32 Lisbon** (8:32 Pacific). Live Gmail 12:12 Lisbon: no Sent label yet. Spencer said it went out "last night", but it's actually scheduled.
 - Spencer's final wording (his own edits): hook take = PersonalAgentBench "a brilliant way to get more Human Data and get micro1 in the conversation alongside these cutting edge technologies"; background = "worked on multiple projects with micro1 as an Expert/Reviewer, so I'm intimately familiar with the company and the inner workings. I love to see us win!"; bridge = "...come through micro1 and out to the world, and I strongly believe I can help micro1 tell their story." Re-voice take linked (Drive file 1jr130ilKMSX1BB3VCcETNh-tsG-af0bR). Tracker row 173.
 - Follow up on: touch 2 Wed 10-14 (day 7) to Fri 10-16 (day 9). Verify it actually sent first.
+
+## 2026-10-07 — Psyop / Andrew Linsk — OOO auto-reply on Funnel G pitch
+- Pitch "A voice for Psyop's video work" sent 10-07 13:32 Lisbon (Gmail 1a11659678dbd3df). OOO auto-reply 05:32 PT (1a116597cdb59c92): slow to respond, no return date, no alternate named. Title now EP + Global Director of Studio Partnerships, Psyop Group.
+- Decision (Spencer): stay on Andrew, backup Ksenia Strelets held. Follow up on: **touch 2 between 10-14 and 10-17** (Spencer's hard window), drafted that week as a thread reply. Ledger: memory/followups-queue.md.

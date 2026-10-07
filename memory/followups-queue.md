@@ -211,3 +211,9 @@ Live Gmail 10-07 12:12 Lisbon: msg 1a116fe314c4cc3f (thread 1a11352162966db3) is
 | Contact | Company | Sent | Touch | Type | Reminder | Overdue | Notes |
 |---|---|---|---|---|---|---|---|
 | Daniel Warner | micro1 | 2026-10-07 16:32 Lisbon (scheduled; confirm in Sent) | 1 | cold (past client: Spencer was a micro1 Expert) | Wed 2026-10-14 (prep Tue 10-13 eve) | Fri 2026-10-16 | thread reply; send ~8:00 Pacific = 16:00 Lisbon; Funnel H |
+
+## 2026-10-07 — Psyop / Andrew Linsk: touch 2 LOCKED (Spencer: "make sure that email goes out between the 14th and the 17th")
+Pitch sent Wed 10-07 13:32 Lisbon (Gmail Sent 1a11659678dbd3df, thread 1a10d20a32df82d9, verified). Andrew auto-replied OOO 10-07 05:32 PT (msg 1a116597cdb59c92): "slow to respond", no return date, no forwarding contact. New title in his signature: EP + Global Director of Studio Partnerships, Psyop Group.
+| Contact | Company | Sent | Touch | Type | Reminder | Overdue | Notes |
+|---|---|---|---|---|---|---|---|
+| Andrew Linsk | Psyop | 2026-10-07 13:32 Lisbon | 1 | cold (studio) | **Wed 2026-10-14 (DRAFT Tue 10-13 eve prep or Wed morning)** | **Fri 2026-10-16** (10-17 = Sat) | Spencer's hard window 10-14..10-17: the draft MUST exist in Drafts by Wed 10-14 morning. Thread reply in 1a10d20a32df82d9. Stay on Andrew; do NOT switch to backup Ksenia Strelets (kstrelets@psyop.tv) unless he's silent after the final or a 2nd auto-reply shows a long absence (then same-day Apollo + LinkedIn gate first). Funnel G |
