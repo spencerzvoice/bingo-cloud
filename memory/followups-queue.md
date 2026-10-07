@@ -1,5 +1,11 @@
 # Follow-ups queue + schedule ledger
 
+## PARKED: they said they'll reach out. No touches of any kind (cadence, nudge, favor, review ask) until they write first (Spencer, 2026-10-07)
+| Company | Who said it | When (Gmail, read 2026-10-07) |
+|---|---|---|
+| Xpedition Media | Becca Winkler: "I'll be sure to reach out whenever we have something new that fits" | 07-31; again "nothing new to update" 09-28 |
+| Noah Media Group | Neil Housley: "will defo keep you in mind for anything that comes my way" (covers Dan Shaw too) | 09-04 |
+
 Maintained by the `followup-drafts` skill. Two parts: (1) the **schedule ledger** = the reminder dates, driven by the cadence rules; (2) the **draft queue** = drafts waiting for Spencer to review + send.
 
 ## Cadence rules (Spencer, 2026-09-24: "follow the rule more closely; remind me when they're DUE, not daily")
@@ -229,3 +235,7 @@ Warm 09-11 batch (touch 3). Live Gmail 10-07: no replies/bounces on any thread; 
 | Devin Leisher | TBC | 1a0494e1c2b0c0b0 | r-7463247071458706633 | 3 | drafted |
 | Poullet | Tellary | 1a03e54d06febd95 | r7322013852635130595 | 3 | drafted |
 Not drafted: Lilah Kohlman (Altra): Spencer's 10-07 review-request draft (r-589186875659813139) already sits in her thread 1a042e4b9f0a15cd. Overdue nudge Fri 11-06 unchanged. Tracker not updated (nothing sent yet).
+
+## 2026-10-07 late: draft cleanup (desktop, Spencer: "were they supposed to go out?")
+Trashed (recoverable in Gmail Trash): Dan Shaw touch 3 (r-4394978517082630472; Noah PARKED, Neil 09-04) and the Xpedition review ask to Rebekah Bell (r-9136878632342349091; Becca said she'd reach out). Root cause: evening prep checked replies only inside each ledger thread, not `from:<domain>`; the review asks came from the desktop "Online presence audit" session, which never checked thread state. Rule added: followup-drafts SKILL step 3 "PARKED".
+Warm touch 3 still in Drafts for Thu 10-08 (no reply anywhere from their domains since 08-25, live Gmail): Melissa Gillis, Mel Kane, Taylor Ballam, Devin Leisher, Poullet. Review asks still in Drafts, awaiting Spencer's call: KU Steve+Liz, Rune Haus Kenz, Climb High Evan, Acclaim Michael, Diamond View Kayla, Shadow Lion Ryan, Lilah.
