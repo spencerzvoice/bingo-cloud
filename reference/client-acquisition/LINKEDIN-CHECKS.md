@@ -41,3 +41,12 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-06 | Maggie Wasserman | Garmin | linkedin.com/in/maggie-wasserman | "Global Executive Producer, Garmin International, 2017 - Present" | PASS
 2026-10-06 | Jordan Howes | BUCK | linkedin.com/in/jordan-howes-7094b347 | "Head of Production, BUCK, Oct 2023 - Present, Sydney" | PASS
 2026-10-06 | Constanza Gallardo | Pushkin Industries | linkedin.com/in/constanzagp | "Head of Production & Executive Producer, Pushkin Industries, Aug 2025 - Present" | PASS
+2026-10-07 | Sarah Karlan | Airbnb | linkedin.com/in/sarah-karlan-8aa438102 | top card "Creative for hire, currently @airbnb", company Airbnb | PASS
+2026-10-07 | Jessica Liu | Cloudflare | linkedin.com/in/jessica-jliu | "Video Production Manager @ Cloudflare", Amsterdam | PASS
+2026-10-07 | Thao Ngo | Litmos | linkedin.com/in/thaongo | top card company Litmos | PASS
+2026-10-07 | Kevin Kartono | Vyond | linkedin.com/in/kevin-adiyanto-kartono-4a0831130 | "Senior Video Producer at Vyond" | PASS
+2026-10-07 | Olivia Mitchell | Go1 | linkedin.com/in/olivia-mitchell-mktg | "Content Marketing Manager At Go1" | PASS
+2026-10-07 | Manny Gonzalez | Docebo | linkedin.com/in/mannygonzalez | "Sr. Creative Director @ Docebo" | PASS
+2026-10-07 | Matthew Hyland | Cornerstone OnDemand | linkedin.com/in/matthew-hyland | top card company Cornerstone OnDemand | PASS
+2026-10-07 | Sara Heegaard | Articulate | linkedin.com/in/saraheegaard | "Senior Content Marketing Manager at Articulate" | PASS
+2026-10-07 | Daniel Yoo | Confluent | linkedin.com/in/danielyoomedia | experience: "Senior Creative Producer, Confluent, Sep 2024 - Apr 2026" (linkedin.com/in/danyoo is a different person) | LEFT - To cleared, backup Marissa Schneider pending Spencer

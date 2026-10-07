@@ -33,7 +33,12 @@ subject = str(msg.get("Subject", "") or "")
 if subject.strip().lower().startswith("re:") or msg.get("In-Reply-To") or msg.get("References"):
     sys.exit(0)  # follow-up / thread reply: different format, not checked here
 
+# Only new-client PITCHES are checked: subject "A voice for ..." or a body using the pitch's go-to line.
+# Review requests, roster submissions and other one-off emails pass (Lilah Kohlman review ask, Great Voices, 10-06/10-07).
 part = msg.get_body(preferencelist=("html", "plain"))
+_body = part.get_content() if part else ""
+if not subject.strip().lower().startswith("a voice for") and "go-to Voiceover Artist" not in _body:
+    sys.exit(0)
 content = part.get_content() if part else ""
 # Inline tags (links, highlights) are dropped so a linked "spencerzvoice.com" or title still matches;
 # block tags become spaces. Spencer links the site himself in Gmail (YETI, 2026-10-07).
@@ -76,6 +81,7 @@ ban(r"keep on file", "old close 'keep on file'")
 ban(r"custom read", "'custom read' offer (re-voice line is never substituted)")
 ban(r"american voice|professional american", "'American' in the voice line")
 ban(r"low-register", "'low-register'")
+ban(r"starting with the videos that will tell this story", "old 10-05 bridge (format v2 uses the callback: 'like bringing the news of <event> to the world')")
 # v2 (2026-10-07): Bingo writes the whole hook and leaves a yellow [Source: <link>] marker for Spencer.
 if "[Source:" in content and "href" not in content.split("[Source:", 1)[1][:400]:
     fails.append("[Source: ...] marker is not a clickable link")
