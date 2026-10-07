@@ -153,6 +153,14 @@ After the internal read, give a response Spencer can paste straight into the sit
 
 Two short paragraphs is the target.
 
+**GOLD STANDARD (Spencer, 2026-10-07: "This is a perfect write-up... exactly what I want to deliver as a response in these situations").** Match this shape, length and tone every time:
+
+> Just to clarify a few things about the project before we get started: the brief pairs a full year of national television with an in-perpetuity non-broadcast license, which are priced separately, and no category exclusivity is included at this rate. As briefed, national TV for one year plus the in-perpetuity non-broadcast license comes to $6,350 at industry rates. Rescoped to a three-month national TV run, which typically matches a seasonal golf campaign, plus the non-broadcast license, it's $2,450. Either works, depending on how long the spot will be on air.
+>
+> Within your budget of $1,749, I can deliver national TV usage for three months; the in-perpetuity non-broadcast license and any additional months on air would be added on top.
+
+Why it works: findings in one run-on sentence (stacked licences + exclusivity not included) · as-briefed figure with scope named · rescoped figure with a plain-English reason tied to the job (seasonal campaign) · one-line either/or · close names exactly what the budget buys and what's on top. "Industry rates", never "GVAA".
+
 **RULE 0:** grid cells are ✅ only if the live guide was opened THIS session (it's behind a sign-up gate — Spencer signs in). Otherwise they are "Per card (read 2026-09-19), not reopened" — never write "Verified" for them, and tag each guide claim inline where it's used. Anything the brief didn't state (client, real brand, "digital" meaning, territory) is a `[bracket]` or flag, never asserted. Every quote ends with the verification footer. Never invent a rate or multiplier that isn't in the grid — bracket it and open the live guide.
 
 ## Flag checklist (⚑ line — only the ones that apply)
