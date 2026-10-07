@@ -120,7 +120,7 @@ The ranked shortlist lives in `funnel-c-top-10.md`.
 | 2U / edX | **Toby Riley** (corrected 25 Sep — not "Ridley") | Creative Director | **triley@2u.com, verified** | Waide Grandison — CD, Multimedia-Marketing | C2 | package built, undrafted | Bingo 24 Sep |
 | Domestika | Valeria Flores | Content Production Manager | **valeria@domestika.org, Apollo-verified 25 Sep** | — | C2 | package built, undrafted, ready to draft | Bingo 24 Sep / Apollo enrichment 25 Sep |
 | Pluralsight | Lydia Crisp | Senior Manager, Content Production | verified | Amanda Squire — Director, Creative Services | C2 | **DRAFTED** 11 Sep (old format — rewrite once the take exists) | batch-04 / Bingo 24 Sep |
-| Thinkific | Eric Smith | Video Producer | verified | Evan Lepage — Director, Content and Creative | C2 | **DRAFTED** 11 Sep (old format — rewrite once the take exists) | batch-04 / Bingo 24 Sep |
+| Thinkific | Eric Smith | Video Producer | DEAD (no longer in use) | Evan Lepage, Kevin Cho - both DEAD | C2 | **PARKED 2026-10-08**: video team gone (Kevin Cho left Sep 2026, live LinkedIn); all 3 addresses Kind.Bounce. Kevin Cho now his own lead (itskcho@gmail.com) | batch-04 / Bingo 08 Oct |
 | Berklee Online | — | — | **no usable contact** — Zachary Lucia moved to Alumni Affairs, Craig Reed left | — | — | PARKED, no Drive folder — needs a fresh contact search, not enrichment | Bingo 24 Sep |
 | sofatutor | Tanja Szyska | Educational Lead, New Content | verified | Michail Fuchs — Marketing Manager | — | HELD — reason unrecorded, no Drive folder | batch-11 |
 | Platzi | Daniel Gutierrez | Production Manager | affiliation unconfirmed | Mario Ojeda — Post Production | — | DROPPED | batch-10 |

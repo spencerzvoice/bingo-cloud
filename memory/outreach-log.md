@@ -349,3 +349,8 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - Follow up on: Tue 10-13 (text Tyler if still unpaid); retainer pitch to Tyler + Dani Wed 10-14 if paid, Thu 10-15 regardless (Tue 10-13 = business day after Columbus/Indigenous Peoples' Day, avoid for pitches)
 - Result:
 - 10-08 update, Joanne Pratt: connect request SENT. Her live experience page shows Straive Senior Manager since Jul 2026 plus the LearningMate post-production role still current ("role continued following organisational transition"). joanne.pratt@learningmate.com is still Verified (Apollo + ZeroBounce valid 10-07 23:17 UTC). No bounce or reply to either touch (09-23, 09-29). No resend. The final touch stays on the existing thread in the ledger window (Wed 10-14 to Tue 10-20).
+
+
+## 2026-10-08 - Thinkific parked, Kevin Cho added
+- **Thinkific PARKED.** Kevin Cho's live LinkedIn (opened 10-08): Sr. Video Team Manager at Thinkific May 2020 - Sep 2026, left; farewell post ~1w ago names Eric Smith + Jony Roy as the 3-person video team. All three addresses (eric.smith@, evan.lepage@, kevin.c@) got Thinkific's 'Kind.Bounce' no-longer-in-use reply 09-29. Apollo 'verified' is meaningless there (server accepts then bounces). Tracker row 146 -> Dropped.
+- **NEW LEAD: Kevin Cho**, freelance commercial/music-video director-producer, Vancouver, LinkedIn Open to Work. Email itskcho@gmail.com (from his own site itskcho.com/contact, opened 10-08). Portfolio: itskcho.com (3LAU 'TOKYO', Filmora spots). Possible hook: his Thinkific farewell post. Tracker row 184, Lead - Not Contacted. Not drafted.
