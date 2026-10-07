@@ -50,3 +50,5 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-07 | Matthew Hyland | Cornerstone OnDemand | linkedin.com/in/matthew-hyland | top card company Cornerstone OnDemand | PASS
 2026-10-07 | Sara Heegaard | Articulate | linkedin.com/in/saraheegaard | "Senior Content Marketing Manager at Articulate" | PASS
 2026-10-07 | Daniel Yoo | Confluent | linkedin.com/in/danielyoomedia | experience: "Senior Creative Producer, Confluent, Sep 2024 - Apr 2026" (linkedin.com/in/danyoo is a different person) | LEFT - To cleared, backup Marissa Schneider pending Spencer
+2026-10-07 | Jesse Holden | Confluent | linkedin.com/in/jessejholden | experience "Director of Video, Confluent, Jan 2024 - Apr 2026" (Apollo still says current) | LEFT - not used
+2026-10-07 | Caitlin Scholz | Confluent | linkedin.com/in/caitlin-scholz | experience "Brand Marketing Senior Content Manager, Confluent, Jun 2024 - Present" | PASS - new Confluent contact

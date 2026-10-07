@@ -9,7 +9,7 @@ Source: Spencer's own sends and edits of 2026-10-07 (Toast, UiPath, Psyop, Robin
 
 Hello <First>, I hope this message finds you well!          (casual, younger men: "Hi <First>, hope you're doing well!")
 
-Saw <Company> just <event, from the source>. <ONE short, plain reaction sentence grounded in a specific detail from the source>. Congrats on the <launch | release | new collaboration | new technology | news | recognition>! <span style="background-color:#ffff00">[Source: <a href="URL">Publication, Mon D, YYYY</a>. Delete this before sending]</span>
+Saw <Company> just <event, from the source>. <ONE short, plain reaction sentence grounded in a specific detail from the source>. Congrats on the <launch | release | new collaboration | new technology | news | recognition>!! <span style="background-color:#ffff00">[Source: <a href="URL">Publication, Mon D, YYYY</a>. Delete this before sending]</span>
 
 My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal.
 
@@ -25,6 +25,8 @@ Feel free to reach out or schedule a call if you'd like to talk about working to
 
 Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
 ```
+
+**Double exclamation point (Spencer, 2026-10-07: "use the double exclamation point where applicable. It's something that I do frequently, and it adds a bit more of my personality"):** the hook's Congrats line ends in "!!" ("Congrats on the launch!!"), and so does any other excited line in the hook or callback (his YETI "great call!!", Gong "very exciting news!!"). The fixed template lines (greeting, re-voice line, close) keep a single "!" so every pitch reads the same at the edges.
 
 **Hook rules (v2):**
 - Read the source first (watch the video if it's a video). The congrats word fits the event: a product/feature = "launch" or "release", a partnership = "new collaboration", R&D = "new technology", an award/ranking = "recognition", anything else = "news". If no congrats makes sense, there is no hook.
