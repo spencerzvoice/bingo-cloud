@@ -328,3 +328,6 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 ## 2026-10-07 — Psyop / Andrew Linsk — OOO auto-reply on Funnel G pitch
 - Pitch "A voice for Psyop's video work" sent 10-07 13:32 Lisbon (Gmail 1a11659678dbd3df). OOO auto-reply 05:32 PT (1a116597cdb59c92): slow to respond, no return date, no alternate named. Title now EP + Global Director of Studio Partnerships, Psyop Group.
 - Decision (Spencer): stay on Andrew, backup Ksenia Strelets held. Follow up on: **touch 2 between 10-14 and 10-17** (Spencer's hard window), drafted that week as a thread reply. Ledger: memory/followups-queue.md.
+
+## 2026-10-07 evening - warm touch-3 drafts (cloud prep)
+6 threaded drafts in Gmail for Thu 10-08: Dan Shaw (Noah), Melissa Gillis (ATTN), Mel Kane (Invision), Taylor Ballam (Modo), Devin Leisher (TBC), Poullet (Tellary). Follow up on: after send, next warm check-in 4-8 wks. Lilah skipped (review-request draft in thread). Details: followups-queue.md.

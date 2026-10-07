@@ -217,3 +217,15 @@ Pitch sent Wed 10-07 13:32 Lisbon (Gmail Sent 1a11659678dbd3df, thread 1a10d20a3
 | Contact | Company | Sent | Touch | Type | Reminder | Overdue | Notes |
 |---|---|---|---|---|---|---|---|
 | Andrew Linsk | Psyop | 2026-10-07 13:32 Lisbon | 1 | cold (studio) | **Wed 2026-10-14 (DRAFT Tue 10-13 eve prep or Wed morning)** | **Fri 2026-10-16** (10-17 = Sat) | Spencer's hard window 10-14..10-17: the draft MUST exist in Drafts by Wed 10-14 morning. Thread reply in 1a10d20a32df82d9. Stay on Andrew; do NOT switch to backup Ksenia Strelets (kstrelets@psyop.tv) unless he's silent after the final or a 2nd auto-reply shows a long absence (then same-day Apollo + LinkedIn gate first). Funnel G |
+
+## 2026-10-07 evening prep (cloud, for Thu 2026-10-08)
+Warm 09-11 batch (touch 3). Live Gmail 10-07: no replies/bounces on any thread; no pre-existing follow-up drafts. Angle = relaunched site + fresh reels (MEMORY 10-06, not reopened). Day-before push + email sent. Send Thu 10-08 (not Fri 10-09).
+| Contact | Company | Thread | Draft ID | Touch | Status |
+|---|---|---|---|---|---|
+| Dan Shaw | Noah Media | 1a0589fb8c2c66b6 | r-4394978517082630472 | 3 (warm) | drafted |
+| Melissa Gillis | ATTN | 1a04946d9140e58c | r3803395372938992680 | 3 | drafted |
+| Mel Kane | Invision | 1a0494a9c0be8b9a | r-7016271837921781820 | 3 | drafted |
+| Taylor Ballam | Modo | 1a0494cb5b347d8b | r-736662120610583401 | 3 | drafted |
+| Devin Leisher | TBC | 1a0494e1c2b0c0b0 | r-7463247071458706633 | 3 | drafted |
+| Poullet | Tellary | 1a03e54d06febd95 | r7322013852635130595 | 3 | drafted |
+Not drafted: Lilah Kohlman (Altra): Spencer's 10-07 review-request draft (r-589186875659813139) already sits in her thread 1a042e4b9f0a15cd. Overdue nudge Fri 11-06 unchanged. Tracker not updated (nothing sent yet).
