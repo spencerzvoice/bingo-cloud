@@ -339,3 +339,12 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - **Not sent (3):** Joanne Pratt (LearningMate): her live top card says **Straive**, not LearningMate. 🟡 Straive may own LearningMate now; not confirmed. · Wes (ClickUp): no surname on file, no ClickUp match on LinkedIn · Amalia Ho (monday.com): no LinkedIn match (search returns Amelia Ho; Apollo found no match on 09-23).
 - Excluded on purpose: dropped/left contacts (Kyle Osher, Brian Sherry, Cody McPherson, Quintanilla, Collins Pace, IxDF, PINKTUM, Shelter, Big Think) and Funnel A.
 - Seen on the profiles: Mito Habe-Evans' headline now reads "Senior Creative Producer, NPR Visuals" · Clare Shepstone's current company shows as "iAM Compliant" · Kasey Hickey's name shows as Kasey Fleisher Hickey (Retool).
+
+## 2026-10-08 - Altra Running (Tyler Gorky) - payment nudge (warm, thread reply)
+- Contact: Tyler Gorky, Global Creative Producer, Tyler_Gorky@vfc.com (To only; no cc)
+- Hook / angle: invoice NL-2026-007 ($900, due on receipt 10-05) unpaid; Tyler told Spencer verbally he'd pay Monday 10-05
+- Ask: card payment via Wise link by end of week; final video when ready; any new product videos on the books?
+- New email or thread reply: thread reply, "Re: 15 Year Sizzle VO"
+- Status: SENT by Spencer Thu 10-08 00:08 Lisbon (Gmail Sent msg 1a118a0507f8ec85, verified live)
+- Follow up on: Tue 10-13 (text Tyler if still unpaid); retainer pitch to Tyler + Dani Tue 10-13 if paid, Thu 10-15 regardless
+- Result:
