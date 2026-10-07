@@ -1,6 +1,6 @@
 # VO Pipeline Digest - routine prompt (source of truth)
 
-Run by the Code routine "VO Pipeline Digest (repo)". Edit THIS file to change the digest; the routine prompt only points here. Moved off Cowork 2026-10-07 (Cowork routine `trig_01PTnXAXdmvLjyqBCnsgPXVz` disabled, not deleted).
+Run by the Code routine "VO Pipeline Digest (repo)" (daily 07:15 UTC), which also does the morning follow-up reminder (Step 0b). Edit THIS file to change the digest; the routine prompt only points here. Moved off Cowork 2026-10-07 (Cowork routine `trig_01PTnXAXdmvLjyqBCnsgPXVz` disabled, not deleted).
 
 ---
 
@@ -34,6 +34,14 @@ Step 0 - Read Bingo's follow-up ledger (this routine runs on the Bingo repo; Spe
 - The ledger decides WHEN. A contact on the ledger is due today only if its reminder date is today or earlier and Step 3 shows the touch has not gone out and no reply came in. A ledger date in the future = not due, whatever the tracker flag says. A contact in the ledger's "Unscheduled backlog" = not due (list it nowhere except, on Mondays, one HEADS UP line "backlog waiting on your go/no-go: <names>").
 - Rows not on the ledger fall back to the FOLLOW-UP CADENCE rules below.
 - If the tracker's Next Action and the ledger disagree on a date, the ledger wins; fix Next Action to "Next touch: <ledger date>" and say so under HEADS UP.
+
+Step 0b - Morning follow-up duties (merged in 2026-10-07 from the "VO follow-ups - morning reminder" routine `trig_01DpDZ6iUiSxXXWxc4eAreof`, now disabled; Spencer: the routine list was supposed to get smaller):
+Read `.claude/skills/followup-drafts/SKILL.md` and do its MODE = remind work as part of this run. NOTHING IS EVER SENT OR SCHEDULED - drafts and reminders only.
+- Via FGAC confirm which queued drafts in `memory/followups-queue.md` were SENT since the last run (Sent folder, same thread) and which drafts still exist. For each confirmed send, roll the ledger forward from the SEND date per the cadence table (next reminder + overdue dates, or after a final touch the quarterly long-tail LT1 date per the skill) and update `memory/outreach-log.md`. Tracker updates for these rows happen in Step 4 like any other row.
+- Work out what is due TODAY: ledger rows whose reminder date is today, or whose overdue date is today and still unsent. Triage against live Gmail (skip replied / OOO / held / 3rd-touch-done with no LT touch due). Make sure a draft exists for each (threaded; LT touches = new email per the skill), creating missing ones, max ~12, in Spencer's voice with real sourced new proof per the skill and the outreach-email voice rules.
+- Those rows ARE the digest's FOLLOW-UPS DUE TODAY section (mark each "draft ready" when the draft exists). Overdue-day rows say "last day of the window".
+- If anything is due today, the Step 6 push leads with: "N follow-ups DUE TODAY: drafts are in your Gmail Drafts. Review + send now: <names>." The digest email replaces the old separate "VO follow-ups due today" email. If nothing is due, the digest says "No follow-ups due today." and the push does too.
+- Spencer's standing rule (2026-09-24): remind him WHEN a follow-up is due, not every day, so a due item must never be buried below other sections.
 
 Step 1 - Find the correct file (every run, fresh):
 Search Google Drive via FGAC for a file titled EXACTLY "VO Outreach Pipeline Tracker" located in the root of My Drive (top-level folder only, not any subfolder - the file may have been deleted and recreated since the last run, so always search fresh by title and location, never reuse a cached ID).
