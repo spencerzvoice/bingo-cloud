@@ -201,3 +201,6 @@ Shell / Jane Sayers (warm, 10-06): live Gmail = Jane 10-05 12:25 UTC asked for t
 
 ## 2026-10-06 evening prep (cloud, for Wed 2026-10-07)
 Ledger check: no reminder or overdue date falls on Wed 10-07. Next due: warm check-ins sent 09-11 (Dan Shaw, Lilah, Melissa, Mel Kane, Taylor Ballam, Devin Leisher, Poullet) reminder Thu 10-08 -> prep Wed 10-07 eve. Nothing drafted, no push, no email. Live Gmail not queried (nothing due).
+
+## 2026-10-07 digest audit (desktop)
+Digest's 9 "due today" were all false (live Gmail Sent verified). Dates unchanged: warm 09-11 batch Thu 10-08; Jim Levi Wed 10-14; MacMillan = October revisit, suggested Tue 10-20 with Anomaly batch (Spencer to confirm); Prokos closed; Ryan Lago stays in unscheduled backlog. Tracker Next Action now carries these dates. Detail: memory/2026-10-07.md.
