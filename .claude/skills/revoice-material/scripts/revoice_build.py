@@ -9,7 +9,7 @@ Desktop relay (Spencer, 2026-10-06): YouTube blocks the cloud's IP, not this PC'
 can't download its pick, it uploads sources.txt (URL on line 1) to the client folder and moves on;
 `--all` on the desktop finishes the package and Drive sync uploads it.
 """
-import gzip, json, os, re, shutil, subprocess, sys, tempfile
+import gzip, json, os, re, shutil, subprocess, sys, tempfile, zlib
 import xml.etree.ElementTree as ET
 
 FF = r"C:\Users\spenc\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.1-full_build\bin"
@@ -157,15 +157,20 @@ def patch_clip(xml, track_name, fpath, abs_path=None):
     raise RuntimeError(f"track {track_name} not found")
 
 
+def read_als(als):
+    """Ableton's gzip can carry trailing bytes that gzip.open rejects (Airwallex, Booking.com 10-07)."""
+    return zlib.decompressobj(31).decompress(open(als, "rb").read()).decode("utf-8")
+
+
 def repatch(als, src, nv):
     """Re-point an existing project's two video tracks (idempotent)."""
-    xml = gzip.open(als).read().decode("utf-8")
+    xml = read_als(als)
     xml = patch_clip(xml, "ORIGINAL VIDEO", src)
     xml = patch_clip(xml, "VIDEO WITHOUT VOX", nv)
     ET.fromstring(xml.encode("utf-8"))
     with gzip.GzipFile(als, "wb", mtime=0) as g:
         g.write(xml.encode("utf-8"))
-    ET.fromstring(gzip.open(als).read())
+    ET.fromstring(read_als(als).encode("utf-8"))
 
 
 def ableton(client, cdir, src, nv, n=1):
@@ -177,14 +182,14 @@ def ableton(client, cdir, src, nv, n=1):
     old = os.path.join(pdir, "Ableton Template.als")
     als = os.path.join(pdir, f"{pname}.als")
     os.rename(old, als)
-    xml = gzip.open(als).read().decode("utf-8")
+    xml = read_als(als)
     ET.fromstring(xml.encode("utf-8"))
     xml = patch_clip(xml, "ORIGINAL VIDEO", src)
     xml = patch_clip(xml, "VIDEO WITHOUT VOX", nv)
     ET.fromstring(xml.encode("utf-8"))
     with gzip.GzipFile(als, "wb", mtime=0) as g:
         g.write(xml.encode("utf-8"))
-    ET.fromstring(gzip.open(als).read())
+    ET.fromstring(read_als(als).encode("utf-8"))
     return pdir
 
 
@@ -275,6 +280,34 @@ def complete(client, cdir):
         and os.path.exists(os.path.join(cdir, "Ready to Link to Drafted Email", "MAKE VIDEO - double-click me.bat"))
 
 
+def novox_gate(client, cdir):
+    """NOVOX MATCH GATE (Spencer, 2026-10-07: The Economist + BUCK NOVOX were from other videos, "this is
+    killing my flow"). Every project in the folder must play this client's own source and its own NOVOX
+    (novox_check.py: audio correlation + same picture). A single-video folder with a mismatch is rebuilt
+    on the spot (bad file kept in _bad_novox/, never deleted); anything still failing is reported FAIL."""
+    from novox_check import check_project
+    projs = sorted(os.path.join(r, f) for r, _, fs in os.walk(cdir) for f in fs
+                   if f.endswith(".als") and "Backup" not in r and "_old" not in r and not re.search(r"\[\d{4}-", f))
+    msgs, ok_all = [], True
+    for als in projs:
+        ok, msg = check_project(als)
+        if not ok and len(videos(cdir)) == 1:
+            nv = os.path.join(cdir, f"{client}_NOVOX.mp4")
+            log(client, "NOVOX MISMATCH -> rebuilding:", msg)
+            if os.path.exists(nv):
+                bad = os.path.join(cdir, "_bad_novox"); os.makedirs(bad, exist_ok=True)
+                shutil.move(nv, os.path.join(bad, os.path.basename(nv)))
+                if os.path.exists(nv + ".asd"):
+                    os.remove(nv + ".asd")  # Ableton's waveform cache of the wrong file
+            src = os.path.join(cdir, videos(cdir)[0])
+            repatch(als, src, novox(client, cdir, src))
+            ok, msg = check_project(als)
+            msg = "REBUILT, " + msg
+        ok_all &= ok
+        msgs.append(("NOVOX OK " if ok else "NOVOX MISMATCH ") + msg)
+    return ok_all, msgs
+
+
 def build_funnel(fdir, only, results):
     for client in sorted(os.listdir(fdir)):
         cdir = os.path.join(fdir, client)
@@ -287,6 +320,9 @@ def build_funnel(fdir, only, results):
                 results[key] = "SKIP - no sources.txt (needs a pick)"
             continue  # whole-funnel / --all: no pick yet, nothing for this script to do
         if complete(client, cdir):
+            ok, msgs = novox_gate(client, cdir)  # finished packages are re-checked too
+            if not ok:
+                results[key] = "FAIL - " + " / ".join(msgs)
             continue
         try:
             url, opt = read_sources(sf)
@@ -312,8 +348,9 @@ def build_funnel(fdir, only, results):
             log(key, "Ableton")
             ableton(client, cdir, src, nv)
             button(client, cdir)
+            ok, msgs = novox_gate(client, cdir)
             dur, _ = probe(src)
-            results[key] = f"OK - {os.path.basename(src)} ({dur:.0f}s){note}"
+            results[key] = (f"OK - {os.path.basename(src)} ({dur:.0f}s){note}" if ok else "FAIL") + " | " + " / ".join(msgs)
         except Exception as e:
             results[key] = f"FAIL - {e}"
         log(key, "->", results[key])

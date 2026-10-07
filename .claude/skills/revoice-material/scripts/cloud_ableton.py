@@ -119,8 +119,22 @@ def verify_remote(als, folder_id, remote="bizdrive:"):
     return True
 
 
+def check_match(src, novox):
+    """NOVOX MATCH GATE (Spencer, 2026-10-07): the NOVOX must be THIS source's own music bed. BUCK and
+    The Economist shipped with another client's bed (shared Demucs output dir in parallel cloud builds)."""
+    import novox_check as n
+    c = n.audio_corr(src, novox)
+    if c >= n.FAST_PASS:
+        return
+    r = n.demucs_ref(src, novox)
+    if r < n.REF_PASS:
+        sys.exit(f"REFUSED - NOVOX MISMATCH: {os.path.basename(novox)} is not {os.path.basename(src)}'s music bed "
+                 f"(corr {c:.2f}, fresh-Demucs match {r:.2f}). Redo stem separation for this client alone, in its own dir.")
+
+
 def build(template, funnel, client, src, novox, out, n=1):
     check_names(client, src, novox)
+    check_match(src, novox)
     pname = f"{client} Project" if n == 1 else f"{client} {n} Project"
     pdir = os.path.join(out, pname)
     if os.path.exists(pdir):
