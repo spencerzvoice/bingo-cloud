@@ -319,3 +319,8 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 ## 2026-10-07 — Great Voices (Lisbon VO agency) — roster submission [SENT by Spencer]
 - hello@great-voices.com, subject "Voiceover talent submission: Spencer Pearman (American English, Lisbon)". Gmail msg 1a1152970c7b98c0, scheduled send Wed 10-07 08:00 Lisbon. Links latest commercial reel (spencerzvoice.com/assets/reel-commercial.mp3) + spencerzvoice.com. Tracker row 169.
 - Follow up on: 10-14 to 10-17 if no reply (cold agency 7-10 days). Verify live Gmail first.
+
+## 2026-10-07 — micro1 / Daniel Warner (CMO) — Funnel H pitch [SCHEDULED by Spencer]
+- daniel@micro1.ai, "A voice for micro1's video work". Gmail msg 1a116fe314c4cc3f, **scheduled for Wed 10-07 16:32 Lisbon** (8:32 Pacific). Live Gmail 12:12 Lisbon: no Sent label yet. Spencer said it went out "last night", but it's actually scheduled.
+- Spencer's final wording (his own edits): hook take = PersonalAgentBench "a brilliant way to get more Human Data and get micro1 in the conversation alongside these cutting edge technologies"; background = "worked on multiple projects with micro1 as an Expert/Reviewer, so I'm intimately familiar with the company and the inner workings. I love to see us win!"; bridge = "...come through micro1 and out to the world, and I strongly believe I can help micro1 tell their story." Re-voice take linked (Drive file 1jr130ilKMSX1BB3VCcETNh-tsG-af0bR). Tracker row 173.
+- Follow up on: touch 2 Wed 10-14 (day 7) to Fri 10-16 (day 9). Verify it actually sent first.
