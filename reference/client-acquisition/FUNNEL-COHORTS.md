@@ -158,14 +158,14 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 |---|---|---|---|---|
 | 360Learning | Corporate L&D and LMS software | Marta Lisboa | Robin Nichols | **DRAFTED 2026-10-06** — Apollo re-verified, email marta.lisboa@360learning.com Verified; no current verifiable hook found — drafted HOOK NEEDED |
 | Absorb Software | Corporate L&D and LMS software | Sue Funke | — | **DRAFTED 2026-10-06** — Apollo re-verified, email sue.funke@absorblms.com Verified; no current verifiable hook found — drafted HOOK NEEDED |
-| Articulate | Corporate L&D and LMS software | Sara Heegaard | — | BANKED |
-| Cornerstone OnDemand | Corporate L&D and LMS software | Matthew Hyland | Amanda Murrin | BANKED |
-| Docebo | Corporate L&D and LMS software | Manny Gonzalez | — | BANKED |
-| Go1 | Corporate L&D and LMS software | Olivia Mitchell | Lara Stewart | BANKED |
-| Vyond | Corporate L&D and LMS software | Kevin Kartono | — | BANKED |
-| Litmos | Corporate L&D and LMS software | Thao Ngo | Nikki Yttermalm | BANKED — HOOK NEEDED |
-| Cloudflare | Developer and infrastructure platforms | Jessica Liu | Emanuel Caetano | BANKED |
-| Confluent | Developer and infrastructure platforms | Daniel Yoo | Marissa Schneider | BANKED |
+| Articulate | Corporate L&D and LMS software | Sara Heegaard | — | **DRAFTED 2026-10-07** — Apollo re-verified, email sheegaard@articulate.com Verified; hook = Articulate launched Nova (AI-avatar video creation in Articulate 360), Articulate Community Blog, Sep 10 2026 |
+| Cornerstone OnDemand | Corporate L&D and LMS software | Matthew Hyland | Amanda Murrin | **DRAFTED 2026-10-07** — Apollo re-verified, email mhyland@csod.com Verified; no current verifiable hook found (only financial-results releases and stale 2021-2025 items) — drafted HOOK NEEDED |
+| Docebo | Corporate L&D and LMS software | Manny Gonzalez | — | **DRAFTED 2026-10-07** — Apollo re-verified, email manny.gonzalez@docebo.com Verified; no current verifiable hook found (only financial-results releases and a technical release-notes page) — drafted HOOK NEEDED |
+| Go1 | Corporate L&D and LMS software | Olivia Mitchell | Lara Stewart | **DRAFTED 2026-10-07** — Apollo re-verified, email olivia.mitchell@go1.com Verified; no current verifiable hook found (everything findable 8+ months old) — drafted HOOK NEEDED |
+| Vyond | Corporate L&D and LMS software | Kevin Kartono | — | **DRAFTED 2026-10-07** — Apollo re-verified (title now Senior Video Producer), email kevin.kartono@vyond.com Verified; hook = Vyond Turbo AI video-generation tool, Vyond Blog Aug 6 2026 (confirmed still live via Sep 7 2026 trade press) |
+| Litmos | Corporate L&D and LMS software | Thao Ngo | Nikki Yttermalm | **DRAFTED 2026-10-07** — Apollo re-verified, email thao.ngo@litmos.com Verified; hook = Litmos 2026 Lenny Awards (customer award program) submissions closed, winners announced at DevLearn Nov 4-6, litmos.com page read Oct 2026 |
+| Cloudflare | Developer and infrastructure platforms | Jessica Liu | Emanuel Caetano | **DRAFTED 2026-10-07** — Apollo re-verified, email jliu@cloudflare.com Verified; hook = Cloudflare launched Streamline (video-pipeline dev platform), Cloudflare Blog Oct 2 2026 |
+| Confluent | Developer and infrastructure platforms | Daniel Yoo | Marissa Schneider | **DRAFTED 2026-10-07** — Apollo re-verified (now "Confluent, an IBM Company" per IBM's completed acquisition, SEC filing 2026-03-17 — too old to use as the hook), email dyoo@confluent.io Apollo "Verified" but ZeroBounce flagged INVALID 10-07 (watch for bounce; backup Marissa Schneider's email mschneider@confluent.io passed both checks but she's Marketing, not Creative/Production); no current verifiable hook found — drafted HOOK NEEDED |
 
 ### Funnel J
 | Company | Segment | Primary | Backup | Roster note |
@@ -269,7 +269,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
 | Siemens Energy | Corporate and industrial in-house | Natascha Ladstaetter | Natascha Ladstaetter | BANKED — verify "Chen L"'s full name/role before drafting; hook is 76 days old · MOVED to Funnel G2 2026-10-05 |
-| Airbnb | Consumer brands and travel | Sarah Karlan | Jordan Sider | BANKED |
+| Airbnb | Consumer brands and travel | Sarah Karlan | Jordan Sider | **DRAFTED 2026-10-07** — Apollo re-verified, email sarah.karlan@airbnb.com Verified; hook = Airbnb 2026 Fall Update (AI trip-planning tools, social Travel Map feature), Airbnb Newsroom Sep 30 2026 |
 | Brooks Running | Consumer brands and travel | Christina Harp | Gavin Doremus | BANKED |
 | Calm | Consumer brands and travel | Daniel Szeto | Casey Daigle | BANKED |
 | Columbia Sportswear | Consumer brands and travel | Allison Straughan | Chris Araujo | BANKED |
@@ -392,3 +392,28 @@ This exhausts the rest of Funnel H (the remaining 2 — Smithsonian and the earl
 All 10 drafts carry the yellow NOT READY LinkedIn-check line (cloud-built, per CLAUDE.md override 2) and the house PITCH-TEMPLATE.md format (QC hook passed on every write, no retries needed). Gmail label "Funnel H" applied to the 8 Funnel H drafts (label created 09-30, `Label_4`); label "Funnel I" created this run (`Label_6`) and applied to the 2 Funnel I drafts. Detail doc: `contacts/2026-10-06-funnel-h-i.md`.
 
 **Pitch-queue count after this run: N=10 existing + 10 new = 20/20.** Recount from live Gmail before the next run, don't trust this line.
+
+## Lead Batch run, 2026-10-07 — 9 new drafts, Funnel I completed + Airbnb opens Funnel Q, queue topped up to 20/20
+
+Pitch queue recount from live Gmail at run start: fetched all 11 drafts, checked threadId vs message id and `in:sent` for each recipient. 10 had threadId == message id (Pushkin, BUCK, Garmin, Peloton, The Economist, Booking.com, Airwallex, Plaid, 360Learning, Absorb — the 10-06 cohort). The 11th (ABB/Jose Monrabal) had a mismatched threadId, but its thread holds only that one message and `in:sent to:jose.monrabal@ch.abb.com` returned zero — confirmed first-touch, never sent, just an artifact of repeated PUT edits since 10-01. **N = 11.**
+
+**Apollo re-verification (bulk match + waterfall email, all 9):** all 9 CURRENT at the roster's title (Kevin Kartono's title updated to Senior Video Producer, a promotion from "Video Producer"), all primary emails Verified. One exception: Daniel Yoo/Confluent — Apollo "Verified" (crm source) but ZeroBounce flagged it INVALID; checked backup Marissa Schneider as a safety net (mschneider@confluent.io, Apollo+ZeroBounce both valid) but her title (Director, Global Marketing and Customer Insights) is a weaker casting fit than Daniel Yoo's (Senior Creative Producer), so Daniel Yoo stays primary with the email-risk flagged in ROSTER.md and here — watch for a bounce. See APOLLO-LEDGER.md entry same date (23 credits: 20 for the 9-person bulk match + waterfall, 3 for the Marissa Schneider check).
+
+**Drafted this run, strict funnel order per CLAUDE.md override 5d (completing I before opening Q):**
+| Company | Funnel | Contact | Email | Hook |
+|---|---|---|---|---|
+| Articulate | I | Sara Heegaard | sheegaard@articulate.com | Verified — Articulate launched Nova (AI-avatar video creation in Articulate 360), Articulate Community Blog, Sep 10 2026 |
+| Cornerstone OnDemand | I | Matthew Hyland | mhyland@csod.com | HOOK NEEDED (only financial-results releases and stale 2021-2025 items found) |
+| Docebo | I | Manny Gonzalez | manny.gonzalez@docebo.com | HOOK NEEDED (only financial-results releases and a technical release-notes page found) |
+| Go1 | I | Olivia Mitchell | olivia.mitchell@go1.com | HOOK NEEDED (everything findable 8+ months old) |
+| Vyond | I | Kevin Kartono | kevin.kartono@vyond.com | Verified — Vyond Turbo AI video-generation tool, Vyond Blog Aug 6 2026, confirmed still live via Sep 7 2026 trade press |
+| Litmos | I | Thao Ngo | thao.ngo@litmos.com | Verified — 2026 Lenny Awards (Litmos's own customer-award program) submissions closed, winners at DevLearn Nov 4-6, litmos.com |
+| Cloudflare | I | Jessica Liu | jliu@cloudflare.com | Verified — Cloudflare launched Streamline (video-pipeline dev platform), Cloudflare Blog Oct 2 2026 |
+| Confluent | I | Daniel Yoo | dyoo@confluent.io (ZeroBounce flagged invalid — watch for bounce) | HOOK NEEDED (IBM's completed acquisition, Mar 17 2026, is confirmed but too old to use) |
+| Airbnb | Q | Sarah Karlan | sarah.karlan@airbnb.com | Verified — Airbnb 2026 Fall Update (AI trip-planning tools, social Travel Map), Airbnb Newsroom Sep 30 2026 |
+
+This completes Funnel I (10/10: 360Learning + Absorb Software drafted 10-06, these 8 today) and opens Funnel Q with its first of 10 (Airbnb; Siemens Energy already moved to G2 on 10-05). Per CLAUDE.md override 5d drafting order (H → I → Q → P → K → J → L → N → M → R → O), Funnel Q continues next.
+
+All 9 drafts carry the yellow NOT READY LinkedIn-check line (cloud-built, per CLAUDE.md override 2) and the house PITCH-TEMPLATE.md format — `scripts/draft_format_sweep.py` run against all 20 live drafts at the end of this run, all 20 PASS. Gmail label "Funnel I" (`Label_6`, existing) applied to the 8 Funnel I drafts; label "Funnel Q" (`Label_7`, created this run) applied to the Airbnb draft. Detail doc: `contacts/2026-10-07-funnel-i-q.md`.
+
+**Pitch-queue count after this run: N=11 existing + 9 new = 20/20.** Recount from live Gmail before the next run, don't trust this line.

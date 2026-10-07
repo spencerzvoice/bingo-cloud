@@ -132,15 +132,15 @@ The ranked shortlist lives in `funnel-c-top-10.md`.
 |---|---|---|---|---|---|---|---|
 | 360Learning | Marta Lisboa | Creative Director | marta.lisboa@360learning.com, Apollo-verified 10-06 | Robin Nichols — Global Head of Content | I | **DRAFTED** 2026-10-06, HOOK NEEDED | funnels-c-d-e |
 | Absorb Software | Sue Funke | Senior Brand Marketing Manager | sue.funke@absorblms.com, Apollo-verified 10-06 | — | I | **DRAFTED** 2026-10-06, HOOK NEEDED | funnels-c-d-e |
-| Articulate | Sara Heegaard | Senior Content Marketing Manager | verified | — | I | BANKED | funnels-c-d-e |
-| Cornerstone OnDemand | Matthew Hyland | Lead Video Producer | verified | Amanda Murrin — Creative Director | I | BANKED | batch-08 |
-| Docebo | Manny Gonzalez | Sr. Creative Director | verified | — | I | BANKED | funnels-c-d-e |
-| Go1 | Olivia Mitchell | Content Marketing Manager | verified | Lara Stewart — Social & Content Producer | I | BANKED | funnels-c-d-e |
-| Vyond | Kevin Kartono | Video Producer | verified | — | I | BANKED | funnels-c-d-e |
+| Articulate | Sara Heegaard | Senior Content Marketing Manager | sheegaard@articulate.com, Apollo-verified 2026-10-07 | — | I | DRAFTED 2026-10-07 | 2026-10-07-funnel-i-q |
+| Cornerstone OnDemand | Matthew Hyland | Lead Video Producer | mhyland@csod.com, Apollo-verified 2026-10-07 | Amanda Murrin — Creative Director | I | DRAFTED 2026-10-07 — HOOK NEEDED | 2026-10-07-funnel-i-q |
+| Docebo | Manny Gonzalez | Sr. Creative Director | manny.gonzalez@docebo.com, Apollo-verified 2026-10-07 | — | I | DRAFTED 2026-10-07 — HOOK NEEDED | 2026-10-07-funnel-i-q |
+| Go1 | Olivia Mitchell | Content Marketing Manager | olivia.mitchell@go1.com, Apollo-verified 2026-10-07 | Lara Stewart — Social & Content Producer | I | DRAFTED 2026-10-07 — HOOK NEEDED | 2026-10-07-funnel-i-q |
+| Vyond | Kevin Kartono | Senior Video Producer (title updated from Apollo 10-07) | kevin.kartono@vyond.com, Apollo-verified 2026-10-07 | — | I | DRAFTED 2026-10-07 | 2026-10-07-funnel-i-q |
 | iAM Learning | Clare Shepstone (replaced earlier contact, moved roles) | — | clare@iamlearningcontent.com | — | D | **SENT** 24 Sep | Bingo 24 Sep |
 | Skillsoft | Alice Lamey (replaced Amy Cantin, moved roles) | — | alice.lamey@skillsoft.com | — | D | **SENT** 24 Sep | Bingo 24 Sep |
 | TalentLMS | — | — | — | — | — | DROPPED | funnels-c-d-e |
-| Litmos | Thao Ngo | Head of Brand and Marketing Activation | thao.ngo@litmos.com, Apollo-verified | Nikki Yttermalm — Event Marketing Manager | I | BANKED — HOOK NEEDED | 2026-09-30-research-batch |
+| Litmos | Thao Ngo | Head of Brand and Marketing Activation | thao.ngo@litmos.com, Apollo-verified 2026-10-07 | Nikki Yttermalm — Event Marketing Manager | I | DRAFTED 2026-10-07 | 2026-10-07-funnel-i-q |
 
 ## Streaming, promo and entertainment
 
@@ -153,8 +153,8 @@ The ranked shortlist lives in `funnel-c-top-10.md`.
 
 | Company | Primary contact | Title | Email | Backup | Funnel | Status | Source |
 |---|---|---|---|---|---|---|---|
-| Cloudflare | Jessica Liu | Video Production Manager | verified | Emanuel Caetano — Video Production Manager | I | BANKED | batch-03 |
-| Confluent (IBM) | Daniel Yoo | Senior Creative Producer | verified | Marissa Schneider — Marketing Leader | I | BANKED | batch-07 |
+| Cloudflare | Jessica Liu | Video Production Manager | jliu@cloudflare.com, Apollo-verified 2026-10-07 | Emanuel Caetano — Video Production Manager | I | DRAFTED 2026-10-07 | 2026-10-07-funnel-i-q |
+| Confluent (IBM) | Daniel Yoo | Senior Creative Producer | dyoo@confluent.io, Apollo "Verified" but ZeroBounce INVALID 2026-10-07 — watch for bounce | Marissa Schneider — Director, Global Marketing (email mschneider@confluent.io, Apollo+ZeroBounce both valid 10-07, but weaker title fit) | I | DRAFTED 2026-10-07 — HOOK NEEDED, email risk flagged | 2026-10-07-funnel-i-q |
 | Datadog | Andrew Cashin | Lead Video Producer | verified | Akash Chauhan — Senior Video Producer | — | BANKED | batch-02 |
 | Elastic | Erika Alexander | Video Producer | verified | Yichun Hsieh — Creative Director | J | BANKED | batch-07 |
 | GitLab | Adam Mittner | Sr. Director of Brand Creative | verified | Matthew Jordan — Sr. Manager, Brand Marketing | J | BANKED | batch-07 |
@@ -295,7 +295,7 @@ Highest rate ceiling in the pipeline. Mostly BANKED; six DRAFTED 30 Sep (Funnel 
 
 | Company | Primary contact | Title | Email | Backup | Funnel | Status | Source |
 |---|---|---|---|---|---|---|---|
-| Airbnb | Sarah Karlan | Creative Producer | verified | Jordan Sider — Creative Producer | Q | BANKED | batch-06 |
+| Airbnb | Sarah Karlan | Creative Producer | sarah.karlan@airbnb.com, Apollo-verified 2026-10-07 | Jordan Sider — Creative Producer | Q | DRAFTED 2026-10-07 | 2026-10-07-funnel-i-q |
 | Brooks Running | Christina Harp | Lead Creative Producer | verified | Gavin Doremus — Creative Producer | Q | BANKED | batch-06 |
 | Calm | Daniel Szeto | ECD, VP Calm Studios | verified | Casey Daigle — Creative Producer, Calm Health | Q | BANKED | batch-06 |
 | Columbia Sportswear | Allison Straughan | Post Production Manager | verified | Chris Araujo — Sr. Director, Columbia Creative | Q | BANKED | batch-06 |
