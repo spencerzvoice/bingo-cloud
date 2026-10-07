@@ -308,12 +308,40 @@ def novox_gate(client, cdir):
     return ok_all, msgs
 
 
+def apply_swap(client, cdir):
+    """REVOICE SWAP.txt (Spencer, 2026-10-07, Garmin fenix 9 vs Venu 4): the draft's hook names a different video
+    than the package. Archive the old package into _old (...), turn the swap file into sources.txt, rebuild."""
+    sw = os.path.join(cdir, "REVOICE SWAP.txt")
+    if not os.path.exists(sw):
+        return False
+    lines = [l.strip() for l in open(sw, encoding="utf-8-sig") if l.strip()]
+    old = next((l.split(":", 1)[1].strip() for l in lines if l.lower().startswith("replaces:")), "old pick")
+    old = re.sub(r'[\\/:*?"<>|]', "", old)[:60]
+    arch = os.path.join(cdir, f"_old ({old}, replaced {__import__('datetime').date.today()})")
+    rdir = os.path.join(cdir, "Ready to Link to Drafted Email")
+    os.makedirs(os.path.join(arch, "Ready to Link to Drafted Email"), exist_ok=True)
+    for f in os.listdir(cdir):
+        fp = os.path.join(cdir, f)
+        if f in ("Ready to Link to Drafted Email", "REVOICE SWAP.txt", "desktop.ini") or f.startswith("_"):
+            continue
+        shutil.move(fp, os.path.join(arch, f))
+    for f in os.listdir(rdir):
+        if f.lower().endswith((".mp4", ".wav")):
+            shutil.move(os.path.join(rdir, f), os.path.join(arch, "Ready to Link to Drafted Email", f))
+    with open(os.path.join(cdir, "sources.txt"), "w", encoding="utf-8") as g:
+        g.writelines(l + "\n" for l in lines if not l.lower().startswith("replaces:"))
+    os.remove(sw)
+    log(client, "REVOICE SWAP: old package archived to", os.path.basename(arch))
+    return True
+
+
 def build_funnel(fdir, only, results):
     for client in sorted(os.listdir(fdir)):
         cdir = os.path.join(fdir, client)
         if not os.path.isdir(cdir) or client.startswith("_") or (only and client not in only):
             continue
         key = f"{os.path.basename(fdir)}/{client}"
+        apply_swap(client, cdir)
         sf = os.path.join(cdir, "sources.txt")
         if not os.path.exists(sf):
             if only:

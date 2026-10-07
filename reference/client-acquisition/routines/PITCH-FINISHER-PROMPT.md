@@ -14,6 +14,12 @@ All four old routines are disabled, not deleted. Their prompts are copied below 
 4. Each stage commits and pushes its own log as written.
 5. **End with ONE PushNotification** (status "proactive", under ~300 chars) combining the saved lines, most urgent first: blockers, possible LEFT contacts, new drafts + HOOK NEEDED names, drafts missing a video title, then hooks/drafts cleared. If no stage saved a line, push nothing.
 
+## HOOK = RE-VOICE PAIRING (applies to Stage 0 AND Stage 1; Spencer, 2026-10-07)
+Why: the Garmin draft got a fēnix 9 launch hook from the Hook Sweep after its package had been built on an older Venu 4 video, so Spencer recorded the wrong watch ("Slipping up again"). Fix, in this routine only (Spencer: "Don't create another task or routine"):
+P1. PRODUCT-LAUNCH FIRST (Spencer: "the first question that we should ask is: 1. Have they released a new product? 2. Did they release a video about this product? If yes, we find that video, and we voice that video. We put that into the pitch."). For any company that makes products or sells to customers, the FIRST hook search is: did they release a new product in the last 90 days, and is there an official launch video for it (company YouTube channel/site; open it, confirm title + upload date)? If yes, that launch is the hook AND that video is the re-voice. Only if there is no new product with a launch video do you fall back to the normal hook order (LinkedIn first, etc.).
+P2. MATCH CHECK, every time a hook is written or already present (incl. Spencer's own hooks: check only, never edit his hook text): if the hook is about a product, launch, video, spot, campaign or series, the re-voice must be THAT video (CLAUDE.md 5c). Compare with the client's package: the WINNER line for that client in the funnel's `_candidates` doc, the `sources` doc/`sources.txt` in Client Outreach/<Funnel>/<Client>/, and the title in the draft's re-voice line.
+P3. ON A MISMATCH (or no package yet but the hook names a video): (a) in the client's Drive folder create a file `REVOICE SWAP.txt` with rclone if RCLONE_CONFIG_BIZDRIVE_* is set (else a Google Doc named `REVOICE SWAP` via FGAC): line 1 = the hook video URL, line 2 = `date: YYYY-MM-DD` (upload date), line 3 = `replaces: <old video title>`; (b) in `_candidates` set that client's WINNER to the hook video with "(hook match, replaces <old title>, <date>)" so Title Sync uses it; (c) PUT the draft's re-voice line to the new title with href `https://drive.google.com/REPLACE-WITH-SAMPLE-LINK` (removes any take link to the old video; re-apply the Funnel label); (d) add `RE-VOICE SWAP: <Company> - hook <event>, package was <old title>` to the push, most urgent first. The Re-Voicing routine and the desktop `revoice_build.py --all` both pick up REVOICE SWAP files, archive the old package into `_old (...)` and build the new one.
+
 ---
 
 ## Stage 0 - Lead Batch
@@ -119,6 +125,8 @@ CONNECTORS: FGAC only (mcp__FGAC_ai__*, always account "spencer@spencerzvoice.co
    Search engines index LinkedIn with a lag of days to weeks, so the very newest posts may not be findable - that is expected; use the newest one you can open and date.
 
 2f. NAME THE EVENT ACCURATELY. If the event is a video, spot, ad or episode, confirm it exists and get its exact title from the primary page (or watch it: yt-dlp transcript + ffmpeg frame sheet). The event sentence states only what the source shows: its name, and for a dated event whether it is upcoming or over (word it so it still reads right a week later, e.g. "just wrapped", never "this week"). Never claim Spencer watched/listened to more than exists.
+
+2g. Before step 2a, apply HOOK = RE-VOICE PAIRING P1 (new product + launch video first). After writing or keeping any hook, apply P2/P3.
 
 3. WRITE THE EVENT LINE ONLY, per the HOOK RULE above. For a LinkedIn post make it clear it was theirs ("Saw your LinkedIn post about..."). No em dashes; never 'American' or 'low-register'. Never write a reaction, joke or compliment.
 
