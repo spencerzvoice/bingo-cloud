@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo Concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0B0F15; --surface:#141B25; --cream:#F1ECE3; --soft:#A9B2BE; --amber:#F0B13C; --amber-ink:#1C1405;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#06080c;color:var(--cream);font-family:"Work Sans",system-ui,sans-serif;padding:32px 16px 64px}
+  h1{font-family:"Space Grotesk";font-weight:600;font-size:22px;margin:0 0 4px;max-width:1100px;margin-inline:auto}
+  .sub{color:var(--soft);font-size:14px;max-width:1100px;margin:0 auto 28px}
+  section{max-width:1100px;margin:0 auto 40px}
+  h2{font-family:"Space Grotesk";font-weight:600;font-size:16px;letter-spacing:.02em;margin:0 0 10px;color:var(--amber)}
+  h2 span{color:var(--soft);font-weight:500;font-family:"Work Sans";letter-spacing:0;margin-left:8px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .tile{border-radius:14px;padding:44px 28px;display:flex;align-items:center;justify-content:center;min-height:200px}
+  .dark{background:var(--navy);border:1px solid #1d2531}
+  .light{background:var(--cream);color:var(--navy)}
+  .lockup{display:flex;align-items:center;gap:18px}
+  .wm{display:flex;flex-direction:column;line-height:1}
+  .wm .name{font-family:"Space Grotesk";font-weight:600;font-size:44px;letter-spacing:-0.03em}
+  .wm .tag{font-family:"Work Sans";font-weight:500;font-size:13.5px;letter-spacing:.42em;margin-top:9px;padding-left:2px}
+  .dark .tag{color:var(--soft)} .light .tag{color:#4a5260}
+  .smalls{display:flex;gap:18px;align-items:flex-end;margin-top:12px;padding:16px 20px;background:var(--surface);border-radius:12px;flex-wrap:wrap}
+  .smalls figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:6px;font-size:11px;color:var(--soft)}
+  .avatar{border-radius:50%;overflow:hidden}
+  @media (max-width:760px){.row{grid-template-columns:1fr}.wm .name{font-size:32px}.wm .tag{font-size:11px}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <!-- A: Z whose diagonal is a voice waveform -->
+    <symbol id="zwave" viewBox="0 0 100 100">
+      <rect x="24" y="22" width="52" height="10" rx="5" fill="currentColor"/>
+      <rect x="24" y="68" width="52" height="10" rx="5" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="3.4" stroke-linecap="round">
+        <line x1="72.0" y1="35.0" x2="72.0" y2="41.0"/>
+        <line x1="67.6" y1="37.7" x2="67.6" y2="43.1"/>
+        <line x1="63.2" y1="36.2" x2="63.2" y2="49.4"/>
+        <line x1="58.8" y1="41.1" x2="58.8" y2="49.3"/>
+        <line x1="54.4" y1="35.0" x2="54.4" y2="60.2"/>
+        <line x1="50.0" y1="40.2" x2="50.0" y2="59.8"/>
+        <line x1="45.6" y1="41.1" x2="45.6" y2="63.7"/>
+        <line x1="41.2" y1="50.2" x2="41.2" y2="59.4"/>
+        <line x1="36.8" y1="49.4" x2="36.8" y2="65.0"/>
+        <line x1="32.4" y1="56.4" x2="32.4" y2="62.8"/>
+        <line x1="28.0" y1="59.0" x2="28.0" y2="65.0"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<h1>Spencer Z Voiceovers: logo concepts</h1>
+<p class="sub">Built on the site's own palette (navy #0B0F15, cream #F1ECE3, amber #F0B13C) and type (Space Grotesk / Work Sans), so it drops straight into spencerzvoice.com. Each one shown on dark, on light, and at real small sizes (favicon, Instagram/LinkedIn avatar).</p>
+
+<!-- ============ A ============ -->
+<section>
+  <h2>A · The Z‑Wave <span>the Z's diagonal is a voice waveform</span></h2>
+  <div class="row">
+    <div class="tile dark">
+      <div class="lockup">
+        <svg width="92" height="92" style="color:var(--amber)"><use href="#zwave"/></svg>
+        <div class="wm"><span class="name">Spencer Z</span><span class="tag">VOICEOVERS</span></div>
+      </div>
+    </div>
+    <div class="tile light">
+      <div class="lockup">
+        <svg width="92" height="92" style="color:var(--navy)"><use href="#zwave"/></svg>
+        <div class="wm"><span class="name">Spencer Z</span><span class="tag">VOICEOVERS</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="smalls">
+    <figure><svg class="avatar" width="96" height="96" viewBox="0 0 100 100"><rect width="100" height="100" fill="#0B0F15"/><use href="#zwave" x="6" y="6" width="88" height="88" style="color:#F0B13C"/></svg>avatar</figure>
+    <figure><svg class="avatar" width="96" height="96" viewBox="0 0 100 100"><rect width="100" height="100" fill="#F0B13C"/><use href="#zwave" x="6" y="6" width="88" height="88" style="color:#0B0F15"/></svg>avatar alt</figure>
+    <figure><svg width="48" height="48" viewBox="0 0 100 100"><rect width="100" height="100" rx="22" fill="#0B0F15"/><use href="#zwave" style="color:#F0B13C"/></svg>48px</figure>
+    <figure><svg width="32" height="32" viewBox="0 0 100 100"><rect width="100" height="100" rx="22" fill="#0B0F15"/><use href="#zwave" style="color:#F0B13C"/></svg>32px</figure>
+    <figure><svg width="16" height="16" viewBox="0 0 100 100"><rect width="100" height="100" rx="22" fill="#0B0F15"/><use href="#zwave" style="color:#F0B13C"/></svg>16px</figure>
+  </div>
+</section>
+
+<!-- ============ B ============ -->
+<section>
+  <h2>B · On Air <span>the amber studio lamp from the site, with an SZ monogram</span></h2>
+  <div class="row">
+    <div class="tile dark">
+      <div class="lockup">
+        <svg width="92" height="92" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="47" fill="none" stroke="#F0B13C" stroke-width="2" opacity=".45"/>
+          <circle cx="50" cy="50" r="40" fill="#F0B13C"/>
+          <text x="50" y="51" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="700" font-size="36" letter-spacing="-1.5" fill="#0B0F15">SZ</text>
+        </svg>
+        <div class="wm"><span class="name">Spencer Z</span><span class="tag">VOICEOVERS</span></div>
+      </div>
+    </div>
+    <div class="tile light">
+      <div class="lockup">
+        <svg width="92" height="92" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="47" fill="none" stroke="#0B0F15" stroke-width="2" opacity=".35"/>
+          <circle cx="50" cy="50" r="40" fill="#0B0F15"/>
+          <text x="50" y="51" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="700" font-size="36" letter-spacing="-1.5" fill="#F0B13C">SZ</text>
+        </svg>
+        <div class="wm"><span class="name">Spencer Z</span><span class="tag">VOICEOVERS</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="smalls">
+    <figure><svg class="avatar" width="96" height="96" viewBox="0 0 100 100"><rect width="100" height="100" fill="#0B0F15"/><circle cx="50" cy="50" r="42" fill="none" stroke="#F0B13C" stroke-width="2" opacity=".45"/><circle cx="50" cy="50" r="35" fill="#F0B13C"/><text x="50" y="51" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="700" font-size="32" letter-spacing="-1.3" fill="#0B0F15">SZ</text></svg>avatar</figure>
+    <figure><svg width="48" height="48" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#F0B13C"/><text x="50" y="52" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="700" font-size="46" letter-spacing="-2" fill="#0B0F15">SZ</text></svg>48px</figure>
+    <figure><svg width="32" height="32" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#F0B13C"/><text x="50" y="52" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="700" font-size="46" letter-spacing="-2" fill="#0B0F15">SZ</text></svg>32px</figure>
+    <figure><svg width="16" height="16" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#F0B13C"/><text x="50" y="52" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="700" font-size="46" letter-spacing="-2" fill="#0B0F15">SZ</text></svg>16px</figure>
+  </div>
+</section>
+
+<!-- ============ C ============ -->
+<section>
+  <h2>C · Rec Dot <span>pure wordmark, the amber dot is the "recording" light</span></h2>
+  <div class="row">
+    <div class="tile dark">
+      <div class="wm"><span class="name" style="font-size:52px">Spencer Z<span style="color:var(--amber)">●</span></span><span class="tag">VOICEOVERS</span></div>
+    </div>
+    <div class="tile light">
+      <div class="wm"><span class="name" style="font-size:52px">Spencer Z<span style="color:#d4941c">●</span></span><span class="tag">VOICEOVERS</span></div>
+    </div>
+  </div>
+  <div class="smalls">
+    <figure><svg class="avatar" width="96" height="96" viewBox="0 0 100 100"><rect width="100" height="100" fill="#0B0F15"/><text x="44" y="53" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="600" font-size="58" fill="#F1ECE3">Z</text><circle cx="72" cy="66" r="7" fill="#F0B13C"/></svg>avatar</figure>
+    <figure><svg width="48" height="48" viewBox="0 0 100 100"><rect width="100" height="100" rx="22" fill="#0B0F15"/><text x="43" y="53" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="700" font-size="72" fill="#F1ECE3">Z</text><circle cx="78" cy="72" r="9" fill="#F0B13C"/></svg>48px</figure>
+    <figure><svg width="32" height="32" viewBox="0 0 100 100"><rect width="100" height="100" rx="22" fill="#0B0F15"/><text x="43" y="53" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="700" font-size="72" fill="#F1ECE3">Z</text><circle cx="78" cy="72" r="9" fill="#F0B13C"/></svg>32px</figure>
+    <figure><svg width="16" height="16" viewBox="0 0 100 100"><rect width="100" height="100" rx="22" fill="#0B0F15"/><text x="43" y="53" text-anchor="middle" dominant-baseline="central" font-family="Space Grotesk" font-weight="700" font-size="72" fill="#F1ECE3">Z</text><circle cx="78" cy="72" r="9" fill="#F0B13C"/></svg>16px</figure>
+  </div>
+</section>
+
+</body>
+</html>
