@@ -348,3 +348,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - Status: SENT by Spencer Thu 10-08 00:08 Lisbon (Gmail Sent msg 1a118a0507f8ec85, verified live)
 - Follow up on: Tue 10-13 (text Tyler if still unpaid); retainer pitch to Tyler + Dani Tue 10-13 if paid, Thu 10-15 regardless
 - Result:
+- 10-08 update, Joanne Pratt: connect request SENT. Her live experience page shows Straive Senior Manager since Jul 2026 plus the LearningMate post-production role still current ("role continued following organisational transition"). joanne.pratt@learningmate.com is still Verified (Apollo + ZeroBounce valid 10-07 23:17 UTC). No bounce or reply to either touch (09-23, 09-29). No resend. The final touch stays on the existing thread in the ledger window (Wed 10-14 to Tue 10-20).
