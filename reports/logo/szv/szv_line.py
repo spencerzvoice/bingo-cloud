@@ -33,11 +33,11 @@ def d_attr(name):
 
 CUT = 9   # sliver between the V's legs and the S/Z top bars (Spencer, 2026-10-07)
 
-def cut_lines(name, cut=CUT):
+def cut_lines(name, cut=CUT, sw=SW):
     """Slits running along the outer edge of each V leg, through the top-bar join only."""
     W, a, s, Bv, r = VARIANTS[name]
     L = math.hypot(s, Bv); n = (Bv / L, s / L)          # outward normal of the right leg
-    off = SW / 2 + cut / 2
+    off = sw / 2 + cut / 2
     ux, uy = s / L, -Bv / L                              # direction up the right leg
     segs = []
     for sign in (1, -1):
