@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-06_
+_Last updated: 2026-10-07_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). The bulky, fast-moving detail lives in `reference/`; this file is the curated core.
@@ -175,6 +175,7 @@ Business-relevant carry-overs:
 - **2026-10-06 — Voices.com clients go direct, quietly (Spencer):** he moves Voices.com clients to direct work by emailing them or using LinkedIn. He never hints at it in Voices chat, because asking in chat to work off-platform gets accounts banned. Don't flag off-platform risk on direct outreach to a past Voices client. Bingo may open his Voices.com account in his Chrome to read job and message history (he OK'd it 10-06). It's read-only: never send, accept or reply there without his OK.
 - **2026-10-06 — Verify before delete (Spencer: "You do this check").** Before deleting/recycling any of his files, Bingo confirms each one has an identical-size copy at its new home AND in the backup (F: + H:, or Drive for spots), saves anything unique first, leaves unverified files in place, and uses Recycle Bin / Drive trash, never permanent delete. VO home = F:\0. Spencer Z Voice, nightly backup to H: (task "VO Backup F to H"); auditions live on G: only. Google Drive (business, 30 GB) holds only routine folders (Client Outreach, Client Acquisition Docs; New Client Acquisition removed 10-06, its 13 samples kept on F: 5. Job Acquisition + H:), the tracker, Archived Google Docs and a few loose files.
 - **2026-10-06 — LinkedIn About is FIRST PERSON (Spencer: "from my point of view, not third person").** Saved 10-06; text in `reports/profile-bios-2026-10-06.md`. The site About and the Bodalgo/Voquent/Intch bios are still third person; ask before converting those.
+- **2026-10-07 — Process change = update every existing draft (Spencer: "anytime we update our process and we have drafts, we need to go back and touch those drafts and bring them up to date").** Template/wording/QC/pick-rule change → run `scripts/draft_format_sweep.py`, fix every FAIL in the same session, re-run until all PASS. Full rule: CLAUDE.md.
 - **2026-09-22 — Worldwide premium convention: Spencer says Worldwide ≈ 3× the national rate.** Current live GVAA guide publishes no Worldwide tier at all, so this is his house convention (🟡, not guide-verified) — apply it as the default multiplier instead of leaving Worldwide as an unpriced bracket. Saved in `vo-pricing` skill.
 
 ---

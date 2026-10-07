@@ -35,7 +35,9 @@ if subject.strip().lower().startswith("re:") or msg.get("In-Reply-To") or msg.ge
 
 part = msg.get_body(preferencelist=("html", "plain"))
 content = part.get_content() if part else ""
-text = html.unescape(re.sub(r"\s+", " ", content))
+# Inline tags (links, highlights) are dropped so a linked "spencerzvoice.com" or title still matches;
+# block tags become spaces. Spencer links the site himself in Gmail (YETI, 2026-10-07).
+text = html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"</?(a|span|b|i|u|strong|em|font)\b[^>]*>", "", content))))
 
 fails = []
 def need(snippet, label):

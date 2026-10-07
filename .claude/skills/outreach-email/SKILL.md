@@ -35,6 +35,9 @@ Ian Wiggins (Hitachi Rail) sat in Drafts for 4 days with a recorded sample and g
    - **Check fails** (left, different title, no matching profile): handle it per item 6 the same turn.
 6. **Contact left → enact it in Gmail the same turn.** Clear the To field so the draft can't go to them, then update ROSTER.md and FUNNEL-COHORTS.md. Swap in the backup only after the backup passes check 1 (same lesson as Kyle Osher, 09-23).
 
+## Step 0d — PROCESS CHANGED? UPDATE EVERY EXISTING DRAFT (Spencer, 2026-10-07)
+When the template, wording, QC hook or a pick rule changes, the change isn't done until every unsent draft matches it. Run `scripts/draft_format_sweep.py`, fix every FAIL, re-run until all PASS. (10-05 night the voice line was cut and the close changed, but the existing Funnel G drafts kept the old text until Spencer found them on 10-07.)
+
 ## Step 0c — HOUSE TEMPLATE + FULL CHECK ON EVERY EDIT (Spencer, 2026-10-05)
 
 **The template is Spencer's own Hitachi Rail email** (sent 10-05, "copy across all other drafts now and moving forward"). The full text is in `reference/client-acquisition/PITCH-TEMPLATE.md`. Read it before writing or touching any pitch draft. Fill only the slots (greeting name, optional hook paragraph, company, credits, video title, link) and leave the wording alone. It replaces the old "Let me introduce myself" / "Would love to be a voice you can call on regularly" format.
