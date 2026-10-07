@@ -204,3 +204,4 @@ Ledger check: no reminder or overdue date falls on Wed 10-07. Next due: warm che
 
 ## 2026-10-07 digest audit (desktop)
 Digest's 9 "due today" were all false (live Gmail Sent verified). Dates unchanged: warm 09-11 batch Thu 10-08; Jim Levi Wed 10-14; MacMillan = October revisit, suggested Tue 10-20 with Anomaly batch (Spencer to confirm); Prokos closed; Ryan Lago stays in unscheduled backlog. Tracker Next Action now carries these dates. Detail: memory/2026-10-07.md.
+- **MacMillan (Anomaly) dated 2026-10-07:** LT1 = **Wed 2026-10-21** (new email, new proof; day 50 after the 9/1 final, clears the 45-day floor; inside Anomaly's Oct 5-Nov 20 budget window per BUDGET-CALENDAR; day after the Erika/Michelle Anomaly revisit so the agency doesn't get 3 emails in one morning). Strict 90-day clock would land Nov 30 -> blackout -> Jan, missing the best window. LT2 window Jan 14 - Feb 3 2027 -> **Tue 2027-02-02** (agency Feb-Apr peak). Tracker L32 updated.
