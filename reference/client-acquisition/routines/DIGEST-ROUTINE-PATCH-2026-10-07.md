@@ -1,4 +1,4 @@
-# Digest routine patch - 2026-10-07 (NOT YET APPLIED)
+# Digest routine patch - 2026-10-07 (APPLIED 2026-10-07: folded into DIGEST-ROUTINE-PROMPT.md, the new repo routine)
 
 Routine: **VO Outreach Pipeline Daily Update - 8am** `trig_01PTnXAXdmvLjyqBCnsgPXVz` (Cowork-scheduled, 07:00 UTC daily, no repo access, so it can't read `memory/followups-queue.md`).
 
@@ -10,7 +10,7 @@ Why: the 2026-10-07 digest listed 9 "follow-ups due today". None were due (verif
 NEXT-TOUCH DATES + NO SELF-REFERENCE (Bingo, 2026-10-07, after the Oct 7 digest listed 9 "due today" rows when none were due):
 - Bingo writes the real follow-up schedule into Next Action as "Next touch: <Day YYYY-MM-DD>", "NOT DUE - ..." or "NOT ON THE CLOCK - ...". These come from Bingo's follow-up ledger and are AUTHORITATIVE. Never list a row as due before its "Next touch" date, and never list a "NOT DUE" or "NOT ON THE CLOCK" row. Never overwrite or remove those Next Action entries; add a dated note in Notes instead.
 - Never write "due now", "DUE NOW", "OVERDUE" or "due" into Next Action or Notes. Due-ness is decided fresh every run from Gmail + the cadence; a phrase an earlier run wrote is NOT evidence that anything is due. (Root cause of the Oct 7 error: a Sep 27 run wrote "2nd/final follow-up (NEW HOOK) due now" on warm reconnect rows at 19 days, and later runs trusted their own note.) If a row needs a touch, write "Next touch: <date>" computed from the cadence.
-- Days since last contact = today minus THAT row's Last Contact Date, computed per row. Never reuse one number for several rows (the Oct 7 digest printed "26 days" for 9 rows whose real gaps were 21 to 64 days).
+- DAYS SINCE LAST CONTACT - mechanical, per row: after the Step 4 re-read, copy each listed row's own column J value ("Days Since Last Contact", a formula = today minus column I) into its digest line. If J is blank or not a number, compute today minus THAT row's column I and add "(J missing)". Before sending, check: every line's number must equal its own row's J; if two or more lines show the same number, re-check each against its row. Never reuse one number for several rows (the Oct 7 digest printed "26 days" for 9 rows whose real gaps were 21 to 64 days).
 - Warm pure check-in window = 28 days minimum. A warm/reconnect row at 26 days is NOT due.
 - A row whose Status contains "Responded", where Spencer answered the contact's last reply, is not due unless Next Action gives a Next touch date that has arrived.
 - Columns J and K are formulas. If a row's J/K is blank or a typed number, do not type values in; list it once under HEADS UP as "formula missing in row N".
