@@ -1,6 +1,6 @@
-# Outreach Engine: Morning Build - routine prompt (source of truth)
+# Morning Build - routine prompt (source of truth)
 
-Run by the Code routine "Outreach Engine: Morning Build" `trig_01RN6tiRmzaHdq2NJSzmQxVN` (weekdays 03:05 + 13:05 UTC). It does every step that builds and finishes Spencer's new-client pitch drafts, in order, in one run:
+Run by the Code routine "Morning Build" `trig_01RN6tiRmzaHdq2NJSzmQxVN` (weekdays 03:05 + 13:05 UTC). It does every step that builds and finishes Spencer's new-client pitch drafts, in order, in one run:
 - 2026-10-07 midday: Hook Sweep `trig_01FQkrArSyKVS3241Qu8qCcM`, Video Title Sync `trig_01MEKNw1RisQBJax4WELao1z` and LinkedIn API check `trig_01Hdw3bQcA5jBFaqbA7LsXYP` merged into "Pitch Draft Finisher" (Spencer: the routine list "was supposed to get smaller").
 - 2026-10-07 afternoon: Daily VO Lead Batch `trig_01GycTKwkwLwvNhYL6huQQ2w` folded in as Stage 0 and the routine renamed (Spencer: "consolidate these"). Lead Batch used to run alone at 03:00 and the stages after it ran on clock gaps, assuming it had finished. Now each stage starts only when the one before is done.
 All four old routines are disabled, not deleted. Their prompts are copied below as stages, except that each stage saves its push line instead of pushing, and outdated template wording was brought up to `PITCH-TEMPLATE.md` (2026-10-07). Edit THIS file to change any stage. Re-Voicing stays a separate routine (heavy audio work and YouTube blocks must not take the drafting down with them).
