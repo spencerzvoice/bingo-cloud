@@ -52,7 +52,10 @@ def ban(pattern, label):
 need("My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal.", "intro")
 ban(r"warm bass/baritone|record and produce everything myself", "voice line (Spencer 10-05 night: cut, the samples show the voice)")
 ban(r"so turnaround is fast", "duplicate turnaround line (Spencer 10-05: cut it from the intro)")
-need("I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through", "reaching-out paragraph")
+# Spencer's own per-client reaching-out line, kept word for word (Pushkin: audiobooks/podcasts, 2026-10-07).
+CUSTOM_REACHING_OUT_DOMAINS = ("@pushkin.fm",)
+if not any(d in str(msg.get("To", "")).lower() for d in CUSTOM_REACHING_OUT_DOMAINS):
+    need("I'm reaching out because I'd love to be your go-to Voiceover Artist for the projects that come through", "reaching-out paragraph")
 need("My work is high quality, my turnaround is within 24 hours, and I run self-directed sessions, so it's one less thing to manage on a job.", "quality line (Spencer 10-05 night: high quality, not reliable)")
 need("My recent work includes", "credits paragraph")
 need("and you can hear my work at spencerzvoice.com", "website line")
@@ -73,6 +76,9 @@ ban(r"keep on file", "old close 'keep on file'")
 ban(r"custom read", "'custom read' offer (re-voice line is never substituted)")
 ban(r"american voice|professional american", "'American' in the voice line")
 ban(r"low-register", "'low-register'")
+# v2 (2026-10-07): Bingo writes the whole hook and leaves a yellow [Source: <link>] marker for Spencer.
+if "[Source:" in content and "href" not in content.split("[Source:", 1)[1][:400]:
+    fails.append("[Source: ...] marker is not a clickable link")
 if "[YOUR TAKE]" in text and not re.search(r"\[YOUR TAKE\]\s*Source:", text):
     fails.append("[YOUR TAKE] has no 'Source:' link")
 if "[YOUR TAKE]" in content and "href" not in content.split("[YOUR TAKE]", 1)[1][:600]:

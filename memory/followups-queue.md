@@ -240,3 +240,19 @@ Not drafted: Lilah Kohlman (Altra): Spencer's 10-07 review-request draft (r-5891
 Trashed (recoverable in Gmail Trash): Dan Shaw touch 3 (r-4394978517082630472; Noah PARKED, Neil 09-04) and the Xpedition review ask to Rebekah Bell (r-9136878632342349091; Becca said she'd reach out). Root cause: evening prep checked replies only inside each ledger thread, not `from:<domain>`; the review asks came from the desktop "Online presence audit" session, which never checked thread state. Rule added: followup-drafts SKILL step 3 "PARKED".
 Warm touch 3 still in Drafts for Thu 10-08 (no reply anywhere from their domains since 08-25, live Gmail): Melissa Gillis, Mel Kane, Taylor Ballam, Devin Leisher, Poullet. Review asks still in Drafts: KU Steve+Liz, Rune Haus Kenz, Climb High Evan, Acclaim Michael, Diamond View Kayla, Shadow Lion Ryan, Lilah. Spencer 10-07: "Keep em" (his to send; one-time ask, never re-nudge a review ask).
 - 10-07 late (Spencer: "the ones that aren't supposed to go out today, delete"): the 5 warm touch-3 drafts for Thu 10-08 (Melissa Gillis, Mel Kane, Taylor Ballam, Devin Leisher, Poullet) moved to Gmail Trash. Their touch 3 is still due (window to Fri 11-06); re-draft on Spencer's word, don't auto-recreate. 7 review asks kept. Pitch queue (new-client drafts) untouched.
+
+## 2026-10-07 night: Funnel H first touches (desktop)
+Clock = send date. Touch 2 window = day 7-10 (cold). Verify each in Gmail Sent on 10-08 before drafting touch 2 (scheduled ≠ sent).
+| Contact | Company | Sent / scheduled (Lisbon) | Touch 2 window |
+|---|---|---|---|
+| Daniel Warner | micro1 | SENT 10-07 16:32 | 10-14 to 10-16 |
+| Jordan Howes | BUCK (Sydney) | SENT 10-07 22:45 | 10-14 to 10-17 |
+| Jose Monrabal | ABB (Zurich) | SCHEDULED 10-08 07:32 | 10-15 to 10-18 |
+| Martijn Savenije | Booking.com (Amsterdam) | SCHEDULED 10-08 07:32 | 10-15 to 10-18 |
+| Steven Watson | Airwallex (UK) | SCHEDULED 10-08 08:32 | 10-15 to 10-18 |
+| Liv Moloney | The Economist (UK) | SCHEDULED 10-08 08:32 | 10-15 to 10-18 |
+| Anne Marie Gaynor | Peloton (New York) | SCHEDULED 10-08 13:32 | 10-15 to 10-18 |
+| Constanza Gallardo | Pushkin (Miami), no sample | SCHEDULED 10-08 13:32 | 10-15 to 10-18 |
+| Maggie Wasserman | Garmin (Kansas City) | SCHEDULED 10-08 14:32 | 10-15 to 10-18 |
+| Heather Mounsey | Plaid (Los Angeles) | SCHEDULED 10-08 16:32 | 10-15 to 10-18 |
+Each lands 8:32 AM contact-local. Tracker rows 173, 175-183.
