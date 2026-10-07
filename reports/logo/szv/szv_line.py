@@ -31,9 +31,35 @@ def d_attr(name):
     return (f"M{f(P[0])} L{f(P[1])} L{f(c1)} A{r},{r} 0 0 0 {f(c2)} L{f(P[3])} L{f(P[4])} "
             f"L{f(P[5])} L{f(c3)} A{r},{r} 0 0 0 {f(c4)} L{f(P[7])} L{f(P[8])}")
 
-def path_el(name, color):
-    return (f'<path d="{d_attr(name)}" fill="none" stroke="{color}" stroke-width="{SW}" '
-            f'stroke-linejoin="miter" stroke-miterlimit="12" stroke-linecap="butt"/>')
+CUT = 9   # sliver between the V's legs and the S/Z top bars (Spencer, 2026-10-07)
+
+def cut_lines(name, cut=CUT):
+    """Slits running along the outer edge of each V leg, through the top-bar join only."""
+    W, a, s, Bv, r = VARIANTS[name]
+    L = math.hypot(s, Bv); n = (Bv / L, s / L)          # outward normal of the right leg
+    off = SW / 2 + cut / 2
+    ux, uy = s / L, -Bv / L                              # direction up the right leg
+    segs = []
+    for sign in (1, -1):
+        # point on the slit at the leg's top, then extend above the bar and down past its bottom edge
+        px, py = s + n[0] * off, n[1] * off
+        t_up, t_dn = SW * 1.2, SW * 1.6
+        p1 = (px + ux * t_up, py + uy * t_up); p2 = (px - ux * t_dn, py - uy * t_dn)
+        segs.append(((sign * p1[0], p1[1]), (sign * p2[0], p2[1])))
+    return segs
+
+def path_el(name, color, uid=None, cut=CUT):
+    uid = uid or f"szvcut-{name}"
+    stroke = (f'<path d="{d_attr(name)}" fill="none" stroke="{color}" stroke-width="{SW}" '
+              f'stroke-linejoin="miter" stroke-miterlimit="12" stroke-linecap="butt"')
+    if not cut:
+        return stroke + "/>"
+    W = VARIANTS[name][0]
+    lines = "".join(f'<line x1="{p[0]:.2f}" y1="{p[1]:.2f}" x2="{q[0]:.2f}" y2="{q[1]:.2f}" stroke="#000" '
+                    f'stroke-width="{cut}"/>' for p, q in cut_lines(name, cut))
+    mask = (f'<mask id="{uid}" maskUnits="userSpaceOnUse" x="{-W-200}" y="-200" width="{2*W+400}" height="{H+400}">'
+            f'<rect x="{-W-200}" y="-200" width="{2*W+400}" height="{H+400}" fill="#fff"/>{lines}</mask>')
+    return f'{mask}{stroke} mask="url(#{uid})"/>'
 
 def bbox(name, pad):
     W = VARIANTS[name][0]
