@@ -34,7 +34,7 @@ for d in get("drafts?maxResults=200").get("drafts", []):
     hdr = {h["name"]: h["value"] for h in m["payload"]["headers"]}
     msg = MIMEText(html(m["payload"]), "html", "utf-8")
     msg["Subject"] = hdr.get("Subject", "")
-    for k in ("In-Reply-To", "References"):
+    for k in ("To", "In-Reply-To", "References"):
         if hdr.get(k):
             msg[k] = hdr[k]
     raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()

@@ -56,9 +56,13 @@ need("I'm reaching out because I'd love to be your go-to Voiceover Artist for th
 need("My work is high quality, my turnaround is within 24 hours, and I run self-directed sessions, so it's one less thing to manage on a job.", "quality line (Spencer 10-05 night: high quality, not reliable)")
 need("My recent work includes", "credits paragraph")
 need("and you can hear my work at spencerzvoice.com", "website line")
-if "Also, I put together a re-voice of your" not in text and "VIDEO TITLE PENDING" not in text:
-    fails.append("missing re-voice line ('Also, I put together a re-voice of your ...' or VIDEO TITLE PENDING)")
-need("so you can hear how my voice meshes well with your content. I'd appreciate it if you gave it a listen!", "re-voice follow-on")
+# NO-SAMPLE exceptions = Spencer's own call per client, never Bingo's (2026-10-07: Pushkin Industries is audio-only,
+# every trailer is read first-person by its host, 3 checks found nothing to re-voice -> "Go with 2", pitch without one).
+NO_SAMPLE_DOMAINS = ("@pushkin.fm",)
+if not any(d in str(msg.get("To", "")).lower() for d in NO_SAMPLE_DOMAINS):
+    if "Also, I put together a re-voice of your" not in text and "VIDEO TITLE PENDING" not in text:
+        fails.append("missing re-voice line ('Also, I put together a re-voice of your ...' or VIDEO TITLE PENDING)")
+    need("so you can hear how my voice meshes well with your content. I'd appreciate it if you gave it a listen!", "re-voice follow-on")
 need("Feel free to reach out or schedule a call if you'd like to talk about working together. I hope to hear from you soon!", "close (Spencer's TVA send, 10-05)")
 need("Best,", "sign-off")
 ban(r"would love to be a voice you can call on regularly", "old close 'Would love to be a voice you can call on regularly'")

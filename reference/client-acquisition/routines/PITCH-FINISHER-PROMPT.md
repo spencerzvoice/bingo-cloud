@@ -144,6 +144,7 @@ CONNECTORS: FGAC only (mcp__FGAC_ai__*), ALWAYS pass account "spencer@spencerzvo
 
 3. DECIDE, per pitch draft:
    a. Recipient-facing title = the winner's YouTube title minus channel suffixes such as ' | Away' or ' | Instacart'. Noun after the link: 'spot' for ads/commercials/TV spots, 'video' for product/brand/launch videos, 'trailer' for trailers. Escape & as &amp; in HTML.
+   a2. NO-SAMPLE EXCEPTION (Spencer, 2026-10-07): a draft addressed to @pushkin.fm is pitched WITHOUT a re-voice sample by Spencer's own call. Never insert, restore or report a re-voice line for it; leave it untouched. (Same list as NO_SAMPLE_DOMAINS in .claude/hooks/pitch_draft_qc.py.)
    b. Body contains the marker VIDEO TITLE PENDING and a winner exists -> replace the marker with the title (and fix the noun).
    c. Body has NO re-voice paragraph at all (no 'I put together a re-voice of your') -> insert, as its own paragraph immediately after the paragraph that ends 'you can hear my work at spencerzvoice.com.' (case-insensitive; i.e. after that sentence's following <br><br>), the PITCH-TEMPLATE.md re-voice line:
       Also, I put together a re-voice of your <a href="https://drive.google.com/REPLACE-WITH-SAMPLE-LINK">"<TITLE>"</a> <noun> so you can hear how my voice meshes well with your content. I'd appreciate it if you gave it a listen!<br><br>
