@@ -43,7 +43,7 @@ Reminders fire **only when a follow-up is due by the cadence rules**, not every 
 **Exits:** reply → warm track · "no" / "we'll reach out" → stop for good (a "not now, try <month>" → one dated touch then) · bounce / left the company → flag for re-sourcing (a new contact there starts a fresh cold sequence) · asked not to be contacted → stop. **After LT4 (≈1 year) with zero response → flag for Spencer's go/no-go**, don't keep going on autopilot.
 
 ## Step 2 — Draft (Spencer's voice)
-- Read `outreach-email` SKILL Step 4 + `.claude/skills/outreach-email/voice.md`. Casual, contractions, short, no em dashes in the body, sign-off exactly `Best,\nSpencer\nspencerzvoice.com`. "warm bass/baritone" (never "American"). Formal opener (Hello) for women / older men.
+- Read `outreach-email` SKILL Step 4 + `.claude/skills/outreach-email/voice.md`. Casual, contractions, short, no em dashes in the body, sign-off exactly `Best,\nSpencer\nspencerzvoice.com`. NO voice descriptor at all (the "warm bass/baritone" line was cut 2026-10-05; never "American"). Formal opener (Hello) for women / older men.
 - **New proof, never "just bumping."** Only true, sourced hooks: verified credits (FIFA World Cup 2026 Preview Series, EuroLeague basketball, etc. per MEMORY.md), the free custom-read offer (if not already made in that thread), a current-event hook for cold emails (LinkedIn/company post read this session). Bracket anything unverified. Cite sources in the run summary (AGENTS.md RULE 0 footer: Verified / Bracketed / Unknown).
 - **Touch 2 after a re-voice pitch = this text word for word (Spencer, 2026-10-05, his Sprout Social draft; overrides the "new proof" bullet above for this touch, no FIFA/EuroLeague line, no hook):**
   ```
