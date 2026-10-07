@@ -331,3 +331,11 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 
 ## 2026-10-07 evening - warm touch-3 drafts (cloud prep)
 6 threaded drafts in Gmail for Thu 10-08: Dan Shaw (Noah), Melissa Gillis (ATTN), Mel Kane (Invision), Taylor Ballam (Modo), Devin Leisher (TBC), Poullet (Tellary). Follow up on: after send, next warm check-in 4-8 wks. Lilah skipped (review-request draft in thread). Details: followups-queue.md.
+
+## 2026-10-07/08 - LinkedIn connect requests, Funnels H to B (Spencer: "potential touches that we should not miss")
+Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top card showed the right name + company.
+- **77 sent:** H 9 (Monrabal, Gallardo, Howes, Wasserman, Gaynor, Moloney, Savenije, Watson, Mounsey) · G2 7 · G 19 · F 5 · E 6 (Dole, Hickey, Krymkowski, Muniz, Bernal, Fudge) · D 9 · C2 3 (Riley, Crisp, Eric Smith) · C 8 · B 11 (Rogers, Osborne, Sarks, Toohey, Cirillo, Hirata, Hewing, Schunk, Sirotek, Nikzad, Golden).
+- **Already pending before today (4):** Daniel Warner (micro1), Valeria Flores (Domestika), Sarah Fink (Atlassian), Jamal Meneide (HubSpot).
+- **Not sent (3):** Joanne Pratt (LearningMate): her live top card says **Straive**, not LearningMate. 🟡 Straive may own LearningMate now; not confirmed. · Wes (ClickUp): no surname on file, no ClickUp match on LinkedIn · Amalia Ho (monday.com): no LinkedIn match (search returns Amelia Ho; Apollo found no match on 09-23).
+- Excluded on purpose: dropped/left contacts (Kyle Osher, Brian Sherry, Cody McPherson, Quintanilla, Collins Pace, IxDF, PINKTUM, Shelter, Big Think) and Funnel A.
+- Seen on the profiles: Mito Habe-Evans' headline now reads "Senior Creative Producer, NPR Visuals" · Clare Shepstone's current company shows as "iAM Compliant" · Kasey Hickey's name shows as Kasey Fleisher Hickey (Retool).
