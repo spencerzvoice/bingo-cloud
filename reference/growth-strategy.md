@@ -226,3 +226,6 @@ Sell retainers **proactively after a client's second booking** — a scoped mont
 4. Draft and send outreach emails (standard `outreach-email` rules).
 
 Plus, not in the original doc but flagged since: the **reel rebuild** is a dependency for Lane 2 and strengthens Lane 1 — worth sequencing early.
+
+## Parked side ideas
+- **Quinn (adult/sensual audio app), parked 2026-10-07, Spencer: leaning no, keep on the side.** Creators are paid from a listening-based share of subscriptions plus tips; the share is not public; top creators "as much as $5,000/month" (Fox Business, Jan 2022). Risk if he ever does it: school/family brands, morals clauses, DDO before signing. Only under a pseudonym, fully separate. Read the creator agreement (AI/exclusivity) first. Full research: `memory/2026-10-07.md`. Don't raise it again unless Spencer does.
