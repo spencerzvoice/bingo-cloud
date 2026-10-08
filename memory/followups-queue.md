@@ -259,3 +259,5 @@ Each lands 8:32 AM contact-local. Tracker rows 173, 175-183.
 
 ## 2026-10-08: Kevin Cho (ex-Thinkific, freelance director) first touch SENT
 Sent 10-08 01:53 Lisbon (Gmail 1a119005840853e0, thread 1a118ee9e7aae65f), verified in Sent. Soft networking pitch to someone between jobs, not a cold brand pitch. Touch 2 window: 10-22 to 10-29 (2-3 wks); earlier only if his LinkedIn shows a new role (then congratulate + re-pitch for the new place). Tracker row 184.
+
+- 10-08: **Alistair Dixon (Goalhanger) touch 3 CANCELLED.** He replied on LinkedIn (potential audio-sting VO job, "watch this space"). Don't draft the 10-20 email. The thread is live on LinkedIn.
