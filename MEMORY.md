@@ -14,7 +14,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 
 - Business: **Nomadic Light LLC** (California single-member LLC). Business email **spencer@spencerzvoice.com** (all VO correspondence — the only email Bingo works from).
 - Website: spencerzvoice.com. Resume site: spencerzvoice.caard.co.
-- Treated home studio, **Source Connect** + **Pro Tools certified** (ProMedia Training, Sept 2025). 24h standard turnaround, same-day rush. **Source Connect: NO active subscription as of 2026-09-16** (Spencer told Laundry so in writing; can buy one per session) — never assert he has it live.
+- Treated home studio, **Source Connect** + **Pro Tools certified** (ProMedia Training, Sept 2025). 24h standard turnaround, same-day rush. **Source Connect: NO active subscription as of 2026-09-16** (Spencer told Laundry so in writing; buys a Talent 2-day license, $25, per session; used it ~3 times in 7 years, so no subscription — Talent sub is $35/mo or $385/yr, source-elements.com 2026-10-08) — never assert he has it live.
 - 12+ years audio engineering (Ableton 12+ yrs, Pro Tools, Audition, iZotope RX) across music, documentary, podcast, commercial VO. Also AI/TTS dataset work (micro1, Dec 2025–Jun 2026; VoiceOver LA TTS singing project 2023).
 - BS Mechanical Engineering, University of Miami, 2012.
 - VO coaches on the website "Coached by" (Spencer, 2026-10-06): Elaine Craig (elainecraig.com), Scott Burns (bookscottburns.com, Spencer-supplied). Both names link to these sites (Spencer: websites, not email). Joshua Alexander was listed, then removed by Spencer the same night (reason not given; his site couldn't be confirmed).
