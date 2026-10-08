@@ -14,6 +14,18 @@
       "port": 4500
     },
     {
+      "name": "spencerzvoice-dist",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/spenc/spencerzvoice-site/scroll-craft/scripts/serve.mjs",
+        "--root",
+        "C:/Users/spenc/spencerzvoice-site/builds/spencerzvoice/dist",
+        "--port",
+        "4501"
+      ],
+      "port": 4501
+    },
+    {
       "name": "spencerzvoice-worker",
       "runtimeExecutable": "node",
       "runtimeArgs": [
