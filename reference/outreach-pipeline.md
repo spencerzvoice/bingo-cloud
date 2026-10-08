@@ -16,7 +16,7 @@ The live CRM for Spencer's outreach. **The Google Sheet is ground truth** — Sp
 - **Category:** New Outreach - Agency · Active / Recurring Client · Old Client Reconnect · Professional Development
 - **Priority:** High (red) · Medium (yellow/orange) · Low (green)
 - **Days Since Last Contact** = formula `=IF(I{row}="","",TODAY()-I{row})` — leave alone
-- **Follow-Up Flag** = formula. Logic: Bounced→"Fix Email & Resend"; Responded→"Active - Monitor"; Not Sent→"Send Initial Outreach"; Drafted-Not-Sent→"Ready to Send"; else by days: ≥10→"OVERDUE - Follow Up Now", ≥7→"Due Soon", else "Recently Contacted". Leave alone.
+- **Follow-Up Flag** = formula. Logic: Dropped or Left Company→"N/A" (added 2026-10-08, Spencer); Bounced→"Fix Email & Resend"; Responded→"Active - Monitor"; Not Sent→"Send Initial Outreach"; Drafted-Not-Sent→"Ready to Send"; else by days: ≥10→"OVERDUE - Follow Up Now", ≥7→"Due Soon", else "Recently Contacted". Leave alone.
 - The routine only writes **Status, Last Contact Date, Notes** (and adds rows). Dashboard and Legend tabs are never touched.
 
 ## ⚠️ Operational hazards (learned the hard way)
