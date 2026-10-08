@@ -106,6 +106,7 @@ Cause: on 10-06 Bingo fired 7 cloud runs at once. They used up the 5-hour limit 
 - **Outreach:** Spencer's voice, not a generic template — use the `outreach-email` skill. Verify every credit/connection claim before it goes in an email.
 - **Gmail:** the standard connector is buggy (stale results). Use FGAC.ai's direct Gmail API for anything accuracy-sensitive. FGAC has blanket permission — don't ask before using it.
 - **Tracker (the "VO Outreach Pipeline Tracker" Google Sheet — spreadsheetId `1SBauz4dCodqnfSVD5yqKETjU-25TY5HEZ7KRGggbgT0`, "Outreach Tracker" tab):**
+  - **Auto-update, never ask (Spencer, 2026-10-08).** Any client correspondence I see or hear about (reply, send, bounce, scheduling, a job) goes into the row the same turn, unasked.
   - **It is the source of truth for the daily digest.** Every time an outreach action *completes* in a session — sent, replied, dropped/scrapped, scheduled, bounce-fixed, address corrected — update the Sheet **in the same turn** (Status, Last Contact Date, Notes, and col D if the email changed). Never leave a "TODO" in a cell. Then also update `memory/outreach-log.md` and commit+push. Both, every time — the local log and the Sheet must not drift.
   - Never write to a row from a remembered number — re-read the row's Name/Company, write, read back.
   - Cols J (Days Since) + K (Follow-Up Flag) are formulas — never write them.

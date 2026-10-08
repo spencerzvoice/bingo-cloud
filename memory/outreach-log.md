@@ -289,8 +289,8 @@ Wes + Eric (ClickUp), Genna + Sarah (Atlassian), Jack + Lydia (Canva), Lauren (G
 - Reel linked: none (spencerzvoice.com line)
 - New email or thread reply: new email (no prior direct thread; Spencer also messaged her on Voices.com 10-06 01:43 BST)
 - Status: SCHEDULED by Spencer 10-06 for Wed 10-07 morning SF time (Gmail Scheduled msg 1a111d42c0ae9937, his edited subject "Venmo Days spot, and anything next?", body now names Voices.com). Tracker row 166 = Scheduled.
-- Follow up on: ~2026-11-04 if no reply (warm 4-8 wks)
-- Result:
+- Follow up on: warm check-in ~2026-11-19 to 12-03 (4-8 wks after her reply), sooner if she sends the spot link
+- Result: SENT 10-06 16:28 UK. REPLIED 2026-10-08 16:09 UTC (Gmail thread 1a10ec9835660cf6): thanked him for Venmo Days, will pass the note to the team, will keep him in mind for future projects. Spencer replied 10-08 17:19 Lisbon: glad to have a direct line, asked for a link to the last spot. No job yet, door open. Tracker row 166 = Replied, Last Contact 10/08.
 
 ## 2026-10-06 - Altra Running (Tyler Gorky + Dani Coplen) - warm, retainer pitch
 - Contact: Tyler Gorky (Global Creative Producer, Tyler_Gorky@vfc.com) + Dani Coplen (Global Creative Director, dani_coplen@vfc.com); addresses from live Gmail headers 10-06
