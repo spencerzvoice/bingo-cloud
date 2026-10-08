@@ -382,3 +382,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - Status: draft in Gmail, Spencer to review + send
 - Follow up on: none needed; watch for Paul Wilkerson's rates email
 - 10-08: **Toby Riley (2U, Phoenix) ACCEPTED** the LinkedIn connect (Spencer-reported). Email history (live Gmail): 09-29 pitch (edX Academies re-voice), 10-05 touch 2 (free custom read). No reply. Final email: Mon 10-19 per the tracker. Tracker row 144 Notes updated.
+- 10-08: **Adrien Colon (Descript, Video Producer, San Francisco) ACCEPTED** the LinkedIn connect (Spencer-reported). Email history (live Gmail): 09-29 pitch ("Descript for Enterprise: How teams scale video production" re-voice), 10-05 touch 2. No reply. Final email: Mon 10-19 per the tracker. Tracker row 139 Notes updated.
