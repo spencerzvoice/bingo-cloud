@@ -61,3 +61,12 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-08 | Freddie Young | On | linkedin.com/in/freddieyoung | "URL on file (apollo)" | URL-ON-FILE
 2026-10-08 | Tristan Ahern | Patagonia | linkedin.com/in/tristancimini | "URL on file (apollo)" | URL-ON-FILE
 2026-10-08 | Paul Jun | Ramp | linkedin.com/in/paul-jun-3544a167 | "URL on file (apollo)" | URL-ON-FILE
+2026-10-08 | Christina Harp | Brooks Running | linkedin.com/in/christinaharp | "public profile company: Brooks Running (zenrows)" | API-PASS
+2026-10-08 | Daniel Szeto | Calm | linkedin.com/in/daniel-szeto-34272468 | "public profile company: Calm (zenrows)" | API-PASS
+2026-10-08 | Allison Straughan | Columbia Sportswear | linkedin.com/in/allison-straughan-12270332 | "public profile company: Columbia Sportswear Company (zenrows)" | API-PASS
+2026-10-08 | Max Dickson | Lonely Planet | linkedin.com/in/maxdickson3 | "public profile company: Lonely Planet (zenrows)" | API-PASS
+2026-10-08 | Ivana Milovanovic | Tripadvisor | linkedin.com/in/ivanamilovanovic | "no public company shown" | API-HIDDEN
+2026-10-08 | Naotaka Aogaki | Wilson Sporting Goods | linkedin.com/in/naotakaaogaki | "public profile company: Wilson Sporting Goods Co. (zenrows)" | API-PASS
+2026-10-08 | Freddie Young | On | linkedin.com/in/freddieyoung | "public profile company: On (zenrows)" | API-PASS
+2026-10-08 | Tristan Ahern | Patagonia | linkedin.com/in/tristancimini | "public profile company: Patagonia (zenrows)" | API-PASS
+2026-10-08 | Paul Jun | Ramp | linkedin.com/in/paul-jun-3544a167 | "public profile company: Ramp (zenrows)" | API-PASS
