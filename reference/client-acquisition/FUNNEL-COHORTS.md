@@ -254,7 +254,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 ### Funnel P
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| Ramp | Fintech and payments | Paul Jun | Karly Snajczuk | BANKED — HOOK NEEDED |
+| Ramp | Fintech and payments | Paul Jun | Karly Snajczuk | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; no hook (nothing in 90 days; Series F Jun 4 too old) |
 | Hornet | Creative and production studios | Marty Geren | Dez Stavracos | BANKED |
 | Nexus Studios | Creative and production studios | Kristin Glushon | Diego Rosner | BANKED |
 | THE LINE | Creative and production studios | Nick Miller | Eva Dahlqvist | BANKED |
@@ -270,14 +270,14 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 |---|---|---|---|---|
 | Siemens Energy | Corporate and industrial in-house | Natascha Ladstaetter | Natascha Ladstaetter | BANKED — verify "Chen L"'s full name/role before drafting; hook is 76 days old · MOVED to Funnel G2 2026-10-05 |
 | Airbnb | Consumer brands and travel | Sarah Karlan | Jordan Sider | **DRAFTED 2026-10-07** — Apollo re-verified, email sarah.karlan@airbnb.com Verified; hook = Airbnb 2026 Fall Update (AI trip-planning tools, social Travel Map feature), Airbnb Newsroom Sep 30 2026 |
-| Brooks Running | Consumer brands and travel | Christina Harp | Gavin Doremus | BANKED |
-| Calm | Consumer brands and travel | Daniel Szeto | Casey Daigle | BANKED |
-| Columbia Sportswear | Consumer brands and travel | Allison Straughan | Chris Araujo | BANKED |
-| Lonely Planet | Consumer brands and travel | Max Dickson | Deepa Lakshmin | BANKED |
-| Tripadvisor | Consumer brands and travel | Ivana Milovanovic | Heather Clifford | BANKED |
-| Wilson Sporting Goods | Consumer brands and travel | Naotaka Aogaki | Tim McCaffrey | BANKED |
-| On | Consumer brands and travel | Freddie Young | Luiza Baffa | BANKED |
-| Patagonia | Consumer brands and travel | Tristan Ahern | Vanina Lucas | BANKED |
+| Brooks Running | Consumer brands and travel | Christina Harp | Gavin Doremus | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Hyperion Elite 6 launch, Gear Patrol Aug 14 2026 |
+| Calm | Consumer brands and travel | Daniel Szeto | Casey Daigle | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Natrol x Michelle Monaghan collab, Calm Blog Sep 15 2026 |
+| Columbia Sportswear | Consumer brands and travel | Allison Straughan | Chris Araujo | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = F££T FUND campaign (Peakfreak), Creative Salon Sep 16 2026 |
+| Lonely Planet | Consumer brands and travel | Max Dickson | Deepa Lakshmin | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Best in Travel 2027 list, Euronews Sep 23 2026 |
+| Tripadvisor | Consumer brands and travel | Ivana Milovanovic | Heather Clifford | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Travelers' Choice Best of the Best Restaurants, PR Newswire Sep 15 2026 |
+| Wilson Sporting Goods | Consumer brands and travel | Naotaka Aogaki | Tim McCaffrey | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = third Caitlin Clark signature collection, NSGA Aug 5 2026 |
+| On | Consumer brands and travel | Freddie Young | Luiza Baffa | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Cloudsurfer 3 unveil, On Pressroom Sep 15 2026 (no official launch video confirmed) |
+| Patagonia | Consumer brands and travel | Tristan Ahern | Vanina Lucas | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; no hook (nothing in 90 days) |
 
 ### Funnel R
 | Company | Segment | Primary | Backup | Roster note |
@@ -435,3 +435,23 @@ Ran LinkedIn-first research (3 parallel subagents, WebSearch + WebFetch, activit
 No "CONTACT MAY HAVE LEFT" signal raised for anyone — employment status for the un-locatable LinkedIn profiles is ❓ unknown (no profile found), not confirmed departed. No banned wording found on inspection of the 2 edited drafts.
 
 **Pitch-queue count after this run: N=20, unchanged (no new drafts created — this is a Hook Sweep run, not a Lead Batch run).** Recount from live Gmail before the next run, don't trust this line.
+
+## Lead Batch run, 2026-10-08 — 9 new drafts (8 Funnel Q + Ramp from P), queue topped up to 20/20
+
+Recount from live Gmail at run start: 11 pitch drafts (Airbnb Q; Confluent, Articulate, Cloudflare, Litmos, Vyond, Absorb, 360Learning, Cornerstone, Docebo, Go1 I), all first-touch, `in:sent to:` returned 0 for each. Spencer had sent the rest on 10-07. None carried a NOT READY line any more. Apollo bulk match + waterfall on all 9 new: all CURRENT, all emails Verified (ZeroBounce valid 10-08); none in the tracker or ever emailed. Funnel Q now has 9 of 10 drafted (Siemens Energy sits in G2); Ramp is the first of Funnel P (Hornet, Nexus Studios, THE LINE, Maersk, Arizona Public Service, Ørsted, Schneider Electric left).
+
+| Company | Funnel | Contact | Email | Hook |
+|---|---|---|---|---|
+| Brooks Running | Q | Christina Harp | christina.harp@brooksrunning.com | Hyperion Elite 6 launch, Gear Patrol Aug 14 2026 (no official Brooks launch video found; Brooks pages 403) |
+| Calm | Q | Daniel Szeto | dan@calm.com | Natrol x Michelle Monaghan collab + Sleep Story "Late Night Laps", Calm Blog Sep 15 2026 |
+| Columbia Sportswear | Q | Allison Straughan | astraughan@columbia.com | F££T FUND (Peakfreak), Creative Salon Sep 16 2026; EMEA social campaign |
+| Lonely Planet | Q | Max Dickson | mdickson@lonelyplanet.com | Best in Travel 2027, Euronews Sep 23 2026 (Euronews opened; CNN 451) |
+| Tripadvisor | Q | Ivana Milovanovic | imilovanovic@tripadvisor.com | Travelers' Choice Best of the Best Restaurants, PR Newswire Sep 15 2026 (awards roundup, weaker fit for a producer) |
+| Wilson Sporting Goods | Q | Naotaka Aogaki | naotaka.aogaki@wilson.com | third Caitlin Clark signature collection, NSGA Aug 5 2026; video "Wilson & Caitlin Clark Unveil Third Installment..." exists, URL/date not confirmed |
+| On | Q | Freddie Young | freddie.young@on-running.com | Cloudsurfer 3 unveil, On Pressroom Sep 15 2026 (global launch early 2027); official film not confirmed, check On channel |
+| Patagonia | Q | Tristan Ahern | tristan.cimini@patagonia.com | HOOK NEEDED (nothing in 90 days; Wetsuit Repair Tour is an event programme) |
+| Ramp | P | Paul Jun | paul.jun@ramp.com | HOOK NEEDED (Series F Jun 4 and Super Bowl spot Jan 2026 too old) |
+
+All 9 carry the yellow NOT READY line, label applied (Funnel Q = Label_7; Funnel P label created this run), re-voice line = VIDEO TITLE PENDING (Re-Voicing picks videos; Wilson, On and Brooks should re-voice their launch videos per CLAUDE.md 5c). Pitch QC passed on all 9 before write; live Gmail read-back shows 20 pitch drafts, all labelled.
+
+**Pitch-queue count after this run: N=11 existing + 9 new = 20/20.** Recount from live Gmail before the next run.
