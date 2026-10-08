@@ -41,7 +41,8 @@ _Auto-logged (see the memory protocol in CLAUDE.md). Keep status lines current. 
 - **Laundry Studio: Gabriel Gerard (production coordinator; producer Ben Rejzer).** Warm. Next: check-in ~Tue 2026-10-20 to Gabriel, with something new. Lucas Bertoli (Laundry Design) is on leave until Nov 20; contact him after that.
 - **Framer: Ryan Cotrupi.** Spencer DM'd him 09-24 asking if Framer has a go-to VO; awaiting reply. Funnel A final touches went out 09-29.
 - **Shell: Jane Sayers, Global Film Lead.** Replied 10-05 (link blocked by firewall); Spencer sent the re-voice as an attachment 10-05 13:31. Warm, awaiting Jane.
-- **Venmo (PayPal): Alisa Lee, Creative Producer.** Warm reconnect scheduled Wed 10-07 (tracker row 166).
+- **Venmo (PayPal): Alisa Lee, Creative Producer.** Reconnect sent 10-06; she replied 10-08 (passing it to the team, keeping him in mind); Spencer asked for the spot link. Warm check-in ~11/19-12/03 (tracker row 166).
+  - **HELD (Spencer, 10-08): Howie Howell, Director, Global Brand & Creative Production, PayPal-Venmo** (the production lead; likely above Alisa, 🟡). LinkedIn linkedin.com/in/howiehowell (live 10-08: headline "Global Brand Production & Innovation Leader | PayPal-Venmo", San Francisco; Spencer's connect request PENDING). Apollo id 5ae46540a6da98d3fbfcd4f7. **No usable email:** Apollo's only result, howie.howell@venmo.com, is extrapolated + ZeroBounce INVALID (twice, 10-08). Do not send there. Not contacted. Plan: LinkedIn after he accepts, naming Venmo Days/Alisa; don't go around Alisa this week.
 
 ## Resolved / cold (one line each)
 - Laundry → Adobe CC 2×:15 (Sep 2026): LOST 09-22 ("client went another direction creatively"). Data point: Spencer quoted $5.5–6K national / $2,200 3-mo regional; Gabriel's ceiling ~$2,400.
