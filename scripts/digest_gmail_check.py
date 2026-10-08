@@ -157,7 +157,7 @@ def main():
               + (f" | DRAFT x{len(r['drafts'])}" if r["drafts"] else "")
               + (f" | ERROR:{r['error']}" if r["error"] else ""))
     if new:
-        print("\nNEW CONTACTS (last 3 days, not in tracker):")
+        print(f"\nNEW CONTACTS (last {a.days} days, not in tracker):")
         for addr, v in new.items():
             print(f"  {addr} | {v['direction']} {v['date']} | {v['subject'][:60]}")
     print(f"\nDrafts in Gmail: {len(all_drafts)} ({sum(bool(r['drafts']) for r in rows)} on tracker rows)")
