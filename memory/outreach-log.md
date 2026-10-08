@@ -381,3 +381,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - New email or thread reply: thread reply in "Re: Reel feedback / coaching rates" (thread 1a0d3f234d1f6e73), Gmail draft r-1938449442462037027 / msg 1a11d2d0562372e3
 - Status: draft in Gmail, Spencer to review + send
 - Follow up on: none needed; watch for Paul Wilkerson's rates email
+- 10-08: **Toby Riley (2U, Phoenix) ACCEPTED** the LinkedIn connect (Spencer-reported). Email history (live Gmail): 09-29 pitch (edX Academies re-voice), 10-05 touch 2 (free custom read). No reply. Final email: Mon 10-19 per the tracker. Tracker row 144 Notes updated.
