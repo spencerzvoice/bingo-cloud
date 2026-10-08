@@ -10,7 +10,7 @@ does not. Also checks both clips sit in this client's folder and that the video 
 Usage: python novox_check.py "<client dir or funnel dir or Client Outreach root>" ...
 Exit 1 if any project FAILs. revoice_build.py runs check_project() on every project it builds/touches.
 """
-import glob, os, re, shutil, subprocess, sys, tempfile, zlib
+import glob, html, os, re, shutil, subprocess, sys, tempfile, zlib
 import numpy as np
 
 FF = r"C:\Users\spenc\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.1-full_build\bin"
@@ -82,9 +82,9 @@ def clips(als):
         absp = re.search(r'<Path Value="([^"]*)" />', clip.group(0))
         cand = []
         if rel and rel.group(1):
-            cand.append(os.path.normpath(os.path.join(os.path.dirname(als), rel.group(1))))
+            cand.append(os.path.normpath(os.path.join(os.path.dirname(als), html.unescape(rel.group(1)))))
         if absp and absp.group(1):
-            cand.append(os.path.normpath(absp.group(1)))
+            cand.append(os.path.normpath(html.unescape(absp.group(1))))
         out[name.group(1)] = next((c for c in cand if os.path.exists(c)), cand[0] if cand else None)
     return out
 

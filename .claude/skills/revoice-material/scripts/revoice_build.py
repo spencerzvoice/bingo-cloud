@@ -121,7 +121,9 @@ def novox(client, cdir, src):
 
 
 def set_attr(seg, tag, value):
-    return re.sub(r'(<%s Value=")[^"]*(" />)' % tag, lambda m: m.group(1) + str(value) + m.group(2), seg, count=1)
+    # file names go into XML attributes: "&" in a title broke the .als (Qualtrics "XM Data & AI", 10-08)
+    value = str(value).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+    return re.sub(r'(<%s Value=")[^"]*(" />)' % tag, lambda m: m.group(1) + value + m.group(2), seg, count=1)
 
 
 def patch_clip(xml, track_name, fpath, abs_path=None):
@@ -274,9 +276,15 @@ def narrator(cdir, src, nv):
     return f"{voice} | sheet {sheet}"
 
 
+def archived(cdir, r):
+    """True for anything under a _-prefixed subfolder (_old (...), _bad_novox, _rejected - ...): an old .als
+    there must not make a package look complete (Qualtrics, 10-08) or be NOVOX-gated."""
+    return any(part.startswith("_") for part in os.path.relpath(r, cdir).split(os.sep))
+
+
 def complete(client, cdir):
     return bool(videos(cdir)) and os.path.exists(os.path.join(cdir, f"{client}_NOVOX.mp4")) and has_script(cdir) \
-        and any(f.endswith(".als") for _, _, fs in os.walk(cdir) for f in fs) \
+        and any(f.endswith(".als") for r, _, fs in os.walk(cdir) if not archived(cdir, r) for f in fs) \
         and os.path.exists(os.path.join(cdir, "Ready to Link to Drafted Email", "MAKE VIDEO - double-click me.bat"))
 
 
@@ -287,7 +295,7 @@ def novox_gate(client, cdir):
     on the spot (bad file kept in _bad_novox/, never deleted); anything still failing is reported FAIL."""
     from novox_check import check_project
     projs = sorted(os.path.join(r, f) for r, _, fs in os.walk(cdir) for f in fs
-                   if f.endswith(".als") and "Backup" not in r and "_old" not in r and not re.search(r"\[\d{4}-", f))
+                   if f.endswith(".als") and "Backup" not in r and not archived(cdir, r) and not re.search(r"\[\d{4}-", f))
     msgs, ok_all = [], True
     for als in projs:
         ok, msg = check_project(als)

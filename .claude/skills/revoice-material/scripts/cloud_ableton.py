@@ -19,7 +19,7 @@ broken). build() refuses any other name. After uploading, the cloud gate is:
 Desktop check/repair of a whole funnel:
   python cloud_ableton.py --check "D:/My Drive/Client Outreach/Funnel G" [--fix]
 """
-import argparse, glob, gzip, os, re, shutil, sys
+import argparse, glob, gzip, html, os, re, shutil, sys
 import xml.etree.ElementTree as ET
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -73,7 +73,7 @@ def check_links(funnel_dir, fix=False):
             if i < 0:
                 continue
             seg = xml[i:xml.find("</AudioTrack>", i)]
-            path = re.search(r'<Path Value="([^"]*)"', seg).group(1)
+            path = html.unescape(re.search(r'<Path Value="([^"]*)"', seg).group(1))
             if os.path.exists(path):
                 continue
             broken += 1
@@ -101,7 +101,7 @@ def linked_names(als):
     for track in ("ORIGINAL VIDEO", "VIDEO WITHOUT VOX"):
         i = xml.find(f'<EffectiveName Value="{track}" />')
         seg = xml[i:xml.find("</AudioTrack>", i)]
-        names[track] = os.path.basename(re.search(r'<Path Value="([^"]*)"', seg).group(1))
+        names[track] = os.path.basename(html.unescape(re.search(r'<Path Value="([^"]*)"', seg).group(1)))
     return names
 
 
