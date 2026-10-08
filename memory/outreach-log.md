@@ -374,3 +374,10 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - 10-08 ~19:00 Lisbon: **Spencer sent Linda Hewing (HubSpot) a LinkedIn voice note** (#8). Voice-note test: 8 sent (Taylor, Jack, Sergio, Alistair, Paul, Jane, Mariana, Linda), 1 reply (Alistair). **Tracker caught up** (Spencer's 10-08 rule: Bingo updates the tracker for any correspondence, unasked): rows 107 Jack T, 112 Linda, 128 Paul, 132 Jane, 168 Sergio, 190 Taylor now have Last Contact 10/08, a Next Action naming the next email window and "no more LinkedIn messages", and the LinkedIn connect + voice note in Notes. Read back OK. (Alistair row 133 and Mariana row 198 were done earlier.)
 
 - 2026-10-08 REPLY Elaine Craig (FGAC msg 1a11cd41acc8087b, 11:43 PDT, "Re: Reel feedback / coaching rates"): commercial demo "sounds good" (material, length, performance); put all 3 demos at the top of the landing page; asked if "booth" will get studio specs (mic, Source Connect); OK to list her as coach; Paul Wilkerson sending coaching rates/availability today. Tracker row 84 updated + read back. Site mockup built on branch `elaine-feedback` (spencerzvoice-site e957029, NOT deployed): 3 demo buttons in the hero + "The booth" specs block in About.
+
+## 2026-10-08 — Elaine Craig — warm thread reply (thank-you)
+- Contact: Elaine Craig, coaching@elainecraig.com
+- Angle: thanks for the reel feedback; both her site suggestions are live (3 demos at top with play + download; studio specs under "Booth"); OK to list her noted; looking forward to Paul's rates.
+- New email or thread reply: thread reply in "Re: Reel feedback / coaching rates" (thread 1a0d3f234d1f6e73), Gmail draft r-1938449442462037027 / msg 1a11d2d0562372e3
+- Status: draft in Gmail, Spencer to review + send
+- Follow up on: none needed; watch for Paul Wilkerson's rates email
