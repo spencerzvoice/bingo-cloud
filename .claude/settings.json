@@ -10,7 +10,12 @@
       "Bash(git log:*)",
       "Bash(git diff:*)",
       "WebFetch",
-      "WebSearch"
+      "WebSearch",
+      "mcp__FGAC_ai__create_temporary_api_key",
+      "Bash(mkdir -p local)",
+      "Write(/local/.fgac_key)",
+      "Bash(python scripts/digest_gmail_check.py:*)",
+      "Bash(python3 scripts/digest_gmail_check.py:*)"
     ]
   },
   "hooks": {
