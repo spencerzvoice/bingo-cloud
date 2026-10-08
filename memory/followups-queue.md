@@ -256,3 +256,6 @@ Clock = send date. Touch 2 window = day 7-10 (cold). Verify each in Gmail Sent o
 | Maggie Wasserman | Garmin (Kansas City) | SCHEDULED 10-08 14:32 | 10-15 to 10-18 |
 | Heather Mounsey | Plaid (Los Angeles) | SCHEDULED 10-08 16:32 | 10-15 to 10-18 |
 Each lands 8:32 AM contact-local. Tracker rows 173, 175-183.
+
+## 2026-10-08: Kevin Cho (ex-Thinkific, freelance director) first touch SENT
+Sent 10-08 01:53 Lisbon (Gmail 1a119005840853e0, thread 1a118ee9e7aae65f), verified in Sent. Soft networking pitch to someone between jobs, not a cold brand pitch. Touch 2 window: 10-22 to 10-29 (2-3 wks); earlier only if his LinkedIn shows a new role (then congratulate + re-pitch for the new place). Tracker row 184.

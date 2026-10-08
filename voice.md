@@ -117,3 +117,9 @@ No sign-off needed — Voices.com auditions don't require one.
 - "so you can hear how my voice meshes well with your content" is his voice. Bingo suggested "fits your content" and Spencer kept his. Don't smooth it.
 - "Voiceover Artist" is capitalized in pitches.
 - He drops a hook rather than force one when the source gives nothing real to say ("without it sounding like it was reaching too much").
+
+**Networking pitch to someone between jobs (Kevin Cho, ex-Thinkific video lead, sent 2026-10-08; Spencer rewrote Bingo's draft):**
+> I saw your LinkedIn post wrapping up 6+ years at Thinkific and wanted to reach out and say, "Congrats," on your time there, it sounds like a lot of your coworkers were really inspired by your vision and creativity. Best of luck to you on the next chapter!!
+> ...I'm reaching out because I'd love to be involved in the projects you create wherever this new chapter takes you. My turnaround is within 24 hours and I run self-directed sessions, so I'm pretty self sufficient.
+> ...I understand you're in transition right now but just wanted to introduce myself and make a connection for the future.
+Lessons: for a person (not a company) he drops the "go-to Voiceover Artist" and "high quality" template lines, praises the person's impact on people (not the company's growth), names the transition openly, and frames the ask as a connection for later. The re-voice is "of Thinkific's" video, not "your".
