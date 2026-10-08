@@ -82,6 +82,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=os.path.join(tempfile.gettempdir(), "digest_gmail.json"))
     ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--days", type=int, default=3, help="new-contact scan window (widen after a missed run)")
     a = ap.parse_args()
 
     vals = get(f"sheets/v4/spreadsheets/{SHEET}/values/" + urllib.parse.quote("'Outreach Tracker'!A1:L1000")).get("values", [])
@@ -124,7 +125,7 @@ def main():
     known = set(addrs) | {r[3].strip().lower() for r in vals[1:] if len(r) > 3}
     skip = re.compile(r"no-?reply|mailer-daemon|postmaster|notification|voices\.com|bodalgo|voice123|google\.com|calendar", re.I)
     new = {}
-    for i in ids("newer_than:3d (in:inbox OR in:sent) -in:drafts -category:promotions -category:social", 200):
+    for i in ids(f"newer_than:{a.days}d (in:inbox OR in:sent) -in:drafts -category:promotions -category:social", 200):
         m = meta(i)
         field = m["to"] + " " + m["cc"] if ME in m["from"].lower() else m["from"]
         for addr in re.findall(r"[\w.+'-]+@[\w-]+(?:\.[\w-]+)+", field.lower()):
@@ -140,7 +141,7 @@ def main():
     checked = [r for r in rows if r["gmail"] is not None]
     out = {"run_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "ACTIVE": len(rows), "CHECKED": len(checked),
            "not_checked": [{"row": r["row"], "name": r["name"], "email": r["email"], "error": r["error"]} for r in rows if r["gmail"] is None],
-           "drafts_total": len(all_drafts), "rows": rows, "new_contacts_3d": new}
+           "drafts_total": len(all_drafts), "rows": rows, "new_contacts_days": a.days, "new_contacts": new}
     with open(a.out, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=1, ensure_ascii=True)
 
