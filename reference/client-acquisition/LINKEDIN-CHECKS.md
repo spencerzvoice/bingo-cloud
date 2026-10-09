@@ -70,3 +70,4 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-08 | Freddie Young | On | linkedin.com/in/freddieyoung | "public profile company: On (zenrows)" | API-PASS
 2026-10-08 | Tristan Ahern | Patagonia | linkedin.com/in/tristancimini | "public profile company: Patagonia (zenrows)" | API-PASS
 2026-10-08 | Paul Jun | Ramp | linkedin.com/in/paul-jun-3544a167 | "public profile company: Ramp (zenrows)" | API-PASS
+2026-10-09 | Ivana Milovanovic | Tripadvisor | linkedin.com/in/ivanamilovanovic | "no public company shown" | API-HIDDEN
