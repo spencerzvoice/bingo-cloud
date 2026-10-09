@@ -386,3 +386,13 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - 10-08: **Spencer sent LinkedIn voice notes to Toby Riley (2U) and Adrien Colon (Descript)** (#9 and #10). Tracker rows 144 and 139: Last Contact 10/08, Next Action "final email Mon 10/19, no more LinkedIn messages". Read back OK. Voice-note test: 10 sent, 1 reply (Alistair).
 - 10-09: **Una Mladenovic accepted Spencer's LinkedIn connect** (his own request, not from the sweep). ✅ Live LinkedIn experience page 10-09: Senior Marketing Operations Strategist, Thinkific, Jun 2025 to present, Vancouver. No Gmail history. She isn't a VO buyer, but she's the only current Thinkific person we know of (the tracker says the Thinkific video team is gone: Eric/Evan/Kevin addresses bounce). Use her to ask who handles video/VO now. Tracker row 146 (Eric Smith, Thinkific) Next Action updated. Note: Bingo sent Eric Smith a LinkedIn connect 10-08; his public top card still says Thinkific, but his email is dead.
 - 10-09: **Spencer sent Una Mladenovic (Thinkific) a LinkedIn voice note** asking who handles video production now (#11; voice-note test: 11 sent, 1 reply). Tracker row 146 Next Action updated. If she names someone: verify them, then re-pitch with the recorded Thinkific package (Funnel C2).
+
+## 2026-10-09 — Premier Padel — cold (Spencer's own pick, padel fan)
+- Contact: Yasmine Akki, Head of Content & Brand, yasmine.akki@premierpadel.com (LinkedIn live 10-09 + Apollo match 10-09). Backup: Pol Espinet, Content Manager, pol.espinet@premierpadel.com (same checks).
+- Hook / angle: Yasmine's own LinkedIn post (~1 month old on 10-09): three new markets in three weeks, Pretoria P1, London P1 (Olympia), Sydney invitational at the Opera House. Spencer = padel fan.
+- Ask: go-to VO for Premier Padel content; re-voice sample.
+- Reel linked: re-voice = VIDEO TITLE PENDING (no narrated promo on their YouTube passes the rules; Delfi Brea trailer rejected).
+- New email or thread reply: new email, subject "A voice for Premier Padel's video work". Gmail draft r-660760731736468878 / msg 1a121f0d29aba96d.
+- Status: draft in Gmail. NOT sendable until the re-voice sample exists.
+- Follow up on: 7-10 days after send.
+- Result:
