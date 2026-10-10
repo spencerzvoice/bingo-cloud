@@ -393,6 +393,6 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - Ask: go-to VO for Premier Padel content; re-voice sample.
 - Reel linked: re-voice = VIDEO TITLE PENDING (no narrated promo on their YouTube passes the rules; Delfi Brea trailer rejected).
 - New email or thread reply: new email, subject "A voice for Premier Padel's video work". Gmail draft r-660760731736468878 / msg 1a121f0d29aba96d.
-- Status: draft in Gmail. NOT sendable until the re-voice sample exists.
+- Status: draft in Gmail (msg now 1a1256f89f5e2722). 10-10: re-voice = "Born to Shine" (Finals 2025 promo, Spencer approved); package built in D:/My Drive/Client Outreach/Direct/Premier Padel/ (NOVOX OK 0.84, male VO, script corrected vs on-screen subs). NOT sendable until Spencer records + the Drive link replaces REPLACE-WITH-SAMPLE-LINK.
 - Follow up on: 7-10 days after send.
 - Result:
