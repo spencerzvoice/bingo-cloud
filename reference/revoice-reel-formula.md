@@ -17,3 +17,10 @@ Source: `G:\Videos\1. VO Instagram\Samsung S26 Ultra\FINAL\Samsung S26 Ultra Com
 
 ## Finish
 No stylised grade (footage ~10% brighter than raw). Reel loudness ~-18 LUFS; his mix untouched.
+
+## Mix, cuts and motion rules (Spencer, 2026-10-12, after the Premier Padel v1)
+- **Couch / talk-to-camera VO is mixed and mastered:** mono, dead centre (use the unclipped channel if the camera split them), light denoise, rumble cut, mud cut, gentle compression, clarity, air.
+- **No level jumps:** every section (original-ad open, hook, re-voice, outro) level-matched within ~1 LU; ad bed ~20 dB under the hook voice; master to about -16 LUFS, true peak <= -1.5 dBTP. Measure the render per section, don't guess.
+- **As few cuts as possible:** one ad jump at most, cut on the ad's own shot change. Booth stays one continuous shot: slow the camera through silent breaths instead of cutting; cut only where the comp switches takes.
+- **Slow, tasteful push-ins** on every shot (about 5-16% over the shot), no snap punch-ins, no flash, no layout switching.
+- **HyperFrames lip-sync:** shift camera clips' data-media-start +0.040 s (HF shows frames ~40 ms early); verify by frame-matching a zoom-free test render.
