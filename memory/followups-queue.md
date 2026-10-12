@@ -263,3 +263,6 @@ Sent 10-08 01:53 Lisbon (Gmail 1a119005840853e0, thread 1a118ee9e7aae65f), verif
 - 10-08: **Alistair Dixon (Goalhanger) touch 3 CANCELLED.** He replied on LinkedIn (potential audio-sting VO job, "watch this space"). Don't draft the 10-20 email. The thread is live on LinkedIn.
 
 - 2026-10-12 (desktop, verified live Gmail Sent): all 7 review asks WENT OUT Wed 10-07 23:33-23:40 Lisbon (Lilah, KU Steve+Liz, Ryan/Shadow Lion, Kayla/Diamond View, Michael/Acclaim, Evan/Climb High, Kenz/Rune Haus); none left in Drafts. Kenz replied (Spencer thanked her 10-08); Ewan (Primal Space) left a review (Spencer, 10-11). Tracker rows already show Last Contact 10/07-10/08. Credit/link asks: ONLY Primal Space + Noah (10-06). None sent to KU, IMG, Altra, Diamond View, Shadow Lion, Xpedition, Acclaim, Climb High, Rune Haus. Primal Space description now links spencerzvoice.com (verified 10-12); FIFA Ep 1 still no credit.
+
+## 2026-10-12 evening prep (cloud, for Tue 2026-10-13)
+Ledger check: no reminder or overdue date falls on Tue 10-13 (also a send-avoid day, Columbus Day +1). Next due Wed 10-14 (Funnel B + C touch 3, Warner/micro1 touch 2, Psyop/Andrew Linsk touch 2, Jim Levi) -> prep Tue 10-13 eve. Nothing drafted, no push, no email. Live Gmail not queried (nothing due).
