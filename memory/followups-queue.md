@@ -266,3 +266,5 @@ Sent 10-08 01:53 Lisbon (Gmail 1a119005840853e0, thread 1a118ee9e7aae65f), verif
 
 ## 2026-10-12 evening prep (cloud, for Tue 2026-10-13)
 Ledger check: no reminder or overdue date falls on Tue 10-13 (also a send-avoid day, Columbus Day +1). Next due Wed 10-14 (Funnel B + C touch 3, Warner/micro1 touch 2, Psyop/Andrew Linsk touch 2, Jim Levi) -> prep Tue 10-13 eve. Nothing drafted, no push, no email. Live Gmail not queried (nothing due).
+
+- 2026-10-12: VOX ARTIST (Ana, +351 960 285 967) + ZOV (Vera, +351 937 981 560) WhatsApp nudges sent 18:37 Lisbon. Next touch (WhatsApp, not email) ~Mon 10-26 if no reply. Channel = WhatsApp; Gmail checks won't see replies, so check WhatsApp Web before calling it due.

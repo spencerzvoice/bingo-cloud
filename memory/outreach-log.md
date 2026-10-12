@@ -400,3 +400,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 
 ## 2026-10-12 - PT agencies found in WhatsApp (desktop)
 - VOX ARTIST (Ana) + ZOV (Vera): pitched 7/6 on WhatsApp (Kyla Nelson referral), both responded warmly (Vox welcomed him to the portfolio 7/15; ZOV asked for email + photo for its voicebook 7/16). No follow-up since; no email threads in either Gmail. Tracker rows 200-201 added, J:K formulas re-pasted, read back. Not VOZ ON (VOZ ON never contacted).
+- 2026-10-12 18:37 Lisbon: WhatsApp nudges SENT by Bingo on Spencer's OK (WhatsApp Web, his Chrome) to Ana / VOX ARTIST (portfolio onboarding + spencerzvoice.com) and Vera / ZOV (voicebook check + spencerzvoice.com). Tracker rows 200-201: Status Follow-Up Sent, Last Contact 10/12, next WhatsApp ~10/26 if silent.
