@@ -113,6 +113,7 @@ What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreac
 - New email or thread reply: new email. Tracker row 95.
 - Status: **follow-up sent 2026-09-02** — only got the CTC after-hours auto-reply back, no human response as of 2026-09-17 (live Gmail check).
 - Follow up on: one light final touch if worth closing the loop, otherwise let it go cold — never got past the auto-responder.
+- **CORRECTION 2026-09-21 (brought in 10-12 from the Weekly Check-in's stale branch):** an entry once said "Portia responded (rate card incomplete)" from the tracker's Status cell alone. Wrong: no such reply exists in Gmail, only her Aug 31 after-hours auto-reply. Spencer confirmed he never heard from her on any channel. Sheet row corrected 09-21.
 - Result: no reply yet
 
 ## 2026-08-30 — Notion (Cory Zapatka) — cold
