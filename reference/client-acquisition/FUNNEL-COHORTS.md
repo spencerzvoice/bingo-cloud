@@ -274,11 +274,12 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Brooks Running | Consumer brands and travel | Christina Harp | Gavin Doremus | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Hyperion Elite 6 launch, Gear Patrol Aug 14 2026 |
 | Calm | Consumer brands and travel | Daniel Szeto | Casey Daigle | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Natrol x Michelle Monaghan collab, Calm Blog Sep 15 2026 |
 | Columbia Sportswear | Consumer brands and travel | Allison Straughan | Chris Araujo | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = F££T FUND campaign (Peakfreak), Creative Salon Sep 16 2026 |
-| Lonely Planet | Consumer brands and travel | Max Dickson | Deepa Lakshmin | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Best in Travel 2027 list, Euronews Sep 23 2026 |
+| Lonely Planet | Consumer brands and travel | Max Dickson | Deepa Lakshmin | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Best in Travel 2027 list, Euronews Sep 23 2026; re-voice = "Lonely Planet's BEST IN TRAVEL 2027 Is Here" (the hook's launch trailer), package built 2026-10-12 |
 | Tripadvisor | Consumer brands and travel | Ivana Milovanovic | Heather Clifford | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Travelers' Choice Best of the Best Restaurants, PR Newswire Sep 15 2026 |
 | Wilson Sporting Goods | Consumer brands and travel | Naotaka Aogaki | Tim McCaffrey | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = third Caitlin Clark signature collection, NSGA Aug 5 2026 |
 | On | Consumer brands and travel | Freddie Young | Luiza Baffa | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Cloudsurfer 3 unveil, On Pressroom Sep 15 2026 (no official launch video confirmed) |
 | Patagonia | Consumer brands and travel | Tristan Ahern | Vanina Lucas | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; no hook (nothing in 90 days) |
+| Premier Padel | Sport (league/tour) | Yasmine Akki | Pol Espinet | DRAFTED 2026-10-09 off-funnel (Spencer's pick); ADDED to Funnel Q 2026-10-12 (Spencer: "add Yasmine to the next Funnel to go out"; Q = the cohort going out now, sport/consumer fit, open slot left by Siemens Energy -> G2). Gmail label Funnel Q; Drive folder moved Direct -> Funnel Q, Ableton links repaired; re-voice "Born to Shine" |
 
 ### Funnel R
 | Company | Segment | Primary | Backup | Roster note |
