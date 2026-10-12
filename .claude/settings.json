@@ -21,7 +21,7 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "mcp__FGAC_ai__google_api_modify",
+        "matcher": "mcp__.*__google_api_modify",
         "hooks": [
           {
             "type": "command",
