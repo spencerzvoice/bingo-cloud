@@ -397,3 +397,6 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - Status: draft in Gmail (msg now 1a1305144fd9a92f; v3 template since 10-12; credits = "FIFA and EuroLeague Basketball", Spencer's call, now the sports-org default). 10-10: re-voice = "Born to Shine" (Finals 2025 promo, Spencer approved); package built in D:/My Drive/Client Outreach/Direct/Premier Padel/ (NOVOX OK 0.84, male VO, script corrected vs on-screen subs). NOT sendable until Spencer records + the Drive link replaces REPLACE-WITH-SAMPLE-LINK.
 - Follow up on: 7-10 days after send.
 - Result:
+
+## 2026-10-12 - PT agencies found in WhatsApp (desktop)
+- VOX ARTIST (Ana) + ZOV (Vera): pitched 7/6 on WhatsApp (Kyla Nelson referral), both responded warmly (Vox welcomed him to the portfolio 7/15; ZOV asked for email + photo for its voicebook 7/16). No follow-up since; no email threads in either Gmail. Tracker rows 200-201 added, J:K formulas re-pasted, read back. Not VOZ ON (VOZ ON never contacted).

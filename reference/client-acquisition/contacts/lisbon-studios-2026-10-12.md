@@ -87,3 +87,6 @@ Tags: ✅ opened the primary source this session (named) · 🟡 unverified · �
 — Verified: VMS address/roster/email (voicesmediasolutions.com) · Gesiane Paes + Mariana Marques roles (live LinkedIn) · AP Portugal addresses/US English option (apportugal.com) · Mário Júnior + Ricardo Silva roles (live LinkedIn) · VOZ ON address/email/no named US voices (vozon.pt) · Arcindo Guimarães role (live LinkedIn) · Soundtrap Porto + email (soundtrap-productions.net) · Ricardo Soares role (live LinkedIn) · Voice Over Portugal = London (its site) · Ekitai = Delhi/Dubai (its site)
 — Bracketed (Spencer fills): his own distance from Av. João Crisóstomo · whether to message Mário Júnior / Ricardo Soares on LinkedIn (2nd degree)
 — Unknown: named emails for anyone (none published) · whether any VMS US male is Portugal-based · AP/Soundtrap US-male roster · VMS casting/production staff names
+
+## Already contacted (found in Spencer's WhatsApp, 2026-10-12)
+- VOX ARTIST (Ana, +351 960 285 967) and ZOV (Vera, +351 937 981 560), both 7/6/2026 via Kyla Nelson referral, both warm. Neither is on the list above. VOZ ON has NOT been contacted.
