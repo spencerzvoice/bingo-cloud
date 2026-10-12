@@ -250,7 +250,8 @@ def script_gate(cdir):
     no placeholders, and script_check.py (a fresh Whisper pass diffed against the script) must pass.
     Spencer, 2026-10-12, after Airbnb's script dropped its tag line "Now you can Airbnb more than an Airbnb.":
     "Make the script writing fool proof." A Google Doc script can't be read from disk, so it no longer counts as
-    checked (that's how Airbnb slipped through): FAIL until it's a _script.docx or checked with --text."""
+    checked (that's how Airbnb slipped through): it reports CHECK until its text export passes --text. It is
+    never converted to .docx (Spencer, 2026-10-13)."""
     import docx
     from script_check import script_text, verify
     out = []
@@ -268,8 +269,10 @@ def script_gate(cdir):
             ok, line, gaps = False, f"SCRIPT CHECK could not run ({e})", []
         out.append(f"{'OK' if ok else 'FAIL'} {sp}: {line}" + "".join("\n      " + g for g in gaps))
     if not out and has_script(cdir):
-        return ["FAIL script is a Google Doc only, so it can't be checked here. Save it as <Client>_script.docx, "
-                "or run script_check.py --src <source> --text <exported text> and fix every gap"]
+        # Never convert or rewrite it to get past this (Spencer, 2026-10-13: the .docx conversion "made the
+        # scripts worse"; Funnel I was reverted to its Google Docs). Check it from a text export instead.
+        return ["CHECK script is a Google Doc: export its text (FGAC drive export text/plain) and run "
+                "script_check.py --src <source> --text <export>. Leave the Doc as it is; never convert it to .docx"]
     return out or ["FAIL no _script.docx"]
 
 
