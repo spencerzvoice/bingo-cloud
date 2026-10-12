@@ -116,8 +116,26 @@ def novox(client, cdir, src):
     run([sys.executable, "-m", "demucs", "--two-stems=vocals", "-o", os.path.join(tmp, "stems"), wav])
     nv = os.path.join(tmp, "stems", "htdemucs", "audio", "no_vocals.wav")
     run(["ffmpeg", "-y", "-i", src, "-i", nv, "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy", "-c:a", "aac", "-shortest", out])
+    shutil.move(os.path.join(tmp, "stems", "htdemucs", "audio", "vocals.wav"), vocals_path(client))  # for whisper_script
     shutil.rmtree(tmp, ignore_errors=True)
     return out
+
+
+def vocals_path(client):
+    return os.path.join(WORK, re.sub(r"[^A-Za-z0-9]+", "_", client) + "_vocals.wav")
+
+
+def vocals(client, src):
+    """Demucs vocal stem of the source (kept from the NOVOX pass; rebuilt if missing)."""
+    vp = vocals_path(client)
+    if not os.path.exists(vp):
+        tmp = tempfile.mkdtemp(dir=WORK)
+        wav = os.path.join(tmp, "audio.wav")
+        run(["ffmpeg", "-y", "-i", src, "-vn", "-ac", "2", "-ar", "44100", wav])
+        run([sys.executable, "-m", "demucs", "--two-stems=vocals", "-o", os.path.join(tmp, "stems"), wav])
+        shutil.move(os.path.join(tmp, "stems", "htdemucs", "audio", "vocals.wav"), vp)
+        shutil.rmtree(tmp, ignore_errors=True)
+    return vp
 
 
 def set_attr(seg, tag, value):
@@ -228,20 +246,30 @@ BAD_SCRIPT = ("no captions", "transcribe manually", "transcription failed", "sum
 
 
 def script_gate(cdir):
-    """Every _script.docx must hold the actual VO copy: no placeholders, plausible word count for the video."""
+    """SCRIPT GATE. Every _script.docx must hold the actual VO copy of THIS folder's source video, word for word:
+    no placeholders, and script_check.py (a fresh Whisper pass diffed against the script) must pass.
+    Spencer, 2026-10-12, after Airbnb's script dropped its tag line "Now you can Airbnb more than an Airbnb.":
+    "Make the script writing fool proof." A Google Doc script can't be read from disk, so it no longer counts as
+    checked (that's how Airbnb slipped through): FAIL until it's a _script.docx or checked with --text."""
     import docx
+    from script_check import script_text, verify
     out = []
     vids = videos(cdir)
     for sp in sorted(f for f in os.listdir(cdir) if f.endswith("_script.docx") and not f.startswith("~$")):
         paras = [p.text.strip() for p in docx.Document(os.path.join(cdir, sp)).paragraphs if p.text.strip()]
         body = " ".join(paras[1:]).lower()
-        words = len(body.split())
-        dur = probe(os.path.join(cdir, vids[0]))[0] if vids else 0
         bad = [b for b in BAD_SCRIPT if b in body]
-        ok = not bad and words >= max(15, dur * 0.8)
-        out.append(f"{'OK' if ok else 'FAIL'} {sp}: {words} words / {dur:.0f}s{' placeholder: ' + ', '.join(bad) if bad else ''}")
+        if bad or not vids:
+            out.append(f"FAIL {sp}: {'placeholder: ' + ', '.join(bad) if bad else 'no source video to check against'}")
+            continue
+        try:
+            ok, line, gaps = verify(os.path.join(cdir, vids[0]), script_text(os.path.join(cdir, sp)))
+        except Exception as e:
+            ok, line, gaps = False, f"SCRIPT CHECK could not run ({e})", []
+        out.append(f"{'OK' if ok else 'FAIL'} {sp}: {line}" + "".join("\n      " + g for g in gaps))
     if not out and has_script(cdir):
-        return ["OK script is a Google Doc (cloud-built, not checked here)"]
+        return ["FAIL script is a Google Doc only, so it can't be checked here. Save it as <Client>_script.docx, "
+                "or run script_check.py --src <source> --text <exported text> and fix every gap"]
     return out or ["FAIL no _script.docx"]
 
 
@@ -250,20 +278,28 @@ def has_script(cdir):
 
 
 def whisper_script(client, cdir, src):
-    """Write <Client>_script.docx from a local Whisper pass (desktop relay: no YouTube captions needed)."""
-    import docx
-    tmp = tempfile.mkdtemp(dir=WORK)
-    wav = os.path.join(tmp, "vo.wav")
-    run(["ffmpeg", "-y", "-i", src, "-vn", "-ac", "1", "-ar", "16000", wav])
-    run([sys.executable, "-m", "whisper", wav, "--model", "small", "--language", "en",
-         "--output_format", "txt", "--output_dir", tmp])
-    lines = [l.strip() for l in open(os.path.join(tmp, "vo.txt"), encoding="utf-8") if l.strip()]
+    """Write <Client>_script.docx from a local Whisper pass (desktop relay: no YouTube captions needed).
+    Medium model on the Demucs vocal stem, condition_on_previous_text=False (stops one mishearing snowballing
+    into the next lines), and nothing past the video's end or Whisper's stock "thanks for watching" filler.
+    The SCRIPT GATE then re-checks it with an independent pass (script_check.py)."""
+    import docx, whisper
+    from script_check import HALLU
+    dur, _ = probe(src)
+    r = whisper.load_model("medium").transcribe(vocals(client, src), fp16=False, language="en",
+                                                condition_on_previous_text=False)
+    lines = []
+    for seg in r["segments"]:
+        t = seg["text"].strip()
+        if not t or seg["start"] > dur - 0.3:
+            continue
+        if re.sub(r"[^a-z' ]", "", t.lower()).strip() in HALLU:
+            continue
+        lines.append(t)
     d = docx.Document()
     d.add_paragraph("Original copy - from Whisper transcription (desktop relay), verify against the video.")
     for l in lines:
         d.add_paragraph(l)
     d.save(os.path.join(cdir, f"{client}_script.docx"))
-    shutil.rmtree(tmp, ignore_errors=True)
 
 
 def narrator(cdir, src, nv):
@@ -357,8 +393,9 @@ def build_funnel(fdir, only, results):
             continue  # whole-funnel / --all: no pick yet, nothing for this script to do
         if complete(client, cdir):
             ok, msgs = novox_gate(client, cdir)  # finished packages are re-checked too
-            if not ok:
-                results[key] = "FAIL - " + " / ".join(msgs)
+            gate = [g for g in script_gate(cdir) if g.startswith("FAIL")]  # and so are their scripts
+            if not ok or gate:
+                results[key] = "FAIL - " + " / ".join(msgs + gate)
             continue
         try:
             url, opt = read_sources(sf)
@@ -385,8 +422,10 @@ def build_funnel(fdir, only, results):
             ableton(client, cdir, src, nv)
             button(client, cdir)
             ok, msgs = novox_gate(client, cdir)
+            gate = script_gate(cdir)
+            ok &= not any(g.startswith("FAIL") for g in gate)
             dur, _ = probe(src)
-            results[key] = (f"OK - {os.path.basename(src)} ({dur:.0f}s){note}" if ok else "FAIL") + " | " + " / ".join(msgs)
+            results[key] = (f"OK - {os.path.basename(src)} ({dur:.0f}s){note}" if ok else "FAIL") + " | " + " / ".join(msgs + gate)
         except Exception as e:
             results[key] = f"FAIL - {e}"
         log(key, "->", results[key])
@@ -409,13 +448,8 @@ def main():
         log(f"{k}: {v}")
     if not results:
         log("nothing to do")
-    log("\n=== SCRIPT GATE (every script must be the real VO copy) ===")
-    root = os.path.dirname(fdirs[0])
-    for k in results:
-        cdir = os.path.join(root, *k.split("/", 1))
-        if os.path.isdir(cdir) and videos(cdir):
-            for line in script_gate(cdir):
-                log(f"{k}: {line}")
+    # SCRIPT GATE: script_gate() (script_check.py on every _script.docx) runs inside build_funnel for every
+    # package, finished ones included, and a miss FAILs that package's SUMMARY line above.
 
 
 if __name__ == "__main__":
