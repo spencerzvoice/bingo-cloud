@@ -76,7 +76,8 @@ No hook = no callback: the sentence ends at "<Company>." and the quality line st
 |---|---|
 | Software, SaaS, AI, cyber, cloud, B2B, industrial, energy, corporate | Dell Technologies, Cisco, and Amazon AWS (Brave Browser for browser/privacy/AI tools) |
 | Fintech, payments, banking | Venmo, Amazon AWS, and Dell Technologies |
-| Fitness, sport, apparel, outdoor, wearables | NordicTrack, Fabletics, and FootJoy |
+| **Sports organisations: leagues, tours, teams, federations, sports media and sports events** (Spencer, 2026-10-12: "make it the default for sports clients") | **FIFA and EuroLeague Basketball** only. v3 sentence: "My recent work includes FIFA and EuroLeague Basketball, and my reels are at spencerzvoice.com." (no "plus ..." part). First use: Premier Padel 10-12 |
+| Fitness, sporting goods, apparel, outdoor, wearables (brands) | NordicTrack, Fabletics, and FootJoy |
 | Travel, hospitality, luggage | Travelpro, Dell Technologies, and Cisco |
 | Creative/production/animation studios, media, music | Venmo, Dell Technologies, and Artlist.io |
 | Consumer apps, retail, food, delivery | Venmo, Amazon AWS, and Artlist.io |
