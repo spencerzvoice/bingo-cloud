@@ -1,6 +1,35 @@
 # House cold-pitch template
 
-## v2, CURRENT (Spencer, 2026-10-07): congrats hook + callback, Bingo writes the whole hook
+## v3, CURRENT (Spencer approved 2026-10-12): humanizer pass on v2
+Source: Bingo ran the `humanizer` skill (`.claude/skills/humanizer`) over v2 and proposed this version; Spencer approved it the same afternoon ("Update the pitch and emails in my draft folder starting now"). All 21 unsent pitch drafts were rebuilt to it on 2026-10-12 (`memory/2026-10-12.md`). `.claude/hooks/pitch_draft_qc.py` enforces it and rejects the v2 lines.
+**What changed vs v2 and why:** "I hope this message finds you well" (stock opener) → "hope you're doing well!"; "My work is high quality" (claim with no detail) cut; the "bringing the news of X to the world" callback (inflated) → "starting with the ones about <event>"; intro + reaching-out merged into one sentence; "among others (FIFA, EuroLeague Basketball)" → "plus FIFA and EuroLeague Basketball"; "you can hear my work at" → "my reels are at"; "Also, I put together a re-voice of your" → "I also re-voiced your"; the stock "Feel free to reach out or schedule a call" close → "If you'd like to work together, just reply here and we can set up a call."
+**Unchanged from v2:** the hook paragraph and its rules (below), the "!!" on the congrats line, the 3-credit table, "meshes well with your content" (Spencer's voice, never change it), no em/en dashes, the yellow [NOT READY: ...], [VERIFY EMPLOYMENT: ...] and [Source: ...] marker lines, and the Pushkin exception. Spencer's own hook/take text stays word for word.
+
+```
+[cloud-built drafts only] <span style="background-color:#ffff00">[NOT READY: Bingo's LinkedIn check pending for <Name>, <Title>, <Company>. Bingo deletes this line once it passes]</span>
+
+Hello <First>, hope you're doing well!          (casual, younger men: "Hi <First>, hope you're doing well!")
+
+Saw <Company> just <event>. <reaction>. Congrats on the <launch>!! <span style="background-color:#ffff00">[Source: <a href="URL">Publication, Mon D, YYYY</a>. Delete this before sending]</span>     (v2 hook rules; leave out if no hook)
+
+My name is Spencer Pearman. I'm a voiceover artist and audio engineer in Lisbon, and I'd love to voice the videos that come out of <Company>, starting with the ones about <event, short plain words>.
+   (no hook: the sentence ends "...videos that come out of <Company>.")
+
+I turn work around within 24 hours and run my own sessions, so it's one less thing for you to manage. My recent work includes <3 credits, table below>, plus FIFA and EuroLeague Basketball, and my reels are at spencerzvoice.com.
+   (credits already name FIFA or EuroLeague: drop the "plus ..." part)
+
+I also re-voiced your <a href="<Drive link or https://drive.google.com/REPLACE-WITH-SAMPLE-LINK>">"<exact video title>"</a> <video|spot> so you can hear how my voice meshes well with your content. I'd appreciate it if you gave it a listen!
+   (no video picked yet: the title text is VIDEO TITLE PENDING)
+
+If you'd like to work together, just reply here and we can set up a call. Hope to hear from you soon!
+
+Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
+```
+Paragraphs are separated by `<br><br>`. **Callback (v3):** "starting with the ones about <event>", where <event> is the hook's news in a few plain words ("the Fall Update", "the double 1-2 in Copenhagen", "Nova and Frontline"). Never "to the world" / "with the world". The v2 hook rules, double "!!" rule and credits table below still apply; ignore v2's callback list and its intro/quality/close lines.
+
+---
+
+## v2 (Spencer, 2026-10-07) - history, superseded by v3: congrats hook + callback, Bingo writes the whole hook
 Source: Spencer's own sends and edits of 2026-10-07 (Toast, UiPath, Psyop, Robinhood, SoFi, Gong, Instacart, BUCK sent; ABB, Garmin, Peloton, Booking.com, Plaid, The Economist edited in Drafts). His brief: "read the source that we're choosing for the hook and say, if it makes sense, 'Congratulations on the release', 'on this product', 'on this new collaboration', 'on this technology that you've developed'. Then we do a callback when we're talking about the reason why I'm reaching out: 'I'd love to be your voiceover artist ... to help bring the news of this accomplishment to the world'." His answers the same night: Bingo writes the whole hook but still gives him the source link; the quality line gets its own paragraph when there's a callback; credits are 3 matched to the industry.
 **v2 replaces, where they conflict:** the 10-03 "Bingo writes the event line only, Spencer writes [YOUR TAKE]" rule and the 10-05 default bridge ", starting with the videos that will tell this story" / "never bring this to the world" (Spencer now writes "bring the news ... to the world" himself). Everything else below (intro, quality line, re-voice line, close, no em dashes) is unchanged.
 
@@ -42,7 +71,7 @@ Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
 - "like the ones that will share this news about <the event>" (BUCK)
 No hook = no callback: the sentence ends at "<Company>." and the quality line stays in the SAME paragraph (Spencer's Booking.com, Plaid, Economist).
 
-**Credits (v2): 3 from the verified list (MEMORY.md "Established credits"), matched to the industry, then "among others (FIFA, EuroLeague Basketball)":**
+**Credits (v2, still current in v3): 3 from the verified list (MEMORY.md "Established credits"), matched to the industry, then (v3) "plus FIFA and EuroLeague Basketball":**
 | Company type | Credits |
 |---|---|
 | Software, SaaS, AI, cyber, cloud, B2B, industrial, energy, corporate | Dell Technologies, Cisco, and Amazon AWS (Brave Browser for browser/privacy/AI tools) |
