@@ -60,30 +60,37 @@ def ban(pattern, label):
 CUSTOM_REACHING_OUT_DOMAINS = ("@pushkin.fm",)
 NO_SAMPLE_DOMAINS = ("@pushkin.fm",)
 to = str(msg.get("To", "")).lower()
-need("My name is Spencer Pearman. I'm a voiceover artist and audio engineer in Lisbon", "v3 intro")
+# House template v4 (Spencer's own Calm + Premier Padel drafts, 2026-10-13: "copy that format over ... save this as the newest pitch").
+need("My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal", "v4 intro")
 if not any(d in to for d in CUSTOM_REACHING_OUT_DOMAINS):
-    need("My name is Spencer Pearman. I'm a voiceover artist and audio engineer in Lisbon, and I'd love to voice the videos that come out of", "v3 intro + reaching-out sentence")
-need("I turn work around within 24 hours and run my own sessions, so it's one less thing for you to manage.", "v3 turnaround line")
+    need("based in Lisbon, Portugal, and I'd love to", "v4 intro + reaching-out sentence")
+need("My standard turnaround is within 24 hours and within 2-3 hours for rush projects", "v4 turnaround line (Spencer 10-13: '2-3 hours')")
 need("My recent work includes", "credits paragraph")
-need("my reels are at spencerzvoice.com", "v3 website line")
+need("You can see more of my work at", "v4 website line")
 # NO-SAMPLE exceptions = Spencer's own call per client, never Bingo's (2026-10-07: Pushkin Industries is audio-only,
 # every trailer is read first-person by its host, 3 checks found nothing to re-voice -> "Go with 2", pitch without one).
 if not any(d in to for d in NO_SAMPLE_DOMAINS):
-    if "I also re-voiced your" not in text and "VIDEO TITLE PENDING" not in text:
-        fails.append("missing re-voice line ('I also re-voiced your ...' or VIDEO TITLE PENDING)")
-    need("so you can hear how my voice meshes well with your content. I'd appreciate it if you gave it a listen!", "re-voice follow-on")
-need("If you'd like to work together, just reply here and we can set up a call. Hope to hear from you soon!", "v3 close")
+    if "I re-voiced your" not in text and "VIDEO TITLE PENDING" not in text:
+        fails.append("missing re-voice line ('Also, so you can hear ..., I re-voiced your ...' or VIDEO TITLE PENDING)")
+    need("so you can hear how my voice meshes well with your content", "re-voice line")
+    need("I'd appreciate it if you gave it a listen!", "re-voice follow-on")
+need("I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!", "v4 close")
 need("Best,", "sign-off")
-# Old v1/v2 lines (humanizer pass 2026-10-12): stock opener, unsupported claim, inflated callback, stock close.
-ban(r"finds you well", "v2 opener 'I hope this message finds you well' (v3: 'hope you're doing well!')")
-ban(r"my work is high quality", "v2 'My work is high quality' (v3 turnaround line)")
-ban(r"feel free to reach out or schedule a call", "v2 close (v3: 'If you'd like to work together, just reply here...')")
-ban(r"\b(to|with) the world\b", "v2 'to the world' callback (v3: 'starting with the ones about <event>')")
-ban(r"also, i put together a re-voice", "v2 re-voice opener (v3: 'I also re-voiced your')")
-ban(r"go-to voiceover artist", "v2 reaching-out line (v3 merges it into the intro)")
-ban(r"among others \(", "v2 'among others (FIFA, ...)' (v3: 'plus FIFA and EuroLeague Basketball')")
-ban(r"you can hear my work at", "v2 website line (v3: 'my reels are at spencerzvoice.com')")
-ban(r"professional voiceover artist", "v2 intro 'professional Voiceover Artist ... based in Lisbon, Portugal'")
+# Old v1/v2/v3 lines.
+ban(r"finds you well", "old opener 'I hope this message finds you well' (v4: 'hope you're doing well!')")
+ban(r"my work is high quality", "old 'My work is high quality'")
+ban(r"feel free to reach out or schedule a call", "old close (v4: 'I'd love to get on a call ...')")
+ban(r"just reply here and we can set up a call", "v3 close (v4: 'I'd love to get on a call ...')")
+ban(r"I turn work around within 24 hours and run my own sessions", "v3 turnaround line (v4: 'My standard turnaround is within 24 hours ...')")
+ban(r"my reels are at", "v3 website line (v4: 'You can see more of my work at spencerzvoice.com')")
+ban(r"I also re-voiced your", "v3 re-voice order (v4: 'Also, so you can hear ..., I re-voiced your ...')")
+ban(r"starting with the ones about", "v3 callback (v4: 'especially the ones that spread the word about ...')")
+ban(r"(to|with) the world", "v2 'to the world' callback")
+ban(r"also, i put together a re-voice", "v2 re-voice opener")
+ban(r"go-to voiceover artist", "v2 reaching-out line")
+ban(r"among others \(", "v2 'among others (FIFA, ...)'")
+ban(r"you can hear my work at", "v2 website line")
+ban(r"at at", "typo 'at at'")
 ban(r"warm bass/baritone|record and produce everything myself", "voice line (Spencer 10-05 night: cut, the samples show the voice)")
 ban(r"so turnaround is fast", "duplicate turnaround line (Spencer 10-05: cut it from the intro)")
 ban(r"would love to be a voice you can call on regularly", "old close 'Would love to be a voice you can call on regularly'")
@@ -94,7 +101,7 @@ ban(r"keep on file", "old close 'keep on file'")
 ban(r"custom read", "'custom read' offer (re-voice line is never substituted)")
 ban(r"american voice|professional american", "'American' in the voice line")
 ban(r"low-register", "'low-register'")
-ban(r"starting with the videos that will tell this story", "old 10-05 bridge (v3: 'starting with the ones about <event>')")
+ban(r"starting with the videos that will tell this story", "old 10-05 bridge")
 # Bingo writes the whole hook and leaves a yellow [Source: <link>] marker for Spencer (v2, kept in v3).
 if "[Source:" in content and "href" not in content.split("[Source:", 1)[1][:400]:
     fails.append("[Source: ...] marker is not a clickable link")
@@ -105,7 +112,7 @@ if "[YOUR TAKE]" in content and "href" not in content.split("[YOUR TAKE]", 1)[1]
 
 if fails:
     sys.stderr.write(
-        "BLOCKED by pitch_draft_qc: pitch drafts must follow the house template v3 (Spencer, 2026-10-12; "
+        "BLOCKED by pitch_draft_qc: pitch drafts must follow the house template v4 (Spencer, 2026-10-13; "
         "full text in reference/client-acquisition/PITCH-TEMPLATE.md). Rebuild the draft to it and retry. Problems: " + "; ".join(fails) + "\n"
     )
     sys.exit(2)
