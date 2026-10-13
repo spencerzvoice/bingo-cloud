@@ -171,43 +171,43 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 ### Funnel J
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| Elastic | Developer and infrastructure platforms | Erika Alexander | Yichun Hsieh | BANKED |
-| GitLab | Developer and infrastructure platforms | Adam Mittner | Matthew Jordan | BANKED |
-| Harness | Developer and infrastructure platforms | Ben Hoedt | Mitch Rymeski | BANKED |
-| JetBrains | Developer and infrastructure platforms | Alex Gauermann | Anna Rudaia | BANKED |
-| LaunchDarkly | Developer and infrastructure platforms | Jamal Farley | Jena Boyle | BANKED |
-| MongoDB | Developer and infrastructure platforms | Pablo Zubieta | Jerzy Fischer | BANKED |
-| Postman | Developer and infrastructure platforms | Colin Goheen | Shruthi Venkatesh | BANKED |
-| Twilio | Developer and infrastructure platforms | Riley West | Sara Bell | BANKED |
-| Unity | Developer and infrastructure platforms | Eddie Russell | James Turnage-Lannan | BANKED |
-| New Relic | Developer and infrastructure platforms | Moe Hung | Corianne Goldstein | BANKED |
+| Elastic | Developer and infrastructure platforms | Erika Alexander | Yichun Hsieh | DRAFTED 2026-10-13 -> Shelby Khan (both listed contacts left); hook AV-Comparatives perfect score |
+| GitLab | Developer and infrastructure platforms | Adam Mittner | Matthew Jordan | DRAFTED 2026-10-13 -> Adam Mittner; hook Transcend tools (unpaired) |
+| Harness | Developer and infrastructure platforms | Ben Hoedt | Mitch Rymeski | DRAFTED 2026-10-13 -> Mitch Rymeski; hook = launch film |
+| JetBrains | Developer and infrastructure platforms | Alex Gauermann | Anna Rudaia | DRAFTED 2026-10-13 -> Alex Gauermann; hook + re-voice JetBrains Air (swap built) |
+| LaunchDarkly | Developer and infrastructure platforms | Jamal Farley | Jena Boyle | DRAFTED 2026-10-13 -> Jamal Farley; hook $200M ARR |
+| MongoDB | Developer and infrastructure platforms | Pablo Zubieta | Jerzy Fischer | DRAFTED 2026-10-13 -> Pablo Zubieta; hook MongoDB 9.0 |
+| Postman | Developer and infrastructure platforms | Colin Goheen | Shruthi Venkatesh | DRAFTED 2026-10-13 -> Colin Goheen; hook Passport |
+| Twilio | Developer and infrastructure platforms | Riley West | Sara Bell | DRAFTED 2026-10-13 -> Riley West; hook S&P 500 |
+| Unity | Developer and infrastructure platforms | Eddie Russell | James Turnage-Lannan | DRAFTED 2026-10-13 -> Eddie Russell; hook Unity 7 |
+| New Relic | Developer and infrastructure platforms | Moe Hung | Corianne Goldstein | DRAFTED 2026-10-13 -> Moe Hung (now Lead Brand Designer); hook AI Evaluation |
 
 ### Funnel K
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| HashiCorp | Developer and infrastructure platforms | Cole Morrison | Raven Kenemer | BANKED — HOOK NEEDED, weaker title fit |
-| Amplitude | Enterprise and business software | Helsi Robino | Michael Heriford | BANKED |
-| Applied Intuition | Enterprise and business software | Jorge Salgado | Matt Boyd | BANKED |
-| Autodesk | Enterprise and business software | Jack Headley | Christopher Sherwin | BANKED |
-| Celonis | Enterprise and business software | Alice Monnet | David Pohl | BANKED |
-| DocuSign | Enterprise and business software | Matthew Moresco | Shameika Ejiasi | BANKED |
-| Justworks | Enterprise and business software | Jonathan Lopez | Alexander Riezebeek | BANKED |
-| Klaviyo | Enterprise and business software | Karim El-Sayed | Robb D'Agostino | BANKED |
-| Okta | Enterprise and business software | Katie Mitchell | Devin Cornwall | BANKED |
-| Personio | Enterprise and business software | Andrew Wilson | Mia Worts | BANKED |
+| HashiCorp | Developer and infrastructure platforms | Cole Morrison | Raven Kenemer | DRAFTED 2026-10-13 -> Raven Kenemer @ibm.com (content strategy, weak fit); no hook; re-voice "The Story of Code" trailer (new) |
+| Amplitude | Enterprise and business software | Helsi Robino | Michael Heriford | DRAFTED 2026-10-13 (other session, Helsi Robino) |
+| Applied Intuition | Enterprise and business software | Jorge Salgado | Matt Boyd | DRAFTED 2026-10-13 (other session, Jorge Salgado) |
+| Autodesk | Enterprise and business software | Jack Headley | Christopher Sherwin | DRAFTED 2026-10-13 -> Jack Headley; hook + re-voice = "The World is Yours for the Making" (swap built) |
+| Celonis | Enterprise and business software | Alice Monnet | David Pohl | DRAFTED 2026-10-13 -> Alice Monnet; hook Gartner DTO Leader |
+| DocuSign | Enterprise and business software | Matthew Moresco | Shameika Ejiasi | DRAFTED 2026-10-13 -> Matthew Moresco; hook PDF Editor; re-voice "Introducing Docusign AI-Assisted Review" (swap built) |
+| Justworks | Enterprise and business software | Jonathan Lopez | Alexander Riezebeek | DRAFTED 2026-10-13 -> Jonathan Lopez; hook NY Liberty partnership |
+| Klaviyo | Enterprise and business software | Karim El-Sayed | Robb D'Agostino | DRAFTED 2026-10-13 -> Karim El-Sayed; hook Customer Agent 100+ languages |
+| Okta | Enterprise and business software | Katie Mitchell | Devin Cornwall | DRAFTED 2026-10-13 -> Reed Jones (Keynote Producer); hook Blueprint Alliance; re-voice "Okta for AI Agents" (new) |
+| Personio | Enterprise and business software | Andrew Wilson | Mia Worts | DRAFTED 2026-10-13 -> Andrew Wilson; hook Circula acquisition |
 
 ### Funnel L
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| Qualtrics | Enterprise and business software | Janssen Weeks | Tori Youngblood | BANKED |
-| ServiceNow | Enterprise and business software | Joe Gagliardi | Daniel Koga | BANKED |
-| Shopify | Enterprise and business software | Jess Peterson | Neal Hicks | BANKED |
-| Workday | Enterprise and business software | Jim Johnson | Tosh Xiong | BANKED |
-| Pegasystems | Enterprise and business software | Liz Colanto | Carlos Perez | BANKED — HOOK NEEDED |
-| Anaplan | Enterprise and business software | Georgina Lipovac | Jamieson Copeland | BANKED — HOOK NEEDED |
-| Freshworks | Enterprise and business software | Pete Anderson | Mark Girgis | BANKED — HOOK NEEDED, verify Anderson's current title before drafting |
-| Darktrace | Cybersecurity vendors | Gus Teixeira | Kevin Ginosian | BANKED |
-| EC-Council | Cybersecurity vendors | Garrett Goeckner | Swati Salian | BANKED |
+| Qualtrics | Enterprise and business software | Janssen Weeks | Tori Youngblood | DRAFTED 2026-10-13 -> Janssen Weeks; hook = XM Data & AI launch film |
+| ServiceNow | Enterprise and business software | Joe Gagliardi | Daniel Koga | DRAFTED 2026-10-13 -> Daniel Koga; hook Flow |
+| Shopify | Enterprise and business software | Jess Peterson | Neal Hicks | DRAFTED 2026-10-13 -> Jess Peterson; hook Shop.com; re-voice swapped (old pick had no narrator) |
+| Workday | Enterprise and business software | Jim Johnson | Tosh Xiong | DRAFTED 2026-10-13 -> Jim Johnson; hook + re-voice Candidate Profile (swap built) |
+| Pegasystems | Enterprise and business software | Liz Colanto | Carlos Perez | DRAFTED 2026-10-13 -> Liz Colanto; hook Gartner BOAT Leader |
+| Anaplan | Enterprise and business software | Georgina Lipovac | Jamieson Copeland | DRAFTED 2026-10-13 -> Georgina Lipovac; hook podcast S2 |
+| Freshworks | Enterprise and business software | Pete Anderson | Mark Girgis | DRAFTED 2026-10-13 -> Pete Anderson; hook Torii acquisition |
+| Darktrace | Cybersecurity vendors | Gus Teixeira | Kevin Ginosian | BLOCKED 2026-10-13: darktrace.com catch-all (Gus Teixeira, Ryan Catlett); Kevin Ginosian left; not drafted |
+| EC-Council | Cybersecurity vendors | Garrett Goeckner | Swati Salian | DRAFTED 2026-10-13 -> Tanya Mukundan; no hook |
 | F5 | Cybersecurity vendors | Roland Luitgaarden | David Wulzen | BANKED · MOVED to Funnel G2 2026-10-05 |
 
 ### Funnel M
@@ -256,15 +256,15 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
 | Ramp | Fintech and payments | Paul Jun | Karly Snajczuk | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; no hook (nothing in 90 days; Series F Jun 4 too old) |
-| Hornet | Creative and production studios | Marty Geren | Dez Stavracos | BANKED |
-| Nexus Studios | Creative and production studios | Kristin Glushon | Diego Rosner | BANKED |
-| THE LINE | Creative and production studios | Nick Miller | Eva Dahlqvist | BANKED |
-| Maersk | Corporate and industrial in-house | Shantanu Harjeet | Swapnita Roychaudhuri | BANKED |
+| Hornet | Creative and production studios | Marty Geren | Dez Stavracos | DRAFTED 2026-10-13 (other session, Marty Geren) |
+| Nexus Studios | Creative and production studios | Kristin Glushon | Diego Rosner | DRAFTED 2026-10-13 (other session, Kristin Glushon) |
+| THE LINE | Creative and production studios | Nick Miller | Eva Dahlqvist | DRAFTED 2026-10-13 (other session, Nick Miller) |
+| Maersk | Corporate and industrial in-house | Shantanu Harjeet | Swapnita Roychaudhuri | DRAFTED 2026-10-13 -> Cameron Robertson (Sr Producer & Videographer); hook + re-voice = "More Than 120 Years..." film (swap built) |
 | Siemens | Corporate and industrial in-house | Sergio Manzo | Annie Mullen | BANKED · MOVED to Funnel G2 2026-10-05 |
-| Arizona Public Service | Corporate and industrial in-house | Scott Anderson | Rory Gonzalez | BANKED — no hook verified yet |
+| Arizona Public Service | Corporate and industrial in-house | Scott Anderson | Rory Gonzalez | BLOCKED 2026-10-13: aps.com catch-all for all 4 contacts tried; not drafted |
 | Tennessee Valley Authority | Corporate and industrial in-house | Bleu Hayes | Marc Murano | BANKED — no hook verified yet · MOVED to Funnel G2 2026-10-05 |
-| Ørsted | Corporate and industrial in-house | Pelle Iversen | Jacob Søndergaard | BANKED — HOOK NEEDED, check LinkedIn recent activity |
-| Schneider Electric | Corporate and industrial in-house | Ajay Seethala | Christophe Doré | BANKED |
+| Ørsted | Corporate and industrial in-house | Pelle Iversen | Jacob Søndergaard | DRAFTED 2026-10-13 (other session, Pelle Iversen) |
+| Schneider Electric | Corporate and industrial in-house | Ajay Seethala | Christophe Doré | DRAFTED 2026-10-13 -> Deepika Upadhyay (Web Content Producer, weak fit); hook Schneider Charge |
 
 ### Funnel Q
 | Company | Segment | Primary | Backup | Roster note |
