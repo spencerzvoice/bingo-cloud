@@ -112,3 +112,4 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-13 | Swati Salian | EC-Council | linkedin.com/in/swati-salian | "Content Manager, EC-Council, Jun 2021 - Oct 2026 (ended)" | LEFT
 2026-10-13 | Tanya Mukundan | EC-Council | linkedin.com/in/tanyamukundan | "Assistant Director - Marketing, EC-Council, Sep 2025 - Present (desktop Chrome, pre-draft)" | PASS
 2026-10-13 | Ashish Verma | EC-Council | linkedin.com/in/motiondesignbyash | "Video and Motion Content Designer, Skysun, Mar 2026 - Aug 2026 (no current EC-Council role shown)" | LEFT
+2026-10-13 | Caitlin Scholz | Confluent | linkedin.com/in/caitlin-scholz | headline "Program Manager" (stale) but /details/experience/ shows Confluent, Brand Marketing Senior Content Manager Jun 2024-Present (desktop Chrome) | PASS

@@ -425,3 +425,9 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - Follow up on: 7-10 days after send if no reply.
 - Skipped: a Ramp LinkedIn "Ep. 2" post whose lnkd.in link redirected to an unrelated external site (tonystockprotrader.com); not opened, not used.
 - 10-13 update: Karly SENT by Spencer 13:52 Lisbon (08:52 NY), Gmail Sent msg 1a13551faadded0b (verified). His edits: callback 'from product updates to stories such as the OnRamp take over', re-voice line moved ABOVE the credits, credits bolded + 'among others', website line its own paragraph. Tracker row 217 = Sent. Follow up 10-20 to 10-23.
+
+## 2026-10-13 - LinkedIn connect + follow sweep: Funnel Q, Ramp, Funnel I (Spencer: "Make sure we're Following everyone on LinkedIn that we're pitching to... send out those connections")
+Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matched name + company (Caitlin Scholz: headline outdated, experience page shows Confluent, Brand Marketing Senior Content Manager since Jun 2024).
+- Connect requests (pending): Funnel Q 11 + Ramp 2 = Daniel Szeto (Calm), Yasmine Akki (Premier Padel, already pending before), Naotaka Aogaki (Wilson), Ivana Milovanovic (Tripadvisor), Tristan Ahern/Cimini (Patagonia), Freddie Young (On), Max Dickson (Lonely Planet), Allison Straughan (Columbia), Christina Harp (Brooks), Sarah Karlan (Airbnb), Paul Jun (Ramp), Karly Snajczuk (Ramp). Funnel I 10 = Sue Funke (Absorb), Sara Heegaard (Articulate), Matthew Hyland (Cornerstone), Kevin Kartono (Vyond), Caitlin Scholz (Confluent), Jessica Liu (Cloudflare), Thao Ngo (Litmos), Marta Lisboa (360Learning), Manny Gonzalez (Docebo), Olivia Mitchell (Go1).
+- Following: all of the above EXCEPT Tristan Ahern (LinkedIn returned "unable to follow" twice; connect request is pending).
+- Funnels B-H were covered in the 10-07/08 sweep (77 sent). Not covered: Funnel A (excluded on purpose), dropped/left contacts.
