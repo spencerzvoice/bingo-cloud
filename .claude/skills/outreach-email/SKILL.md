@@ -21,6 +21,9 @@ sends himself (hard rule).
   next booking; treat it as the priority.
 - **follow-up** — a nudge on a cold or warm email that got no reply.
 
+## Step 0a — 20-PITCH CAP (Spencer, 2026-10-13: "There's only supposed to be 20 draft in my Drafts at a time")
+Before creating any NEW-CLIENT pitch draft, count the live queue (FGAC `google_api_get` `gmail/v1/users/me/drafts?q=subject:"A voice for"&maxResults=200`, no offset/limit). Create at most 20 - N, on every surface; a "build Funnel X" ask never overrides it. Extras stay STAGED payloads in the contacts doc. `.claude/hooks/pitch_queue_cap.py` blocks creates past the cap. Replies, follow-ups and edits to existing drafts don't count. CLAUDE.md override 9.
+
 ## Step 0b — EMPLOYMENT QC GATE (Spencer, 2026-10-04, HARD RULE: "this is a waste of time")
 
 Ian Wiggins (Hitachi Rail) sat in Drafts for 4 days with a recorded sample and got handed to Spencer as a send candidate after he'd left the company. The "unresolved" flag was buried in FUNNEL-COHORTS.md and nobody told Spencer. Never again:

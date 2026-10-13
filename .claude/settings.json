@@ -26,6 +26,12 @@
           {
             "type": "command",
             "shell": "bash",
+            "command": "PY=$(command -v python3 || command -v python); \"$PY\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/pitch_queue_cap.py\"",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "shell": "bash",
             "command": "PY=$(command -v python3 || command -v python); \"$PY\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/pitch_draft_qc.py\"",
             "timeout": 10
           }
@@ -44,6 +50,17 @@
       }
     ],
     "PostToolUse": [
+      {
+        "matcher": "mcp__.*__google_api_(get|modify)",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "PY=$(command -v python3 || command -v python); \"$PY\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/pitch_queue_cap.py\"",
+            "timeout": 10
+          }
+        ]
+      },
       {
         "matcher": "Write|Edit",
         "hooks": [
