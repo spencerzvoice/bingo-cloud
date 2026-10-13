@@ -134,3 +134,16 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-13 | Daniel Morales | Proofpoint | linkedin.com/in/danielmoralesgd | "Senior Director, Creative, Proofpoint, Jan 2026 - Present" | PASS
 2026-10-13 | Alex Matheson | Mimecast | linkedin.com/in/alex-matheson-936b014 | "Director, Content Strategy & Production, Mimecast, Jul 2026 - Present" | PASS
 2026-10-13 | Stewart Devlin | Tenable | linkedin.com/in/stewart-devlin-5456a924 | "Vice President, Creative, Tenable, Apr 2025 - Present" | PASS
+2026-10-13 | Warren Yu | Zscaler | linkedin.com/in/warren-yu | "Senior Video Producer, Zscaler, Mar 2026 - Present" | PASS
+2026-10-13 | Doug Finelli | CrowdStrike | linkedin.com/in/doug-finelli-344a4a1 | "Global Executive Creative Director Brand, CrowdStrike, Jul 2022 - Present" | PASS
+2026-10-13 | Melinda Carlson-Smith | Palo Alto Networks | linkedin.com/in/melinda-carlson-smith | "Creative Director - Cortex, Sep 2026 - Present; Senior Video Production Manager, Oct 2024 - Present" | PASS
+2026-10-13 | Joshua Hernandez | SentinelOne | linkedin.com/in/joshuajhernandez | "Creative Director, SentinelOne, Apr 2025 - Present" | PASS
+2026-10-13 | Patrick Davis | Wiz | linkedin.com/in/patrickdavis3 | "Learning Design Specialist, Wiz, Dec 2025 - Present" (training, not video/brand) | LEFT (role)
+2026-10-13 | Ronen Aminoff | Wiz | linkedin.com/in/raminoff | "Video Lead, Wiz, Sep 2025 - Present" | PASS
+2026-10-13 | William Yeung | Fortinet | linkedin.com/in/william-yeung100 | "Video Producer, Fortinet, Jul 2020 - Present" | PASS
+2026-10-13 | Lia Lerer | Check Point Software | linkedin.com/in/lia-lerer-72157a10a | "Head of Video Production, Check Point Software, Oct 2024 - Present" | PASS
+2026-10-13 | Erin Russell | Arctic Wolf | linkedin.com/in/russellerin | "Senior Director, Creative Services, Cynet Security, Apr 2025 - Present; Arctic Wolf ended Apr 2025" | LEFT
+2026-10-13 | Katie Garske | Arctic Wolf | linkedin.com/in/kgarske | "Senior Manager, Content Marketing, Arctic Wolf, May 2022 - Present" (no email found) | PASS
+2026-10-13 | Jackie Bright | Arctic Wolf | linkedin.com/in/jackie-bright | "Sr Director, Brand Programs & Events, Arctic Wolf, Dec 2024 - Present" | PASS
+2026-10-13 | Matt Van Dzura | Cash App | linkedin.com/in/mattvandzura | "Executive Producer, Brand + Integrated Marketing, Cash App, Jan 2022 - Present" | PASS
+2026-10-13 | Francis Basco | Chime | linkedin.com/in/francisbasco | "Video Producer, Chime, Jan 2025 - Present" | PASS

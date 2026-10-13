@@ -227,16 +227,16 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 ### Funnel N
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| Zscaler | Cybersecurity vendors | Luisa Avila | Warren Yu | BANKED |
-| CrowdStrike | Cybersecurity vendors | Doug Finelli | Zandy Ariss | BANKED |
-| Palo Alto Networks | Cybersecurity vendors | Melinda Carlson-Smith | Mariah Glackler | BANKED |
-| SentinelOne | Cybersecurity vendors | Joshua Hernandez | Ankit Pahuja | BANKED |
-| Wiz | Cybersecurity vendors | Patrick Davis | Danielle Lamarca | BANKED |
-| Fortinet | Cybersecurity vendors | Brian Kirby | William Yeung | BANKED |
-| Check Point Software | Cybersecurity vendors | Lia Lerer | Johnny Thompson | BANKED |
-| Arctic Wolf | Cybersecurity vendors | Erin Russell | Katie Garske | BANKED |
-| Cash App | Fintech and payments | Matt Van Dzura | Andrea Kim | BANKED |
-| Chime | Fintech and payments | Francis Basco | Alisha Shimada | BANKED |
+| Zscaler | Cybersecurity vendors | Luisa Avila | Warren Yu | STAGED 2026-10-13 (queue cap) -> Warren Yu (backup; Luisa Avila left); hook new Singapore APAC HQ office (Sep 23) |
+| CrowdStrike | Cybersecurity vendors | Doug Finelli | Zandy Ariss | STAGED 2026-10-13 (queue cap) -> Doug Finelli; hook "AI Is Nothing If It's Not Secure" spot (Sep 14) = re-voice (swap built, SCRIPT CHECK OK) |
+| Palo Alto Networks | Cybersecurity vendors | Melinda Carlson-Smith | Mariah Glackler | STAGED 2026-10-13 (queue cap) -> Melinda Carlson-Smith (now Creative Director, Cortex); hook Cortex Agentic Endpoint Security launch film (Oct 6) = re-voice |
+| SentinelOne | Cybersecurity vendors | Joshua Hernandez | Ankit Pahuja | STAGED 2026-10-13 (queue cap) -> Joshua Hernandez; hook IDC MarketScape Leader, modern endpoint security (Oct 6) |
+| Wiz | Cybersecurity vendors | Patrick Davis | Danielle Lamarca | STAGED 2026-10-13 (queue cap) -> Ronen Aminoff (Video Lead, via search; Patrick Davis moved to L&D, Danielle Lamarca off-role); hook Forrester Wave Leader (Sep 24) |
+| Fortinet | Cybersecurity vendors | Brian Kirby | William Yeung | STAGED 2026-10-13 (queue cap) -> William Yeung (backup; Brian Kirby match is now sales); hook Gartner MQ Leader Hybrid Mesh Firewall (Sep 15) |
+| Check Point Software | Cybersecurity vendors | Lia Lerer | Johnny Thompson | STAGED 2026-10-13 (queue cap) -> Lia Lerer; hook AI Network Firewall launch (Jul 30) = re-voice |
+| Arctic Wolf | Cybersecurity vendors | Erin Russell | Katie Garske | STAGED 2026-10-13 (queue cap) -> Jackie Bright (Sr Dir Brand Programs & Events, via search; Erin Russell left, Katie Garske no email); hook IDC MarketScape MDR Leader (Jul 24) |
+| Cash App | Fintech and payments | Matt Van Dzura | Andrea Kim | STAGED 2026-10-13 (queue cap) -> Matt Van Dzura; hook Cash App en Espanol rollout (Sep 30); NO re-voice package (VIDEO TITLE PENDING) |
+| Chime | Fintech and payments | Francis Basco | Alisha Shimada | STAGED 2026-10-13 (queue cap) -> Francis Basco; hook It Pays to Switch with Son Heung-min (Oct 6; spot fails re-voice rules, package stays Welcome to Chime) |
 
 ### Funnel O
 | Company | Segment | Primary | Backup | Roster note |
