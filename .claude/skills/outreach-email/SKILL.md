@@ -97,6 +97,8 @@ Ask Spencer only for what's missing:
 
 **Timing check — every cold pitch (Spencer, 2026-10-05).** Look up the company's row in `reference/client-acquisition/BUDGET-CALENDAR.md` (add one if missing) and say in the hand-over whether today falls in its best pitch window. Outside the window = still draft it, but name the better send window. Never let it block a draft.
 
+**LATEST VIDEO = PART OF DISCOVERY, NEVER WAIT TO BE ASKED (Spencer, 2026-10-13: "Finding the latest video is a part of the discovery ... you don't need me to prompt you to find the latest video this is already a part of your task and your job").** Every hook search and every re-voice pick runs `python scripts/latest_video_check.py "Funnel X" [Client]` (FGAC key in `K`) and judges EVERY `CHECK` line it prints (frames + transcript + `narrator_check.py`) before keeping a pick or writing a hook; the newest upload is often both the hook and the re-voice (Confluent VCARB F1 spot, Oct 6: two runs saw it and kept a 2025 video). Verdicts go in VIDEO-PICKS.md; a better pick = REVOICE SWAP + rebuild in the same session. A hook pass that skipped this is not done.
+
 **Current-event hook — REQUIRED step for every cold email (Spencer, 2026-09-24).**
 Before drafting, find one genuine, *current* hook, ideally from the last ~30 days.
 Run it in this order and stop at the first real hit:
