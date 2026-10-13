@@ -97,3 +97,18 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-13 | Riley West | Twilio | linkedin.com/in/riley-west | "Senior Creative Producer, Twilio Inc., Mar 2021 - Present (desktop Chrome, pre-draft)" | PASS
 2026-10-13 | Eddie Russell | Unity | linkedin.com/in/eddie-russell-996572109 | "Manager, Content Production (Professional Training team), Unity, Apr 2024 - Present (desktop Chrome, pre-draft)" | PASS
 2026-10-13 | Moe Hung | New Relic | linkedin.com/in/moe-hung-559a463b | "Lead Brand Designer, New Relic, Sep 2026 - Present (was Creative Director Jul 2024 - Sep 2026) (desktop Chrome, pre-draft)" | PASS (current at New Relic; title changed to brand design)
+2026-10-13 | Janssen Weeks | Qualtrics | linkedin.com/in/janssenweeks | "Head Of Production + Executive Producer, Qualtrics, Jun 2022 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Daniel Koga | ServiceNow | linkedin.com/in/daniel-koga-471bab8 | "Producer / Sr. Program Manager - Global Brand Film & Video, ServiceNow, Mar 2017 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Joe Gagliardi | ServiceNow | linkedin.com/in/joegagliardi | "Executive Video Producer, ServiceNow, Dec 2024 - Present" | PASS (email unknown, not drafted)
+2026-10-13 | Jess Peterson | Shopify | linkedin.com/in/jessjpeterson | "Executive Producer, Brand Studio Video, Shopify, Jun 2025 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Jim Johnson | Workday | linkedin.com/in/jimjohnsonjimsbookdotcom | "sr. executive producer, Workday Studios, Oct 2012 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Liz Colanto | Pegasystems | linkedin.com/in/liz-colanto11 | "Head of Post, Lead Video Editor, Pegasystems, May 2024 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Georgina Lipovac | Anaplan | linkedin.com/in/georginabrown1 | "Senior Creative Director, Anaplan, Jul 2026 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Pete Anderson | Freshworks | linkedin.com/in/pete-anderson-a689106 | "Global Video Lead, Freshworks, Aug 2022 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Gus Teixeira | Darktrace | linkedin.com/in/gteixeira-d | "Video Producer, Darktrace, Dec 2024 - Present" | PASS (email catch-all, not drafted)
+2026-10-13 | Kevin Ginosian | Darktrace | linkedin.com/in/kvginosian | "Senior Manager Content Strategy, Orca Security, Sep 2026 - Present" | LEFT
+2026-10-13 | Ryan Catlett | Darktrace | linkedin.com/in/ryancatlett | "Senior Creative Director, Darktrace, Feb 2024 - Present" | PASS (email catch-all, not drafted)
+2026-10-13 | Garrett Goeckner | EC-Council | linkedin.com/in/garrett-goeckner-24a956b9 | "Video Producer, EC-Council, Feb 2018 - Present" | PASS (email unknown, not drafted)
+2026-10-13 | Swati Salian | EC-Council | linkedin.com/in/swati-salian | "Content Manager, EC-Council, Jun 2021 - Oct 2026 (ended)" | LEFT
+2026-10-13 | Tanya Mukundan | EC-Council | linkedin.com/in/tanyamukundan | "Assistant Director - Marketing, EC-Council, Sep 2025 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Ashish Verma | EC-Council | linkedin.com/in/motiondesignbyash | "Video and Motion Content Designer, Skysun, Mar 2026 - Aug 2026 (no current EC-Council role shown)" | LEFT
