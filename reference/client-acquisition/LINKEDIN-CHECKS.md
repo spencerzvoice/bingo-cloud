@@ -86,3 +86,14 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-13 | Karim El-Sayed | Klaviyo | linkedin.com/in/karimaudiovideo | "Principal Video Producer, Klaviyo, Sep 2024 - Present (desktop Chrome, pre-draft)" | PASS
 2026-10-13 | Reed Jones | Okta | linkedin.com/in/reed-jones | "Keynote Producer, Okta, May 2026 - Present (desktop Chrome, pre-draft)" | PASS
 2026-10-13 | Andrew Wilson | Personio | linkedin.com/in/andrew-wilson-1189a231 | "Senior Video Producer, Personio, Oct 2026 - Present (Video Producer May 2023-) (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Yichun Hsieh | Elastic | linkedin.com/in/yichun-hsieh-bb06935 | "Creative Director, Elastic, Nov 2021 - Jun 2026 (ended; no current Elastic role) (desktop Chrome)" | LEFT (not drafted; Elastic -> Shelby Khan)
+2026-10-13 | Shelby Khan | Elastic | linkedin.com/in/shelbykhan | "Senior Director of Brand and Creative, Elastic, May 2026 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Adam Mittner | GitLab | linkedin.com/in/adammittner | "Sr. Director of Brand Creative, GitLab, Apr 2026 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Mitch Rymeski | Harness | linkedin.com/in/mitch-rymeski-49757826 | "Creative Director, Harness, May 2026 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Alex Gauermann | JetBrains | linkedin.com/in/alex-gauermann-a98751131 | "Broadcast Engineer / Video Producer, JetBrains, Aug 2023 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Jamal Farley | LaunchDarkly | linkedin.com/in/jamalfarley | "Senior Video Producer, LaunchDarkly, Sep 2026 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Pablo Zubieta | MongoDB | linkedin.com/in/pablo-zubieta | "Senior Video Producer, MongoDB, Feb 2025 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Colin Goheen | Postman | linkedin.com/in/colin-goheen | "Head of Video, Postman, Feb 2025 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Riley West | Twilio | linkedin.com/in/riley-west | "Senior Creative Producer, Twilio Inc., Mar 2021 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Eddie Russell | Unity | linkedin.com/in/eddie-russell-996572109 | "Manager, Content Production (Professional Training team), Unity, Apr 2024 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Moe Hung | New Relic | linkedin.com/in/moe-hung-559a463b | "Lead Brand Designer, New Relic, Sep 2026 - Present (was Creative Director Jul 2024 - Sep 2026) (desktop Chrome, pre-draft)" | PASS (current at New Relic; title changed to brand design)
