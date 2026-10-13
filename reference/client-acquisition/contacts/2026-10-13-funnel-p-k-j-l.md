@@ -38,3 +38,29 @@ Left: Erika Alexander (Elastic -> freelance Girl&Bear), Yichun Hsieh (Elastic, e
 ## Funnel L — contacts verified, hooks in progress
 Janssen Weeks (Qualtrics, Head of Production + EP) janssenw@qualtrics.com · Daniel Koga (ServiceNow, Producer / Sr PM Global Brand Film & Video; Joe Gagliardi `unknown`) daniel.koga@servicenow.com · Jess Peterson (Shopify, EP Brand Studio Video) jess.peterson@shopify.com · Jim Johnson (Workday, Sr EP Workday Studios) jim.a.johnson@workday.com · Liz Colanto (Pega, Head of Post) liz.colanto@pega.com · Georgina Lipovac (Anaplan, Senior Creative Director) georgina.brown@anaplan.com · Pete Anderson (Freshworks, Global Video Lead) pete.anderson@freshworks.com · Tanya Mukundan (EC-Council, Assistant Director Marketing; Garrett Goeckner `unknown`) tanya.mukundan@eccouncil.org.
 Darktrace: BLOCKED (darktrace.com catch-all: Gus Teixeira, Ryan Catlett; Kevin Ginosian left for Orca Security Sep 2026). EC-Council: Swati Salian left Oct 2026, Ashish Verma left.
+
+## Funnel J — hooks + re-voice (subagent research, sources opened by it 10-13)
+| Company | Hook (source) | Re-voice |
+|---|---|---|
+| Elastic | Only perfect score in AV-Comparatives' 2026 attack-protection test, 14 vendors, 50 attacks (Elastic blog, Sep 15 2026) | KEEP "Elastic Security: an agentic security operations platform" |
+| GitLab | New tools unveiled at Transcend: Artifact Central, Dependency Firewall (GitLab blog Oct 6 2026; IT Brief Oct 7) | KEEP Orbit, UNPAIRED: Transcend videos are 3:34 or have presenters |
+| Harness | New launch film on AI agents that test, secure and ship ("Human When It Matters / Autonomous When It's Safe") (YouTube ny3-OlBd-bI, Oct 1 2026) | KEEP = the hook film. Alt: acquired Augment Code's Cosmos + Auggie (Harness press Oct 8) |
+| JetBrains | Launched JetBrains Air (JetBrains blog, Sep 22 2026) | SWAP built 10-13: "JetBrains Air in IDEs – From Installation to Verified Agent Task in Two Minutes" (yODck3N_lyU, 2026-10-08, male), replaces "Matter by JetBrains" |
+| LaunchDarkly | Passed $200M ARR, 25%+ growth (GlobeNewswire via Yahoo Finance, Aug 6 2026) | KEEP |
+| MongoDB | Launched MongoDB 9.0, up to 35% faster (MongoDB press release, Sep 29 2026) | KEEP |
+| New Relic | Announced AI Evaluation (New Relic press release, Oct 6 2026) | KEEP. Newer narrated "How New Relic Knowledge Brings Runbooks to Your Telemetry" (2026-09-17) noted |
+| Postman | Launched Passport, agents use tools without holding real keys (Business Wire via Yahoo Finance, Sep 15 2026) | KEEP |
+| Twilio | Joined the S&P 500, replacing Warner Bros. Discovery (S&P Dow Jones Indices, Oct 1 2026) | KEEP |
+| Unity | Announced Unity 7 at Unite Seoul (Unity blog, Jul 21 2026) | KEEP (package covers the same browser-studio features; link inferred). Alt newer hook: Unity Spark with Google (Game Developer Oct 7), its film is music-only |
+
+## Funnel L — hooks + re-voice
+| Company | Hook (source) | Re-voice |
+|---|---|---|
+| Qualtrics | Unveiled the XM Data & AI Platform, launch film opens on a race team simulating the race (Qualtrics newsroom Sep 9 2026) | KEEP = the launch film |
+| ServiceNow | Launched Flow, help desk inside chat, "Up and running in one day / Not one month" (CIO.com Oct 1 2026) | KEEP Otto: Flow film is music-only |
+| Shopify | Bought the Shop.com domain (BetaKit Oct 1 2026) | SWAP queued 10-13: "Online to in person with the Shop app" (9LkIxHbr1Ik, 2026-06-17): current "What is Shop?" has NO spoken narrator (text only), contradicting the 10-06 verdict |
+| Workday | Launched Candidate Profile at Workday Rising, 30M+ job seekers a year (Workday newsroom, Oct 13 2026) | SWAP queued 10-13 to the Candidate Profile launch video (PR Newswire mp4, 90 s, not on YouTube) |
+| Pega | Named a Leader, Gartner MQ for Business Orchestration and Automation Technology, highest for Ability to Execute (Pega press release Sep 21 2026) | KEEP |
+| Anaplan | Season 2 of the Right Decisions, Right Now podcast (Anaplan YouTube trailer, Sep 10 2026) | KEEP CoModeler (trailer is multi-voice) |
+| Freshworks | Agreed to acquire Torii (Freshworks press release Oct 12 2026) | KEEP (Freshservice package matches the Freshservice hook; newer Freshdesk Email AI Agent film 2026-07-21 noted) |
+| EC-Council | NO HOOK (Hacker Halted Oct 8-9 not confirmed to have happened; no recap indexed) | KEEP; flag: package is CCISO v3-era (Apr 2025), v4 launched Feb 2026 |
