@@ -76,3 +76,13 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-12 | Ivana Milovanovic | Tripadvisor | linkedin.com/in/ivanamilovanovic | "no public company shown (13:05 run)" | API-HIDDEN
 2026-10-12 | Ivana Milovanovic | Tripadvisor | linkedin.com/in/ivanamilovanovic | "Executive Producer, Tripadvisor, Aug 2026 - Present (desktop Chrome, /details/experience/)" | PASS (NOT READY cleared 2026-10-12)
 2026-10-13 | Karly Snajczuk | Ramp | linkedin.com/in/karly-snajczuk | "Lead Creative Producer at Ramp" (experience: Lead Creative Producer Oct 2026-Present; Senior Creative Producer Nov 2025-; desktop Chrome) | PASS
+2026-10-13 | Cameron Robertson | Maersk | linkedin.com/in/cameronrobertson5 | "Senior Producer & Videographer, A.P. Moller - Maersk, Jan 2019 - Present (desktop Chrome, /details/experience/, pre-draft)" | PASS
+2026-10-13 | Deepika Upadhyay | Schneider Electric | linkedin.com/in/deepika-upadhyay-31900b161 | "Web Content Producer, Schneider Electric, Nov 2016 - Present, Gurugram (desktop Chrome, pre-draft)" | PASS (weak title fit: web content, not video)
+2026-10-13 | Raven Kenemer | HashiCorp (IBM) | linkedin.com/in/ravenbrajdic | "Senior Product Marketing Manager, Content Strategy, IBM, Jan 2026 - Present + Senior Editorial and Content Manager, HashiCorp, Sep 2024 - Present (desktop Chrome, pre-draft)" | PASS (content strategy, not video)
+2026-10-13 | Jack Headley | Autodesk | linkedin.com/in/jack-headley | "Senior Video Producer, Autodesk, Jul 2025 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Alice Monnet | Celonis | linkedin.com/in/alicemonnet | "Lead Video Producer, Celonis, Oct 2026 - Present (Senior Video Producer Sep 2025-) (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Matthew Moresco | Docusign | linkedin.com/in/matthew-moresco-38780239 | "Video Producer/Editor, Docusign, Sep 2025 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Jonathan Lopez | Justworks | linkedin.com/in/iamjonathanlopez | "Video Producer & Editor, Justworks, Dec 2023 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Karim El-Sayed | Klaviyo | linkedin.com/in/karimaudiovideo | "Principal Video Producer, Klaviyo, Sep 2024 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Reed Jones | Okta | linkedin.com/in/reed-jones | "Keynote Producer, Okta, May 2026 - Present (desktop Chrome, pre-draft)" | PASS
+2026-10-13 | Andrew Wilson | Personio | linkedin.com/in/andrew-wilson-1189a231 | "Senior Video Producer, Personio, Oct 2026 - Present (Video Producer May 2023-) (desktop Chrome, pre-draft)" | PASS
