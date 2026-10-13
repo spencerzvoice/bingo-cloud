@@ -348,7 +348,7 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - New email or thread reply: thread reply, "Re: 15 Year Sizzle VO"
 - Status: SENT by Spencer Thu 10-08 00:08 Lisbon (Gmail Sent msg 1a118a0507f8ec85, verified live)
 - Follow up on: Tue 10-13 (text Tyler if still unpaid); retainer pitch to Tyler + Dani Wed 10-14 if paid, Thu 10-15 regardless (Tue 10-13 = business day after Columbus/Indigenous Peoples' Day, avoid for pitches)
-- Result:
+- Result: 2nd nudge SENT Mon 10-12 16:10 Lisbon (verified Sent). No reply, no Wise payment email as of 10-13. Retainer pitch ON HOLD until paid (Bingo rec 10-13); call/text Tyler Wed 10-14.
 - 10-08 update, Joanne Pratt: connect request SENT. Her live experience page shows Straive Senior Manager since Jul 2026 plus the LearningMate post-production role still current ("role continued following organisational transition"). joanne.pratt@learningmate.com is still Verified (Apollo + ZeroBounce valid 10-07 23:17 UTC). No bounce or reply to either touch (09-23, 09-29). No resend. The final touch stays on the existing thread in the ledger window (Wed 10-14 to Tue 10-20).
 
 
