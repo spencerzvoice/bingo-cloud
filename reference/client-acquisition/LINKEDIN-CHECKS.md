@@ -119,3 +119,18 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-13 | Nick Miller | The Line | linkedin.com/in/nick-miller-17066a13 | "public profile company: The Line Animation Studio (brightdata)" | API-PASS
 2026-10-13 | Kristin Glushon | Nexus Studios | linkedin.com/in/kristinglushon | "public profile company: Nexus Studios (brightdata)" | API-PASS
 2026-10-13 | Marty Geren | Hornet | linkedin.com/in/marty-geren-31119a18 | "public profile company: Hornet (brightdata)" | API-PASS
+
+2026-10-13 | Bryan Sarmiento | Huntress | linkedin.com/in/bryan-sarms | "Video Production Manager, Huntress, Jan 2025 - Present" | PASS
+2026-10-13 | Matthew Ninaber | Kaseya | linkedin.com/in/matthewninaber | "Senior Video Producer, Kaseya, Oct 2025 - Present" | PASS
+2026-10-13 | Justin Miller | LastPass | linkedin.com/in/justinkmiller | "Senior Instructional Video Producer, LastPass, Oct 2022 - Present" | PASS
+2026-10-13 | Doug Van Sickle | Mimecast | linkedin.com/in/doug-van-sickle-1a420838 | "Post Production Manager, Mimecast, Jul 2021 - Present (email unknown, not used)" | PASS
+2026-10-13 | Madden Meiners | N-able | linkedin.com/in/madden-meiners-1530b57b | "Senior Video Producer, N-able, Oct 2021 - Present" | PASS
+2026-10-13 | Nicholas Radcliffe | Proofpoint | linkedin.com/in/nicholas-radcliffe-587988139 | "Video Producer, Proofpoint, Jan 2026 - Present (email catch-all, not used)" | PASS
+2026-10-13 | Vincent Sarageno | SANS Institute | linkedin.com/in/vincent-sarageno | "Video Production Manager, SANS Institute, Jul 2024 - Present" | PASS
+2026-10-13 | Rick Jason Colina | Sophos | linkedin.com/in/jasoncolina | "Video Producer and Editor, Sophos, Jul 2024 - Present (part-time)" | PASS
+2026-10-13 | Christiano Dias | Tenable | linkedin.com/in/christianodias | "Head of Video, SentinelOne, Sep 2026 - Present" | LEFT
+2026-10-13 | Wes Warfield | WatchGuard | linkedin.com/in/wes-warfield-87b02264 | "Video Production Manager, WatchGuard Technologies, Oct 2016 - Present (email invalid, not used)" | PASS
+2026-10-13 | Cortney Albrecht | WatchGuard | linkedin.com/in/cortney-albrecht-8297407 | "Creative Director, WatchGuard Technologies, Mar 2019 - Present" | PASS
+2026-10-13 | Daniel Morales | Proofpoint | linkedin.com/in/danielmoralesgd | "Senior Director, Creative, Proofpoint, Jan 2026 - Present" | PASS
+2026-10-13 | Alex Matheson | Mimecast | linkedin.com/in/alex-matheson-936b014 | "Director, Content Strategy & Production, Mimecast, Jul 2026 - Present" | PASS
+2026-10-13 | Stewart Devlin | Tenable | linkedin.com/in/stewart-devlin-5456a924 | "Vice President, Creative, Tenable, Apr 2025 - Present" | PASS

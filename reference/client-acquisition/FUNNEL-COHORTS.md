@@ -213,16 +213,16 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 ### Funnel M
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| Huntress | Cybersecurity vendors | Bryan Sarmiento | Robert Zelin | BANKED |
-| Kaseya | Cybersecurity vendors | Matthew Ninaber | Lisa Luk | BANKED |
-| LastPass | Cybersecurity vendors | Justin Miller | Eric Hines | BANKED |
-| Mimecast | Cybersecurity vendors | Doug Van Sickle | Roger Cameron | BANKED |
-| N-able | Cybersecurity vendors | Madden Meiners | Alberto Bravo | BANKED |
-| Proofpoint | Cybersecurity vendors | Nicholas Radcliffe | Daniel Morales | BANKED |
-| SANS Institute | Cybersecurity vendors | Vincent Sarageno | Nicholas Wessel | BANKED |
-| Sophos | Cybersecurity vendors | Rick Colina | Hannah Wallace | BANKED |
-| Tenable | Cybersecurity vendors | Christiano Dias | Sean Carnell | BANKED |
-| WatchGuard | Cybersecurity vendors | Wes Warfield | Cortney Albrecht | BANKED |
+| Huntress | Cybersecurity vendors | Bryan Sarmiento | Robert Zelin | STAGED 2026-10-13 (queue cap: 55/20, not drafted) -> Bryan Sarmiento; hook $250M ARR / 270,000 businesses (Jul 30) |
+| Kaseya | Cybersecurity vendors | Matthew Ninaber | Lisa Luk | STAGED 2026-10-13 (queue cap) -> Matthew Ninaber; hook Connect Edge summit (Sep 2) |
+| LastPass | Cybersecurity vendors | Justin Miller | Eric Hines | STAGED 2026-10-13 (queue cap) -> Justin Miller; hook Business Max AI Monitoring & Protect (Sep 29) = re-voice |
+| Mimecast | Cybersecurity vendors | Doug Van Sickle | Roger Cameron | STAGED 2026-10-13 (queue cap) -> Alex Matheson (Dir Content Strategy & Production); hook Agent Risk Center at Black Hat (Aug 3) |
+| N-able | Cybersecurity vendors | Madden Meiners | Alberto Bravo | STAGED 2026-10-13 (queue cap) -> Madden Meiners; hook Dundee hub + SOC (Jul 16) |
+| Proofpoint | Cybersecurity vendors | Nicholas Radcliffe | Daniel Morales | STAGED 2026-10-13 (queue cap) -> Daniel Morales (Sr Dir Creative); hook Protect 2026 (Sep 21) |
+| SANS Institute | Cybersecurity vendors | Vincent Sarageno | Nicholas Wessel | STAGED 2026-10-13 (queue cap) -> Vincent Sarageno; hook AI Security Fellowship with CyberSafe (Sep 29) |
+| Sophos | Cybersecurity vendors | Rick Colina | Hannah Wallace | STAGED 2026-10-13 (queue cap) -> Rick (Jason) Colina; hook AI Defense launch (Oct 13) = re-voice (swap built) |
+| Tenable | Cybersecurity vendors | Christiano Dias | Sean Carnell | STAGED 2026-10-13 (queue cap) -> Stewart Devlin (VP Creative); hook Project Watershed (Aug 31) |
+| WatchGuard | Cybersecurity vendors | Wes Warfield | Cortney Albrecht | STAGED 2026-10-13 (queue cap) -> Cortney Albrecht (Creative Director); hook IMPACT North America, Rai (Oct 5) |
 
 ### Funnel N
 | Company | Segment | Primary | Backup | Roster note |
