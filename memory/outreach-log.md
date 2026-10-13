@@ -410,3 +410,7 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - LinkedIn invites with note SENT: Mario Junior (AP Portugal, 'Invitation sent', Pending) and Ricardo Soares (Soundtrap, Pending). LinkedIn caps notes at 200 chars on the free plan, so notes trimmed (meaning unchanged). 1 personalized invite left this month.
 - Tracker rows 202-205 added, J:K re-pasted, read back.
 - 2026-10-13: Voices & Media Solutions voice portal: Spencer registered (profile SP03052; rates filled from the GFTB card, EUR, see chat 10-13). Bingo uploaded Commercial Reel 2026 (COMMERCIAL) + Narration Reel 2026 (BUSINESS) via his Chrome; both 'File successfully added', awaiting VMS approval. Reels checked first: voice from 0.0s, no name/site in audio. Character reel not uploaded (no animation category; Video Game is the closest).
+
+## 2026-10-13 - Paul Jun (Ramp) OOO auto-reply
+- Read in Gmail (FGAC, msg 1a1354130ca31af0, 10-13 05:33 PT): "I am OOO from Oct 8 to 23." Urgent contacts named: Emerline Ji (emerline.ji@ramp.com), Aodan Reddy (areaddy@ramp.com). Confirms the 10-13 pitch delivered.
+- Tracker row 216: Status Sent, follow-up moved to Tue 10-27 (his first week back). Backup on file: Karly Snajczuk, Senior Creative Producer (Apollo 09-30, not re-checked).

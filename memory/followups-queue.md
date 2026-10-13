@@ -269,3 +269,5 @@ Ledger check: no reminder or overdue date falls on Tue 10-13 (also a send-avoid 
 
 - 2026-10-12: VOX ARTIST (Ana, +351 960 285 967) + ZOV (Vera, +351 937 981 560) WhatsApp nudges sent 18:37 Lisbon. Next touch (WhatsApp, not email) ~Mon 10-26 if no reply. Channel = WhatsApp; Gmail checks won't see replies, so check WhatsApp Web before calling it due.
 - 2026-10-13: PT studios. VMS (Gesiane) + VOZ ON (Arcindo) emails land 10-13 08:32 Lisbon -> touch 2 window Tue 10-20 to Fri 10-23 (thread reply). AP Portugal (Mario) + Soundtrap (Ricardo) = LinkedIn invites pending -> on accept, short LinkedIn message; Soundtrap no accept by ~10-27 -> email comercial@soundtrap-productions.net. Spencer still to sign up on VMS voice portal.
+
+- 2026-10-13: Paul Jun (Ramp) OOO Oct 8-23 (auto-reply read in Gmail). Touch 2 moves from 10-20..10-23 to Tue 10-27 (window 10-27 to 10-29). Don't route a cold pitch to his "urgent" contacts (Emerline Ji, Aodan Reddy).
