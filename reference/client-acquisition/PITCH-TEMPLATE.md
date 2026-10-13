@@ -1,6 +1,38 @@
 # House cold-pitch template
 
-## v3, CURRENT (Spencer approved 2026-10-12): humanizer pass on v2
+## v4, CURRENT (Spencer, 2026-10-13): his own Calm + Premier Padel drafts
+Source: Spencer rewrote the Calm (Daniel Szeto) and Premier Padel (Yasmine Akki) pitches himself, then said: "copy that format over to the other drafts in Funnel Q and the Ramp draft and save this as the newest pitch in our memory." He confirmed the rush line reads "2-3 hours". All 9 Funnel Q + Ramp drafts and all 10 Funnel I drafts were rebuilt to v4 on 2026-10-13; the 11 Funnel Q/Ramp/Calm/Premier Padel pitches were scheduled for Tue 10-13, 8:32 AM recipient-local. `.claude/hooks/pitch_draft_qc.py` enforces v4 and rejects the v3 lines.
+**What changed vs v3:** intro back to "professional Voiceover Artist and audio engineer based in Lisbon, Portugal"; callback "especially the ones that spread the word about <event> and other content"; turnaround line "My standard turnaround is within 24 hours and within 2-3 hours for rush projects."; FIFA/EuroLeague named in full ("the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball"); website line "You can see more of my work at spencerzvoice.com."; re-voice line opens "Also, so you can hear how my voice meshes well with your content, I re-voiced your ..."; close "I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!"
+**Unchanged:** greeting, hook paragraph and its v2 rules (below), "!!" on the congrats line, the credits table, "meshes well with your content", no em/en dashes, the yellow [NOT READY], [VERIFY EMPLOYMENT] and [Source] marker lines, the Pushkin exception. Spencer's own hook/take text stays word for word. He often personalises the callback per draft ("...and any other news you might have coming up!"); keep his version.
+
+```
+[cloud-built drafts only] <span style="background-color:#ffff00">[NOT READY: Bingo's LinkedIn check pending for <Name>, <Title>, <Company>. Bingo deletes this line once it passes]</span>
+
+Hello <First>, hope you're doing well!
+
+Saw <Company> just <event>. <reaction>. Congrats on the <launch>!! <span style="background-color:#ffff00">[Source: <a href="URL">Publication, Mon D, YYYY</a>. Delete this before sending]</span>     (v2 hook rules; leave out if no hook)
+
+My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal, and I'd love to voice the videos that come out of <Company>, especially the ones that spread the word about <event, short plain words> and other content.
+   (no hook: the sentence ends "...videos that come out of <Company>.")
+
+My standard turnaround is within 24 hours and within 2-3 hours for rush projects. My recent work includes <3 credits, table below>, plus the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball. You can see more of my work at spencerzvoice.com.
+
+Also, so you can hear how my voice meshes well with your content, I re-voiced your <a href="<Drive link or https://drive.google.com/REPLACE-WITH-SAMPLE-LINK>">"<exact video title>"</a> <video|spot>. I'd appreciate it if you gave it a listen!
+   (no video picked yet: the title text is VIDEO TITLE PENDING)
+
+I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!
+
+Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
+```
+Paragraphs are separated by `<br><br>`.
+
+**Sports variant (Spencer's Premier Padel draft; leagues, tours, teams, federations, sports media/events):**
+- Reaching-out: "...and I'd love to be the voice for the videos that <Company> produce, especially the ones that spread the word about <event> ..." (Spencer's own PP line: "...that Premier Padel produce - ones that spread the word about new tournaments and cities, events and news!").
+- Credits: "My recent work includes the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball, NordicTrack and Altra Running among others. You can see more of my work at spencerzvoice.com."
+
+---
+
+## v3 (Spencer approved 2026-10-12) - history, superseded by v4: humanizer pass on v2
 Source: Bingo ran the `humanizer` skill (`.claude/skills/humanizer`) over v2 and proposed this version; Spencer approved it the same afternoon ("Update the pitch and emails in my draft folder starting now"). All 21 unsent pitch drafts were rebuilt to it on 2026-10-12 (`memory/2026-10-12.md`). `.claude/hooks/pitch_draft_qc.py` enforces it and rejects the v2 lines.
 **What changed vs v2 and why:** "I hope this message finds you well" (stock opener) → "hope you're doing well!"; "My work is high quality" (claim with no detail) cut; the "bringing the news of X to the world" callback (inflated) → "starting with the ones about <event>"; intro + reaching-out merged into one sentence; "among others (FIFA, EuroLeague Basketball)" → "plus FIFA and EuroLeague Basketball"; "you can hear my work at" → "my reels are at"; "Also, I put together a re-voice of your" → "I also re-voiced your"; the stock "Feel free to reach out or schedule a call" close → "If you'd like to work together, just reply here and we can set up a call."
 **Unchanged from v2:** the hook paragraph and its rules (below), the "!!" on the congrats line, the 3-credit table, "meshes well with your content" (Spencer's voice, never change it), no em/en dashes, the yellow [NOT READY: ...], [VERIFY EMPLOYMENT: ...] and [Source: ...] marker lines, and the Pushkin exception. Spencer's own hook/take text stays word for word.
@@ -76,7 +108,7 @@ No hook = no callback: the sentence ends at "<Company>." and the quality line st
 |---|---|
 | Software, SaaS, AI, cyber, cloud, B2B, industrial, energy, corporate | Dell Technologies, Cisco, and Amazon AWS (Brave Browser for browser/privacy/AI tools) |
 | Fintech, payments, banking | Venmo, Amazon AWS, and Dell Technologies |
-| **Sports organisations: leagues, tours, teams, federations, sports media and sports events** (Spencer, 2026-10-12: "make it the default for sports clients") | **FIFA and EuroLeague Basketball** only. v3 sentence: "My recent work includes FIFA and EuroLeague Basketball, and my reels are at spencerzvoice.com." (no "plus ..." part). First use: Premier Padel 10-12 |
+| **Sports organisations: leagues, tours, teams, federations, sports media and sports events** (Spencer, 2026-10-12: "make it the default for sports clients") | v4 (Spencer's Premier Padel draft, 10-13): "My recent work includes the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball, NordicTrack and Altra Running among others." (v3 had FIFA and EuroLeague only) |
 | Fitness, sporting goods, apparel, outdoor, wearables (brands) | NordicTrack, Fabletics, and FootJoy |
 | Travel, hospitality, luggage | Travelpro, Dell Technologies, and Cisco |
 | Creative/production/animation studios, media, music | Venmo, Dell Technologies, and Artlist.io |
