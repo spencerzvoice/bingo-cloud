@@ -24,3 +24,7 @@ No stylised grade (footage ~10% brighter than raw). Reel loudness ~-18 LUFS; his
 - **As few cuts as possible:** one ad jump at most, cut on the ad's own shot change. Booth stays one continuous shot: slow the camera through silent breaths instead of cutting; cut only where the comp switches takes.
 - **Slow, tasteful push-ins** on every shot (about 5-16% over the shot), no snap punch-ins, no flash, no layout switching.
 - **HyperFrames lip-sync:** shift camera clips' data-media-start +0.040 s (HF shows frames ~40 ms early); verify by frame-matching a zoom-free test render.
+- **HyperFrames volume gotcha:** a `data-automation` volume lane OVERRIDES `data-volume`. Put a clip's gain inside the lane's values (or a post-chain `gain` node), never in `data-volume` alongside a lane.
+- **Booth grade (Spencer, 10-13: "light on my face isn't so harsh"):** tame highlights only, keep the blacks deep. Used: adjust highlights -0.6, whites -0.35, contrast -0.06, temperature +0.05, saturation -0.05; master curve [[0,0],[0.58,0.58],[0.82,0.76],[1,0.9]]; highlight wheel hue 35 amount 0.05 level -0.05. Lifting shadows made the foam milky grey, so don't.
+- **Couch shot:** when Spencer supplies his own edit (e.g. `Premier Padel VOX.mp4` + `.wav`), use it as cut, with his own audio mix: level-match and centre only, no extra processing. Otherwise measure the camera voice against his studio voice before EQ; camera mic = thin, boxy 315-500 Hz, edgy 4-5 kHz. Never add clarity/air boosts to it.
+- **ORIGINAL / MY VERSION cards** go on both versions (Spencer likes them, 10-13).
