@@ -424,3 +424,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - Status: draft; suggested send Wed 10-14 8:32 NY (13:32 Lisbon). Spencer reviews + schedules; delete the yellow [Source] marker first.
 - Follow up on: 7-10 days after send if no reply.
 - Skipped: a Ramp LinkedIn "Ep. 2" post whose lnkd.in link redirected to an unrelated external site (tonystockprotrader.com); not opened, not used.
+- 10-13 update: Karly SENT by Spencer 13:52 Lisbon (08:52 NY), Gmail Sent msg 1a13551faadded0b (verified). His edits: callback 'from product updates to stories such as the OnRamp take over', re-voice line moved ABOVE the credits, credits bolded + 'among others', website line its own paragraph. Tracker row 217 = Sent. Follow up 10-20 to 10-23.

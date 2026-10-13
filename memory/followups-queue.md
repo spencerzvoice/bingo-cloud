@@ -271,3 +271,4 @@ Ledger check: no reminder or overdue date falls on Tue 10-13 (also a send-avoid 
 - 2026-10-13: PT studios. VMS (Gesiane) + VOZ ON (Arcindo) emails land 10-13 08:32 Lisbon -> touch 2 window Tue 10-20 to Fri 10-23 (thread reply). AP Portugal (Mario) + Soundtrap (Ricardo) = LinkedIn invites pending -> on accept, short LinkedIn message; Soundtrap no accept by ~10-27 -> email comercial@soundtrap-productions.net. Spencer still to sign up on VMS voice portal.
 
 - 2026-10-13: Paul Jun (Ramp) OOO Oct 8-23 (auto-reply read in Gmail). Touch 2 moves from 10-20..10-23 to Tue 10-27 (window 10-27 to 10-29). Don't route a cold pitch to his "urgent" contacts (Emerline Ji, Aodan Reddy).
+- 2026-10-13: Karly Snajczuk (Ramp, NYC) first touch SENT 10-13 13:52 Lisbon (verified). Touch 2 window 10-20 to 10-23. Paul Jun (same co.) touch 2 is 10-27; don't double-tap Ramp on the same day.
