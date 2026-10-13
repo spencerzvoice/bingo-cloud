@@ -272,3 +272,21 @@ Ledger check: no reminder or overdue date falls on Tue 10-13 (also a send-avoid 
 
 - 2026-10-13: Paul Jun (Ramp) OOO Oct 8-23 (auto-reply read in Gmail). Touch 2 moves from 10-20..10-23 to Tue 10-27 (window 10-27 to 10-29). Don't route a cold pitch to his "urgent" contacts (Emerline Ji, Aodan Reddy).
 - 2026-10-13: Karly Snajczuk (Ramp, NYC) first touch SENT 10-13 13:52 Lisbon (verified). Touch 2 window 10-20 to 10-23. Paul Jun (same co.) touch 2 is 10-27; don't double-tap Ramp on the same day.
+
+## 2026-10-13 evening prep (cloud, for Wed 2026-10-14) - 12 drafts, NOT sent
+Live Gmail 10-13 (FGAC): no replies/bounces on any thread or from any Funnel B/C/Psyop/micro1 domain (only Andrew Linsk OOO 10-07 and micro1 automated mail). Touch 2 text = word-for-word template; touch 3 = short final, custom-read offer, "check back later in the year". No hook, no new claims.
+| Contact | Company | Thread | Draft ID | Touch |
+|---|---|---|---|---|
+| Andrew Linsk | Psyop | 1a10d20a32df82d9 | r-5891017809617751325 | 2 (Spencer's 10-14..10-17 window) |
+| Daniel Warner | micro1 | 1a11352162966db3 | r2894772767900476660 | 2 |
+| Wes Brummette | ClickUp | 1a0caaf357a64c77 | r-4589444927592895077 | 3 final |
+| Eric Cirillo | ClickUp | 1a06bd5efc931595 | r6403741344351564764 | 3 final |
+| Genna Osborne | Atlassian | 1a06bd6614724044 | r3856533132794074568 | 3 final |
+| Sarah Fink | Atlassian | 1a06bd6840f6d132 | r3029656140620091546 | 3 final |
+| Jack Toohey | Canva | 1a06bd6a0535c183 | r2388368399496418060 | 3 final |
+| Lydia Sarks | Canva | 1a06bd691621309d | r-7493861976550191199 | 3 final |
+| Lauren Hirata | Grammarly | 1a06bd5e2363ffef | r4286409075024009715 | 3 final |
+| Teddy Sirotek | Zoom | 1a06bd62c47cfa2b | r9048265226133283279 | 3 final |
+| Dan Schunk | Zoom | 1a06bd63ae1546e9 | r8956740820284474195 | 3 final |
+| Linda Hewing | HubSpot | 1a06bd6af9864f58 | r7754167150995082097 | 3 final |
+Flagged, NOT drafted (12-draft cap; re-draft at Wed 10-14 evening prep, still inside window): Funnel B Jamal Meneide (HubSpot, 1a06bd6b80c43fc6), Amalia Hochmann (monday, 1a06765c7f9b1b89), Aubrey Rogers (Asana, 1a06bd654a30ca76) touch 3, window to Mon 10-19. Funnel C touch 3 (window to Tue 10-20; Kaplan Rory Green to Wed 10-21): MasterClass 1a0cfde2ca0728a1, Skillshare 1a0cfde549415cf6, Udemy 1a0cfefa529d0337, LinkedIn Learning 1a0cfcf350a117a9 (last touch in thread is only the 09-23 pitch/ touch 2 not confirmed in that thread, check), Coursera 1a0cfcf56907511b, Instructure 1a0cfcf7dbd16c98, Discovery Ed 1a0cfcfa9db157fd, LearningMate 1a0cfcff5c6fa14e, Kaplan UK 1a0cfcfd00bcff29. Funnel H touch 2 starts Wed 10-14 (BUCK Jordan Howes, window to 10-17) and Thu 10-15 for the rest. Jim Levi (CrowdReply) check-in: no thread found in Sent last 40d, needs Spencer's context.
