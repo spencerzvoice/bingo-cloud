@@ -75,3 +75,4 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-12 | Ivana Milovanovic | Tripadvisor | linkedin.com/in/ivanamilovanovic | "no public company shown (03:05 run)" | API-HIDDEN
 2026-10-12 | Ivana Milovanovic | Tripadvisor | linkedin.com/in/ivanamilovanovic | "no public company shown (13:05 run)" | API-HIDDEN
 2026-10-12 | Ivana Milovanovic | Tripadvisor | linkedin.com/in/ivanamilovanovic | "Executive Producer, Tripadvisor, Aug 2026 - Present (desktop Chrome, /details/experience/)" | PASS (NOT READY cleared 2026-10-12)
+2026-10-13 | Karly Snajczuk | Ramp | linkedin.com/in/karly-snajczuk | "Lead Creative Producer at Ramp" (experience: Lead Creative Producer Oct 2026-Present; Senior Creative Producer Nov 2025-; desktop Chrome) | PASS

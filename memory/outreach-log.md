@@ -414,3 +414,13 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 ## 2026-10-13 - Paul Jun (Ramp) OOO auto-reply
 - Read in Gmail (FGAC, msg 1a1354130ca31af0, 10-13 05:33 PT): "I am OOO from Oct 8 to 23." Urgent contacts named: Emerline Ji (emerline.ji@ramp.com), Aodan Reddy (areaddy@ramp.com). Confirms the 10-13 pitch delivered.
 - Tracker row 216: Status Sent, follow-up moved to Tue 10-27 (his first week back). Backup on file: Karly Snajczuk, Senior Creative Producer (Apollo 09-30, not re-checked).
+
+## 2026-10-13 — Ramp — cold (backup contact)
+- Contact: Karly Snajczuk, Lead Creative Producer (promoted Oct 2026, NYC), karly.snajczuk@ramp.com (Apollo-verified 09-30; employment confirmed on live LinkedIn 10-13)
+- Why: Paul Jun OOO Oct 8-23. Spencer: "Check her job and lets pitch her".
+- Hook / angle: OnRamp 2026 (Ramp's finance summit, SF, Sep 29-Oct 1; ramp.com/onramp2026 opened 10-13; Karly reposted Ramp's OnRamp posts ~1w ago)
+- Reel linked: re-voice "Ramp for Construction is here" (same Drive file as Paul's pitch)
+- New email (not a thread reply). Draft r-5472766177604165860, label Funnel P. v4 QC PASS.
+- Status: draft; suggested send Wed 10-14 8:32 NY (13:32 Lisbon). Spencer reviews + schedules; delete the yellow [Source] marker first.
+- Follow up on: 7-10 days after send if no reply.
+- Skipped: a Ramp LinkedIn "Ep. 2" post whose lnkd.in link redirected to an unrelated external site (tonystockprotrader.com); not opened, not used.
