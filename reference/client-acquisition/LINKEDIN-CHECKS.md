@@ -113,3 +113,9 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-13 | Tanya Mukundan | EC-Council | linkedin.com/in/tanyamukundan | "Assistant Director - Marketing, EC-Council, Sep 2025 - Present (desktop Chrome, pre-draft)" | PASS
 2026-10-13 | Ashish Verma | EC-Council | linkedin.com/in/motiondesignbyash | "Video and Motion Content Designer, Skysun, Mar 2026 - Aug 2026 (no current EC-Council role shown)" | LEFT
 2026-10-13 | Caitlin Scholz | Confluent | linkedin.com/in/caitlin-scholz | headline "Program Manager" (stale) but /details/experience/ shows Confluent, Brand Marketing Senior Content Manager Jun 2024-Present (desktop Chrome) | PASS
+2026-10-13 | Pelle Iversen | Ørsted | linkedin.com/in/pelle-axel-von-schantz-iversen | "public profile company: Ørsted (brightdata)" | API-PASS
+2026-10-13 | Jorge Salgado | Applied Intuition | linkedin.com/in/jorge-salgado-497a51b | "public profile company: Applied Intuition (brightdata)" | API-PASS
+2026-10-13 | Helsi Robino | Amplitude | linkedin.com/in/helsi | "public profile company: Amplitude (brightdata)" | API-PASS
+2026-10-13 | Nick Miller | The Line | linkedin.com/in/nick-miller-17066a13 | "public profile company: The Line Animation Studio (brightdata)" | API-PASS
+2026-10-13 | Kristin Glushon | Nexus Studios | linkedin.com/in/kristinglushon | "public profile company: Nexus Studios (brightdata)" | API-PASS
+2026-10-13 | Marty Geren | Hornet | linkedin.com/in/marty-geren-31119a18 | "public profile company: Hornet (brightdata)" | API-PASS
