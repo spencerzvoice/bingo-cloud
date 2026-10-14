@@ -83,6 +83,9 @@ def download(client, cdir, url, opt):
 
 PREFER_DAYS = 3 * 365  # Spencer, 2026-10-05: prefer the last 3 years
 MAX_AGE_DAYS = 5 * 365  # 3-5 years is OK when nothing newer fits; over 5 = rejected (NPR pick was from 2013)
+# Spencer's own per-client calls to allow one video past 5 years (like NO_SAMPLE_DOMAINS in pitch_draft_qc.py).
+# Only Spencer adds entries here: client folder name -> YouTube id.
+AGE_EXEMPT = {"Cash App": "qSH_t9kE4es"}  # "Let's talk Cash App" (2021-06-29); Spencer 2026-10-14: "Use"
 
 
 def age_gate(url, opt=None):
@@ -405,7 +408,7 @@ def build_funnel(fdir, only, results):
             note = ""
             fresh = not videos(cdir)
             if fresh:
-                too_old = age_gate(url, opt)
+                too_old = None if AGE_EXEMPT.get(client, "~") in url else age_gate(url, opt)
                 if too_old:
                     results[key] = "FAIL - " + too_old
                     log(key, "->", results[key])
