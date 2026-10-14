@@ -4,7 +4,7 @@
 # A rule in a skill can be skipped; this can't. It runs before every
 # google_api_modify call on gmail/v1/users/me/drafts, decodes the message, and
 # BLOCKS the write (exit 2) if a new-client pitch breaks the house format.
-# Replies and follow-ups (Re: subject, In-Reply-To/References) are not checked.
+# Replies and follow-ups (Re: subject, In-Reply-To/References) skip the pitch format but are blocked if they offer free work.
 import base64, email, html, json, re, sys
 from email import policy
 
@@ -31,7 +31,18 @@ except Exception:
 
 subject = str(msg.get("Subject", "") or "")
 if subject.strip().lower().startswith("re:") or msg.get("In-Reply-To") or msg.get("References"):
-    sys.exit(0)  # follow-up / thread reply: different format, not checked here
+    # Follow-ups: different format, but never offer free work (Spencer, 2026-10-14: "That's offering free
+    # work ... Say, 'I'd love to offer an audition for any of the videos you have coming up.'").
+    _p = msg.get_body(preferencelist=("html", "plain"))
+    _t = html.unescape(re.sub(r"<[^>]+>", " ", _p.get_content() if _p else "")).replace("’", "'")
+    _t = re.sub(r"\s+", " ", _t)
+    _bad = [m.group(0) for m in re.finditer(r"custom read|no obligation|no strings|free read|\bfree\b(?! to\b)|on the house", _t, re.I)]
+    if _bad:
+        sys.stderr.write("FOLLOW-UP DRAFT BLOCKED: offers free work (" + ", ".join(sorted(set(_bad))) + "). Use: "
+                         "\"I'd love to offer an audition for any of the videos you have coming up.\" "
+                         "(followup-drafts skill, Spencer 2026-10-14).\n")
+        sys.exit(2)
+    sys.exit(0)  # follow-up / thread reply passed
 
 # Only new-client PITCHES are checked: subject "A voice for ...", the v3 intro, or the old v2 go-to line
 # (so an old-format draft still FAILS the sweep). Review requests, roster submissions and other one-off

@@ -444,3 +444,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - 10-14: **Manny Gonzalez (Docebo): pitch SENT 17:36 Lisbon** (live Gmail Sent), then **Spencer sent a LinkedIn voice note**. Tracker row 218 (added by another session moments earlier; Bingo's duplicate row 219 deleted and the voice note merged into row 218's Notes, read back). Touch 2 by email 10/21-10/24 if silent.
 
 - 2026-10-14 (cloud evening prep): 12 follow-up drafts created for Thu 10-15 (Experian, Purdue, Sarofsky, Snowflake, Tendril, Airtable x2 touch 3; BUCK, ABB, Booking.com, Airwallex, Economist touch 2). Nothing sent. Detail in followups-queue.md.
+- 2026-10-14: 7 unsent touch-2 follow-ups (Funnel H x5, micro1, Psyop) rewritten: free custom-read line -> "I'd love to offer an audition for any of the videos you have coming up." (Spencer). Not sent.
