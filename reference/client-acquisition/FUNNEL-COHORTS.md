@@ -222,7 +222,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | N-able | Cybersecurity vendors | Madden Meiners | Alberto Bravo | STAGED 2026-10-13 (queue cap) -> Madden Meiners; hook Dundee hub + SOC (Jul 16) |
 | Proofpoint | Cybersecurity vendors | Nicholas Radcliffe | Daniel Morales | STAGED 2026-10-13 (queue cap) -> Daniel Morales (Sr Dir Creative); hook Protect 2026 (Sep 21) |
 | SANS Institute | Cybersecurity vendors | Vincent Sarageno | Nicholas Wessel | STAGED 2026-10-13 (queue cap) -> Vincent Sarageno; hook AI Security Fellowship with CyberSafe (Sep 29) |
-| Sophos | Cybersecurity vendors | Rick Colina | Hannah Wallace | STAGED 2026-10-13 (queue cap) -> Jason Colina (goes by Jason, 10-14); hook AI Defense launch (Oct 13) = re-voice (swap built) |
+| Sophos | Cybersecurity vendors | Rick Colina | Hannah Wallace | STAGED 2026-10-13 (queue cap) -> Rick Colina (greeting "Rick" per his LinkedIn name, Spencer 10-14; email jason.colina@); hook AI Defense launch (Oct 13) = re-voice (swap built) |
 | Tenable | Cybersecurity vendors | Christiano Dias | Sean Carnell | STAGED 2026-10-13 (queue cap) -> Stewart Devlin (VP Creative); hook Project Watershed (Aug 31) |
 | WatchGuard | Cybersecurity vendors | Wes Warfield | Cortney Albrecht | STAGED 2026-10-13 (queue cap) -> Cortney Albrecht (Creative Director); hook IMPACT North America, Rai (Oct 5) |
 
