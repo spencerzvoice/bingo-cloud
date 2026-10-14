@@ -446,3 +446,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - 2026-10-14 (cloud evening prep): 12 follow-up drafts created for Thu 10-15 (Experian, Purdue, Sarofsky, Snowflake, Tendril, Airtable x2 touch 3; BUCK, ABB, Booking.com, Airwallex, Economist touch 2). Nothing sent. Detail in followups-queue.md.
 - 2026-10-14: 7 unsent touch-2 follow-ups (Funnel H x5, micro1, Psyop) rewritten: free custom-read line -> "I'd love to offer an audition for any of the videos you have coming up." (Spencer). Not sent.
 - 2026-10-14 ~18:45 Lisbon: SENT touch 2 Daniel Warner (micro1) + Andrew Linsk (Psyop); SENT final touch 3 to Funnel D US (Experian, Purdue, Sarofsky, Snowflake, Tendril) + Airtable (Rob, Kirsten). Spencer: 'anything before 3pm local is game'. Tracker updated.
+- 2026-10-14: Funnel H touch 2 x5 (BUCK, ABB, Booking.com, Airwallex, Economist) scheduled for 8:32 local Thu (BUCK = Wed 22:32 Lisbon).
