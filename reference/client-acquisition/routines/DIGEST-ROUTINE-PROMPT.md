@@ -83,9 +83,14 @@ Then re-read the tracker (at least every row you changed) so the digest is built
 
 Step 5 - Send Spencer a digest email to spencer@spencerzvoice.com (his VO BUSINESS address - NOT his personal spencerzpearman@gmail.com). Build it ONLY from the Step 3 Gmail results and the Step 4 updated sheet.
 
-IMPORTANT - encoding: the FGAC send tool does NOT reliably handle non-ASCII characters in the Subject line (and possibly body) - it has previously produced mojibake from em dashes, curly bullets, and middle dots. Use PLAIN ASCII ONLY in subject and body: hyphen "-" not em dash, plain "*" or "-" not a bullet, "x" or "-" not a middle dot. Straight quotes only.
+HTML FORMAT (Spencer, 2026-10-14: "the plain text is ugly and I don't read it"). The digest is a styled HTML email (same skeleton as Paige's Portio Daily Brief, business look). Never send it as plain text via gmail_send again.
+1. Write the content as JSON to `local/digest-data-<YYYY-MM-DD>.json` using the schema in the docstring of `scripts/digest_render.py` (counts, coverage, bingo_call, due, due_no_draft, this_week on Mondays, replies, new_contacts, heads_up, coming_up, tracker_url). Map the sections below onto those keys: FOLLOW-UPS DUE TODAY with a draft -> `due`; due but not drafted -> `due_no_draft`; HEADS UP lines -> `heads_up` with a tag (OOO / Bounce / Unverified / System). `bingo_call` = ONE plain sentence naming the single most valuable thing to do first today (money owed or a live reply beats routine follow-ups); only facts from this run.
+2. Run `python scripts/digest_render.py local/digest-data-<date>.json`. It writes `local/digest-<date>.raw` (and .html/.txt).
+3. Send with FGAC `google_api_modify`, path `gmail/v1/users/me/messages/send`, account spencer@spencerzvoice.com, body `{"raw": "<exact contents of local/digest-<date>.raw>"}`. Copy the file contents exactly. Then confirm with `google_api_get gmail/v1/users/me/messages/<id>?format=metadata&fields=snippet,sizeEstimate` that the snippet starts "Spencer Z Voiceovers VO Pipeline Digest".
+4. Only if the send fails twice: fall back to FGAC gmail_send with the .txt content and say so in the push.
+The renderer escapes everything and keeps the message ASCII, so text in the JSON may use plain punctuation; still prefer plain hyphens.
 
-Keep the digest SHORT and SCANNABLE - Spencer reads it on his phone in under 30 seconds. Subject: "VO Pipeline Digest - [Month Day, Year]" (plain hyphen).
+Keep the digest SHORT and SCANNABLE - Spencer reads it on his phone in under 30 seconds. The renderer sets the subject: "VO Pipeline Digest - [Month Day, Year] - N due today".
 
 The digest MUST contain these sections in THIS ORDER. Omit a section only if it is genuinely empty.
 
