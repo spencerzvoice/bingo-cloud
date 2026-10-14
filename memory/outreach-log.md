@@ -433,3 +433,8 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - Funnels B-H were covered in the 10-07/08 sweep (77 sent). Not covered: Funnel A (excluded on purpose), dropped/left contacts.
 
 - 2026-10-13 evening prep (cloud): 12 follow-up drafts in Gmail Drafts for Wed 10-14 (Psyop/Andrew t2, micro1/Daniel t2, Funnel B t3 x10). Remaining Funnel B/C t3, BUCK t2, Funnel H t2 flagged for the next prep. Nothing sent. Details in followups-queue.md.
+
+## 2026-10-14 - Funnel B final touches scheduled + LinkedIn accept check
+- All 13 Funnel B touch-3 finals scheduled for 9:12 AM contact-local (detail + times: followups-queue.md 10-14). Tracker rows 102-115 updated, read back.
+- LinkedIn connections page (Recently added, read 10-14) since 10-07: **Eric Cirillo (ClickUp) 10-14** (new, Funnel B, no LinkedIn message yet), **Manny Gonzalez (Docebo, Sr. Creative Director) 10-13** (new; Funnel I pitch draft has the take linked but is NOT sent yet), Teddy Sirotek 10-12, Una Mladenovic + Zara Anakua 10-09, and the 10-08 batch (Taylor, Jack, Sergio, Alistair, Paul, Jane, Mariana, Linda, Toby, Adrien, John Barrigana, Alber Adilov). LinkedIn inbox 10-14: voice notes sent to ~11 of them, only reply = Alistair (earlier). No unread replies from any prospect.
+- Genna Osborne: live LinkedIn shows "GENNA OSBORNE LLC" as current, but experience page still has Creative Producer, Brand at Atlassian, Feb 2024-present. Still employed; final sent as planned.

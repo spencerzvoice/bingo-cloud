@@ -292,3 +292,14 @@ Live Gmail 10-13 (FGAC): no replies/bounces on any thread or from any Funnel B/C
 Flagged, NOT drafted (12-draft cap; re-draft at Wed 10-14 evening prep, still inside window): Funnel B Jamal Meneide (HubSpot, 1a06bd6b80c43fc6), Amalia Hochmann (monday, 1a06765c7f9b1b89), Aubrey Rogers (Asana, 1a06bd654a30ca76) touch 3, window to Mon 10-19. Funnel C touch 3 (window to Tue 10-20; Kaplan Rory Green to Wed 10-21): MasterClass 1a0cfde2ca0728a1, Skillshare 1a0cfde549415cf6, Udemy 1a0cfefa529d0337, LinkedIn Learning 1a0cfcf350a117a9 (last touch in thread is only the 09-23 pitch/ touch 2 not confirmed in that thread, check), Coursera 1a0cfcf56907511b, Instructure 1a0cfcf7dbd16c98, Discovery Ed 1a0cfcfa9db157fd, LearningMate 1a0cfcff5c6fa14e, Kaplan UK 1a0cfcfd00bcff29. Funnel H touch 2 starts Wed 10-14 (BUCK Jordan Howes, window to 10-17) and Thu 10-15 for the rest. Jim Levi (CrowdReply) check-in: no thread found in Sent last 40d, needs Spencer's context.
 
 - 2026-10-14 (Spencer: the "free custom read" wording in the 10-13 follow-up drafts sounded like free work): rewrote the 10 Funnel B touch-3 drafts (read back, no "free") to: "Last note from me for now. I'm happy to offer an audition for any of the videos you have coming up." + "I'll leave it here and check back later in the year." Rule for touch 3: audition offer only, never "free"/"no strings". Psyop + micro1 touch-2 drafts still carry the skill template's "custom read ... free, no obligation" line; skill template not changed yet, awaiting Spencer's call.
+
+## 2026-10-14 ~17:30 Lisbon (desktop) - Funnel B touch 3 (final): ALL 13 SCHEDULED in Gmail
+Spencer: "schedule them so they land at 9:12 am local time". Live Gmail first: no reply/bounce on any of the 13 threads. Created the 3 missing drafts (Jamal r6230544762405219106, Amalia r-4898798784137395616, Aubrey r-6398279670653244920) with the same text Spencer approved on the other 10 ("Last note from me for now... audition... Hope to hear from you soon. / I'll leave it here and check back later in the year."). Native Schedule send in Chrome; Gmail Scheduled folder = 13. Locations = live LinkedIn 10-14.
+| Contact | Local | Send (Lisbon) |
+|---|---|---|
+| Jack Toohey, Lydia Sarks (Canva) | Sydney | Wed 10-14 23:12 |
+| Amalia Hochmann (monday) | Tel Aviv | Thu 10-15 07:12 |
+| Dan Schunk (Zoom) | New York | Thu 10-15 14:12 |
+| Linda Hewing (HubSpot), Teddy Sirotek (Zoom) | Denver / MT (Teddy = "Remote, US", Denver ties; 🟡) | Thu 10-15 16:12 |
+| Wes, Eric (ClickUp), Jamal (HubSpot) San Diego · Sarah Fink Portland · Genna Osborne Eugene · Lauren Hirata SF · Aubrey Rogers SF Bay | Pacific | Thu 10-15 17:12 |
+**Ledger roll-forward:** Funnel B cadence done. Next = quarterly LT1 (new email, new proof) ~Wed 2027-01-13 (final + 90d), unless a real signal pulls it forward. Tracker rows 102-103, 105-115 -> Scheduled (digest flips to Sent once verified).
