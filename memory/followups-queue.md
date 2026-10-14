@@ -303,3 +303,4 @@ Spencer: "schedule them so they land at 9:12 am local time". Live Gmail first: n
 | Linda Hewing (HubSpot), Teddy Sirotek (Zoom) | Denver / MT (Teddy = "Remote, US", Denver ties; 🟡) | Thu 10-15 16:12 |
 | Wes, Eric (ClickUp), Jamal (HubSpot) San Diego · Sarah Fink Portland · Genna Osborne Eugene · Lauren Hirata SF · Aubrey Rogers SF Bay | Pacific | Thu 10-15 17:12 |
 **Ledger roll-forward:** Funnel B cadence done. Next = quarterly LT1 (new email, new proof) ~Wed 2027-01-13 (final + 90d), unless a real signal pulls it forward. Tracker rows 102-103, 105-115 -> Scheduled (digest flips to Sent once verified).
+- 2026-10-14: one-time cloud routine 'Ana voice note reminder' trig_015sYjm9txzm97uEVJXEH4Vp fires Fri 10-16 09:00 UTC (10:00 Lisbon): push only, telling Spencer to send Ana (VOX ARTIST) a WhatsApp voice note if she's still quiet. Spencer sends it himself.
