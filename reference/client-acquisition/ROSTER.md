@@ -267,6 +267,7 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 | Hornet | Marty Geren | Executive Producer | verified | Dez Stavracos — Head of Production | P | BANKED | batch-03 |
 | Nexus Studios | Kristin Glushon | Executive Producer | verified | Diego Rosner — Executive Producer | P | BANKED | batch-03 |
 | THE LINE | Nick Miller | Head of Production | verified | Eva Dahlqvist — Senior Producer | P | BANKED | batch-03 |
+| Lambda Films (Norwich, UK) | Ryan Stone | Creative Director (live LinkedIn 2026-10-09) | — not looked up yet | — | P | BANKED — Spencer's own lead via Voices.com job #875557 (Ryan S.); added 2026-10-14 | Spencer 2026-10-14 |
 | M2 Film | Marianne Bech | Executive Producer | confirmed on site | Kristian Mott — *not on team page, unresolved* | — | HELD | batch-11 |
 | Sarofsky | Paul Klinke (replaced Joel Signer, left) | — | paul.klinke@sarofsky.com | — | D | **SENT** 24 Sep | Bingo 24 Sep |
 | Tendril | Ivelle Jargalyn | — | ivelle@tendril.ca | — | D | **SENT** 24 Sep | Bingo 24 Sep |
