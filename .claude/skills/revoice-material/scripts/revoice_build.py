@@ -271,6 +271,13 @@ def script_gate(cdir):
         except Exception as e:
             ok, line, gaps = False, f"SCRIPT CHECK could not run ({e})", []
         out.append(f"{'OK' if ok else 'FAIL'} {sp}: {line}" + "".join("\n      " + g for g in gaps))
+        # FORMAT: run-on lines / stray spaces (script_lines.lint). Reported, never auto-fixed on an existing
+        # script: Spencer OKs any re-layout (10-13). New scripts come out of script_lines.py already clean.
+        from script_lines import lint
+        iss = lint([p.text for p in docx.Document(os.path.join(cdir, sp)).paragraphs])
+        if iss:
+            out.append(f"FORMAT {sp}: {len(iss)} issue(s), re-layout with script_lines.py only with Spencer's OK"
+                       + "".join("\n      " + i for i in iss[:6]))
     if not out and has_script(cdir):
         # Never convert or rewrite it to get past this (Spencer, 2026-10-13: the .docx conversion "made the
         # scripts worse"; Funnel I was reverted to its Google Docs). Check it from a text export instead.
@@ -285,27 +292,14 @@ def has_script(cdir):
 
 def whisper_script(client, cdir, src):
     """Write <Client>_script.docx from a local Whisper pass (desktop relay: no YouTube captions needed).
-    Medium model on the Demucs vocal stem, condition_on_previous_text=False (stops one mishearing snowballing
-    into the next lines), and nothing past the video's end or Whisper's stock "thanks for watching" filler.
-    The SCRIPT GATE then re-checks it with an independent pass (script_check.py)."""
-    import docx, whisper
-    from script_check import HALLU
-    dur, _ = probe(src)
-    r = whisper.load_model("medium").transcribe(vocals(client, src), fp16=False, language="en",
-                                                condition_on_previous_text=False)
-    lines = []
-    for seg in r["segments"]:
-        t = seg["text"].strip()
-        if not t or seg["start"] > dur - 0.3:
-            continue
-        if re.sub(r"[^a-z' ]", "", t.lower()).strip() in HALLU:
-            continue
-        lines.append(t)
-    d = docx.Document()
-    d.add_paragraph("Original copy - from Whisper transcription (desktop relay), verify against the video.")
-    for l in lines:
-        d.add_paragraph(l)
-    d.save(os.path.join(cdir, f"{client}_script.docx"))
+    script_lines.py lays it out as heard: one line per spoken phrase, broken at the narrator's pauses and sentence
+    ends, whitespace cleaned, brand name spelled right (Spencer, 2026-10-14: "present the lines as they are heard").
+    Medium model on the Demucs vocal stem, condition_on_previous_text=False, nothing past the video's end or
+    Whisper's stock filler. The SCRIPT GATE then re-checks it with an independent pass (script_check.py)."""
+    from script_lines import build
+    build(vocals(client, src), src, os.path.join(cdir, f"{client}_script.docx"),
+          header="Original copy - from Whisper transcription (desktop relay), verify against the video.",
+          client=client)
 
 
 def narrator(cdir, src, nv):
