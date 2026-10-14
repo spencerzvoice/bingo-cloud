@@ -19,12 +19,18 @@ Input JSON (every list optional; empty lists hide their section):
   "date": "2026-10-14",
   "to": "spencer@spencerzvoice.com",
   "counts": {"new_contacts": 0, "replies": 0, "bounces": 2, "due_today": 12},
-  "pitch_queue": 18,                       # unsent "A voice for" drafts, or null
+  "pipeline": {"pitch_drafts": 44, "cap": 20, "followup_drafts": 12, "scheduled": 0, "staged": 20},
+  "season": {"now_label": "Oct 5-31:", "now": "Best window of the year ...",
+             "timeline": [{"label": "Oct", "state": "full", "now": true}, ...],   # state: full|peak|light|black
+             "windows": [{"who": "Corporate L&D", "window": "Oct 5 - early Dec", "status": "Open",
+                          "state": "open", "why": "..."}]},                     # state: open|closing|soon|closed
+  "funnels": [{"name": "I", "type": "Corporate L&D + dev", "drafts": 10, "staged": 0, "sent": 0, "note": ""}],
+  "reach_out": [{"who": "Funnel I", "count": "10 drafts", "when": "Send now", "why": "..."}],
   "coverage": {"checked": 202, "active": 202, "as_of": "06:30 UTC", "unchecked": []},
   "bingo_call": "One plain sentence: the first thing to do today.",
   "due": [{"who": "Andrew Linsk", "company": "Psyop", "action": "Touch 2",
            "detail": "Thread reply. OOO since 10/7.", "days": 7,
-           "draft": true, "level": "due"}],       # level: overdue | due | final | fix
+           "draft": true, "level": "due", "thread": "<gmail threadId>"}],  # level: overdue|due|final|fix; thread -> name links to the draft
   "due_no_draft": [ same shape ],
   "coming_up": ["Funnel D / Airtable touch 3 - Thu 10/15"],
   "this_week": [{"when": "Thu 10/15", "text": "Funnel D touch 3 (6)"}],   # Mondays
@@ -80,9 +86,29 @@ table{border-collapse:collapse;border-spacing:0}td{padding:0}
 .bt{display:inline-block;background:#0B1F3A;color:#fff;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:12px 20px;border-radius:2px}
 .ft{font-size:11px;color:#667085;margin-top:14px}
 .red{color:#912018;font-weight:700}
+.lk{color:#0B1F3A;text-decoration:underline}
+.il{padding:12px 0;vertical-align:top}.ir{padding:12px 0 12px 10px;vertical-align:top;text-align:right;white-space:nowrap}
+.ob{display:inline-block;background:#0B1F3A;color:#fff;font-size:9.5px;font-weight:700;line-height:1;letter-spacing:.08em;text-transform:uppercase;padding:5px 8px;border-radius:2px;text-decoration:none;white-space:nowrap}
+.pp{padding:0 24px}
+.pt{padding:10px 4px;text-align:center;border:1px solid #D0D5DD;background:#F8FAFC}
+.pn{font-size:20px;font-weight:700;line-height:1;color:#0B1F3A}
+.pl{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#475467;margin-top:6px}
+.ps{font-size:10px;color:#667085;margin-top:3px}
+.ov{border-top:3px solid #912018}.ov .pn{color:#912018}
+.tc{font-size:9px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-align:center;padding:7px 2px;border-right:2px solid #fff}
+.s-full{background:#1D3A63;color:#fff}.s-peak{background:#0B1F3A;color:#fff}.s-light{background:#D0D5DD;color:#344054}.s-black{background:#FEF3F2;color:#912018}
+.tn{font-size:9px;font-weight:700;color:#912018;text-align:center;padding-top:3px}
+.nw{font-size:13px;line-height:1.5;color:#101828;padding:10px 0 4px}
+.lg{font-size:10px;color:#667085;padding:4px 0 8px}
+.fh{font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#475467;padding:8px 6px 6px 0;border-bottom:1px solid #0B1F3A;text-align:left}
+.fd{font-size:12.5px;color:#101828;padding:8px 6px 8px 0;border-bottom:1px solid #EAECF0;vertical-align:top}
+.fn{font-weight:700;color:#0B1F3A;white-space:nowrap}
+.fc{text-align:center;white-space:nowrap}
 """
 T = '<table width="100%"'
 NL = "\n"
+
+GMAIL = "https://mail.google.com/mail/u/?authuser=spencer@spencerzvoice.com#all/"
 
 LEVEL = {"overdue": ("Overdue", "b-red"), "fix": ("Fix + resend", "b-red"),
          "final": ("Final touch", "b-nav"), "due": ("Due today", "b-org")}
@@ -103,36 +129,101 @@ def section(label, inner, accent=""):
             f'<tr><td style="padding:0 24px"><div class="cd {accent}">{inner}</div></td></tr>')
 
 
-def item(title, sub="", right="", body="", last=False):
+def item(title, sub="", right="", body="", last=False, raw_title=False):
     sub_html = f'<span class="co"> &middot; {e(sub)}</span>' if sub else ""
-    title_html = f'<div class="it">{e(title)}{sub_html}</div>' if title else ""
+    t = title if raw_title else e(title)
+    title_html = f'<div class="it">{t}{sub_html}</div>' if title else ""
     body_html = f'<div class="ib">{body}</div>' if body else ""
     row_cls = "" if last else ' class="rw"'
     return (f'{T}{row_cls}><tr>'
-            f'<td style="padding:12px 0;vertical-align:top">{title_html}{body_html}</td>'
-            f'<td style="padding:12px 0 12px 10px;vertical-align:top;text-align:right;white-space:nowrap">{right}</td>'
+            f'<td class="il">{title_html}{body_html}</td><td class="ir">{right}</td>'
             f'</tr></table>')
 
 
-def items(rows):
-    return "".join(item(*r[:4], last=(i == len(rows) - 1)) for i, r in enumerate(rows))
+def items(rows, raw_title=False):
+    return "".join(item(*r[:4], last=(i == len(rows) - 1), raw_title=raw_title) for i, r in enumerate(rows))
 
 
 def due_rows(lst, show_draft):
     out = []
     for d in lst:
         right = badge(*LEVEL.get(d.get("level", "due"), LEVEL["due"]))
+        link = GMAIL + d["thread"] if d.get("thread") else ""
         if show_draft:
             right += '<div style="height:5px"></div>' + (
-                badge("Draft ready", "b-grn") if d.get("draft") else badge("No draft", "b-out"))
+                f'<a class="ob" href="{e(link)}">Open draft &rsaquo;</a>' if (d.get("draft") and link)
+                else badge("Draft ready", "b-grn") if d.get("draft") else badge("No draft", "b-out"))
         bits = [e(d.get("action", ""))]
         if d.get("days") not in (None, ""):
             bits.append(f'day {e(d["days"])}')
         line = f'<b class="ac">{" &middot; ".join(b for b in bits if b)}</b>'
         if d.get("detail"):
             line += f"<br>{e(d['detail'])}"
-        out.append((d.get("who", ""), d.get("company", ""), right, line))
-    return items(out)
+        who = e(d.get("who", ""))
+        title = f'<a class="lk" href="{e(link)}">{who}</a>' if link else who
+        out.append((title, d.get("company", ""), right, line))
+    return items(out, raw_title=True)
+
+
+def pipeline_block(pp):
+    if not pp:
+        return ""
+    cap = pp.get("cap", 20)
+    q = pp.get("pitch_drafts", 0)
+    over = q > cap
+    gap = '<td width="6" style="font-size:0">&nbsp;</td>'
+
+    def tile(n, label, sub, cls=""):
+        return (f'<td width="25%" class="pt {cls}"><div class="pn">{e(n)}</div>'
+                f'<div class="pl">{e(label)}</div><div class="ps">{e(sub)}</div></td>')
+    q_sub = f"{q - cap} over the {cap} cap" if over else f"{cap - q} free of {cap}"
+    row = (tile(q, "Pitch drafts", q_sub, "ov" if over else "") + gap
+           + tile(pp.get("followup_drafts", 0), "Follow-up drafts", "in Drafts") + gap
+           + tile(pp.get("scheduled", 0), "Scheduled", "in the outbox") + gap
+           + tile(pp.get("staged", 0), "Staged", "built, not drafted"))
+    return (f'<tr><td style="padding:22px 24px 4px">{T}><tr><td class="lb">Pipeline</td>'
+            f'<td width="100%" class="ln"></td></tr></table></td></tr>'
+            f'<tr><td class="pp" style="padding-top:8px">{T} style="border-collapse:separate"><tr>{row}</tr></table></td></tr>')
+
+
+def season_block(sn):
+    if not sn:
+        return ""
+    cells, marks = "", ""
+    for c in sn.get("timeline", []):
+        cells += f'<td class="tc s-{e(c.get("state", "full"))}">{e(c.get("label", ""))}</td>'
+        marks += f'<td class="tn">{"&#9650; NOW" if c.get("now") else ""}</td>'
+    strip = f'{T}><tr>{cells}</tr><tr>{marks}</tr></table>' if cells else ""
+    legend = ('<div class="lg"><span style="color:#1D3A63">&#9632;</span> Full volume &nbsp; '
+              '<span style="color:#0B1F3A">&#9632;</span> Peak &nbsp; '
+              '<span style="color:#98A2B3">&#9632;</span> Light &nbsp; '
+              '<span style="color:#F04438">&#9632;</span> No cold sends</div>') if cells else ""
+    now = f'<div class="nw"><b>{e(sn.get("now_label", ""))}</b> {e(sn.get("now", ""))}</div>' if sn.get("now") else ""
+    rows = [(w.get("who", ""), w.get("window", ""), badge(w.get("status", ""), {"open": "b-grn", "closing": "b-org", "soon": "b-nav", "closed": "b-ms"}.get(w.get("state"), "b-sl")) if w.get("status") else "", e(w.get("why", "")))
+            for w in sn.get("windows", [])]
+    return section("Budget season", strip + legend + now + items(rows))
+
+
+def funnels_block(fs):
+    if not fs:
+        return ""
+    head = ('<tr><th class="fh">Funnel</th><th class="fh">Who</th><th class="fh fc">Drafts</th>'
+            '<th class="fh fc">Staged</th><th class="fh fc">Sent</th></tr>')
+    body = "".join(
+        f'<tr><td class="fd fn">{e(f.get("name", ""))}</td><td class="fd">{e(f.get("type", ""))}'
+        + (f'<div style="font-size:11px;color:#667085;margin-top:2px">{e(f["note"])}</div>' if f.get("note") else "")
+        + f'</td><td class="fd fc">{e(f.get("drafts", 0) or "-")}</td>'
+        f'<td class="fd fc">{e(f.get("staged", 0) or "-")}</td><td class="fd fc">{e(f.get("sent", 0) or "-")}</td></tr>'
+        for f in fs)
+    return section("Funnels in play", f'{T}>{head}{body}</table>')
+
+
+def reach_block(rs):
+    if not rs:
+        return ""
+    rows = [(r.get("who", ""), r.get("count", ""), badge(r.get("when", ""), "b-nav") if r.get("when") else "",
+             f'<b class="ac">Why:</b> {e(r.get("why", ""))}') for r in rs]
+    return section("Who to contact next", items(rows))
 
 
 def stat(label, value, hot=False):
@@ -154,8 +245,6 @@ def build_html(d):
     cov_line = f'Gmail checked {e(cov.get("checked"))}/{e(cov.get("active"))} rows &middot; {e(cov.get("as_of"))}'
     if cov.get("checked") != cov.get("active"):
         cov_line += f' &middot; <span class="red">NOT CHECKED: {e(", ".join(cov.get("unchecked", [])))}</span>'
-    if d.get("pitch_queue") is not None:
-        cov_line += f' &middot; Pitch queue {e(d["pitch_queue"])}/20'
 
     header = (f'<tr><td class="hd"><div class="br">Spencer Z Voiceovers</div>'
               f'<div class="tt">VO Pipeline Digest</div><div class="dt">{e(nice)}</div></td></tr>'
@@ -170,6 +259,7 @@ def build_html(d):
         body.append(section("Follow-ups due today", due_rows(d["due"], True)))
     else:
         body.append(section("Follow-ups due today", '<div class="ok">No follow-ups due today.</div>', "a-g"))
+    body += [reach_block(d.get("reach_out")), funnels_block(d.get("funnels")), season_block(d.get("season"))]
     if d.get("due_no_draft"):
         body.append(section("Due, no draft yet", due_rows(d["due_no_draft"], False), "a-m"))
     if d.get("this_week"):
@@ -197,7 +287,7 @@ def build_html(d):
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<style>{CSS}</style></head><body>'
             f'{T} style="background:#E9ECF0"><tr><td align="center" style="padding:16px 8px">'
-            f'{T} class="w">' + header + call + "".join(body) + footer +
+            f'{T} class="w">' + header + pipeline_block(d.get("pipeline")) + call + "".join(body) + footer +
             '</table></td></tr></table></body></html>')
 
 
