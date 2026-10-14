@@ -73,9 +73,17 @@ NO_SAMPLE_DOMAINS = ("@pushkin.fm",)
 to = str(msg.get("To", "")).lower()
 # House template v5 = v4 (Spencer's own Calm + Premier Padel drafts, 2026-10-13) with the re-voice line moved up and reworded
 # (Spencer's Docebo send, 2026-10-14: "apply that to all first touches").
-need("My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal", "v4 intro")
+need("My name is Spencer Pearman and I'm a professional Voiceover Artist and Audio Engineer based in Lisbon, Portugal", "v4 intro")
+# "Audio Engineer" capitalised like "Voiceover Artist" (Spencer, 2026-10-14: "Not All Caps...Just Audio Engineer"). need() ignores case, so check it here.
+if re.search(r"Voiceover Artist and audio engineer|AUDIO ENGINEER", text):
+    fails.append("intro must read 'Voiceover Artist and Audio Engineer' (title case, Spencer 2026-10-14)")
+# v6 intro, Spencer's exact wording (2026-10-14): "...based in Lisbon, Portugal. I'd love to voice the videos that come out of
+# [Company], especially those spreading the word about [Event] and any other company news."
+ban(r"\band other content\b", "v4/v5 callback 'and other content' (v6: 'and any other company news.')")
+ban(r"any other news coming out of the company", "interim callback (v6: 'and any other company news.')")
+ban(r"especially the ones that spread the word about", "v4/v5 callback (v6: 'especially those spreading the word about ...')")
 if not any(d in to for d in CUSTOM_REACHING_OUT_DOMAINS):
-    need("based in Lisbon, Portugal, and I'd love to", "v4 intro + reaching-out sentence")
+    need("based in Lisbon, Portugal. I'd love to", "v6 intro + reaching-out sentence (two sentences, split at 'Portugal.')")
 need("My standard turnaround is within 24 hours and within 2-3 hours for rush projects", "v4 turnaround line (Spencer 10-13: '2-3 hours')")
 need("My recent work includes", "credits paragraph")
 need("You can see more of my work at", "v4 website line")
