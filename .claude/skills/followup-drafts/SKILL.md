@@ -50,15 +50,13 @@ Reminders fire **only when a follow-up is due by the cadence rules**, not every 
   ```
   Hello <First>,
 
-  Following up on the re-voice I sent last week. I hope you like what you hear! I'd love to chat about working with you all as your go-to Voiceover Artist.
-
-  I'd love to offer an audition for any of the videos you have coming up.
+  Following up on the re-voice I sent last week. I hope you like what you hear! I'd love to chat about working with you all as your go-to Voiceover Artist, and I'd love to offer an audition for any of the videos you have coming up.
 
   Best,
   Spencer
   spencerzvoice.com
   ```
-- **Never offer free work (Spencer, 2026-10-14: "That's offering free work").** No "free", "custom read", "no obligation", "no strings" in any follow-up. The offer is an audition: touch 2 = "I'd love to offer an audition for any of the videos you have coming up."; touch 3 = Spencer's sent Funnel B final (below). `pitch_draft_qc.py` blocks any reply draft that offers free work.
+- **Never offer free work (Spencer, 2026-10-14: "That's offering free work").** No "free", "custom read", "no obligation", "no strings" in any follow-up. The offer is an audition: touch 2 = one paragraph, Spencer's exact wording above (the audition offer joined to the go-to line with ", and", never a stand-alone line); touch 3 = Spencer's sent Funnel B final (below). `pitch_draft_qc.py` blocks any reply draft that offers free work.
 - 3rd touch = this text word for word (Spencer's Funnel B finals, sent 2026-10-14):
   ```
   Hey <First>,   (Hello <First>, for women / older men)
