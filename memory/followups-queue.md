@@ -306,3 +306,21 @@ Spencer: "schedule them so they land at 9:12 am local time". Live Gmail first: n
 - 2026-10-14: one-time cloud routine 'Ana voice note reminder' trig_015sYjm9txzm97uEVJXEH4Vp fires Fri 10-16 09:00 UTC (10:00 Lisbon): push only, telling Spencer to send Ana (VOX ARTIST) a WhatsApp voice note if she's still quiet. Spencer sends it himself.
 - **Update 10-14 ~17:30 Lisbon (Spencer: "if it's still morning time for them, send it now").** At 16:27 UTC it was 09:27 PT / 10:27 MT, so the 9 Pacific + Mountain finals were un-scheduled and SENT now (Gmail Sent, verified: Wes, Eric, Genna, Sarah, Lauren, Teddy, Linda, Jamal, Aubrey). Still scheduled (not morning there now): Dan (NY, 12:27 ET) Thu 14:12 Lisbon, Jack + Lydia (Sydney) tonight 23:12, Amalia (Tel Aviv) Thu 07:12. Tracker rows for the 9 -> Follow-Up Sent, Last Contact 10/14 (read back).
 - 10-14 follow-on: Spencer OK'd Dan now. Dan Schunk (Zoom, NY) final SENT ~13:00 ET (Gmail Sent msg 1a13b64d02835179). Tracker row 111 -> Follow-Up Sent 10/14. Still scheduled: Jack + Lydia (tonight 23:12 Lisbon), Amalia (Thu 07:12).
+
+## 2026-10-14 evening prep (cloud, for Thu 2026-10-15) - 12 drafts, NOT sent
+Live Gmail 10-14 (FGAC): all threads checked, no replies/bounces (micro1 mail = platform automation only). Funnel D US + Airtable touch 2 sent 10-01 20:12 (verified), touch 3 reminder Thu 10-15. Touch 3 text = the 10-14 approved Funnel B audition wording. Touch 2 (Funnel H) = skill template word for word (still has "free, no obligation"; Spencer flagged that wording 10-14, awaiting his call). Day-before push + email sent.
+| Contact | Company | Thread | Draft ID | Touch |
+|---|---|---|---|---|
+| Daren Levis | Experian | 1a0d520197f24028 | r2912647273502661498 | 3 final |
+| Jason Doty | Purdue | 1a0d520e15ef0a58 | r4113559588881848229 | 3 final |
+| Paul Klinke | Sarofsky | 1a0d522c161a804a | r-8756763315467890716 | 3 final |
+| Jason Fassler | Snowflake | 1a0d5220724457d0 | r1949114297505543514 | 3 final |
+| Ivelle Jargalyn | Tendril | 1a0d5238a5cc0e8e | r-261566627344859655 | 3 final |
+| Rob Nikzad | Airtable | 1a0d4cb38e96c2d5 | r9753967331339396 | 3 final |
+| Kirsten Golden | Airtable | 1a0d4cc06c04b85e | r4627237289356495442 | 3 final |
+| Jordan Howes | BUCK | 1a111c732a7900e1 | r-8431705073392126859 | 2 |
+| Jose Monrabal | ABB | 1a10d1f483bcd6bb | r-4592814442544982700 | 2 |
+| Martijn Savenije | Booking.com | 1a111c71b59365c3 | r-6014074448300925502 | 2 |
+| Steven Watson | Airwallex | 1a11154c227ffbcb | r-8369733089078156422 | 2 |
+| Liv Moloney | The Economist | 1a111c7208c15dca | r-722111154474300380 | 2 |
+Flagged, NOT drafted (cap): Funnel H touch 2 Peloton (Anne Marie Gaynor, 1a113fd637a7afc2), Pushkin (Constanza, 1a111c7394eeda48, pitch had no sample), Garmin (Maggie, 1a111c72d6af0b10), Plaid (Heather, 1a111c57e2ac08d1); window to Sun 10-18. Funnel C touch 3 x9 (threads in the 10-13 entry), window to Tue 10-20 / Kaplan Wed 10-21: draft at Thu 10-15 evening prep. Warner (micro1) + Linsk (Psyop) touch-2 drafts still unsent in Drafts (windows end 10-16 / 10-17).
