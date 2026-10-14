@@ -82,3 +82,17 @@ The fix for the second is cheap: this file is the task list, and the daily run s
 Pluralsight and Thinkific are not in this order because they are already written. They go out with the rest of the draft queue.
 
 **Total cost to unblock the enrichment three: about 6 Apollo lead credits.**
+
+---
+
+## Thinkific re-pitch: STAGED 2026-10-14 (not in Drafts)
+Spencer, 2026-10-14: "Eric Smith is the contact at Thinkific. We can bring them back on board and put that draft in my drafts box."
+- **Blocked, two reasons:** (1) `eric.smith@thinkific.com` got Thinkific's Kind.Bounce "no longer in use" reply on 09-29 (Gmail `1a0ee7a123054f23`, read 10-14). Apollo match + waterfall 10-14 (3 credits) still lists Eric as Video Producer at Thinkific (since 2025-11, 🟡 Apollo field) but returns only that same address (ZeroBounce: catch-all). (2) Pitch queue = 34 "A voice for" pitch drafts live 10-14, cap 20; `pitch_queue_cap.py` blocks the create.
+- **To release:** a working address for Eric (Spencer's source, or Una Mladenovic's answer) + queue below 20 (or Spencer's explicit override of the cap for this one). Then POST via FGAC `google_api_modify`, apply label "Funnel C2", read back.
+- **Re-voice:** "Meet Thinker: Your AI-powered teaching assistant" (zAI74eBSc-I, uploaded 2026-02-24), recorded take `Thinkific Project.mp4` (Drive `1mZ-uQ7UJbFy6W6CuGVYFoae-iXyd6C8y`, in Drive, not trashed, 10-14). Latest-video check 10-14 (yt-dlp, channel uploads): newest upload "What's New on Thinkific - August 2026" (192 s, 2026-09-21); the only short newer upload = "Deepen Customer Connections With a High-Impact Community" (30G8h7mdS_o, 41 s, 2026-05-25), **CHECK not yet judged** (no frames/transcript); the rest are 3-6 min customer stories. No upload since 09-21.
+- **Hook:** none (WebSearch 10-14 found no Thinkific news). No hook = no callback.
+- **QC:** `pitch_draft_qc.py` PASS offline 10-14.
+- To: eric.smith@thinkific.com (replace) · Subject: A voice for Thinkific's video work · HTML body:
+```
+<span style="background-color:#ffff00">[NOT READY: Bingo's LinkedIn check pending for Eric Smith, Video Producer, Thinkific. Bingo deletes this line once it passes]</span><br><br><span style="background-color:#ffff00">[VERIFY EMPLOYMENT: eric.smith@thinkific.com bounced "no longer in use" on Sep 29. Apollo 10-14 still lists him at Thinkific with this same address. Confirm a working address before sending]</span><br><br>Hello Eric, hope you're doing well!<br><br>My name is Spencer Pearman and I'm a professional Voiceover Artist and Audio Engineer based in Lisbon, Portugal. I'd love to voice the videos that come out of Thinkific.<br><br>To give you an idea of my voice, I re-voiced your <a href="https://drive.google.com/file/d/1mZ-uQ7UJbFy6W6CuGVYFoae-iXyd6C8y/view?usp=sharing">"Meet Thinker: Your AI-powered teaching assistant"</a> video. I'd appreciate it if you gave it a listen!<br><br>My standard turnaround is within 24 hours and within 2-3 hours for rush projects. My recent work includes Dell Technologies, Cisco, and Amazon AWS, plus the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball. You can see more of my work at spencerzvoice.com.<br><br>I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!<br><br>Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
+```
