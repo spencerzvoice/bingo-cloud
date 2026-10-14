@@ -60,7 +60,8 @@ def ban(pattern, label):
 CUSTOM_REACHING_OUT_DOMAINS = ("@pushkin.fm",)
 NO_SAMPLE_DOMAINS = ("@pushkin.fm",)
 to = str(msg.get("To", "")).lower()
-# House template v4 (Spencer's own Calm + Premier Padel drafts, 2026-10-13: "copy that format over ... save this as the newest pitch").
+# House template v5 = v4 (Spencer's own Calm + Premier Padel drafts, 2026-10-13) with the re-voice line moved up and reworded
+# (Spencer's Docebo send, 2026-10-14: "apply that to all first touches").
 need("My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal", "v4 intro")
 if not any(d in to for d in CUSTOM_REACHING_OUT_DOMAINS):
     need("based in Lisbon, Portugal, and I'd love to", "v4 intro + reaching-out sentence")
@@ -70,10 +71,14 @@ need("You can see more of my work at", "v4 website line")
 # NO-SAMPLE exceptions = Spencer's own call per client, never Bingo's (2026-10-07: Pushkin Industries is audio-only,
 # every trailer is read first-person by its host, 3 checks found nothing to re-voice -> "Go with 2", pitch without one).
 if not any(d in to for d in NO_SAMPLE_DOMAINS):
-    if "I re-voiced your" not in text and "VIDEO TITLE PENDING" not in text:
-        fails.append("missing re-voice line ('Also, so you can hear ..., I re-voiced your ...' or VIDEO TITLE PENDING)")
-    need("so you can hear how my voice meshes well with your content", "re-voice line")
+    # v5 (Spencer's Docebo send, 2026-10-14): the re-voice line comes RIGHT AFTER the intro sentence and BEFORE the
+    # turnaround/credits paragraph, and opens "To give you an idea of my voice, I re-voiced your ...".
+    need("To give you an idea of my voice, I re-voiced your", "v5 re-voice line (title or VIDEO TITLE PENDING)")
     need("I'd appreciate it if you gave it a listen!", "re-voice follow-on")
+    _l = text.lower()
+    _i, _r, _t = _l.find("my name is spencer pearman"), _l.find("i re-voiced your"), _l.find("my standard turnaround")
+    if min(_i, _r, _t) >= 0 and not (_i < _r < _t):
+        fails.append("v5 order: the re-voice line must sit between the intro sentence and 'My standard turnaround'")
 need("I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!", "v4 close")
 need("Best,", "sign-off")
 # Old v1/v2/v3 lines.
@@ -83,6 +88,7 @@ ban(r"feel free to reach out or schedule a call", "old close (v4: 'I'd love to g
 ban(r"just reply here and we can set up a call", "v3 close (v4: 'I'd love to get on a call ...')")
 ban(r"I turn work around within 24 hours and run my own sessions", "v3 turnaround line (v4: 'My standard turnaround is within 24 hours ...')")
 ban(r"my reels are at", "v3 website line (v4: 'You can see more of my work at spencerzvoice.com')")
+ban(r"so you can hear how my voice meshes well", "v4 re-voice line (v5: 'To give you an idea of my voice, I re-voiced your ...')")
 ban(r"I also re-voiced your", "v3 re-voice order (v4: 'Also, so you can hear ..., I re-voiced your ...')")
 ban(r"starting with the ones about", "v3 callback (v4: 'especially the ones that spread the word about ...')")
 ban(r"(to|with) the world", "v2 'to the world' callback")
@@ -112,7 +118,7 @@ if "[YOUR TAKE]" in content and "href" not in content.split("[YOUR TAKE]", 1)[1]
 
 if fails:
     sys.stderr.write(
-        "BLOCKED by pitch_draft_qc: pitch drafts must follow the house template v4 (Spencer, 2026-10-13; "
+        "BLOCKED by pitch_draft_qc: pitch drafts must follow the house template v5 (Spencer, 2026-10-14; "
         "full text in reference/client-acquisition/PITCH-TEMPLATE.md). Rebuild the draft to it and retry. Problems: " + "; ".join(fails) + "\n"
     )
     sys.exit(2)
