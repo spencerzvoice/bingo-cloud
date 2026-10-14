@@ -448,3 +448,12 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - 2026-10-14 ~18:45 Lisbon: SENT touch 2 Daniel Warner (micro1) + Andrew Linsk (Psyop); SENT final touch 3 to Funnel D US (Experian, Purdue, Sarofsky, Snowflake, Tendril) + Airtable (Rob, Kirsten). Spencer: 'anything before 3pm local is game'. Tracker updated.
 - 2026-10-14: Funnel H touch 2 x5 (BUCK, ABB, Booking.com, Airwallex, Economist) scheduled for 8:32 local Thu (BUCK = Wed 22:32 Lisbon).
 - 10-14 20:00: **Toby Riley (2U) REPLIED on LinkedIn** to the voice note (2nd voice-note reply, after Alistair): "thanks for reaching out! I've forwarded your message to our video director". Spencer replied 21:06. Tracker row 144: "Responded (LinkedIn) - Referred to video director"; the final email to Toby is cancelled. ❓ The director isn't named. LinkedIn people search at 2U (company 435054) for video / director video / producer / multimedia / motion found no one titled video director; the video staff are post producers and media specialists (Cape Town + DC), e.g. Shakeel Panday (Post Producer), Rocky McKoy (Technical Filming Producer), Nicole Brookstein and Sarah Greenwell (Sr Media Specialist). Our C2 research (09-24/25) picked Toby (Creative Director) as the most senior creative findable; backup Waide Grandison (CD, Multimedia-Marketing). Plan: let the director reach out; if nothing by Wed 10-21, ask Toby for the name on LinkedIn.
+
+## 2026-10-14 - Altra Running (Tyler Gorky) - Stripe payment link (warm, thread reply)
+- Contact: Tyler Gorky, Tyler_Gorky@vfc.com (To only)
+- Hook / angle: Tyler could not pay via the Wise link (needed a company account); asked for a plain card option or Coupa
+- Ask: pay $900 (NL-2026-007) via Stripe payment link https://buy.stripe.com/3cI14o2sB2gibjxaOK48000
+- New email or thread reply: thread reply, "Re: 15 Year Sizzle VO"
+- Status: SENT by Spencer Wed 10-14 22:46 Lisbon (Gmail Sent 1a13c6132c8fa769, verified live; his own wording, no Coupa mention) + WhatsApp (Spencer-reported). Stripe link 0 of 1 used at ~22:50 Lisbon.
+- Follow up on: Thu 10-15 check Stripe/Gmail; if unpaid by Tue 10-20 text Tyler; retainer pitch Thu 10-15 9:30am Denver if paid, else Tue 10-20, latest Thu 10-22 if payment is in process
+- Result:
