@@ -457,3 +457,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - Status: SENT by Spencer Wed 10-14 22:46 Lisbon (Gmail Sent 1a13c6132c8fa769, verified live; his own wording, no Coupa mention) + WhatsApp (Spencer-reported). Stripe link 0 of 1 used at ~22:50 Lisbon.
 - Follow up on: Thu 10-15 check Stripe/Gmail; if unpaid by Tue 10-20 text Tyler; retainer pitch Thu 10-15 9:30am Denver if paid, else Tue 10-20, latest Thu 10-22 if payment is in process
 - Result:
+- 2026-10-14 Funnel I: Marta Lisboa/360Learning, Sue Funke/Absorb, Sara Heegaard/Articulate, Caitlin Scholz/Confluent, Thao Ngo/Litmos sent (+ Docebo/Manny Gonzalez, already logged); Jessica Liu/Cloudflare, Matthew Hyland/Cornerstone, Olivia Mitchell/Go1, Kevin Kartono/Vyond scheduled. Tracker rows 219-227.
