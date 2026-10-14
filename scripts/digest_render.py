@@ -1,8 +1,8 @@
 """Render the VO Pipeline Digest as an HTML email (Spencer, 2026-10-14).
 
 Same skeleton as Paige's Portio Daily Brief (big title, stat row, one labelled
-card per section, footer link), in a plain business style (Spencer, 10-14:
-"more business and less personal"): system sans, navy + grey, muted status colours.
+card per section, footer link), in a business-report style (Spencer, 10-14: "more business and less personal",
+then "too round"): navy band, Georgia headings + Arial body, square corners, tinted status tags.
 
 Usage:
     python scripts/digest_render.py local/digest-data-<date>.json
@@ -46,40 +46,40 @@ from pathlib import Path
 # Styles live in one <style> block (Gmail honours it for Workspace inboxes) instead of
 # inline on every tag, so the raw message stays small enough for the FGAC send call.
 CSS = """
-body,table,td,div,span,a{font-family:'Segoe UI',Inter,Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif}
-body{margin:0;padding:0;background:#EEF1F5}
+body,table,td,div,span,a{font-family:Arial,'Helvetica Neue',Helvetica,sans-serif}
+body{margin:0;padding:0;background:#E9ECF0}
 table{border-collapse:collapse;border-spacing:0}td{padding:0}
-.w{max-width:600px}
-.hd{background:#fff;padding:24px 24px 20px;border-top:4px solid #14284B;border-radius:4px 4px 0 0}
-.br{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#5B6577}
-.tt{font-size:28px;font-weight:700;line-height:1.15;color:#14284B;margin-top:10px}
-.dt{font-size:13px;color:#5B6577;margin-top:6px}
-.st{padding:14px 4px;text-align:center;background:#F5F7FA;border:1px solid #E4E7EC;border-radius:8px}
-.sn{font-size:26px;font-weight:700;line-height:1;color:#14284B}
-.sh{color:#B54708}
-.sl{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#5B6577;margin-top:7px}
-.cv{font-size:11.5px;line-height:1.5;color:#5B6577;margin-top:12px}
-.cl{background:#EFF4FF;border-left:3px solid #1849A9;border-radius:4px;padding:12px 16px}
-.ck{font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#1849A9}
-.cb{font-size:14.5px;font-weight:500;line-height:1.5;color:#1D2939;margin-top:6px}
-.lb{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#5B6577;white-space:nowrap;padding-right:12px}
-.ln{border-bottom:1px solid #E4E7EC}
-.cd{background:#fff;border-radius:10px;border:1px solid #E4E7EC;border-top:3px solid #14284B;padding:4px 18px}
-.a-g{border-top-color:#067647}.a-m{border-top-color:#98A2B3}.a-s{border-top-color:#5B6577}
-.rw{border-bottom:1px solid #E4E7EC}
-.it{font-size:15px;font-weight:600;line-height:1.35;color:#1D2939}
-.co{color:#5B6577;font-weight:400}
-.ib{font-size:13px;line-height:1.55;color:#5B6577;margin-top:4px}
-.ac{color:#14284B;font-weight:600}
-.bg{display:inline-block;font-size:10.5px;font-weight:600;line-height:1;letter-spacing:.04em;padding:4px 8px;border-radius:999px;white-space:nowrap;color:#fff;border:1.5px solid}
-.b-red{background:#B42318;border-color:#B42318}.b-org{background:#B54708;border-color:#B54708}
-.b-nav{background:#14284B;border-color:#14284B}.b-grn{background:#067647;border-color:#067647}
-.b-sl{background:#5B6577;border-color:#5B6577}.b-ms{background:#98A2B3;border-color:#98A2B3}
-.b-out{background:transparent;color:#5B6577;border-color:#98A2B3}
-.ok{font-size:14px;font-weight:600;color:#067647;padding:12px 0}
-.bt{display:inline-block;background:#14284B;color:#fff;font-size:13px;font-weight:600;text-decoration:none;padding:12px 20px;border-radius:6px}
-.ft{font-size:11.5px;color:#5B6577;margin-top:16px}
-.red{color:#B42318;font-weight:600}
+.w{max-width:600px;background:#fff;border:1px solid #D0D5DD}
+.hd{background:#0B1F3A;padding:22px 24px 20px}
+.br{font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#9FB0C8}
+.tt{font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:400;line-height:1.2;color:#fff;margin-top:8px}
+.dt{font-size:12px;color:#9FB0C8;margin-top:6px}
+.sb{padding:18px 24px 6px}
+.st{padding:12px 4px;text-align:center;border:1px solid #D0D5DD;border-top:3px solid #0B1F3A}
+.sn{font-size:24px;font-weight:700;line-height:1;color:#0B1F3A}
+.sh{color:#9A3412}
+.sl{font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#475467;margin-top:7px}
+.cv{font-size:11px;line-height:1.5;color:#667085;padding:8px 24px 0}
+.cl{background:#F2F4F7;border-left:3px solid #0B1F3A;padding:12px 16px}
+.ck{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#0B1F3A}
+.cb{font-size:14px;line-height:1.5;color:#101828;margin-top:5px}
+.lb{font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#0B1F3A;white-space:nowrap;padding-right:12px}
+.ln{border-bottom:1px solid #0B1F3A}
+.cd{padding:0 2px}
+.rw{border-bottom:1px solid #EAECF0}
+.it{font-size:14px;font-weight:700;line-height:1.35;color:#101828}
+.co{color:#475467;font-weight:400}
+.ib{font-size:13px;line-height:1.5;color:#475467;margin-top:3px}
+.ac{color:#101828;font-weight:400}
+.bg{display:inline-block;font-size:9.5px;font-weight:700;line-height:1;letter-spacing:.08em;text-transform:uppercase;padding:4px 6px;border-radius:2px;white-space:nowrap;border:1px solid}
+.b-red{background:#FEF3F2;color:#912018;border-color:#FDA29B}.b-org{background:#FFFAEB;color:#93370D;border-color:#FEC84B}
+.b-nav{background:#EEF2F6;color:#0B1F3A;border-color:#98A2B3}.b-grn{background:#ECFDF3;color:#05603A;border-color:#75E0A7}
+.b-sl{background:#F2F4F7;color:#344054;border-color:#D0D5DD}.b-ms{background:#F9FAFB;color:#667085;border-color:#EAECF0}
+.b-out{background:#fff;color:#667085;border-color:#D0D5DD}
+.ok{font-size:13px;font-weight:700;color:#05603A;padding:12px 0}
+.bt{display:inline-block;background:#0B1F3A;color:#fff;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:12px 20px;border-radius:2px}
+.ft{font-size:11px;color:#667085;margin-top:14px}
+.red{color:#912018;font-weight:700}
 """
 T = '<table width="100%"'
 NL = "\n"
@@ -98,9 +98,9 @@ def badge(text, cls):
 
 
 def section(label, inner, accent=""):
-    return (f'<tr><td style="padding:26px 24px 8px">{T}><tr><td class="lb">{e(label)}</td>'
+    return (f'<tr><td style="padding:24px 24px 4px">{T}><tr><td class="lb">{e(label)}</td>'
             f'<td width="100%" class="ln"></td></tr></table></td></tr>'
-            f'<tr><td style="padding:6px 24px 0"><div class="cd {accent}">{inner}</div></td></tr>')
+            f'<tr><td style="padding:0 24px"><div class="cd {accent}">{inner}</div></td></tr>')
 
 
 def item(title, sub="", right="", body="", last=False):
@@ -145,7 +145,7 @@ def build_html(d):
     nice = f"{date.strftime('%A, %B')} {date.day}, {date.year}"
     c = d.get("counts", {})
     cov = d.get("coverage", {})
-    gap = '<td width="8" style="font-size:0">&nbsp;</td>'
+    gap = '<td width="6" style="font-size:0">&nbsp;</td>'
     stats = (f'{T} style="border-collapse:separate"><tr>'
              + stat("Due today", c.get("due_today", 0), hot=c.get("due_today", 0) > 0) + gap
              + stat("Replies", c.get("replies", 0), hot=c.get("replies", 0) > 0) + gap
@@ -158,11 +158,11 @@ def build_html(d):
         cov_line += f' &middot; Pitch queue {e(d["pitch_queue"])}/20'
 
     header = (f'<tr><td class="hd"><div class="br">Spencer Z Voiceovers</div>'
-              f'<div class="tt">VO Pipeline Digest</div><div class="dt">{e(nice)}</div>'
-              f'<div style="height:18px"></div>{stats}<div class="cv">{cov_line}</div></td></tr>')
+              f'<div class="tt">VO Pipeline Digest</div><div class="dt">{e(nice)}</div></td></tr>'
+              f'<tr><td class="sb">{stats}</td></tr><tr><td><div class="cv">{cov_line}</div></td></tr>')
     call = ""
     if d.get("bingo_call"):
-        call = (f'<tr><td style="background:#fff;padding:0 24px 20px"><div class="cl">'
+        call = (f'<tr><td style="padding:16px 24px 0"><div class="cl">'
                 f'<div class="ck">Priority today</div><div class="cb">{e(d["bingo_call"])}</div></div></td></tr>')
 
     body = []
@@ -191,12 +191,12 @@ def build_html(d):
     if d.get("coming_up"):
         body.append(section("Coming up", items([("", "", "", e(x)) for x in d["coming_up"]]), "a-m"))
 
-    footer = (f'<tr><td style="padding:28px 24px 26px"><a class="bt" href="{e(d.get("tracker_url", ""))}">'
-              f'Open the tracker &rarr;</a><div class="ft">Prepared by Bingo &middot; spencerzvoice.com</div></td></tr>')
+    footer = (f'<tr><td style="padding:26px 24px 24px;border-top:1px solid #EAECF0"><a class="bt" href="{e(d.get("tracker_url", ""))}">'
+              f'Open tracker</a><div class="ft">Prepared by Bingo &middot; spencerzvoice.com</div></td></tr>')
     return ('<!doctype html><html><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<style>{CSS}</style></head><body>'
-            f'{T} style="background:#EEF1F5"><tr><td align="center" style="padding:18px 8px">'
+            f'{T} style="background:#E9ECF0"><tr><td align="center" style="padding:16px 8px">'
             f'{T} class="w">' + header + call + "".join(body) + footer +
             '</table></td></tr></table></body></html>')
 
