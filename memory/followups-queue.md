@@ -333,3 +333,23 @@ Clock 17:43 UTC (10:43 PT / 13:43 ET). Live Gmail: no replies on any of these th
 - Touch 3 (final) SENT, one day early (ledger said Thu 10-15; Spencer's call): Daren Levis (Experian), Jason Doty (Purdue), Paul Klinke (Sarofsky, Chicago), Jason Fassler (Snowflake), Ivelle Jargalyn (Tendril, .ca), Rob Nikzad + Kirsten Golden (Airtable). All North American (ledger "Funnel D US"). Tracker rows 126-129, 131, 135-136 -> Final Sent 10/14. Next: quarterly LT1 (new email, new proof) ~Tue 2027-01-12 (final + 90d lands in the Dec blackout -> Jan 5-15).
 - Still in Drafts, NOT sent (past 3pm local): Funnel H touch 2 x5 (Liv Moloney/Economist ❓ location, Steven Watson/London, Martijn Savenije/Amsterdam, Jose Monrabal/Zurich, Jordan Howes/Sydney). Funnel D UK touch 3 (Goalhanger, iAM) not drafted yet; Skillsoft/Alice touch 3 window Mon 10-19.
 - 2026-10-14 ~19:15 Lisbon: Funnel H touch 2 x5 SCHEDULED in Gmail (native Schedule send, Chrome) at 8:32 local (Spencer): Jordan Howes/BUCK Wed 22:32 Lisbon (Sydney) · Jose Monrabal/ABB + Martijn Savenije/Booking.com Thu 07:32 Lisbon (Zurich/Amsterdam) · Steven Watson/Airwallex + Liv Moloney/Economist Thu 08:32 Lisbon (Liv = United Kingdom, live LinkedIn 10-14). Scheduled bodies read back via API (Spencer's 10-14 wording). Tracker -> Scheduled. Next: touch 3 (final) ~10-29 to 11-05 once sends are confirmed.
+
+## 2026-10-15 ~09:20-09:45 UTC (cloud session) - the 13 due follow-ups: drafted, 2 SENT, 11 booked for 8:32 local. Evening prep: do NOT re-draft these.
+Cause of the miss: the ~12-draft cap deferred Funnel C (10-13, 10-14) and Peloton/Pushkin/Garmin/Plaid to the 10-15 evening, after the due date; the 10-15 Digest's attempt to draft them was blocked by the permission classifier.
+Live Gmail 10-15 (FGAC): all 13 threads = our messages only, no replies, no bounces (30d mailer-daemon search), no inbound from the domains, no prior drafts. Pushkin pitch had no re-voice: touch 2 opens "Following up on my note last week."
+| Contact | Company | Thread | Draft ID | Touch | Status |
+|---|---|---|---|---|---|
+| Rory Green | Kaplan UK (Guildford) | 1a0cfcfd00bcff29 | r3168709279496390731 | 3 final | SENT ~09:25 UTC (msg 1a13ef27923ffd91) |
+| Joanne Pratt | LearningMate (Cape Town) | 1a0cfcff5c6fa14e | r7424136434272713211 | 3 final | SENT ~09:25 UTC (msg 1a13ef2997aa7c4f) |
+| Anne Gaynor | Peloton (NY) | 1a113fd637a7afc2 | r-3011318697630083471 | 2 | booked 12:32 UTC |
+| Constanza Gallardo | Pushkin (Miami) | 1a111c7394eeda48 | r-2652848267079411664 | 2 | booked 12:32 UTC |
+| Kyle Ranson-Walsh | LinkedIn Learning (NY) | 1a0cfcf350a117a9 | r-2614170768602302018 | 3 final | booked 12:32 UTC |
+| Brandon Rafalson | Coursera (Durham) | 1a0cfcf56907511b | r7822874034159732313 | 3 final | booked 12:32 UTC |
+| Hasaanah Abdul-Wahid | Skillshare (Belleville, ET 🟡) | 1a0cfde549415cf6 | r2416478451411541695 | 3 final | booked 12:32 UTC |
+| Allison Andrews | Discovery Ed (Mooresville NC) | 1a0cfcfa9db157fd | r-1907271263760514930 | 3 final | booked 12:32 UTC |
+| Maggie Wasserman | Garmin (Kansas City) | 1a111c72d6af0b10 | r-5573828293710116215 | 2 | booked 13:32 UTC |
+| Mike West | Instructure (Provo) | 1a0cfcf7dbd16c98 | r5150884444687543545 | 3 final | booked 14:32 UTC |
+| Heather Mounsey | Plaid (LA) | 1a111c57e2ac08d1 | r-7428220186163390341 | 2 | booked 15:32 UTC |
+| Luke Sienko | MasterClass (LA) | 1a0cfde2ca0728a1 | r-783006221349736321 | 3 final | booked 15:32 UTC |
+| Jennifer Johnston | Udemy (location ❓, sent on PT) | 1a0cfefa529d0337 | r3451340079709881069 | 3 final | booked 15:32 UTC |
+Roll-forward once sent: Funnel C finals -> LT1 ~Tue 2027-01-12. Funnel H touch 2 (Peloton, Pushkin, Garmin, Plaid) -> touch 3 reminder Thu 2026-10-29, overdue Thu 2026-11-05.
