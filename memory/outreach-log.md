@@ -463,3 +463,6 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 
 ## 2026-10-14: Allie Silber (DDO) nudge DRAFTED
 - Thread reply in "Hey Allie!" (cc Alicia), Gmail draft r-1882584763596408817. Points to the new spencerzvoice.com + revised Commercial Reel; Spencer will not record new reads. Not sent. Due Tue 10-20 (window to 10-27).
+
+## 2026-10-15: follow-ups sent
+- Funnel C touch 3 (final) x9 SENT (Kaplan + LearningMate 09:25 UTC by cloud; the 7 US ones 11:13 UTC by desktop, before 8:32 local, Bingo's error). Funnel H touch 2 SENT: Peloton, Pushkin, Garmin, Plaid 11:13 UTC (early, same error); ABB, Booking.com, Airwallex, Economist 8:32 local as scheduled; BUCK 10-14 22:32 Lisbon. Funnel B finals Canva x2 + monday went out as scheduled. All checked in Gmail Sent; tracker updated. Detail: followups-queue.md.
