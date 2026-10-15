@@ -28,6 +28,9 @@ Input JSON (every list optional; empty lists hide their section):
   "reach_out": [{"who": "Funnel I", "count": "10 drafts", "when": "Send now", "why": "..."}],
   "coverage": {"checked": 202, "active": 202, "as_of": "06:30 UTC", "unchecked": []},
   "bingo_call": "One plain sentence: the first thing to do today.",
+  "visitors": [{"company": "Calm", "who": "Daniel Szeto", "visits": 3, "unique": 1,
+                "pages": ["/", "/#reels"], "last_visit": "2026-10-14",
+                "next": "Touch 2 Mon 10/20 - priority", "thread": "<gmail threadId>"}],  # Step 3f; top of the digest
   "due": [{"who": "Andrew Linsk", "company": "Psyop", "action": "Touch 2",
            "detail": "Thread reply. OOO since 10/7.", "days": 7,
            "draft": true, "level": "due", "thread": "<gmail threadId>"}],  # level: overdue|due|final|fix; thread -> name links to the draft
@@ -165,6 +168,30 @@ def due_rows(lst, show_draft):
     return items(out, raw_title=True)
 
 
+def visitors_block(vs):
+    """Pitched companies that visited spencerzvoice.com (Apollo, Step 3f). Shown above everything else."""
+    if not vs:
+        return ""
+    rows = []
+    for v in vs:
+        link = GMAIL + v["thread"] if v.get("thread") else ""
+        who = e(v.get("company", ""))
+        title = f'<a class="lk" href="{e(link)}">{who}</a>' if link else who
+        n = v.get("visits", 0)
+        bits = [f'{e(n)} visit{"" if n == 1 else "s"}']
+        if v.get("unique"):
+            bits.append(f'{e(v["unique"])} visitor{"" if v["unique"] == 1 else "s"}')
+        if v.get("last_visit"):
+            bits.append(f'last {e(v["last_visit"])}')
+        line = f'<b class="ac">{" &middot; ".join(bits)}</b>'
+        if v.get("pages"):
+            line += "<br>Pages: " + e(", ".join(v["pages"]))
+        if v.get("next"):
+            line += f'<br><b class="ac">Next:</b> {e(v["next"])}'
+        rows.append((title, v.get("who", ""), badge("Priority", "b-red"), line))
+    return section("Visited your site", items(rows, raw_title=True))
+
+
 def pipeline_block(pp):
     if not pp:
         return ""
@@ -254,7 +281,7 @@ def build_html(d):
         call = (f'<tr><td style="padding:16px 24px 0"><div class="cl">'
                 f'<div class="ck">Priority today</div><div class="cb">{e(d["bingo_call"])}</div></div></td></tr>')
 
-    body = []
+    body = [visitors_block(d.get("visitors"))]
     if d.get("due"):
         body.append(section("Follow-ups due today", due_rows(d["due"], True)))
     else:
@@ -299,6 +326,11 @@ def build_text(d):
          f'Gmail checked: {cov.get("checked")}/{cov.get("active")} active rows, as of {cov.get("as_of")}.']
     if d.get("bingo_call"):
         L += ["", "PRIORITY TODAY: " + d["bingo_call"]]
+    if d.get("visitors"):
+        L += ["", "VISITED YOUR SITE"] + [
+            f'- {v.get("company")} ({v.get("who", "")}): {v.get("visits", 0)} visits'
+            + (f', pages {", ".join(v["pages"])}' if v.get("pages") else "")
+            + (f'. Next: {v["next"]}' if v.get("next") else "") for v in d["visitors"]]
 
     def due_txt(lst):
         return [f'- {x.get("who")}, {x.get("company")} - {x.get("action")}'
