@@ -466,3 +466,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 
 ## 2026-10-15: follow-ups sent
 - Funnel C touch 3 (final) x9 SENT (Kaplan + LearningMate 09:25 UTC by cloud; the 7 US ones 11:13 UTC by desktop, before 8:32 local, Bingo's error). Funnel H touch 2 SENT: Peloton, Pushkin, Garmin, Plaid 11:13 UTC (early, same error); ABB, Booking.com, Airwallex, Economist 8:32 local as scheduled; BUCK 10-14 22:32 Lisbon. Funnel B finals Canva x2 + monday went out as scheduled. All checked in Gmail Sent; tracker updated. Detail: followups-queue.md.
+- 2026-10-15 Marta Lisboa/360Learning accepted LinkedIn connection (pitch sent 10/14 18:52 Lisbon). Voice note suggested. Tracker row 219 L/M updated.
