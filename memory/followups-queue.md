@@ -363,3 +363,7 @@ Tracker rows 107-108, 114, 117-125, 175-183 updated + read back (Status, Last Co
 
 ## 2026-10-15 ~20:20 UTC (cloud) - Siemens Energy touch 2 booked
 Cause it was missed: Funnel G2 pitches (sent 10-06) were never added to this ledger. Draft r5914873959124141441 (thread 1a10e2bc1829759c) made 10-15 16:29 UTC by another session, not scheduled. No-contact check clean. Natascha = Linz -> Europe/Vienna (CONTACT-TZ.json). Booked: send_later trig_01PAdbDYeBAzVVj2uubLyUmA, Fri 10-16 06:32 UTC (08:32 Linz); re-checks the draft still exists first. Next: touch 3 ~Fri 10-30, overdue ~11-06.
+
+## 2026-10-15 ~20:35 UTC (cloud) - Funnel G2 touch 2 status (Spencer: "check the other G2s and book them")
+Live Gmail: touch 2 already SENT 10-15 16:21-16:27 UTC by another session, same threads, no replies/bounces: Bleu Hayes/TVA (1a111330a0779b60), Jonathan Ray/Smithsonian (1a111321e0d406ac), Amanda Baumgart/Nat Geo (1a10e654b89ae7dd), Mito Habe-Evans/NPR (1a10e2f2ab743931), Roland Luitgaarden/F5 (1a10e1f26325248c). Tracker rows 171, 172, 194-196 -> Follow-Up Sent, Last Contact 10/15 (J/K untouched). Sergio Manzo/Siemens scheduled in Gmail 10-16 06:32 UTC; Natascha/Siemens Energy booked 10-16 06:32 UTC (entry above).
+Roll-forward: G2 touch 3 (final) reminder Thu 10-29 (day 14), overdue Thu 11-05. Siemens + Siemens Energy (sent 10-16) -> Fri 10-30 / Fri 11-06.
