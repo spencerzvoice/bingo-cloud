@@ -469,3 +469,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - 2026-10-15 Marta Lisboa/360Learning accepted LinkedIn connection (pitch sent 10/14 18:52 Lisbon). Voice note suggested. Tracker row 219 L/M updated.
 - 2026-10-15 Marta Lisboa/360Learning: Spencer sent LinkedIn voice note. Touch 2 by email 10/21-10/24.
 - 2026-10-15 Miguel Barbieri/Audible accepted LinkedIn connect (NYC). Pitch sent 10/02, NO touch 2 ever sent (thread = 1 msg, not in followups-queue). Voice note suggested; email touch 2 Tue 10/20 8:32 NY. Tracker row 160 (name fixed from 'Miguel (migbarbi)'). Gap: Funnel G 10/02-10/07 pitches show no touch 2 on tracker; flagged to Spencer.
+- 2026-10-15 Miguel Barbieri/Audible: Spencer sent LinkedIn voice note. Email touch 2 Tue 10/20 8:32 NY.
