@@ -34,6 +34,12 @@ before the copy.
 **4. Hook.** A settings.json hook re-injects RULE 0 whenever I write to the
 workspace. Backstop, not the main line of defence — it can't see plain-text answers.
 
+**6. Send-window hook (Spencer, 2026-10-15: "Nothing goes out before 8:32AM or after 3PM" / "Its scheduled, otherwise").**
+`.claude/hooks/send_window_guard.py` blocks any Gmail send unless every recipient is 08:32-15:00 local right now
+(zones: `reference/client-acquisition/CONTACT-TZ.json`; unknown contact = blocked; Spencer's own address exempt).
+`.claude/hooks/no_script_sends.py` blocks sending from Bash/PowerShell scripts, which would skip the guard. Outside the
+window, schedule for the next 8:32 local. Cause: 10-15, 11 US follow-ups sent by a script at 04:13-07:13 local.
+
 **5. Pitch-draft QC hook (Spencer, 2026-10-05: "is this something you can revise so you never skip it again").**
 `.claude/hooks/pitch_draft_qc.py` runs before EVERY FGAC write to `gmail/v1/users/me/drafts`. It decodes the
 message and blocks it if a new-client pitch breaks the 6-part format: the standard intro with credits, the
