@@ -360,3 +360,6 @@ Also verified in Gmail Sent: Funnel B finals Jack/Lydia (Canva) 10-14 23:12 Lisb
 Cloud send triggers trig_01NLVBJiNgPisP4MgPLYwJDN, trig_01SDqrGK1nRQj65iEmyhL8jU, trig_01QefWkK4yCvXY2VBdseS41o DISABLED. trig_01M1Eun52M73XGbrfwbdaz8e (15:32 UTC Pacific batch) still enabled (disable blocked by the permission classifier); its drafts are gone, so it has nothing to send.
 Tracker rows 107-108, 114, 117-125, 175-183 updated + read back (Status, Last Contact, Next Action, Notes; J/K untouched).
 **Roll-forward:** Funnel C finals + Canva/monday finals -> cadence done, LT1 ~2027-01-12/13. Funnel H touch 2 (Peloton, Pushkin, Garmin, Plaid, ABB, Booking.com, Airwallex, Economist) -> touch 3 reminder Thu 2026-10-29, overdue Thu 2026-11-05; BUCK -> Wed 10-28 / 11-04.
+
+## 2026-10-15 ~20:20 UTC (cloud) - Siemens Energy touch 2 booked
+Cause it was missed: Funnel G2 pitches (sent 10-06) were never added to this ledger. Draft r5914873959124141441 (thread 1a10e2bc1829759c) made 10-15 16:29 UTC by another session, not scheduled. No-contact check clean. Natascha = Linz -> Europe/Vienna (CONTACT-TZ.json). Booked: send_later trig_01PAdbDYeBAzVVj2uubLyUmA, Fri 10-16 06:32 UTC (08:32 Linz); re-checks the draft still exists first. Next: touch 3 ~Fri 10-30, overdue ~11-06.
