@@ -1,0 +1,1081 @@
+{
+ "_about": "Apollo organization ids for pitched companies, read by the digest's Site visitors step (DIGEST-ROUTINE-PROMPT.md Step 3f). Key = the contact's email domain in the tracker. Ids come from apollo_organizations_lookup, which is FREE (0 credits). Never fill this with apollo_organizations_enrich (1 credit each). org_id null = Apollo has no org; skip it, retry at most monthly.",
+ "updated": "2026-10-15",
+ "orgs": {
+  "11cmedia.com": {
+   "company": "11C Media",
+   "org_id": "69ba1b120e5b460001d63246",
+   "apollo_name": "11c Media",
+   "apollo_domain": "11c.media",
+   "match": "alias domain"
+  },
+  "247laundryservice.com": {
+   "company": "The Team",
+   "org_id": "54a1341e69702d2db4db6000",
+   "apollo_name": "Laundry Service",
+   "apollo_domain": "247laundryservice.com",
+   "match": "exact"
+  },
+  "2u.com": {
+   "company": "2U",
+   "org_id": "54a11d6c69702d9a8b641401",
+   "apollo_name": "2U",
+   "apollo_domain": "2u.com",
+   "match": "exact"
+  },
+  "360learning.com": {
+   "company": "360Learning",
+   "org_id": "5f4a2f96864d550001759082",
+   "apollo_name": "360Learning",
+   "apollo_domain": "360learning.com",
+   "match": "exact"
+  },
+  "abb.com": {
+   "company": "ABB",
+   "org_id": "5d09cb71f65125bddb79a574",
+   "apollo_name": "ABB",
+   "apollo_domain": "abb.com",
+   "match": "exact"
+  },
+  "absorblms.com": {
+   "company": "Absorb Software",
+   "org_id": "5a9d17a3a6da98d938b90ef3",
+   "apollo_name": "Absorb Software",
+   "apollo_domain": "absorbai.com",
+   "match": "alias domain"
+  },
+  "acclaimlighting.com": {
+   "company": "Acclaim Lighting",
+   "org_id": "5569ed7373696425b256b700",
+   "apollo_name": "Acclaim Lighting",
+   "apollo_domain": "acclaimlighting.com",
+   "match": "exact"
+  },
+  "airbnb.com": {
+   "company": "Airbnb",
+   "org_id": "5e57b9571e1aa10001c23089",
+   "apollo_name": "Airbnb",
+   "apollo_domain": "airbnb.com",
+   "match": "exact"
+  },
+  "airtable.com": {
+   "company": "Airtable",
+   "org_id": "5f49cf06856dd4000198d394",
+   "apollo_name": "Airtable",
+   "apollo_domain": "airtable.com",
+   "match": "exact"
+  },
+  "airwallex.com": {
+   "company": "Airwallex",
+   "org_id": "56da2bf6f3e5bb70550025be",
+   "apollo_name": "Airwallex",
+   "apollo_domain": "airwallex.com",
+   "match": "exact"
+  },
+  "anomaly.com": {
+   "company": "Anomaly",
+   "org_id": "54a1cfc6746869586045f712",
+   "apollo_name": "Anomaly",
+   "apollo_domain": "anomaly.com",
+   "match": "exact"
+  },
+  "apple.com": {
+   "company": "Apple",
+   "org_id": "5fcd2cf3ed78c700f9383e4e",
+   "apollo_name": "Apple",
+   "apollo_domain": "apple.com",
+   "match": "exact"
+  },
+  "articulate.com": {
+   "company": "Articulate",
+   "org_id": "5fcabc19a1424200010df488",
+   "apollo_name": "Articulate",
+   "apollo_domain": "articulate.com",
+   "match": "exact"
+  },
+  "asana.com": {
+   "company": "Asana",
+   "org_id": "54a121bb69702d8ed411cb02",
+   "apollo_name": "Asana",
+   "apollo_domain": "asana.com",
+   "match": "exact"
+  },
+  "atlassian.com": {
+   "company": "Atlassian",
+   "org_id": "5e57fdec4ab14d00019d74ca",
+   "apollo_name": "Atlassian",
+   "apollo_domain": "atlassian.com",
+   "match": "exact"
+  },
+  "attn.com": {
+   "company": "ATTN",
+   "org_id": "556e3567736964115feb5401",
+   "apollo_name": "ATTN:",
+   "apollo_domain": "attn.com",
+   "match": "exact"
+  },
+  "audible.com": {
+   "company": "Audible",
+   "org_id": "5d0a916980f93e49fcb0d0bd",
+   "apollo_name": "Audible",
+   "apollo_domain": "audible.com",
+   "match": "exact"
+  },
+  "awaytravel.com": {
+   "company": "Away",
+   "org_id": "55ed7987f3e5bb4897001a5c",
+   "apollo_name": "Away",
+   "apollo_domain": "awaytravel.com",
+   "match": "exact"
+  },
+  "booking.com": {
+   "company": "Booking.com",
+   "org_id": "5591fba6736964199b7f0f00",
+   "apollo_name": "Booking.com",
+   "apollo_domain": "booking.com",
+   "match": "exact"
+  },
+  "box.com": {
+   "company": "Box",
+   "org_id": "54a1225269702da425362703",
+   "apollo_name": "Box",
+   "apollo_domain": "box.com",
+   "match": "exact"
+  },
+  "braze.com": {
+   "company": "Braze",
+   "org_id": "5c006800a88d530a4c11c8f6",
+   "apollo_name": "Braze",
+   "apollo_domain": "braze.com",
+   "match": "exact"
+  },
+  "brooksrunning.com": {
+   "company": "Brooks Running",
+   "org_id": "54a11bc369702d9d7eae6100",
+   "apollo_name": "Brooks Running",
+   "apollo_domain": "brooksrunning.com",
+   "match": "exact"
+  },
+  "buck.co": {
+   "company": "BUCK",
+   "org_id": "55923b3973696470d3cd1900",
+   "apollo_name": "BUCK",
+   "apollo_domain": "buck.co",
+   "match": "exact"
+  },
+  "calm.com": {
+   "company": "Calm",
+   "org_id": "54a11ca969702d97c19cc700",
+   "apollo_name": "Calm",
+   "apollo_domain": "calm.com",
+   "match": "exact"
+  },
+  "canva.com": {
+   "company": "Canva",
+   "org_id": "5fcb5f16e342470001f5b2cd",
+   "apollo_name": "Canva",
+   "apollo_domain": "canva.com",
+   "match": "exact"
+  },
+  "cgiinteractive.com": {
+   "company": "CGI Interactive",
+   "org_id": "54a11c3469702d7fe6ab9a00",
+   "apollo_name": "CGI Interactive",
+   "apollo_domain": "cgiinteractive.com",
+   "match": "exact"
+  },
+  "cheil.com": {
+   "company": "Cheil USA",
+   "org_id": "57c50602a6da986a77ce4857",
+   "apollo_name": "Cheil Worldwide",
+   "apollo_domain": "cheil.com",
+   "match": "exact"
+  },
+  "clickup.com": {
+   "company": "ClickUp",
+   "org_id": "628359dab6123a00f5442026",
+   "apollo_name": "ClickUp",
+   "apollo_domain": "clickup.com",
+   "match": "exact"
+  },
+  "climbhighproductions.com": {
+   "company": "Climb High Productions",
+   "org_id": "65466e0632c78800010f22df",
+   "apollo_name": "Climb High Productions LLC",
+   "apollo_domain": "evankay.com",
+   "match": "alias domain"
+  },
+  "cloudflare.com": {
+   "company": "Cloudflare",
+   "org_id": "54a12a1d69702d90a23d1802",
+   "apollo_name": "Cloudflare",
+   "apollo_domain": "cloudflare.com",
+   "match": "exact"
+  },
+  "coinbase.com": {
+   "company": "Coinbase",
+   "org_id": "6258437809bcbc00c04a37a5",
+   "apollo_name": "Coinbase",
+   "apollo_domain": "coinbase.com",
+   "match": "exact"
+  },
+  "columbia.com": {
+   "company": "Columbia Sportswear",
+   "org_id": "54a12aca69702d979ca24b02",
+   "apollo_name": "Columbia Sportswear Company",
+   "apollo_domain": "columbiasportswearcompany.com",
+   "match": "alias domain"
+  },
+  "condadotacos.com": {
+   "company": "Condado Tacos (Pentak Creative)",
+   "org_id": "5c1fe234f65125b8c51159fa",
+   "apollo_name": "Condado Tacos",
+   "apollo_domain": "condadotacos.com",
+   "match": "exact"
+  },
+  "confluent.io": {
+   "company": "Confluent",
+   "org_id": "55922c32736964583e7a4500",
+   "apollo_name": "Confluent, an IBM Company",
+   "apollo_domain": "confluent.io",
+   "match": "exact"
+  },
+  "coronationmedia.com": {
+   "company": "Coronation Media",
+   "org_id": "55696c2d73696425c4402500",
+   "apollo_name": "Coronation Media",
+   "apollo_domain": "coronationmedia.com",
+   "match": "exact"
+  },
+  "coursera.org": {
+   "company": "Coursera",
+   "org_id": "5fc93a24cc46f90001ef10a2",
+   "apollo_name": "Coursera",
+   "apollo_domain": "coursera.org",
+   "match": "exact"
+  },
+  "cpkcr.com": {
+   "company": "Calgary Flames (CPKC)",
+   "org_id": "6439fc86f7016d0108c395ce",
+   "apollo_name": "CPKC",
+   "apollo_domain": "cpkcr.com",
+   "match": "exact"
+  },
+  "crowdreply.io": {
+   "company": "Crowdreply",
+   "org_id": "68ff241afd34cf001defc68d",
+   "apollo_name": "CrowdReply",
+   "apollo_domain": "crowdreply.io",
+   "match": "exact"
+  },
+  "csod.com": {
+   "company": "Cornerstone OnDemand",
+   "org_id": "6503e97701c50d0001e03054",
+   "apollo_name": "Cornerstone OnDemand",
+   "apollo_domain": "cornerstoneondemand.com",
+   "match": "name lookup (domain lookup returned the wrong org)"
+  },
+  "ddoagency.com": {
+   "company": "DDO Artists Agency",
+   "org_id": "61eb9753b5ad48000123763b",
+   "apollo_name": "DDO Artists Agency Voiceover Division",
+   "apollo_domain": "ddovoiceover.com",
+   "match": "alias domain"
+  },
+  "descript.com": {
+   "company": "Descript",
+   "org_id": "5a9de49fa6da98d9852c1edf",
+   "apollo_name": "Descript",
+   "apollo_domain": "descript.com",
+   "match": "exact"
+  },
+  "diamondviewstudios.com": {
+   "company": "Diamond View Studios",
+   "org_id": "54a1343a69702d407f520600",
+   "apollo_name": "Diamond View - Creative Video Agency",
+   "apollo_domain": "diamondview.io",
+   "match": "alias domain"
+  },
+  "discoveryed.com": {
+   "company": "Discovery Education",
+   "org_id": "5c8958eef733b90c4e448f75",
+   "apollo_name": "Discovery Education",
+   "apollo_domain": "discoveryeducation.com",
+   "match": "alias domain"
+  },
+  "docebo.com": {
+   "company": "Docebo",
+   "org_id": "54a1b7cd7468695c82a4750a",
+   "apollo_name": "Docebo",
+   "apollo_domain": "docebo.com",
+   "match": "exact"
+  },
+  "domestika.org": {
+   "company": "Domestika",
+   "org_id": "54a13c6d69702dc8e46eac01",
+   "apollo_name": "Domestika",
+   "apollo_domain": "domestika.org",
+   "match": "exact"
+  },
+  "doordash.com": {
+   "company": "DoorDash",
+   "org_id": "5fcb120742e9e60001561802",
+   "apollo_name": "DoorDash",
+   "apollo_domain": "doordash.com",
+   "match": "exact"
+  },
+  "draftkings.com": {
+   "company": "DraftKings",
+   "org_id": "5ed1d80ace6bdb0001faf280",
+   "apollo_name": "DraftKings Inc.",
+   "apollo_domain": "draftkings.com",
+   "match": "exact"
+  },
+  "dropbox.com": {
+   "company": "Dropbox",
+   "org_id": "5fcb5dc3611b2b00be6cbdaf",
+   "apollo_name": "Dropbox",
+   "apollo_domain": "dropbox.com",
+   "match": "exact"
+  },
+  "duolingo.com": {
+   "company": "Duolingo",
+   "org_id": "54a11e5f69702d94a4f84401",
+   "apollo_name": "Duolingo",
+   "apollo_domain": "duolingo.com",
+   "match": "exact"
+  },
+  "economist.com": {
+   "company": "The Economist",
+   "org_id": "6199e9bd5215e800f6518c95",
+   "apollo_name": "The Economist",
+   "apollo_domain": "economist.com",
+   "match": "exact"
+  },
+  "elainecraig.com": {
+   "company": "Elaine Craig Coaching",
+   "org_id": "5db0a429a9df480001568ab3",
+   "apollo_name": "Elaine Craig Voice Casting Inc.",
+   "apollo_domain": "elainecraig.com",
+   "match": "exact"
+  },
+  "experian.com": {
+   "company": "Experian",
+   "org_id": "5b8380bff874f71d08f188f3",
+   "apollo_name": "Experian",
+   "apollo_domain": "experian.com",
+   "match": "exact"
+  },
+  "f5.com": {
+   "company": "F5",
+   "org_id": "55922c2273696418bcf5ac00",
+   "apollo_name": "F5",
+   "apollo_domain": "f5.com",
+   "match": "exact"
+  },
+  "fastly.com": {
+   "company": "Fastly",
+   "org_id": "54a11e6369702d86b6f15901",
+   "apollo_name": "Fastly",
+   "apollo_domain": "fastly.com",
+   "match": "exact"
+  },
+  "figma.com": {
+   "company": "Figma",
+   "org_id": "5a9eeb19a6da98d977fe2c02",
+   "apollo_name": "Figma",
+   "apollo_domain": "figma.com",
+   "match": "exact"
+  },
+  "framer.com": {
+   "company": "Framer",
+   "org_id": "556e1f2373696410e1cb0301",
+   "apollo_name": "Framer",
+   "apollo_domain": "framer.com",
+   "match": "exact"
+  },
+  "garmin.com": {
+   "company": "Garmin",
+   "org_id": "5d0cee5ee497040939d2a6a9",
+   "apollo_name": "Garmin",
+   "apollo_domain": "garmin.com",
+   "match": "exact"
+  },
+  "gmrmarketing.com": {
+   "company": "GMR Marketing",
+   "org_id": "54a22f757468693825846d14",
+   "apollo_name": "GMR Marketing",
+   "apollo_domain": "gmrmarketing.com",
+   "match": "exact"
+  },
+  "go1.com": {
+   "company": "Go1",
+   "org_id": "55f4564ff3e5bb35730031b7",
+   "apollo_name": "Go1",
+   "apollo_domain": "go1.com",
+   "match": "exact"
+  },
+  "goalhanger.com": {
+   "company": "Goalhanger",
+   "org_id": "62b54309cf8acd00016f3e32",
+   "apollo_name": "Goalhanger",
+   "apollo_domain": "goalhanger.com",
+   "match": "exact"
+  },
+  "gong.io": {
+   "company": "Gong",
+   "org_id": "54a1292769702d90a2459b01",
+   "apollo_name": "Gong",
+   "apollo_domain": "gong-next-sanity-web.vercel.app",
+   "match": "alias domain"
+  },
+  "grammarly.com": {
+   "company": "Grammarly",
+   "org_id": "54a11fd869702da4256a0102",
+   "apollo_name": "Grammarly",
+   "apollo_domain": "grammarly.com",
+   "match": "exact"
+  },
+  "great-voices.com": {
+   "company": "Great Voices (Lisbon VO agency)",
+   "org_id": null,
+   "match": "not found in Apollo (domain + name lookup)"
+  },
+  "hitachirail.com": {
+   "company": "Hitachi Rail",
+   "org_id": "5fc9b8ab3b6f900001226535",
+   "apollo_name": "Hitachi Rail",
+   "apollo_domain": "hitachirail.com",
+   "match": "exact"
+  },
+  "hubspot.com": {
+   "company": "HubSpot",
+   "org_id": "5f49cce978959f0001c33e5c",
+   "apollo_name": "HubSpot",
+   "apollo_domain": "hubspot.com",
+   "match": "exact"
+  },
+  "iamlearningcontent.com": {
+   "company": "iAM Learning",
+   "org_id": "5da2f121cfce49000108f8c9",
+   "apollo_name": "iAM Learning",
+   "apollo_domain": "iamlearningcontent.com",
+   "match": "exact"
+  },
+  "ifit.com": {
+   "company": "iFIT / NordicTrack",
+   "org_id": "60f691c2b66c5b0001c89058",
+   "apollo_name": "iFIT",
+   "apollo_domain": "ifit.com",
+   "match": "exact"
+  },
+  "img.com": {
+   "company": "IMG / EuroLeague",
+   "org_id": "54a11e5969702da753c18101",
+   "apollo_name": "IMG",
+   "apollo_domain": "img.com",
+   "match": "exact"
+  },
+  "instacart.com": {
+   "company": "Instacart",
+   "org_id": "54a1214169702d97c1a3d102",
+   "apollo_name": "Instacart",
+   "apollo_domain": "instacart.com",
+   "match": "exact"
+  },
+  "instructure.com": {
+   "company": "Instructure",
+   "org_id": "5592170f736964191eb96100",
+   "apollo_name": "Instructure",
+   "apollo_domain": "instructure.com",
+   "match": "exact"
+  },
+  "intercom.io": {
+   "company": "Intercom",
+   "org_id": "54a11b2369702d88c46a1700",
+   "apollo_name": "Intercom",
+   "apollo_domain": "intercom.com",
+   "match": "alias domain"
+  },
+  "iv.com": {
+   "company": "Invision",
+   "org_id": "55eb466bf3e5bb6342000658",
+   "apollo_name": "Invision",
+   "apollo_domain": "iv.com",
+   "match": "exact"
+  },
+  "kaplan.co.uk": {
+   "company": "Kaplan UK",
+   "org_id": "603f3c5b9d583d00e3898bb2",
+   "apollo_name": "Kaplan UK",
+   "apollo_domain": "kaplan.co.uk",
+   "match": "exact"
+  },
+  "kimley-horn.com": {
+   "company": "Kimley-Horn",
+   "org_id": "54a1296f69702dab3743b501",
+   "apollo_name": "Kimley-Horn",
+   "apollo_domain": "kimley-horn.com",
+   "match": "exact"
+  },
+  "ku.edu": {
+   "company": "Kansas University",
+   "org_id": "54a199c674686945fa60c500",
+   "apollo_name": "The University of Kansas",
+   "apollo_domain": "ku.edu",
+   "match": "exact"
+  },
+  "laundry.studio": {
+   "company": "Laundry (Laundry Studio)",
+   "org_id": "54a1355c69702d3cbbd0b000",
+   "apollo_name": "LAUNDRY",
+   "apollo_domain": "laundry.studio",
+   "match": "exact"
+  },
+  "laundrymat.tv": {
+   "company": "Laundry Design",
+   "org_id": null,
+   "match": "not found in Apollo (domain + name lookup)"
+  },
+  "learningmate.com": {
+   "company": "LearningMate",
+   "org_id": "54a11ff669702d8aa1310d02",
+   "apollo_name": "LearningMate",
+   "apollo_domain": "learningmate.com",
+   "match": "exact"
+  },
+  "lilahann.com": {
+   "company": "Independent (Altra)",
+   "org_id": null,
+   "match": "not found in Apollo (domain + name lookup)"
+  },
+  "linear.app": {
+   "company": "Linear",
+   "org_id": "5dd807f270e72901507f3094",
+   "apollo_name": "Linear",
+   "apollo_domain": "linear.app",
+   "match": "exact"
+  },
+  "linkedin.com": {
+   "company": "LinkedIn (Learning)",
+   "org_id": "5fca408962ba9b00f6d3c961",
+   "apollo_name": "LinkedIn",
+   "apollo_domain": "linkedin.com",
+   "match": "exact"
+  },
+  "litmos.com": {
+   "company": "Litmos",
+   "org_id": "5da45559d7e66f00017beccb",
+   "apollo_name": "Litmos",
+   "apollo_domain": "litmos.com",
+   "match": "exact"
+  },
+  "lonelyplanet.com": {
+   "company": "Lonely Planet",
+   "org_id": "54a11c7a69702d77c26eba00",
+   "apollo_name": "Lonely Planet",
+   "apollo_domain": "lonelyplanet.com",
+   "match": "exact"
+  },
+  "lorilins.com": {
+   "company": "Lori Lins Ltd",
+   "org_id": "54a2208d74686930c2a0ee0e",
+   "apollo_name": "Lori Lins Ltd",
+   "apollo_domain": "lorilins.com",
+   "match": "exact"
+  },
+  "lululemon.com": {
+   "company": "lululemon",
+   "org_id": "660d92550716b00006444f9c",
+   "apollo_name": "lululemon",
+   "apollo_domain": "lululemon.com",
+   "match": "exact"
+  },
+  "makenotion.com": {
+   "company": "Notion",
+   "org_id": "5fcb03f6fdb896000178d8c9",
+   "apollo_name": "Notion",
+   "apollo_domain": "notion.com",
+   "match": "alias domain"
+  },
+  "masterclass.com": {
+   "company": "MasterClass",
+   "org_id": "556df766736964112c051700",
+   "apollo_name": "MasterClass",
+   "apollo_domain": "masterclass.com",
+   "match": "exact"
+  },
+  "micro1.ai": {
+   "company": "micro1",
+   "org_id": "62851a7c7bf036008d11bc86",
+   "apollo_name": "micro1",
+   "apollo_domain": "micro1.ai",
+   "match": "exact"
+  },
+  "miro.com": {
+   "company": "Miro",
+   "org_id": "5c9ea85607b4770c14e8143f",
+   "apollo_name": "Miro",
+   "apollo_domain": "miro.com",
+   "match": "exact"
+  },
+  "modostudios.com": {
+   "company": "Modo Studios",
+   "org_id": "5f400ebf05e61b00010385fc",
+   "apollo_name": "MODO STUDIOS",
+   "apollo_domain": "modostudios.com",
+   "match": "exact"
+  },
+  "monday.com": {
+   "company": "Monday.com",
+   "org_id": "5a9e6e72a6da98d93be6a3eb",
+   "apollo_name": "monday.com",
+   "apollo_domain": "monday.com",
+   "match": "exact"
+  },
+  "narwalcreative.com": {
+   "company": "Narwal Creative",
+   "org_id": "5ed4c6fac403cb00014d95ba",
+   "apollo_name": "Narwal Creative",
+   "apollo_domain": "narwalcreative.com",
+   "match": "exact"
+  },
+  "natgeo.com": {
+   "company": "National Geographic",
+   "org_id": "54a1205869702d8aa1813602",
+   "apollo_name": "National Geographic",
+   "apollo_domain": "nationalgeographic.com",
+   "match": "alias domain"
+  },
+  "netskope.com": {
+   "company": "Netskope",
+   "org_id": "5fc8cd048c545b0001fbad15",
+   "apollo_name": "Netskope",
+   "apollo_domain": "netskope.com",
+   "match": "exact"
+  },
+  "noahmediagroup.com": {
+   "company": "Noah Media Group",
+   "org_id": "5f49978b3812010001a4864b",
+   "apollo_name": "Noah Media Group",
+   "apollo_domain": "noahmediagroup.com",
+   "match": "exact"
+  },
+  "npr.org": {
+   "company": "NPR",
+   "org_id": "54a1360d69702d48e21bf600",
+   "apollo_name": "NPR",
+   "apollo_domain": "npr.org",
+   "match": "exact"
+  },
+  "octagon.com": {
+   "company": "Octagon",
+   "org_id": "54a134b269702d2f9fb19c00",
+   "apollo_name": "Octagon",
+   "apollo_domain": "octagon.com",
+   "match": "exact"
+  },
+  "ogilvy.com": {
+   "company": "Ogilvy New York",
+   "org_id": "5fc8dbb4403ac10001afca63",
+   "apollo_name": "Ogilvy",
+   "apollo_domain": "ogilvy.com",
+   "match": "exact"
+  },
+  "on-running.com": {
+   "company": "On",
+   "org_id": "54a11cea69702d97c1a0e300",
+   "apollo_name": "On",
+   "apollo_domain": "on.com",
+   "match": "alias domain"
+  },
+  "onepeloton.com": {
+   "company": "Peloton Interactive",
+   "org_id": "5d09b4ff80f93e0ece8751d8",
+   "apollo_name": "Peloton Interactive",
+   "apollo_domain": "onepeloton.com",
+   "match": "exact"
+  },
+  "pagerduty.com": {
+   "company": "PagerDuty",
+   "org_id": "54a1214769702d94a4139c02",
+   "apollo_name": "PagerDuty",
+   "apollo_domain": "pagerduty.com",
+   "match": "exact"
+  },
+  "patagonia.com": {
+   "company": "Patagonia",
+   "org_id": "54a1273b69702dab37f05700",
+   "apollo_name": "Patagonia",
+   "apollo_domain": "patagonia.com",
+   "match": "exact"
+  },
+  "paypal.com": {
+   "company": "Venmo (PayPal)",
+   "org_id": "55923de0736964186f02ef00",
+   "apollo_name": "PayPal",
+   "apollo_domain": "paypal.com",
+   "match": "exact"
+  },
+  "pentakcreative.com": {
+   "company": "Pentak Creative (Condado Tacos)",
+   "org_id": "66f2944eab68b80001385742",
+   "apollo_name": "Pentak Creative",
+   "apollo_domain": "pentakcreative.com",
+   "match": "exact"
+  },
+  "plaid.com": {
+   "company": "Plaid",
+   "org_id": "54a11b2b69702d97c1f91e00",
+   "apollo_name": "Plaid",
+   "apollo_domain": "plaid.com",
+   "match": "exact"
+  },
+  "pluralsight.com": {
+   "company": "Pluralsight",
+   "org_id": "5d1062ea76d9f909c1c93c7f",
+   "apollo_name": "Pluralsight",
+   "apollo_domain": "pluralsight.com",
+   "match": "exact"
+  },
+  "premierpadel.com": {
+   "company": "Premier Padel",
+   "org_id": "6255b63e26fde700da7d1d0d",
+   "apollo_name": "Premier Padel",
+   "apollo_domain": "premierpadel.com",
+   "match": "exact"
+  },
+  "psyop.tv": {
+   "company": "Psyop",
+   "org_id": "556dc57b73696411fd948001",
+   "apollo_name": "Psyop",
+   "apollo_domain": "psyopimg.com",
+   "match": "name lookup (domain lookup returned the wrong org)"
+  },
+  "purdue.edu": {
+   "company": "Purdue University",
+   "org_id": "54a11cc569702da42563c600",
+   "apollo_name": "Purdue University",
+   "apollo_domain": "purdue.edu",
+   "match": "exact"
+  },
+  "pushkin.fm": {
+   "company": "Pushkin Industries",
+   "org_id": "5e73d98235b22f00bf627c54",
+   "apollo_name": "Pushkin Industries",
+   "apollo_domain": "pushkin.fm",
+   "match": "exact"
+  },
+  "ramp.com": {
+   "company": "Ramp",
+   "org_id": "55efc86ff3e5bb7b5a000b62",
+   "apollo_name": "Ramp",
+   "apollo_domain": "ramp.com",
+   "match": "exact"
+  },
+  "retool.com": {
+   "company": "Retool",
+   "org_id": "5c0029c075199e09c26250f5",
+   "apollo_name": "Retool",
+   "apollo_domain": "retool.com",
+   "match": "exact"
+  },
+  "rhymesayers.com": {
+   "company": "Rhymesayers",
+   "org_id": "57c49703a6da983260b8109c",
+   "apollo_name": "Rhymesayers Entertainment",
+   "apollo_domain": "rhymesayers.com",
+   "match": "exact"
+  },
+  "robinhood.com": {
+   "company": "Robinhood",
+   "org_id": "5a9d6ff7a6da98d93bdfcbbc",
+   "apollo_name": "Robinhood",
+   "apollo_domain": "robinhood.com",
+   "match": "exact"
+  },
+  "romoffmedia.com": {
+   "company": "Romoff Media Inc",
+   "org_id": "5f3e43461824f300014397b2",
+   "apollo_name": "Romoff Media",
+   "apollo_domain": "romoffmedia.com",
+   "match": "exact"
+  },
+  "runehauscreative.com": {
+   "company": "Rune Haus Creative",
+   "org_id": null,
+   "match": "not found in Apollo (domain + name lookup)"
+  },
+  "sarofsky.com": {
+   "company": "Sarofsky",
+   "org_id": "5500b2d27369642db37c2a00",
+   "apollo_name": "Sarofsky",
+   "apollo_domain": "sarofsky.com",
+   "match": "exact"
+  },
+  "shadowlion.com": {
+   "company": "Shadow Lion",
+   "org_id": "5e56132f07939b00011b89e1",
+   "apollo_name": "Shadow Lion",
+   "apollo_domain": "shadowlion.com",
+   "match": "exact"
+  },
+  "shell.com": {
+   "company": "Shell",
+   "org_id": "5d1a27eb83958a0b9f42a2e5",
+   "apollo_name": "Shell",
+   "apollo_domain": "shell.com",
+   "match": "exact"
+  },
+  "si.edu": {
+   "company": "Smithsonian (National Air and Space Museum)",
+   "org_id": "5dbc4dfd53fbbb0099f32bff",
+   "apollo_name": "Smithsonian Institution",
+   "apollo_domain": "si.edu",
+   "match": "exact"
+  },
+  "siemens-energy.com": {
+   "company": "Siemens Energy",
+   "org_id": "673102d624c32c0001ce858a",
+   "apollo_name": "Siemens Energy",
+   "apollo_domain": "siemens-energy.com",
+   "match": "exact"
+  },
+  "siemens.com": {
+   "company": "Siemens",
+   "org_id": "5d94972b957e2f00993590b0",
+   "apollo_name": "Siemens",
+   "apollo_domain": "siemens.com",
+   "match": "exact"
+  },
+  "skillshare.com": {
+   "company": "Skillshare",
+   "org_id": "5e566cf7eff174000129065a",
+   "apollo_name": "Skillshare",
+   "apollo_domain": "skillshare.com",
+   "match": "exact"
+  },
+  "skillsoft.com": {
+   "company": "Skillsoft",
+   "org_id": "5a9efb1aa6da98d9356fc24e",
+   "apollo_name": "Skillsoft",
+   "apollo_domain": "skillsoft.com",
+   "match": "exact"
+  },
+  "smartsheet.com": {
+   "company": "Smartsheet",
+   "org_id": "54a1345a69702d36c9244000",
+   "apollo_name": "Smartsheet",
+   "apollo_domain": "smartsheet.com",
+   "match": "exact"
+  },
+  "snowflake.com": {
+   "company": "Snowflake",
+   "org_id": "5fe377fc81692601126adf86",
+   "apollo_name": "Snowflake",
+   "apollo_domain": "snowflake.com",
+   "match": "exact"
+  },
+  "sofi.com": {
+   "company": "SoFi",
+   "org_id": "54a25eaa7468692e7189f71d",
+   "apollo_name": "SoFi",
+   "apollo_domain": "sofi.com",
+   "match": "exact"
+  },
+  "someoddpilot.com": {
+   "company": "Some Odd Pilot",
+   "org_id": "556de0177369641217e0b701",
+   "apollo_name": "Someoddpilot",
+   "apollo_domain": "someoddpilot.com",
+   "match": "exact"
+  },
+  "soundtrap-productions.net": {
+   "company": "Soundtrap Productions (Porto voice agency)",
+   "org_id": "672ee4d624c32c0001bfca9b",
+   "apollo_name": "Soundtrap Productions",
+   "apollo_domain": "soundtrap-productions.net",
+   "match": "exact"
+  },
+  "splunk.com": {
+   "company": "Splunk",
+   "org_id": "5e578e33111d140001a3aee8",
+   "apollo_name": "Splunk",
+   "apollo_domain": "splunk.com",
+   "match": "exact"
+  },
+  "sproutsocial.com": {
+   "company": "Sprout Social",
+   "org_id": "5f4445f4a758af00010fdd85",
+   "apollo_name": "Sprout Social, Inc.",
+   "apollo_domain": "sproutsocial.com",
+   "match": "exact"
+  },
+  "tbc.us": {
+   "company": "TBC",
+   "org_id": "54a1345069702d3e83371700",
+   "apollo_name": "TBC",
+   "apollo_domain": "tbc.us",
+   "match": "exact"
+  },
+  "teamone-usa.com": {
+   "company": "Team One",
+   "org_id": "54a221fb7468692e71fec10f",
+   "apollo_name": "Team One",
+   "apollo_domain": "teamone-usa.com",
+   "match": "exact"
+  },
+  "tellary.com": {
+   "company": "Tellary",
+   "org_id": "5e56b1f10108000001761633",
+   "apollo_name": "Tellary",
+   "apollo_domain": "tellary.com",
+   "match": "exact"
+  },
+  "tendril.ca": {
+   "company": "Tendril",
+   "org_id": "62ce7d4c00355c0001fbec2a",
+   "apollo_name": "Tendril Studio",
+   "apollo_domain": "tendril.studio",
+   "match": "alias domain"
+  },
+  "the.team": {
+   "company": "The Team",
+   "org_id": "69ba1ac7dbe2040001e789fe",
+   "apollo_name": "THE TEAM",
+   "apollo_domain": "the.team",
+   "match": "exact"
+  },
+  "thinkific.com": {
+   "company": "Thinkific",
+   "org_id": "6703783ee153fc01b0403beb",
+   "apollo_name": "Thinkific",
+   "apollo_domain": "thinkific.com",
+   "match": "exact"
+  },
+  "toasttab.com": {
+   "company": "Toast",
+   "org_id": "6015a79741e19900a46adfbf",
+   "apollo_name": "Toast",
+   "apollo_domain": "toasttab.com",
+   "match": "exact"
+  },
+  "tripadvisor.com": {
+   "company": "Tripadvisor",
+   "org_id": "5e55b41d8a71b100016e82e3",
+   "apollo_name": "Tripadvisor",
+   "apollo_domain": "tripadvisor.com",
+   "match": "exact"
+  },
+  "tva.gov": {
+   "company": "TVA (Tennessee Valley Authority)",
+   "org_id": "67323d8d2185dc0001f40337",
+   "apollo_name": "Tennessee Valley Authority",
+   "apollo_domain": "tva.com",
+   "match": "name lookup (domain lookup returned the wrong org)"
+  },
+  "udemy.com": {
+   "company": "Udemy",
+   "org_id": "64afe7927de33d00c32dd956",
+   "apollo_name": "Udemy",
+   "apollo_domain": "udemy.com",
+   "match": "exact"
+  },
+  "uipath.com": {
+   "company": "UiPath",
+   "org_id": "5fa1627e7b15d60115301d6e",
+   "apollo_name": "UiPath",
+   "apollo_domain": "uipath.com",
+   "match": "exact"
+  },
+  "untoldstudios.tv": {
+   "company": "Untold Studios",
+   "org_id": "5e57beff10cdf700015a151c",
+   "apollo_name": "Untold Studios.",
+   "apollo_domain": "untoldstudios.tv",
+   "match": "exact"
+  },
+  "vfc.com": {
+   "company": "VF Corp",
+   "org_id": "54a26b377468693318643521",
+   "apollo_name": "VF Corporation",
+   "apollo_domain": "vfc.com",
+   "match": "exact"
+  },
+  "voicearchive.com": {
+   "company": "Voice Archive",
+   "org_id": "54a1343569702d352f072f00",
+   "apollo_name": "VoiceArchive",
+   "apollo_domain": "voicearchive.com",
+   "match": "exact"
+  },
+  "voicesmediasolutions.com": {
+   "company": "Voices & Media Solutions (Lisbon voice studio)",
+   "org_id": "5a9d78e8a6da98d9466d7052",
+   "apollo_name": "Voice Over and Media Solutions",
+   "apollo_domain": "voicesmediasolutions.com",
+   "match": "exact"
+  },
+  "vozon.pt": {
+   "company": "VOZ ON (Famalic\u00e3o voice/dubbing studio)",
+   "org_id": null,
+   "match": "not found in Apollo (domain + name lookup)"
+  },
+  "vyond.com": {
+   "company": "Vyond",
+   "org_id": "54a129f369702db648c3d301",
+   "apollo_name": "Vyond",
+   "apollo_domain": "vyond.com",
+   "match": "exact"
+  },
+  "webflow.com": {
+   "company": "Webflow",
+   "org_id": "55f1e0c7f3e5bb0a14000c5d",
+   "apollo_name": "Webflow",
+   "apollo_domain": "webflow.com",
+   "match": "exact"
+  },
+  "wildcreative.co": {
+   "company": "Wild Creative",
+   "org_id": "614e93e837e9ca000128db91",
+   "apollo_name": "Wild Creative",
+   "apollo_domain": "wildcreative.co",
+   "match": "exact"
+  },
+  "wilson.com": {
+   "company": "Wilson Sporting Goods",
+   "org_id": "54a120b469702da753955902",
+   "apollo_name": "Wilson Sporting Goods Co.",
+   "apollo_domain": "wilson.com",
+   "match": "exact"
+  },
+  "xpedition.com": {
+   "company": "Xpedition Media",
+   "org_id": "5a9db6cea6da98d95ff8b46e",
+   "apollo_name": "Xpedition",
+   "apollo_domain": "xpedition.com",
+   "match": "exact"
+  },
+  "yeti.com": {
+   "company": "YETI",
+   "org_id": "5b14ac77a6da9870fa3dfa0d",
+   "apollo_name": "YETI",
+   "apollo_domain": "yeti.com",
+   "match": "exact"
+  },
+  "zendesk.com": {
+   "company": "Zendesk",
+   "org_id": "54a11e3a69702d94a4753c01",
+   "apollo_name": "Zendesk",
+   "apollo_domain": "zendesk.com",
+   "match": "exact"
+  },
+  "zoom.us": {
+   "company": "Zoom",
+   "org_id": "5f3fa2129613860001d1729b",
+   "apollo_name": "Zoom",
+   "apollo_domain": "zoom.com",
+   "match": "alias domain"
+  }
+ }
+}

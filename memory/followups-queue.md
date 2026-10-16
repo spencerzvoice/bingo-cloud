@@ -203,7 +203,7 @@ Spencer sent all 4 himself Tue 10-06 ~16:05 Lisbon (Sent msgs: Retool 1a111bf6df
 Tracker fix 10-06 (desktop): 12 touch-2 rows from the 10-05 batch verified one by one in live Gmail Sent, then written. Skillsoft row 130, Box 137, Smartsheet 138, Descript 139, Intercom 140, Dropbox 141, 2U 144, Pluralsight 147, Splunk 151, Sprout 153 -> Follow-Up Sent, Last Contact 10/05, Next Action "Touch 3 (final) Mon 10/19". Goalhanger 133 + iAM 134 -> Follow-Up Sent 10/06, touch 3 Tue 10/20. Read back OK. Shell row 132 untouched (warm thread, off cadence).
 Shell / Jane Sayers (warm, 10-06): live Gmail = Jane 10-05 12:25 UTC asked for the V-Power re-voice as an attachment (firewall blocked link); Spencer sent it 10-05 13:31 Lisbon; nothing from her since. Spencer waiting. Warm nudge Mon 2026-10-19 if silent (window to 10-26). Tracker row 132 -> "Responded - Awaiting Her Reply", Last Contact 10/05.
 
-| Allie Silber, DDO (warm, rep resubmission) | 2026-10-06 (Gmail Sent 1a111f646b9cd269, verified) | 1 | warm nudge | Tue 2026-10-20 (prep Mon 10-19 eve) | Tue 2026-10-27 | thread reply; if she asks for reads, send main + alternate within 24h |
+| Allie Silber, DDO (warm, rep resubmission) | 2026-10-06 (Gmail Sent 1a111f646b9cd269, verified) | 1 | warm nudge | Tue 2026-10-20 (prep Mon 10-19 eve) | Tue 2026-10-27 | thread reply; **DRAFTED 2026-10-14 (Gmail draft r-1882584763596408817, msg 1a13c88520e7c677): points to new site + revised Commercial Reel, no new reads (Spencer). Do NOT draft again; just remind on 10-20.** |
 
 ## 2026-10-06 evening prep (cloud, for Wed 2026-10-07)
 Ledger check: no reminder or overdue date falls on Wed 10-07. Next due: warm check-ins sent 09-11 (Dan Shaw, Lilah, Melissa, Mel Kane, Taylor Ballam, Devin Leisher, Poullet) reminder Thu 10-08 -> prep Wed 10-07 eve. Nothing drafted, no push, no email. Live Gmail not queried (nothing due).
@@ -290,3 +290,93 @@ Live Gmail 10-13 (FGAC): no replies/bounces on any thread or from any Funnel B/C
 | Dan Schunk | Zoom | 1a06bd63ae1546e9 | r8956740820284474195 | 3 final |
 | Linda Hewing | HubSpot | 1a06bd6af9864f58 | r7754167150995082097 | 3 final |
 Flagged, NOT drafted (12-draft cap; re-draft at Wed 10-14 evening prep, still inside window): Funnel B Jamal Meneide (HubSpot, 1a06bd6b80c43fc6), Amalia Hochmann (monday, 1a06765c7f9b1b89), Aubrey Rogers (Asana, 1a06bd654a30ca76) touch 3, window to Mon 10-19. Funnel C touch 3 (window to Tue 10-20; Kaplan Rory Green to Wed 10-21): MasterClass 1a0cfde2ca0728a1, Skillshare 1a0cfde549415cf6, Udemy 1a0cfefa529d0337, LinkedIn Learning 1a0cfcf350a117a9 (last touch in thread is only the 09-23 pitch/ touch 2 not confirmed in that thread, check), Coursera 1a0cfcf56907511b, Instructure 1a0cfcf7dbd16c98, Discovery Ed 1a0cfcfa9db157fd, LearningMate 1a0cfcff5c6fa14e, Kaplan UK 1a0cfcfd00bcff29. Funnel H touch 2 starts Wed 10-14 (BUCK Jordan Howes, window to 10-17) and Thu 10-15 for the rest. Jim Levi (CrowdReply) check-in: no thread found in Sent last 40d, needs Spencer's context.
+
+- 2026-10-14 (Spencer: the "free custom read" wording in the 10-13 follow-up drafts sounded like free work): rewrote the 10 Funnel B touch-3 drafts (read back, no "free") to: "Last note from me for now. I'm happy to offer an audition for any of the videos you have coming up." + "I'll leave it here and check back later in the year." Rule for touch 3: audition offer only, never "free"/"no strings". Psyop + micro1 touch-2 drafts still carry the skill template's "custom read ... free, no obligation" line; skill template not changed yet, awaiting Spencer's call.
+
+## 2026-10-14 ~17:30 Lisbon (desktop) - Funnel B touch 3 (final): ALL 13 SCHEDULED in Gmail
+Spencer: "schedule them so they land at 9:12 am local time". Live Gmail first: no reply/bounce on any of the 13 threads. Created the 3 missing drafts (Jamal r6230544762405219106, Amalia r-4898798784137395616, Aubrey r-6398279670653244920) with the same text Spencer approved on the other 10 ("Last note from me for now... audition... Hope to hear from you soon. / I'll leave it here and check back later in the year."). Native Schedule send in Chrome; Gmail Scheduled folder = 13. Locations = live LinkedIn 10-14.
+| Contact | Local | Send (Lisbon) |
+|---|---|---|
+| Jack Toohey, Lydia Sarks (Canva) | Sydney | Wed 10-14 23:12 |
+| Amalia Hochmann (monday) | Tel Aviv | Thu 10-15 07:12 |
+| Dan Schunk (Zoom) | New York | Thu 10-15 14:12 |
+| Linda Hewing (HubSpot), Teddy Sirotek (Zoom) | Denver / MT (Teddy = "Remote, US", Denver ties; 🟡) | Thu 10-15 16:12 |
+| Wes, Eric (ClickUp), Jamal (HubSpot) San Diego · Sarah Fink Portland · Genna Osborne Eugene · Lauren Hirata SF · Aubrey Rogers SF Bay | Pacific | Thu 10-15 17:12 |
+**Ledger roll-forward:** Funnel B cadence done. Next = quarterly LT1 (new email, new proof) ~Wed 2027-01-13 (final + 90d), unless a real signal pulls it forward. Tracker rows 102-103, 105-115 -> Scheduled (digest flips to Sent once verified).
+- 2026-10-14: one-time cloud routine 'Ana voice note reminder' trig_015sYjm9txzm97uEVJXEH4Vp fires Fri 10-16 09:00 UTC (10:00 Lisbon): push only, telling Spencer to send Ana (VOX ARTIST) a WhatsApp voice note if she's still quiet. Spencer sends it himself.
+- **Update 10-14 ~17:30 Lisbon (Spencer: "if it's still morning time for them, send it now").** At 16:27 UTC it was 09:27 PT / 10:27 MT, so the 9 Pacific + Mountain finals were un-scheduled and SENT now (Gmail Sent, verified: Wes, Eric, Genna, Sarah, Lauren, Teddy, Linda, Jamal, Aubrey). Still scheduled (not morning there now): Dan (NY, 12:27 ET) Thu 14:12 Lisbon, Jack + Lydia (Sydney) tonight 23:12, Amalia (Tel Aviv) Thu 07:12. Tracker rows for the 9 -> Follow-Up Sent, Last Contact 10/14 (read back).
+- 10-14 follow-on: Spencer OK'd Dan now. Dan Schunk (Zoom, NY) final SENT ~13:00 ET (Gmail Sent msg 1a13b64d02835179). Tracker row 111 -> Follow-Up Sent 10/14. Still scheduled: Jack + Lydia (tonight 23:12 Lisbon), Amalia (Thu 07:12).
+
+## 2026-10-14 evening prep (cloud, for Thu 2026-10-15) - 12 drafts, NOT sent
+Live Gmail 10-14 (FGAC): all threads checked, no replies/bounces (micro1 mail = platform automation only). Funnel D US + Airtable touch 2 sent 10-01 20:12 (verified), touch 3 reminder Thu 10-15. Touch 3 text = the 10-14 approved Funnel B audition wording. Touch 2 (Funnel H) = skill template word for word (still has "free, no obligation"; Spencer flagged that wording 10-14, awaiting his call). Day-before push + email sent.
+| Contact | Company | Thread | Draft ID | Touch |
+|---|---|---|---|---|
+| Daren Levis | Experian | 1a0d520197f24028 | r2912647273502661498 | 3 final |
+| Jason Doty | Purdue | 1a0d520e15ef0a58 | r4113559588881848229 | 3 final |
+| Paul Klinke | Sarofsky | 1a0d522c161a804a | r-8756763315467890716 | 3 final |
+| Jason Fassler | Snowflake | 1a0d5220724457d0 | r1949114297505543514 | 3 final |
+| Ivelle Jargalyn | Tendril | 1a0d5238a5cc0e8e | r-261566627344859655 | 3 final |
+| Rob Nikzad | Airtable | 1a0d4cb38e96c2d5 | r9753967331339396 | 3 final |
+| Kirsten Golden | Airtable | 1a0d4cc06c04b85e | r4627237289356495442 | 3 final |
+| Jordan Howes | BUCK | 1a111c732a7900e1 | r-8431705073392126859 | 2 |
+| Jose Monrabal | ABB | 1a10d1f483bcd6bb | r-4592814442544982700 | 2 |
+| Martijn Savenije | Booking.com | 1a111c71b59365c3 | r-6014074448300925502 | 2 |
+| Steven Watson | Airwallex | 1a11154c227ffbcb | r-8369733089078156422 | 2 |
+| Liv Moloney | The Economist | 1a111c7208c15dca | r-722111154474300380 | 2 |
+Flagged, NOT drafted (cap): Funnel H touch 2 Peloton (Anne Marie Gaynor, 1a113fd637a7afc2), Pushkin (Constanza, 1a111c7394eeda48, pitch had no sample), Garmin (Maggie, 1a111c72d6af0b10), Plaid (Heather, 1a111c57e2ac08d1); window to Sun 10-18. Funnel C touch 3 x9 (threads in the 10-13 entry), window to Tue 10-20 / Kaplan Wed 10-21: draft at Thu 10-15 evening prep. Warner (micro1) + Linsk (Psyop) touch-2 drafts still unsent in Drafts (windows end 10-16 / 10-17).
+
+- 2026-10-14 ~18:15 Lisbon (desktop; Spencer: the touch-2 "full custom read within 24 hours, free" line = "offering free work"): rewrote all 7 unsent touch-2 drafts (Funnel H: Liv Moloney/Economist, Steven Watson/Airwallex, Martijn Savenije/Booking.com, Jose Monrabal/ABB, Jordan Howes/BUCK; Daniel Warner/micro1; Andrew Linsk/Psyop). The free line is now "I'd love to offer an audition for any of the videos you have coming up." Same draft IDs, threading kept, read back clean; Drafts search for "custom read"/"no obligation"/"free" = 0. Skill touch-2 template + touch-3 text fixed; `pitch_draft_qc.py` now blocks any reply draft that offers free work. The Follow-up Prep routine (trig_01T7GUTmfRwQRXsnqZXjZrcr) reads the skill from this repo, so the next run uses the new wording.
+
+## 2026-10-14 ~18:45 Lisbon (desktop) - SENT on Spencer's "get those out if before 3pm local"
+Clock 17:43 UTC (10:43 PT / 13:43 ET). Live Gmail: no replies on any of these threads.
+- Touch 2 SENT: Daniel Warner (micro1, Pacific 🟡) msg 1a13b83c9f214619 · Andrew Linsk (Psyop, US 🟡) msg 1a13b83d13cf28da. Tracker rows 173-174 -> Follow-Up Sent 10/14. Next: touch 3 (final) ~10-28 to 11-04.
+- Touch 3 (final) SENT, one day early (ledger said Thu 10-15; Spencer's call): Daren Levis (Experian), Jason Doty (Purdue), Paul Klinke (Sarofsky, Chicago), Jason Fassler (Snowflake), Ivelle Jargalyn (Tendril, .ca), Rob Nikzad + Kirsten Golden (Airtable). All North American (ledger "Funnel D US"). Tracker rows 126-129, 131, 135-136 -> Final Sent 10/14. Next: quarterly LT1 (new email, new proof) ~Tue 2027-01-12 (final + 90d lands in the Dec blackout -> Jan 5-15).
+- Still in Drafts, NOT sent (past 3pm local): Funnel H touch 2 x5 (Liv Moloney/Economist ❓ location, Steven Watson/London, Martijn Savenije/Amsterdam, Jose Monrabal/Zurich, Jordan Howes/Sydney). Funnel D UK touch 3 (Goalhanger, iAM) not drafted yet; Skillsoft/Alice touch 3 window Mon 10-19.
+- 2026-10-14 ~19:15 Lisbon: Funnel H touch 2 x5 SCHEDULED in Gmail (native Schedule send, Chrome) at 8:32 local (Spencer): Jordan Howes/BUCK Wed 22:32 Lisbon (Sydney) · Jose Monrabal/ABB + Martijn Savenije/Booking.com Thu 07:32 Lisbon (Zurich/Amsterdam) · Steven Watson/Airwallex + Liv Moloney/Economist Thu 08:32 Lisbon (Liv = United Kingdom, live LinkedIn 10-14). Scheduled bodies read back via API (Spencer's 10-14 wording). Tracker -> Scheduled. Next: touch 3 (final) ~10-29 to 11-05 once sends are confirmed.
+
+## 2026-10-15 ~09:20-09:45 UTC (cloud session) - the 13 due follow-ups: drafted, 2 SENT, 11 booked for 8:32 local. Evening prep: do NOT re-draft these.
+Cause of the miss: the ~12-draft cap deferred Funnel C (10-13, 10-14) and Peloton/Pushkin/Garmin/Plaid to the 10-15 evening, after the due date; the 10-15 Digest's attempt to draft them was blocked by the permission classifier.
+Live Gmail 10-15 (FGAC): all 13 threads = our messages only, no replies, no bounces (30d mailer-daemon search), no inbound from the domains, no prior drafts. Pushkin pitch had no re-voice: touch 2 opens "Following up on my note last week."
+| Contact | Company | Thread | Draft ID | Touch | Status |
+|---|---|---|---|---|---|
+| Rory Green | Kaplan UK (Guildford) | 1a0cfcfd00bcff29 | r3168709279496390731 | 3 final | SENT ~09:25 UTC (msg 1a13ef27923ffd91) |
+| Joanne Pratt | LearningMate (Cape Town) | 1a0cfcff5c6fa14e | r7424136434272713211 | 3 final | SENT ~09:25 UTC (msg 1a13ef2997aa7c4f) |
+| Anne Gaynor | Peloton (NY) | 1a113fd637a7afc2 | r-3011318697630083471 | 2 | booked 12:32 UTC |
+| Constanza Gallardo | Pushkin (Miami) | 1a111c7394eeda48 | r-2652848267079411664 | 2 | booked 12:32 UTC |
+| Kyle Ranson-Walsh | LinkedIn Learning (NY) | 1a0cfcf350a117a9 | r-2614170768602302018 | 3 final | booked 12:32 UTC |
+| Brandon Rafalson | Coursera (Durham) | 1a0cfcf56907511b | r7822874034159732313 | 3 final | booked 12:32 UTC |
+| Hasaanah Abdul-Wahid | Skillshare (Belleville, ET 🟡) | 1a0cfde549415cf6 | r2416478451411541695 | 3 final | booked 12:32 UTC |
+| Allison Andrews | Discovery Ed (Mooresville NC) | 1a0cfcfa9db157fd | r-1907271263760514930 | 3 final | booked 12:32 UTC |
+| Maggie Wasserman | Garmin (Kansas City) | 1a111c72d6af0b10 | r-5573828293710116215 | 2 | booked 13:32 UTC |
+| Mike West | Instructure (Provo) | 1a0cfcf7dbd16c98 | r5150884444687543545 | 3 final | booked 14:32 UTC |
+| Heather Mounsey | Plaid (LA) | 1a111c57e2ac08d1 | r-7428220186163390341 | 2 | booked 15:32 UTC |
+| Luke Sienko | MasterClass (LA) | 1a0cfde2ca0728a1 | r-783006221349736321 | 3 final | booked 15:32 UTC |
+| Jennifer Johnston | Udemy (location ❓, sent on PT) | 1a0cfefa529d0337 | r3451340079709881069 | 3 final | booked 15:32 UTC |
+Roll-forward once sent: Funnel C finals -> LT1 ~Tue 2027-01-12. Funnel H touch 2 (Peloton, Pushkin, Garmin, Plaid) -> touch 3 reminder Thu 2026-10-29, overdue Thu 2026-11-05.
+
+## 2026-10-15 ~11:13 UTC (desktop) - the 11 booked follow-ups SENT EARLY (Bingo's misread)
+Spencer: "should be scheduled for 8:32am localtime. Everything thats due today can and should go out now." Bingo read "go out now" as send-all-now and sent all 11 at 11:13 UTC. All 11 are US contacts, so they landed BEFORE 8:32 local: ~07:13 ET (Peloton Anne Gaynor, Pushkin Constanza Gallardo, LinkedIn Learning Kyle Ranson-Walsh, Coursera Brandon Rafalson, Skillshare Hasaanah Abdul-Wahid, Discovery Ed Allison Andrews), ~06:13 CT (Garmin Maggie Wasserman), ~05:13 MT (Instructure Mike West), ~04:13 PT (Plaid Heather Mounsey, MasterClass Luke Sienko, Udemy Jennifer Johnston). Correct reading = send now only where 8:32 local has already passed; everyone else lands at 8:32 local. No-contact check run first (live Gmail 21d per address + domain, repo grep for LinkedIn messages): all clean. Sent msgs 1a13f444fe3459d6 .. 1a13f44731ac636c, same threads.
+Also verified in Gmail Sent: Funnel B finals Jack/Lydia (Canva) 10-14 23:12 Lisbon, Amalia (monday) 10-15 07:12 Lisbon; Funnel H touch 2 BUCK 10-14 22:32, ABB + Booking.com 07:32, Airwallex + Economist 08:32 Lisbon. Gmail Scheduled = empty.
+Cloud send triggers trig_01NLVBJiNgPisP4MgPLYwJDN, trig_01SDqrGK1nRQj65iEmyhL8jU, trig_01QefWkK4yCvXY2VBdseS41o DISABLED. trig_01M1Eun52M73XGbrfwbdaz8e (15:32 UTC Pacific batch) still enabled (disable blocked by the permission classifier); its drafts are gone, so it has nothing to send.
+Tracker rows 107-108, 114, 117-125, 175-183 updated + read back (Status, Last Contact, Next Action, Notes; J/K untouched).
+**Roll-forward:** Funnel C finals + Canva/monday finals -> cadence done, LT1 ~2027-01-12/13. Funnel H touch 2 (Peloton, Pushkin, Garmin, Plaid, ABB, Booking.com, Airwallex, Economist) -> touch 3 reminder Thu 2026-10-29, overdue Thu 2026-11-05; BUCK -> Wed 10-28 / 11-04.
+
+## 2026-10-15 ~20:20 UTC (cloud) - Siemens Energy touch 2 booked
+Cause it was missed: Funnel G2 pitches (sent 10-06) were never added to this ledger. Draft r5914873959124141441 (thread 1a10e2bc1829759c) made 10-15 16:29 UTC by another session, not scheduled. No-contact check clean. Natascha = Linz -> Europe/Vienna (CONTACT-TZ.json). Booked: send_later trig_01PAdbDYeBAzVVj2uubLyUmA, Fri 10-16 06:32 UTC (08:32 Linz); re-checks the draft still exists first. Next: touch 3 ~Fri 10-30, overdue ~11-06.
+
+## 2026-10-15 ~20:35 UTC (cloud) - Funnel G2 touch 2 status (Spencer: "check the other G2s and book them")
+Live Gmail: touch 2 already SENT 10-15 16:21-16:27 UTC by another session, same threads, no replies/bounces: Bleu Hayes/TVA (1a111330a0779b60), Jonathan Ray/Smithsonian (1a111321e0d406ac), Amanda Baumgart/Nat Geo (1a10e654b89ae7dd), Mito Habe-Evans/NPR (1a10e2f2ab743931), Roland Luitgaarden/F5 (1a10e1f26325248c). Tracker rows 171, 172, 194-196 -> Follow-Up Sent, Last Contact 10/15 (J/K untouched). Sergio Manzo/Siemens scheduled in Gmail 10-16 06:32 UTC; Natascha/Siemens Energy booked 10-16 06:32 UTC (entry above).
+Roll-forward: G2 touch 3 (final) reminder Thu 10-29 (day 14), overdue Thu 11-05. Siemens + Siemens Energy (sent 10-16) -> Fri 10-30 / Fri 11-06.
+
+## 2026-10-16 ~13:55 UTC (cloud) - send_window_guard fixed; Siemens Energy touch 2 rebooked Mon 10-19
+The 10-15 booking (trig_01PAdbDYeBAzVVj2uubLyUmA, Fri 10-16 06:32 UTC) did not send. send_window_guard.py blocked drafts/send with "no recipients on record for draft r5914873959124141441", even after a full GET. Cause: in its PostToolUse branch, json.dumps(tool_response) left the MCP text's newlines as literal \n, so the To/Cc/Bcc regex never matched and the recipient cache was never written. **Fixed 10-16:** the hook now un-escapes \n first. Its block message now says to GET drafts/<id> with no limit/offset (?format=metadata is fine). Tested with fake events: the cache filled, a send at 10:00 local was allowed, a send at 03:54 local was blocked, and an unknown draft was blocked. The 08:32-15:00 window is unchanged. Also reworded a hook comment that tripped no_script_sends.py whenever a command read the file.
+Live 10-16 13:54 UTC: the draft still exists (To natascha.ladstaetter@siemens-energy.com) and the fixed guard cached it. No-contact check is clean: only the 10-06 pitch (1a10ff644a15954c), nothing inbound from siemens-energy.com, the only other matches are Spencer's own digests. It was 15:54 in Linz, past the window, so it was not sent today.
+**Booked:** send_later trig_01CR2ojfi3gZ7qXt43cpK61V, Mon 10-19 06:32 UTC (08:32 Linz, CEST) into the live session session_01Nwd4B2k7FiKwZBzfngWPpj. It re-GETs the draft and re-runs the no-contact check before sending. The archived chat's duplicate wake-up trig_01DLL5tbgHwyLxLoYbNMUJZA (same minute) is DISABLED so the two can't race. Miguel/Audible's trig_018JbhWUuZFMgfwaFCbyFAF6 (Tue 10-20) is untouched and still fires into the archived chat (see memory/2026-10-16.md).
+Roll-forward once sent: touch 3 reminder Mon 11-02, overdue Mon 11-09.
+
+## 2026-10-16 ~14:00 UTC - Miguel Barbieri / Audible: HOLD, no email touch 2
+Spencer: waiting for his LinkedIn reply (voice note sent 10-15), no email. Draft in Drafts (thread 1a0f2af3b310e139) on hold; never auto-send or schedule it. trig_018JbhWUuZFMgfwaFCbyFAF6 disabled. Corrects the archive note in memory/2026-10-16.md.
+
+## 2026-10-16 ~14:10 UTC (cloud) - Miguel = Tue reminder only; Natascha backstop
+**Miguel Barbieri / Audible (migbarbi@audible.com, thread 1a0f2af3b310e139): REMINDER Tue 2026-10-20, Spencer sends it himself. Never auto-send, never schedule, never book a trigger for it.** Spencer, 10-16: "Make a note to email Miguel on Tuesday, but don't schedule anything ... if he sends a LinkedIn message before and then we send an email that's scheduled, then it looks [bad]. It looks like we're not in sync." Tue digest: list him under "drafts need you" with "check LinkedIn first: if he replied there, answer on LinkedIn and drop the email; if not, send the draft yourself (08:32-15:00 NY)." The HOLD in the entry above still stands for every routine: it is not a cold touch 2 to auto-send. trig_018JbhWUuZFMgfwaFCbyFAF6 stays disabled (checked 14:05 UTC).
+**Natascha / Siemens Energy backstop:** send_later trig_01CR2ojfi3gZ7qXt43cpK61V fires into session_01Nwd4B2k7FiKwZBzfngWPpj, which Spencer is archiving, so it may not run. Treat her as a cold touch 2 DUE Mon 2026-10-19 with no working booked send. If draft r5914873959124141441 isn't in Sent when the Mon 07:15 UTC digest runs (09:15 Linz, inside the window), the digest runs the no-contact check and sends it then (GET the draft with no limit/offset first). Check Sent first, so the two never double-send.

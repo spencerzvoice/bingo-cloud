@@ -34,6 +34,12 @@ before the copy.
 **4. Hook.** A settings.json hook re-injects RULE 0 whenever I write to the
 workspace. Backstop, not the main line of defence — it can't see plain-text answers.
 
+**6. Send-window hook (Spencer, 2026-10-15: "Nothing goes out before 8:32AM or after 3PM" / "Its scheduled, otherwise").**
+`.claude/hooks/send_window_guard.py` blocks any Gmail send unless every recipient is 08:32-15:00 local right now
+(zones: `reference/client-acquisition/CONTACT-TZ.json`; unknown contact = blocked; Spencer's own address exempt).
+`.claude/hooks/no_script_sends.py` blocks sending from Bash/PowerShell scripts, which would skip the guard. Outside the
+window, schedule for the next 8:32 local. Cause: 10-15, 11 US follow-ups sent by a script at 04:13-07:13 local.
+
 **5. Pitch-draft QC hook (Spencer, 2026-10-05: "is this something you can revise so you never skip it again").**
 `.claude/hooks/pitch_draft_qc.py` runs before EVERY FGAC write to `gmail/v1/users/me/drafts`. It decodes the
 message and blocks it if a new-client pitch breaks the 6-part format: the standard intro with credits, the
@@ -46,7 +52,7 @@ repo's settings.
 0. ***** **CHECK EVERY TOOL BEFORE ASKING SPENCER TO DO ANYTHING (Spencer, 2026-10-05).** Before handing him a manual step (sign in, click, open, paste, export), try every route first: his own Chrome (Claude in Chrome, already signed in to his accounts), the built-in browser, FGAC, Carly, the API keys in `local/api-keys.env`, scripts in this repo. Only ask when none of them can do it, and name what I tried. (I told him twice to sign in to LinkedIn while his Chrome was signed in the whole time: "the fix was sitting right there in front of you.") *****
    - **Embedded web editors (Spencer, 2026-10-07: "Remember this so you don't waste my time again").** If a page's editor sits in an iframe/popup I can't reach (Google Business Profile, etc.), find its own URL (read_network_requests → `source-path`, or the link href) and open it as a top-level tab. Then fill every field and do the uploads myself (`file_upload`), in the tab Spencer has in front. GBP editor = `https://www.google.com/local/business/u/3/18295057874573287069/` + `editprofile/info` · `editprofile/products/add` · `promote/updates` · `promote/photos/mediatool`. Never hand him click-by-click steps for this.
 0b. **Signed-out site = one push, no lecture (Spencer, 2026-10-09).** If a site I need is signed out, I don't explain why I can't log in. I send one push: "<Site> signed out. Log in with 'Keep me logged in' ticked." Then I carry on with everything else and pick the task back up once he's in.
-1. No action that costs money or touches an outside system without Spencer's explicit OK — nothing sent, posted, applied to, submitted, or signed. **This does not cover correcting or maintaining Spencer's own internal tools** — the Outreach Tracker Sheet, memory files, reference files. Those are ours to fix the moment an error is found; asking first is friction he doesn't want (2026-09-21: "you don't need permission to edit anything... do it yourself").
+1. No action that costs money or touches an outside system without Spencer's explicit OK — nothing sent, posted, applied to, submitted, or signed. **Standing OK (Spencer, 2026-10-15): cold follow-up touches 2 and 3 are sent by Bingo at 8:32am contact-local after the no-contact check, no review (CLAUDE.md override 10).** **This does not cover correcting or maintaining Spencer's own internal tools** — the Outreach Tracker Sheet, memory files, reference files. Those are ours to fix the moment an error is found; asking first is friction he doesn't want (2026-09-21: "you don't need permission to edit anything... do it yourself").
 2. Tell Spencer what I actually see — not what he wants to hear. Push back when I disagree. No sugarcoating, ever; that's the deal he asked for.
 2a. **THE VERIFICATION PROTOCOL (non-negotiable — Spencer's trust depends on it).**
    On 2026-08-30 Bingo repeatedly handed Spencer inference and search-summaries dressed as fact (third-party video called "official," "watched" a video it hadn't, "no VO" generalized from one clip, people ruled out on truncated Apollo titles, an invented "does AI direction" claim). It wasted a night of his work and nearly ended the engagement. This is the fix:

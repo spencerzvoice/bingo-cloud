@@ -1,6 +1,59 @@
 # House cold-pitch template
 
-## v4, CURRENT (Spencer, 2026-10-13): his own Calm + Premier Padel drafts
+## v6, CURRENT (Spencer, 2026-10-14 evening): his Cloudflare draft + "Audio Engineer"
+Source: Spencer rewrote the Cloudflare (Jessica Liu) and 360Learning callbacks himself (Gmail draft `r-3222776882488975685`): "Instead of 'and any other content,' we're going to switch it to 'and any other news coming out of the company.'" Same evening: "capitalize 'Audio Engineer' in all first-touch drafts ... Not All Caps...Just Audio Engineer". All unsent pitch drafts rebuilt 2026-10-14. `.claude/hooks/pitch_draft_qc.py` enforces both.
+**What changed vs v5:** Spencer's exact wording (2026-10-14): "My name is Spencer Pearman and I'm a professional Voiceover Artist and Audio Engineer based in Lisbon, Portugal. I'd love to voice the videos that come out of [Company], especially those spreading the word about [Event] and any other company news." So: "Audio Engineer" title case (never all caps); the intro splits into two sentences at "Portugal."; the callback is "especially those spreading the word about <event> and any other company news." (was "especially the ones that spread the word about <event> and other content."). Everything else is v5 word for word.
+
+```
+[cloud-built drafts only] <span style="background-color:#ffff00">[NOT READY: Bingo's LinkedIn check pending for <Name>, <Title>, <Company>. Bingo deletes this line once it passes]</span>
+
+Hello <First>, hope you're doing well!
+
+Saw <Company> just <event>. <reaction>. Congrats on the <launch>!! <span style="background-color:#ffff00">[Source: <a href="URL">Publication, Mon D, YYYY</a>. Delete this before sending]</span>     (v2 hook rules; leave out if no hook)
+
+My name is Spencer Pearman and I'm a professional Voiceover Artist and Audio Engineer based in Lisbon, Portugal. I'd love to voice the videos that come out of <Company>, especially those spreading the word about <event, short plain words> and any other company news.
+   (no hook: "...based in Lisbon, Portugal. I'd love to voice the videos that come out of <Company>.")
+
+To give you an idea of my voice, I re-voiced your <a href="<Drive link or https://drive.google.com/REPLACE-WITH-SAMPLE-LINK>">"<exact video title>"</a> <video|spot>. I'd appreciate it if you gave it a listen!
+   (no video picked yet: the title text is VIDEO TITLE PENDING)
+
+My standard turnaround is within 24 hours and within 2-3 hours for rush projects. My recent work includes <3 credits, table below>, plus the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball. You can see more of my work at spencerzvoice.com.
+
+I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!
+
+Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
+```
+
+---
+
+## v5 (Spencer, 2026-10-14) - history, superseded by v6 (callback + "Audio Engineer" only): his Docebo send
+Source: Spencer's Docebo pitch to Manny Gonzalez, sent 2026-10-14 17:36 Lisbon (Gmail `1a13b45f68359792`): "Check out the format for Docobo and apply that to all first touches. The link to the re-voice comes directly after the intro and before I talk about my 24-hour turnaround, my credits, and all that stuff." All 43 unsent pitch drafts (Funnels I, J, K, L, P) were rebuilt to v5 the same afternoon. `.claude/hooks/pitch_draft_qc.py` enforces it.
+**What changed vs v4:** the re-voice paragraph moves up to sit right after the intro sentence, and its opener is now "To give you an idea of my voice, I re-voiced your ..." (the v4 "Also, so you can hear how my voice meshes well with your content" opener is retired). Everything else is v4 word for word.
+
+```
+[cloud-built drafts only] <span style="background-color:#ffff00">[NOT READY: Bingo's LinkedIn check pending for <Name>, <Title>, <Company>. Bingo deletes this line once it passes]</span>
+
+Hello <First>, hope you're doing well!
+
+Saw <Company> just <event>. <reaction>. Congrats on the <launch>!! <span style="background-color:#ffff00">[Source: <a href="URL">Publication, Mon D, YYYY</a>. Delete this before sending]</span>     (v2 hook rules; leave out if no hook)
+
+My name is Spencer Pearman and I'm a professional Voiceover Artist and audio engineer based in Lisbon, Portugal, and I'd love to voice the videos that come out of <Company>, especially the ones that spread the word about <event, short plain words> and other content.
+   (no hook: "...based in Lisbon, Portugal. I'd love to voice the videos that come out of <Company>.")
+
+To give you an idea of my voice, I re-voiced your <a href="<Drive link or https://drive.google.com/REPLACE-WITH-SAMPLE-LINK>">"<exact video title>"</a> <video|spot>. I'd appreciate it if you gave it a listen!
+   (no video picked yet: the title text is VIDEO TITLE PENDING)
+
+My standard turnaround is within 24 hours and within 2-3 hours for rush projects. My recent work includes <3 credits, table below>, plus the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball. You can see more of my work at spencerzvoice.com.
+
+I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!
+
+Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
+```
+Paragraphs are separated by `<br><br>`. Sports variant, credits table, hook rules and exceptions: as v4/v2 below.
+
+---
+
+## v4 (Spencer, 2026-10-13) - history, superseded by v5 (re-voice line position + opener only): his own Calm + Premier Padel drafts
 Source: Spencer rewrote the Calm (Daniel Szeto) and Premier Padel (Yasmine Akki) pitches himself, then said: "copy that format over to the other drafts in Funnel Q and the Ramp draft and save this as the newest pitch in our memory." He confirmed the rush line reads "2-3 hours". All 9 Funnel Q + Ramp drafts and all 10 Funnel I drafts were rebuilt to v4 on 2026-10-13; the 11 Funnel Q/Ramp/Calm/Premier Padel pitches were scheduled for Tue 10-13, 8:32 AM recipient-local. `.claude/hooks/pitch_draft_qc.py` enforces v4 and rejects the v3 lines.
 **What changed vs v3:** intro back to "professional Voiceover Artist and audio engineer based in Lisbon, Portugal"; callback "especially the ones that spread the word about <event> and other content"; turnaround line "My standard turnaround is within 24 hours and within 2-3 hours for rush projects."; FIFA/EuroLeague named in full ("the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball"); website line "You can see more of my work at spencerzvoice.com."; re-voice line opens "Also, so you can hear how my voice meshes well with your content, I re-voiced your ..."; close "I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!"
 **Unchanged:** greeting, hook paragraph and its v2 rules (below), "!!" on the congrats line, the credits table, "meshes well with your content", no em/en dashes, the yellow [NOT READY], [VERIFY EMPLOYMENT] and [Source] marker lines, the Pushkin exception. Spencer's own hook/take text stays word for word. He often personalises the callback per draft ("...and any other news you might have coming up!"); keep his version.

@@ -4,6 +4,8 @@
 
 The A–M letters in `FUNNELS.md` / `ROSTER.md` describe *what kind of client* a company is. They collide with the cohort letters (e.g. Roster "D" = Corporate L&D, Drive "D" = the 4 Sept cohort). Approved 09-24: that taxonomy becomes named **Segments**, not letters (posted to HANDOFF.md).
 
+**Folder layout (Spencer, 2026-10-14: "I only see the funnels that are to be done"):** the top of `Client Outreach/` holds only the funnels still in play (H-R today) plus `Ableton Template Project/` (scripts point at that path, so it stays put). A funnel moves into `Client Outreach/_Done - Sent Funnels/` the moment its last pitch is sent or dropped (no unsent drafts with its Gmail label, nothing STAGED). Its Drive IDs and sample links don't change. A-G2 moved there 2026-10-14; H too, same day (Apple, the only unsent H company, moved to Funnel Q). CrowdReply, Contact CSV, Direct and the send-order doc are in `_Admin & Other Clients/`.
+
 Status verified 2026-09-24 against live Gmail (`in:sent`, `drafts`), the tracker sheet and the Drive folders.
 
 ## A — design-led SaaS (6) · sent 08-31, bumped 09-11, final touch scheduled 09-29
@@ -152,7 +154,6 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Airwallex | Fintech and payments | Steven Watson | Matt Jennings | **DRAFTED 2026-10-06** — Apollo re-verified, email steven.watson@airwallex.com Verified; no current verifiable hook found (the "wrecking ball" brand campaign found is dated Aug 2025) — drafted HOOK NEEDED |
 | Plaid | Fintech and payments | Heather Mounsey | Linda Eliasen | **DRAFTED 2026-10-06** — Apollo re-verified, email hmounsey@plaid.com Verified; the Tearsheet.co rebrand/Heather Mounsey quote lead was opened 10-06 and confirmed real but dated Mar 11 2025 — too stale — drafted HOOK NEEDED |
 | micro1 | Developer and infrastructure platforms (AI data lab; Spencer's own past client) | Daniel Warner | none | **DRAFTED 2026-10-06 (desktop, Spencer request, fills Smithsonian's slot)**: CMO since Mar 2025, live LinkedIn /details/experience/ opened 10-06 + same-day Apollo; daniel@micro1.ai Verified, ZeroBounce valid. Hook = micro1's PersonalAgentBench launch video (LinkedIn, Oct 6 2026, watched: Whisper script + frames); re-voice = that same video, package built (Drive `Funnel H/micro1/`). Draft names Spencer's micro1 Expert work. Gmail label Funnel H. **SCHEDULED by Spencer for Wed 10-07 16:32 Lisbon** (msg 1a116fe314c4cc3f, his own edits to the hook/background/bridge, take linked); tracker row 173; touch 2 Wed 10-14 |
-| Apple | Consumer brands / tech (Spencer's own LinkedIn lead) | Mariana Loza (Producer; accepted Spencer's LinkedIn connect 10-08) | none | **PACKAGE BUILT 2026-10-08 (desktop, Spencer request)**: "Introducing the new Apple Watch Series 12" (2026-09-09, 100 s, male announcer, NOVOX OK 0.94, script gate OK, MAKE VIDEO button). Latest-launch rule: the iPhone 18 Pro / Duo / Watch 1-min films are music-only. mariana.loza@apple.com Verified. No email or draft yet; awaiting Spencer's take |
 
 ### Funnel I
 | Company | Segment | Primary | Backup | Roster note |
@@ -220,7 +221,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | N-able | Cybersecurity vendors | Madden Meiners | Alberto Bravo | STAGED 2026-10-13 (queue cap) -> Madden Meiners; hook Dundee hub + SOC (Jul 16) |
 | Proofpoint | Cybersecurity vendors | Nicholas Radcliffe | Daniel Morales | STAGED 2026-10-13 (queue cap) -> Daniel Morales (Sr Dir Creative); hook Protect 2026 (Sep 21) |
 | SANS Institute | Cybersecurity vendors | Vincent Sarageno | Nicholas Wessel | STAGED 2026-10-13 (queue cap) -> Vincent Sarageno; hook AI Security Fellowship with CyberSafe (Sep 29) |
-| Sophos | Cybersecurity vendors | Rick Colina | Hannah Wallace | STAGED 2026-10-13 (queue cap) -> Rick (Jason) Colina; hook AI Defense launch (Oct 13) = re-voice (swap built) |
+| Sophos | Cybersecurity vendors | Rick Colina | Hannah Wallace | STAGED 2026-10-13 (queue cap) -> Rick Colina (greeting "Rick" per his LinkedIn name, Spencer 10-14; email jason.colina@); hook AI Defense launch (Oct 13) = re-voice (swap built) |
 | Tenable | Cybersecurity vendors | Christiano Dias | Sean Carnell | STAGED 2026-10-13 (queue cap) -> Stewart Devlin (VP Creative); hook Project Watershed (Aug 31) |
 | WatchGuard | Cybersecurity vendors | Wes Warfield | Cortney Albrecht | STAGED 2026-10-13 (queue cap) -> Cortney Albrecht (Creative Director); hook IMPACT North America, Rai (Oct 5) |
 
@@ -265,6 +266,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Tennessee Valley Authority | Corporate and industrial in-house | Bleu Hayes | Marc Murano | BANKED — no hook verified yet · MOVED to Funnel G2 2026-10-05 |
 | Ørsted | Corporate and industrial in-house | Pelle Iversen | Jacob Søndergaard | DRAFTED 2026-10-13 (other session, Pelle Iversen) |
 | Schneider Electric | Corporate and industrial in-house | Ajay Seethala | Christophe Doré | DRAFTED 2026-10-13 -> Deepika Upadhyay (Web Content Producer, weak fit); hook Schneider Charge |
+| Lambda Films | Creative and production studios | Ryan Stone (Creative Director) | — | BANKED · ADDED to Funnel P 2026-10-14 (Spencer: "Add Ryan Stone to an upcoming funnel"; P = production studios, slot left by Siemens/TVA -> G2). Voices.com client: Ryan S. (Norfolk UK, 31 reviews) posted job #875557 "AI agent corporate video" 2026-10-09, Spencer auditioned. Identified 2026-10-09: LinkedIn linkedin.com/in/ryanstone (Creative Director, Lambda Films Ltd., Norwich). Never mention Voices in the pitch. Email not looked up yet: Apollo match + waterfall at draft time. Drive `Funnel P/Lambda Films/Ready to Link to Drafted Email/` built 10-14. **PACKAGE BUILT 2026-10-14 (desktop): re-voice = Solarport "Made of Star Stuff" (Lambda-produced, 92s, male narrator), NOVOX OK, SCRIPT CHECK OK, Ableton + MAKE VIDEO button; awaiting Spencer's take.** Draft only when the pitch queue has room (cap 20) |
 
 ### Funnel Q
 | Company | Segment | Primary | Backup | Roster note |
@@ -280,6 +282,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | On | Consumer brands and travel | Freddie Young | Luiza Baffa | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Cloudsurfer 3 unveil, On Pressroom Sep 15 2026 (no official launch video confirmed) |
 | Patagonia | Consumer brands and travel | Tristan Ahern | Vanina Lucas | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; no hook (nothing in 90 days) |
 | Premier Padel | Sport (league/tour) | Yasmine Akki | Pol Espinet | DRAFTED 2026-10-09 off-funnel (Spencer's pick); ADDED to Funnel Q 2026-10-12 (Spencer: "add Yasmine to the next Funnel to go out"; Q = the cohort going out now, sport/consumer fit, open slot left by Siemens Energy -> G2). Gmail label Funnel Q; Drive folder moved Direct -> Funnel Q, Ableton links repaired; re-voice "Born to Shine" |
+| Apple | Consumer brands / tech (Spencer's own LinkedIn lead) | Mariana Loza (Producer; accepted Spencer's LinkedIn connect 10-08) | none | **MOVED from Funnel H to Q 2026-10-14 (Spencer; H fully sent, H folder archived). Take not recorded, no email yet.** **PACKAGE BUILT 2026-10-08 (desktop, Spencer request)**: "Introducing the new Apple Watch Series 12" (2026-09-09, 100 s, male announcer, NOVOX OK 0.94, script gate OK, MAKE VIDEO button). Latest-launch rule: the iPhone 18 Pro / Duo / Watch 1-min films are music-only. mariana.loza@apple.com Verified. No email or draft yet; awaiting Spencer's take |
 
 ### Funnel R
 | Company | Segment | Primary | Backup | Roster note |
