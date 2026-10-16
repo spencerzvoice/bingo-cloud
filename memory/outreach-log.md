@@ -481,3 +481,7 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 ## 2026-10-16 — Patrick (Acclaim), Portia (Coast2Coast), Geminesse (CPKC) follow-ups [SENT by Spencer]
 - Sent by Spencer ~19:37-19:39 Lisbon from Bingo's drafts, with his edits (Gmail-verified 10-17). Patrick = touch 2; Portia = touch 3, new commercial reel via spencerzvoice.com; Geminesse = Stripe payment update + check-in + reel.
 - Follow up on: Patrick ~10-30; Portia LT1 ~2027-01-14; Geminesse ~11-19.
+
+## 2026-10-16 — Funnel P scheduled (7) for Mon 10-19 08:32 recipient-local [Spencer's go]
+- Schneider (Deepika Upadhyay), Maersk (Cameron Robertson), Ørsted (Pelle Iversen), THE LINE (Nick Miller), Lambda Films (Alex Morris), Hornet (Marty Geren, reel line), Nexus Studios (Kristin Glushon, reel line). Gmail Scheduled verified. Tracker rows 229-235 (Status Scheduled), J:K re-pasted.
+- Follow up on: touch 2 window 10-26 to 10-29. APS kept unsent by Spencer.

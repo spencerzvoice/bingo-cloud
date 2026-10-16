@@ -413,3 +413,14 @@ Spencer deleted the touch-2 draft (live Gmail 10-16: no draft or scheduled mail 
 ## 2026-10-17 (desktop) - Patrick, Portia, Geminesse SENT by Spencer 10-16
 Live Gmail: Spencer sent all three himself Fri 10-16 ~19:37-19:39 Lisbon, with his own edits (drafts gone, SENT in the same threads): Geminesse 1a1460108ad4a486 (Stripe click-to-pay update + "anything new coming up" + reel), Patrick 1a1460282b4aa7b5 (touch 2 + "or just hop into recording for you all"), Portia 1a14603725e367af (touch 3, reel + website, "I'd love to be considered"). No replies yet.
 **Roll-forward:** Patrick Nadjarians touch 3 (final) reminder Fri 2026-10-30, overdue Fri 2026-11-06 (zone unknown, add to CONTACT-TZ before sending). Portia Scott: sequence done -> LT1 Thu 2027-01-14 (Dec blackout). Geminesse Johnson (warm): check-in Thu 2026-11-19, bring something new. Cameron Choate: PARKED, no touch (see 10-16 entry). Tracker rows 94, 96, 197 updated + Patrick's surname (Nadjarians) filled.
+
+## 2026-10-16 ~20:05 UTC (desktop) - Funnel P SCHEDULED for Mon 2026-10-19 08:32 recipient-local (Spencer: "All Funnel P projects are ready to be scheduled Monday at 8:32am local time")
+Gmail Schedule send via Spencer's Chrome; verified with FGAC in:scheduled label:"Funnel P" = 7. Cold touch 2 window Mon 10-26 to Thu 10-29 (day 7-10), send 08:32 contact-local after the no-contact check; touch 3 day 14 after touch 2.
+- Deepika Upadhyay / Schneider Electric | deepika.upadhyay@schneider-electric.com | thread 1a1361b52c5aec6a | Asia/Kolkata | 04:02 Lisbon
+- Cameron Robertson / Maersk | cameron.robertson@maersk.com | thread 1a1361a122974cfb | Europe/Copenhagen | 07:32 Lisbon
+- Pelle Iversen / Ørsted | xpaxe@orsted.com | thread 1a13573948e1e488 | Europe/Copenhagen | 07:32 Lisbon
+- Nick Miller / THE LINE | nick@thelineanimation.com | thread 1a135742ac831219 | Europe/London | 08:32 Lisbon
+- Alex Morris / Lambda Films | alex@lambdafilms.co.uk | thread 1a146255447f2bad | Europe/London | 08:32 Lisbon
+- Marty Geren / Hornet | martyg@hellohornet.com | thread 1a1357438cfffa34 | America/New_York | 13:32 Lisbon
+- Kristin Glushon / Nexus Studios | kristin.glushon@nexusstudios.com | thread 1a135743138e7e1d | America/Los_Angeles | 16:32 Lisbon
+APS (Funnel P): NOT drafted, kept as is by Spencer 10-16 (take recorded; every aps.com address catch-all).
