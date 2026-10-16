@@ -86,10 +86,27 @@ if not any(d in to for d in CUSTOM_REACHING_OUT_DOMAINS):
     need("based in Lisbon, Portugal. I'd love to", "v6 intro + reaching-out sentence (two sentences, split at 'Portugal.')")
 need("My standard turnaround is within 24 hours and within 2-3 hours for rush projects", "v4 turnaround line (Spencer 10-13: '2-3 hours')")
 need("My recent work includes", "credits paragraph")
-need("You can see more of my work at", "v4 website line")
+# NO-VIDEO variant (Spencer, 2026-10-16, Hornet: "If there's not usable video ... we don't re-voice a video, we point
+# them to my website and past work and commercial reel"; then "Cut the repeat 'You can see more of my work' sentence").
+# Used when a client's re-voice pick is NO GOOD MATCH (VIDEO-PICKS.md). The reel line takes the re-voice line's place.
+REEL_LINE = ("To give you an idea of my voice, you can hear my commercial reel and past work on my website. "
+             "I'd appreciate it if you gave it a listen!")
+no_video = REEL_LINE.lower() in text.lower()
+if no_video:
+    ban(r"You can see more of my work at", "website line in a no-video pitch (Spencer 10-16: the reel line replaces it)")
+    ban(r"re-voiced your|VIDEO TITLE PENDING|REPLACE-WITH-SAMPLE-LINK", "re-voice line/marker in a no-video pitch")
+    if "spencerzvoice.com/#reel" not in content or "spencerzvoice.com/#spots" not in content:
+        fails.append("no-video reel line must link 'commercial reel' to https://spencerzvoice.com/#reel and "
+                     "'past work' to https://spencerzvoice.com/#spots")
+    _l = text.lower()
+    _i, _r, _t = _l.find("my name is spencer pearman"), _l.find("you can hear my commercial reel"), _l.find("my standard turnaround")
+    if min(_i, _r, _t) >= 0 and not (_i < _r < _t):
+        fails.append("no-video order: the reel line must sit between the intro sentence and 'My standard turnaround'")
+else:
+    need("You can see more of my work at", "v4 website line")
 # NO-SAMPLE exceptions = Spencer's own call per client, never Bingo's (2026-10-07: Pushkin Industries is audio-only,
 # every trailer is read first-person by its host, 3 checks found nothing to re-voice -> "Go with 2", pitch without one).
-if not any(d in to for d in NO_SAMPLE_DOMAINS):
+if not any(d in to for d in NO_SAMPLE_DOMAINS) and not no_video:
     # v5 (Spencer's Docebo send, 2026-10-14): the re-voice line comes RIGHT AFTER the intro sentence and BEFORE the
     # turnaround/credits paragraph, and opens "To give you an idea of my voice, I re-voiced your ...".
     need("To give you an idea of my voice, I re-voiced your", "v5 re-voice line (title or VIDEO TITLE PENDING)")
