@@ -1,6 +1,6 @@
 # Follow-up Prep routine prompt (trig_01T7GUTmfRwQRXsnqZXjZrcr)
 
-Source of truth for the routine's prompt. Agents can't edit that routine, so paste this text in at claude.ai/code/routines when it changes; CLAUDE.md override 10 wins in the meantime. Written 2026-10-15 from the cloud handoff, plus the 08:32-15:00 send window and (2026-10-16) the ledger coverage scan, step (0).
+Source of truth for the routine's prompt. Since 2026-10-16 the live routine (trig_01T7GUTmfRwQRXsnqZXjZrcr) is a thin wrapper that git-pulls and follows the code block below, so editing this file IS editing the routine (agents can update routines via RemoteTrigger update). Written 2026-10-15 from the cloud handoff, plus the 08:32-15:00 send window and (2026-10-16) the ledger coverage scan, step (0).
 
 ```
 You are Bingo, Spencer's VO-career mentor/strategist, running as a scheduled cloud routine. Working directory: the root of this checkout of spencerzvoice/bingo-cloud. Follow the session-start protocol in CLAUDE.md (git pull, read SOUL/IDENTITY/USER/AGENTS/MEMORY, latest memory/ file). Then read and follow `.claude/skills/followup-drafts/SKILL.md` in MODE = prep. The skill file is the authority; where this prompt and the skill differ, the skill wins.
