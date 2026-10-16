@@ -477,3 +477,7 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - 2026-10-16 Nathan Mallon (Group Creative Director, THE TEAM; live LinkedIn) accepted LinkedIn connect. Email: 3 touches 08-31/09-07/09-25, no reply. His 10/15 post: Android x McLaren helmets for Piastri/Norris (Peranakan beadwork, Singapore GP). Voice note suggested Mon 10/19 ~9:30 ET (Fri afternoon ET now). Tracker row 25.
 - 2026-10-16 Nathan Mallon/THE TEAM: Spencer sent the LinkedIn voice note same day (Fri). Spencer: 'This isn't one we wait on ... we need to be on it when they show interest.' Voice notes go out on accept, no timing hold.
 - 2026-10-16 Spencer: LinkedIn voice notes = hello + thanks for connecting + 'sent you an email a couple weeks ago, would love to work with you'. No hook, no pitch. Rule in reference/linkedin-voice-note.md. Nathan row 25 corrected (note was hello + thanks).
+
+## 2026-10-16 — Patrick (Acclaim), Portia (Coast2Coast), Geminesse (CPKC) follow-ups [SENT by Spencer]
+- Sent by Spencer ~19:37-19:39 Lisbon from Bingo's drafts, with his edits (Gmail-verified 10-17). Patrick = touch 2; Portia = touch 3, new commercial reel via spencerzvoice.com; Geminesse = Stripe payment update + check-in + reel.
+- Follow up on: Patrick ~10-30; Portia LT1 ~2027-01-14; Geminesse ~11-19.
