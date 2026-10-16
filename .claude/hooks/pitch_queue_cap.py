@@ -17,6 +17,9 @@ from email import policy
 CAP = 20
 FRESH_SECONDS = 600
 STATE = os.path.join(os.path.expanduser("~"), ".claude", "bingo_pitch_queue.json")
+# One-off exceptions Spencer approves in chat, per recipient address (remove the entry once that draft exists).
+# 2026-10-16 Spencer: "Yes, one-off exception: create the Lambda draft to Alex Morris now even though the queue is over 20."
+CAP_EXCEPTIONS = ()  # alex@lambdafilms.co.uk used + removed 2026-10-16 (draft r7294973271141785164)
 COUNT_PATH = 'gmail/v1/users/me/drafts?q=subject:"A voice for"&maxResults=200'
 
 data = json.load(sys.stdin)
@@ -93,7 +96,16 @@ if event == "PreToolUse" and tool.endswith("google_api_modify") and is_pitch_cre
             "in Drafts). Call google_api_get with path exactly " + COUNT_PATH + " (no offset/limit), then retry. "
             "The count is good for 10 minutes.\n")
         sys.exit(2)
-    if s.get("count", 0) >= CAP:
+    _to = ""
+    try:
+        _b = ti.get("body") or {}
+        _b = json.loads(_b) if isinstance(_b, str) else _b
+        _raw = _b["message"]["raw"]
+        _to = str(email.message_from_bytes(base64.urlsafe_b64decode(_raw + "=" * (-len(_raw) % 4)),
+                                           policy=policy.default).get("To", "")).lower()
+    except Exception:
+        pass
+    if s.get("count", 0) >= CAP and not any(x in _to for x in CAP_EXCEPTIONS):
         sys.stderr.write(
             "BLOCKED by pitch_queue_cap: Drafts already holds %d new-client pitch drafts; the cap is %d "
             "(Spencer, 2026-10-13). Do NOT create this draft. Keep the built payload as a STAGED spec in the funnel's "

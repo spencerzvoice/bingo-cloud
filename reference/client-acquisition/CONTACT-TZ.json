@@ -50,7 +50,6 @@
   "m.zaifert@draftkings.com": "America/New_York",
   "ewearmouth@netskope.com": "Europe/London",
   "janet.klinke@hitachirail.com": "Europe/Berlin",
-  "natascha.ladstaetter@siemens-energy.com": "Europe/Vienna",
   "sergio.manzo@siemens.com": "Europe/Berlin",
   "eleanor.scott@toasttab.com": "Europe/London",
   "bhayes2@tva.gov": "America/New_York",
@@ -65,5 +64,7 @@
   "jen.vladimirsky@robinhood.com": "America/New_York",
   "r.luitgaarden@f5.com": "America/Los_Angeles",
   "amanda.baumgart@natgeo.com": "America/New_York",
-  "mhabeevans@npr.org": "America/New_York"
+  "mhabeevans@npr.org": "America/New_York",
+  "alex@lambdafilms.co.uk": "Europe/London",
+  "cameron.robertson@maersk.com": "Europe/Copenhagen"
 }
