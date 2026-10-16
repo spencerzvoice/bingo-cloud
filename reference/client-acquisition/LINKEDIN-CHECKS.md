@@ -147,3 +147,6 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-13 | Jackie Bright | Arctic Wolf | linkedin.com/in/jackie-bright | "Sr Director, Brand Programs & Events, Arctic Wolf, Dec 2024 - Present" | PASS
 2026-10-13 | Matt Van Dzura | Cash App | linkedin.com/in/mattvandzura | "Executive Producer, Brand + Integrated Marketing, Cash App, Jan 2022 - Present" | PASS
 2026-10-13 | Francis Basco | Chime | linkedin.com/in/francisbasco | "Video Producer, Chime, Jan 2025 - Present" | PASS
+2026-10-16 | Cedric Owens | Arizona Public Service | linkedin.com/in/cedric-owens-a7019581 | "Video Producer, Arizona Public Service - APS, Aug 2026 - Present" | PASS
+2026-10-16 | Stephanie Schuyler | Arizona Public Service | linkedin.com/in/stephanie-schuyler | "Leader, Creative Services, Arizona Public Service - APS, Apr 2026 - Present" | PASS
+2026-10-16 | Alex Morris | Lambda Films | linkedin.com/in/atmmorris | "Commercial Director, Lambda Films, Jun 2009 - Present" | PASS
