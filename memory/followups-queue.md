@@ -395,3 +395,6 @@ Method: live Gmail (FGAC, read-only): every thread Spencer started since 2026-08
 - Unanswered inbound: Paul Wilkerson (Elaine Craig team) 10-11 (digest already flags).
 - Bounces with no working email: Melissa Parsons (Octagon), Valeria (Domestika), Thinkific (all 3 addresses bounced 09-29; Kevin Cho pitched separately). Kyle Osher (Asana) dropped.
 - Warm touch 3 for Gillis/Kane/Ballam/Leisher/Poullet still waiting on Spencer's word (window to Fri 11-06).
+
+## 2026-10-16 ~14:35 UTC (desktop) - Natascha touch 2 SCHEDULED in Gmail
+Natascha Ladstaetter / Siemens Energy: Gmail Schedule send (Chrome) for Mon 2026-10-19 7:32 AM Lisbon = 06:32 UTC = 08:32 Linz. Verified live: in:scheduled msg 1a152dc1ff2b7e96, thread 1a10e2bc1829759c; draft r5914873959124141441 is gone from Drafts. No-contact check re-run clean 10-16 (only digests mention her). Cloud backstop trig_01CR2ojfi3gZ7qXt43cpK61V DISABLED (duplicate risk). Touch 3 reminder Fri 10-30, overdue Fri 11-06.
