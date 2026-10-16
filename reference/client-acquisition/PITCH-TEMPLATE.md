@@ -26,6 +26,15 @@ Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
 
 ---
 
+### v6 NO-VIDEO variant (Spencer, 2026-10-16: "If there's not usable video for Hornet then we don't re-voice a video, we point them to my website and pass work and commercial reel"; then "Cut the repeat 'You can see more of my work' sentence")
+Use only when the client's re-voice verdict in VIDEO-PICKS.md is NO GOOD MATCH. Replace the re-voice paragraph with:
+```
+To give you an idea of my voice, you can hear my <a href="https://spencerzvoice.com/#reel">commercial reel</a> and <a href="https://spencerzvoice.com/#spots">past work</a> on my website. I'd appreciate it if you gave it a listen!
+```
+and end the turnaround/credits paragraph at "...the Preview of the Season for EuroLeague Basketball." (no "You can see more of my work at spencerzvoice.com."). Everything else is v6. `pitch_draft_qc.py` enforces it (REEL_LINE). First used 2026-10-16: Hornet (Marty Geren), Nexus Studios (Kristin Glushon).
+
+---
+
 ## v5 (Spencer, 2026-10-14) - history, superseded by v6 (callback + "Audio Engineer" only): his Docebo send
 Source: Spencer's Docebo pitch to Manny Gonzalez, sent 2026-10-14 17:36 Lisbon (Gmail `1a13b45f68359792`): "Check out the format for Docobo and apply that to all first touches. The link to the re-voice comes directly after the intro and before I talk about my 24-hour turnaround, my credits, and all that stuff." All 43 unsent pitch drafts (Funnels I, J, K, L, P) were rebuilt to v5 the same afternoon. `.claude/hooks/pitch_draft_qc.py` enforces it.
 **What changed vs v4:** the re-voice paragraph moves up to sit right after the intro sentence, and its opener is now "To give you an idea of my voice, I re-voiced your ..." (the v4 "Also, so you can hear how my voice meshes well with your content" opener is retired). Everything else is v4 word for word.
