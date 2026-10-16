@@ -373,3 +373,6 @@ The 10-15 booking (trig_01PAdbDYeBAzVVj2uubLyUmA, Fri 10-16 06:32 UTC) did not s
 Live 10-16 13:54 UTC: the draft still exists (To natascha.ladstaetter@siemens-energy.com) and the fixed guard cached it. No-contact check is clean: only the 10-06 pitch (1a10ff644a15954c), nothing inbound from siemens-energy.com, the only other matches are Spencer's own digests. It was 15:54 in Linz, past the window, so it was not sent today.
 **Booked:** send_later trig_01CR2ojfi3gZ7qXt43cpK61V, Mon 10-19 06:32 UTC (08:32 Linz, CEST) into the live session session_01Nwd4B2k7FiKwZBzfngWPpj. It re-GETs the draft and re-runs the no-contact check before sending. The archived chat's duplicate wake-up trig_01DLL5tbgHwyLxLoYbNMUJZA (same minute) is DISABLED so the two can't race. Miguel/Audible's trig_018JbhWUuZFMgfwaFCbyFAF6 (Tue 10-20) is untouched and still fires into the archived chat (see memory/2026-10-16.md).
 Roll-forward once sent: touch 3 reminder Mon 11-02, overdue Mon 11-09.
+
+## 2026-10-16 ~14:00 UTC - Miguel Barbieri / Audible: HOLD, no email touch 2
+Spencer: waiting for his LinkedIn reply (voice note sent 10-15), no email. Draft in Drafts (thread 1a0f2af3b310e139) on hold; never auto-send or schedule it. trig_018JbhWUuZFMgfwaFCbyFAF6 disabled. Corrects the archive note in memory/2026-10-16.md.
