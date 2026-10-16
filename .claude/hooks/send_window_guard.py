@@ -12,7 +12,7 @@
 #     PostToolUse on google_api_get of drafts/<id> and on google_api_modify draft create/update.
 #     No cached recipients = BLOCK with "GET the draft first".
 #   Outside the window the fix is to SCHEDULE: the block message prints the next weekday 08:32 local in UTC.
-# Sends from scripts (key + urllib/curl) are blocked separately by no_script_sends.py, so this hook sees them all.
+# Sends from scripts (temp key + an HTTP client) are blocked separately by no_script_sends.py, so this hook sees them all.
 import base64, datetime, email, json, os, re, sys
 from email import policy
 from email.utils import getaddresses
@@ -79,7 +79,9 @@ if event == "PostToolUse":
     try:
         resp = data.get("tool_response")
         text = resp if isinstance(resp, str) else json.dumps(resp)
-        text_u = text.replace('\\"', '"').replace("\\\\", "\\")
+        # json.dumps turns the MCP text block's newlines into literal \n, which broke the To/Cc/Bcc regex below
+        # (2026-10-16: Natascha/Siemens Energy draft blocked as "no recipients on record" after a full GET).
+        text_u = text.replace("\\n", "\n").replace('\\"', '"').replace("\\\\", "\\")
         c = load_cache()
         m = re.search(r"gmail/v1/users/[^/]+/drafts/(r-?\d+)$", path)
         if tool.endswith("google_api_get") and m:
@@ -119,7 +121,8 @@ try:
             rcpts = load_cache().get(did)
             if not rcpts:
                 block("no recipients on record for draft %s. First call google_api_get with path "
-                      "gmail/v1/users/me/drafts/%s?format=metadata so the guard can read To/Cc/Bcc, then retry." % (did, did))
+                      "gmail/v1/users/me/drafts/%s (no limit/offset; ?format=metadata is fine) so the guard can read "
+                      "To/Cc/Bcc, then retry." % (did, did))
     if not rcpts:
         block("couldn't read any recipient address from this send; failing closed.")
     rcpts = [r for r in rcpts if r not in SELF]
