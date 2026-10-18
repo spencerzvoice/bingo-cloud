@@ -485,3 +485,5 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 ## 2026-10-16 — Funnel P scheduled (7) for Mon 10-19 08:32 recipient-local [Spencer's go]
 - Schneider (Deepika Upadhyay), Maersk (Cameron Robertson), Ørsted (Pelle Iversen), THE LINE (Nick Miller), Lambda Films (Alex Morris), Hornet (Marty Geren, reel line), Nexus Studios (Kristin Glushon, reel line). Gmail Scheduled verified. Tracker rows 229-235 (Status Scheduled), J:K re-pasted.
 - Follow up on: touch 2 window 10-26 to 10-29. APS kept unsent by Spencer.
+
+- 10-18 (cloud prep): 8 touch-3 drafts for Mon 10-19 created, unsent; Toby Riley (2U) held (LinkedIn reply 10-14), Adrien Colon (Descript) held (voice note 10-08), touch 3 -> Thu 10-22. See followups-queue.md.
