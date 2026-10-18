@@ -8,8 +8,8 @@ All four old routines are disabled, not deleted. Their prompts are copied below 
 ## Orchestration
 1. `git pull`. Read CLAUDE.md (Routine overrides win over everything below).
 2. Run `date -u +%H`.
-   - **Before 12 UTC (the 03:05 run):** Stage 0, then Stage 1, then Stage 2, then Stage 3, in that order, one at a time. A stage that fails, stalls or drafts nothing does not stop the next one; note it and move on. Stages 1-3 always read the live draft bodies themselves, never a memory log's claim about them. Exception: if Stage 0 finds the FGAC business mailbox is not reachable, stop the whole run and push that blocker.
-   - **12 UTC or later (the 13:05 run):** Stage 3 only.
+   - **Before 12 UTC (the 03:05 run):** Stage 0, then Stage 1, then Stage 2, then Stage 3, in that order, one at a time, then Stage 4. A stage that fails, stalls or drafts nothing does not stop the next one; note it and move on. Stages 1-3 always read the live draft bodies themselves, never a memory log's claim about them. Exception: if Stage 0 finds the FGAC business mailbox is not reachable, stop the whole run and push that blocker.
+   - **12 UTC or later (the 13:05 run):** Stage 3, then Stage 4.
 3. Usage: CLAUDE.md routine override 7 applies across the whole run (one stage at a time; at most 3 subagents in flight inside Stage 0 and Stage 1). On a session-limit / rate-limit error: stop starting work, commit + push, send the one push with where it stopped.
 4. Each stage commits and pushes its own log as written.
 5. **End with ONE PushNotification** (status "proactive", under ~300 chars) combining the saved lines, most urgent first: blockers, possible LEFT contacts, new drafts + HOOK NEEDED names, drafts missing a video title, then hooks/drafts cleared. If no stage saved a line, push nothing.
@@ -206,3 +206,12 @@ STEPS
 5. Log one line per contact in reference/client-acquisition/LINKEDIN-CHECKS.md: 'YYYY-MM-DD | Name | Company | URL | "public profile company: <shown_company> (<source>)" | API-PASS / API-MISMATCH / API-HIDDEN'. Append one line to memory/<today>.md. git add those files, commit 'linkedin-api-check: <date> - P pass, M mismatch, H hidden', push.
 6. Only if something was cleared or mismatched, save a line for the combined push, e.g. 'LinkedIn API check: 6 drafts cleared (ready to send). 1 possible LEFT: <Name>. 2 left for desktop check.' If nothing needed checking, send nothing.
 Final message: cleared / mismatch / hidden / skipped lists with reasons.
+
+## Stage 4 - Scheduled-draft sender (added 2026-10-18; Spencer: "These need to be scheduled, that is a part of the routine")
+Why: cloud routine sessions have no one-shot scheduler (no create_trigger / send_later), so a Follow-up Prep run cannot book an 8:32-local send. The recurring runs are the schedule: every Morning Build run (03:05 and 13:05 UTC) sends whatever cold touch 2/3 drafts are DUE and already drafted, to each contact whose local time is inside 08:32-15:00 RIGHT NOW. Nothing else changes: Spencer's standing permission (CLAUDE.md override 10), the send window and the no-contact check all still apply.
+1. Read the draft queue + ledger in `memory/followups-queue.md`. Candidates = cold touch 2/3 drafts (threaded replies, Spencer's exact touch-2/touch-3 text) whose reminder date is today or earlier, still unsent (draft id still in Gmail Drafts, no matching SENT message in the thread). Warm, LT, HOLD, PARKED and flagged rows never send.
+2. Per candidate, zone from `reference/client-acquisition/CONTACT-TZ.json` (missing = skip and list it). Print the table: contact | zone | local time now | send now / next run. Only "08:32-15:00 local now" sends. A contact still before 08:32 or past 15:00 waits for the next run.
+3. NO-CONTACT CHECK again right now (skill Step 1.6). Contacted = skip, roll the ledger clock, say why.
+4. Send: `google_api_get gmail/v1/users/me/drafts/<id>?format=metadata`, then FGAC `google_api_modify` `gmail/v1/users/me/drafts/send`, one call per draft. Never from a script.
+5. Record: queue row `sent <date>`, ledger next date, tracker row (Status, Last Contact, Notes; never J/K), outreach-log, commit + push. One push only if something was sent or held: "Sent N follow-ups (<names>); held M (<why>)."
+Coverage by run: 03:05 UTC = Australia/Asia contacts (Melbourne 14:05); 13:05 UTC = Eastern/Central Europe-late/Americas-east (New York 09:05); the Follow-up Prep run (17:00 UTC) = Pacific (10:00). Europe is covered by the 07:15 UTC Digest.
