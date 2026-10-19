@@ -214,4 +214,4 @@ Why: cloud routine sessions have no one-shot scheduler (no create_trigger / send
 3. NO-CONTACT CHECK again right now (skill Step 1.6). Contacted = skip, roll the ledger clock, say why.
 4. Send: `google_api_get gmail/v1/users/me/drafts/<id>?format=metadata`, then FGAC `google_api_modify` `gmail/v1/users/me/drafts/send`, one call per draft. Never from a script.
 5. Record: queue row `sent <date>`, ledger next date, tracker row (Status, Last Contact, Notes; never J/K), outreach-log, commit + push. One push only if something was sent or held: "Sent N follow-ups (<names>); held M (<why>)."
-Coverage by run: 03:05 UTC = Australia/Asia contacts (Melbourne 14:05); 13:05 UTC = Eastern/Central Europe-late/Americas-east (New York 09:05); the Follow-up Prep run (17:00 UTC) = Pacific (10:00). Europe is covered by the 07:15 UTC Digest.
+Coverage by run: 03:05 UTC = Australia/Asia (Melbourne 13:05-14:05); 13:05 UTC = UK all year, Central Europe in winter, US Eastern only until early Nov; US contacts are covered all year by the Follow-up Prep run at 08:40 Pacific (`CRON_TZ=America/Los_Angeles`, Sun-Fri); Central Europe in summer by the 07:15 UTC Digest.

@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-16_
+_Last updated: 2026-10-19_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -108,7 +108,7 @@ Private/financial context (tax, property, music, personal) lives in **`local/per
 - **Standard Gmail connector is stale** (misses recent messages). Use FGAC `google_api_get` on `gmail/v1/users/me/...` for anything time-sensitive.
 - Read the **full thread** (attachments, script/contract names) to identify the real end client.
 - No Google Contacts tool (contact info from Gmail search). HubSpot connector available, not connected.
-- **Active routines** (Spencer 10-07): Morning Build `trig_01RN6tiRmzaHdq2NJSzmQxVN`, Re-Voicing, Daily Digest `trig_01MNvx5DJ7fG6ivUmJh2Bxj6` (07:15 UTC, styled HTML via `scripts/digest_render.py` since 10-14), Follow-up Prep (17:00 Sun–Thu), Weekly Check-in (Mon). To change one, edit its prompt in `reference/client-acquisition/routines/`. Disabled routines stay disabled; only Spencer deletes them. 🟡 Crons are UTC: recheck after the Oct 25 clock change.
+- **Active routines** (Spencer 10-07): Morning Build `trig_01RN6tiRmzaHdq2NJSzmQxVN`, Re-Voicing, Daily Digest `trig_01MNvx5DJ7fG6ivUmJh2Bxj6` (07:15 UTC, styled HTML via `scripts/digest_render.py` since 10-14), Follow-up Prep (08:40 Pacific Sun–Fri, `CRON_TZ=America/Los_Angeles`, so US sends survive clock changes; Spencer 10-19), Weekly Check-in (Mon). To change one, edit its prompt in `reference/client-acquisition/routines/`. Disabled routines stay disabled; only Spencer deletes them. Crons are UTC unless prefixed `CRON_TZ=`; a send-capable run must land 08:32-15:00 local for every CONTACT-TZ zone in summer AND winter time.
 - **Wispr Flow Pro:** 6 months free from 2026-08-27 (code PETERWISPRFLOW), auto-renew cancelled, runs out ≈ late Feb 2027; then check whether it earned a place.
 
 ---
