@@ -488,3 +488,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 
 - 10-18 (cloud prep): 8 touch-3 drafts for Mon 10-19 created, unsent; Toby Riley (2U) held (LinkedIn reply 10-14), Adrien Colon (Descript) held (voice note 10-08), touch 3 -> Thu 10-22. See followups-queue.md.
 - 2026-10-19 13:15 UTC: touch 3 SENT to Alice Lamey (Skillsoft) and Rebecca Dole (Sprout Social) by Morning Build Stage 4.
+- 2026-10-19 (cloud prep): touch 3 sent 15:32 UTC to Smartsheet, Box, Dropbox, Intercom, Splunk contacts. 11 touch-2 + 4 touch-3 drafts created for Tue 10-20 (see followups-queue.md); sends blocked until CONTACT-TZ.json gets their zones (edit denied). Ledger coverage: 154 / 127 / 27 exempt / 0 missing.

@@ -42,8 +42,15 @@ K = None
 
 
 def get(p):
+    import time
     r = urllib.request.Request(B + p, headers={"Authorization": "Bearer " + K})
-    return json.load(urllib.request.urlopen(r, timeout=55))
+    for i in range(5):
+        try:
+            return json.load(urllib.request.urlopen(r, timeout=55))
+        except (urllib.error.URLError, ConnectionError, OSError):
+            if i == 4:
+                raise
+            time.sleep(2 * (i + 1))
 
 
 def list_ids(q):
