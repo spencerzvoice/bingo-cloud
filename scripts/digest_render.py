@@ -10,9 +10,8 @@ Usage:
 Writes next to the input:
     digest-<date>.html  - the HTML body (open it in a browser to preview)
     digest-<date>.txt   - plain-text version (for the log; not sent)
-    digest-<date>.raw   - base64url RFC 2822 message, ready for
-                          FGAC google_api_modify POST gmail/v1/users/me/messages/send
-                          with body {"raw": <file contents>}
+    digest-<date>.raw   - base64url RFC 2822 message; upload it with scripts/digest_upload.py
+                          and send the draft by id (DIGEST-ROUTINE-PROMPT.md Step 5.3)
 
 Input JSON (every list optional; empty lists hide their section):
 {
