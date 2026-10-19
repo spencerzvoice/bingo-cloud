@@ -487,3 +487,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - Follow up on: touch 2 window 10-26 to 10-29. APS kept unsent by Spencer.
 
 - 10-18 (cloud prep): 8 touch-3 drafts for Mon 10-19 created, unsent; Toby Riley (2U) held (LinkedIn reply 10-14), Adrien Colon (Descript) held (voice note 10-08), touch 3 -> Thu 10-22. See followups-queue.md.
+- 2026-10-19 13:15 UTC: touch 3 SENT to Alice Lamey (Skillsoft) and Rebecca Dole (Sprout Social) by Morning Build Stage 4.
