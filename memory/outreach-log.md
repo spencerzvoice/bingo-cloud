@@ -495,3 +495,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
   - Not covered (not funnel pitches): the 4 PT studios emailed 10-13, Ami Hooking-Snorton (IMG reconnect).
 - 2026-10-20 Spencer: no LinkedIn connects for Ami Hooking-Snorton (IMG, not production) or the 4 PT studios. Leave them out of connect sweeps.
 - 2026-10-20: Matinée Multilingual (UK agency, voices@matinee.co.uk): roster application emailed by Spencer 13:11 Lisbon with 3 dry demos (corporate/narration/eLearning). Follow up on 2026-11-03 if no reply.
+- 2026-10-20: JB Voices (London agency, jbvoices.co.uk): intake form submitted by Bingo on Spencer's OK, confirmation 'Welcome to the family!'. Check ~2026-11-03.
