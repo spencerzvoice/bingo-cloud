@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-19_
+_Last updated: 2026-10-20_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -95,6 +95,7 @@ Private/financial context (tax, property, music, personal) lives in **`local/per
 
 - **Invoicing:** sequential `NL-YYYY-###`, next = **NL-2026-008** (007 = Altra sizzle 10-05; checked 10-08). ReportLab PDF template. **Card payments from companies = Stripe link, not Wise** (Wise cost ~9 days with Altra/VF, 10-14).
 - **Website, logo, brand, IG/LinkedIn posting, HyperFrames, file storage:** [[website-and-brand]]. Key rules: site deploy = build + wrangler + commit to `spencerzvoice/spencerzvoice-site`; profile photos stay his FACE, logo only on banners (10-07); @spearman13 is his personal channel, never brand it; LinkedIn About is first person; Intch = scam.
+- **AI-search listings: free profiles only** (Spencer 10-20, on Gravy for the Brain: "definitely not... if it's only a paid account"). Don't pitch paid memberships/directories as visibility fixes.
 - **Every video = HyperFrames** (Spencer 10-12); re-voice reels = Samsung S26 formula, posted as a Collab with @_spencerzachary. Detail: [[website-and-brand]], `reference/revoice-reel-formula.md`.
 - **Verify before delete** (Spencer 10-06): identical copy at the new home AND the backup, Recycle Bin only. Storage map: [[website-and-brand]].
 - Has a personal commitment the last week of Nov 2026 — less available then (detail in `local/`).
