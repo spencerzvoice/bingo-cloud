@@ -40,6 +40,9 @@ workspace. Backstop, not the main line of defence — it can't see plain-text an
 `.claude/hooks/no_script_sends.py` blocks sending from Bash/PowerShell scripts, which would skip the guard. Outside the
 window, schedule for the next 8:32 local. Cause: 10-15, 11 US follow-ups sent by a script at 04:13-07:13 local.
 
+**7. Follow-up queue (Spencer, 2026-10-20: "They should not even hit my draft box" / "This needs to be done offline").**
+Cold touches 2/3 are rows in the Follow-up Queue Sheet, sent offline by the Apps Script "Bingo Follow-up Sender" at 09:04 / 10:13 contact-local (CLAUDE.md override 10). `.claude/hooks/followup_queue_guard.py` blocks any touch 2/3 Gmail draft or send from a session. Done = sent: a run that leaves a due touch 2/3 neither queued nor sent hasn't finished. Cause: 10-15..10-19 the routines kept leaving touch 2/3 drafts in Drafts and Spencer had to ask four times; every fix was a sentence in a prompt, never tested on a real run.
+
 **5. Pitch-draft QC hook (Spencer, 2026-10-05: "is this something you can revise so you never skip it again").**
 `.claude/hooks/pitch_draft_qc.py` runs before EVERY FGAC write to `gmail/v1/users/me/drafts`. It decodes the
 message and blocks it if a new-client pitch breaks the 6-part format: the standard intro with credits, the
