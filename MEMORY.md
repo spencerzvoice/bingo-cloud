@@ -52,7 +52,7 @@ Get Spencer out of the low-rate bracket and into higher-paying, longer, **repeat
 - **Alicia Beekman** (alicia@ddoagency.com) — warm alumni connection, made the intro. **Allie Silber** (allie@ddoagency.com) — Head of LA/NY VO, the decision-maker.
 - Allie 08-05: "I love your voice!" but wanted more training first; 08-24: a workshop beats a new demo, "putting yourself in your reads".
 - Elaine Craig VO Pro 1 done 2026-09-19 (notes: [[elaine-craig-workshop-2026-09-19]]: warmth/soften, bedtime-story read, always send an alternate).
-- **Resubmission SENT 2026-10-06 17:05 Lisbon** ("Hey Allie!" thread, Gmail 1a111f646b9cd269; Alicia hearted it 10-06; no reply from Allie as of 10-16, live Gmail). Nudge draft (10-14) waiting in Drafts for **Tue 10-20** (window to 10-27). Have 2 fresh reads (main + alternate) ready if she asks.
+- Resubmission sent 10-06; Spencer's nudge 10-20. **Allie replied 10-20: "resubmit after 6 months of training"** (msg 1a159fd7726be769). PARKED: no nudges; resubmit ~mid/late March 2027 with a training log + fresh reel/reads.
 
 ### Client acquisition (cold-pitch funnels)
 - Funnels A–G2 fully sent; per-funnel history in `reference/client-acquisition/FUNNEL-COHORTS.md`. Live funnels H–R (10 companies each) drafted in the CLAUDE.md 5d order; new sourcing only after R.

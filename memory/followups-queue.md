@@ -1,6 +1,7 @@
 # Follow-ups queue + schedule ledger
 
 ## PARKED: they said they'll reach out. No touches of any kind (cadence, nudge, favor, review ask) until they write first (Spencer, 2026-10-07)
+- Allie Silber / DDO (10-20): "I usually tell people to resubmit after 6 months of training - feel free to resubmit then!" No nudges. Next touch = the resubmission itself, ~mid/late March 2027 (6 months after the 9/19 workshop).
 | Company | Who said it | When (Gmail, read 2026-10-07) |
 |---|---|---|
 | Xpedition Media | Becca Winkler: "I'll be sure to reach out whenever we have something new that fits" | 07-31; again "nothing new to update" 09-28 |
@@ -203,7 +204,7 @@ Spencer sent all 4 himself Tue 10-06 ~16:05 Lisbon (Sent msgs: Retool 1a111bf6df
 Tracker fix 10-06 (desktop): 12 touch-2 rows from the 10-05 batch verified one by one in live Gmail Sent, then written. Skillsoft row 130, Box 137, Smartsheet 138, Descript 139, Intercom 140, Dropbox 141, 2U 144, Pluralsight 147, Splunk 151, Sprout 153 -> Follow-Up Sent, Last Contact 10/05, Next Action "Touch 3 (final) Mon 10/19". Goalhanger 133 + iAM 134 -> Follow-Up Sent 10/06, touch 3 Tue 10/20. Read back OK. Shell row 132 untouched (warm thread, off cadence).
 Shell / Jane Sayers (warm, 10-06): live Gmail = Jane 10-05 12:25 UTC asked for the V-Power re-voice as an attachment (firewall blocked link); Spencer sent it 10-05 13:31 Lisbon; nothing from her since. Spencer waiting. Warm nudge Mon 2026-10-19 if silent (window to 10-26). Tracker row 132 -> "Responded - Awaiting Her Reply", Last Contact 10/05.
 
-| Allie Silber, DDO (warm, rep resubmission) | 2026-10-06 (Gmail Sent 1a111f646b9cd269, verified) | 1 | warm nudge | Tue 2026-10-20 (prep Mon 10-19 eve) | Tue 2026-10-27 | thread reply; **DRAFTED 2026-10-14 (Gmail draft r-1882584763596408817, msg 1a13c88520e7c677): points to new site + revised Commercial Reel, no new reads (Spencer). Do NOT draft again; just remind on 10-20.** |
+| Allie Silber, DDO (warm, rep resubmission) | 2026-10-06; nudge sent by Spencer 2026-10-20 08:42 PT | done | REPLIED 10-20 (msg 1a159fd7726be769): resubmit after 6 months of training | PARKED | resubmit ~mid/late Mar 2027 | no touches until the resubmission; see PARKED list |
 
 ## 2026-10-06 evening prep (cloud, for Wed 2026-10-07)
 Ledger check: no reminder or overdue date falls on Wed 10-07. Next due: warm check-ins sent 09-11 (Dan Shaw, Lilah, Melissa, Mel Kane, Taylor Ballam, Devin Leisher, Poullet) reminder Thu 10-08 -> prep Wed 10-07 eve. Nothing drafted, no push, no email. Live Gmail not queried (nothing due).

@@ -505,3 +505,6 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - 2026-10-20 Kristin Glushon/Nexus Studios accepted LinkedIn connect (request sent today). Pitch sent 10/19 08:32 LA, no reply. Voice note (hello + thanks, 'email yesterday') suggested. Tracker row 235.
 - Touch 2 sent (Apps Script, 09:04 PT 10-20): Sarah Karlan (Airbnb), Christina Harp (Brooks), Tristan Ahern (Patagonia), Allison Straughan (Columbia), Naotaka Aogaki (Wilson), Karly Snajczuk (Ramp); Daniel Szeto (Calm) also sent, he has left. Follow up on: touch 3 ~2026-11-03 (auto-queued, 10:13 local).
 - Touch 3 (final) sent (Apps Script, 10:14 PT 10-20): Kasey Hickey (Retool), Stephanie Muniz (PagerDuty), Lauren Bernal (Braze), Natalie Fudge (Zendesk). Follow up on: LT1 ~2027-01-19 (new email).
+
+## 2026-10-20: Allie Silber (DDO) REPLIED
+- Spencer sent his own nudge 08:42 PT (new Commercial Reel + updated site; the 10-14 Bingo draft was replaced). Allie replied 08:45 PT, cc Alicia: "I usually tell people to resubmit after 6 months of training - feel free to resubmit then!" PARKED; resubmit ~mid/late March 2027. Tracker row 83 updated + read back.
