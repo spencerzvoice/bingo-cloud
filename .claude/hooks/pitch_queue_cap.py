@@ -19,7 +19,8 @@ FRESH_SECONDS = 600
 STATE = os.path.join(os.path.expanduser("~"), ".claude", "bingo_pitch_queue.json")
 # One-off exceptions Spencer approves in chat, per recipient address (remove the entry once that draft exists).
 # 2026-10-16 Spencer: "Yes, one-off exception: create the Lambda draft to Alex Morris now even though the queue is over 20."
-CAP_EXCEPTIONS = ()  # alex@lambdafilms.co.uk used + removed 2026-10-16 (draft r7294973271141785164)
+# 2026-10-20 Spencer: "Override the cap for Casey only and create her draft now."
+CAP_EXCEPTIONS = ()  # alex@lambdafilms.co.uk used + removed 2026-10-16 (draft r7294973271141785164); casey.daigle@calm.com used + removed 2026-10-20 (draft r-7168938727221989023)
 COUNT_PATH = 'gmail/v1/users/me/drafts?q=subject:"A voice for"&maxResults=200'
 
 data = json.load(sys.stdin)
