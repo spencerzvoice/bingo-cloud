@@ -489,3 +489,8 @@ Touch 3 final (touch 2 sent 10-06, day 14): Kasey Hickey/Retool r-99838434946388
 ## 2026-10-20 ~00:40 UTC (desktop): touch 2/3 moved to the offline send queue
 Lydia Crisp / Pluralsight touch 3 SENT 10-20 (msg 1a156993c9131dd3, 10:57 AEDT) -> cadence done, LT1 ~Tue 2027-01-19. All 8 Mon 10-19 touch-3s sent.
 Tue 10-20 touches are no longer drafts: QUEUED in the Follow-up Queue Sheet 1YVJbPnETd3gkX8dAwdHsiqijojgMlyCL_4Jaskk9aao, sent by the Apps Script at 09:04 (touch 2) / 10:13 (touch 3) local: touch 2 Sarah Karlan, Christina Harp, Tristan (Patagonia), Daniel Szeto, Allison Straughan, Naotaka Aogaki, Karly Snajczuk (US = 09:04 Pacific), Max Dickson + Ivana Milovanovic (09:04 New York), Yasmine Akki + Freddie Young (09:04 London); touch 3 Kasey Hickey, Stephanie Muniz, Lauren Bernal, Natalie Fudge (10:13 Pacific). The old drafts were absorbed and deleted by the script. From now on the queue Sheet is where touch 2/3 live; this ledger keeps the dates.
+
+## 2026-10-20 15:05 UTC (desktop): auto-sender results so far
+SENT touch 2 by the Apps Script (Gmail Sent verified): Yasmine Akki / Premier Padel 09:05 London (1a15857aa2dfc60d), Freddie Young / On 09:05 London (1a15857b7be442ba), Max Dickson / Lonely Planet 09:04 NY (1a15969642967d89), Ivana Milovanovic / Tripadvisor 09:04 NY (1a159696bb0d19af) -> touch 3 reminder Tue 2026-11-03 (day 14), overdue Fri 2026-11-06; queue at 10:13 local.
+All 8 Mon 10-19 finals: cadence done, LT1 ~Tue 2027-01-19 (new email). Tracker rows updated.
+Still QUEUED for today: 7 US touch 2s (09:04 PT) + 4 touch 3s (10:13 PT); verified by the 18:30 Lisbon check.

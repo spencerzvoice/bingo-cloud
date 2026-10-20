@@ -496,3 +496,7 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - 2026-10-20 Spencer: no LinkedIn connects for Ami Hooking-Snorton (IMG, not production) or the 4 PT studios. Leave them out of connect sweeps.
 - 2026-10-20: Matinée Multilingual (UK agency, voices@matinee.co.uk): roster application emailed by Spencer 13:11 Lisbon with 3 dry demos (corporate/narration/eLearning). Follow up on 2026-11-03 if no reply.
 - 2026-10-20: JB Voices (London agency, jbvoices.co.uk): intake form submitted by Bingo on Spencer's OK, confirmation 'Welcome to the family!'. Check ~2026-11-03.
+
+## 2026-10-20 (auto-sender, verified in Gmail Sent)
+- Touch 2 sent: Yasmine Akki (Premier Padel) 09:05 London; Freddie Young (On) 09:05 London; Max Dickson (Lonely Planet) 09:04 NY; Ivana Milovanovic (Tripadvisor) 09:04 NY. Follow up on: touch 3 ~2026-11-03 (auto-queued, 10:13 local).
+- Touch 3 (final) sent: Lydia Crisp (Pluralsight) 10:57 Melbourne 10-20; plus 10-19 finals Alice Lamey, Rebecca Dole, Kendra Sherrill, John Jordan, Bijan Rafie, Natalia De Rubira, Tom Krymkowski. Follow up on: LT1 ~2027-01-19 (new email).
