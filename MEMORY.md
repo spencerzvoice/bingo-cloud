@@ -25,7 +25,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 - Markets US (GVAA) and Europe (GFTB); clients via Voices.com, VoiceArchive, direct.
 
 ### Established credits (use in outreach, only when verified)
-FIFA World Cup 2026 Preview Series (Noah Media Group — documentary narration; episodes 1, 3, 5, 7, 9, 11, Spencer 10-15; IMDb tt43461201 lists no narrator yet) · Primal Space (YouTube animated history/science narration, e.g. "Why Inventing Color TV Was So Difficult" 2026-03-31, "Killing Russia's Most Hated Man" 2025-07-30; Spencer 10-06) · Venmo (2 national paid-social spots) · Amazon AWS · NordicTrack (incl. 2023 Holiday Campaign, 4 spots) · Cisco · Brave Browser · FootJoy · Fabletics · Condado Tacos · University of Kansas · EuroLeague (IMG) · Venum (global web + French TV) · Artlist · Travelpro · Dell Technologies.
+FIFA World Cup 2026 Preview Series (Noah Media Group — documentary narration; episodes 1, 3, 5, 7, 9, 11, Spencer 10-15; narrator credit on IMDb nm19018155 since 10-20) · Primal Space (YouTube animated history/science narration, e.g. "Why Inventing Color TV Was So Difficult" 2026-03-31, "Killing Russia's Most Hated Man" 2025-07-30; Spencer 10-06) · Venmo (2 national paid-social spots) · Amazon AWS · NordicTrack (incl. 2023 Holiday Campaign, 4 spots) · Cisco · Brave Browser · FootJoy · Fabletics · Condado Tacos · University of Kansas · EuroLeague (IMG) · Venum (global web + French TV) · Artlist · Travelpro · Dell Technologies.
 
 Full client → end-client directory and job history: [[vo-client-directory]].
 
@@ -94,7 +94,7 @@ Get Spencer out of the low-rate bracket and into higher-paying, longer, **repeat
 Private/financial context (tax, property, music, personal) lives in **`local/personal-context.md`**, desktop only, never synced. Pull it in only when he raises one of those.
 
 - **Invoicing:** sequential `NL-YYYY-###`, next = **NL-2026-008** (007 = Altra sizzle 10-05; checked 10-08). ReportLab PDF template. **Card payments from companies = Stripe link, not Wise** (Wise cost ~9 days with Altra/VF, 10-14).
-- **Website, logo, brand, IG/LinkedIn posting, HyperFrames, file storage:** [[website-and-brand]]. Key rules: site deploy = build + wrangler + commit to `spencerzvoice/spencerzvoice-site`; profile photos stay his FACE, logo only on banners (10-07); @spearman13 is his personal channel, never brand it; LinkedIn About is first person; Intch = scam.
+- **Website, logo, brand, IG/LinkedIn posting, HyperFrames, file storage:** [[website-and-brand]]. IMDb nm19018155 + Wikidata Q141791064 (10-20) are listed there too. Key rules: site deploy = build + wrangler + commit to `spencerzvoice/spencerzvoice-site`; profile photos stay his FACE, logo only on banners (10-07); @spearman13 is his personal channel, never brand it; LinkedIn About is first person; Intch = scam.
 - **AI-search listings: free profiles only** (Spencer 10-20, on Gravy for the Brain: "definitely not... if it's only a paid account"). Don't pitch paid memberships/directories as visibility fixes.
 - **Every video = HyperFrames** (Spencer 10-12); re-voice reels = Samsung S26 formula, posted as a Collab with @_spencerzachary. Detail: [[website-and-brand]], `reference/revoice-reel-formula.md`.
 - **Verify before delete** (Spencer 10-06): identical copy at the new home AND the backup, Recycle Bin only. Storage map: [[website-and-brand]].
