@@ -17,7 +17,10 @@ DENO = r"C:\Users\spenc\AppData\Roaming\Python\Python314\Scripts"
 os.environ["PATH"] = FF + os.pathsep + DENO + os.pathsep + os.environ["PATH"]
 os.environ["PYTHONIOENCODING"] = "utf-8"  # titles with full-width ':' / '|' crashed cp1252 output (Klarna, Chime, 10-06)
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-TEMPLATE = r"D:\My Drive\Client Outreach\Ableton Template Project"
+# Drive for desktop moved from D: to E: (seen 2026-10-20); use whichever drive holds My Drive.
+TEMPLATE = next((p for p in (r"E:\My Drive\Client Outreach\Ableton Template Project",
+                             r"D:\My Drive\Client Outreach\Ableton Template Project") if os.path.isdir(p)),
+                r"E:\My Drive\Client Outreach\Ableton Template Project")
 WORK = os.path.join(tempfile.gettempdir(), "revoice_work")
 FMT = "bestvideo[height<=1080][vcodec^=avc1]+bestaudio[ext=m4a]/bestvideo[height<=1080]+bestaudio/best[height<=1080]/best"
 
