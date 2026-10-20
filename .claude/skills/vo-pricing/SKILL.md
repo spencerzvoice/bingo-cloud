@@ -91,6 +91,19 @@ Quote fair market **first**, using GVAA (USD) or GFTB (EUR). Never anchor to the
 
 **Directed session fee:** 1st hour €300 · each additional €150 · standard 2-hour session €450
 
+**Corporate / internal / non-broadcast video (EUR), Spencer's filed rates.** Source: his rate sheet emailed to VoiceArchive (Anna Sticken), 2026-07-16, "RE: New potential job today" (Gmail 19f6f06221435329; read 2026-10-20). He labelled them "per Gravy for the Brain". The GFTB guide itself is members-only, and Spencer won't pay for an account (10-20), so these are 🟡 his filed rates, not guide-verified.
+| Finished runtime | Rate |
+|---|---|
+| ≤1 min | €500–750 |
+| ≤2 min | €750–1,000 |
+| ≤5 min | €1,000–1,500 |
+| ≤10 min | €1,250–2,000 |
+| ≤20 min | €1,500–2,500 |
+| ≤30 min | €2,000–3,000 |
+- Scope (his wording): "Organic / Non-Paid Video (Corporate, Brand & Explainer)", covering non-broadcast in-perpetuity use on the website, YouTube, owned social channels **and internal distribution**. In perpetuity is already included, so don't add a surcharge. Any paid promotion of the asset needs a separate commercial license (rows above).
+- ⚠️ **BSF conflict, unresolved.** The same email says the commercial rates are "inclusive of BSF". It doesn't say either way for the organic block. This card labels both blocks "BSF excluded", and past quotes added €300 BSF on top (CAPTUS, EU Defence 10-01). Until Spencer settles it, quote the organic/corporate range as the all-in figure and don't add BSF on top.
+- VoiceArchive's own default is far lower: "Video presentations (organic use only) starting from 100 EUR to record up to 600 words. Worldwide and in perp." (Anna, 2026-07-15). That's a platform floor, not a market rate. Never anchor to it.
+
 ## Licensing & scope flags — detail
 
 - **Geographic:** Worldwide justified only for genuinely global brands (Wix, EMAAR, FIFA, Manscaped, Royal Caribbean). Overreach = local businesses, regional chains, state universities, single-state services. When correcting, show worldwide fair market AND the corrected-scope rate. **Worldwide premium (Spencer's convention, 2026-09-22): ≈3× the national rate.** The current live guide doesn't publish a Worldwide tier at all (🟡 house convention, not guide-verified) — apply it as the default multiplier on the national cell instead of leaving Worldwide as an unpriced bracket.
