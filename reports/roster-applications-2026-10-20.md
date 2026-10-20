@@ -8,7 +8,7 @@ Why these four: they're the rosters ChatGPT and Claude quoted today when asked f
 | Outspoken Voices | You registered 10-07. Their email that night: "You won't be able to use your account just yet - please be patient while we check your application." It also asked you to verify your email. No approval email since. | Still in their manual review. Nudge below. Also check the 10-07 email in your Inbox: if you never clicked its verify link, click it. |
 | Voicefox (Brighton) | Submissions page: "We are currently only considering talent that is based in the UK." | **Skip.** You're not eligible. |
 | London Voice Over | Contact page: email kerrie@londonvoiceover.com with a headshot, CV and showreel (max 3 min). They reply only if interested. | Email below. |
-| JB Voices (jbvoices.co.uk, London) | "Join" Google Form; it accepts artists outside the UK ("what country or region, if not living in the UK"). Needs clean dry reels: narration, commercial, explainer. | Form answers below. Gap: no dry commercial read. |
+| JB Voices (jbvoices.co.uk, London) | "Join" Google Form; it accepts artists outside the UK ("what country or region, if not living in the UK"). Needs clean dry reels: narration, commercial, explainer. | Form answers below. All three dry reads exist in Matinee Submission. |
 | The Voiceover Gallery (London/Manchester) | No talent submission page. Only info@thevoiceovergallery.co.uk. | Short email below. Low odds. |
 
 ## 1. Outspoken nudge
@@ -78,8 +78,8 @@ spencerzvoice.com
 - Hourly rate/BSF: [your number; the site says live directed sessions are $250/hr]
 - Availability/turnaround: 24 hours standard, same-day rush
 - "Independent, no exclusive agent": [True only if that's right]
-- Uploads: headshot (site portrait) · studio photos (site booth photos, 2-3) · narration dry: Spencer_Pearman_Narration_Rasputin.mp3 · explainer dry: Spencer_Pearman_Corporate.mp3 (Acclaim) · commercial dry: **[missing: you need a clean dry commercial read with no music]** · additional: 2026 commercial + narration reels
+- Uploads: headshot (site portrait) · studio photos (site booth photos, 2-3) · narration dry: Spencer_Pearman_Narration_Rasputin.mp3 · commercial dry: Spencer_Pearman_Corporate.mp3 (Acclaim Lighting product read, rebuilt 10-20 from the dry delivery, no music; renamed "Spencer Pearman - Commercial" as the form asks) · explainer dry: Spencer_Pearman_eLearning.mp3 (no music, per the Demucs check 10-20) · additional: 2026 commercial + narration reels
 
 — Verified: submission rules (each site's own page, opened 10-20) · Outspoken status (their 10-07 email, FGAC Gmail) · credits/turnaround/Source-Connect wording (spencerzvoice.com live copy)
-— Bracketed (you fill): CV file · phone · voice age · actor · years · accents · styles · ADR · gear · London travel · rate/BSF · exclusive-agent box · dry commercial read
+— Bracketed (you fill): CV file · phone · voice age · actor · years · accents · styles · ADR · gear · London travel · rate/BSF · exclusive-agent box
 — Unknown: whether you clicked Outspoken's 10-07 verify link
