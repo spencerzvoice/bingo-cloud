@@ -509,3 +509,11 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 ## 2026-10-20: Allie Silber (DDO) REPLIED
 - Spencer sent his own nudge 08:42 PT (new Commercial Reel + updated site; the 10-14 Bingo draft was replaced). Allie replied 08:45 PT, cc Alicia: "I usually tell people to resubmit after 6 months of training - feel free to resubmit then!" PARKED; resubmit ~mid/late March 2027. Tracker row 83 updated + read back.
 - Spencer replied 10-20 16:57 Lisbon (msg 1a15a084dd6485d9, cc Alicia): "Sounds good, I will reach out again sometime next year after some more training." Thread closed warm.
+
+## 2026-10-21 - Altra Running (Tyler Gorky + Dani Coplen) - warm, retainer Phase 1 (new email, scheduled)
+- Contact: Tyler_Gorky@vfc.com + dani_coplen@vfc.com (To only, no cc; both America/Denver in CONTACT-TZ.json)
+- Hook / angle: floats a standing monthly arrangement (priority booking, set monthly rate), no numbers; asks how many VO pieces/month and what type; offers a proposal + call; mentions ES/PT
+- New email or thread reply: NEW email, subject "Keeping VO simple for Altra"
+- Status: SCHEDULED in Gmail by Bingo (Chrome, u/3) for Thu 2026-10-22 16:30 Lisbon = 09:30 MDT; Gmail Scheduled msg 1a1643bc1911c45a; draft id r7371801301546450750
+- Follow up on: Mon 2026-11-02 light follow-up if no reply (ledger row added); Phase 2 proposal only after they answer (full draft memory/2026-10-08.md)
+- Result:
