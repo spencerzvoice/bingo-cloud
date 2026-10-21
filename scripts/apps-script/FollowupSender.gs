@@ -150,6 +150,13 @@ function sendReply_(row) {
   const msgId = h(lastMsg, 'Message-ID');
   const refs = (h(lastMsg, 'References') + ' ' + msgId).trim();
   const subj = h(msgs[0], 'Subject').replace(/^(re:\s*)+/i, '');
+  // multipart/alternative like Gmail's own compose (Spencer 10-21: text/plain-only mail reached recipients as a narrow,
+  // hard-wrapped column pinned left, which reads as machine-written). HTML part = <div dir="ltr"> with <br><br> breaks.
+  const bodyText = String(row[C.body]).replace(/\r\n/g, '\n').replace(/\s+$/, '');
+  const boundary = 'bingo_' + Utilities.getUuid().replace(/-/g, '');
+  const b64 = function (str) {
+    return Utilities.base64Encode(str, Utilities.Charset.UTF_8).replace(/(.{76})/g, '$1\r\n');
+  };
   const mime = [
     'From: ' + FROM,
     'To: ' + row[C.to],
@@ -157,15 +164,51 @@ function sendReply_(row) {
     'In-Reply-To: ' + msgId,
     'References: ' + refs,
     'MIME-Version: 1.0',
+    'Content-Type: multipart/alternative; boundary="' + boundary + '"',
+    '',
+    '--' + boundary,
     'Content-Type: text/plain; charset="UTF-8"',
     'Content-Transfer-Encoding: base64',
     '',
-    Utilities.base64Encode(String(row[C.body]), Utilities.Charset.UTF_8)
+    b64(plainWrapped_(bodyText)),
+    '--' + boundary,
+    'Content-Type: text/html; charset="UTF-8"',
+    'Content-Transfer-Encoding: base64',
+    '',
+    b64(htmlBody_(bodyText)),
+    '--' + boundary + '--',
+    ''
   ].join('\r\n');
   const sent = Gmail.Users.Messages.send(
       {raw: Utilities.base64EncodeWebSafe(mime, Utilities.Charset.UTF_8), threadId: row[C.thread]}, 'me');
   if (!sent || !sent.id) throw new Error('Gmail send returned no message id');
   return sent.id;
+}
+
+/** HTML twin of the plain body, in the structure Gmail's own compose produces. */
+function htmlBody_(text) {
+  const esc = function (t) {
+    return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/'/g, '&#39;');
+  };
+  const linked = esc(text)
+      .replace(/(https?:\/\/[^\s<]+[^\s<.,;:!?)])/g, '<a href="$1" target="_blank">$1</a>')
+      .replace(/(^|\n)spencerzvoice\.com(?=\n|$)/g, '$1<a href="https://spencerzvoice.com" target="_blank">spencerzvoice.com</a>');
+  return '<div dir="ltr">' + linked.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>') + '</div>';
+}
+
+/** Plain fallback part, soft-wrapped at 72 columns like Gmail's own plain part. */
+function plainWrapped_(text) {
+  return text.split('\n').map(function (line) {
+    if (line.length <= 72) return line;
+    const out = [];
+    let cur = '';
+    line.split(' ').forEach(function (w) {
+      if (cur && (cur + ' ' + w).length > 72) { out.push(cur); cur = w; }
+      else { cur = cur ? cur + ' ' + w : w; }
+    });
+    if (cur) out.push(cur);
+    return out.join('\r\n');
+  }).join('\r\n');
 }
 
 /** 19:00 Lisbon: email Spencer who gets followed up next (his alert, works with the PC off). */
@@ -190,7 +233,7 @@ function selfTest() {
   if (!t) throw new Error('self-test thread not found');
   const row = [];
   row[C.to] = ME; row[C.thread] = t.getId();
-  row[C.body] = 'Self-test reply from the Bingo Follow-up Sender. If this sits in the same thread as the starter, threading works. Safe to delete.';
+  row[C.body] = 'Hello,\n\nSelf-test reply from the Bingo Follow-up Sender. If this sits in the same thread as the starter, threading works, and this paragraph should reflow to the full width instead of a narrow column. Safe to delete.\n\nBest,\nSpencer\nspencerzvoice.com';
   const id = sendReply_(row);
   Utilities.sleep(3000);
   const n = GmailApp.getThreadById(t.getId()).getMessageCount();

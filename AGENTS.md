@@ -43,6 +43,9 @@ window, schedule for the next 8:32 local. Cause: 10-15, 11 US follow-ups sent by
 **7. Follow-up queue (Spencer, 2026-10-20: "They should not even hit my draft box" / "This needs to be done offline").**
 Cold touches 2/3 are rows in the Follow-up Queue Sheet, sent offline by the Apps Script "Bingo Follow-up Sender" at 09:04 / 10:13 contact-local (CLAUDE.md override 10). `.claude/hooks/followup_queue_guard.py` blocks any touch 2/3 Gmail draft or send from a session. Done = sent: a run that leaves a due touch 2/3 neither queued nor sent hasn't finished. Cause: 10-15..10-19 the routines kept leaving touch 2/3 drafts in Drafts and Spencer had to ask four times; every fix was a sentence in a prompt, never tested on a real run.
 
+**8. Gmail-native HTML mail (Spencer, 2026-10-21: an email Bingo built "comes out skewed to the left ... a tell that I'm using AI").**
+Every email Bingo builds, drafts, queues or sends for Spencer is `multipart/alternative` with a `text/html` part in Gmail's own structure (`<div dir="ltr">` paragraphs joined by `<br><br>`), never `text/plain` only. Gmail re-folds plain text at ~72 columns on delivery, so recipients (Outlook, phones) see a narrow, hard-wrapped column pinned left in another font. Cause found 10-21: 70 of 208 mails sent in 14 days were plain-only (every script-sent touch 2/3 and reply, plus my API-built drafts). Build with `scripts/gmail_compose.py`; hook `.claude/hooks/html_mail_guard.py` blocks plain-only drafts/sends to anyone but Spencer; the offline sender sends HTML since 10-21.
+
 **5. Pitch-draft QC hook (Spencer, 2026-10-05: "is this something you can revise so you never skip it again").**
 `.claude/hooks/pitch_draft_qc.py` runs before EVERY FGAC write to `gmail/v1/users/me/drafts`. It decodes the
 message and blocks it if a new-client pitch breaks the 6-part format: the standard intro with credits, the

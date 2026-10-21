@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-20_
+_Last updated: 2026-10-21_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -75,6 +75,7 @@ Get Spencer out of the low-rate bracket and into higher-paying, longer, **repeat
 ## How Spencer wants outreach and pricing done
 
 - **Outreach emails:** `outreach-email` skill. Casual/direct/warm, contractions, first names; formal opener for women and older men, casual for younger men; never open with "Firstly"; never fabricate a credit or connection; sign "Best, / Spencer / spencerzvoice.com". Say whether it's a new email or a thread reply.
+- **Email format = Gmail-native HTML, never text/plain only** (Spencer 10-21: plain mail arrives skewed left and reads as AI). Helper `scripts/gmail_compose.py`, guard hook `html_mail_guard.py`, rule AGENTS.md 8; the offline follow-up sender sends HTML since 10-21 (earlier touch 2/3 sends were plain).
 - **Cold-pitch wording = `reference/client-acquisition/PITCH-TEMPLATE.md` v6 word for word** (Spencer 10-14; intro "...professional Voiceover Artist and Audio Engineer based in Lisbon, Portugal. I'd love to voice the videos that come out of [Company]..."). Enforced by `pitch_draft_qc.py`. Hook rules: CLAUDE.md override 5. Older templates (TVA model, v3, v4) are dead.
 - **Sports clients** (leagues, teams, federations, sports media/events): credits = "FIFA and EuroLeague Basketball" only (Spencer 10-12). Sporting-goods brands keep NordicTrack/Fabletics/FootJoy.
 - **Follow-ups:** cadence + ledger in the `followup-drafts` skill and `memory/followups-queue.md`. Cold touches 2/3 never sit in Drafts: queued in the Follow-up Queue Sheet and sent offline by the Apps Script "Bingo Follow-up Sender" (touch 1 08:32, touch 2 09:04, touch 3 10:13 local; Spencer 10-20; CLAUDE.md override 10); warm/LT stay drafts; Spencer gets the list by push + email the evening before. Day-before push + email before anything due (Spencer 09-25).

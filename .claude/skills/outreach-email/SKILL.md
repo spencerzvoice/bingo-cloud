@@ -215,6 +215,7 @@ something he isn't. Plain words, contractions, short paragraphs.
   draft — never batch-reuse a skeleton across emails.
 - Draft it via the **Gmail compose module** so a "Send with Gmail" button renders
   — not plain text for manual copy-paste, unless Spencer says otherwise.
+- **Format = Gmail-native HTML, never text/plain only (Spencer, 2026-10-21).** Plain-only mail reaches the recipient as a narrow, hard-wrapped column pinned left (Gmail re-folds at ~72 cols), which reads as machine-written. Build every draft/reply with `scripts/gmail_compose.py` (multipart/alternative, `<div dir="ltr">` + `<br><br>`); `html_mail_guard.py` blocks plain-only drafts and sends to anyone but Spencer.
 
 **Warm re-engagement adds:**
 - Name the exact past project and roughly when; one specific warm memory of it.
