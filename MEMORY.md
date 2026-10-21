@@ -12,7 +12,7 @@ Ground rule: this file plus `@`-imports and `reference/` is what I carry between
 
 Spencer Z. Pearman — professional non-union American voiceover artist **and** audio engineer. US citizen, based in **Lisbon, Portugal**, Portuguese tax resident. Also has a California residence (relevant to US-resident-only jobs; Spencer 09-24).
 
-- Business: **Nomadic Light LLC** (California single-member LLC). Business email **spencer@spencerzvoice.com** (the only email Bingo works from).
+- Business: **Nomadic Light LLC** (California single-member LLC). Business email **spencer@spencerzvoice.com** (the only email Bingo works from). PT phone **+351 912 081 764** (Spencer 10-21; ChatGPT already lists it); US/WhatsApp +1 (510) 316-9382 (Resume 2026).
 - Website: spencerzvoice.com (detail: [[website-and-brand]]). Resume site: spencerzvoice.caard.co.
 - Treated home studio, **Pro Tools certified** (ProMedia Training, Sept 2025). 24h standard turnaround, same-day rush.
 - **Source Connect: NO subscription** — buys a Talent 2-day license ($25) per session, ~3 uses in 7 years (told Laundry so, 09-16). Never assert he has it live.
