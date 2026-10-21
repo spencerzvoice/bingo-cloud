@@ -517,3 +517,6 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 - Status: SCHEDULED in Gmail by Bingo (Chrome, u/3) for Thu 2026-10-22 16:30 Lisbon = 09:30 MDT; Gmail Scheduled msg 1a1643bc1911c45a; draft id r7371801301546450750
 - Follow up on: Mon 2026-11-02 light follow-up if no reply (ledger row added); Phase 2 proposal only after they answer (full draft memory/2026-10-08.md)
 - Result:
+
+## 2026-10-21 — The Sketch Effect (Meg Harrison, née Easterbrook) — warm
+- New email (not a thread reply), Gmail draft r2318603344124581757, to meg@thesketcheffect.com, subject "CLEAResult Educational 101 Video". Happy to see her back on Voices.com, past Georgia Power project, can bring the price down from Voices if the client likes the read and wants to work offline. Not sent; Spencer sends.
