@@ -520,3 +520,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live top card matc
 
 ## 2026-10-21 — The Sketch Effect (Meg Harrison, née Easterbrook) — warm
 - New email (not a thread reply), Gmail draft r2318603344124581757, to meg@thesketcheffect.com, subject "CLEAResult Educational 101 Video". Happy to see her back on Voices.com, past Georgia Power project, can bring the price down from Voices if the client likes the read and wants to work offline. Not sent; Spencer sends.
+- UPDATE 2026-10-21 (later): Altra Phase 1 scheduled send CANCELLED at Spencer's request; the email is a DRAFT in Gmail (msg 1a1643bc1911c45a), Gmail Scheduled empty (FGAC in:scheduled = 0). Spencer: "I shouldn't send this now or right after the payment has gone through." Plan: Spencer sends it ~1 week after the $900 Stripe payment clears (earliest Tue 10-27), Tue-Thu 9:30am Denver; ledger row updated.
