@@ -517,3 +517,8 @@ Queue Sheet: 15/15 SENT, 0 QUEUED/HELD/ERROR; heartbeat Log!F1 17:30:59Z (fresh)
 - Touch 3 SENT 10-20 10:14 PT: Kasey Hickey/Retool (1a15a4e456061a6e), Stephanie Muniz/PagerDuty (1a15a4e4961ffd8b), Lauren Bernal/Braze (1a15a4e4fa2d473b), Natalie Fudge/Zendesk (1a15a4e52f6478fd) -> **cadence done, LT1 ~Tue 2027-01-19 (new email).**
 - (London/NY 4 already logged at 15:05 UTC.) Tracker updated: rows 149/150/152/156 Final Sent 10/20; 208/210/213/214/215/217 Follow-Up Sent 10/20 (G/I/L only).
 - 2026-10-20 13:04 PDT: Casey Daigle (Calm) pitch DRAFTED, draft r-7168938727221989023, label Funnel Q, one-off cap exception approved by Spencer in chat ("Override the cap for Casey only and create her draft now"). Pitch queue now 29. Re-voice link still REPLACE-WITH-SAMPLE-LINK until Spencer records "Moment of Calm - Aliveness". Ledger dates start when touch 1 actually goes out.
+
+## 2026-10-21 ~07:30 UTC (cloud, Digest)
+- Casey Leary Daigle / Calm touch 1 SENT 2026-10-20 21:48 UTC (Gmail 1a15b49a58a04add, thread 1a15af0ac8ffd779, real re-voice link). Touch 2 reminder Tue 2026-10-27 (day 7), overdue Fri 2026-10-30; queue at 09:04 America/Los_Angeles (zone already in CONTACT-TZ.json). Tracker row 240 added.
+- Ledger coverage (delta since 10-20 16:00): new outbound threads = Casey/Calm (now in ledger), Lori Lins audition replies (recurring agency, in ledger), Evan Kay/Rune Haus review asks (existing threads). 0 missing.
+- Still due Wed 10-21 touch 2, NOT queued (no CONTACT-TZ zone): Litmos, Absorb, Articulate, Confluent; Docebo + 360Learning held (LinkedIn voice notes). Last day Fri 10-23. Queue Sheet: 0 QUEUED, 0 HELD/ERROR, heartbeat 07:17:58Z fresh.
