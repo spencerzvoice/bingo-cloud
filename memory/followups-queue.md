@@ -545,3 +545,14 @@ Sent today by auto-sender: Jessica Liu/Cloudflare 09:04 Amsterdam (1a1626c9898fd
 Queue Sheet (read live): 0 QUEUED/HELD/ERROR. SENT since the Digest: Sue Funke/Absorb 10-22 09:04 ET (1a163b65078bae24), Matthew Hyland/Cornerstone 09:04 London (1a162a3860ee1ab7), Olivia Mitchell/Go1 09:04 London (1a162a3905fb5a70) -> touch 3 reminder Thu 2026-11-05 (day 14), overdue Fri 11-06; Jessica Liu/Cloudflare + Kevin Kartono/Vyond (1a1626c9898fde04, 1a16122fcef31426): touch 3 reminder Thu 11-05, overdue Fri 11-06.
 Due Fri 10-23: nothing new to queue. No cold touch is due that is not already sent. Still HELD (LinkedIn voice notes logged): Marta Lisboa/360Learning + Manny Gonzalez/Docebo touch 2 (last day of window Fri 10-23), Adrien Colon/Descript touch 3. Spencer's own: Audible Miguel, warm nudges Dan Haas/Craig Pentak/Jeff Fine, cold-agency LT1 batch + MacMillan LT1 (need verified new proof).
 **Follow-up queue check: drafts D 0, due N 0 (new), queued Q 0, sent S 3 (since Digest), missing M 0.** Heartbeat Log!F1 15:45:03Z fresh. No push (nothing queued for tomorrow, no HELD/ERROR rows).
+
+## 2026-10-22 ~17:55 Lisbon (desktop) — Funnel K pitches scheduled (touch 1, Fri 2026-10-23 08:32 contact-local)
+Scheduled in Gmail by Bingo at Spencer's ask ("schedule the emails to go out"); all in Gmail Scheduled, read back via FGAC. Zones = live LinkedIn 10-22, in CONTACT-TZ.json.
+- Alice Monnet / Celonis (Europe/Madrid) 08:32 Madrid = 07:32 Lisbon. Scheduled msg 1a167758f137369b, thread 1a164232d3f66ca7.
+- Andrew Wilson / Personio (Europe/Dublin) 08:32 Dublin. 1a167ac7d599fcba, thread 1a1645da6ba865e4.
+- Raven Kenemer / HashiCorp-IBM (America/New_York, Orlando) 08:32 ET = 13:32 Lisbon. 1a168bf265e343e5, thread 1a16435a7421943c.
+- Karim El-Sayed / Klaviyo (America/New_York, Salem MA) 13:32 Lisbon. 1a168bf26218e797, thread 1a1644807efb7a06.
+- Reed Jones / Okta (America/New_York) 13:32 Lisbon. 1a168bf270ec547e, thread 1a1645e6a2a0012b.
+- Jonathan Lopez / Justworks (America/New_York, Brooklyn) 13:32 Lisbon. 1a168bf2645daa25, thread 1a16479ae4caf7e3.
+Touch 2 reminder Fri 2026-10-30 (day 7), overdue Mon 11-02; queue at 09:04 contact-local after the no-contact check (LinkedIn connects to all 10 sent 10-22, pending).
+NOT SCHEDULED (blocked by the permission classifier mid-run; still drafts, ready, links verified): Helsi Robino / Amplitude, Jorge Salgado / Applied Intuition, Jack Headley / Autodesk, Matthew Moresco / DocuSign. All America/Los_Angeles -> 08:32 PT = 16:32 Lisbon. Add to the ledger when they go out.
