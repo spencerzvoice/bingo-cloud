@@ -539,3 +539,9 @@ Ledger coverage: 153 outbound threads, 124 in ledger, 24 exempt, 5 missing -> re
 - IN LEDGER (flagged, unclear): meg@thesketcheffect.com (CLEAResult video, thread 1a15f94f36cd6e96) and jscanlon9@gmail.com (Golden Road thanks, 1a160a0b9288c796): job/thank-you threads from 10-21; no cold clock, Spencer to say if a nudge is wanted.
 Sent today by auto-sender: Jessica Liu/Cloudflare 09:04 Amsterdam (1a1626c9898fde04), Kevin Kartono/Vyond 09:04 HK (1a16122fcef31426): touch 3 reminders per cadence (day 14 from 10-22). Queued: Absorb, Cornerstone, Go1. Held: Marta/360Learning, Manny/Docebo, Adrien/Descript.
 **Follow-up queue check: drafts D 0, due N 6 (3 queued, 3 held), queued Q 3, sent S 2, missing M 0.** Heartbeat Log!F1 07:22:03Z fresh.
+
+## 2026-10-22 ~15:50 UTC (cloud, Follow-up Prep, for Fri 2026-10-23)
+**Ledger coverage: 153 outbound threads, 126 in ledger, 27 exempt, 0 missing** (+68 tracker-only rows carried by name/email index; no new gaps).
+Queue Sheet (read live): 0 QUEUED/HELD/ERROR. SENT since the Digest: Sue Funke/Absorb 10-22 09:04 ET (1a163b65078bae24), Matthew Hyland/Cornerstone 09:04 London (1a162a3860ee1ab7), Olivia Mitchell/Go1 09:04 London (1a162a3905fb5a70) -> touch 3 reminder Thu 2026-11-05 (day 14), overdue Fri 11-06; Jessica Liu/Cloudflare + Kevin Kartono/Vyond (1a1626c9898fde04, 1a16122fcef31426): touch 3 reminder Thu 11-05, overdue Fri 11-06.
+Due Fri 10-23: nothing new to queue. No cold touch is due that is not already sent. Still HELD (LinkedIn voice notes logged): Marta Lisboa/360Learning + Manny Gonzalez/Docebo touch 2 (last day of window Fri 10-23), Adrien Colon/Descript touch 3. Spencer's own: Audible Miguel, warm nudges Dan Haas/Craig Pentak/Jeff Fine, cold-agency LT1 batch + MacMillan LT1 (need verified new proof).
+**Follow-up queue check: drafts D 0, due N 0 (new), queued Q 0, sent S 3 (since Digest), missing M 0.** Heartbeat Log!F1 15:45:03Z fresh. No push (nothing queued for tomorrow, no HELD/ERROR rows).
