@@ -82,6 +82,19 @@ if re.search(r"Voiceover Artist and audio engineer|AUDIO ENGINEER", text):
 ban(r"\band other content\b", "v4/v5 callback 'and other content' (v6: 'and any other company news.')")
 ban(r"any other news coming out of the company", "interim callback (v6: 'and any other company news.')")
 ban(r"especially the ones that spread the word about", "v4/v5 callback (v6: 'especially those spreading the word about ...')")
+# Callback must read as plain English after "spreading the word about": "the new brand film", "the launch of Flow",
+# never a bare title or product name (Spencer, 2026-10-22, Autodesk: "spreading the word about The World Is Yours
+# for the Making ... makes absolutely no sense"). A bare name always starts with a capital, so the first word must be
+# lowercase (the / this / its / joining ...), with no quotes, and it must not repeat the re-voice video's title.
+_cb = re.search(r"especially those spreading the word about (.+?) and any other company news", text, re.I)
+if _cb:
+    _ev = _cb.group(1).strip()
+    if not _ev[:1].islower() or re.search(r"[\"“”]", _ev):
+        fails.append("callback '" + _ev + "' is a bare title/name: write what happened, starting lowercase "
+                     "('the new brand film', 'the launch of Flow', 'the Circula acquisition'), Spencer 2026-10-22")
+    _rv = re.search(r"I re-voiced your \"?(.+?)\"? (video|spot)\b", text)
+    if _rv and _ev.lower().strip(' "') in _rv.group(1).lower():
+        fails.append("callback repeats the re-voice video title: name the event instead ('the new brand film')")
 if not any(d in to for d in CUSTOM_REACHING_OUT_DOMAINS):
     need("based in Lisbon, Portugal. I'd love to", "v6 intro + reaching-out sentence (two sentences, split at 'Portugal.')")
 need("My standard turnaround is within 24 hours and within 2-3 hours for rush projects", "v4 turnaround line (Spencer 10-13: '2-3 hours')")
