@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-21_
+_Last updated: 2026-10-22_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -18,6 +18,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 - **Source Connect: NO subscription** — buys a Talent 2-day license ($25) per session, ~3 uses in 7 years (told Laundry so, 09-16). Never assert he has it live.
 - 12+ years audio engineering (Ableton, Pro Tools, Audition, iZotope RX) across music, documentary, podcast, commercial VO. AI/TTS dataset work (micro1, Dec 2025–Jun 2026; VoiceOver LA TTS singing project 2023).
 - BS Mechanical Engineering, University of Miami, 2012.
+- Ethnicity (for forms): African-American and Pacific Islander; on a single-choice list = "Mixed" (Spencer 10-22).
 - Coaches on the site ("Coached by", 10-06): Elaine Craig (elainecraig.com), Scott Burns (bookscottburns.com). Joshua Alexander removed by Spencer.
 - Languages: English (native), Spanish + Portuguese (fluent; studies European PT). **Offers VO in all three** (10-06), but no ES/PT bookings yet, so never cite an ES/PT credit.
 - No voice descriptor in cold pitches (Spencer 10-05: the samples speak for it); never "American" or "low-register".
