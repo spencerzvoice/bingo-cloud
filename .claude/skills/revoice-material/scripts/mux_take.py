@@ -12,7 +12,12 @@ the ORIGINAL VIDEO track (VIDEO WITHOUT VOX if that one is empty): every cut, tr
 go black. No edits = picture stream-copied as before (no re-encode). Edited = re-encoded (x264 CRF 16).
 SAVE the Ableton project before double-clicking: the script sees the last save, not the open session.
 """
-import bisect, glob, html, os, re, subprocess, sys, zlib
+import bisect, glob, html, os, re, shutil, subprocess, sys, tempfile, time, zlib
+
+# Titles like Amplitude's "The New Way to Do Analytics： ..." crashed the Windows console print after the video was
+# written, so the button said "Something went wrong" (2026-10-22).
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 FF = r"C:\Users\spenc\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.1-full_build\bin"
 VIDEO_TRACKS = ("ORIGINAL VIDEO", "VIDEO WITHOUT VOX")
@@ -104,12 +109,34 @@ def duration(path):
     return float(r.stdout.strip())
 
 
+def wait_for_wav(wav):
+    """Don't read a WAV Ableton or Drive is still writing (a half-written file = cut-off or broken audio)."""
+    last = -1
+    for _ in range(30):
+        size = os.path.getsize(wav)
+        if size == last:
+            return
+        last = size
+        time.sleep(1)
+
+
+def run(cmd, tmp, out):
+    """ffmpeg into a local temp file, then move it into the Drive folder: +faststart rewrites the whole file,
+    which is slow on the Drive-streamed disk. ffmpeg's own error is printed if it fails."""
+    r = subprocess.run(cmd + [tmp], capture_output=True, text=True, encoding="utf-8", errors="replace")
+    if r.returncode:
+        sys.exit("ffmpeg failed:\n" + "\n".join(r.stderr.strip().splitlines()[-15:]))
+    shutil.move(tmp, out)
+
+
 def main():
     cdir = sys.argv[1]
     rdir = os.path.join(cdir, "Ready to Link to Drafted Email")
     wav = sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else max(glob.glob(os.path.join(glob.escape(rdir), "*.wav")), key=os.path.getmtime)
     out = os.path.join(rdir, os.path.splitext(os.path.basename(wav))[0] + ".mp4")
     ff = os.path.join(FF, "ffmpeg.exe")
+    wait_for_wav(wav)
+    tmp = os.path.join(tempfile.gettempdir(), "mux_take_" + str(os.getpid()) + ".mp4")
     als = find_als(cdir, sys.argv[3] if len(sys.argv) > 3 else None)
     try:
         clips = timeline(als)[1] if als else []
@@ -131,22 +158,17 @@ def main():
         else:
             vids = sorted(f for f in os.listdir(cdir) if f.lower().endswith((".mp4", ".mov")) and "NOVOX" not in f and "no_vocals" not in f)
             src = os.path.join(cdir, vids[0])
-        subprocess.run([ff, "-y", "-i", src, "-i", wav, "-map", "0:v:0", "-map", "1:a:0",
-                        "-c:v", "copy", "-c:a", "aac", "-b:a", "320k", "-shortest", "-movflags", "+faststart", out],
-                       check=True, capture_output=True)
+        run([ff, "-y", "-i", src, "-i", wav, "-map", "0:v:0", "-map", "1:a:0",
+             "-c:v", "copy", "-c:a", "aac", "-b:a", "320k", "-shortest", "-movflags", "+faststart"], tmp, out)
         print(f"{out}\n  picture: {os.path.basename(src)}\n  audio:   {os.path.basename(wav)}")
         return
 
     # Edited project: rebuild the picture cut for cut from the Ableton timeline.
     srcs = sorted({c[2] for c in clips})
     inputs, parts, chain, t = [], [], [], 0.0
-    for s in srcs:
-        inputs += ["-i", s]
     probe = subprocess.run([os.path.join(FF, "ffprobe.exe"), "-v", "error", "-select_streams", "v:0", "-show_entries",
                             "stream=width,height,r_frame_rate", "-of", "csv=p=0", srcs[0]], capture_output=True, text=True).stdout.strip()
     w, h, fps = probe.split(",")
-    wav_i = len(srcs)
-    inputs += ["-i", wav]
     n = 0
     for tl_in, tl_out, path, s_in, s_out in clips:
         tl_in = max(tl_in, t)  # overlapping clips: the later one wins from where it starts
@@ -155,14 +177,19 @@ def main():
             chain.append(f"[v{n}]"); n += 1
         speed = (s_out - s_in) / (tl_out - tl_in) if tl_out > tl_in else 1
         s_from = s_out - (tl_out - tl_in) * speed
-        parts.append(f"[{srcs.index(path)}:v:0]trim=start={s_from:.6f}:end={s_out:.6f},setpts=(PTS-STARTPTS)/{speed:.6f},"
+        # Each clip is its own input, seeked to its in-point (fast: no decoding from 0 to get there).
+        inputs += ["-ss", f"{s_from:.6f}", "-t", f"{s_out - s_from:.6f}", "-i", path]
+        parts.append(f"[{len(inputs) // 6 - 1}:v:0]setpts=(PTS-STARTPTS)/{speed:.6f},"
                      f"fps={fps},scale={w}:{h},setsar=1[v{n}]")
         chain.append(f"[v{n}]"); n += 1
         t = tl_out
+    wav_i = len(inputs) // 6
+    inputs += ["-i", wav]
     parts.append("".join(chain) + f"concat=n={n}:v=1:a=0[vout]")
-    subprocess.run([ff, "-y", *inputs, "-filter_complex", ";".join(parts), "-map", "[vout]", "-map", f"{wav_i}:a:0",
-                    "-c:v", "libx264", "-crf", "16", "-preset", "medium", "-pix_fmt", "yuv420p",
-                    "-c:a", "aac", "-b:a", "320k", "-movflags", "+faststart", out], check=True, capture_output=True)
+    # veryfast + CRF 18 (was medium/16): ~3x faster, still visually clean for an email sample (2026-10-22).
+    run([ff, "-y", *inputs, "-filter_complex", ";".join(parts), "-map", "[vout]", "-map", f"{wav_i}:a:0",
+         "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+         "-c:a", "aac", "-b:a", "320k", "-movflags", "+faststart"], tmp, out)
     print(f"{out}\n  picture: {len(clips)} clip(s) cut to match the Ableton edit ({os.path.basename(als)})")
     for tl_in, tl_out, path, s_in, s_out in clips:
         print(f"    {tl_in:7.2f}-{tl_out:7.2f}s  <-  source {s_in:7.2f}-{s_out:7.2f}s")
