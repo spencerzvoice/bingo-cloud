@@ -1,6 +1,7 @@
 # House cold-pitch template
 
 ## v6, CURRENT (Spencer, 2026-10-14 evening): his Cloudflare draft + "Audio Engineer"
+**2026-10-22 change (Spencer: "we're not using the word 'especially' anymore ... we're using 'like'"):** the callback reads "..., like those spreading the word about <event> and any other company news." Never "especially". The quotes below from 10-14 keep his original wording as history; the template block is current.
 Source: Spencer rewrote the Cloudflare (Jessica Liu) and 360Learning callbacks himself (Gmail draft `r-3222776882488975685`): "Instead of 'and any other content,' we're going to switch it to 'and any other news coming out of the company.'" Same evening: "capitalize 'Audio Engineer' in all first-touch drafts ... Not All Caps...Just Audio Engineer". All unsent pitch drafts rebuilt 2026-10-14. `.claude/hooks/pitch_draft_qc.py` enforces both.
 **What changed vs v5:** Spencer's exact wording (2026-10-14): "My name is Spencer Pearman and I'm a professional Voiceover Artist and Audio Engineer based in Lisbon, Portugal. I'd love to voice the videos that come out of [Company], especially those spreading the word about [Event] and any other company news." So: "Audio Engineer" title case (never all caps); the intro splits into two sentences at "Portugal."; the callback is "especially those spreading the word about <event> and any other company news." (was "especially the ones that spread the word about <event> and other content."). Everything else is v5 word for word.
 
@@ -11,7 +12,7 @@ Hello <First>, hope you're doing well!
 
 Saw <Company> just <event>. <reaction>. Congrats on the <launch>!! <span style="background-color:#ffff00">[Source: <a href="URL">Publication, Mon D, YYYY</a>. Delete this before sending]</span>     (v2 hook rules; leave out if no hook)
 
-My name is Spencer Pearman and I'm a professional Voiceover Artist and Audio Engineer based in Lisbon, Portugal. I'd love to voice the videos that come out of <Company>, especially those spreading the word about <the event, as a lowercase noun phrase: see CALLBACK RULE> and any other company news.
+My name is Spencer Pearman and I'm a professional Voiceover Artist and Audio Engineer based in Lisbon, Portugal. I'd love to voice the videos that come out of <Company>, like those spreading the word about <the event, as a lowercase noun phrase: see CALLBACK RULE> and any other company news.
    (no hook: "...based in Lisbon, Portugal. I'd love to voice the videos that come out of <Company>.")
 
 To give you an idea of my voice, I re-voiced your <a href="<Drive link or https://drive.google.com/REPLACE-WITH-SAMPLE-LINK>">"<exact video title>"</a> <video|spot>. I'd appreciate it if you gave it a listen!
@@ -25,7 +26,7 @@ Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
 ```
 
 ### CALLBACK RULE (Spencer, 2026-10-22, Autodesk: "this makes absolutely no sense")
-The callback names **what happened**, never just the thing's name. Read it aloud as "...especially those spreading the word about ___": if it doesn't sound like a person talking, rewrite it.
+The callback names **what happened**, never just the thing's name. Read it aloud as "...like those spreading the word about ___": if it doesn't sound like a person talking, rewrite it.
 - Start with a lowercase word: "the new brand film", "the new podcast season", "the launch of Flow", "the new Candidate Profile", "the Circula acquisition", "the Honda partnership", "joining the S&P 500".
 - Never a bare title, tagline or product name ("The World Is Yours for the Making", "Flow", "Shop", "Right Decisions, Right Now"), and never in quotes. A name is fine only inside a phrase ("the launch of JetBrains Air").
 - Never repeat the re-voice video's title; the re-voice line already names it, one sentence later.

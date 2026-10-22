@@ -86,7 +86,11 @@ ban(r"especially the ones that spread the word about", "v4/v5 callback (v6: 'esp
 # never a bare title or product name (Spencer, 2026-10-22, Autodesk: "spreading the word about The World Is Yours
 # for the Making ... makes absolutely no sense"). A bare name always starts with a capital, so the first word must be
 # lowercase (the / this / its / joining ...), with no quotes, and it must not repeat the re-voice video's title.
-_cb = re.search(r"especially those spreading the word about (.+?) and any other company news", text, re.I)
+# "like", never "especially" (Spencer, 2026-10-22: "we're not using the word 'especially' anymore").
+ban(r"especially those spreading the word about", "callback must read 'like those spreading the word about' (Spencer 2026-10-22)")
+if re.search(r"come out of [^.]+?, especially", text, re.I):
+    fails.append("'especially' in the intro: use 'like those spreading the word about ...' (Spencer 2026-10-22)")
+_cb = re.search(r"like those spreading the word about (.+?) and any other company news", text, re.I)
 if _cb:
     _ev = _cb.group(1).strip()
     if not _ev[:1].islower() or re.search(r"[\"“”]", _ev):
