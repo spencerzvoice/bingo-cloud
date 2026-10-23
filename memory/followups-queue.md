@@ -562,3 +562,6 @@ NOT SCHEDULED (blocked by the permission classifier mid-run; still drafts, ready
 
 ## 2026-10-23 ~12:30 Lisbon (desktop) — Voiceovers.co.uk reach-back
 - IN LEDGER (warm/roster, NOT auto-queue): Gary Churcher, info@voiceovers.co.uk, thread 1915c0293d94ec58, sent 2026-10-23 12:25 Lisbon (msg 1a1688219abd1a87). Roster ask, not a cold brand pitch, so the touch 2 template doesn't fit. Check-in reminder Fri 2026-11-06 (day 14): short nudge as a Gmail draft for Spencer.
+
+## 2026-10-23 13:10 UTC (cloud, Morning Build 13:05)
+Stage 3: 21 drafts live, 0 carry NOT READY/VERIFY lines, nothing to check. Stage 4: **Follow-up queue check: drafts D 0, due N 1 (Manny/Docebo touch 2, queued for 09:04 PT), queued Q 1, sent S 25 total, missing M 0.** Heartbeat Log!F1 13:10:03Z fresh. No push.
