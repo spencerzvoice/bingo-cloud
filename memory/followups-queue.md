@@ -568,3 +568,4 @@ Stage 3: 21 drafts live, 0 carry NOT READY/VERIFY lines, nothing to check. Stage
 
 ## 2026-10-23 ~15:30 Lisbon (desktop) — Voiceover Gurus podcast guest pitch
 - IN LEDGER (warm/media, NOT auto-queue): Linda Bruno, info@voiceover.guru, thread 1a1690d7f503e886, sent 2026-10-23 15:19 Lisbon (msg 1a16921c629279bc). Podcast guest pitch, not a cold brand pitch, so the touch 2 template doesn't fit. Check-in reminder Fri 2026-11-06 (day 14): short nudge as a Gmail draft for Spencer. Lead the nudge with Spencer's travel story (FIFA narration recorded while backpacking: closets in southern Argentina, grandma's closet in Maryland, brother's studio in Oakland; MEMORY.md 'Media/PR angle').
+- IN LEDGER (warm/media, NOT auto-queue): Linda Bruno, Voiceover Gurus, info@voiceover.guru, thread 1a1690d7f503e886, sent 2026-10-23 15:19 Lisbon. Podcast guest pitch, touch-2 template doesn't fit. Check-in reminder Fri 2026-11-06 (draft for Spencer).
