@@ -221,8 +221,8 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 | Sophos | Rick Colina | Video Producer and Editor | **extrapolated — weakest card** | Hannah Wallace — Content Marketing Manager | M | BANKED | batch-08 |
 | Tenable | Christiano Dias | Senior Video Producer | verified | Sean Carnell — Director, Corporate Communications | M | BANKED | batch-08 |
 | WatchGuard | Wes Warfield | Video Production Manager | verified | Cortney Albrecht — Creative Director | M | BANKED | batch-10 |
-| Zscaler | Luisa Avila | Creative Producer | verified | Warren Yu — Senior Video Producer | N | BANKED | batch-08 |
-| CrowdStrike | Doug Finelli | Global Executive Creative Director, Brand | verified | Zandy Ariss — Executive Creative Director, Media Studio | N | BANKED | 2026-09-24-funnel-i-m-h-k |
+| Zscaler | Luisa Avila | Creative Producer | verified | Warren Yu — Senior Video Producer | N | DRAFTED 2026-10-23 | batch-08 |
+| CrowdStrike | Doug Finelli | Global Executive Creative Director, Brand | verified | Zandy Ariss — Executive Creative Director, Media Studio | N | DRAFTED 2026-10-23 | 2026-09-24-funnel-i-m-h-k |
 | Palo Alto Networks | Melinda Carlson-Smith | Senior Video Production Manager, Creative Services Marketing | verified | Mariah Glackler — Lead Creative Producer | N | BANKED | 2026-09-24-funnel-i-m-h-k |
 | SentinelOne | Joshua Hernandez | Creative Director | verified | Ankit Pahuja — Sr. Manager, Marketing | N | BANKED | 2026-09-29-research-batch |
 | Wiz | Patrick Davis | Video & Media Content Producer | verified | Danielle Lamarca — Marketing Leader | N | BANKED | 2026-09-29-research-batch |

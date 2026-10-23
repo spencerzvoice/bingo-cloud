@@ -151,3 +151,7 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-16 | Stephanie Schuyler | Arizona Public Service | linkedin.com/in/stephanie-schuyler | "Leader, Creative Services, Arizona Public Service - APS, Apr 2026 - Present" | PASS
 2026-10-16 | Alex Morris | Lambda Films | linkedin.com/in/atmmorris | "Commercial Director, Lambda Films, Jun 2009 - Present" | PASS
 2026-10-20 | Casey Leary Daigle | Calm | linkedin.com/in/casey-leary-daigle-457074127 | "Senior Creative Producer at Calm", San Francisco Bay Area (live profile, Spencer's Chrome) | PASS
+2026-10-23 | Warren Yu | Zscaler | linkedin.com/in/warren-yu | "URL on file (apollo)" | URL-ON-FILE
+2026-10-23 | Doug Finelli | CrowdStrike | linkedin.com/in/doug-finelli-344a4a1 | "URL on file (apollo)" | URL-ON-FILE
+2026-10-23 | Warren Yu | Zscaler | https://www.linkedin.com/in/warren-yu | "public profile company: Zscaler (brightdata)" | API-PASS
+2026-10-23 | Doug Finelli | CrowdStrike | https://www.linkedin.com/in/doug-finelli-344a4a1 | "public profile company: CrowdStrike (brightdata)" | API-PASS

@@ -228,8 +228,8 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 ### Funnel N
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| Zscaler | Cybersecurity vendors | Luisa Avila | Warren Yu | STAGED 2026-10-13 (queue cap) -> Warren Yu (backup; Luisa Avila left); hook new Singapore APAC HQ office (Sep 23) |
-| CrowdStrike | Cybersecurity vendors | Doug Finelli | Zandy Ariss | STAGED 2026-10-13 (queue cap) -> Doug Finelli; hook "AI Is Nothing If It's Not Secure" spot (Sep 14) = re-voice (swap built, SCRIPT CHECK OK) |
+| Zscaler | Cybersecurity vendors | Luisa Avila | Warren Yu | DRAFTED 2026-10-23 -> Warren Yu (Apollo re-verified, email Verified); hook new Singapore office (Sep 23), Funnel N label |
+| CrowdStrike | Cybersecurity vendors | Doug Finelli | Zandy Ariss | DRAFTED 2026-10-23 -> Doug Finelli (Apollo re-verified, email Verified); hook AI Is Nothing If It's Not Secure spot (Sep 14), Funnel N label |
 | Palo Alto Networks | Cybersecurity vendors | Melinda Carlson-Smith | Mariah Glackler | STAGED 2026-10-13 (queue cap) -> Melinda Carlson-Smith (now Creative Director, Cortex); hook Cortex Agentic Endpoint Security launch film (Oct 6) = re-voice |
 | SentinelOne | Cybersecurity vendors | Joshua Hernandez | Ankit Pahuja | STAGED 2026-10-13 (queue cap) -> Joshua Hernandez; hook IDC MarketScape Leader, modern endpoint security (Oct 6) |
 | Wiz | Cybersecurity vendors | Patrick Davis | Danielle Lamarca | STAGED 2026-10-13 (queue cap) -> Ronen Aminoff (Video Lead, via search; Patrick Davis moved to L&D, Danielle Lamarca off-role); hook Forrester Wave Leader (Sep 24) |
