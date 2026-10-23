@@ -565,3 +565,6 @@ NOT SCHEDULED (blocked by the permission classifier mid-run; still drafts, ready
 
 ## 2026-10-23 13:10 UTC (cloud, Morning Build 13:05)
 Stage 3: 21 drafts live, 0 carry NOT READY/VERIFY lines, nothing to check. Stage 4: **Follow-up queue check: drafts D 0, due N 1 (Manny/Docebo touch 2, queued for 09:04 PT), queued Q 1, sent S 25 total, missing M 0.** Heartbeat Log!F1 13:10:03Z fresh. No push.
+
+## 2026-10-23 ~15:30 Lisbon (desktop) — Voiceover Gurus podcast guest pitch
+- IN LEDGER (warm/media, NOT auto-queue): Linda Bruno, info@voiceover.guru, thread 1a1690d7f503e886, sent 2026-10-23 15:19 Lisbon (msg 1a16921c629279bc). Podcast guest pitch, not a cold brand pitch, so the touch 2 template doesn't fit. Check-in reminder Fri 2026-11-06 (day 14): short nudge as a Gmail draft for Spencer.
