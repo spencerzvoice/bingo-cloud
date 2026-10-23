@@ -23,6 +23,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 - Languages: English (native), Spanish + Portuguese (fluent; studies European PT). **Offers VO in all three** (10-06), but no ES/PT bookings yet, so never cite an ES/PT credit.
 - No voice descriptor in cold pitches (Spencer 10-05: the samples speak for it); never "American" or "low-register".
 - Musician pursuing **sync placements** (detail in `local/`).
+- **Media/PR angle = the working traveller** (Spencer 10-23: "a more interesting story"): ~4 months on the road (backpacking) last year, working the whole time; most of the FIFA narration recorded in closets in southern Argentina, his grandma's closet in Maryland and his brother's studio in Oakland (Alameda County); earned "thousands of euros" on the road. Lisbon stays his base. ❓ exact dates/amounts: ask before printing them.
 - Markets US (GVAA) and Europe (GFTB); clients via Voices.com, VoiceArchive, direct.
 
 ### Established credits (use in outreach, only when verified)
