@@ -546,4 +546,4 @@ Bingo, in Spencer's Chrome, no note. Each sent only after the live profile's top
 - 2026-10-23 (cloud Prep): touch 2 QUEUED for Mon 10-26 09:04 local: Deepika Upadhyay/Schneider, Cameron Robertson/Maersk, Pelle Iversen/Ørsted, Nick Miller/THE LINE, Alex Morris/Lambda. Hornet (Marty Geren) + Nexus (Kristin Glushon) flagged: no re-voice in pitch, need Spencer-worded touch 2. Voices&Co talent team (sent 10-23) in ledger, check-in Fri 11-06.
 
 ## 2026-10-24 - Freddie Young (On): do not contact
-- Spencer: Freddie asked not to be contacted again. Sequence stopped after touch 2 (10-20); touch 3 (11-03) cancelled. Tracker row 211 = Dropped. Backup Luiza Baffa (On) untouched, no decision on her yet.
+- Freddie replied Sat 10-24 09:19 from freddie.young@on.com (msg 1a16cfed2a2360d7): "doesn't feel relevant for me right now ... please take me off your list." Spencer replied 10:58 (1a16d58adf2ac3c7): won't reach out again. Sequence stopped after touch 2 (10-20); touch 3 (11-03) cancelled. Tracker row 211 = Dropped. Backup Luiza Baffa (On) untouched, no decision on her yet.
