@@ -577,3 +577,7 @@ Stage 3: 21 drafts live, 0 carry NOT READY/VERIFY lines, nothing to check. Stage
 Later this week (not yet due): Paul Jun/Ramp + Casey Daigle/Calm touch 2 Tue 10-27; G/G2/H touch 3 Thu 10-29. Manny Gonzalez/Docebo touch 2 still QUEUED for today 09:04 PT.
 **Follow-up queue check: drafts D 0, due N 5 (+Manny today), queued Q 6, sent S 0 since Digest (Marta/360Learning sent 10-23 10:48 Paris), missing M 0.** Heartbeat Log!F1 15:47:04Z fresh.
 - 2026-10-23 (Spencer, chat): Pelle Iversen/Ørsted touch 2 body REWRITTEN in the Queue row (Spencer chatted with him on LinkedIn; Pelle said he was heading to Japan and would check the re-voice out). Custom text: mentions the LinkedIn chat, wishes a safe Japan trip, reminder to get back whenever he can, keeps the audition offer. Still sends Mon 10-26 09:04 Copenhagen. Only Ørsted.
+
+## 2026-10-24 (cloud, Spencer in chat) — Freddie Young / On: DO NOT CONTACT
+**DROPPED, sequence stopped:** Freddie Young, freddie.young@on-running.com, thread 1a1328720e93eac4. Spencer: "Freddie Young from On, doesnt want to be contacted again." Pitch 10-13 + touch 2 10-20 (1a15857b7be442ba) were the last. **Touch 3 reminder Tue 11-03 / overdue Fri 11-06 CANCELLED; no LT touch; never queue him.** Live check 10-24: no queued/draft row in the Queue Sheet; Gmail thread holds only Spencer's 2 outbound (no reply there, so he said it off-email). Tracker row 211 = Dropped + DO NOT CONTACT note.
+EXEMPT: freddie.young@on-running.com | thread 1a1328720e93eac4 | asked not to be contacted (dropped, do not contact) | 2026-10-24

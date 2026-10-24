@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-23_
+_Last updated: 2026-10-24_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -60,7 +60,7 @@ Get Spencer out of the low-rate bracket and into higher-paying, longer, **repeat
 - Funnels A–G2 fully sent; per-funnel history in `reference/client-acquisition/FUNNEL-COHORTS.md`. Live funnels H–R (10 companies each) drafted in the CLAUDE.md 5d order; new sourcing only after R.
 - Funnel = send cohort; Drive `Client Outreach/Funnel X/` is the source of truth; Gmail label "Funnel X" on every draft (a PUT drops labels, re-apply).
 - Sent funnels move to `Client Outreach/_Done - Sent Funnels/` the day their last pitch goes out; admin items in `_Admin & Other Clients/`; `Ableton Template Project/` stays on top (hardcoded path) (Spencer 10-14).
-- Lessons kept: never pitch Drew Jaz (Miro); a "drop this contact" decision must be enacted in Gmail itself, not just in memory (Kyle Osher, 09-23).
+- Lessons kept: never pitch Drew Jaz (Miro); never contact Freddie Young (On) again, he asked (Spencer 10-24); a "drop this contact" decision must be enacted in Gmail itself, not just in memory (Kyle Osher, 09-23).
 - Build pipeline: `.claude/skills/revoice-material/SKILL.md`. Video-pick verdicts: `reference/client-acquisition/VIDEO-PICKS.md`.
 - Every researched company gets a row in `reference/client-acquisition/BUDGET-CALENDAR.md` (FY end, new-money month, pitch windows); informs timing, never blocks a draft (Spencer 10-05).
 
