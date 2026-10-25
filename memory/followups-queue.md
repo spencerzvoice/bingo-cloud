@@ -577,3 +577,11 @@ Stage 3: 21 drafts live, 0 carry NOT READY/VERIFY lines, nothing to check. Stage
 Later this week (not yet due): Paul Jun/Ramp + Casey Daigle/Calm touch 2 Tue 10-27; G/G2/H touch 3 Thu 10-29. Manny Gonzalez/Docebo touch 2 still QUEUED for today 09:04 PT.
 **Follow-up queue check: drafts D 0, due N 5 (+Manny today), queued Q 6, sent S 0 since Digest (Marta/360Learning sent 10-23 10:48 Paris), missing M 0.** Heartbeat Log!F1 15:47:04Z fresh.
 - 2026-10-23 (Spencer, chat): Pelle Iversen/Ørsted touch 2 body REWRITTEN in the Queue row (Spencer chatted with him on LinkedIn; Pelle said he was heading to Japan and would check the re-voice out). Custom text: mentions the LinkedIn chat, wishes a safe Japan trip, reminder to get back whenever he can, keeps the audition offer. Still sends Mon 10-26 09:04 Copenhagen. Only Ørsted.
+
+## 2026-10-25 ~15:45 UTC (cloud, Follow-up Prep, for Mon 2026-10-26)
+**Ledger coverage: 164 outbound threads, 137 in ledger, 27 exempt, 0 missing** (+78 tracker-only rows carried by name/email index; Funnel K 10-23 first touches and Funnel Q rows are in the ledger by name above).
+Queue Sheet (read live): 5 QUEUED for Mon 10-26 09:04 contact-local (Deepika/Schneider Kolkata, Cameron/Maersk + Pelle/Ørsted Copenhagen with Spencer's custom text, Nick/THE LINE + Alex/Lambda London); 0 HELD/ERROR. SENT since last Prep: Manny Gonzalez/Docebo touch 2 10-23 09:04 PT (1a16981608b1a9e0) and Marta Lisboa/360Learning 10-23 10:48 Paris (1a167f228aaf47a5) -> touch 3 reminder Fri 2026-11-06 (day 14), overdue Fri 11-13 (day 21).
+NO-CONTACT CHECK on the 5 (live Gmail via FGAC, 10-25): no sent/scheduled/draft mail to them since the 10-19 pitch, no inbound from schneider-electric/maersk/orsted/thelineanimation/lambdafilms, no bounces, no LinkedIn notification mail naming them; Pelle's LinkedIn chat already reflected in his custom body. Clean.
+Nothing else due Mon 10-26 (10-19 touch-3 cohort all sent). Not yet due: Paul Jun/Ramp + Casey Daigle/Calm touch 2 Tue 10-27; Funnel K touch 2 Fri 10-30; G/G2/H touch 3 Thu 10-29.
+FLAGGED, still open (window ends Thu 10-29): Marty Geren/Hornet + Kristin Glushon/Nexus (NO GOOD MATCH, no re-voice) need a Spencer-worded touch 2.
+**Follow-up queue check: drafts D 0, due N 5, queued Q 5, sent S 2 (Marta, Manny), missing M 0.** Heartbeat Log!F1 15:43:03Z fresh. No HELD/ERROR; push is for tomorrow's 5.
