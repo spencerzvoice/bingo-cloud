@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-23_
+_Last updated: 2026-10-26_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -24,6 +24,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 - No voice descriptor in cold pitches (Spencer 10-05: the samples speak for it); never "American" or "low-register".
 - Musician pursuing **sync placements** (detail in `local/`).
 - **Media/PR angle = the working traveller** (Spencer 10-23: "a more interesting story"): ~4 months on the road (backpacking) last year, working the whole time; most of the FIFA narration recorded in closets in southern Argentina, his grandma's closet in Maryland and his brother's studio in Oakland (Alameda County); earned "thousands of euros" on the road. Lisbon stays his base. ❓ exact dates/amounts: ask before printing them.
+- **Qwoted (PR platform, journalists source experts)**: signed up 10-23, profile live 10-25 at app.qwoted.com/sources/spencer-pearman (Basic plan, 7 pitch credits). Media Matcher reporters can be pitched with no credit. Playbook + live leads: `memory/2026-10-26.md`.
 - Markets US (GVAA) and Europe (GFTB); clients via Voices.com, VoiceArchive, direct.
 
 ### Established credits (use in outreach, only when verified)
