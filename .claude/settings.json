@@ -50,6 +50,12 @@
           {
             "type": "command",
             "shell": "bash",
+            "command": "PY=$(command -v python3 || command -v python); \"$PY\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/buyer_gate_guard.py\"",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "shell": "bash",
             "command": "PY=$(command -v python3 || command -v python); \"$PY\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/send_window_guard.py\"",
             "timeout": 10
           }

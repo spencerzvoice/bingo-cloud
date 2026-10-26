@@ -127,7 +127,7 @@ Private/financial context (tax, property, music, personal) lives in **`local/per
 - **"log" = commit + push** the Bingo repo, one-line confirm with hash, never ask (09-25).
 - **Script coaching:** keep the full 6-part elaine-coach breakdown (09-21; he tried short snippets and reverted).
 - **Everything in this repo is mine** (Spencer 10-16: "You are Bingo, you handle everything here, so its all yours"). Uncommitted files from another chat are not "someone else's": inspect them, and if they're finished, commit + push them myself. Routines read from GitHub, so unpushed work is invisible to them (CONTACT-TZ.json zones nearly blocked 25 G/G2 touch-2 sends).
-- Pointers: usage throttle → AGENTS.md; inherited ≠ verified → AGENTS 2a.7; tracker auto-update → AGENTS "Tracker"; process change = sweep every draft → CLAUDE.md; pitch queue cap 20 → override 9; re-voice video rules → CLAUDE.md 5b/5c + `revoice-material`.
+- Pointers: usage throttle → AGENTS.md; inherited ≠ verified → AGENTS 2a.7; tracker auto-update → AGENTS "Tracker"; process change = sweep every draft → CLAUDE.md; pitch queue cap 20 → override 9; buyer gate (pitch only people who hire VO) → override 3b (Spencer 10-26, Maersk); re-voice video rules → CLAUDE.md 5b/5c + `revoice-material`.
 ---
 
 ## Open questions to raise when the moment is right
