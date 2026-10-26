@@ -596,3 +596,9 @@ Stage 4: **Follow-up queue check: drafts D 0, due N 5 (Mon 10-26, all QUEUED for
 
 ### 2026-10-26 (desktop) Funnel J
 - Shelby Khan / Elastic touch 1 SENT by Spencer 2026-10-26 11:03 UTC (Gmail 1a177e11ad3cf493, thread 1a13628ba07bbcb2; = 04:03 San Jose, outside the window). Touch 2 reminder Mon 2026-11-02 (day 7), overdue Thu 11-05; queue at 09:04 America/Los_Angeles (zone added to CONTACT-TZ.json 10-26 from live LinkedIn).
+- Funnel J touch 1 SCHEDULED by Bingo in Gmail (Chrome u/3, Spencer: "Schedule all of the emails except for Unity"), 8:32 contact-local; FGAC in:scheduled label:funnel-j = 8:
+  - Mon 10-26 12:32 Lisbon: Adam Mittner/GitLab (America/New_York), Pablo Zubieta/MongoDB (America/New_York)
+  - Mon 10-26 13:32 Lisbon: Riley West/Twilio (America/Chicago)
+  - Mon 10-26 15:32 Lisbon: Mitch Rymeski/Harness, Jamal Farley/LaunchDarkly, Colin Goheen/Postman, Moe Hung/New Relic (all America/Los_Angeles)
+  - Tue 10-27 07:32 Lisbon: Alex Gauermann/JetBrains (Europe/Berlin)
+  - Touch 2 reminders: the 10-26 seven on Mon 2026-11-02 (day 7), overdue Thu 11-05; Alex on Tue 11-03, overdue Fri 11-06. Queue at 09:04 contact-local. Unity (Eddie Russell) still a draft: no take yet.
