@@ -312,7 +312,7 @@ New lane (MEMORY.md "YouTube-channel lane"): faceless/narrated YouTube channels,
 | Insane Curiosity | 666K | daily | ❓ | 🟡 Lorenzo Varese | insanecuriositybusiness@gmail.com | TIER 2, listen |
 | Defense Updates | 618K | 2-3/wk | ❓; NordVPN read by narrator | ❓ | ❓ | TIER 2, listen + contact |
 | AI Revolution | 574K | daily | ❓ (human / AI / owner) | ❓ | airevolutionofficial@gmail.com | TIER 2, listen |
-Reserves: Yarnhub (3.37M, casts voice actors, contact@yarnhub.org), Branch Education (hired "Phil Lee" but posts every 1-3 months), DidYouKnowGaming (hired narrators, no upload since 08-08). Rejected (founder-voiced): ColdFusion-style channels incl. Logically Answered, Apple Explained, Company Man, Hoog, TheAIGRID, Megaprojects, The Space Race, New Mind, Moon (🟡). Research files: memory/2026-10-26.md.
+Reserves: Yarnhub (3.37M, casts voice actors, contact@yarnhub.org), Branch Education (hired "Phil Lee" but posts every 1-3 months), DidYouKnowGaming (hired narrators, no upload since 08-08). Rejected (founder-voiced): ColdFusion-style channels incl. Logically Answered, Apple Explained, Company Man, Hoog, TheAIGRID, Megaprojects, The Space Race, New Mind, Moon (🟡). Research files: `contacts/2026-10-26-funnel-s-research-A.md` / `-B.md`; genre check: `contacts/2026-10-26-youtube-genre-verification.md`.
 
 ## Pitch-queue count after the 2026-10-01 Lead Batch run: 19 pre-existing (all Funnel G) + 1 new (ABB, Funnel H) = 20/20. Recount from live Gmail before the next run, don't trust this line. Detail: `contacts/2026-10-01-funnel-h.md`.
 
