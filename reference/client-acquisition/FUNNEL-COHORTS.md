@@ -302,6 +302,17 @@ New lane (MEMORY.md "YouTube-channel lane"): faceless/narrated YouTube channels,
 
 | Channel | Subs | Cadence | Narrator | Buyer | Email | Status |
 |---|---|---|---|---|---|---|
+| Interesting Engineering (+ Military Mechanics, IE Explains) | 1.68M | ~2 wk | ✅ hired freelancer credited to Nov 2025 ("Voice Over: Ash Steel"), ❓ since | Richard Dimery, video producer, IE Media (LinkedIn live per agent) | ❓ Apollo | TIER 1 |
+| Fern (made by Simplicissimus) | 5.63M | weekly | ✅ paid narrator roster (watchfern.com/about); sponsor reads | EPs Paul Lühnsdorf / Cristian Kiesling | fern@1up.management (management) | TIER 1, off-lane (crime/internet docs) |
+| Rational Animations | 499K | ~monthly | ✅ hired (Rob Miles) + VO editor; nonprofit, no ads; sells client animation | Emanuele Ascani, Producer | business@rationalanimations.com | TIER 1 |
+| The Military Show | 2.31M | daily | ✅ in-house narrator; 🟡 hiring voices for new sister channels | ❓ | ❓ | TIER 1, contact needed |
+| Dark Docs / Dark Skies / Dark Seas | 1.2M / 699K / 468K | weekly each | 🟡 hired actor (Austin Nebbia resume) | ❓ | darkdocs@intheblackmedia.com (talent mgmt) | TIER 1 |
+| Modern MBA | 841K | ~3 wk | ❓ (no self-ID; "produced by former VICE/Netflix talent"); sponsor reads | ❓ | x@modern-mba.com | TIER 2, Spencer listens |
+| AiTelly (+ NodMap, LocRot) | 2.03M | weekly | ❓; sponsors; 2 new channels | ❓ | only AiTelly@163.com (Chinese brands) | TIER 2, listen + contact |
+| Insane Curiosity | 666K | daily | ❓ | 🟡 Lorenzo Varese | insanecuriositybusiness@gmail.com | TIER 2, listen |
+| Defense Updates | 618K | 2-3/wk | ❓; NordVPN read by narrator | ❓ | ❓ | TIER 2, listen + contact |
+| AI Revolution | 574K | daily | ❓ (human / AI / owner) | ❓ | airevolutionofficial@gmail.com | TIER 2, listen |
+Reserves: Yarnhub (3.37M, casts voice actors, contact@yarnhub.org), Branch Education (hired "Phil Lee" but posts every 1-3 months), DidYouKnowGaming (hired narrators, no upload since 08-08). Rejected (founder-voiced): ColdFusion-style channels incl. Logically Answered, Apple Explained, Company Man, Hoog, TheAIGRID, Megaprojects, The Space Race, New Mind, Moon (🟡). Research files: memory/2026-10-26.md.
 
 ## Pitch-queue count after the 2026-10-01 Lead Batch run: 19 pre-existing (all Funnel G) + 1 new (ABB, Funnel H) = 20/20. Recount from live Gmail before the next run, don't trust this line. Detail: `contacts/2026-10-01-funnel-h.md`.
 
