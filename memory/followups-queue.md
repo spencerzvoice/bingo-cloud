@@ -593,3 +593,6 @@ Stage 4: **Follow-up queue check: drafts D 0, due N 5 (Mon 10-26, all QUEUED for
 ### 2026-10-26 (desktop) Maersk
 - Cameron Robertson / Maersk: REPLIED 10-26 with referrals -> sequence STOPPED, no touch 3. EXEMPT from cold cadence.
 - Sam Poulter / Maersk (samuel.poulter@maersk.com, Europe/Copenhagen): referral email DRAFTED 10-26 (r-6207781864088609127), not sent. Once Spencer sends: warm follow-up (Gmail draft for Spencer, not the offline queue) ~1 week after send. Backup contact: Thomas Sondergaard (thomas.sondergaard@maersk.com).
+
+### 2026-10-26 (desktop) Funnel J
+- Shelby Khan / Elastic touch 1 SENT by Spencer 2026-10-26 11:03 UTC (Gmail 1a177e11ad3cf493, thread 1a13628ba07bbcb2; = 04:03 San Jose, outside the window). Touch 2 reminder Mon 2026-11-02 (day 7), overdue Thu 11-05; queue at 09:04 America/Los_Angeles (zone added to CONTACT-TZ.json 10-26 from live LinkedIn).

@@ -126,5 +126,15 @@
   "jlopez@justworks.com": "America/New_York",
   "andrew.wilson@personio.de": "Europe/Dublin",
   "marta.lisboa@360learning.com": "Europe/Paris",
-  "manny.gonzalez@docebo.com": "America/Los_Angeles"
+  "manny.gonzalez@docebo.com": "America/Los_Angeles",
+  "shelby.khan@elastic.co": "America/Los_Angeles",
+  "amittner@gitlab.com": "America/New_York",
+  "mitch.rymeski@harness.io": "America/Los_Angeles",
+  "alex.gauermann@jetbrains.com": "Europe/Berlin",
+  "jfarley@launchdarkly.com": "America/Los_Angeles",
+  "pablo.zubieta@mongodb.com": "America/New_York",
+  "colin.goheen@postman.com": "America/Los_Angeles",
+  "riwest@twilio.com": "America/Chicago",
+  "eddie.russell@unity3d.com": "America/Chicago",
+  "mhung@newrelic.com": "America/Los_Angeles"
 }
