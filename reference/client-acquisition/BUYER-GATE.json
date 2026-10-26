@@ -439,6 +439,17 @@
   "verdict": "FAIL",
   "why": "crew/adjacent role (editor), not a VO buyer. Go up the org or BLOCK the company"
  },
+ "jonasr@simpli.de": {
+  "company": "Fern",
+  "company_type": "studio",
+  "date": "2026-10-26",
+  "name": "Jonas Rump",
+  "practice": "in-house-vo",
+  "source": "watchfern.com/about + live LinkedIn (Redaktionsleiter Simplicissimus & fern), 2026-10-26",
+  "title": "Senior Editor-in-Chief",
+  "verdict": "PASS",
+  "why": "decision-maker title (chief)"
+ },
  "jordan@buck.co": {
   "company": "BUCK",
   "company_type": "studio",
@@ -824,6 +835,17 @@
   "verdict": "FAIL",
   "why": "crew/adjacent role (keynote), not a VO buyer. Go up the org or BLOCK the company"
  },
+ "richard.dimery@interestingengineering.com": {
+  "company": "Interesting Engineering",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Richard Dimery",
+  "practice": "in-house-vo",
+  "source": "live LinkedIn linkedin.com/in/richdimery + Apollo match, 2026-10-26",
+  "title": "Head of Social Media & Video",
+  "verdict": "PASS",
+  "why": "decision-maker title (head of)"
+ },
  "riwest@twilio.com": {
   "company": "Twilio",
   "company_type": "inhouse",
@@ -999,6 +1021,28 @@
   "title": "Senior Video Producer",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "writer@rationalanimations.com": {
+  "company": "Rational Animations",
+  "company_type": "studio",
+  "date": "2026-10-26",
+  "name": "Emanuele Ascani",
+  "practice": "in-house-vo",
+  "source": "live LinkedIn + Apollo match, 2026-10-26",
+  "title": "Co-founder & CEO",
+  "verdict": "PASS",
+  "why": "decision-maker title (ceo)"
+ },
+ "x@modern-mba.com": {
+  "company": "Modern MBA",
+  "company_type": "studio",
+  "date": "2026-10-26",
+  "name": "Yishan Lin",
+  "practice": "unknown",
+  "source": "live LinkedIn linkedin.com/in/yishanlin + Apollo match, 2026-10-26",
+  "title": "Founder",
+  "verdict": "PASS",
+  "why": "decision-maker title (founder)"
  },
  "xpaxe@orsted.com": {
   "company": "Orsted",
