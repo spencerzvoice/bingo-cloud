@@ -42,3 +42,15 @@ Applied Intuition (Jorge Salgado), Amplitude (Helsi Robino), Autodesk (Jack Head
 Airbnb (Sarah Karlan), Brooks (Christina Harp), Patagonia (Tristan Ahern), Ramp (Karly Snajczuk), lululemon (Cameron
 Aspinwall), YETI (Jesse Hill), UiPath (Carter Elkin-Paris), Robinhood (Jen Vladimirsky), Toast (Eleanor Scott), F5
 (Roland Luitgaarden), TVA (Bleu Hayes).
+
+## Follow-through, 2026-10-26 evening (Spencer: "Yes: verify the buyer at each of the 7 FAIL companies, get their emails, draft them with the same sample, and hold the crew contacts' remaining touches")
+| Company | Buyer (✅ live LinkedIn /details/experience, 10-26) | Email | Draft |
+|---|---|---|---|
+| New Relic | Evan Chung, Sr Director Brand Experience (ran Zuora's brand video incl. vendor shoots) | echung@newrelic.com, ZB valid | r-8469365714694743265 |
+| JetBrains | Melanie Shifferaw, Head of Marketing & Brand, JetBrains AI & Cloud (leads agencies; Air is an AI product) | melanie.shifferaw@jetbrains.com, ZB valid | r-3016872541390558783 |
+| Docusign | Ryan Clark, Sr Creative Director, Digital Experience (🟡 weaker fit: web/product brand, not video) | ryan.clark@docusign.com, ZB valid | r-6665801472060130199 |
+| Okta | Matt Maynard, VP Global Brand & Creative (Devin Cornwall's email ZB invalid again; Katie Mitchell freelance, no email) | matt.maynard@okta.com, ZB valid | r-5635825343847723744 |
+| Justworks | Alexander Riezebeek, Creative Director, head of brand creative (team incl. filmmakers) | ariezebeek@justworks.com, ZB valid | r-5492047085600859125 |
+| Schneider Electric | Roxanne Hughes, Head of Brand Storytelling (Sydney) | roxanne.hughes@schneider-electric.com, 🟡 ZB unknown (catch-all) + Prospeo VERIFIED | r-6550330145139093751 |
+| Lonely Planet | Deepa Lakshmin, Head of Social Media & Video | deepa@lonelyplanet.com, ZB valid | r-1518952651825502691 |
+Same hook and same re-voice link as the crew pitch; only To + greeting changed, except Schneider ("especially" -> "like") and Lonely Planet (rebuilt to v6 order) because those two went out in older formats. Read back from Gmail byte-for-byte, labels re-applied, draft_format_sweep all PASS (18 pitch drafts, cap 20). Crew contacts held: tracker Next Action "Hold", ledger HOLD block in memory/followups-queue.md; none had a Queue Sheet row. Apollo: 26 credits (2040 -> 2014). Not done: HashiCorp + Smithsonian NASM (no buyer found), cadence left to finish.

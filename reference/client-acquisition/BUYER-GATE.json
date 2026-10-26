@@ -76,6 +76,17 @@
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
  },
+ "ariezebeek@justworks.com": {
+  "company": "Justworks",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Alexander Riezebeek",
+  "practice": "unknown",
+  "source": "live LinkedIn /details/experience in Spencer's Chrome, 2026-10-26",
+  "title": "Creative Director",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
+ },
  "astraughan@columbia.com": {
   "company": "Columbia Sportswear",
   "company_type": "inhouse",
@@ -208,6 +219,17 @@
   "verdict": "PASS",
   "why": "decision-maker title (chief)"
  },
+ "deepa@lonelyplanet.com": {
+  "company": "Lonely Planet",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Deepa Lakshmin",
+  "practice": "unknown",
+  "source": "live LinkedIn /details/experience in Spencer's Chrome, 2026-10-26",
+  "title": "Head of Social Media & Video",
+  "verdict": "PASS",
+  "why": "decision-maker title (head of)"
+ },
  "deepika.upadhyay@schneider-electric.com": {
   "company": "Schneider Electric",
   "company_type": "inhouse",
@@ -227,6 +249,17 @@
   "practice": "unknown",
   "source": "inherited: contacts doc / ROSTER title, not re-opened 10-26",
   "title": "Global Executive Creative Director, Brand",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
+ },
+ "echung@newrelic.com": {
+  "company": "New Relic",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Evan Chung",
+  "practice": "unknown",
+  "source": "live LinkedIn /details/experience in Spencer's Chrome, 2026-10-26",
+  "title": "Senior Director, Brand Experience",
   "verdict": "PASS",
   "why": "decision-maker title (director)"
  },
@@ -571,6 +604,17 @@
   "verdict": "PASS",
   "why": "decision-maker title (executive producer)"
  },
+ "matt.maynard@okta.com": {
+  "company": "Okta",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Matt Maynard",
+  "practice": "unknown",
+  "source": "live LinkedIn /details/experience in Spencer's Chrome, 2026-10-26",
+  "title": "VP, Global Brand & Creative",
+  "verdict": "PASS",
+  "why": "decision-maker title (vp)"
+ },
  "matthew.moresco@docusign.com": {
   "company": "Docusign",
   "company_type": "inhouse",
@@ -592,6 +636,17 @@
   "title": "Video Producer & Editor",
   "verdict": "FAIL",
   "why": "crew/adjacent role (editor), not a VO buyer. Go up the org or BLOCK the company"
+ },
+ "melanie.shifferaw@jetbrains.com": {
+  "company": "JetBrains",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Melanie Shifferaw",
+  "practice": "unknown",
+  "source": "live LinkedIn /details/experience in Spencer's Chrome, 2026-10-26",
+  "title": "Head of Marketing & Brand, JetBrains AI & Cloud",
+  "verdict": "PASS",
+  "why": "decision-maker title (head of)"
  },
  "mhabeevans@npr.org": {
   "company": "NPR",
@@ -768,6 +823,28 @@
   "title": "Senior Creative Producer",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "roxanne.hughes@schneider-electric.com": {
+  "company": "Schneider Electric",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Roxanne Hughes",
+  "practice": "unknown",
+  "source": "live LinkedIn /details/experience in Spencer's Chrome, 2026-10-26",
+  "title": "Head of Brand Storytelling",
+  "verdict": "PASS",
+  "why": "decision-maker title (head of)"
+ },
+ "ryan.clark@docusign.com": {
+  "company": "Docusign",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Ryan Clark",
+  "practice": "unknown",
+  "source": "live LinkedIn /details/experience in Spencer's Chrome, 2026-10-26",
+  "title": "Senior Creative Director, Digital Experience",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
  },
  "samuel.poulter@maersk.com": {
   "company": "Maersk",

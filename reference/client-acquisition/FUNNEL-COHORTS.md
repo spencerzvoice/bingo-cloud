@@ -175,13 +175,13 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Elastic | Developer and infrastructure platforms | Erika Alexander | Yichun Hsieh | DRAFTED 2026-10-13 -> Shelby Khan (both listed contacts left); hook AV-Comparatives perfect score |
 | GitLab | Developer and infrastructure platforms | Adam Mittner | Matthew Jordan | DRAFTED 2026-10-13 -> Adam Mittner; hook Transcend tools (unpaired) |
 | Harness | Developer and infrastructure platforms | Ben Hoedt | Mitch Rymeski | DRAFTED 2026-10-13 -> Mitch Rymeski; hook = launch film |
-| JetBrains | Developer and infrastructure platforms | Alex Gauermann | Anna Rudaia | DRAFTED 2026-10-13 -> Alex Gauermann; hook + re-voice JetBrains Air (swap built) |
+| JetBrains | Developer and infrastructure platforms | Alex Gauermann | Anna Rudaia | DRAFTED 2026-10-13 -> Alex Gauermann (sent 10-26; buyer gate FAIL, held); **RE-PITCHED 2026-10-26 -> Melanie Shifferaw, Head of Marketing & Brand AI & Cloud** (draft, same hook + sample) |
 | LaunchDarkly | Developer and infrastructure platforms | Jamal Farley | Jena Boyle | DRAFTED 2026-10-13 -> Jamal Farley; hook $200M ARR |
 | MongoDB | Developer and infrastructure platforms | Pablo Zubieta | Jerzy Fischer | DRAFTED 2026-10-13 -> Pablo Zubieta; hook MongoDB 9.0 |
 | Postman | Developer and infrastructure platforms | Colin Goheen | Shruthi Venkatesh | DRAFTED 2026-10-13 -> Colin Goheen; hook Passport |
 | Twilio | Developer and infrastructure platforms | Riley West | Sara Bell | DRAFTED 2026-10-13 -> Riley West; hook S&P 500 |
 | Unity | Developer and infrastructure platforms | Eddie Russell | James Turnage-Lannan | DRAFTED 2026-10-13 -> Eddie Russell; hook Unity 7 |
-| New Relic | Developer and infrastructure platforms | Moe Hung | Corianne Goldstein | DRAFTED 2026-10-13 -> Moe Hung (now Lead Brand Designer); hook AI Evaluation |
+| New Relic | Developer and infrastructure platforms | Moe Hung | Corianne Goldstein | DRAFTED 2026-10-13 -> Moe Hung (sent 10-26; buyer gate FAIL, held); **RE-PITCHED 2026-10-26 -> Evan Chung, Sr Director Brand Experience** (draft, same hook + sample) |
 
 ### Funnel K
 | Company | Segment | Primary | Backup | Roster note |
@@ -191,10 +191,10 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Applied Intuition | Enterprise and business software | Jorge Salgado | Matt Boyd | DRAFTED 2026-10-13 (other session, Jorge Salgado) |
 | Autodesk | Enterprise and business software | Jack Headley | Christopher Sherwin | DRAFTED 2026-10-13 -> Jack Headley; hook + re-voice = "The World is Yours for the Making" (swap built) |
 | Celonis | Enterprise and business software | Alice Monnet | David Pohl | DRAFTED 2026-10-13 -> Alice Monnet; hook Gartner DTO Leader |
-| DocuSign | Enterprise and business software | Matthew Moresco | Shameika Ejiasi | DRAFTED 2026-10-13 -> Matthew Moresco; hook PDF Editor; re-voice "Introducing Docusign AI-Assisted Review" (swap built) |
-| Justworks | Enterprise and business software | Jonathan Lopez | Alexander Riezebeek | DRAFTED 2026-10-13 -> Jonathan Lopez; hook NY Liberty partnership |
+| DocuSign | Enterprise and business software | Matthew Moresco | Shameika Ejiasi | DRAFTED 2026-10-13 -> Matthew Moresco (sent 10-23; buyer gate FAIL, held); **RE-PITCHED 2026-10-26 -> Ryan Clark, Sr Creative Director Digital Experience** (draft, same hook + sample) |
+| Justworks | Enterprise and business software | Jonathan Lopez | Alexander Riezebeek | DRAFTED 2026-10-13 -> Jonathan Lopez (sent 10-23; buyer gate FAIL, held); **RE-PITCHED 2026-10-26 -> Alexander Riezebeek, Creative Director** (draft, same hook + sample) |
 | Klaviyo | Enterprise and business software | Karim El-Sayed | Robb D'Agostino | DRAFTED 2026-10-13 -> Karim El-Sayed; hook Customer Agent 100+ languages |
-| Okta | Enterprise and business software | Katie Mitchell | Devin Cornwall | DRAFTED 2026-10-13 -> Reed Jones (Keynote Producer); hook Blueprint Alliance; re-voice "Okta for AI Agents" (new) |
+| Okta | Enterprise and business software | Katie Mitchell | Devin Cornwall | DRAFTED 2026-10-13 -> Reed Jones (Keynote Producer, sent 10-23; buyer gate FAIL, held); **RE-PITCHED 2026-10-26 -> Matt Maynard, VP Global Brand & Creative** (draft, same hook + sample; Devin Cornwall email invalid) |
 | Personio | Enterprise and business software | Andrew Wilson | Mia Worts | DRAFTED 2026-10-13 -> Andrew Wilson; hook Circula acquisition |
 
 ### Funnel L
@@ -265,7 +265,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Arizona Public Service | Corporate and industrial in-house | Cedric Owens (Video Producer, since Aug 2026) | Stephanie Schuyler (Leader, Creative Services) | BLOCKED 2026-10-13: aps.com catch-all. 2026-10-16: take RECORDED (Ready folder mp4); 4 more contacts matched, all aps.com catch-all (Schuyler/Gonzalez/Mayfield Apollo Verified, Owens extrapolated); LinkedIn PASS Owens + Schuyler. Spencer to decide: accept catch-all (best = stephanie.schuyler@aps.com, seen in real outbound mail) or skip. Not drafted (queue also over cap) |
 | Tennessee Valley Authority | Corporate and industrial in-house | Bleu Hayes | Marc Murano | BANKED — no hook verified yet · MOVED to Funnel G2 2026-10-05 |
 | Ørsted | Corporate and industrial in-house | Pelle Iversen | Jacob Søndergaard | DRAFTED 2026-10-13 (other session, Pelle Iversen) |
-| Schneider Electric | Corporate and industrial in-house | Ajay Seethala | Christophe Doré | DRAFTED 2026-10-13 -> Deepika Upadhyay (Web Content Producer, weak fit); hook Schneider Charge |
+| Schneider Electric | Corporate and industrial in-house | Ajay Seethala | Christophe Doré | DRAFTED 2026-10-13 -> Deepika Upadhyay (Web Content Producer, sent 10-19 + touch 2 10-26; buyer gate FAIL, held); **RE-PITCHED 2026-10-26 -> Roxanne Hughes, Head of Brand Storytelling** (draft, v6, same hook + sample) |
 | Lambda Films | Creative and production studios | Ryan Stone (Creative Director) | — | BANKED · ADDED to Funnel P 2026-10-14 (Spencer: "Add Ryan Stone to an upcoming funnel"; P = production studios, slot left by Siemens/TVA -> G2). Voices.com client: Ryan S. (Norfolk UK, 31 reviews) posted job #875557 "AI agent corporate video" 2026-10-09, Spencer auditioned. Identified 2026-10-09: LinkedIn linkedin.com/in/ryanstone (Creative Director, Lambda Films Ltd., Norwich). Never mention Voices in the pitch. EMAIL 2026-10-16: Ryan's lambdafilms.uk addresses all ZB do_not_mail (not usable); backup Alex Morris (Commercial Director, co-founder) alex@lambdafilms.co.uk ZB valid, LinkedIn PASS 10-16. DRAFTED 2026-10-16 to Alex (r7294973271141785164, Spencer's one-off cap exception), take linked. Drive `Funnel P/Lambda Films/Ready to Link to Drafted Email/` built 10-14. **PACKAGE BUILT 2026-10-14 (desktop): re-voice = Solarport "Made of Star Stuff" (Lambda-produced, 92s, male narrator), NOVOX OK, SCRIPT CHECK OK, Ableton + MAKE VIDEO button; awaiting Spencer's take.** Draft only when the pitch queue has room (cap 20) |
 
 ### Funnel Q
@@ -276,7 +276,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Brooks Running | Consumer brands and travel | Christina Harp | Gavin Doremus | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Hyperion Elite 6 launch, Gear Patrol Aug 14 2026 |
 | Calm | Consumer brands and travel | Daniel Szeto | Casey Daigle | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Natrol x Michelle Monaghan collab, Calm Blog Sep 15 2026 |
 | Columbia Sportswear | Consumer brands and travel | Allison Straughan | Chris Araujo | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = F££T FUND campaign (Peakfreak), Creative Salon Sep 16 2026 |
-| Lonely Planet | Consumer brands and travel | Max Dickson | Deepa Lakshmin | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Best in Travel 2027 list, Euronews Sep 23 2026; re-voice = "Lonely Planet's BEST IN TRAVEL 2027 Is Here" (the hook's launch trailer), package built 2026-10-12 |
+| Lonely Planet | Consumer brands and travel | Max Dickson | Deepa Lakshmin | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Best in Travel 2027 list, Euronews Sep 23 2026; re-voice = "Lonely Planet's BEST IN TRAVEL 2027 Is Here" (the hook's launch trailer), package built 2026-10-12. Max sent 10-13 + touch 2 10-20; buyer gate FAIL, held; **RE-PITCHED 2026-10-26 -> Deepa Lakshmin, Head of Social Media & Video** (draft, v6, same sample) |
 | Tripadvisor | Consumer brands and travel | Ivana Milovanovic | Heather Clifford | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Travelers' Choice Best of the Best Restaurants, PR Newswire Sep 15 2026 |
 | Wilson Sporting Goods | Consumer brands and travel | Naotaka Aogaki | Tim McCaffrey | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = third Caitlin Clark signature collection, NSGA Aug 5 2026 |
 | On | Consumer brands and travel | Freddie Young | Luiza Baffa | DRAFTED 2026-10-08 — Apollo re-verified, email Verified; hook = Cloudsurfer 3 unveil, On Pressroom Sep 15 2026 (no official launch video confirmed) |

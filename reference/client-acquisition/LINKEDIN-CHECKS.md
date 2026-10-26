@@ -157,3 +157,10 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-23 | Doug Finelli | CrowdStrike | https://www.linkedin.com/in/doug-finelli-344a4a1 | "public profile company: CrowdStrike (brightdata)" | API-PASS
 2026-10-26 | Vince Genovese | ServiceNow | linkedin.com/in/vince-genovese-15589129 | "Director Global Brand Video, ServiceNow, Nov 2024 - Present (desktop Chrome, /details/experience/)" | PASS
 2026-10-26 | LeighAnna Cina | Zscaler | linkedin.com/in/leighannawebb | "Senior Head of Production/ Executive Producer, Zscaler, Sep 2026 - Present (desktop Chrome, /details/experience/)" | PASS
+2026-10-26 | Evan Chung | New Relic | linkedin.com/in/emchung | "Senior Director, Brand Experience, New Relic, Mar 2026 - Present, SF Bay Area (desktop Chrome, /details/experience/)" | PASS
+2026-10-26 | Melanie Shifferaw | JetBrains | linkedin.com/in/mshifferaw | "Head of Marketing & Brand, JetBrains AI & Cloud, Jan 2026 - Present, Hamburg (desktop Chrome, /details/experience/)" | PASS
+2026-10-26 | Ryan Clark | Docusign | linkedin.com/in/ryanvsclark | "Senior Creative Director, Digital Experience, Docusign, Feb 2025 - Present, Dayton OH (desktop Chrome, /details/experience/)" | PASS
+2026-10-26 | Matt Maynard | Okta | linkedin.com/in/mattmaynard | "VP, Global Brand & Creative, Okta, May 2026 - Present, SF Bay Area (desktop Chrome, /details/experience/)" | PASS
+2026-10-26 | Alexander Riezebeek | Justworks | linkedin.com/in/riezebeek | "Creative Director (head of brand creative, team incl. filmmakers), Justworks, May 2026 - Present, New York (desktop Chrome, /details/experience/)" | PASS
+2026-10-26 | Roxanne Hughes | Schneider Electric | linkedin.com/in/roxannehughes | "Head of Brand Storytelling, Schneider Electric, Jun 2026 - Present, Greater Sydney (desktop Chrome, /details/experience/)" | PASS
+2026-10-26 | Deepa Lakshmin | Lonely Planet | linkedin.com/in/deepalakshmin | "Head of Social Media & Video, Lonely Planet, Jul 2026 - Present, New York (desktop Chrome, /details/experience/)" | PASS
