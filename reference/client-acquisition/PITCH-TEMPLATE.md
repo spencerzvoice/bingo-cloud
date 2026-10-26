@@ -35,6 +35,28 @@ The callback names **what happened**, never just the thing's name. Read it aloud
 
 ---
 
+### v6 CREATOR variant: YouTube channels (Spencer, 2026-10-26, approved from preview for Funnel S)
+For faceless/narrated YouTube channels (the YouTube-channel lane, MEMORY.md). Hook = the channel's newest long-form video; the re-voice = that same video (CLAUDE.md 5c), so the hook names the topic and the re-voice line names the title. No callback sentence. Credits lead with Primal Space (the proof he already narrates a channel), no 3 industry credits. `pitch_draft_qc.py` recognises it by the Primal Space line.
+```
+[cloud-built drafts only] <span style="background-color:#ffff00">[NOT READY: ...]</span>
+
+Hello <First>, hope you're doing well!
+
+Saw <Channel> just put out the new video on <topic, lowercase phrase>. <one plain reaction>. Congrats on the new video!! <span style="background-color:#ffff00">[Source: <a href="VIDEO URL">YouTube, Mon D, YYYY</a>. Delete this before sending]</span>
+
+My name is Spencer Pearman and I'm a professional Voiceover Artist and Audio Engineer based in Lisbon, Portugal. I'd love to narrate the videos that come out of <Channel>.
+
+To give you an idea of my voice, I re-voiced your <a href="<Drive link>">"<exact video title>"</a> video. I'd appreciate it if you gave it a listen!
+
+I narrate documentaries for Primal Space, and my standard turnaround is within 24 hours and within 2-3 hours for rush projects. My recent work also includes the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball. You can see more of my work at spencerzvoice.com.
+
+I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!
+
+Best,<br>Spencer<br><a href="https://spencerzvoice.com">spencerzvoice.com</a>
+```
+
+---
+
 ### v6 NO-VIDEO variant (Spencer, 2026-10-16: "If there's not usable video for Hornet then we don't re-voice a video, we point them to my website and pass work and commercial reel"; then "Cut the repeat 'You can see more of my work' sentence")
 Use only when the client's re-voice verdict in VIDEO-PICKS.md is NO GOOD MATCH. Replace the re-voice paragraph with:
 ```

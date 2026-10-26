@@ -102,7 +102,15 @@ if _cb:
 if not any(d in to for d in CUSTOM_REACHING_OUT_DOMAINS):
     need("based in Lisbon, Portugal. I'd love to", "v6 intro + reaching-out sentence (two sentences, split at 'Portugal.')")
 need("My standard turnaround is within 24 hours and within 2-3 hours for rush projects", "v4 turnaround line (Spencer 10-13: '2-3 hours')")
-need("My recent work includes", "credits paragraph")
+# CREATOR variant (Spencer, 2026-10-26, Funnel S YouTube channels): credits lead with Primal Space, then
+# "My recent work also includes the 2026 FIFA ...". Full text: PITCH-TEMPLATE.md "v6 CREATOR variant".
+creator = "i narrate documentaries for primal space, and my standard turnaround" in text.lower()
+if creator:
+    need("My recent work also includes the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball",
+         "creator credits line")
+    need("I'd love to narrate the videos that come out of", "creator reaching-out sentence")
+else:
+    need("My recent work includes", "credits paragraph")
 # NO-VIDEO variant (Spencer, 2026-10-16, Hornet: "If there's not usable video ... we don't re-voice a video, we point
 # them to my website and past work and commercial reel"; then "Cut the repeat 'You can see more of my work' sentence").
 # Used when a client's re-voice pick is NO GOOD MATCH (VIDEO-PICKS.md). The reel line takes the re-voice line's place.
