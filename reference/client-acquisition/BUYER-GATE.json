@@ -483,6 +483,17 @@
   "verdict": "PASS",
   "why": "decision-maker title (executive producer)"
  },
+ "lcina@zscaler.com": {
+  "company": "Zscaler",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "LeighAnna Cina",
+  "practice": "unknown",
+  "source": "live LinkedIn /in/leighannawebb/details/experience, Spencer's Chrome 2026-10-26 (Sep 2026-Present; oversees vendor partnerships) + Apollo match 10-26",
+  "title": "Senior Head of Production/ Executive Producer",
+  "verdict": "PASS",
+  "why": "decision-maker title (head of)"
+ },
  "livmoloney@economist.com": {
   "company": "The Economist",
   "company_type": "inhouse",
@@ -698,10 +709,10 @@
   "date": "2026-10-26",
   "name": "Pete Anderson",
   "practice": "unknown",
-  "source": "inherited: contacts doc / ROSTER title, not re-opened 10-26",
-  "title": "Global Video Lead",
-  "verdict": "REVIEW",
-  "why": "IC producer/marketing title (video lead). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+  "source": "Apollo people match 2026-10-26 (current, since 2022-08; ex Head of Content Production PB&, Director of Integrated Production Cole & Weber)",
+  "title": "Executive Producer",
+  "verdict": "PASS",
+  "why": "decision-maker title (executive producer)"
  },
  "r.luitgaarden@f5.com": {
   "company": "F5",
@@ -878,6 +889,17 @@
   "title": "Film Producer",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "vince.genovese@servicenow.com": {
+  "company": "ServiceNow",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Vince Genovese",
+  "practice": "unknown",
+  "source": "live LinkedIn /in/vince-genovese-15589129/details/experience, Spencer's Chrome 2026-10-26 (Nov 2024-Present; ex EP Global Brand) + Apollo match 10-26",
+  "title": "Director Global Brand Video",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
  },
  "warrenyu@zscaler.com": {
   "company": "Zscaler",

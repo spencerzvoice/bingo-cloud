@@ -188,7 +188,7 @@ The ranked shortlist lives in `funnel-c-top-10.md`.
 | Okta | Katie Mitchell | Sr. Creative Integrated & Broadcast Producer | verified | Devin Cornwall — Creative Director | K | BANKED | batch-11 |
 | Personio | Andrew Wilson | Video Producer | verified | Mia Worts — Content Marketing Manager | K | BANKED | batch-11 |
 | Qualtrics | Janssen Weeks | Executive Producer + Director | verified | Tori Youngblood — Head of Brand, Video & Storytelling | L | BANKED | batch-03 |
-| ServiceNow | Joe Gagliardi | Executive Video Producer | verified | Daniel Koga — Producer, Global Brand Film | L | BANKED | batch-02 |
+| ServiceNow | Vince Genovese | Director Global Brand Video | vince.genovese@servicenow.com, ZB valid 10-26 | Ron Fugelseth — CD Video & Storytelling (ZB unknown) | L | DRAFTED (re-addressed 10-26 from Daniel Koga, buyer gate) | batch-02 + 10-26 audit |
 | Shopify | Jess Peterson | Executive Producer, Brand Video | verified | Neal Hicks — Head of Creative, Video Marketing | L | BANKED | batch-02 |
 | Workday | Jim Johnson | Sr. Executive Producer, Workday Studios | verified | Tosh Xiong — Manager, Video Production and Post | L | BANKED | batch-02 |
 | Braze | Lauren Bernal | Senior Creative Director | verified | Zach Wootton — Sr. Director, Creative Strategy | E | **DRAFTED**, package built + draft rewritten 09-24, unsent | batch-04 / Bingo 24 Sep |
@@ -221,7 +221,7 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 | Sophos | Rick Colina | Video Producer and Editor | **extrapolated — weakest card** | Hannah Wallace — Content Marketing Manager | M | BANKED | batch-08 |
 | Tenable | Christiano Dias | Senior Video Producer | verified | Sean Carnell — Director, Corporate Communications | M | BANKED | batch-08 |
 | WatchGuard | Wes Warfield | Video Production Manager | verified | Cortney Albrecht — Creative Director | M | BANKED | batch-10 |
-| Zscaler | Luisa Avila | Creative Producer | verified | Warren Yu — Senior Video Producer | N | DRAFTED 2026-10-23 | batch-08 |
+| Zscaler | LeighAnna Cina | Senior Head of Production / Executive Producer | lcina@zscaler.com, ZB valid 10-26 | Warren Yu — Senior Video Producer | N | DRAFTED 2026-10-23 (re-addressed 10-26 from Warren Yu, buyer gate) | batch-08 + 10-26 audit |
 | CrowdStrike | Doug Finelli | Global Executive Creative Director, Brand | verified | Zandy Ariss — Executive Creative Director, Media Studio | N | DRAFTED 2026-10-23 | 2026-09-24-funnel-i-m-h-k |
 | Palo Alto Networks | Melinda Carlson-Smith | Senior Video Production Manager, Creative Services Marketing | verified | Mariah Glackler — Lead Creative Producer | N | BANKED | 2026-09-24-funnel-i-m-h-k |
 | SentinelOne | Joshua Hernandez | Creative Director | verified | Ankit Pahuja — Sr. Manager, Marketing | N | BANKED | 2026-09-29-research-batch |

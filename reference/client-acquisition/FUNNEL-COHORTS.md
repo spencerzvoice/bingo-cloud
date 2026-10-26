@@ -201,7 +201,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
 | Qualtrics | Enterprise and business software | Janssen Weeks | Tori Youngblood | DRAFTED 2026-10-13 -> Janssen Weeks; hook = XM Data & AI launch film |
-| ServiceNow | Enterprise and business software | Joe Gagliardi | Daniel Koga | DRAFTED 2026-10-13 -> Daniel Koga; hook Flow |
+| ServiceNow | Enterprise and business software | Joe Gagliardi | Daniel Koga | DRAFTED 2026-10-13 -> Daniel Koga; hook Flow. RE-ADDRESSED 2026-10-26 -> Vince Genovese, Director Global Brand Video (buyer gate: Koga = IC producer) |
 | Shopify | Enterprise and business software | Jess Peterson | Neal Hicks | DRAFTED 2026-10-13 -> Jess Peterson; hook Shop.com; re-voice swapped (old pick had no narrator) |
 | Workday | Enterprise and business software | Jim Johnson | Tosh Xiong | DRAFTED 2026-10-13 -> Jim Johnson; hook + re-voice Candidate Profile (swap built) |
 | Pegasystems | Enterprise and business software | Liz Colanto | Carlos Perez | DRAFTED 2026-10-13 -> Liz Colanto; hook Gartner BOAT Leader |
@@ -228,7 +228,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 ### Funnel N
 | Company | Segment | Primary | Backup | Roster note |
 |---|---|---|---|---|
-| Zscaler | Cybersecurity vendors | Luisa Avila | Warren Yu | DRAFTED 2026-10-23 -> Warren Yu (Apollo re-verified, email Verified); hook new Singapore office (Sep 23), Funnel N label |
+| Zscaler | Cybersecurity vendors | Luisa Avila | Warren Yu | DRAFTED 2026-10-23 -> Warren Yu (Apollo re-verified, email Verified); hook new Singapore office (Sep 23), Funnel N label. RE-ADDRESSED 2026-10-26 -> LeighAnna Cina, Senior Head of Production/EP (buyer gate: Warren Yu = IC producer) |
 | CrowdStrike | Cybersecurity vendors | Doug Finelli | Zandy Ariss | DRAFTED 2026-10-23 -> Doug Finelli (Apollo re-verified, email Verified); hook AI Is Nothing If It's Not Secure spot (Sep 14), Funnel N label |
 | Palo Alto Networks | Cybersecurity vendors | Melinda Carlson-Smith | Mariah Glackler | STAGED 2026-10-13 (queue cap) -> Melinda Carlson-Smith (now Creative Director, Cortex); hook Cortex Agentic Endpoint Security launch film (Oct 6) = re-voice |
 | SentinelOne | Cybersecurity vendors | Joshua Hernandez | Ankit Pahuja | STAGED 2026-10-13 (queue cap) -> Joshua Hernandez; hook IDC MarketScape Leader, modern endpoint security (Oct 6) |
