@@ -627,3 +627,4 @@ Touch 1, Gmail native Schedule send in Chrome (u/3, Gmail tz = GMT = Lisbon), 08
 - Evan Chung/New Relic echung@newrelic.com, Matt Maynard/Okta matt.maynard@okta.com (America/Los_Angeles): Tue 10-27 15:32 Lisbon
 - Roxanne Hughes/Schneider roxanne.hughes@schneider-electric.com (Australia/Sydney): Tue 10-27 21:32 Lisbon = Wed 10-28 08:32 Sydney (Tue 08:32 Sydney had already passed). Catch-all domain: watch for a bounce.
 Touch 2 (09:04 local, queue sheet) due Tue 11-03 (Roxanne Wed 11-04), overdue Fri 11-06; thread ids get added on the first coverage scan after they send. Tracker rows 268-274.
+- 2026-10-26 ~23:10 Lisbon: Eddie Russell/Unity eddie.russell@unity3d.com (America/Chicago) touch 1 SCHEDULED Tue 10-27 13:32 Lisbon = 08:32 Central; touch 2 due Tue 11-03 09:04 local, overdue Fri 11-06. Gmail Scheduled now 8.
