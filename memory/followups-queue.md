@@ -602,3 +602,4 @@ Stage 4: **Follow-up queue check: drafts D 0, due N 5 (Mon 10-26, all QUEUED for
   - Mon 10-26 15:32 Lisbon: Mitch Rymeski/Harness, Jamal Farley/LaunchDarkly, Colin Goheen/Postman, Moe Hung/New Relic (all America/Los_Angeles)
   - Tue 10-27 07:32 Lisbon: Alex Gauermann/JetBrains (Europe/Berlin)
   - Touch 2 reminders: the 10-26 seven on Mon 2026-11-02 (day 7), overdue Thu 11-05; Alex on Tue 11-03, overdue Fri 11-06. Queue at 09:04 contact-local. Unity (Eddie Russell) still a draft: no take yet.
+- Sam Poulter / Maersk: SENT 10-26 11:11 UTC (msg 1a177e82acdd0d65, thread 1a177e0bb3b9f217). Warm follow-up due Mon 2026-11-02 (Gmail draft for Spencer, NOT the offline queue), overdue Mon 11-09. Thomas Sondergaard = next if silent after that.
