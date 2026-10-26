@@ -351,6 +351,17 @@
   "verdict": "PASS",
   "why": "decision-maker title (head of)"
  },
+ "jeff.rennacker@darktrace.com": {
+  "company": "Darktrace",
+  "company_type": "inhouse",
+  "date": "2026-10-26",
+  "name": "Jeffrey Rennacker",
+  "practice": "unknown",
+  "source": "live LinkedIn /in/jeffrennacker experience page 2026-10-26 (Darktrace, Jul 2023 - Present; lists the brand anthem films) + Apollo match 2026-10-26",
+  "title": "Vice President Brand Marketing",
+  "verdict": "PASS",
+  "why": "decision-maker title (vice president)"
+ },
  "jen.vladimirsky@robinhood.com": {
   "company": "Robinhood",
   "company_type": "inhouse",

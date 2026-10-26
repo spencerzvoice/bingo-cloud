@@ -164,3 +164,4 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-26 | Alexander Riezebeek | Justworks | linkedin.com/in/riezebeek | "Creative Director (head of brand creative, team incl. filmmakers), Justworks, May 2026 - Present, New York (desktop Chrome, /details/experience/)" | PASS
 2026-10-26 | Roxanne Hughes | Schneider Electric | linkedin.com/in/roxannehughes | "Head of Brand Storytelling, Schneider Electric, Jun 2026 - Present, Greater Sydney (desktop Chrome, /details/experience/)" | PASS
 2026-10-26 | Deepa Lakshmin | Lonely Planet | linkedin.com/in/deepalakshmin | "Head of Social Media & Video, Lonely Planet, Jul 2026 - Present, New York (desktop Chrome, /details/experience/)" | PASS
+2026-10-26 | Jeffrey Rennacker | Darktrace | linkedin.com/in/jeffrennacker | "Vice President Brand Marketing, Darktrace, Jul 2023 - Present, United States; top card Los Angeles Metropolitan Area (desktop Chrome, /details/experience/)" | PASS

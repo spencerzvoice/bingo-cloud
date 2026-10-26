@@ -207,7 +207,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Pegasystems | Enterprise and business software | Liz Colanto | Carlos Perez | DRAFTED 2026-10-13 -> Liz Colanto; hook Gartner BOAT Leader |
 | Anaplan | Enterprise and business software | Georgina Lipovac | Jamieson Copeland | DRAFTED 2026-10-13 -> Georgina Lipovac; hook podcast S2 |
 | Freshworks | Enterprise and business software | Pete Anderson | Mark Girgis | DRAFTED 2026-10-13 -> Pete Anderson; hook Torii acquisition |
-| Darktrace | Cybersecurity vendors | Gus Teixeira | Kevin Ginosian | BLOCKED 2026-10-13: darktrace.com catch-all (Gus Teixeira, Ryan Catlett); Kevin Ginosian left; not drafted |
+| Darktrace | Cybersecurity vendors | Jeffrey Rennacker | Gus Teixeira | DRAFTED 2026-10-26 -> Jeffrey Rennacker, VP Brand Marketing (buyer gate PASS; jeff.rennacker@darktrace.com ZB valid on a catch-all domain); hook SECURE AI GA (Sep 22); re-voice Defend Beyond, take linked. Was BLOCKED 10-13 (catch-all, Kevin Ginosian left) |
 | EC-Council | Cybersecurity vendors | Garrett Goeckner | Swati Salian | DRAFTED 2026-10-13 -> Tanya Mukundan; no hook |
 | F5 | Cybersecurity vendors | Roland Luitgaarden | David Wulzen | BANKED · MOVED to Funnel G2 2026-10-05 |
 

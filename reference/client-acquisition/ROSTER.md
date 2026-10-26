@@ -207,7 +207,7 @@ Mostly BANKED unless noted. The deepest untouched vertical in the pipeline — o
 
 | Company | Primary contact | Title | Email | Backup | Funnel | Status | Source |
 |---|---|---|---|---|---|---|---|
-| Darktrace | Gus Teixeira | Video Producer | verified | Kevin Ginosian — Content Marketing Manager | L | BANKED | batch-08 |
+| Darktrace | Jeffrey Rennacker | Vice President Brand Marketing | verified 2026-10-26 | Gus Teixeira — Video Producer (catch-all) | L | DRAFTED 2026-10-26 | batch-08 |
 | EC-Council | Garrett Goeckner | Video Producer | verified | Swati Salian — Content Manager | L | BANKED | batch-10 |
 | F5 | Roland Luitgaarden | Lead Creative Producer | verified | David Wulzen — Video Post Production Manager | G2 | DRAFTED 10-05, LinkedIn PASS 10-05 | batch-10 |
 | Group-IB | Meeba Gracy | Content Marketing Manager | verified | Maria Viderman — Content Marketing Manager | G | **DRAFTED** 30 Sep (Funnel G, Gmail label "Funnel G") | batch-11 |
