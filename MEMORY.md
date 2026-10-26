@@ -10,7 +10,7 @@ Ground rule: this file plus `@`-imports and `reference/` is what I carry between
 
 ## Who Spencer is
 
-Spencer Z. Pearman — professional non-union American voiceover artist **and** audio engineer. US citizen, based in **Lisbon, Portugal**, Portuguese tax resident. Also has a California residence (relevant to US-resident-only jobs; Spencer 09-24).
+Spencer Z. Pearman — professional non-union American voiceover artist **and** audio engineer. US citizen, based in **Lisbon, Portugal** (moved there 2022, Spencer 10-26), Portuguese tax resident. Also has a California residence (relevant to US-resident-only jobs; Spencer 09-24).
 
 - Business: **Nomadic Light LLC** (California single-member LLC). Business email **spencer@spencerzvoice.com** (the only email Bingo works from). PT phone **+351 912 081 764** (Spencer 10-21; ChatGPT already lists it); US/WhatsApp +1 (510) 316-9382 (Resume 2026).
 - Website: spencerzvoice.com (detail: [[website-and-brand]]). Resume site: spencerzvoice.caard.co.
