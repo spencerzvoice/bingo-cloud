@@ -644,3 +644,10 @@ Shell / Jane Sayers (warm, 10-27 desktop): live Gmail thread 1a0d51f505a4ffa7 st
 
 ## 2026-10-27 13:05 UTC (cloud, Morning Build)
 Stage 3: 20 live drafts, 0 carry NOT READY/VERIFY lines, nothing to check. Stage 4: **Follow-up queue check: drafts D 0, due N 2 (Casey Daigle/Calm QUEUED for 09:04 PT; Paul Jun/Ramp SENT 13:04Z), queued Q 1, sent S 1, missing M 0.** Heartbeat Log!F1 13:17:03Z fresh. No HELD/ERROR.
+
+## 2026-10-27 ~16:05 UTC (cloud, Follow-up Prep, for Wed 2026-10-28)
+**Ledger coverage: 186 outbound threads, 160 in ledger, 26 exempt, 0 missing** (1 was a deliverability test to a mailpool.io address, EXEMPTed below; 77 tracker-only rows carried by name/email index as before).
+EXEMPT: email-8dc3d87a-11de-44f2-bd38-04159a9b6d88@test.mailpool.io | thread 1a17c97eeb467c39 | admin/vendor: "Blocklist Check Test" deliverability test, not a contact | 2026-10-27
+**QUEUED touch 3 (final), Wed 2026-10-28 10:13 contact-local** (touch 2 sent 10-14, day 14): Jordan Howes/BUCK (Australia/Sydney = Tue 23:13 UTC), Daniel Warner/micro1 (US, 10:13 Pacific), Andrew Linsk/Psyop (US, 10:13 Pacific). NO-CONTACT CHECK (live Gmail via FGAC 10-27): only Spencer's two sends each, nothing scheduled/drafted, no inbound (Psyop = 10-07 OOO auto-reply only; micro1.ai mail is Spencer's own applicant notifications, none from Daniel), no LinkedIn notification mail, no bounce, nothing logged in repo. Clean. After final: LT1 ~2027-01-12.
+Casey Daigle/Calm touch 2 still QUEUED for 09:04 PT today (16:04Z), not yet sent at run time. Not yet due: G/G2/H touch 3 Thu 10-29; Funnel K touch 2 Fri 10-30; Marty Geren/Hornet + Kristin Glushon/Nexus still need a Spencer-worded touch 2 (window ends Thu 10-29).
+**Follow-up queue check: drafts D 0, due N 3 (Wed), queued Q 3, sent S 0 new since Digest (Casey pending 16:04Z), missing M 0.** Heartbeat Log!F1 15:59:04Z fresh. No HELD/ERROR.
