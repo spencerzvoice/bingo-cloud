@@ -309,7 +309,7 @@ New lane (MEMORY.md "YouTube-channel lane"): faceless/narrated YouTube channels,
 | Rational Animations | Emanuele Ascani, Co-founder & CEO, writer@rationalanimations.com (Apollo Verified) | "What will it take to wake humanity up?" (09-20) | latest | Europe/Rome | |
 | Modern MBA | Yishan Lin, Founder, x@modern-mba.com (Apollo Verified) | "Why Buffets Suddenly Disappeared" (09-20) | latest | US | |
 | Yarnhub | david@yarnhub.org (YouTube About) | "When Ha-Go Tanks Ambushed M3 Stuarts" (09-28) | one of latest | US | newest = dialogue-only trailer + members-only film |
-| Dark Docs | darkdocumentaries@darkdocs.tv (team inbox on About) | "The Only Pilot to Kill 12 Tanks in a Day" (10-21) | latest | US | script check flags 0:32 / 0:51 for Spencer's ear |
+| Dark Docs | darkdocs@intheblackmedia.com (YouTube About business email; SENT by Spencer 10-27 18:17 Lisbon). darkdocumentaries@darkdocs.tv BOUNCED 550 5.1.1, never use | "The Only Pilot to Kill 12 Tanks in a Day" (10-21) | latest | US | script check flags 0:32 / 0:51 for Spencer's ear |
 | AiTelly | aitellyinfo@gmail.com (YouTube About) | "How the MOAB Actually Works" (10-26) | latest | America/New_York | female announcer |
 | AI Revolution | airevolutionofficial@gmail.com (About general inbox) | "It's over... China's New AI Just Caught Up With America's Best" (10-26) | one of latest | US | |
 | Insane Curiosity | insanecuriositybusiness@gmail.com (YouTube About) | "What This El Niño Will Do to America This Winter Is Worse Than You Think" (10-26) | latest | US | |
