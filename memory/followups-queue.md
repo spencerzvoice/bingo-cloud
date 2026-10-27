@@ -628,3 +628,9 @@ Touch 1, Gmail native Schedule send in Chrome (u/3, Gmail tz = GMT = Lisbon), 08
 - Roxanne Hughes/Schneider roxanne.hughes@schneider-electric.com (Australia/Sydney): Tue 10-27 21:32 Lisbon = Wed 10-28 08:32 Sydney (Tue 08:32 Sydney had already passed). Catch-all domain: watch for a bounce.
 Touch 2 (09:04 local, queue sheet) due Tue 11-03 (Roxanne Wed 11-04), overdue Fri 11-06; thread ids get added on the first coverage scan after they send. Tracker rows 268-274.
 - 2026-10-26 ~23:10 Lisbon: Eddie Russell/Unity eddie.russell@unity3d.com (America/Chicago) touch 1 SCHEDULED Tue 10-27 13:32 Lisbon = 08:32 Central; touch 2 due Tue 11-03 09:04 local, overdue Fri 11-06. Gmail Scheduled now 8.
+- 2026-10-27 ~00:55 Lisbon: Funnel L touch 1 SCHEDULED by Bingo in Gmail (Chrome u/3, Spencer: "schedule all of Funnel L's emails to go out ... the 27th"), 08:32 contact-local, verified via FGAC in:scheduled label:funnel-l = 9 (each internalDate = 08:32 in its CONTACT-TZ zone). Spencer removed the [Source] lines himself first.
+  - Tue 10-27 03:02 Lisbon: Tanya Mukundan/EC-Council tanya.mukundan@eccouncil.org (Asia/Kolkata)
+  - Tue 10-27 12:32 Lisbon: Jess Peterson/Shopify jess.peterson@shopify.com, Carlos Perez/Pega carlos.perez@pega.com (America/New_York)
+  - Tue 10-27 14:32 Lisbon: Janssen Weeks/Qualtrics janssenw@qualtrics.com (America/Denver)
+  - Tue 10-27 15:32 Lisbon: Jim Johnson/Workday jim.a.johnson@workday.com, Vince Genovese/ServiceNow vince.genovese@servicenow.com, Pete Anderson/Freshworks pete.anderson@freshworks.com, Jeffrey Rennacker/Darktrace jeff.rennacker@darktrace.com (catch-all domain, watch for a bounce), Georgina Lipovac/Anaplan georgina.brown@anaplan.com (America/Los_Angeles)
+  - Touch 2 (09:04 local, queue sheet) due Tue 11-03, overdue Fri 11-06. Tracker rows 276-284 (J:K formulas re-pasted J3:K284).
