@@ -134,10 +134,19 @@ else:
 if not any(d in to for d in NO_SAMPLE_DOMAINS) and not no_video:
     # v5 (Spencer's Docebo send, 2026-10-14): the re-voice line comes RIGHT AFTER the intro sentence and BEFORE the
     # turnaround/credits paragraph, and opens "To give you an idea of my voice, I re-voiced your ...".
-    need("To give you an idea of my voice, I re-voiced your", "v5 re-voice line (title or VIDEO TITLE PENDING)")
+    if creator:
+        # Creator variant, no hook (Spencer, 2026-10-27: "Delete all the hooks from Funnel S ... If the video that we
+        # are revoicing is the latest video, say it's the latest video. If it's one of the latest videos, say it's one
+        # of the latest videos ... open up the email with just 'My name is Spencer Pearman'").
+        if not re.search(r"To give you an idea of my voice, I re-voiced (your latest( [\w' ]+)? video|one of your latest videos), ", text):
+            fails.append("creator re-voice line must read 'I re-voiced your latest video, \"<title>\"' or "
+                         "'I re-voiced one of your latest videos, \"<title>\"' (Spencer 2026-10-27)")
+        ban(r"Congrats on the new video|\[Source:", "hook in a creator pitch (Spencer 2026-10-27: no hook for YouTube channels)")
+    else:
+        need("To give you an idea of my voice, I re-voiced your", "v5 re-voice line (title or VIDEO TITLE PENDING)")
     need("I'd appreciate it if you gave it a listen!", "re-voice follow-on")
     _l = text.lower()
-    _i, _r, _t = _l.find("my name is spencer pearman"), _l.find("i re-voiced your"), _l.find("my standard turnaround")
+    _i, _r, _t = _l.find("my name is spencer pearman"), _l.find("i re-voiced "), _l.find("my standard turnaround")
     if min(_i, _r, _t) >= 0 and not (_i < _r < _t):
         fails.append("v5 order: the re-voice line must sit between the intro sentence and 'My standard turnaround'")
 need("I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!", "v4 close")
