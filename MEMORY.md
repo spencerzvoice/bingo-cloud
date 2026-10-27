@@ -59,6 +59,7 @@ Get Spencer out of the low-rate bracket and into higher-paying, longer, **repeat
 
 ### Client acquisition (cold-pitch funnels)
 - Funnels A–G2 fully sent; per-funnel history in `reference/client-acquisition/FUNNEL-COHORTS.md`. Live funnels H–R (10 companies each) drafted in the CLAUDE.md 5d order; new sourcing only after R.
+- **"Video is done" = link it AND schedule it, no check-in** (Spencer 10-27: "As soon I tell you a video is done, link it and schedule it"): Drive share link into the draft, re-apply label, read back, then Gmail Schedule send (Chrome, u/3, Gmail tz = GMT) at the next 08:32 contact-local, tracker row.
 - **YouTube-channel lane (Spencer 10-26: "highest on the chain"):** faceless/narrated channels, 400k–1M+ subs, long-form at least monthly; goal 3–4 constant channel clients = €500–1,000/week (a Primal-style video + ad read ≈ €500). Funnel S = 10 tech channels, jumps the drafting order; creator pitch variant leads with Primal Space; re-voice = their latest video. Other genres to follow (his list: pop culture, tech, travel, engineering, health).
 - Funnel = send cohort; Drive `Client Outreach/Funnel X/` is the source of truth; Gmail label "Funnel X" on every draft (a PUT drops labels, re-apply).
 - Sent funnels move to `Client Outreach/_Done - Sent Funnels/` the day their last pitch goes out; admin items in `_Admin & Other Clients/`; `Ableton Template Project/` stays on top (hardcoded path) (Spencer 10-14).
