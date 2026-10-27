@@ -300,18 +300,22 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 ### Funnel S: YouTube tech channels (Spencer, 2026-10-26) · FIRST in the drafting order, desktop-built (CLAUDE.md 5d0)
 New lane (MEMORY.md "YouTube-channel lane"): faceless/narrated YouTube channels, 400k-1M+ subs, long-form at least monthly (weekly/biweekly ranked first), hired or AI narrator, sponsor reads a plus. Pitch = `PITCH-TEMPLATE.md` "v6 CREATOR variant"; re-voice = each channel's newest long-form video. Target send: Tue 2026-10-27, 08:32 contact-local. Queue at research start: 11 pitch drafts live, so 9 fit under the cap of 20; the 10th stays STAGED. Research in progress; channels listed here once verified.
 
-| Channel | Subs | Cadence | Narrator | Buyer | Email | Status |
-|---|---|---|---|---|---|---|
-| Interesting Engineering (+ Military Mechanics, IE Explains) | 1.68M | ~2 wk | ✅ hired freelancer credited to Nov 2025 ("Voice Over: Ash Steel"), ❓ since | Richard Dimery, video producer, IE Media (LinkedIn live per agent) | ❓ Apollo | TIER 1 |
-| Fern (made by Simplicissimus) | 5.63M | weekly | ✅ paid narrator roster (watchfern.com/about); sponsor reads | EPs Paul Lühnsdorf / Cristian Kiesling | fern@1up.management (management) | TIER 1, off-lane (crime/internet docs) |
-| Rational Animations | 499K | ~monthly | ✅ hired (Rob Miles) + VO editor; nonprofit, no ads; sells client animation | Emanuele Ascani, Producer | business@rationalanimations.com | TIER 1 |
-| The Military Show | 2.31M | daily | ✅ in-house narrator; 🟡 hiring voices for new sister channels | ❓ | ❓ | TIER 1, contact needed |
-| Dark Docs / Dark Skies / Dark Seas | 1.2M / 699K / 468K | weekly each | 🟡 hired actor (Austin Nebbia resume) | ❓ | darkdocs@intheblackmedia.com (talent mgmt) | TIER 1 |
-| Modern MBA | 841K | ~3 wk | ❓ (no self-ID; "produced by former VICE/Netflix talent"); sponsor reads | ❓ | x@modern-mba.com | TIER 2, Spencer listens |
-| AiTelly (+ NodMap, LocRot) | 2.03M | weekly | ❓; sponsors; 2 new channels | ❓ | only AiTelly@163.com (Chinese brands) | TIER 2, listen + contact |
-| Insane Curiosity | 666K | daily | ❓ | 🟡 Lorenzo Varese | insanecuriositybusiness@gmail.com | TIER 2, listen |
-| Defense Updates | 618K | 2-3/wk | ❓; NordVPN read by narrator | ❓ | ❓ | TIER 2, listen + contact |
-| AI Revolution | 574K | daily | ❓ (human / AI / owner) | ❓ | airevolutionofficial@gmail.com | TIER 2, listen |
+**DRAFTED 2026-10-27 (desktop): all 10 in Gmail, label "Funnel S" (Label_13).** Creator variant, NO HOOK (Spencer 10-27), re-voice line says "your latest video" / "one of your latest videos" (checked live 10-27 ~01:45 Lisbon). Links = REPLACE-WITH-SAMPLE-LINK until Spencer's takes. Packages in `Client Outreach/Funnel S/<Channel>/` = ~1 min opening of the narrated video: NOVOX + script + Ableton + MAKE VIDEO.
+
+| Channel | To | Re-voice | Line | Zone | Notes |
+|---|---|---|---|---|---|
+| Interesting Engineering | Richard Dimery, Head of Social Media & Video, richard.dimery@interestingengineering.com (Apollo Verified) | Military Mechanics "The Jamming Business Jet That Replaced a Cargo Plane After 45 Years" (10-25) | latest Military Mechanics video | Europe/London | IE's own newest video is hosted on camera by Richard |
+| fern | Jonas Rump, Senior Editor-in-Chief, jonasr@simpli.de (Apollo Verified) | "The Stoner Kids Dealing Guns to the Army" (10-21), host intro trimmed | latest | Europe/Berlin | narrated by writer Amanda, 3rd person |
+| Rational Animations | Emanuele Ascani, Co-founder & CEO, writer@rationalanimations.com (Apollo Verified) | "What will it take to wake humanity up?" (09-20) | latest | Europe/Rome | |
+| Modern MBA | Yishan Lin, Founder, x@modern-mba.com (Apollo Verified) | "Why Buffets Suddenly Disappeared" (09-20) | latest | US | |
+| Yarnhub | david@yarnhub.org (YouTube About) | "When Ha-Go Tanks Ambushed M3 Stuarts" (09-28) | one of latest | US | newest = dialogue-only trailer + members-only film |
+| Dark Docs | darkdocumentaries@darkdocs.tv (team inbox on About) | "The Only Pilot to Kill 12 Tanks in a Day" (10-21) | latest | US | script check flags 0:32 / 0:51 for Spencer's ear |
+| AiTelly | aitellyinfo@gmail.com (YouTube About) | "How the MOAB Actually Works" (10-26) | latest | America/New_York | female announcer |
+| AI Revolution | airevolutionofficial@gmail.com (About general inbox) | "It's over... China's New AI Just Caught Up With America's Best" (10-26) | one of latest | US | |
+| Insane Curiosity | insanecuriositybusiness@gmail.com (YouTube About) | "What This El Niño Will Do to America This Winter Is Worse Than You Think" (10-26) | latest | US | |
+| Defense Updates | somnathwired@gmail.com (YouTube About) | "DDG MOD 2.0 modernization..." (10-25) | latest | Asia/Kolkata | |
+DROPPED: The Military Show (no email anywhere; Facebook Messenger only).
+Before sending: re-check "latest" for the daily channels (AI Revolution, Insane Curiosity, AiTelly, Defense Updates) the morning it goes out.
 Reserves: Yarnhub (3.37M, casts voice actors, contact@yarnhub.org), Branch Education (hired "Phil Lee" but posts every 1-3 months), DidYouKnowGaming (hired narrators, no upload since 08-08). Rejected (founder-voiced): ColdFusion-style channels incl. Logically Answered, Apple Explained, Company Man, Hoog, TheAIGRID, Megaprojects, The Space Race, New Mind, Moon (🟡). Research files: `contacts/2026-10-26-funnel-s-research-A.md` / `-B.md`; genre check: `contacts/2026-10-26-youtube-genre-verification.md`.
 
 ## Pitch-queue count after the 2026-10-01 Lead Batch run: 19 pre-existing (all Funnel G) + 1 new (ABB, Funnel H) = 20/20. Recount from live Gmail before the next run, don't trust this line. Detail: `contacts/2026-10-01-funnel-h.md`.
