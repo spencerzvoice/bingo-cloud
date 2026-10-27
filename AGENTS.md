@@ -38,7 +38,7 @@ workspace. Backstop, not the main line of defence — it can't see plain-text an
 `.claude/hooks/send_window_guard.py` blocks any Gmail send unless every recipient is 08:32-15:00 local right now
 (zones: `reference/client-acquisition/CONTACT-TZ.json`; unknown contact = blocked; Spencer's own address exempt).
 `.claude/hooks/no_script_sends.py` blocks sending from Bash/PowerShell scripts, which would skip the guard. Outside the
-window, schedule for the next 8:32 local. Cause: 10-15, 11 US follow-ups sent by a script at 04:13-07:13 local.
+window, schedule for the next 8:32 local; inside it, it goes TODAY. Pick every slot with `python scripts/send_slot.py <email>`, never by habit (10-27: three US pitches were pushed to the next morning while New York was at 13:12). Cause: 10-15, 11 US follow-ups sent by a script at 04:13-07:13 local.
 
 **7. Follow-up queue (Spencer, 2026-10-20: "They should not even hit my draft box" / "This needs to be done offline").**
 Cold touches 2/3 are rows in the Follow-up Queue Sheet, sent offline by the Apps Script "Bingo Follow-up Sender" at 09:04 / 10:13 contact-local (CLAUDE.md override 10). `.claude/hooks/followup_queue_guard.py` blocks any touch 2/3 Gmail draft or send from a session. Done = sent: a run that leaves a due touch 2/3 neither queued nor sent hasn't finished. Cause: 10-15..10-19 the routines kept leaving touch 2/3 drafts in Drafts and Spencer had to ask four times; every fix was a sentence in a prompt, never tested on a real run.
