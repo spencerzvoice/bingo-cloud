@@ -634,3 +634,6 @@ Touch 2 (09:04 local, queue sheet) due Tue 11-03 (Roxanne Wed 11-04), overdue Fr
   - Tue 10-27 14:32 Lisbon: Janssen Weeks/Qualtrics janssenw@qualtrics.com (America/Denver)
   - Tue 10-27 15:32 Lisbon: Jim Johnson/Workday jim.a.johnson@workday.com, Vince Genovese/ServiceNow vince.genovese@servicenow.com, Pete Anderson/Freshworks pete.anderson@freshworks.com, Jeffrey Rennacker/Darktrace jeff.rennacker@darktrace.com (catch-all domain, watch for a bounce), Georgina Lipovac/Anaplan georgina.brown@anaplan.com (America/Los_Angeles)
   - Touch 2 (09:04 local, queue sheet) due Tue 11-03, overdue Fri 11-06. Tracker rows 276-284 (J:K formulas re-pasted J3:K284).
+
+**2026-10-27 01:05 UTC: Roxanne Hughes / Schneider Electric touch 1 SENT now (Spencer: "send it now")**, not at the 21:32 Lisbon slot. Scheduled send cancelled in Gmail, sent from the draft at 12:05 Sydney (inside 08:32-15:00).
+- Roxanne Hughes / Schneider Electric | roxanne.hughes@schneider-electric.com | thread 1a17a1f471ed7112 (msg 1a17ae3fdd515c00) | Australia/Sydney | touch 1 Tue 10-27 | touch 2 (queue sheet, 09:04 Sydney) due Tue 11-03, overdue Fri 11-06. Catch-all domain: watch for a bounce. Gmail Scheduled to her = 0 (checked).
