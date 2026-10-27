@@ -9,7 +9,7 @@ Desktop relay (Spencer, 2026-10-06): YouTube blocks the cloud's IP, not this PC'
 can't download its pick, it uploads sources.txt (URL on line 1) to the client folder and moves on;
 `--all` on the desktop finishes the package and Drive sync uploads it.
 """
-import gzip, json, os, re, shutil, subprocess, sys, tempfile, zlib
+import gzip, json, math, os, re, shutil, subprocess, sys, tempfile, zlib
 import xml.etree.ElementTree as ET
 
 FF = r"C:\Users\spenc\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.1-full_build\bin"
@@ -183,6 +183,19 @@ def patch_clip(xml, track_name, fpath, abs_path=None):
     raise RuntimeError(f"track {track_name} not found")
 
 
+def zoom_to_fit(xml):
+    """Open the arrangement zoomed like Live's W (Optimize Arrangement Width), Spencer 2026-10-27.
+    Visible span = longest clip + ~6%, rounded up to a whole 4-beat bar (matches his own W saves);
+    CurrentZoom is beats per pixel of the saved ClientSize width."""
+    end = max(float(v) for v in re.findall(r'<CurrentEnd Value="([^"]+)" />', xml))
+    width = int(re.search(r'<SequencerNavigator>.*?<ClientSize X="(\d+)"', xml, re.S).group(1))
+    span = math.ceil(end * 1.06 / 4) * 4
+    xml = re.sub(r'(<SequencerNavigator>\s*<BeatTimeHelper>\s*<CurrentZoom Value=")[^"]*(")',
+                 lambda m: m.group(1) + repr(span / width) + m.group(2), xml, count=1)
+    return re.sub(r'(<SequencerNavigator>.*?<ScrollerPos )X="[^"]*" Y="[^"]*"',
+                  r'\1X="0" Y="0"', xml, count=1, flags=re.S)
+
+
 def read_als(als):
     """Ableton's gzip can carry trailing bytes that gzip.open rejects (Airwallex, Booking.com 10-07)."""
     return zlib.decompressobj(31).decompress(open(als, "rb").read()).decode("utf-8")
@@ -192,7 +205,7 @@ def repatch(als, src, nv):
     """Re-point an existing project's two video tracks (idempotent)."""
     xml = read_als(als)
     xml = patch_clip(xml, "ORIGINAL VIDEO", src)
-    xml = patch_clip(xml, "VIDEO WITHOUT VOX", nv)
+    xml = zoom_to_fit(patch_clip(xml, "VIDEO WITHOUT VOX", nv))
     ET.fromstring(xml.encode("utf-8"))
     with gzip.GzipFile(als, "wb", mtime=0) as g:
         g.write(xml.encode("utf-8"))
@@ -211,7 +224,7 @@ def ableton(client, cdir, src, nv, n=1):
     xml = read_als(als)
     ET.fromstring(xml.encode("utf-8"))
     xml = patch_clip(xml, "ORIGINAL VIDEO", src)
-    xml = patch_clip(xml, "VIDEO WITHOUT VOX", nv)
+    xml = zoom_to_fit(patch_clip(xml, "VIDEO WITHOUT VOX", nv))
     ET.fromstring(xml.encode("utf-8"))
     with gzip.GzipFile(als, "wb", mtime=0) as g:
         g.write(xml.encode("utf-8"))

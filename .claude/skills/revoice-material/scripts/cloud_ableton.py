@@ -23,7 +23,7 @@ import argparse, glob, gzip, html, os, re, shutil, sys
 import xml.etree.ElementTree as ET
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from revoice_build import patch_clip  # noqa: E402
+from revoice_build import patch_clip, zoom_to_fit  # noqa: E402
 
 DRIVE_ROOT = "D:/My Drive/Client Outreach"
 BAT = r'''@echo off
@@ -147,7 +147,7 @@ def build(template, funnel, client, src, novox, out, n=1):
     ET.fromstring(xml.encode("utf-8"))
     base = f"{DRIVE_ROOT}/{funnel}/{client}"
     xml = patch_clip(xml, "ORIGINAL VIDEO", src, f"{base}/{os.path.basename(src)}")
-    xml = patch_clip(xml, "VIDEO WITHOUT VOX", novox, f"{base}/{os.path.basename(novox)}")
+    xml = zoom_to_fit(patch_clip(xml, "VIDEO WITHOUT VOX", novox, f"{base}/{os.path.basename(novox)}"))
     ET.fromstring(xml.encode("utf-8"))
     with gzip.GzipFile(als, "wb", mtime=0) as g:
         g.write(xml.encode("utf-8"))

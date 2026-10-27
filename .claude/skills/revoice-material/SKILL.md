@@ -77,10 +77,13 @@ Live Ableton needs nothing else to treat an mp4 as video+audio; a bare `VO` trac
 Template tracks: `VO Chain` > `VO` (full mix chain), `~VAL/~SHORT/~LMS` refs, `ORIGINAL VIDEO`, `VIDEO WITHOUT VOX`, returns, `Main`.
 **Template mix defaults (Spencer, 2026-09-24), now baked into `Ableton Template.als` (backup `.pre_sidechain`):**
 - No placeholder clip on the `VO` track. Spencer records fresh.
-- `ORIGINAL VIDEO` track volume is −10 dB (0.3162).
-- `VIDEO WITHOUT VOX` track volume is −5 dB (0.5623).
+- `ORIGINAL VIDEO` track volume is −18 dB (0.1259) and **soloed** (track activator still off, as before). (Spencer 2026-10-27; was −10 dB.)
+- `VIDEO WITHOUT VOX` track volume is −10 dB (0.3162). (Spencer 2026-10-27; was −5 dB.)
+- Sidechain Compressor2 threshold on `VIDEO WITHOUT VOX` is −35 dB (0.01778). (Spencer 2026-10-27; was −31.9 dB.)
+- Arrangement opens zoomed to fit (like pressing W): `zoom_to_fit()` in `revoice_build.py` sets `SequencerNavigator` CurrentZoom from each project's own clip length (span = clip + ~6%, rounded up to a bar; ScrollerPos 0). Both build paths call it; the template alone can't, since its zoom only fits the 79-beat placeholder.
 - `VIDEO WITHOUT VOX` carries Spencer's **sidechain Compressor2**, keyed from `AudioIn/Track.16/PostFxOut` (the `VO` track, Post FX), so the bed ducks under his voice. The source was his Experian project. When copying the device between projects, renumber its AutomationTarget/ModulationTarget Ids from the target's `NextPointeeId` and bump that value.
 - Applied 09-24 to every pending C2/D/E project (backup `.pre_sidechain`). Not applied to Experian (done by hand), Airtable (finished) or sent funnels.
+- 10-27 mix + zoom applied to the template (backup `Ableton Template Project/Backup/`) and every unrecorded live project in Funnels M–S (40; backups in each project's `Backup/`). Skipped: any project with a take in `Ready to Link…` (all of P, most of Q), `_old`/`_rejected` copies, Funnel L and sent funnels.
 
 ## Step 6 — Hand-off
 Spencer opens the project, records over NOVOX, exports the take into `Ready to Link to Drafted Email/`, links it in the drafted email. Every Drive client folder gets that subfolder at creation.
