@@ -167,3 +167,13 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-26 | Jeffrey Rennacker | Darktrace | linkedin.com/in/jeffrennacker | "Vice President Brand Marketing, Darktrace, Jul 2023 - Present, United States; top card Los Angeles Metropolitan Area (desktop Chrome, /details/experience/)" | PASS
 2026-10-27 | Liz Colanto | Pegasystems | linkedin.com/in/liz-colanto11 | "Head of Post, Lead Video Editor, Pegasystems, May 2024 - Present, remote (Waltham MA) (desktop Chrome, /details/experience/)" | PASS (employed) / not the buyer
 2026-10-27 | Carlos Perez | Pegasystems | linkedin.com/in/carlos-perez-429a274 | "Global Creative Director, Pegasystems, Mar 2021 - Present; top card Greater Boston (desktop Chrome, /details/experience/)" | PASS
+2026-10-27 | Melinda Carlson-Smith | Palo Alto Networks | linkedin.com/in/melinda-carlson-smith | "public profile company: Palo Alto Networks (zenrows)" | API-PASS
+2026-10-27 | Joshua Hernandez | SentinelOne | linkedin.com/in/joshuajhernandez | "public profile company: SentinelOne (zenrows)" | API-PASS
+2026-10-27 | Jackie Bright | Arctic Wolf | linkedin.com/in/jackie-bright | "public profile company: Arctic Wolf (zenrows)" | API-PASS
+2026-10-27 | Matt Van Dzura | Cash App | linkedin.com/in/mattvandzura | "public profile company: Cash App (zenrows)" | API-PASS
+2026-10-27 | Orlando Baeza | Chime | linkedin.com/in/orlandobaeza | "public profile company: Chime (zenrows)" | API-PASS
+2026-10-27 | Xavier Plaza | Kaseya | linkedin.com/in/xplaza | "public profile company: Kaseya (zenrows)" | API-PASS
+2026-10-27 | Eric Hines | LastPass | linkedin.com/in/grindethic | "public profile company: LastPass (zenrows)" | API-PASS
+2026-10-27 | Daniel Morales | Proofpoint | linkedin.com/in/danielmoralesgd | "public profile company: Proofpoint (zenrows)" | API-PASS
+2026-10-27 | Stewart Devlin | Tenable | linkedin.com/in/stewart-devlin-5456a924 | "public profile company: Tenable (zenrows)" | API-PASS
+2026-10-27 | Cortney Albrecht | WatchGuard | linkedin.com/in/cortney-albrecht-8297407 | "public profile company: WatchGuard Technologies (zenrows)" | API-PASS

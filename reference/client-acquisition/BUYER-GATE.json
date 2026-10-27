@@ -219,6 +219,17 @@
   "verdict": "PASS",
   "why": "decision-maker title (head of)"
  },
+ "cortney.albrecht@watchguard.com": {
+  "company": "WatchGuard",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Cortney Albrecht",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "Creative Director",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
+ },
  "cscholz@confluent.io": {
   "company": "Confluent",
   "company_type": "inhouse",
@@ -240,6 +251,17 @@
   "title": "Producer / Sr Program Manager, Global Brand Film & Video",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "daniel.morales@proofpoint.com": {
+  "company": "Proofpoint",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Daniel Morales",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "Senior Director, Creative",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
  },
  "daniel@micro1.ai": {
   "company": "micro1",
@@ -340,6 +362,17 @@
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (content marketing manager). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
  },
+ "eric.hines@lastpass.com": {
+  "company": "LastPass",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Eric Hines",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "Creative Director",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
+ },
  "georgina.brown@anaplan.com": {
   "company": "Anaplan",
   "company_type": "inhouse",
@@ -405,6 +438,17 @@
   "title": "Senior Video Producer",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "jackie.bright@arcticwolf.com": {
+  "company": "Arctic Wolf",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Jackie Bright",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "Sr Director, Brand Programs & Events",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
  },
  "janssenw@qualtrics.com": {
   "company": "Qualtrics",
@@ -548,6 +592,17 @@
   "title": "Head of Global Brand Communications",
   "verdict": "PASS",
   "why": "decision-maker title (head of)"
+ },
+ "joshua.hernandez@sentinelone.com": {
+  "company": "SentinelOne",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Joshua Hernandez",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "Creative Director",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
  },
  "karim.el-sayed@klaviyo.com": {
   "company": "Klaviyo",
@@ -714,6 +769,28 @@
   "verdict": "FAIL",
   "why": "crew/adjacent role (editor), not a VO buyer. Go up the org or BLOCK the company"
  },
+ "mattv@squareup.com": {
+  "company": "Cash App",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Matt Van Dzura",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "Executive Producer, Brand",
+  "verdict": "PASS",
+  "why": "decision-maker title (executive producer)"
+ },
+ "mcarlsonsmit@paloaltonetworks.com": {
+  "company": "Palo Alto Networks",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Melinda Carlson-Smith",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "Creative Director - Cortex",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
+ },
  "mdickson@lonelyplanet.com": {
   "company": "Lonely Planet",
   "company_type": "inhouse",
@@ -823,6 +900,17 @@
   "title": "Content Marketing Manager",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (content marketing manager). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "orlando.baeza@chime.com": {
+  "company": "Chime",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Orlando Baeza",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "VP of Brand & Creative",
+  "verdict": "PASS",
+  "why": "decision-maker title (vp)"
  },
  "pablo.zubieta@mongodb.com": {
   "company": "MongoDB",
@@ -966,6 +1054,17 @@
   "title": "Creative Producer",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "sdevlin@tenable.com": {
+  "company": "Tenable",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Stewart Devlin",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "Vice President, Creative",
+  "verdict": "PASS",
+  "why": "decision-maker title (vice president)"
  },
  "sergio.manzo@siemens.com": {
   "company": "Siemens",
@@ -1120,6 +1219,17 @@
   "title": "Founder",
   "verdict": "PASS",
   "why": "decision-maker title (founder)"
+ },
+ "xavier.plaza@kaseya.com": {
+  "company": "Kaseya",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Xavier Plaza",
+  "practice": "unknown",
+  "source": "Apollo people match + waterfall 2026-10-27",
+  "title": "Director of Video Production",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
  },
  "xpaxe@orsted.com": {
   "company": "Orsted",
