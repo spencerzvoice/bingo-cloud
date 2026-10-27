@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-26_
+_Last updated: 2026-10-27_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -28,7 +28,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 - Markets US (GVAA) and Europe (GFTB); clients via Voices.com, VoiceArchive, direct.
 
 ### Established credits (use in outreach, only when verified)
-FIFA World Cup 2026 Preview Series (Noah Media Group — documentary narration; episodes 1, 3, 5, 7, 9, 11, Spencer 10-15; narrator credit on IMDb nm19018155 since 10-20) · Primal Space (YouTube animated history/science narration, e.g. "Why Inventing Color TV Was So Difficult" 2026-03-31, "Killing Russia's Most Hated Man" 2025-07-30; Spencer 10-06) · Venmo (2 national paid-social spots) · Amazon AWS · NordicTrack (incl. 2023 Holiday Campaign, 4 spots) · Cisco · Brave Browser · FootJoy · Fabletics · Condado Tacos · University of Kansas · EuroLeague (IMG) · Venum (global web + French TV) · Artlist · Travelpro · Dell Technologies.
+FIFA World Cup 2026 Preview Series (Noah Media Group — documentary narration; episodes 1, 3, 5, 7, 9, 11, Spencer 10-15; narrator credit on IMDb nm19018155 since 10-20) · Primal Space (YouTube animated history/science narration, e.g. "Why Inventing Color TV Was So Difficult" 2026-03-31, "Killing Russia's Most Hated Man" 2025-07-30; Spencer 10-06) · Hip Hop Madness and Business Basics (YouTube documentary narration; creator-pitch credits line, Spencer 10-27: "I've narrated documentaries for Primal Space, Hip Hop Madness, and Business Basics, to name a few of my past clients.") · Venmo (2 national paid-social spots) · Amazon AWS · NordicTrack (incl. 2023 Holiday Campaign, 4 spots) · Cisco · Brave Browser · FootJoy · Fabletics · Condado Tacos · University of Kansas · EuroLeague (IMG) · Venum (global web + French TV) · Artlist · Travelpro · Dell Technologies.
 
 Full client → end-client directory and job history: [[vo-client-directory]].
 

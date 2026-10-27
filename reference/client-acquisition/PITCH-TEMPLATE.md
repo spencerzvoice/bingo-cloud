@@ -36,7 +36,7 @@ The callback names **what happened**, never just the thing's name. Read it aloud
 ---
 
 ### v6 CREATOR variant: YouTube channels (Spencer 2026-10-26; NO HOOK since 2026-10-27)
-For faceless/narrated YouTube channels (the YouTube-channel lane, MEMORY.md). **No hook, no [Source] marker** (Spencer, 2026-10-27: "Delete all the hooks from Funnel S. It doesn't land right, and it sounds terrible ... open up the email with just 'My name is Spencer Pearman'"). The re-voice line says whether the video is their latest: "your latest video" if it is their newest upload on the day the draft is built (re-check), "one of your latest videos" if newer uploads exist. A sister channel can be named ("your latest Military Mechanics video"). Credits lead with Primal Space. `pitch_draft_qc.py` recognises the variant by the Primal Space line and blocks a hook in it.
+For faceless/narrated YouTube channels (the YouTube-channel lane, MEMORY.md). **No hook, no [Source] marker** (Spencer, 2026-10-27: "Delete all the hooks from Funnel S. It doesn't land right, and it sounds terrible ... open up the email with just 'My name is Spencer Pearman'"). The re-voice line says whether the video is their latest: "your latest video" if it is their newest upload on the day the draft is built (re-check), "one of your latest videos" if newer uploads exist. A sister channel can be named ("your latest Military Mechanics video"). Credits line (Spencer, 2026-10-27: tense fix): "I've narrated documentaries for Primal Space, Hip Hop Madness, and Business Basics, to name a few of my past clients." `pitch_draft_qc.py` recognises the variant by that line and blocks a hook in it.
 ```
 Hello <First>, hope you're doing well!
 
@@ -44,7 +44,7 @@ My name is Spencer Pearman and I'm a professional Voiceover Artist and Audio Eng
 
 To give you an idea of my voice, I re-voiced <your latest video | one of your latest videos>, <a href="<Drive link>">"<exact video title>"</a>. I'd appreciate it if you gave it a listen!
 
-I narrate documentaries for Primal Space, and my standard turnaround is within 24 hours and within 2-3 hours for rush projects. My recent work also includes the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball. You can see more of my work at spencerzvoice.com.
+I've narrated documentaries for Primal Space, Hip Hop Madness, and Business Basics, to name a few of my past clients. My standard turnaround is within 24 hours and within 2-3 hours for rush projects. My recent work also includes the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball. You can see more of my work at spencerzvoice.com.
 
 I'd love to get on a call and talk about working together, please don't hesitate to reach out. Hope to hear from you soon!
 

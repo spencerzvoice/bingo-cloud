@@ -104,7 +104,10 @@ if not any(d in to for d in CUSTOM_REACHING_OUT_DOMAINS):
 need("My standard turnaround is within 24 hours and within 2-3 hours for rush projects", "v4 turnaround line (Spencer 10-13: '2-3 hours')")
 # CREATOR variant (Spencer, 2026-10-26, Funnel S YouTube channels): credits lead with Primal Space, then
 # "My recent work also includes the 2026 FIFA ...". Full text: PITCH-TEMPLATE.md "v6 CREATOR variant".
-creator = "i narrate documentaries for primal space, and my standard turnaround" in text.lower()
+# Credits line, past tense (Spencer, 2026-10-27): "I've narrated documentaries for Primal Space, Hip Hop Madness, and
+# Business Basics, to name a few of my past clients."
+creator = "i've narrated documentaries for primal space, hip hop madness, and business basics, to name a few of my past clients." in text.lower()
+ban(r"I narrate documentaries for Primal Space", "old present-tense credits line (Spencer 2026-10-27: \"I've narrated documentaries for ...\")")
 if creator:
     need("My recent work also includes the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball",
          "creator credits line")
