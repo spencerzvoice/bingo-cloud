@@ -136,6 +136,7 @@
   "colin.goheen@postman.com": "America/Los_Angeles",
   "riwest@twilio.com": "America/Chicago",
   "eddie.russell@unity3d.com": "America/Chicago",
+  "carlos.perez@pega.com": "America/New_York",
   "jeff.rennacker@darktrace.com": "America/Los_Angeles",
   "mhung@newrelic.com": "America/Los_Angeles",
   "vince.genovese@servicenow.com": "America/Los_Angeles",
@@ -152,5 +153,9 @@
   "writer@rationalanimations.com": "Europe/Rome",
   "x@modern-mba.com": "US",
   "airevolutionofficial@gmail.com": "US",
-  "insanecuriositybusiness@gmail.com": "US"
+  "insanecuriositybusiness@gmail.com": "US",
+  "aitellyinfo@gmail.com": "America/New_York",
+  "somnathwired@gmail.com": "Asia/Kolkata",
+  "david@yarnhub.org": "US",
+  "darkdocumentaries@darkdocs.tv": "US"
 }

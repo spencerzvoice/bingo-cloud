@@ -10,6 +10,28 @@
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
  },
+ "airevolutionofficial@gmail.com": {
+  "company": "AI Revolution",
+  "company_type": "studio",
+  "date": "2026-10-26",
+  "name": "AI Revolution team",
+  "practice": "unknown",
+  "source": "AI Revolution YouTube About 'General Inquiries' + 10-26 video description",
+  "title": "channel general inbox, reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: The About business email is collabs@nouralabs.com, their brand-deal agency; the channel's own published inbox is the route to the team. No owner named (checked 10-26). Spencer 10-26: channel About emails are the way to reach YouTube channels."
+ },
+ "aitellyinfo@gmail.com": {
+  "company": "AiTelly",
+  "company_type": "studio",
+  "date": "2026-10-26",
+  "name": "AiTelly team",
+  "practice": "unknown",
+  "source": "channel's own YouTube About panel, revealed in Spencer's Chrome 2026-10-26",
+  "title": "channel business inbox, reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Business email the channel itself publishes on its YouTube About. No person is named on YouTube, ArtStation, Instagram or Apollo (checked 10-26), so this inbox is the senior-most known route. Spencer 10-26: channel About emails are the way to reach YouTube channels."
+ },
  "alex.gauermann@jetbrains.com": {
   "company": "JetBrains",
   "company_type": "inhouse",
@@ -120,6 +142,17 @@
   "verdict": "FAIL",
   "why": "company practice = interviewee: the in-house video team doesn't buy VO. Pitch the head of brand/marketing (or the agency) instead"
  },
+ "carlos.perez@pega.com": {
+  "company": "Pega",
+  "company_type": "inhouse",
+  "date": "2026-10-27",
+  "name": "Carlos Perez",
+  "practice": "unknown",
+  "source": "live LinkedIn /in/carlos-perez-429a274 experience page 2026-10-27 (Pegasystems, Mar 2021 - Present; ex Head of Video, ZoomInfo) + Apollo match 2026-10-27",
+  "title": "Global Creative Director",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
+ },
  "carter.elkinparis@uipath.com": {
   "company": "UiPath",
   "company_type": "inhouse",
@@ -218,6 +251,28 @@
   "title": "Chief Marketing Officer",
   "verdict": "PASS",
   "why": "decision-maker title (chief)"
+ },
+ "darkdocumentaries@darkdocs.tv": {
+  "company": "Dark Docs",
+  "company_type": "studio",
+  "date": "2026-10-26",
+  "name": "Dark Docs team",
+  "practice": "unknown",
+  "source": "Dark Docs YouTube About text (yt-dlp), 2026-10-26",
+  "title": "channel team inbox, reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Published on the channel About for the team; the business address darkdocs@intheblackmedia.com is their talent management. No owner named anywhere checked (YouTube, IMDb, In The Black roster, 10-26). Spencer 10-26: channel About emails are the way to reach YouTube channels."
+ },
+ "david@yarnhub.org": {
+  "company": "Yarnhub",
+  "company_type": "studio",
+  "date": "2026-10-26",
+  "name": "David",
+  "practice": "unknown",
+  "source": "channel's own YouTube About panel, revealed in Spencer's Chrome 2026-10-26",
+  "title": "channel business inbox (David, role unknown)",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Business email the channel publishes on its YouTube About; Yarnhub's 10-16 description names David Webb as its representative. Yarnhub casts voice actors for its films. Spencer 10-26: channel About emails are the way to reach YouTube channels."
  },
  "deepa@lonelyplanet.com": {
   "company": "Lonely Planet",
@@ -328,6 +383,17 @@
   "title": "Executive Producer",
   "verdict": "PASS",
   "why": "decision-maker title (executive producer)"
+ },
+ "insanecuriositybusiness@gmail.com": {
+  "company": "Insane Curiosity",
+  "company_type": "studio",
+  "date": "2026-10-26",
+  "name": "Insane Curiosity team",
+  "practice": "unknown",
+  "source": "channel's own YouTube About panel, revealed in Spencer's Chrome 2026-10-26",
+  "title": "channel business inbox, reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Business email the channel publishes on its YouTube About and in descriptions. No owner confirmed (dead LinkedIn page, no Apollo match, 10-26). Spencer 10-26: channel About emails are the way to reach YouTube channels."
  },
  "jack.headley@autodesk.com": {
   "company": "Autodesk",
@@ -933,6 +999,17 @@
   "title": "Sr Director of Brand and Creative",
   "verdict": "PASS",
   "why": "decision-maker title (director)"
+ },
+ "somnathwired@gmail.com": {
+  "company": "Defense Updates",
+  "company_type": "studio",
+  "date": "2026-10-26",
+  "name": "Defense Updates team",
+  "practice": "unknown",
+  "source": "channel's own YouTube About panel, revealed in Spencer's Chrome 2026-10-26",
+  "title": "channel business inbox, reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Business email the channel publishes on its YouTube About. No owner named on YouTube, Patreon or Apollo (checked 10-26). Spencer 10-26: channel About emails are the way to reach YouTube channels."
  },
  "steven.watson@airwallex.com": {
   "company": "Airwallex",

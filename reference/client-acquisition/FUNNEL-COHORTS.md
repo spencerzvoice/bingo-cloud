@@ -204,7 +204,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | ServiceNow | Enterprise and business software | Joe Gagliardi | Daniel Koga | DRAFTED 2026-10-13 -> Daniel Koga; hook Flow. RE-ADDRESSED 2026-10-26 -> Vince Genovese, Director Global Brand Video (buyer gate: Koga = IC producer) |
 | Shopify | Enterprise and business software | Jess Peterson | Neal Hicks | DRAFTED 2026-10-13 -> Jess Peterson; hook Shop.com; re-voice swapped (old pick had no narrator) |
 | Workday | Enterprise and business software | Jim Johnson | Tosh Xiong | DRAFTED 2026-10-13 -> Jim Johnson; hook + re-voice Candidate Profile (swap built) |
-| Pegasystems | Enterprise and business software | Liz Colanto | Carlos Perez | DRAFTED 2026-10-13 -> Liz Colanto; hook Gartner BOAT Leader |
+| Pegasystems | Enterprise and business software | Carlos Perez | Liz Colanto | DRAFTED 2026-10-13 -> Liz Colanto; RE-ADDRESSED 2026-10-27 -> Carlos Perez, Global Creative Director (buyer gate: Liz = Head of Post/Lead Editor, live LinkedIn says she mostly edits in Premiere); hook Gartner BOAT Leader; take linked |
 | Anaplan | Enterprise and business software | Georgina Lipovac | Jamieson Copeland | DRAFTED 2026-10-13 -> Georgina Lipovac; hook podcast S2 |
 | Freshworks | Enterprise and business software | Pete Anderson | Mark Girgis | DRAFTED 2026-10-13 -> Pete Anderson; hook Torii acquisition |
 | Darktrace | Cybersecurity vendors | Jeffrey Rennacker | Gus Teixeira | DRAFTED 2026-10-26 -> Jeffrey Rennacker, VP Brand Marketing (buyer gate PASS; jeff.rennacker@darktrace.com ZB valid on a catch-all domain); hook SECURE AI GA (Sep 22); re-voice Defend Beyond, take linked. Was BLOCKED 10-13 (catch-all, Kevin Ginosian left) |
