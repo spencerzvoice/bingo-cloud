@@ -323,16 +323,16 @@ Spencer: "another funnel S1 created for more YouTube channels, tech stuff like t
 
 | Channel | Subs | Cadence | Narrator | To | Zone | Status |
 |---|---|---|---|---|---|---|
-| Kings and Generals | 4.22M | ~3/wk | 2 credited narrators (rotation) | published inbox is sponsorship-only; About hidden email needed | Canada | PICKED 10-28 |
-| HistoryMarche | 1.34M | biweekly, 30-45 min | hired (David McCallion) | business inbox "apply to work for/with" | ❓ | PICKED 10-28 |
-| Static Media (Looper, Nicki Swift, Grunge, Mashed) | 5.7M / 3.2M / 2.5M / 1.4M | daily | rotating freelance roster (7+ credited) | Ilaina Dassatti, SVP Video (static.com team page); email via Apollo | US | PICKED 10-28 |
-| The Secrets of the Universe | 1.79M | weekly | hired (Jeffrey Smith) | only a brand-deal agency inbox published; About hidden email needed | India | PICKED 10-28 |
-| Simple History | 5.12M | 2/wk | hired (Chris Kane), second-voice pitch | sponsor inbox published; About hidden email needed | ❓ | PICKED 10-28 |
-| The Infographics Show | 15.5M | daily | hired (Josh Risser), second-voice pitch | About hidden email | ❓ | PICKED 10-28 |
-| Weird History (Ranker) | 4.73M | ❓ | 🟡 Tom Blank + others | About hidden email | US | PICKED 10-28 |
-| Epic History | 3.2M | ❓ | 🟡 Charles Nove | none published; About hidden email | ❓ | PICKED 10-28 |
-| Sciencephile the AI | 1.11M | biweekly | ❓ persona voice; reads a Mammouth sponsor in character | contact form only; About hidden email needed | ❓ | PICKED 10-28 (replaces Psych2Go) |
-| HealthNormal | 1.17M | ~2/wk | ❓ (human or TTS) | contact form only; About hidden email | ❓ | PICKED 10-28 (health) |
+| Kings and Generals | 4.22M | ~3/wk | 2 credited narrators (rotation) | info@kingsandgenerals.net (About panel inbox, Spencer 10-28: "Use the inboxes"); founder Nurlan Karimov, Toronto | America/Toronto | READY |
+| HistoryMarche | 1.34M | biweekly, 30-45 min | hired (David McCallion) | business@historymarche.com (About panel) | ❓ | READY |
+| Static Media (Looper, Nicki Swift, Grunge, Mashed) | 5.7M / 3.2M / 2.5M / 1.4M | daily | rotating freelance roster | Branden Stall, SVP Video, branden@static.com Apollo Verified | America/Indiana/Indianapolis | READY |
+| The Secrets of the Universe | 1.79M | weekly | hired (Jeffrey Smith) | Rishabh Nakra, Founder, rishabhnakra@secretsofuniverse.in Apollo Verified | Asia/Kolkata | READY |
+| Simple History | 5.12M | 2/wk | hired (Chris Kane), second-voice pitch | the sponsorship inbox on the About panel (Spencer 10-28: "Use the inboxes"); creator Daniel Turner | ❓ | READY |
+| The Infographics Show | 15.5M | daily | hired (Josh Risser), second-voice pitch | Andrej Preston, EP, Dark Matter Design, andrej@darkmatterdesign.com Apollo Verified | America/Los_Angeles | READY |
+| Weird History (Ranker) | 4.73M | ❓ | 🟡 Tom Blank + others | Kyle Segal, VP Video, Ranker, ksegal@ranker.com Apollo Verified (catch-all domain) | America/Los_Angeles | READY |
+| Epic History | 3.2M | ❓ | ❓ founder Toby Groom may narrate himself | Toby Groom, Founder, toby@epichistory.tv Apollo Verified | Europe/London | CHECK NARRATOR |
+| Sciencephile the AI | 1.11M | biweekly | ❓ persona voice | creator Paul Balan (Aarhus); only a brand-deal agency inbox | Europe/Copenhagen | NO DIRECT EMAIL |
+| HealthNormal | 1.17M | ~2/wk | ❓ | founder Gary W. (Vancouver); NO email (contact form only) | America/Vancouver | NO EMAIL |
 Reserves: WatchMojo, Be Amazed, Nucleus Medical Media. DROPPED: Psych2Go (Spencer 10-28: "already worked for them", a past client, never cold-pitch). HELD ON PRICE: Destiny (its voice is a Fiverr seller "from $5") and Alila Medical Media (publishes US$12 per 100 words, about $65 a script; role filled Nov 2025). Detail: contacts/2026-10-28-funnel-s1-research-A.md / -B.md.
 
 ## Pitch-queue count after the 2026-10-01 Lead Batch run: 19 pre-existing (all Funnel G) + 1 new (ABB, Funnel H) = 20/20. Recount from live Gmail before the next run, don't trust this line. Detail: `contacts/2026-10-01-funnel-h.md`.
