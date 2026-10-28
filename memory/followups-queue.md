@@ -657,7 +657,7 @@ Stage 4: **Follow-up queue check: drafts D 0, due N 3 (touch 3 Wed: BUCK SENT, m
 
 ## 2026-10-28 ~08:50 UTC (cloud, Digest) Step 0a ledger gap: Funnel S YouTube channels were not on the clock
 Found by comparing Sent (newer_than:3d) with this ledger; the 4 sent Funnel S pitches had no row. Added now (cold cadence: touch 2 day 7, overdue day 10; queue at 09:04 contact-local per CONTACT-TZ.json; the other Funnel S pitches get rows when they send).
-- AiTelly (aitellyinfo@gmail.com, America/New_York) | thread 1a17e63f5cfa17b0 | touch 1 Tue 10-27 | touch 2 Tue 11-03, overdue Fri 11-06
+- AiTelly (aitellyinfo@gmail.com, America/New_York) | thread 1a17e63f5cfa17b0 | touch 1 Tue 10-27 | REPLIED 10-28 ("How much do you charge?", msg 1a182bda0b415163) = warm now, NO touch 2/3. (Reply came from +0530, so the NY zone may be wrong.)
 - AI Revolution (airevolutionofficial@gmail.com, US) | thread 1a17e58d5fb69b4a | touch 1 Tue 10-27 | touch 2 Tue 11-03, overdue Fri 11-06
 - Dark Docs (darkdocs@intheblackmedia.com, US) | thread 1a17e9429c36c2e1 | touch 1 Tue 10-27 (first send to darkdocumentaries@darkdocs.tv bounced 550, thread 1a17e90f49472041) | touch 2 Tue 11-03, overdue Fri 11-06
 - Defense Updates (somnathwired@gmail.com, Asia/Kolkata) | thread 1a17e86ad1e694fc | touch 1 Wed 10-28 | touch 2 Wed 11-04, overdue Sat 11-07 (weekend: send Mon 11-09 only if Spencer agrees; else last day Fri 11-06)
