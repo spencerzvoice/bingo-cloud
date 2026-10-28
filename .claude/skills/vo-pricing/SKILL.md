@@ -121,24 +121,29 @@ Quote fair market **first**, using GVAA (USD) or GFTB (EUR). Never anchor to the
 
 ## YouTube channel narration (new channel clients) — DRAFT 2026-10-28, awaiting Spencer's sign-off
 
-🟡 House card, not GVAA/GFTB. Built 2026-10-28 from Spencer's own YouTube numbers: Hip Hop Madness (433K) at €0.14–0.17/word, Primal Space (1.8M) at €0.13 → €0.25/word over 12 months, ad reads €100–375 (both plans below), and the Funnel S math of ~€250/video + ad read ≈ €500 (memory/2026-10-26.md). Use it for every new channel quote and the Funnel S/S1/S2 replies. Existing clients stay on their own escalation plans below.
+🟡 House card, not GVAA/GFTB. **Per word, never flat per video** (Spencer, 10-28). Anchored to his own YouTube per-word plans below: Hip Hop Madness (433K) €0.14–0.17/word, Primal Space (1.8M) €0.13 → €0.25/word over 12 months, ad reads €100–375. Existing clients stay on their own plans.
 
-**Narration, flat per video** (EUR; price on the script's word count, ~150 words per finished minute; if words and minutes disagree, words win):
+**Currency:** quote in the client's currency. US channels = USD column, everyone else = EUR. Both columns are fixed list prices, not live conversions (USD set from EUR at ~1.12, then rounded; ECB was 1.1225 on 10-20 per the Malt note, not re-checked). Never mix currencies in one quote.
 
-| Channel tier (subs at booking) | Short: up to 8 min / 1,200 words | Mid: 8–18 min / 1,200–2,700 words | Long: 18–30 min / 2,700–4,500 words |
+**Narration rate per script word** (EUR / USD; length band = finished video, ~150 words per minute; if words and minutes disagree, words win):
+
+| Channel tier (subs at booking) | Short: up to 8 min / 1,200 words | Mid: 8–18 min / 1,200–2,700 words | Long: 18 min+ / 2,700+ words |
 |---|---|---|---|
-| **Lower** — under 500K | €150 | €300 | €500 |
-| **Mid** — 500K to 2M | €200 | €375 | €650 |
-| **High** — 2M+ | €275 | €525 | €875 |
+| **Lower** — under 500K | €0.18 / $0.20 | €0.15 / $0.17 | €0.13 / $0.15 |
+| **Mid** — 500K to 2M | €0.22 / $0.25 | €0.19 / $0.21 | €0.17 / $0.19 |
+| **High** — 2M+ | €0.30 / $0.34 | €0.26 / $0.29 | €0.23 / $0.26 |
 
-- **Over 30 min / 4,500 words:** per word, Lower €0.12 · Mid €0.15 · High €0.20 (each band's price never drops below these at its top end).
-- **Sponsor / mid-roll ad read** (60–90 s, VO only): Lower €125 · Mid €200 · High €300.
-- **Shorts / short-form cutdown** (≤60 s, new read): Lower €75 · Mid €100 · High €125 per clip.
-- **Pickups:** his errors free. Script changes after delivery: €60 per session up to ~10 lines; more = the revision policy above.
+- **Whole script, one rate:** the band is set by the script's total word count, and every word bills at that band's rate (no tiered stacking).
+- **No cliff at a band line:** a script in a longer band never bills below the shorter band's top price. Floors: Lower Mid-band €216 / $240, Long-band €405 / $459 · Mid €264 / $300, €513 / $567 · High €360 / $408, €702 / $783.
+- **Minimum per video:** Lower €100 / $110 · Mid €125 / $140 · High €150 / $170.
+- **Sponsor / mid-roll ad read** (60–90 s, VO only, flat): Lower €125 / $140 · Mid €200 / $225 · High €300 / $335.
+- **Shorts / short-form clip** (≤60 s, new read, flat): Lower €75 / $85 · Mid €100 / $110 · High €125 / $140 per clip.
+- **Pickups:** his errors free. Script changes after delivery: €60 / $65 per session up to ~10 lines; more = the revision policy above.
 - **Rush** (under 24 h, e.g. 2–3 h turnaround): +50%.
 - **What the fee covers:** narration for the channel's own uploads (YouTube, monetized, plus the channel's own socials), in perpetuity, non-exclusive, edited/cleaned WAV. **Not covered, quote separately:** running the video as a paid ad, licensing to TV/streaming/a third party, exclusivity.
-- **Regular clients** (weekly/biweekly/monthly): no volume discount (MEMORY: never discount for volume). What they get instead: price locked for 3 months and a guaranteed turnaround slot. Re-tier at each 3-month review, or when the channel crosses a tier line.
+- **Regular clients** (weekly/biweekly/monthly): no volume discount (MEMORY: never discount for volume). What they get instead: rate locked for 3 months and a guaranteed turnaround slot. Re-tier at each 3-month review, or when the channel crosses a tier line.
 - **Tier lines:** 500K and 2M subscribers. Count subs on the channel page the day you quote. Big channel with a small budget = still quote the tier; let them counter (rate-negotiation-script).
+- **Worked example:** 500K–2M channel, 2,200-word script (≈15 min) = Mid band → 2,200 × €0.19 = **€418** (US channel: 2,200 × $0.21 = **$462**). Plus an ad read: €618 / $687.
 
 ## Ongoing client rate structures (Spencer's escalation plans)
 
