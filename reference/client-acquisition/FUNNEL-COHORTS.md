@@ -331,8 +331,8 @@ Spencer: "another funnel S1 created for more YouTube channels, tech stuff like t
 | The Infographics Show | 15.5M | daily | hired (Josh Risser), second-voice pitch | Andrej Preston, EP, Dark Matter Design, andrej@darkmatterdesign.com Apollo Verified | America/Los_Angeles | READY |
 | Weird History (Ranker) | 4.73M | ❓ | 🟡 Tom Blank + others | Kyle Segal, VP Video, Ranker, ksegal@ranker.com Apollo Verified (catch-all domain) | America/Los_Angeles | READY |
 | Epic History | 3.2M | ❓ | ❓ founder Toby Groom may narrate himself | Toby Groom, Founder, toby@epichistory.tv Apollo Verified | Europe/London | CHECK NARRATOR |
-| Sciencephile the AI | 1.11M | biweekly | ❓ persona voice | creator Paul Balan (Aarhus); only a brand-deal agency inbox | Europe/Copenhagen | NO DIRECT EMAIL |
-| HealthNormal | 1.17M | ~2/wk | ❓ | founder Gary W. (Vancouver); NO email (contact form only) | America/Vancouver | NO EMAIL |
+| Sciencephile the AI | 1.11M | biweekly | ❓ persona voice | the gmail on the official Facebook page facebook.com/sciencephile (also on the 2020 site; Apollo validated 10-28); creator Paul Balan (Aarhus) | Europe/Copenhagen | READY |
+| HealthNormal | 1.17M | ~2/wk | ❓ (human or AI: Spencer listens) | hello@healthnormal.com (own Terms of Use page; Apollo validated 10-28); founder Gary W. (Vancouver) | America/Vancouver | READY |
 Reserves: WatchMojo, Be Amazed, Nucleus Medical Media. DROPPED: Psych2Go (Spencer 10-28: "already worked for them", a past client, never cold-pitch). HELD ON PRICE: Destiny (its voice is a Fiverr seller "from $5") and Alila Medical Media (publishes US$12 per 100 words, about $65 a script; role filled Nov 2025). Detail: contacts/2026-10-28-funnel-s1-research-A.md / -B.md.
 
 ## Pitch-queue count after the 2026-10-01 Lead Batch run: 19 pre-existing (all Funnel G) + 1 new (ABB, Funnel H) = 20/20. Recount from live Gmail before the next run, don't trust this line. Detail: `contacts/2026-10-01-funnel-h.md`.
