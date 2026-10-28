@@ -123,27 +123,27 @@ Quote fair market **first**, using GVAA (USD) or GFTB (EUR). Never anchor to the
 
 🟡 House card, not GVAA/GFTB. **Per word, never flat per video** (Spencer, 10-28). **Hip Hop Madness pricing is low-ball: never quote or publish anything at that level** (Spencer, 10-28). Lower tier starts above HHM's €0.14–0.17; mid/high track Primal Space's month-12 target (€0.22–0.25) and up. Existing clients (Primal, HHM) stay on their own plans below. Tier lines 500K and 2M confirmed (Spencer, 10-28). Same numbers as the spencerzvoice.com rate desk tool (site.js `YT`); change both together.
 
-**Currency:** quote in the client's currency (US channels USD, others EUR). Fixed list prices, not live conversions (USD set from EUR at ~1.12 and rounded). Never add EUR and USD lines together (the site invoice totals each currency separately).
+**Currency:** quote in the client's currency (US channels USD, UK channels GBP, others EUR). Fixed list prices, not live conversions (USD set from EUR at ~1.12; GBP from EUR at the ECB rate of 2026-10-28, 0.83785; both rounded). Never add lines in different currencies together (the site invoice totals each currency separately).
 
-**Narration rate per script word** (EUR / USD; band set by total script words, ~150 words per finished minute):
+**Narration rate per script word** (EUR / USD / GBP; band set by total script words, ~150 words per finished minute):
 
 | Channel tier (subs at booking) | Short: up to 1,200 words (~8 min) | Mid: 1,201–2,700 words (~8–18 min) | Long: 2,700+ words |
 |---|---|---|---|
-| **Lower** — under 500K | €0.22 / $0.25 | €0.20 / $0.22 | €0.18 / $0.20 |
-| **Mid** — 500K to 2M | €0.27 / $0.30 | €0.24 / $0.27 | €0.22 / $0.25 |
-| **High** — 2M+ | €0.34 / $0.38 | €0.30 / $0.34 | €0.27 / $0.30 |
+| **Lower** — under 500K | €0.22 / $0.25 / £0.18 | €0.20 / $0.22 / £0.17 | €0.18 / $0.20 / £0.15 |
+| **Mid** — 500K to 2M | €0.27 / $0.30 / £0.23 | €0.24 / $0.27 / £0.20 | €0.22 / $0.25 / £0.18 |
+| **High** — 2M+ | €0.34 / $0.38 / £0.28 | €0.30 / $0.34 / £0.25 | €0.27 / $0.30 / £0.23 |
 
 - **Whole script, one rate:** every word bills at its band's rate.
 - **No cliff at a band line:** a longer script never bills below the top of the band below it (e.g. Mid tier EUR: Mid-band floor €324, Long-band floor €648).
-- **Minimum per video:** Lower €150 / $170 · Mid €200 / $225 · High €250 / $280.
-- **Sponsor / mid-roll ad read** (60–90 s, VO only, flat): Lower €175 / $195 · Mid €250 / $280 · High €350 / $390.
-- **Shorts / short-form clip** (≤60 s, new read, flat): Lower €90 / $100 · Mid €120 / $135 · High €150 / $170 per clip.
-- **Pickups:** his errors free. Script changes after delivery: €60 / $65 per session up to ~10 lines; more = the revision policy above.
+- **Minimum per video:** Lower €150 / $170 / £125 · Mid €200 / $225 / £170 · High €250 / $280 / £210.
+- **Sponsor / mid-roll ad read** (60–90 s, VO only, flat): Lower €175 / $195 / £145 · Mid €250 / $280 / £210 · High €350 / $390 / £295.
+- **Shorts / short-form clip** (≤60 s, new read, flat): Lower €90 / $100 / £75 · Mid €120 / $135 / £100 · High €150 / $170 / £125 per clip.
+- **Pickups:** his errors free. Script changes after delivery: €60 / $65 / £50 per session up to ~10 lines; more = the revision policy above.
 - **Rush** (under 24 h): +50%.
 - **What the fee covers:** narration for the channel's own uploads (YouTube, monetized, plus the channel's own socials), in perpetuity, non-exclusive, edited/cleaned WAV. **Not covered, quote separately:** paid ads, TV/streaming/third-party licensing, exclusivity.
 - **Regular clients:** no volume discount (MEMORY). They get a 3-month rate lock and a guaranteed turnaround slot; re-tier at each 3-month review or when the channel crosses a tier line.
 - **Tier = subs on the channel page the day you quote.** Big channel, small budget = still quote the tier; let them counter (rate-negotiation-script).
-- **Worked example:** 500K–2M channel, 2,200-word script = 2,200 × €0.24 = **€528** (US: 2,200 × $0.27 = **$594**). Plus an ad read: €778 / $874.
+- **Worked example:** 500K–2M channel, 2,200-word script = 2,200 × €0.24 = **€528** (US: 2,200 × $0.27 = **$594**; UK: 2,200 × £0.20 = **£440**). Plus an ad read: €778 / $874 / £650.
 
 ## Ongoing client rate structures (Spencer's escalation plans)
 
