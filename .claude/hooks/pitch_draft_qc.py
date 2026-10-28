@@ -112,6 +112,10 @@ if creator:
     need("My recent work also includes the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball",
          "creator credits line")
     need("I'd love to narrate the videos that come out of", "creator reaching-out sentence")
+    # Engineering line (Spencer, 2026-10-28), tech/engineering/science channels only; when used, word for word.
+    if re.search(r"mechanical engineering", text, re.I):
+        need("I also graduated from the University of Miami with a degree in Mechanical Engineering, so I understand "
+             "the technical terms and the physics behind what I'm reading.", "engineering line (PITCH-TEMPLATE.md creator variant)")
 else:
     need("My recent work includes", "credits paragraph")
 # NO-VIDEO variant (Spencer, 2026-10-16, Hornet: "If there's not usable video ... we don't re-voice a video, we point
