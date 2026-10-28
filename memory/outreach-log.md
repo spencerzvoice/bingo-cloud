@@ -560,4 +560,4 @@ Bingo, in Spencer's Chrome, no note; top card checked (name + company) before ea
 - 2026-10-27 Hasaanah Abdul-Wahid/Skillshare accepted LinkedIn connect. Email cadence done (pitch 09-23, touch 2 09-29, final 10-15), no reply. Voice note (hello + thanks, 'emailed you about a month ago') suggested. Tracker row 118.
 - 2026-10-27 Hasaanah/Skillshare: Spencer sent the LinkedIn voice note. Tracker row 118 I/L updated (LT1 ~01/12/2027 unless she replies).
 
-- 2026-10-28 AiTelly (Funnel S, aitellyinfo@gmail.com): REPLIED 13:40 UTC "How much do you charge?" (msg 1a182bda0b415163, read via FGAC). Rate reply text given to Spencer in chat (per-word narration + sponsor read). Tracker row 286 = Replied. Cold touch 2/3 off.
+- 2026-10-28 AiTelly (Funnel S, aitellyinfo@gmail.com): REPLIED 13:40 UTC "How much do you charge?" (msg 1a182bda0b415163, read via FGAC). Rate reply text given to Spencer in chat; reply saved as in-thread Gmail draft r1589009223420548499 (HTML, read back OK, not sent) (per-word narration + sponsor read). Tracker row 286 = Replied. Cold touch 2/3 off.
