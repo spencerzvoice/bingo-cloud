@@ -32,6 +32,17 @@
   "verdict": "PASS-EVIDENCE",
   "why": "title doesn't match a known pattern: needs --evidence. Evidence: Business email the channel itself publishes on its YouTube About. No person is named on YouTube, ArtStation, Instagram or Apollo (checked 10-26), so this inbox is the senior-most known route. Spencer 10-26: channel About emails are the way to reach YouTube channels."
  },
+ "alberto.bravo@n-able.com": {
+  "company": "N-able",
+  "company_type": "inhouse",
+  "date": "2026-10-28",
+  "name": "Alberto Bravo",
+  "practice": "in-house-vo",
+  "source": "Apollo people match 2026-10-28 (LinkedIn headline)",
+  "title": "Video Production Manager",
+  "verdict": "PASS",
+  "why": "decision-maker title (production manager)"
+ },
  "alex.gauermann@jetbrains.com": {
   "company": "JetBrains",
   "company_type": "inhouse",
@@ -130,6 +141,17 @@
   "title": "Video Producer",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "bryan.sarmiento@huntresslabs.com": {
+  "company": "Huntress",
+  "company_type": "inhouse",
+  "date": "2026-10-28",
+  "name": "Bryan Sarmiento",
+  "practice": "in-house-vo",
+  "source": "Apollo people match 2026-10-28 (LinkedIn headline)",
+  "title": "Video Production Manager",
+  "verdict": "PASS",
+  "why": "decision-maker title (production manager)"
  },
  "cameron.robertson@maersk.com": {
   "company": "Maersk",
@@ -900,6 +922,17 @@
   "title": "Head of Production / Senior Producer",
   "verdict": "PASS",
   "why": "decision-maker title (head of)"
+ },
+ "nwessel@sans.org": {
+  "company": "SANS Institute",
+  "company_type": "inhouse",
+  "date": "2026-10-28",
+  "name": "Nicholas Wessel",
+  "practice": "in-house-vo",
+  "source": "Apollo people match 2026-10-28 (LinkedIn headline Manager of Media Production - SANS Digital)",
+  "title": "Manager of Media Production",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Manager-level owner of SANS media production since 2024-07 (Apollo employment history); staged Video Production Manager Vincent Sarageno could not be confirmed today (Apollo low-confidence match, no title)"
  },
  "olivia.mitchell@go1.com": {
   "company": "Go1",

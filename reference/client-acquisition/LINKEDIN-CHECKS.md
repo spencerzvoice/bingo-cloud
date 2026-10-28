@@ -177,3 +177,6 @@ API lines use: `date | Name | Company | URL | "public profile company: X (source
 2026-10-27 | Daniel Morales | Proofpoint | linkedin.com/in/danielmoralesgd | "public profile company: Proofpoint (zenrows)" | API-PASS
 2026-10-27 | Stewart Devlin | Tenable | linkedin.com/in/stewart-devlin-5456a924 | "public profile company: Tenable (zenrows)" | API-PASS
 2026-10-27 | Cortney Albrecht | WatchGuard | linkedin.com/in/cortney-albrecht-8297407 | "public profile company: WatchGuard Technologies (zenrows)" | API-PASS
+2026-10-28 | Bryan Sarmiento | Huntress | linkedin.com/in/bryan-sarms | "public profile company: Huntress (brightdata)" | API-PASS
+2026-10-28 | Alberto Bravo | N-able | linkedin.com/in/albertomorillas | "public profile company: N-able (brightdata)" | API-PASS
+2026-10-28 | Nicholas Wessel | SANS Institute | linkedin.com/in/nickwessel | "public profile company: SANS Institute (brightdata)" | API-PASS
