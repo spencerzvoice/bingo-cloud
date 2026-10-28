@@ -119,6 +119,27 @@ Quote fair market **first**, using GVAA (USD) or GFTB (EUR). Never anchor to the
 - **Directed session pickups** via Source Connect: $250 minimum session fee + applicable revision rate.
 - **Pronunciation:** must be specified before recording; post-delivery corrections are billable revisions.
 
+## YouTube channel narration (new channel clients) — DRAFT 2026-10-28, awaiting Spencer's sign-off
+
+🟡 House card, not GVAA/GFTB. Built 2026-10-28 from Spencer's own YouTube numbers: Hip Hop Madness (433K) at €0.14–0.17/word, Primal Space (1.8M) at €0.13 → €0.25/word over 12 months, ad reads €100–375 (both plans below), and the Funnel S math of ~€250/video + ad read ≈ €500 (memory/2026-10-26.md). Use it for every new channel quote and the Funnel S/S1/S2 replies. Existing clients stay on their own escalation plans below.
+
+**Narration, flat per video** (EUR; price on the script's word count, ~150 words per finished minute; if words and minutes disagree, words win):
+
+| Channel tier (subs at booking) | Short: up to 8 min / 1,200 words | Mid: 8–18 min / 1,200–2,700 words | Long: 18–30 min / 2,700–4,500 words |
+|---|---|---|---|
+| **Lower** — under 500K | €150 | €300 | €500 |
+| **Mid** — 500K to 2M | €200 | €375 | €650 |
+| **High** — 2M+ | €275 | €525 | €875 |
+
+- **Over 30 min / 4,500 words:** per word, Lower €0.12 · Mid €0.15 · High €0.20 (each band's price never drops below these at its top end).
+- **Sponsor / mid-roll ad read** (60–90 s, VO only): Lower €125 · Mid €200 · High €300.
+- **Shorts / short-form cutdown** (≤60 s, new read): Lower €75 · Mid €100 · High €125 per clip.
+- **Pickups:** his errors free. Script changes after delivery: €60 per session up to ~10 lines; more = the revision policy above.
+- **Rush** (under 24 h, e.g. 2–3 h turnaround): +50%.
+- **What the fee covers:** narration for the channel's own uploads (YouTube, monetized, plus the channel's own socials), in perpetuity, non-exclusive, edited/cleaned WAV. **Not covered, quote separately:** running the video as a paid ad, licensing to TV/streaming/a third party, exclusivity.
+- **Regular clients** (weekly/biweekly/monthly): no volume discount (MEMORY: never discount for volume). What they get instead: price locked for 3 months and a guaranteed turnaround slot. Re-tier at each 3-month review, or when the channel crosses a tier line.
+- **Tier lines:** 500K and 2M subscribers. Count subs on the channel page the day you quote. Big channel with a small budget = still quote the tier; let them counter (rate-negotiation-script).
+
 ## Ongoing client rate structures (Spencer's escalation plans)
 
 **Primal Space** (YouTube, 1.8M subs): narration €0.13/word → €0.16 (M2) → €0.18 (M6) → €0.22–0.25 (M12). Mid-roll ad read €200 → €325 (M6) → €375 (M12). Script-change pickups €60/session. Short-form clips €75–100/clip or €200–500/month flat.
