@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-27_
+_Last updated: 2026-10-28_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -64,6 +64,7 @@ Get Spencer out of the low-rate bracket and into higher-paying, longer, **repeat
 - **YouTube-channel lane (Spencer 10-26: "highest on the chain"):** faceless/narrated channels, 400k–1M+ subs, long-form at least monthly; goal 3–4 constant channel clients = €500–1,000/week (a Primal-style video + ad read ≈ €500). Funnel S = 10 tech channels, jumps the drafting order; creator pitch variant leads with Primal Space; re-voice = their latest video. Other genres to follow (his list: pop culture, tech, travel, engineering, health).
 - Funnel = send cohort; Drive `Client Outreach/Funnel X/` is the source of truth; Gmail label "Funnel X" on every draft (a PUT drops labels, re-apply).
 - Sent funnels move to `Client Outreach/_Done - Sent Funnels/` the day their last pitch goes out; admin items in `_Admin & Other Clients/`; `Ableton Template Project/` stays on top (hardcoded path) (Spencer 10-14).
+- **Past clients are never put in a pitch funnel** (Spencer 10-28, Funnel S2: "We're dropping these"): Primal Space, Business Basics, Psych2Go, Creator Mill (Tesla Space/Space Race), Volksgeist = dead ends for re-approach.
 - Lessons kept: never pitch Drew Jaz (Miro); a "drop this contact" decision must be enacted in Gmail itself, not just in memory (Kyle Osher, 09-23).
 - Build pipeline: `.claude/skills/revoice-material/SKILL.md`. Video-pick verdicts: `reference/client-acquisition/VIDEO-PICKS.md`.
 - Every researched company gets a row in `reference/client-acquisition/BUDGET-CALENDAR.md` (FY end, new-money month, pitch windows); informs timing, never blocks a draft (Spencer 10-05).
