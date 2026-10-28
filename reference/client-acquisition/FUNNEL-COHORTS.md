@@ -331,9 +331,9 @@ Spencer: "another funnel S1 created for more YouTube channels, tech stuff like t
 | The Infographics Show | 15.5M | daily | hired (Josh Risser), second-voice pitch | About hidden email | ❓ | PICKED 10-28 |
 | Weird History (Ranker) | 4.73M | ❓ | 🟡 Tom Blank + others | About hidden email | US | PICKED 10-28 |
 | Epic History | 3.2M | ❓ | 🟡 Charles Nove | none published; About hidden email | ❓ | PICKED 10-28 |
-| Psych2Go | 13.2M | weekly (5-7 min) | ❓ | 2 published inboxes | ❓ | PICKED 10-28 (health/psych) |
+| Sciencephile the AI | 1.11M | biweekly | ❓ persona voice; reads a Mammouth sponsor in character | contact form only; About hidden email needed | ❓ | PICKED 10-28 (replaces Psych2Go) |
 | HealthNormal | 1.17M | ~2/wk | ❓ (human or TTS) | contact form only; About hidden email | ❓ | PICKED 10-28 (health) |
-Reserves: WatchMojo, Sciencephile the AI, Be Amazed, Nucleus Medical Media. HELD ON PRICE: Destiny (its voice is a Fiverr seller "from $5") and Alila Medical Media (publishes US$12 per 100 words, about $65 a script; role filled Nov 2025). Detail: contacts/2026-10-28-funnel-s1-research-A.md / -B.md.
+Reserves: WatchMojo, Be Amazed, Nucleus Medical Media. DROPPED: Psych2Go (Spencer 10-28: "already worked for them", a past client, never cold-pitch). HELD ON PRICE: Destiny (its voice is a Fiverr seller "from $5") and Alila Medical Media (publishes US$12 per 100 words, about $65 a script; role filled Nov 2025). Detail: contacts/2026-10-28-funnel-s1-research-A.md / -B.md.
 
 ## Pitch-queue count after the 2026-10-01 Lead Batch run: 19 pre-existing (all Funnel G) + 1 new (ABB, Funnel H) = 20/20. Recount from live Gmail before the next run, don't trust this line. Detail: `contacts/2026-10-01-funnel-h.md`.
 
