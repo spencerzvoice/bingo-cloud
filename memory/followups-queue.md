@@ -685,3 +685,6 @@ NO-CONTACT CHECK (live Gmail via FGAC, 10-28): per address, only Spencer's touch
 - Insane Curiosity (insanecuriositybusiness@gmail.com, US) | thread 1a17afd9ad9c9732 | touch 1 SCHEDULED Wed 10-28 16:25 UTC = 12:25 NY / 09:25 LA (Gmail Scheduled msg 1a183544202a7dde, verified) | touch 2 Wed 11-04, overdue Sat 11-07 (weekend: last day Fri 11-06).
 - Modern MBA / Yishan Lin (x@modern-mba.com, US) | thread 1a1835fad12d50e9 | touch 1 SCHEDULED Wed 10-28 17:20 UTC = 13:20 NY / 10:20 LA (msg 1a183869f8c44b93, verified) | touch 2 Wed 11-04, overdue Sat 11-07 (last day Fri 11-06).
 - Interesting Engineering / Richard Dimery (richard.dimery@interestingengineering.com, Europe/London) | thread 1a1835e7acba39c8 | touch 1 SCHEDULED Thu 10-29 08:32 UTC = 08:32 London (msg 1a186c9946329b1a, verified) | touch 2 Thu 11-05, overdue Sun 11-08 (last day Fri 11-06).
+
+## 2026-10-28 17:25 UTC (desktop) - Miguel Barbieri / Audible: Spencer sends touch 2 himself
+Root cause of the slip: the 10-22 conditional reminder lived only as a ledger line; routines 10-21..10-24 filed it as "Spencer's own" and never surfaced it as due. Spencer (10-28): "I'll send it". Draft in thread 1a0f2af3b310e139; not scheduled by Bingo. Next run: confirm it in Sent, then update tracker row 160 + set touch 3 per cadence.
