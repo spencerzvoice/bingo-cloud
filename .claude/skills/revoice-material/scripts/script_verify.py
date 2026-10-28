@@ -38,6 +38,7 @@ def toks(t):
     """Spoken-form tokens: lower case, no accents/apostrophes, hyphens split, digit runs and number words -> '#'."""
     t = unicodedata.normalize("NFKD", t)
     t = "".join(c for c in t if not unicodedata.combining(c)).lower()
+    t = re.sub(r"[\s-]and[\s-]a[\s-]half\b", " point five ", t)  # "eight-and-a-half" = "8.5"
     t = t.replace("%", " percent ").replace("’", "").replace("'", "").replace("‘", "")
     t = re.sub(r"(\d)[,.](\d)", r"\1\2", t)
     t = re.sub(r"(\d)(?=[a-z])|(?<=[a-z])(\d)", lambda m: (m.group(1) or "") + " " + (m.group(2) or ""), t)
@@ -60,6 +61,12 @@ def timed_toks(pairs):
     for w, t in pairs:
         for x in toks(w):
             if x == "#" and out and out[-1][0] == "#":
+                continue
+            # "eight" "-and" "-a" "-half" heard as separate words = one number, like the script's "8.5"
+            if x == "half" and len(out) >= 2 and out[-1][0] == "a" and out[-2][0] == "#":
+                out.pop()
+                continue
+            if x == "and" and out and out[-1][0] == "#":
                 continue
             out.append((x, t))
     return out
@@ -165,6 +172,24 @@ def parse_json3(data):
     return events
 
 
+def video_names(url):
+    """Tokens of the video's title + description: how the channel itself spells its names. Cached."""
+    vid = youtube_id(url)
+    if not vid:
+        return frozenset()
+    cf = os.path.join(CACHE, f"yt_desc_{vid}.txt")
+    if not os.path.exists(cf):
+        try:
+            import yt_dlp
+            with yt_dlp.YoutubeDL({"quiet": True, "skip_download": True, "no_warnings": True}) as y:
+                info = y.extract_info(url, download=False)
+            os.makedirs(CACHE, exist_ok=True)
+            open(cf, "w", encoding="utf-8").write((info.get("title") or "") + " \n " + (info.get("description") or ""))
+        except Exception:
+            return frozenset()
+    return frozenset(toks(open(cf, encoding="utf-8").read()))
+
+
 def ear_captions(url, start, dur):
     try:
         caps = fetch_captions(url)
@@ -219,8 +244,9 @@ def strip_hallu(ear, script):
     return [e for e, k in zip(ear, keep) if k]
 
 
-def vote(ears, script, notes):
-    """ears = {name: [(tok, t)]}. Returns issues [(level, kind, t, text)] sorted by time."""
+def vote(ears, script, notes, named=frozenset()):
+    """ears = {name: [(tok, t)]}; named = tokens of the video's own title + description (names spelled the
+    channel's way). Returns issues [(level, kind, t, text)] sorted by time."""
     per = {n: [d for d in diffs(e, script)] for n, e in ears.items()}
     issues, used = [], set()
     names = list(ears)
@@ -255,7 +281,10 @@ def vote(ears, script, notes):
             same = len({" ".join(v) for v in heard_by.values()}) == 1
             if kind == "EXTRA":
                 level = "CONFIRMED" if len(agree) == len(names) else "REVIEW"
-            elif kind == "DIFFERENT" and not same and len(agree) >= 2 and sw and                     all(joined_sim(v, sw) >= 0.6 for v in heard_by.values()):
+            elif kind in ("DIFFERENT", "SPELLING") and sw and all(w in named for w in sw) and                     all(joined_sim(v, sw) >= 0.6 for v in heard_by.values()):
+                level, kind = "SPELLING", "SPELLING"  # spelled as on the channel's page ("Rudel", heard "Riddell")
+            elif kind == "DIFFERENT" and not same and len(agree) >= 2 and sw and \
+                    all(joined_sim(v, sw) >= 0.6 for v in heard_by.values()):
                 level, kind = "SPELLING", "SPELLING"  # every ear spells a name its own way ("kimikey"/"kimik")
             elif kind == "SPELLING":
                 # two ears that hear the SAME other word ("company" for "companies'") = a wrong word; ears that
@@ -287,7 +316,7 @@ def strict(src, text_file_or_text, url=None, start=0.0):
     else:
         info.append("no URL, captions not used")
     ears = {n: strip_hallu(e, script) for n, e in ears.items()}
-    issues = vote(ears, script, notes)
+    issues = vote(ears, script, notes, video_names(url))
     bad = [i for i in issues if i[0] == "CONFIRMED"]
     ok = not bad and bool(script)
     head = (f"STRICT CHECK {'OK' if ok else 'FAILED'}  {len(bad)} confirmed / "

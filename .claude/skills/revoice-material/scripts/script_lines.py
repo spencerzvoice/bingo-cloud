@@ -75,7 +75,7 @@ def clean(t):
     t = re.sub(r"([(\[“]) +", r"\1", t)
     t = re.sub(r" +([)\]”])", r"\1", t)
     t = re.sub(r"([,;:!?])(?=[A-Za-z“\"])", r"\1 ", t)
-    t = re.sub(r"(?<![.\d])\.(?=[A-Z])", ". ", t)
+    t = re.sub(r"(?<![.\d])(?<![A-Z])\.(?=[A-Z])", ". ", t)  # but "U.S." stays whole
     return t.strip()
 
 
@@ -150,6 +150,15 @@ def wtxt(w):
     return w[0].strip()
 
 
+ABBREV = re.compile(r"(?:[A-Z]\.)+|(?:Mr|Mrs|Ms|Dr|St|Jr|Sr|vs|Lt|Sgt|Gen|Col)\.", re.I)
+
+
+def sent_end(w):
+    """A word that ends a sentence: ends in . ! ? and isn't an initialism or title ("U.S.", "Dr.")."""
+    t = wtxt(w)
+    return t.endswith((".", "!", "?")) and not ABBREV.fullmatch(t.strip("\"'()"))
+
+
 def chars(line):
     return len(" ".join(wtxt(w) for w in line))
 
@@ -170,7 +179,7 @@ def phrase_lines(tw):
     sents, cur = [], []
     for w in tw:
         cur.append(w)
-        if wtxt(w).endswith((".", "!", "?")):
+        if sent_end(w):
             sents.append(cur)
             cur = []
     if cur:
