@@ -34,13 +34,16 @@ PAUSE = 0.30      # s of silence that ends a spoken line
 HOLD = 0.60       # s of silence that keeps even a 1-2 word line on its own ("Cash App.")
 MAX_WORDS = 12    # a phrase longer than this gets split
 MIN_WORDS = 3     # shorter lines are folded into a neighbour unless held
-MAX_CHARS = 68    # longest built line; Arial 14 at 6" wrapped a 71-char line, the 6.5" text width holds ~75 (Word, 10-28)
+MAX_CHARS = 70    # longest built line; Word wrapped this layout at 76 chars (measured 2026-10-28), so 70 never wraps
 # a split lands best just before one of these ("... locked on company servers, / and Kimi is ...")
 LEADS = set("and but or so because since while when where which who whose that if though although as until "
-            "unless after before with without from into across through for on in at by".split())
+            "unless after before with without from into across through for on in at by to is are was were".split())
+# "to" leads a line ("... deployment / to the Middle East") except after these ("have to finish", "able to")
+BOUND_TO = set("have has had need needs want wants going able used ought got just about trying".split())
 # a spoken line doesn't end on these unless the narrator really holds (gap >= HOLD)
 CLINGY = set("a an the your my our their his her its this that these those to of for with in on at by from "
-             "and or but so as into onto than like every each no just".split())
+             "and or but so as into onto than like every each no just over about through across under after "
+             "before around near toward towards between behind without within among against upon".split())
 DEFAULT_HEADER = "Original copy - from Whisper transcription, verify against the video."
 try:  # large-v3 wherever faster-whisper is installed (desktop); the cloud keeps openai-whisper medium
     import faster_whisper  # noqa: F401
@@ -141,7 +144,11 @@ def split_long(line):
     span = range(MIN_WORDS - 1, len(line) - MIN_WORDS)
     cands = [i for i in span if not bad_break(line, i)] or list(span)
     mid = len(line) / 2
-    i = max(cands, key=lambda i: (wtxt(line[i]).endswith((",", ";", ":", "—")), norm(wtxt(line[i + 1])) in LEADS,
+    def leads(i):
+        nxt = norm(wtxt(line[i + 1]))
+        return nxt in LEADS and not (nxt == "to" and norm(wtxt(line[i])) in BOUND_TO)
+
+    i = max(cands, key=lambda i: (wtxt(line[i]).endswith((",", ";", ":", "—")), leads(i),
                                   round(line[i + 1][1] - line[i][2], 1), -abs(i + 1 - mid)))
     return split_long(line[:i + 1]) + split_long(line[i + 1:])
 
@@ -196,7 +203,8 @@ def phrase_lines(tw):
             clauses.append(c)
         merged = []
         for c in clauses:
-            if merged and (len(merged[-1]) < MIN_WORDS or len(c) < MIN_WORDS) and chars(merged[-1] + c) <= MAX_CHARS:
+            # a 1-2 word scrap always rejoins its clause ("and rockets."); split_long re-splits if it's long
+            if merged and (len(merged[-1]) < MIN_WORDS or len(c) < MIN_WORDS):
                 merged[-1] = merged[-1] + c
             else:
                 merged.append(c)
@@ -265,7 +273,7 @@ def lint(paras, doc=None):
                 issues.append(f"para {n}: {what}: {p.strip()[:60]!r}")
         if p.lstrip().startswith(("[", "Original copy", "Note")):
             continue
-        if len(p.strip()) > MAX_CHARS + 4:
+        if len(p.strip()) > MAX_CHARS + 4:  # 74+: on the edge of wrapping
             issues.append(f"para {n}: long line, wraps on the page ({len(p.strip())} chars): {p.strip()[:60]!r}")
         last = norm(p.split()[-1])
         if last in CLINGY and not p.rstrip().endswith((".", "!", "?", ",", ";", ":")):
