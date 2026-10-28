@@ -318,6 +318,12 @@ DROPPED: The Military Show (no email anywhere; Facebook Messenger only).
 Before sending: re-check "latest" for the daily channels (AI Revolution, Insane Curiosity, AiTelly, Defense Updates) the morning it goes out.
 Reserves: Yarnhub (3.37M, casts voice actors, contact@yarnhub.org), Branch Education (hired "Phil Lee" but posts every 1-3 months), DidYouKnowGaming (hired narrators, no upload since 08-08). Rejected (founder-voiced): ColdFusion-style channels incl. Logically Answered, Apple Explained, Company Man, Hoog, TheAIGRID, Megaprojects, The Space Race, New Mind, Moon (🟡). Research files: `contacts/2026-10-26-funnel-s-research-A.md` / `-B.md`; genre check: `contacts/2026-10-26-youtube-genre-verification.md`.
 
+### Funnel S1: more YouTube channels (Spencer, 2026-10-28) · desktop-built, reserved like S (CLAUDE.md 5d0)
+Spencer: "another funnel S1 created for more YouTube channels, tech stuff like that, maybe health, maybe general." Same rules as S: faceless/narrated only (frames checked for an on-camera host), 400K+ subs, at least monthly long-form, latest narrated video = re-voice, creator variant with no hook, the channel's own About business email (deliverability check before drafting), send slot from `scripts/send_slot.py`. Research 10-28: `contacts/2026-10-28-funnel-s1-research-A.md` (tech/science/health) and `-B.md` (history/pop culture/general). Channels listed here once picked.
+
+| Channel | Subs | Cadence | Narrator | To | Zone | Status |
+|---|---|---|---|---|---|---|
+
 ## Pitch-queue count after the 2026-10-01 Lead Batch run: 19 pre-existing (all Funnel G) + 1 new (ABB, Funnel H) = 20/20. Recount from live Gmail before the next run, don't trust this line. Detail: `contacts/2026-10-01-funnel-h.md`.
 
 **Hook Sweep run, 2 Oct (LinkedIn-first pass):** all 20 drafts present (19 Funnel G + ABB/Funnel H — the 7 follow-up thread-replies seen 10-01 are gone from Drafts, presumably sent by Spencer). All 20 confirmed genuine new-client pitches, all 20 already carried a non-LinkedIn hook (none "NO HOOK"). Ran LinkedIn research (4 parallel subagents, 5 drafts each, WebSearch + a direct WebFetch test) on all 20. **Result: 0 of 20 upgraded, 0 drafts edited (no PUT calls).** 3rd consecutive day at 0 upgrades.
