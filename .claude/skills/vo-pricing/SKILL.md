@@ -119,31 +119,31 @@ Quote fair market **first**, using GVAA (USD) or GFTB (EUR). Never anchor to the
 - **Directed session pickups** via Source Connect: $250 minimum session fee + applicable revision rate.
 - **Pronunciation:** must be specified before recording; post-delivery corrections are billable revisions.
 
-## YouTube channel narration (new channel clients) — DRAFT 2026-10-28, awaiting Spencer's sign-off
+## YouTube channel narration (new channel clients) — LIVE-READY 2026-10-28 (site rate desk)
 
-🟡 House card, not GVAA/GFTB. **Per word, never flat per video** (Spencer, 10-28). Anchored to his own YouTube per-word plans below: Hip Hop Madness (433K) €0.14–0.17/word, Primal Space (1.8M) €0.13 → €0.25/word over 12 months, ad reads €100–375. Existing clients stay on their own plans.
+🟡 House card, not GVAA/GFTB. **Per word, never flat per video** (Spencer, 10-28). **Hip Hop Madness pricing is low-ball: never quote or publish anything at that level** (Spencer, 10-28). Lower tier starts above HHM's €0.14–0.17; mid/high track Primal Space's month-12 target (€0.22–0.25) and up. Existing clients (Primal, HHM) stay on their own plans below. Tier lines 500K and 2M confirmed (Spencer, 10-28). Same numbers as the spencerzvoice.com rate desk tool (site.js `YT`); change both together.
 
-**Currency:** quote in the client's currency. US channels = USD column, everyone else = EUR. Both columns are fixed list prices, not live conversions (USD set from EUR at ~1.12, then rounded; ECB was 1.1225 on 10-20 per the Malt note, not re-checked). Never mix currencies in one quote.
+**Currency:** quote in the client's currency (US channels USD, others EUR). Fixed list prices, not live conversions (USD set from EUR at ~1.12 and rounded). Never add EUR and USD lines together (the site invoice totals each currency separately).
 
-**Narration rate per script word** (EUR / USD; length band = finished video, ~150 words per minute; if words and minutes disagree, words win):
+**Narration rate per script word** (EUR / USD; band set by total script words, ~150 words per finished minute):
 
-| Channel tier (subs at booking) | Short: up to 8 min / 1,200 words | Mid: 8–18 min / 1,200–2,700 words | Long: 18 min+ / 2,700+ words |
+| Channel tier (subs at booking) | Short: up to 1,200 words (~8 min) | Mid: 1,201–2,700 words (~8–18 min) | Long: 2,700+ words |
 |---|---|---|---|
-| **Lower** — under 500K | €0.18 / $0.20 | €0.15 / $0.17 | €0.13 / $0.15 |
-| **Mid** — 500K to 2M | €0.22 / $0.25 | €0.19 / $0.21 | €0.17 / $0.19 |
-| **High** — 2M+ | €0.30 / $0.34 | €0.26 / $0.29 | €0.23 / $0.26 |
+| **Lower** — under 500K | €0.22 / $0.25 | €0.20 / $0.22 | €0.18 / $0.20 |
+| **Mid** — 500K to 2M | €0.27 / $0.30 | €0.24 / $0.27 | €0.22 / $0.25 |
+| **High** — 2M+ | €0.34 / $0.38 | €0.30 / $0.34 | €0.27 / $0.30 |
 
-- **Whole script, one rate:** the band is set by the script's total word count, and every word bills at that band's rate (no tiered stacking).
-- **No cliff at a band line:** a script in a longer band never bills below the shorter band's top price. Floors: Lower Mid-band €216 / $240, Long-band €405 / $459 · Mid €264 / $300, €513 / $567 · High €360 / $408, €702 / $783.
-- **Minimum per video:** Lower €100 / $110 · Mid €125 / $140 · High €150 / $170.
-- **Sponsor / mid-roll ad read** (60–90 s, VO only, flat): Lower €125 / $140 · Mid €200 / $225 · High €300 / $335.
-- **Shorts / short-form clip** (≤60 s, new read, flat): Lower €75 / $85 · Mid €100 / $110 · High €125 / $140 per clip.
+- **Whole script, one rate:** every word bills at its band's rate.
+- **No cliff at a band line:** a longer script never bills below the top of the band below it (e.g. Mid tier EUR: Mid-band floor €324, Long-band floor €648).
+- **Minimum per video:** Lower €150 / $170 · Mid €200 / $225 · High €250 / $280.
+- **Sponsor / mid-roll ad read** (60–90 s, VO only, flat): Lower €175 / $195 · Mid €250 / $280 · High €350 / $390.
+- **Shorts / short-form clip** (≤60 s, new read, flat): Lower €90 / $100 · Mid €120 / $135 · High €150 / $170 per clip.
 - **Pickups:** his errors free. Script changes after delivery: €60 / $65 per session up to ~10 lines; more = the revision policy above.
-- **Rush** (under 24 h, e.g. 2–3 h turnaround): +50%.
-- **What the fee covers:** narration for the channel's own uploads (YouTube, monetized, plus the channel's own socials), in perpetuity, non-exclusive, edited/cleaned WAV. **Not covered, quote separately:** running the video as a paid ad, licensing to TV/streaming/a third party, exclusivity.
-- **Regular clients** (weekly/biweekly/monthly): no volume discount (MEMORY: never discount for volume). What they get instead: rate locked for 3 months and a guaranteed turnaround slot. Re-tier at each 3-month review, or when the channel crosses a tier line.
-- **Tier lines:** 500K and 2M subscribers. Count subs on the channel page the day you quote. Big channel with a small budget = still quote the tier; let them counter (rate-negotiation-script).
-- **Worked example:** 500K–2M channel, 2,200-word script (≈15 min) = Mid band → 2,200 × €0.19 = **€418** (US channel: 2,200 × $0.21 = **$462**). Plus an ad read: €618 / $687.
+- **Rush** (under 24 h): +50%.
+- **What the fee covers:** narration for the channel's own uploads (YouTube, monetized, plus the channel's own socials), in perpetuity, non-exclusive, edited/cleaned WAV. **Not covered, quote separately:** paid ads, TV/streaming/third-party licensing, exclusivity.
+- **Regular clients:** no volume discount (MEMORY). They get a 3-month rate lock and a guaranteed turnaround slot; re-tier at each 3-month review or when the channel crosses a tier line.
+- **Tier = subs on the channel page the day you quote.** Big channel, small budget = still quote the tier; let them counter (rate-negotiation-script).
+- **Worked example:** 500K–2M channel, 2,200-word script = 2,200 × €0.24 = **€528** (US: 2,200 × $0.27 = **$594**). Plus an ad read: €778 / $874.
 
 ## Ongoing client rate structures (Spencer's escalation plans)
 
