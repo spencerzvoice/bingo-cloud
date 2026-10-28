@@ -675,7 +675,7 @@ NO-CONTACT CHECK (live Gmail via FGAC, 10-28): per address, only Spencer's touch
 **Follow-up queue check: drafts D 0, due N 25 (+2 touch 3 today QUEUED for 10:13 PT: Daniel Warner, Andrew Linsk), queued Q 27, sent S 0 new, missing M 0.** Heartbeat Log!F1 2026-10-28T15:57:03Z.
 
 ## 2026-10-28 ~16:10 UTC (desktop) Funnel S: fern scheduled
-- fern / Jonas Rump (jonasr@simpli.de, Europe/Berlin) | thread 1a17afb41d03b3d1 | touch 1 SCHEDULED Thu 10-29 07:32 UTC = 08:32 Berlin (Gmail Scheduled msg 1a18692a4531c44b, verified) | touch 2 Thu 11-05, overdue Sun 11-08 (weekend: last day Fri 11-06). If the schedule is cancelled/moved, move this row.
+- fern / Jonas Rump (jonasr@simpli.de, Europe/Berlin) | thread 1a17afb41d03b3d1 | touch 1 SCHEDULED Thu 10-29 07:32 UTC = 08:32 Berlin (Gmail Scheduled msg 1a18692a503ab678 since the 10-28 engineering-line edit, verified) | touch 2 Thu 11-05, overdue Sun 11-08 (weekend: last day Fri 11-06). If the schedule is cancelled/moved, move this row.
 
 ## 2026-10-28 ~16:30 UTC (desktop) - "Needs you" items from the 10-28 Prep email, resolved
 - **Audible / Miguel Barbieri:** NOT a missing touch 1. Pitch sent Fri 10-02 19:23 Lisbon (Gmail, thread 1a0f2af3b310e139, re-voice "Fly Audible"); tracker H=10/02 is right, I=10/15 is the LinkedIn voice note. The 21-day coverage scan (from 10-07) just doesn't reach 10-02. LinkedIn checked 10-28: no reply to the 10-15 voice note. Touch 2 draft r3476448546571021622 (thread reply, Spencer's re-voice wording, "a few weeks back") in Drafts. Spencer sends it himself, 08:32-15:00 NY. Never auto-send.

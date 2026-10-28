@@ -286,6 +286,19 @@ def script_gate(cdir):
             ok, line, gaps = verify(os.path.join(cdir, vids[0]), script_text(os.path.join(cdir, sp)))
         except Exception as e:
             ok, line, gaps = False, f"SCRIPT CHECK could not run ({e})", []
+        # STRICT CHECK (Spencer, 2026-10-28: "you're missing words on some scripts in Funnel S"): large-v3 +
+        # medium + the video's YouTube captions vote; any word 2 ears hear that the script lacks fails it
+        try:
+            from script_verify import strict, excerpt_start
+            url, start = excerpt_start(cdir)
+            sok, sline, issues = strict(os.path.join(cdir, vids[0]), os.path.join(cdir, sp), url, start)
+            ok = ok and sok
+            line += " | " + sline
+            gaps += [f"{lvl} {kind} @ {t:.1f}s {txt}" for lvl, kind, t, txt in issues if lvl != "REVIEW"]
+        except ImportError:
+            line += " | STRICT CHECK skipped (no faster-whisper here)"
+        except Exception as e:
+            ok, line = False, line + f" | STRICT CHECK could not run ({e})"
         out.append(f"{'OK' if ok else 'FAIL'} {sp}: {line}" + "".join("\n      " + g for g in gaps))
         # FORMAT: run-on lines / stray spaces (script_lines.lint). Reported, never auto-fixed on an existing
         # script: Spencer OKs any re-layout (10-13). New scripts come out of script_lines.py already clean.
@@ -313,8 +326,22 @@ def whisper_script(client, cdir, src):
     Medium model on the Demucs vocal stem, condition_on_previous_text=False, nothing past the video's end or
     Whisper's stock filler. The SCRIPT GATE then re-checks it with an independent pass (script_check.py)."""
     from script_lines import build
-    build(vocals(client, src), src, os.path.join(cdir, f"{client}_script.docx"),
-          header="Original copy - from Whisper transcription (desktop relay), verify against the video.",
+    # the channel's own human captions, when it uploaded them, give the words (names spelled right); Whisper
+    # large-v3 gives the line breaks. No human captions = large-v3 words (Spencer, 2026-10-28: missing words)
+    text, header = None, "Original copy - from Whisper transcription (desktop relay), verify against the video."
+    try:
+        from script_verify import excerpt_start, fetch_captions
+        from script_check import duration
+        url, start = excerpt_start(cdir)
+        caps = fetch_captions(url) if url else None
+        if caps and caps["kind"] == "human":
+            end = start + duration(src)
+            text = " ".join(w for t, w in caps["events"] if start - 0.2 <= t <= end + 0.2
+                            and not re.fullmatch(r"\[.*\]|\(.*\)|♪+", w.strip()))
+            header = "Original copy - from the channel's captions, verify against the video."
+    except Exception:
+        pass
+    build(vocals(client, src), src, os.path.join(cdir, f"{client}_script.docx"), text=text, header=header,
           client=client)
 
 
