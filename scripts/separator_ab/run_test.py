@@ -12,7 +12,7 @@ if not os.path.exists(wav):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", SRC, "-vn", "-ac", "2", "-ar", "44100", wav], check=True)
 for spec in MODELS:
     m, _, ov = spec.partition("@")
-    d = os.path.join(OUT, spec.replace(".", "_").replace("@", "_ov"))
+    d = os.path.join(OUT, spec.replace(".", "_").replace("@", "_ov").replace(":", "_"))
     if glob.glob(os.path.join(d, "*.wav")):
         continue
     t = time.time()
