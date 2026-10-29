@@ -4,3 +4,6 @@ Thumbs.db
 *.tmp
 __pycache__/
 *.pyc
+
+# Model-routing handoff briefs (desktop only, transient)
+/handoffs/

@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-10-28_
+_Last updated: 2026-10-29_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -127,6 +127,7 @@ Private/financial context (tax, property, music, personal) lives in **`local/per
 
 - Repo: private GitHub `github.com/spencerzvoice/bingo` (2026-08-27) so Bingo works from the phone; `local/` is gitignored.
 - **Terse replies** (09-19): Q→A only, no play-by-play or visible reasoning; token cost matters.
+- **Model routing = mine to decide** (Spencer 10-29): substantial task on the wrong model → handoff MD + new chat on the right model, no asking. Rule: CLAUDE.md "Model routing", how-to `reference/model-routing.md`.
 - **Never tack "Spencer" onto the end of sentences** (09-24): reads condescending. Direct, plain, no lecturing.
 - **"log" = commit + push** the Bingo repo, one-line confirm with hash, never ask (09-25).
 - **Script coaching:** keep the full 6-part elaine-coach breakdown (09-21; he tried short snippets and reverted).
