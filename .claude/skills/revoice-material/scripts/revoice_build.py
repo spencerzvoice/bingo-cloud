@@ -2,7 +2,7 @@
 Usage: python revoice_build.py "<Funnel dir>" [Client ...]
        python revoice_build.py --all      (desktop relay: every Funnel folder under Client Outreach)
 Per client with a sources.txt: download source if missing (as "<Client> - SOURCE - <title>.mp4"),
-Demucs NOVOX if missing, Whisper script .docx if no script exists, Ableton project from template
+NOVOX (BS-RoFormer on the GPU, Demucs fallback) if missing, Whisper script .docx if no script exists, Ableton project from template
 if missing, MAKE VIDEO button in Ready to Link. Idempotent: only fills gaps; complete packages are
 skipped without touching the network.
 Desktop relay (Spencer, 2026-10-06): YouTube blocks the cloud's IP, not this PC's. When a cloud run
@@ -112,17 +112,37 @@ def age_gate(url, opt=None):
     return None
 
 
+# Stem separation (Spencer, 2026-10-29: the Demucs beds were "lower and lower quality"). BS-RoFormer via
+# audio-separator in its own venv (GPU) keeps the music under the narration; Demucs carved it 4-5 dB down under
+# every line (A/B on Crime Dynasty + Knowledgia, memory/2026-10-29.md). Demucs stays where the venv isn't
+# installed (cloud routines). A RoFormer failure is raised, never silently swapped for a Demucs bed.
+SEP = r"C:\Users\spenc\sepenv\Scripts\audio-separator.exe"
+SEP_MODEL = "model_bs_roformer_ep_317_sdr_12.9755.ckpt"
+SEP_MODELS = r"C:\Users\spenc\sepenv\models"
+
+
+def separate(src, tmp):
+    """(no_vocals.wav, vocals.wav) of the source's audio, written inside tmp."""
+    wav = os.path.join(tmp, "audio.wav")
+    run(["ffmpeg", "-y", "-i", src, "-vn", "-ac", "2", "-ar", "44100", wav])
+    stems = os.path.join(tmp, "stems")
+    if os.path.exists(SEP):
+        run([SEP, wav, "-m", SEP_MODEL, "--model_file_dir", SEP_MODELS, "--output_dir", stems, "--output_format", "WAV"])
+        pick = lambda tag: next(os.path.join(stems, f) for f in os.listdir(stems) if f"({tag})" in f)
+        return pick("Instrumental"), pick("Vocals")
+    run([sys.executable, "-m", "demucs", "--two-stems=vocals", "-o", stems, wav])
+    d = os.path.join(stems, "htdemucs", "audio")
+    return os.path.join(d, "no_vocals.wav"), os.path.join(d, "vocals.wav")
+
+
 def novox(client, cdir, src):
     out = os.path.join(cdir, f"{client}_NOVOX.mp4")
     if os.path.exists(out):
         return out
     tmp = tempfile.mkdtemp(dir=WORK)
-    wav = os.path.join(tmp, "audio.wav")
-    run(["ffmpeg", "-y", "-i", src, "-vn", "-ac", "2", "-ar", "44100", wav])
-    run([sys.executable, "-m", "demucs", "--two-stems=vocals", "-o", os.path.join(tmp, "stems"), wav])
-    nv = os.path.join(tmp, "stems", "htdemucs", "audio", "no_vocals.wav")
+    nv, vox = separate(src, tmp)
     run(["ffmpeg", "-y", "-i", src, "-i", nv, "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy", "-c:a", "aac", "-shortest", out])
-    shutil.move(os.path.join(tmp, "stems", "htdemucs", "audio", "vocals.wav"), vocals_path(client))  # for whisper_script
+    shutil.move(vox, vocals_path(client))  # for whisper_script
     shutil.rmtree(tmp, ignore_errors=True)
     return out
 
@@ -132,14 +152,11 @@ def vocals_path(client):
 
 
 def vocals(client, src):
-    """Demucs vocal stem of the source (kept from the NOVOX pass; rebuilt if missing)."""
+    """Vocal stem of the source (kept from the NOVOX pass; rebuilt if missing)."""
     vp = vocals_path(client)
     if not os.path.exists(vp):
         tmp = tempfile.mkdtemp(dir=WORK)
-        wav = os.path.join(tmp, "audio.wav")
-        run(["ffmpeg", "-y", "-i", src, "-vn", "-ac", "2", "-ar", "44100", wav])
-        run([sys.executable, "-m", "demucs", "--two-stems=vocals", "-o", os.path.join(tmp, "stems"), wav])
-        shutil.move(os.path.join(tmp, "stems", "htdemucs", "audio", "vocals.wav"), vp)
+        shutil.move(separate(src, tmp)[1], vp)
         shutil.rmtree(tmp, ignore_errors=True)
     return vp
 
