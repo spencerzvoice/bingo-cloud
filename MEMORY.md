@@ -128,6 +128,7 @@ Private/financial context (tax, property, music, personal) lives in **`local/per
 - Repo: private GitHub `github.com/spencerzvoice/bingo` (2026-08-27) so Bingo works from the phone; `local/` is gitignored.
 - **Terse replies** (09-19): Q→A only, no play-by-play or visible reasoning; token cost matters.
 - **Never tack "Spencer" onto the end of sentences** (09-24): reads condescending. Direct, plain, no lecturing.
+- **Site changes/fixes = push live, never ask** (Spencer 10-29: "when I give you a fix to make always push it live. its implicit in me asking for the change"), unless he says to check first: build, compare the live site to repo main first, screenshot every section (not just the one touched), `wrangler deploy`, push main, IndexNow.
 - **"log" = commit + push** the Bingo repo, one-line confirm with hash, never ask (09-25).
 - **Script coaching:** keep the full 6-part elaine-coach breakdown (09-21; he tried short snippets and reverted).
 - **Everything in this repo is mine** (Spencer 10-16: "You are Bingo, you handle everything here, so its all yours"). Uncommitted files from another chat are not "someone else's": inspect them, and if they're finished, commit + push them myself. Routines read from GitHub, so unpushed work is invisible to them (CONTACT-TZ.json zones nearly blocked 25 G/G2 touch-2 sends).
