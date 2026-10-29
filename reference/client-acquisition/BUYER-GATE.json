@@ -395,6 +395,17 @@
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (content marketing manager). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
  },
+ "eric.daley@us.mcd.com": {
+  "company": "McDonald's",
+  "company_type": "inhouse",
+  "date": "2026-10-29",
+  "name": "Eric Daley",
+  "practice": "unknown",
+  "source": "Apollo people match 2026-10-29 (at McDonald's since 2022; Creative Lead - Video 2016-19) + public LinkedIn PASS (ZenRows) linkedin.com/in/eric-daley-b318a5b6",
+  "title": "Video Production Manager",
+  "verdict": "PASS",
+  "why": "decision-maker title (production manager)"
+ },
  "eric.hines@lastpass.com": {
   "company": "LastPass",
   "company_type": "inhouse",
@@ -515,6 +526,17 @@
   "title": "Creative Producer",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "jennifer.healan@us.mcd.com": {
+  "company": "McDonald's",
+  "company_type": "inhouse",
+  "date": "2026-10-29",
+  "name": "Jennifer Healan",
+  "practice": "unknown",
+  "source": "Apollo people match 2026-10-29 (since Feb 2020) + public LinkedIn PASS (ZenRows) linkedin.com/in/jennifer-healan",
+  "title": "VP, U.S. Marketing, Brand Content and Engagement",
+  "verdict": "PASS",
+  "why": "decision-maker title (vp)"
  },
  "jess.peterson@shopify.com": {
   "company": "Shopify",
@@ -1131,6 +1153,17 @@
   "title": "Senior Content Marketing Manager",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (content marketing manager). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "sheila.hamilton@us.mcd.com": {
+  "company": "McDonald's",
+  "company_type": "inhouse",
+  "date": "2026-10-29",
+  "name": "Sheila Hamilton",
+  "practice": "unknown",
+  "source": "Apollo people match 2026-10-29 (since Oct 2024) + public LinkedIn PASS (ZenRows) linkedin.com/in/sheila-hamilton-4a96aa5",
+  "title": "Senior Director, Global Brand & Content",
+  "verdict": "PASS",
+  "why": "decision-maker title (director)"
  },
  "shelby.khan@elastic.co": {
   "company": "Elastic",
