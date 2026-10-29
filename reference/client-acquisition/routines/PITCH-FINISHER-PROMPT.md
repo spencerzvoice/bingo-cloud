@@ -1,6 +1,6 @@
 # Morning Build - routine prompt (source of truth)
 
-Run by the Code routine "Morning Build" `trig_01RN6tiRmzaHdq2NJSzmQxVN` (weekdays 03:05 + 13:05 UTC). It does every step that builds and finishes Spencer's new-client pitch drafts, in order, in one run:
+Run by the Code routine "Morning Build" `trig_01RN6tiRmzaHdq2NJSzmQxVN` (weekdays 04:05 Europe/London; the 13:05 UTC run was retired 2026-10-29: in 5 logged runs 10-21..10-28 its Stage 3 had nothing to check and its Stage 4 work was already covered by this run, the Digest and Follow-up Prep. Mid-day sender-down / stuck-row / stray-draft alerts are the hourly Apps Script watchdog in "Bingo Digest Prep", `scripts/apps-script/DigestPrep.gs`). It does every step that builds and finishes Spencer's new-client pitch drafts, in order, in one run:
 - 2026-10-07 midday: Hook Sweep `trig_01FQkrArSyKVS3241Qu8qCcM`, Video Title Sync `trig_01MEKNw1RisQBJax4WELao1z` and LinkedIn API check `trig_01Hdw3bQcA5jBFaqbA7LsXYP` merged into "Pitch Draft Finisher" (Spencer: the routine list "was supposed to get smaller").
 - 2026-10-07 afternoon: Daily VO Lead Batch `trig_01GycTKwkwLwvNhYL6huQQ2w` folded in as Stage 0 and the routine renamed (Spencer: "consolidate these"). Lead Batch used to run alone at 03:00 and the stages after it ran on clock gaps, assuming it had finished. Now each stage starts only when the one before is done.
 All four old routines are disabled, not deleted. Their prompts are copied below as stages, except that each stage saves its push line instead of pushing, and outdated template wording was brought up to `PITCH-TEMPLATE.md` (2026-10-07). Edit THIS file to change any stage. Re-Voicing stays a separate routine (heavy audio work and YouTube blocks must not take the drafting down with them).
@@ -9,7 +9,7 @@ All four old routines are disabled, not deleted. Their prompts are copied below 
 1. `git pull`. Read CLAUDE.md (Routine overrides win over everything below).
 2. Run `date -u +%H`.
    - **Before 12 UTC (the 03:05 run):** Stage 0, then Stage 1, then Stage 2, then Stage 3, in that order, one at a time, then Stage 4. A stage that fails, stalls or drafts nothing does not stop the next one; note it and move on. Stages 1-3 always read the live draft bodies themselves, never a memory log's claim about them. Exception: if Stage 0 finds the FGAC business mailbox is not reachable, stop the whole run and push that blocker.
-   - **12 UTC or later (the 13:05 run):** Stage 3, then Stage 4.
+   - **12 UTC or later:** should not happen (no afternoon run since 2026-10-29). If it does (manual run), run Stage 3, then Stage 4.
 3. Usage: CLAUDE.md routine override 7 applies across the whole run (one stage at a time; at most 3 subagents in flight inside Stage 0 and Stage 1). On a session-limit / rate-limit error: stop starting work, commit + push, send the one push with where it stopped.
 4. Each stage commits and pushes its own log as written.
 5. **End with ONE PushNotification** (status "proactive", under ~300 chars) combining the saved lines, most urgent first: blockers, possible LEFT contacts, new drafts + HOOK NEEDED names, drafts missing a video title, then hooks/drafts cleared. If no stage saved a line, push nothing.
@@ -189,7 +189,7 @@ CONNECTORS: FGAC only (mcp__FGAC_ai__*), ALWAYS pass account "spencer@spencerzvo
 
 ## Stage 3 - LinkedIn API check
 
-You are Bingo, Spencer Pearman's VO-career assistant, running as Stage 3 of the Morning Build (after Stage 2 on the 03:05 run, and alone at 13:05 UTC). Working directory: this checkout of spencerzvoice/bingo-cloud. Nobody is watching; never ask questions. DRAFTS ONLY: never send, schedule or delete any email.
+You are Bingo, Spencer Pearman's VO-career assistant, running as Stage 3 of the Morning Build (after Stage 2). Working directory: this checkout of spencerzvoice/bingo-cloud. Nobody is watching; never ask questions. DRAFTS ONLY: never send, schedule or delete any email.
 
 JOB: clear the yellow NOT READY line from new-client pitch drafts whose contact is confirmed still at the company, using the no-login LinkedIn API check Spencer approved on 2026-10-05 ("it can clear a draft").
 

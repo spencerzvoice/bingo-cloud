@@ -31,11 +31,13 @@ let TOKEN = '';
 let T0 = 0;
 let FAILS = {meta: 0, thread: 0, samples: []};
 
-/** Run once from the editor: installs the daily runs (threads ~05:00 UTC, rows ~06:30 UTC; never at once). */
+/** Run once from the editor: installs the daily runs (threads ~05:00 UTC, rows ~06:30 UTC; never at once)
+ *  and the hourly watchdog. */
 function setup() {
   ScriptApp.getProjectTriggers().forEach(function (t) {
-    if (['run', 'runThreads'].indexOf(t.getHandlerFunction()) >= 0) ScriptApp.deleteTrigger(t);
+    if (['run', 'runThreads', 'watchdog'].indexOf(t.getHandlerFunction()) >= 0) ScriptApp.deleteTrigger(t);
   });
+  ScriptApp.newTrigger('watchdog').timeBased().everyHours(1).create();
   ScriptApp.newTrigger('runThreads').timeBased().atHour(5).nearMinute(0).everyDays(1).inTimezone('Etc/UTC').create();
   ScriptApp.newTrigger('run').timeBased().atHour(6).nearMinute(30).everyDays(1).inTimezone('Etc/UTC').create();
   return ScriptApp.getProjectTriggers().map(function (t) { return t.getHandlerFunction(); });
@@ -289,6 +291,79 @@ function getAll_(paths) {
   }
   todo.forEach(function (i) { out[i] = {error: 'retries exhausted: ' + last[i]}; });
   return out;
+}
+
+/**
+ * Watchdog (2026-10-29, replaces the Morning Build 13:05 UTC cloud run; plan step 2). Hourly, weekdays
+ * 08-18 UTC, from this separate project so it still fires when the Follow-up Sender itself is down.
+ * Read-only; emails Spencer once a day per problem:
+ *  1. Sender heartbeat (Queue Sheet Log!F1) older than 15 min.
+ *  2. A QUEUED row more than 30 min past its local send time.
+ *  3. A cold touch 2/3 reply sitting in Gmail Drafts (thread has only Spencer's 1-2 sent messages,
+ *     started in the last 30 days). Warm drafts (any inbound) and LT touches (3+ sent) are left alone.
+ * Ledger gaps (a due touch nobody queued) stay with the 04:05 Morning Build Stage 4, the Digest and Prep.
+ */
+function watchdog() {
+  const now = new Date();
+  const h = now.getUTCHours(), dow = now.getUTCDay();
+  if (dow === 0 || dow === 6 || h < 8 || h > 18) return;
+  const issues = watchIssues_(now);
+  const props = PropertiesService.getScriptProperties();
+  const day = Utilities.formatDate(now, 'Etc/UTC', 'yyyy-MM-dd');
+  const fresh = issues.filter(function (i) { return props.getProperty('wd_' + day + '_' + i[0]) === null; });
+  if (!fresh.length) return;
+  MailApp.sendEmail(ME, '[Bingo] Watchdog: ' + fresh.length + ' follow-up problem' + (fresh.length > 1 ? 's' : ''),
+      fresh.map(function (i) { return '- ' + i[1]; }).join('\n') +
+      '\n\nQueue: https://docs.google.com/spreadsheets/d/' + PREP_SHEET_ID +
+      '\n(Bingo Digest Prep watchdog; one email per problem per day.)', {name: 'Bingo watchdog'});
+  fresh.forEach(function (i) { props.setProperty('wd_' + day + '_' + i[0], '1'); });
+}
+
+/** Test from the editor: writes what watchdog() would report to tab Prep_Watchdog, sends nothing. */
+function watchdogDryRun() {
+  const issues = watchIssues_(new Date());
+  writeTab_(SpreadsheetApp.openById(PREP_SHEET_ID), 'Prep_Watchdog', ['key', 'issue', 'checked_utc'],
+      (issues.length ? issues : [['none', 'no problems found']]).map(function (i) { return [i[0], i[1], iso_(new Date())]; }));
+}
+
+function watchIssues_(now) {
+  const issues = [];
+  const ss = SpreadsheetApp.openById(PREP_SHEET_ID);
+
+  const beat = String(ss.getSheetByName('Log').getRange('F1').getDisplayValue());
+  const age = (now - new Date(beat)) / 60000;
+  if (!(age <= 15)) issues.push(['sender-down', 'Follow-up sender down since ' + beat + ' (heartbeat ' +
+      (isNaN(age) ? 'unreadable' : Math.round(age) + ' min old') + '). Queued follow-ups will not go out until it runs again.']);
+
+  const q = ss.getSheetByName('Queue').getDataRange().getDisplayValues();
+  for (let r = 1; r < q.length; r++) {
+    if (String(q[r][0]).trim().toUpperCase() !== 'QUEUED' || !q[r][6] || !q[r][7]) continue;
+    let tz = String(q[r][5]).trim();
+    if (tz.toUpperCase() === 'US' || !tz) tz = 'America/Los_Angeles';
+    let local;
+    try { local = Utilities.formatDate(new Date(now.getTime() - 30 * 60000), tz, 'yyyy-MM-dd HH:mm'); }
+    catch (e) { local = Utilities.formatDate(new Date(now.getTime() - 30 * 60000), 'Etc/UTC', 'yyyy-MM-dd HH:mm'); }
+    if (q[r][6] + ' ' + q[r][7] < local) {
+      issues.push(['stuck-' + (r + 1), 'Queue row ' + (r + 1) + ' still QUEUED past its send time: touch ' + q[r][1] +
+          ' to ' + q[r][2] + ' (' + q[r][3] + '), due ' + q[r][6] + ' ' + q[r][7] + ' ' + q[r][5] + '.']);
+    }
+  }
+
+  const drafts = (Gmail.Users.Drafts.list('me', {maxResults: 100}).drafts || []);
+  drafts.forEach(function (d) {
+    const m = Gmail.Users.Messages.get('me', d.message.id, {format: 'metadata', metadataHeaders: ['In-Reply-To', 'Subject', 'To']});
+    const hm = heads_(m);
+    if (!hm['in-reply-to']) return;  // not a reply
+    const t = Gmail.Users.Threads.get('me', m.threadId, {format: 'metadata', metadataHeaders: ['From']});
+    const sent = (t.messages || []).filter(function (x) { return (x.labelIds || []).indexOf('DRAFT') < 0; });
+    const allMine = sent.every(function (x) { return (heads_(x).from || '').toLowerCase().indexOf(ME) >= 0; });
+    const recent = sent.length && now - Number(sent[0].internalDate) < 30 * 86400000;
+    if (allMine && recent && sent.length <= 2) {
+      issues.push(['draft-' + d.id, 'Cold touch ' + (sent.length + 1) + ' sitting in Drafts (should be a Queue row): "' +
+          (hm.subject || '') + '" to ' + (hm.to || '') + ' (draft ' + d.id + ').']);
+    }
+  });
+  return issues;
 }
 
 function byDate_(a, b) { return b.ts - a.ts; }

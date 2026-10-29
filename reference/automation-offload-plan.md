@@ -26,7 +26,7 @@ _**Step 1 BUILT 2026-10-29** (Spencer: "Yes, build it"): Apps Script "Bingo Dige
 
 ## Build order (biggest saving first)
 1. **Digest Prep** (Steps 1-3e + 4 dates + 4b + the coverage thread list). This takes out the daily ~190-row, 3-subagent Gmail sweep.
-2. **LinkedIn API check + queue check** in Apps Script, then disable the Morning Build 13:05 trigger (one fewer cloud run a day).
+2. **DONE 2026-10-29, redesigned:** the 13:05 run's logs (repo commits 10-21..10-28) showed Stage 3 had nothing to check in all 5 runs and Stage 4's catches were already covered by the morning run, the Digest and Prep, so nothing was ported. Morning Build cron is now `CRON_TZ=Europe/London 5 4 * * 1-5` (once a day). Its mid-day value moved to `watchdog()` in "Bingo Digest Prep" (hourly, weekdays 08-18 UTC, read-only): emails Spencer once a day per problem if the sender heartbeat is over 15 min old, a QUEUED row is 30+ min past its local send time, or a cold touch 2/3 reply sits in Drafts. `watchdogDryRun()` writes the same checks to tab Prep_Watchdog without emailing.
 3. **Video Title Sync**.
 4. Rewrite each routine prompt to "read the Apps Script output file; if it's missing or older than 2 h, fall back to the old step", so nothing breaks if a script fails.
 
