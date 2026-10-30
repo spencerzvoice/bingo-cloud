@@ -16,6 +16,7 @@ Compiled from Spencer's memory exports (2026-08-27). The live outreach pipeline 
 | Diamond View Studios | Kayla Gremer Foreid; Jeff McKown (Kimley-Horn Feb 2026 project; no open project verified as of 2026-09-19); Sherry Livingston (payments) | kayla@diamondviewstudios.com; jeff@diamondviewstudios.com | Kimley-Horn (Feb 2026 project; payment resolved May 1 2026) |
 | Dove Street Films | Jason Rudeen | jason@dovestreetfilms.com | FIFA World Cup 2026 Preview Series (production partner) |
 | EDP Inc | Erin Daughenbaugh | edaughenbaugh@gmail.com | Informatica — Sales Kickoff Opening Video (Jan 2023) |
+| Harry Cartwright (Lisbon-based artist, harrycartwright.co.uk) | Harry Cartwright | Harry@harrycartwright.co.uk | Direct client / own short film "O Caminho" (2026): Spencer recorded the VO, engineered, mixed + mastered the audio, and contributed creative direction (Spencer 2026-10-30). Mixed audio delivered via SwissTransfer 2026-10-27 (Gmail, Sent). On the resume since 2026-10-30. Testimonial / LinkedIn rec ask: not yet raised. |
 | IMG / EuroLeague | Ian Henderson (Producer, IMG Studios); Jamie Pearson; Chloe Hubbard (coord, billing) | Ian.Henderson@img.com; Jamie.Pearson@img.com | EuroLeague. History: quoted £10K, he countered $3,750, Spencer countered £5,000; passed on that job but promised preseason work. Jamie: paid Nov 2025 Black Friday TV promo. |
 | IMG (separate) | Luke Fortin (Voices.com) | — | IMG Academy; Forever Lawn |
 | Invision | Mel Kane (Senior Media Producer) | mkane@iv.com | Gilead — Attendee Hub. Phone (415) 215-2222 |
@@ -77,4 +78,5 @@ Primal Space & Hip Hop Madness (recurring direct YouTube-channel clients — tra
 | Noah Media Group | FIFA inquiry Mar 4 2026; Ep 11 completed/invoiced May 20–22 2026 |
 | Xpedition Media | Monthly; invoice #0002 May 28 2026 ($3,000); re-engaged Jul 31 2026 |
 | Zulubot Bravo Inc | Job #861714 awarded Aug 24 2025, deposit + payment Aug 25 |
+| Harry Cartwright | Oct 27 2026 — "O Caminho" short film: mixed audio delivered (SwissTransfer link, Gmail Sent "O Caminho Mixed Audio"); fee ❓ |
 - **CrowdReply** (direct, co-founder Jim): came on board after the 08-28 re-voice samples; Spencer voiced a job for them in September 2026: one :30 VO, $250 (Spencer, 2026-10-06). Usage: web only (non-paid), in perpetuity (Spencer, 2026-10-07). Any paid media/ads use = new usage fee. Retainer plan in `reference/outreach-pipeline.md`.
