@@ -568,3 +568,5 @@ Bingo, in Spencer's Chrome, no note; top card checked (name + company) before ea
 - 2026-10-28 Funnel S Yarnhub / David Webb (david@yarnhub.org): take linked (Drive 17WTDS2c0ZnxtFyjuKbam1cn2Hq88N-2N, 49,291,615 B = local) into "When Ha-Go Tanks Ambushed M3 Stuarts" (latest public film; newest upload is members-only). Scheduled Wed 10-28 17:48 UTC (13:48 New York). Tracker row 294. Follow up on 11/04.
 - 2026-10-28 Funnel S Yarnhub / David (david@yarnhub.org): take linked (Drive 17WTDS2c0ZnxtFyjuKbam1cn2Hq88N-2N, 49,291,615 B; link already PUT 17:39Z by another session) into "When Ha-Go Tanks Ambushed M3 Stuarts" ("one of your latest"). Scheduled TODAY 17:48 UTC (13:48 NY). Tracker row 294. Follow up on 11/04. FUNNEL S COMPLETE: all 10 sent or scheduled.
 - 2026-10-29: micro1/Daniel Warner touch 3 (Spencer's wording) SCHEDULED Thu 10-29 08:32 PT, msg 1a1884a18341b1b2.
+
+- 2026-10-30 (cloud Follow-up Prep): queued Mon 11-02 touch 2 for Elastic, GitLab, MongoDB, Twilio, Harness, LaunchDarkly, Postman, New Relic; touch 3 Siemens Energy (Natascha). Drafted warm follow-up to Sam Poulter/Maersk (Spencer sends).
