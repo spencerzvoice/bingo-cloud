@@ -13,7 +13,7 @@ The one-line difference from G's system: G's rules are prose that Claude is aske
 - **One repo, one persona.** `CLAUDE.md` at the root is the start page; it loads `SOUL.md` (how to behave), `IDENTITY.md`, `USER.md` (who Spencer is, how he wants to be spoken to), `AGENTS.md` (the operating rules) and `MEMORY.md` (the curated brain, hard-capped at 200 lines).
 - **`reference/`** holds the topic files: strategy, client directory, pricing cards, the outreach pipeline, and `client-acquisition/` with the funnel cohorts, contact research, video-pick verdicts and the prompts of every scheduled routine. `reference/INDEX.md` is a generated one-line-per-file map.
 - **`memory/`** holds one dated log per working day plus two living ledgers (follow-ups due, outreach log). Old months roll into `memory/archive/`.
-- **`local/`** is gitignored: tax, property, personal context, API keys. Desktop only, never synced, read only when the topic comes up.
+- **`local/`** is gitignored: anything that must stay on the desktop (API keys, private context). Never synced, read only when the topic comes up.
 - **`.claude/skills/`** are reusable procedures (draft an outreach email, price a job, coach a script read, run the LinkedIn check), each a Markdown file that loads itself when the task matches its description.
 - **`.claude/hooks/`** are Python scripts the harness runs before or after a tool call. They cannot be forgotten or talked out of.
 - **`scripts/`** are the deterministic jobs: compose Gmail-native HTML mail, pick a send slot in the recipient's time zone, build the re-voice sample package, roll the logs over, rebuild the index.
