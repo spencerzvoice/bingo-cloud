@@ -9,6 +9,8 @@ description: >-
 
 # Outreach Email
 
+> **Read `reference/outreach-rulebook.md` first.** The client-acquisition rules moved there from CLAUDE.md / AGENTS.md on 2026-10-31 (same numbering); the hooks enforce them and point there when they block.
+
 Draft outreach in **Spencer's** voice — casual, direct, warm but plain-spoken,
 contractions throughout, first names, warmth before business. Not a generic
 cold-email template. **You never send it** — hand Spencer a draft he reviews and

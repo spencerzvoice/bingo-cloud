@@ -1,3 +1,5 @@
+READ FIRST, every run: `reference/outreach-rulebook.md` holds every client-acquisition rule (moved out of CLAUDE.md on 2026-10-31, same numbering; those rules win over anything below).
+
 # Re-Voicing Material Retrieval - routine prompt snapshot
 
 Verbatim copy of the prompt of routine `trig_01L7j1hN3yToMTFnbBkSTAg2`, taken 2026-10-06 so scoped catch-up runs can load it from the repo. The live routine prompt is the source of truth; CLAUDE.md overrides win over both.

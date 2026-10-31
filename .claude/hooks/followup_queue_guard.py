@@ -56,6 +56,6 @@ if is_reply and any(m in text for m in TOUCH_MARKERS):
         "sent from a session (Spencer, 2026-10-20: \"They should not even hit my draft box\"). Append a QUEUED row "
         "to the Follow-up Queue Sheet 1YVJbPnETd3gkX8dAwdHsiqijojgMlyCL_4Jaskk9aao (tab Queue) instead, exactly as "
         "the followup-drafts skill's \"Send queue\" section says (touch 2 = 09:04, touch 3 = 10:13 contact-local); "
-        "the Apps Script sender sends it offline.\n")
+        "the Apps Script sender sends it offline. Rules: reference/outreach-rulebook.md 10.\n")
     sys.exit(2)
 sys.exit(0)

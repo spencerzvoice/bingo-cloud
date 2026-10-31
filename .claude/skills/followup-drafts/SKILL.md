@@ -6,6 +6,8 @@ description: >-
 
 # Follow-up drafts + reminders
 
+> **Read `reference/outreach-rulebook.md` first.** The client-acquisition rules moved there from CLAUDE.md / AGENTS.md on 2026-10-31 (same numbering); the hooks enforce them and point there when they block.
+
 Spencer's goal (2026-09-24): he falls behind on follow-ups. Whenever a follow-up is due by the cadence rules it is handled before the due day and he gets told who is being followed up. Not daily: only when something is due. **Cold touches 2 and 3 are SENT automatically, no review, and never sit in his Drafts (Spencer, 2026-10-15: "I don't have to touch them at all. I don't have to read them at all ... They should already be scheduled or out"; "you have full permission to use whatever tools you need").** See "Send queue" below (Spencer, 2026-10-20: "They should not even hit my draft box"). Warm-client follow-ups, quarterly LT touches and anything flagged stay drafts for Spencer to send.
 
 ## Schedule-driven, not daily (Spencer, 2026-09-24)

@@ -110,6 +110,12 @@
             "shell": "bash",
             "command": "grep -qi 'bingo' && printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"RULE 0 - never guess. Every fact about Spencer / a client / a rate / a credit / a date in what you just wrote must be sourced (name the file or page). LOOK IT UP FIRST in the sources Spencer published himself (Voice123, Voices.com, Google Business Profile, LinkedIn, spencerzvoice.com, MEMORY.md, reference/) and fill it in yourself; only when none of them has it, write a [bracket] and say which sources you checked - never a plausible fill-in, and never a bracket for something you could have looked up. If this is a deliverable (email, quote, application, bio, research answer), end it with the verification footer: Verified <fact - source> / Bracketed (you fill) <item> / Unknown <item>.\"}}' || true",
             "timeout": 10
+          },
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "PY=$(command -v python3 || command -v python); \"$PY\" \"$CLAUDE_PROJECT_DIR/scripts/build_index.py\" --quiet || true",
+            "timeout": 10
           }
         ]
       }

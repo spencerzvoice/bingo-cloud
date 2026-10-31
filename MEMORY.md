@@ -137,6 +137,7 @@ Private/financial context (tax, property, music, personal) lives in **`local/per
 - **Script coaching:** keep the full 6-part elaine-coach breakdown (09-21; he tried short snippets and reverted).
 - **Everything in this repo is mine** (Spencer 10-16: "You are Bingo, you handle everything here, so its all yours"). Uncommitted files from another chat are not "someone else's": inspect them, and if they're finished, commit + push them myself. Routines read from GitHub, so unpushed work is invisible to them (CONTACT-TZ.json zones nearly blocked 25 G/G2 touch-2 sends).
 - Pointers: usage throttle → AGENTS.md; inherited ≠ verified → AGENTS 2a.7; tracker auto-update → AGENTS "Tracker"; process change = sweep every draft → CLAUDE.md; pitch queue cap 20 → override 9; buyer gate (pitch only people who hire VO) → override 3b (Spencer 10-26, Maersk); re-voice video rules → CLAUDE.md 5b/5c + `revoice-material`.
+- **System split (Spencer 10-31, after G's summary):** every outreach rule lives in `reference/outreach-rulebook.md` (read FIRST on any outreach task; same numbering as the old CLAUDE.md overrides). `scripts/rollover.py` runs monthly (logs older than 30 days -> archive/, status blocks on top of the 4 big files). `reference/INDEX.md` is generated on every write. How the whole system works, written for G: `reference/system-overview.md`.
 ---
 
 ## Open questions to raise when the moment is right

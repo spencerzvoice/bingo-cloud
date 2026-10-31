@@ -37,7 +37,7 @@ path = str(ti.get("path", "")).split("?")[0].rstrip("/")
 
 
 def block(msg):
-    sys.stderr.write("BLOCKED by send_window_guard: " + msg + "\n")
+    sys.stderr.write("BLOCKED by send_window_guard: " + msg + " Rules: reference/outreach-rulebook.md 10." + "\n")
     sys.exit(2)
 
 

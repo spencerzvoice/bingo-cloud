@@ -1,0 +1,133 @@
+# Outreach Log — Bingo - archive 2026-08
+
+> Rolled over from `memory/outreach-log.md` by `scripts/rollover.py`. Read-only history; the live file keeps the last 30 days.
+
+## Funnel B — 16 drafts (2026-08-31, NOT sent — pending Spencer review)
+Pitch shift vs Funnel A: recurring-voice / low-friction-vendor framing (locked rate, 24h turnaround, Source Connect, own edit+delivery), not "you have a VO gap." Custom sample is an *offer* in these drafts, not attached — Spencer may swap for a real re-voiced clip like Funnel A. Openers thin (Bingo hasn't watched these companies' videos) — Spencer to add one genuine specific per company. All emails: warm bass/baritone, credits AWS Sagemaker + Artlist.io + Venmo + Dell (no FIFA), "Hey [First]" for men / "Hello [First]" for women.
+**STATUS 2026-09-03: all 16 now sit as Gmail drafts** — Spencer created 11 himself (copied from Bingo drafts + subject lines of his own), Bingo created 5 (Brian Sherry, Eric Cirillo, Lauren Hirata, Rob Nikzad, Kirsten Golden). NOT sent — Spencer reviewing/personalizing openers.
+**+ Amalia Ho (monday.com, amaliaho@monday.com)** — Spencer found her himself, wrote a fully personalized draft (references her AI "Elevate masterclass"; angle = real voice for the brand films / Elevate sizzle+recap, not the AI masterclasses — same "never anti-AI" play as Miro). Her draft has Google-tracking-wrapped URLs to clean + old "low-register American voice" descriptor. She's the monday.com primary; Dan Brooks (VP Brand & Creative) optional 2nd, not yet drafted.
+**All emails now Apollo-verified (no more guesses):**
+- **HubSpot** — Jamal Meneide `jmeneide@hubspot.com` (primary) · Linda Hewing `lhewing@hubspot.com` (secondary — AI-soft "if a real voice is ever useful")
+- **Canva** — Jack Toohey `jackt@canva.com` (Head of Video — slate angle) · Lydia Sarks `lydia@canva.com` (EP of Brand — "roster to call on" angle)
+- **Atlassian** — Sarah Fink `sfink@atlassian.com` (EP Content Studio) · Genna Osborne `gosborne@atlassian.com` (Creative Producer Brand, lighter)
+- **Asana** — Aubrey Rogers `aubreyrogers@asana.com` (**vendor-add** angle — owns Brand vendor accounts + budget) · Kyle Osher `kyleosher@asana.com` (Sr Creative Producer, "expert in multimedia production")
+- **Zoom** — Dan Schunk `dan.schunk@zoom.us` (Head of Creative — slate) · Teddy Sirotek `teddy.sirotek@zoom.us` (Sr Video Producer — sample)
+- **ClickUp** — Brian Sherry `bsherry@clickup.com` (Ops Head of Creative — vendor-add) · Eric Cirillo `eric@clickup.com` (Sr Creative Producer — sample)
+- **monday.com** — Dan Brooks `danbr@monday.com` (VP Brand & Creative — slate) · Fabien Hameline `fabien@monday.com` (Expert Creative Producer, Brand Awareness — sample)
+- **Grammarly** — Lauren Hirata `lauren.hirata@grammarly.com` (Sr Creative Producer — only contact; thin, agency-heavy company)
+- **Airtable** — Rob Nikzad `rob.nikzad@airtable.com` (Head of Brand + Creative — slate) · Kirsten Golden `kirsten.golden@airtable.com` (Creative Producer, Brand Operations — vendor-add)
+
+## Sent-version notes (Funnel A, from Spencer's own edits before sending — 2026-08-31)
+What Spencer changed from Bingo's drafts, i.e. his real voice (feed the `outreach-email` skill):
+- **Names where he watched:** "I've been going through Framer's videos recently on LinkedIn and YouTube and really enjoyed them…"
+- **Warmer, more enthusiastic, personal asides:** "really enjoyed them", "attractive to my eye", "(that I truly liked)", "I even like the re-introduction video from a couple of months ago".
+- **"Hey [First]" even for senior contacts** (used "Hey Cory" for the Emmy-winning Video Lead). Per-person instinct, not a rule.
+- **Specifics + timeframes:** "back in July", "went out a week ago", "AWS Sagemaker" (not just AWS), "Artlist.io".
+- **Reversed the Ways & Means caution** — named it, framed as shared credit: "the 'AI Can't Replace Teamwork' spot you all made with Ways & Means". Showing he did his homework beat hiding it.
+- **Softened hard phrasings:** "lives or dies on how clear the narration is" → "really depends on clear narration".
+- **Honest about gaps:** Portia — "wanting to expand more into animation", not "I do character voices".
+- Credit line ends "…among others."
+- Two drafts still went out with the old "warm, low-register American voice" (Webflow, Linear) — he'd want "warm bass/baritone voice" everywhere; minor.
+
+## 2026-08-30 — Webflow (Marc Andrews) — cold
+- Contact: Marc Andrews, Brand video lead / "Director of Brand Video", marc.andrews@webflow.com
+- Hook / angle: went through Webflow's catalog, impressed by style + range (sleek/current vs. technical clarity) → strong fit for both
+- Ask: be the regular/go-to voice for their videos
+- Reel linked: TWO custom samples of their own videos — (1) Webflow MCP 2.0 product video, voiced to their music; (2) "Migrate Your CMS with Webflow MCP" tutorial. Spencer uploading to Drive. + spencerzvoice.com. Credits highlighted: AWS rollouts, Artlist, Venmo, Dell (FIFA dropped — tech audience)
+- New email or thread reply: new email
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91). **Bump sent 2026-09-11** ("Just wanted to bump this back up..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
+
+## 2026-08-31 — Noah Media (Dan Shaw + Neil Housley) — warm reconnect [DRAFTED]
+- Contacts: Dan Shaw (dan.shaw@noahmediagroup.com), Neil Housley (neil.housley@noahmediagroup.com) — both producers on the FIFA WC 2026 Preview Series, last contact 06/10/2026. Spencer thinks they were contract and have moved on from Noah Media.
+- Angle: warm "what are you working on these days / anything on the horizon" — reconnect wherever they've landed. No full-name intro (worked together). "wherever you've landed since" = acknowledge a possible move without asserting it. Rates line deliberately left OUT (relationship reopener, not a quote).
+- Send: separately; each as a REPLY in the June thread.
+- Status: drafted in Bingo — Spencer to send.
+
+## 2026-08-31 — Agency batch: 2nd follow-ups SENT + status calls (Spencer)
+- **Nathan Mallon** — email corrected to **mallon@247laundryservice.com** (Spencer found + verified via Apollo — this is confirmed, do not re-question it). Prior address bounced Aug 24. Fresh pitch sent Aug 31. Tracker col D + notes updated Sept 2; routine told to stop flagging it.
+- **Sam Walsh** (Team One) — 2nd follow-up sent Aug 31, OOO auto-reply AGAIN (back this week). Spencer to re-touch end of week (~Sept 5).
+- **Michael MacMillan** (Anomaly) — Spencer scheduled a follow-up to send Sept 1 08:00 (his return from leave).
+- **Sean LaGamma** (Octagon), **Sascha Peuckert** (Team One), **Tanya Ferguson** (Untold), **Cameron Choate** (The Team) — all 2nd/FINAL follow-ups sent Aug 31 (Spencer wrote Sascha/Tanya/Cameron himself; Sean used the FIFA-hook draft). No more touches — October revisit if silent.
+- **Tanner Groehler** (Rhymesayers) — no action. Responded recently; he'll reach out when the Yasiin Bey project unblocks.
+- **Ian Henderson** (IMG) — **HOLD.** Already touched Aug 7/19/24; he said he'll reach out for EuroLeague preseason. Do NOT email before ~Sept 20, then ONE light preseason check-in.
+- **Janae David** (Team One) — reel reviewed, positive. LinkedIn Aug 31: "it's great, I'll definitely keep you in mind." Spencer asked what she's working on + gave spencer@spencerzvoice.com (her Team One address bounces). No current need; warm. Tracker → "Responded (LinkedIn) - Positive, No Current Need", monitor.
+- **João Freitas** — CLOSED (soft no). LinkedIn follow-up Aug 31 → he replied same day: "typically work with the same people, but we'll keep you in mind." Spencer kept the door open. Off the list.
+
+## 2026-08-31 — Octagon (Sean LaGamma) — 2nd follow-up [SENT — FIFA hook]
+- Contact: Sean LaGamma, EP, sean.lagamma@octagon.com. Initial ~Jul 29, 1st follow-up Aug 24, no reply.
+- Hook (✅ verified, Hartford Business Journal + octagon.com): Octagon runs on-the-ground marketing for 8 FIFA 2026 sponsors across all 16 host cities, $1B+, lead agency for the Trophy Tour. Spencer = narrator on Noah Media's official FIFA WC 2026 preview series. Real, timely tie.
+- This is the FINAL touch — email says "I'll leave it here after this." If no reply → October revisit.
+- Send: ~Sept 2–3, reply in existing thread. No production needed.
+
+## 2026-08-31 — Team One tracker actions (Spencer's calls)
+- **Maya Roberts** — SCRAPPED (bounced, bad email). Status→"Dropped" in tracker (row 8). Off the follow-up list.
+- **Tami Hachiya** — SCRAPPED (bounced). Status→"Dropped" (row 11). Off the list.
+- **Erick Sosa** — NO 3rd chase. 2 LinkedIn touches (Aug 6 + Aug 24) unanswered; junior + Medium. Connection stays; passive-warm; October revisit or a real trigger. Tracker Next Action set to "Hold - not due" (row 9).
+- **Janae David** — reel SENT via LinkedIn ~Aug 31. Status→"Reel Sent (LinkedIn) - Awaiting Response" (row 13). Email still bounced — LinkedIn is the channel.
+- **Untold (Tanya Ferguson) + Team One (Sascha Peuckert)** — 2nd follow-up planned ~Sept 8–10, each needs a fresh custom sample. Decision pending: worth the production vs. Funnel B priority.
+
+## 2026-08-31 — Coast2Coast (Portia Scott) — re-approach
+- Contact: Portia Scott, casting/talent, Coast2Coast Talent, portia4coast@gmail.com. Prior contact via Bodalgo (not logged in Gmail — was via the platform).
+- Hook / angle: saw her Bodalgo post for an Afro Latino animation role (NOT Spencer's fit — used only as the reason he reconnected). Asking about open work / roster.
+- Ask: audition for open work; get on the talent roster
+- Reel linked: commercial reel + character reel (both attached). Sent-version note: Spencer framed animation as "wanting to expand more into animation" (honest — not established there yet). Credits: Venmo, NordicTrack, Workday (commercial) + YouTube channels (narration).
+- New email or thread reply: new email. Tracker row 95.
+- Status: **follow-up sent 2026-09-02** — only got the CTC after-hours auto-reply back, no human response as of 2026-09-17 (live Gmail check).
+- Follow up on: one light final touch if worth closing the loop, otherwise let it go cold — never got past the auto-responder.
+- **CORRECTION 2026-09-21 (brought in 10-12 from the Weekly Check-in's stale branch):** an entry once said "Portia responded (rate card incomplete)" from the tracker's Status cell alone. Wrong: no such reply exists in Gmail, only her Aug 31 after-hours auto-reply. Spencer confirmed he never heard from her on any channel. Sheet row corrected 09-21.
+- Result: no reply yet
+
+## 2026-08-30 — Notion (Cory Zapatka) — cold
+- Contact: Cory Zapatka, Video Lead (Emmy winner, ex-Vox/Verge Science), coryz@makenotion.com
+- Hook / angle: editorial/story quality of Notion's videos (Cory's Verge lineage — don't name it). NB: do NOT reference "Think Together" — produced by Ways and Means (LA prod co), leaning on it reads out of touch. They already buy pro VO → roster add
+- Ask: be one of the outside voices Notion uses
+- Reel linked: TWO samples — (1) re-voice of "AI Can't Replace Teamwork" spot; (2) a Notion product-update video that had NO narration — Spencer wrote the script + voiced it. + spencerzvoice.com. Credits: FIFA/Noah Media doc series (KEPT — relevant to Cory's documentary background), Venmo, AWS, Dell
+- New email or thread reply: new email
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91). **Bump sent 2026-09-11** ("Wanted to float this back up..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
+
+## 2026-08-31 — Framer (Andy Orsow) — cold
+- Contact: Andy Orsow, "Video Marketer @ Framer", andy@framer.com
+- Hook / angle: liked Framer's videos (style/vibe/design); VO inconsistent across the Framer Update series → offer a consistent voice. Casual opener.
+- Ask: be the regular voice for their videos
+- Reel linked: TWO samples of their own videos — (1) re-voice of "Framer Agents: Design with AI, Keep Control" spot; (2) "Framer Update: Interactive Shaders" piece. + spencerzvoice.com. Credits: AWS rollouts, Artlist, Venmo, Dell (no FIFA — tech audience)
+- New email or thread reply: new email
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer's own revised copy). Tracker rows 92 (Andy), 93 (Ari), 94 (Samuel). **Bump sent 2026-09-11** ("Just circling back..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: FINAL new-hook touch ~Tue 2026-09-29 (live Gmail 09-24: still no reply to either email), then stop.
+- **2026-09-24 signal:** Spencer has a genuine LinkedIn convo going with Ryan Cotrupi (Digital Mktg, junior, ally — not the VO booker) and says Framer released a new video 09-23 with a VO (🟡 Spencer-reported, Bingo has not watched it). Bingo call: do NOT pitch Ryan; ask who handles VO; use the new video as the hook in the Andy final touch (no Ryan name-drop unless Ryan OKs).
+- **2026-09-24 11:57 Lisbon: Spencer SENT Ryan Cotrupi a LinkedIn DM** (his own edit of Bingo's draft): "Hey man just saw the new 'Introducing Skills' video you guys released yesterday 💪 nice stuff! That voiceover sounded super polished. Do you all have a go-to voice for those, or does it change project to project? Just curious, since I do VO myself! 🙌" Waiting on answer (incumbent voice vs per-project). Video = 'Introducing Skills'. Log Ryan's reply here; it decides the Andy final-touch angle.
+- Result: no reply yet
+
+## 2026-08-31 — Linear (Ari Mojdeh) — cold
+- Contact: Ari Mojdeh (she), "Creative & Filmmaking @ Linear", ari@linear.app. (Julian Lehr = fallback, ~2 weeks later.)
+- Hook / angle: liked Linear's sleek/premium videos; most have no VO, the few that do sound in-house → low-pressure "try a voice on a product update". Seed-plant. Formal opener.
+- Ask: try a voice on one of their product updates
+- Reel linked: TWO samples — (1) re-voice of "Automate Triage" product update; (2) a 17-sec coding-environment update that had no VO — Spencer wrote script + voiced. + spencerzvoice.com. Credits: AWS rollouts, Artlist, Venmo, Dell (no FIFA)
+- New email or thread reply: new email
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer's own revised copy). Tracker rows 92 (Andy), 93 (Ari), 94 (Samuel). **Bump sent 2026-09-11** ("Wanted to check back in..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
+
+## 2026-08-31 — Miro (Samuel Rollier) — cold
+- Contact: Samuel Rollier, Sr. Brand Producer, samuel@miro.com. (Antoine Levi antoine@miro.com = retainer play, later.)
+- Hook / angle: NEVER mention AI. Compliment the studio-produced pieces (Samuel's domain — he directs real talent). Position as the real-voice option "for the pieces where you want a real voice." The re-voiced sample IS the argument. If AI comes up in reply: "nothing against the AI stuff — just think some pieces land better with a person," no more.
+- Ask: be the go-to for pieces that use a real voice
+- Reel linked: ONE sample — re-voice of "Miro for Product Acceleration" (currently a weak AI voice). + spencerzvoice.com. Credits: AWS rollouts, Artlist, Venmo, Dell
+- New email or thread reply: new email
+- Status: SENT 2026-08-31 (confirmed via live Gmail — the "draft, sending later" note was stale). **Bump sent 2026-09-11** ("Just wanted to bump this back up..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
+
+## 2026-08-30 — Figma (Sydney Halle) — cold
+- Contact: Sydney Halle, Brand Producer (ex-Instrument), shalle@figma.com
+- Hook / angle: plain fan note — liked Figma's video style/modern vibe/design; some tutorials have VO, brand + product videos don't → offer a consistent voice
+- Ask: be the consistent voice for their videos
+- Reel linked: TWO samples of their own videos — (1) re-voice of "Figma Motion basics: Path trim" tutorial (orig. likely an employee read); (2) "Introducing Figma Make" no-VO spot — Spencer wrote script + voiced. + spencerzvoice.com. Credits: AWS rollouts, Artlist, Venmo, Dell (no FIFA — design/brand audience)
+- New email or thread reply: new email
+- Status: SENT 2026-08-31 from spencer@spencerzvoice.com (Spencer revised the copy himself before sending — see "Sent-version notes" below). In the tracker (row order: Marc r89, Sydney r90, Cory r91). **Bump sent 2026-09-11** ("Just wanted to check back in..."). No reply as of 2026-09-17 (live Gmail check).
+- Follow up on: next touch ~2026-09-24+ if still silent, or let it go cold (2 touches sent, no response).
+- Result: no reply yet
+

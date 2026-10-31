@@ -5,6 +5,8 @@ description: How Spencer's re-voicing sample assets get built — source commerc
 
 # Re-voicing material pipeline
 
+> **Read `reference/outreach-rulebook.md` first.** The client-acquisition rules moved there from CLAUDE.md / AGENTS.md on 2026-10-31 (same numbering); the hooks enforce them and point there when they block.
+
 Purpose: for each prospect, one real **scripted single-narrator commercial** the client already made → Spencer re-voices it → the sample goes in the pitch email. Built 2026-09-10/11 (Funnel B/C/D); documented 2026-09-23 so it isn't lost again.
 
 ## Where everything lives

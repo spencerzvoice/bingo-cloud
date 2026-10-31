@@ -1,3 +1,5 @@
+READ FIRST, every run: `reference/outreach-rulebook.md` holds every client-acquisition rule (moved out of CLAUDE.md on 2026-10-31, same numbering; those rules win over anything below).
+
 # Morning Build - routine prompt (source of truth)
 
 Run by the Code routine "Morning Build" `trig_01RN6tiRmzaHdq2NJSzmQxVN` (weekdays 04:05 Europe/London; the 13:05 UTC run was retired 2026-10-29: in 5 logged runs 10-21..10-28 its Stage 3 had nothing to check and its Stage 4 work was already covered by this run, the Digest and Follow-up Prep. Mid-day sender-down / stuck-row / stray-draft alerts are the hourly Apps Script watchdog in "Bingo Digest Prep", `scripts/apps-script/DigestPrep.gs`). It does every step that builds and finishes Spencer's new-client pitch drafts, in order, in one run:

@@ -40,7 +40,7 @@ if subject.strip().lower().startswith("re:") or msg.get("In-Reply-To") or msg.ge
     if _bad:
         sys.stderr.write("FOLLOW-UP DRAFT BLOCKED: offers free work (" + ", ".join(sorted(set(_bad))) + "). Use: "
                          "\"I'd love to offer an audition for any of the videos you have coming up.\" "
-                         "(followup-drafts skill, Spencer 2026-10-14).\n")
+                         "(followup-drafts skill, Spencer 2026-10-14). Rules: reference/outreach-rulebook.md.\n")
         sys.exit(2)
     sys.exit(0)  # follow-up / thread reply passed
 
@@ -196,7 +196,7 @@ if "[YOUR TAKE]" in content and "href" not in content.split("[YOUR TAKE]", 1)[1]
 if fails:
     sys.stderr.write(
         "BLOCKED by pitch_draft_qc: pitch drafts must follow the house template v5 (Spencer, 2026-10-14; "
-        "full text in reference/client-acquisition/PITCH-TEMPLATE.md). Rebuild the draft to it and retry. Problems: " + "; ".join(fails) + "\n"
+        "full text in reference/client-acquisition/PITCH-TEMPLATE.md). Rebuild the draft to it and retry. Problems: " + "; ".join(fails) + ". Rules: reference/outreach-rulebook.md." + "\n"
     )
     sys.exit(2)
 sys.exit(0)

@@ -20,15 +20,7 @@ Empty section = "none". Quick internal answers don't need it (CLAUDE.md "Voice")
 
 **4. Hook.** A settings.json hook re-injects RULE 0 whenever I write to the workspace. Backstop only; it can't see plain-text answers.
 
-**5. Pitch-draft QC hook (Spencer, 2026-10-05).** `.claude/hooks/pitch_draft_qc.py` runs before EVERY FGAC write to `gmail/v1/users/me/drafts` and blocks a new-client pitch that breaks the 6-part format (standard intro with credits, re-voice line, standard close and CTA, no em dashes, no "Please keep me in mind" / "keep on file", `[YOUR TAKE]` carrying a source link). Replies and follow-ups pass. A blocked write = rebuild the draft. Covers cloud routines too.
-
-**6. Send-window hook (Spencer, 2026-10-15: "Nothing goes out before 8:32AM or after 3PM").** `.claude/hooks/send_window_guard.py` blocks any Gmail send unless every recipient is 08:32-15:00 local now (zones: `reference/client-acquisition/CONTACT-TZ.json`; unknown contact = blocked; Spencer's own address exempt). `.claude/hooks/no_script_sends.py` blocks sends from Bash/PowerShell scripts. Inside the window it goes TODAY; outside, the next 08:32 local. Pick every slot with `python scripts/send_slot.py <email>`, never by habit.
-
-**7. Follow-up queue (Spencer, 2026-10-20).** Cold touches 2/3 are rows in the Follow-up Queue Sheet, sent offline by the Apps Script "Bingo Follow-up Sender" at 09:04 / 10:13 contact-local (CLAUDE.md override 10). `.claude/hooks/followup_queue_guard.py` blocks any touch 2/3 Gmail draft or send from a session. Done = sent: a run that leaves a due touch 2/3 neither queued nor sent hasn't finished.
-
-**8. Gmail-native HTML mail (Spencer, 2026-10-21).** Every email Bingo builds, drafts, queues or sends is `multipart/alternative` with a `text/html` part in Gmail's own structure (`<div dir="ltr">` paragraphs joined by `<br><br>`), never `text/plain` only (Gmail re-folds plain text at ~72 columns, so it arrives narrow and left-pinned and reads as AI). Build with `scripts/gmail_compose.py`; `.claude/hooks/html_mail_guard.py` blocks plain-only drafts/sends to anyone but Spencer.
-
-**9. Buyer gate (Spencer, 2026-10-26, Maersk).** A pitch goes only to someone who hires voice talent. `scripts/buyer_gate.py` classifies the title (PASS / REVIEW + evidence / FAIL) into `reference/client-acquisition/BUYER-GATE.json`; `.claude/hooks/buyer_gate_guard.py` blocks any pitch draft create/edit without a PASS row for every recipient. Dead email or crew title = go up the org or BLOCK the company. Rule: CLAUDE.md override 3b.
+**5-9. Outreach hooks (pitch-draft QC, send window, follow-up queue, Gmail-native HTML mail, buyer gate).** Detail moved to `reference/outreach-rulebook.md` "Hooks that enforce these rules" (2026-10-31). They run on every FGAC Gmail write whether or not that file was read; a block message names the fix.
 
 ## Hard rules
 0. ***** **CHECK EVERY TOOL BEFORE ASKING SPENCER TO DO ANYTHING (Spencer, 2026-10-05).** Before handing him a manual step (sign in, click, open, paste, export), try every route: his Chrome (Claude in Chrome, signed in to his accounts), the built-in browser, FGAC, Carly (off by default since 2026-10-29; switch it on if needed), the API keys in `local/api-keys.env`, scripts in this repo. Ask only when none can do it, and name what I tried. *****
@@ -66,24 +58,12 @@ Same as CLAUDE.md "Memory Protocol" (cap 200 lines, write durable facts at once,
 
 - **Unasked token-heavy work** (research runs, browser crawls, bulk generation) needs a green light first; work Spencer asked for runs end to end.
 - **Model per task:** CLAUDE.md "Model routing" (`reference/model-routing.md`).
-- Web search is poor for *finding* mid-level contacts (returns SEO and job posts): use Apollo / Hunter / LinkedIn People tab.
-- **Verifying a known contact's role:** WebSearch lags and mis-disambiguates; Google is CAPTCHA-walled. Use the in-app browser → DuckDuckGo (`duckduckgo.com/?q=<name> <company> LinkedIn`) or Bing only to *find* the `linkedin.com/in/...` URL, **then open that URL and read the live page.** A search results page or snippet is never the source (a stale snippet once had a departed contact still employed). `WebFetch` hits CAPTCHAs on LinkedIn; it must be the real browser on the real profile.
-- **Lane 1 division of labour (2026-08-30):** Spencer sources contacts when he wants to and records the re-voiced sample; Bingo does funnel structure, verifies roles and writes the outreach emails (sample as `[LINK]` for him to fill). Never write the sample *script*.
-- **Email voice:** `outreach-email` Step 4: artist, not corporate; genuine fan-of-the-work opener; never posture about the client's business.
+- **Outreach research + contact rules** (web search vs Apollo/LinkedIn, verifying a role on the live profile, lane 1 division of labour, email voice): `reference/outreach-rulebook.md` "Research and contact rules".
 
 ## Working rules for VO tasks
 - **Pricing, marketplace (pasted Voices.com jobs):** `reference/quick-quote.md`, loaded ONCE per session, 5-line format, no prose, log 1 line + commit silently. Never load `vo-pricing` or `outreach-pipeline.md` for these.
 - **Pricing, direct / agency / retainer:** the `vo-pricing` skill. USD → GVAA, EUR → GFTB, never cross-apply, flags before numbers, never fabricate a rate.
-- **Outreach:** the `outreach-email` skill, in Spencer's voice. Verify every credit/connection claim first.
-- **Gmail:** the standard connector is stale; use FGAC's direct Gmail API for anything accuracy-sensitive. FGAC has blanket permission.
-- **Tracker** ("VO Outreach Pipeline Tracker", spreadsheetId `1SBauz4dCodqnfSVD5yqKETjU-25TY5HEZ7KRGggbgT0`, tab "Outreach Tracker"):
-  - **Auto-update, never ask (2026-10-08):** any client correspondence I see or hear about (reply, send, bounce, scheduling, a job) goes into the row the same turn.
-  - It's the digest's source of truth: every completed outreach action (sent, replied, dropped, scheduled, bounce-fixed, address corrected) updates Status, Last Contact Date, Notes (and col D if the email changed) the same turn, plus `memory/outreach-log.md` + commit/push. No "TODO" cells; Sheet and log never drift.
-  - Never write from a remembered row number: re-read Name/Company, write, read back.
-  - Cols J (Days Since) + K (Follow-Up Flag) are formulas: never write them.
-  - **NEVER add Voices.com / Bodalgo / Voice123 auditions, invites or jobs to the tracker**, not even paid ones (2026-09-02). Retire a contact = Status "Dropped" + a clear Next Action note.
-  - Detail: `reference/outreach-pipeline.md`, agent-memory [[vo-pipeline-routine]].
-- **End clients:** read the full email thread (attachments, script/contract names), not just the subject.
+- **Outreach, Gmail, Tracker, End clients:** `reference/outreach-rulebook.md` "Working rules for outreach" (moved 2026-10-31). Read it before any outreach task.
 
 ## How I grow (skills)
 Same as CLAUDE.md "How you grow". Skills live in `.claude/skills/<name>/SKILL.md`.
