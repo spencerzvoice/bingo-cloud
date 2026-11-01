@@ -8,7 +8,7 @@ Built 2026-11-01 (desktop) from: WhatsApp export "Chat with Nathan HHM" (1,651 l
 |---|---|---|
 | Stint 1: Nov 2021 to Jan 2023 (batches 1 to 19) | **≈ $9,400** | 🟡 reconstructed: 13 batches x 5 scripts x $100, 5 batches x 3 x $100, ad reads, Magic Spoon $250, $250 net of the $900 prepay |
 | Stint 2a: Aug to Nov 2023 (old PayPal account) | **≈ $500** | 🟡 Batch 1 re-up (3 scripts) + October mini batch (2 scripts) at $100 |
-| Stint 2b: Dec 2023 to Jan 2025 (PayPal, USD) | **$6,105** | ✅ 31 fee-free PayPal receipts, dates match "payment sent" messages |
+| Stint 2b: Dec 2023 to Jan 2025 (PayPal, USD) | **$6,105** | ✅ 31 PayPal receipts; 30 shown as "Payment from Nathan Akas" on the PayPal Transactions page (search "Nathan", Dec 2023 to Feb 2025), the 2023-12-06 $300 sits behind "Load more" and is date-matched |
 | Feb 2025 (January invoice, paid in EUR via PayPal) | **€750** ($752.90 landed) | ✅ PayPal API + invoice |
 | Feb to Dec 2025 (Wise, EUR invoices) | **≈ €3,640** | 🟡 invoices + chat confirmations; Wise statements not pulled |
 | 2026 to Oct (Wise, EUR invoices) | **€1,770** | €820 ✅ Wise statement; €950 🟡 invoices + email confirmations |
@@ -45,7 +45,7 @@ Monthly average over 60 months ≈ $375. Best stretch: Oct to Dec 2024 ($2,555 i
 | Aug 2023 | Batch 1 (Re-up): 3 scripts | $300 |
 | Nov 2023 | October mini batch: 2 scripts (Logic, Drake's Curse) | $200 |
 
-### Stint 2b: PayPal Nomadic Light LLC, fee-free receipts (✅ amounts and dates; 🟡 payer attribution by date match)
+### Stint 2b: PayPal Nomadic Light LLC receipts (✅ amounts, dates and payer "Nathan Akas" confirmed on the PayPal Transactions page 2026-11-01; the 2023-12-06 $300 date-matched only)
 2023-12-06 $300 · 2024-01-16 $500 · 02-01 $200 · 03-01 $400 · 03-26 $200 · 04-05 $250 · 04-18 $50 · 05-24 $300 · 06-01 $200 · 07-17 $200 · 07-22 $200 · 08-05 $200 · 08-16 $100 · 09-02 $200 · 09-13 $100 · 10-04 $100 · 10-05 $450 (CookUnity, Oct) · 10-05 $100 (WTS) · 10-15 $20 · 10-19 $100 · 10-22 $100 (Jay Z remainder) · 10-25 $200 · 10-27 $50 (UK Rap bonus) · 11-07 $100 (Jay Z vs 50) · 11-15 $100 (Diddy's Friends) · 11-25 $175 (Crashouts $100 + Diddy $75) · 11-25 $160 · 12-02 $250 (AURA) · 12-04 $100 (Shorts batch) · 12-11 $450 (CookUnity) · 2025-01-07 $250 (SAN sponsor) · 2025-02-01 €750 (January invoice, $752.90 after conversion).
 **Total $6,105 + €750.** Excluded as other clients: fee-bearing goods-and-services receipts ($1,000 + $60 May 2024, $371 Jul 2024, $120 Sep 2024, CAD items) and Voices.com payouts.
 
@@ -79,6 +79,6 @@ Monthly average over 60 months ≈ $375. Best stretch: Oct to Dec 2024 ($2,555 i
 - Nate's 25% rev-share pitch is against this baseline: the flat deal has paid about $4,500 a year on average, roughly $375 a month.
 - Sponsors were the only lever that moved the number (Oct to Dec 2024, Nov 2025): on-camera reads at $250 to $450 are worth 3 to 4 scripts each.
 
-— Verified: PayPal receipts Dec 2023 to Feb 2025 — PayPal transaction API, Nomadic Light LLC · €500 and €320 landed Jun 3 and Aug 2 2026 — Wise Business EUR statement Jun to Aug 2026 · all 2025 to 2026 invoice totals — PDFs in the HHM threads (spencer@spencerzvoice.com) and Desktop/Mortgage Files · $900 prepay and $650 refund — "Update to Previous Agreement" thread 2023-02-02 · rate history — "Batch 1" (2021-11-05), "Please Read Before Batch 14" (2022-09-18), "Pay and Editing Work" (2023-02-01), "Update and New Song" (2023-08-16), "NOVEMBER BATCH (Messages)" (2024-11-12), "Renegotiations" (2025-01) threads
+— Verified: PayPal receipts Dec 2023 to Feb 2025 — PayPal transaction API + PayPal Transactions page (payer "Nathan Akas"), Nomadic Light LLC · €500 and €320 landed Jun 3 and Aug 2 2026 — Wise Business EUR statement Jun to Aug 2026 · all 2025 to 2026 invoice totals — PDFs in the HHM threads (spencer@spencerzvoice.com) and Desktop/Mortgage Files · $900 prepay and $650 refund — "Update to Previous Agreement" thread 2023-02-02 · rate history — "Batch 1" (2021-11-05), "Please Read Before Batch 14" (2022-09-18), "Pay and Editing Work" (2023-02-01), "Update and New Song" (2023-08-16), "NOVEMBER BATCH (Messages)" (2024-11-12), "Renegotiations" (2025-01) threads
 — Bracketed (you fill): none
-— Unknown: payer names on the 2024 PayPal receipts (API hides them; matched by date to Nate's "payment sent" messages) · exact 2021 to 2022 ad-read fees (assumed $50) · Quilbot Sep 2025 amount · whether any Feb to Mar 2026 work was paid · Wise statements before Jun 2026 not pulled
+— Unknown: exact 2021 to 2022 ad-read fees (assumed $50) · Quilbot Sep 2025 amount · whether any Feb to Mar 2026 work was paid · Wise statements before Jun 2026 not pulled
