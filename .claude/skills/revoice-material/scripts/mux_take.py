@@ -186,14 +186,23 @@ def main():
     wav_i = len(inputs) // 6
     inputs += ["-i", wav]
     parts.append("".join(chain) + f"concat=n={n}:v=1:a=0[vout]")
-    # veryfast + CRF 18 (was medium/16): ~3x faster, still visually clean for an email sample (2026-10-22).
-    run([ff, "-y", *inputs, "-filter_complex", ";".join(parts), "-map", "[vout]", "-map", f"{wav_i}:a:0",
-         "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "320k", "-movflags", "+faststart"], tmp, out)
+    # NVENC on the RTX 2060 (Spencer, 2026-11-01: anything the GPU speeds up runs on it); libx264 veryfast + CRF 18
+    # (2026-10-22) only if NVENC fails.
+    cmd = [ff, "-y", *inputs, "-filter_complex", ";".join(parts), "-map", "[vout]", "-map", f"{wav_i}:a:0"]
+    tail = ["-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "320k", "-movflags", "+faststart"]
+    enc = "NVENC (GPU)"
+    r = subprocess.run(cmd + ["-c:v", "h264_nvenc", "-preset", "p5", "-rc", "vbr", "-cq", "19", "-b:v", "0"] + tail
+                       + [tmp], capture_output=True)
+    if r.returncode:
+        enc = "libx264 (CPU, NVENC failed)"
+        run(cmd + ["-c:v", "libx264", "-crf", "18", "-preset", "veryfast"] + tail, tmp, out)
+    else:
+        shutil.move(tmp, out)
     print(f"{out}\n  picture: {len(clips)} clip(s) cut to match the Ableton edit ({os.path.basename(als)})")
     for tl_in, tl_out, path, s_in, s_out in clips:
         print(f"    {tl_in:7.2f}-{tl_out:7.2f}s  <-  source {s_in:7.2f}-{s_out:7.2f}s")
     print(f"  audio:   {os.path.basename(wav)}")
+    print(f"  encode:  {enc}")
     d_wav = duration(wav)
     if abs(d_wav - t) > 0.5:
         print(f"\n  CHECK: the WAV is {d_wav:.2f}s but the video edit ends at {t:.2f}s. Did you save the Ableton project"

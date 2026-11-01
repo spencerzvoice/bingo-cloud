@@ -19,7 +19,7 @@ Purpose: for each prospect, one real **scripted single-narrator commercial** the
 ## Tooling (Windows; `python -m`, not bare exes — Scripts dir isn't on PATH)
 - `python -m yt_dlp` (download + captions). Harmless warning: "No supported JavaScript runtime".
 - ffmpeg/ffprobe: `C:\Users\spenc\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.1-full_build\bin\` (winget `Gyan.FFmpeg`; prepend to PATH).
-- `python -m pip install --user demucs numpy openai-whisper` (CPU-only torch; no CUDA). numpy must be installed separately.
+- `python -m pip install --user demucs numpy openai-whisper` numpy must be installed separately. Desktop torch = `2.11.0+cu128` (GPU, RTX 2060, since 2026-11-01): `python -m pip install "torch==2.11.0+cu128" "torchaudio==2.11.0+cu128" --index-url https://download.pytorch.org/whl/cu128`, so Demucs, openai-whisper and faster-whisper all run on the card; the cloud stays CPU and every script falls back on its own.
 - **Separator venv (desktop, 2026-10-29):** `C:\Users\spenc\sepenv` = audio-separator 0.47.1 + torch cu128 on the RTX 2060 (NVIDIA Studio driver 617.42), model `model_bs_roformer_ep_317_sdr_12.9755.ckpt` in `sepenv\models`. Kept apart so the main Python's CPU torch/Demucs stay intact. Py3.14 install: `audio-separator --no-deps` + its deps by hand (diffq-fixed won't build); after installing anything else into it, check `torch.cuda.is_available()` (openai-whisper silently swapped torch to the CPU build once; fix = `pip install --force-reinstall --no-deps torch torchaudio --index-url https://download.pytorch.org/whl/cu128`).
 - Run ffprobe/ffmpeg via **Python `subprocess` with Windows paths** — Git Bash mangles paths containing `[brackets]`, `’` and spaces.
 

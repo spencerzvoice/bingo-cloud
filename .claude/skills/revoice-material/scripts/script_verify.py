@@ -85,8 +85,15 @@ def pcm16k(path):
 def large_words(path, model="large-v3"):
     """[[(word, start, end)] per segment] from faster-whisper, condition_on_previous_text off, no VAD (VAD clips
     soft words)."""
+    # GPU when there is one (Spencer, 2026-11-01). torch first: its CUDA build carries the cuBLAS/cuDNN DLLs
+    # CTranslate2 needs on Windows.
+    try:
+        import torch
+        gpu = torch.cuda.is_available()
+    except ImportError:
+        gpu = False
     from faster_whisper import WhisperModel
-    m = WhisperModel(model, device="cpu", compute_type="int8")
+    m = WhisperModel(model, device="cuda" if gpu else "cpu", compute_type="float16" if gpu else "int8")
     segs, _ = m.transcribe(pcm16k(path), language="en", beam_size=5, word_timestamps=True,
                            condition_on_previous_text=False, vad_filter=False)
     return [[(w.word, w.start, w.end) for w in (s.words or [])] for s in segs]
