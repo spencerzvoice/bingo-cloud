@@ -1,5 +1,3 @@
-READ FIRST, every run: `reference/outreach-rulebook.md` holds every client-acquisition rule (moved out of CLAUDE.md on 2026-10-31, same numbering; those rules win over anything below).
-
 # VO Pipeline Digest - routine prompt (source of truth)
 
 Run by the Code routine "VO Pipeline Digest (repo)" (daily 07:15 UTC), which also does the morning follow-up reminder (Step 0b). Edit THIS file to change the digest; the routine prompt only points here. Moved off Cowork 2026-10-07 (Cowork routine `trig_01PTnXAXdmvLjyqBCnsgPXVz` disabled, not deleted).

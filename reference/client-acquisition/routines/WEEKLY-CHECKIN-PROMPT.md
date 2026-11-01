@@ -1,5 +1,3 @@
-READ FIRST, every run: `reference/outreach-rulebook.md` holds every client-acquisition rule (moved out of CLAUDE.md on 2026-10-31, same numbering; those rules win over anything below).
-
 # Weekly Check-in - routine prompt (source of truth)
 
 Run by the Code routine "Weekly Check-in" `trig_01Km1WfbVZ5x9TNStfTKRgkx` (Mondays 08:00 UTC). Edit THIS file to change the check-in; the routine prompt only points here.

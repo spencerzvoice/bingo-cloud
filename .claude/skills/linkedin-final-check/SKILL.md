@@ -10,8 +10,6 @@ description: >-
 
 # LinkedIn final check (Spencer, 2026-10-05: "this is your job")
 
-> **Read `reference/outreach-rulebook.md` first.** The client-acquisition rules moved there from CLAUDE.md / AGENTS.md on 2026-10-31 (same numbering); the hooks enforce them and point there when they block.
-
 The LinkedIn profile page is the final word on whether someone still holds the job (Spencer, 2026-10-04,
 "no questions or excuses"). Apollo, company pages and search results only find people. This skill
 is where the final check actually happens. It runs on Spencer's computer, because only a session

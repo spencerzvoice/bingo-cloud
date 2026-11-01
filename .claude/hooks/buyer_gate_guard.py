@@ -66,6 +66,6 @@ if bad:
         "FAIL = never fall back to them: go up the org (LinkedIn People tab, theorg.com) to the head of video/brand/"
         "creative, get that person's email through Apollo (waterfall, ZeroBounce valid), or mark the company BLOCKED. "
         "REVIEW passes only with written evidence (VO they booked, or the senior-most video owner + who you checked). "
-        "Only Spencer can keep a FAIL (buyer_gate.py keep <email> \"<his words, date>\"). Rules: reference/outreach-rulebook.md 3b.\n")
+        "Only Spencer can keep a FAIL (buyer_gate.py keep <email> \"<his words, date>\").\n")
     sys.exit(2)
 sys.exit(0)

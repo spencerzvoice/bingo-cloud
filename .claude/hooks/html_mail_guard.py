@@ -48,5 +48,5 @@ if not any(p.get_content_type() == "text/html" for p in msg.walk()):
         "recipient sees a narrow hard-wrapped column pinned left, which reads as machine-written (Spencer, 2026-10-21). "
         "Build it as multipart/alternative with an HTML part in Gmail's own structure: "
         "python scripts/gmail_compose.py --to ... --subject ... --body-file body.txt  (prints the raw string to pass as "
-        "{\"message\":{\"raw\": ...}}). Rules: reference/outreach-rulebook.md (AGENTS 8).\n")
+        "{\"message\":{\"raw\": ...}}).\n")
     sys.exit(2)

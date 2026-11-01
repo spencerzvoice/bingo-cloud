@@ -95,7 +95,7 @@ if event == "PreToolUse" and tool.endswith("google_api_modify") and is_pitch_cre
         sys.stderr.write(
             "BLOCKED by pitch_queue_cap: count the live pitch queue first (Spencer, 2026-10-13: max 20 pitch drafts "
             "in Drafts). Call google_api_get with path exactly " + COUNT_PATH + " (no offset/limit), then retry. "
-            "The count is good for 10 minutes. Rules: reference/outreach-rulebook.md 9.\n")
+            "The count is good for 10 minutes.\n")
         sys.exit(2)
     _to = ""
     try:
@@ -111,6 +111,6 @@ if event == "PreToolUse" and tool.endswith("google_api_modify") and is_pitch_cre
             "BLOCKED by pitch_queue_cap: Drafts already holds %d new-client pitch drafts; the cap is %d "
             "(Spencer, 2026-10-13). Do NOT create this draft. Keep the built payload as a STAGED spec in the funnel's "
             "contacts doc and draft it when Spencer sends and the queue drops below 20. Never delete drafts to make "
-            "room. Rules: reference/outreach-rulebook.md 9.\n" % (s.get("count", 0), CAP))
+            "room.\n" % (s.get("count", 0), CAP))
         sys.exit(2)
 sys.exit(0)

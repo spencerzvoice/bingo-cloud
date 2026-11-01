@@ -1,11 +1,4 @@
 # Funnel cohorts — the canonical funnel letters (Bingo, 2026-09-24)
-<!-- status-block:start -->
-> **In short:** The canonical funnel letters (A..S2): who is in each send cohort, its status, the DRAFTING ORDER, and the reserved YouTube-channel funnels (S, S1, S2). Routine run logs (Lead Batch, Hook Sweep, queue counts) sit at the bottom and roll into archive/ after 30 days.
-> **Status:** 22 live sections (2026-09-30 to 2026-10-08); 0 archived this run to `reference/client-acquisition/archive/` (sections older than 30 days roll over monthly).
-> **Last updated:** 2026-10-31 (rollover). Sessions append below as before; this block is refreshed by `scripts/rollover.py`.
-> **Open to-dos:** none logged here (live actions live in the Follow-up Queue Sheet, the tracker and Gmail Drafts).
-<!-- status-block:end -->
-
 
 **Decided by Spencer, 2026-09-24:** a **Funnel** is a *send cohort* — the group of companies drafted and pitched together, each with a re-voice package in Google Drive `Client Outreach/Funnel <X>/<Company>/`. The Drive folder tree is the source of truth, and the letters below are fixed. New funnels take the next letter (**E**, then F, …) at draft time.
 

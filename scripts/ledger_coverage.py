@@ -79,8 +79,6 @@ def main():
     ids = list_ids("in:sent newer_than:%dd" % a.days) + list_ids("in:scheduled")
     threads = sorted({m["threadId"] for m in ids})
     ledger = open(LEDGER, encoding="utf-8").read().lower()
-    for _arch in sorted(glob.glob(os.path.join(ROOT, "memory", "archive", "followups-queue-*.md"))):  # rolled-over months (scripts/rollover.py)
-        ledger += chr(10) + open(_arch, encoding="utf-8").read().lower()
     exempt_lines = [l for l in ledger.splitlines() if "exempt:" in l]
     rows, cov, exm, miss = [], 0, 0, 0
     for t in threads:

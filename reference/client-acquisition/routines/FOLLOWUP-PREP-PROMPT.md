@@ -1,5 +1,3 @@
-READ FIRST, every run: `reference/outreach-rulebook.md` holds every client-acquisition rule (moved out of CLAUDE.md on 2026-10-31, same numbering; those rules win over anything below).
-
 # Follow-up Prep routine prompt (trig_01T7GUTmfRwQRXsnqZXjZrcr)
 
 Source of truth for the routine's prompt. Since 2026-10-16 the live routine (trig_01T7GUTmfRwQRXsnqZXjZrcr) is a thin wrapper that git-pulls and follows the code block below, so editing this file IS editing the routine (agents can update routines via RemoteTrigger update). Written 2026-10-15 from the cloud handoff, plus the 08:32-15:00 send window and (2026-10-16) the ledger coverage scan, step (0).
