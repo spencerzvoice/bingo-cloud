@@ -28,7 +28,7 @@ Built 2026-11-01 (desktop). Source: yt-dlp from Spencer's home IP, channel UC02n
 
 - ✅ Uploads, upload months and lifetime views: YouTube public data via yt-dlp, 2026-10-31 and 2026-11-01.
 - 🟡 **Bingo est.** = views x $2.00 per 1,000, Bingo's judgement call for HHM: US-skewed audience and 9-17 min videos (mid-rolls) push up; celebrity-scandal / drugs / beef content (limited ads), a young mobile audience and 2018-2019-heavy views (lower RPMs then) push down. A bit under the Entertainment median.
-- **Bold rows** = the five peak upload months by lifetime views.
+- **Bold rows** = the five peak upload months by lifetime views. *Italics* = the AIR band figures.
 - 🟡 Low / mid / high = views x AIR Media-Tech Entertainment RPM P25 / median / P75 ($0.88 / $2.43 / $5.02 per 1,000; Studio data May 2025 to May 2026). HHM's real RPM is unknown (Nate refused to share earnings, WhatsApp 2026-01-03). Views are lifetime, so a month's figure is what that month's uploads have earned to date, not cash received in that month. Sponsor income is not included (see `reports/Commentary channel real earnings.md`).
 
 """
@@ -74,11 +74,10 @@ def main():
         if v > peak[1]:
             peak = (k, v)
         b = "**" if k in top else ""
-        cells = [k, f"{n}", f"{v:,}", f"${v*BINGO_RPM/1000:,.0f}", f"${v*RPM[0]/1000:,.0f}",
-                 f"${v*RPM[1]/1000:,.0f}", f"${v*RPM[2]/1000:,.0f}"]
-        cells[3] = f"**{cells[3]}**" if not b else cells[3]
+        cells = [k, f"{n}", f"{v:,}", f"${v*BINGO_RPM/1000:,.0f}"]
+        cells += [f"*${v*r/1000:,.0f}*" for r in RPM]  # band figures in italics
         lines.append("| " + " | ".join(f"{b}{c}{b}" for c in cells) + f" | {ap or ''} |")
-    lines.append(f"| **Total** | {len(rows)} | {tot:,} | **${tot*BINGO_RPM/1000:,.0f}** | ${tot*RPM[0]/1000:,.0f} | ${tot*RPM[1]/1000:,.0f} | ${tot*RPM[2]/1000:,.0f} | {missing} |")
+    lines.append(f"| **Total** | {len(rows)} | {tot:,} | ${tot*BINGO_RPM/1000:,.0f} | *${tot*RPM[0]/1000:,.0f}* | *${tot*RPM[1]/1000:,.0f}* | *${tot*RPM[2]/1000:,.0f}* | {missing} |")
     lines.append("")
     lines.append(f"Peak upload month by lifetime views: {peak[0]} ({peak[1]:,} views -> "
                  f"**Bingo est. ${peak[1]*BINGO_RPM/1000:,.0f}**; band "
