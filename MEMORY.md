@@ -114,6 +114,8 @@ Private/financial context (tax, property, music, personal) lives in **`local/per
 
 ## Tools & known issues
 
+- **Voice ("Hey Bingo" on Spencer's phone, built by Paige 2026-11-01):** every voice exchange with me is logged to `voice/YYYY-MM-DD.md` in this repo and pushed automatically by the phone bridge. Read it when he refers to something he said by voice. Voice sessions are read-only and run with this repo's CLAUDE.md.
+
 - **FGAC.ai** has blanket permission for Gmail/Sheets/Drive, never ask. Its `sheets_edit` "No approval received" is a real gate: state it, don't retry.
 - **Cloud routines = FGAC only** (Spencer 09-30): the `Google_Drive`/`Gmail` connectors are his PERSONAL account. FGAC has folder-level access to all of Client Outreach since 10-11. Video files go up via rclone `bizdrive:` in cloud env "Default" (env_01VPYwj9nwzjzGqdxm4fRQFY). 🟡 rclone's shared Google client_id retires during 2026 → set up Spencer's own client_id before it breaks.
 - **Standard Gmail connector is stale** (misses recent messages). Use FGAC `google_api_get` on `gmail/v1/users/me/...` for anything time-sensitive.
