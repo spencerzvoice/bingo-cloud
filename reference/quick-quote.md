@@ -19,12 +19,20 @@ Spencer says "full". Target: one response, no tool calls, no hedge round.
 
 ---
 
+## READ FIRST — two different "in-perpetuity" licenses (Spencer, 2026-11-02)
+| | **Paid / broadcast in-perpetuity** | **Non-broadcast in-perpetuity** |
+|---|---|---|
+| Voices.com line | Online Ad / TV / Radio / Paid Social • ... • **In-Perpetuity** | **Non-Broadcast License • In-Perpetuity** |
+| What it is | paid media running forever | organic / owned channels, corporate, explainer, internal, archive. No paid placement, no airtime |
+| Guide | publishes no rate | normal buyout |
+| Price | under $1k = PASS (Step 1); otherwise push for a term | beside a paid line = **$350 add-on**; on its own = **runtime buyout** (Explainer / Corporate rows) |
+| Never | price it from the grid as if it had a term | PASS it, or price it at the Non-Paid Web 5-yr rate |
+
 ## STEP 1 — decision tree (most jobs stop here)
 
-1. **Budget under $1,000 AND (national scope OR in-perpetuity/worldwide AD or BROADCAST usage OR broadcast with no client named)** → **PASS.** (A non-broadcast in-perp license never triggers this; it is a $350 add-on beside paid usage or a runtime buyout on its own. Same license = same logic in every quote.)
+1. **Budget under $1,000 AND (national scope OR PAID/BROADCAST in-perpetuity OR worldwide OR broadcast with no client named)** → **PASS.** Non-broadcast in-perp never triggers this (box above).
    Say so in one line. Only price it if Spencer says "quote straight" — then use the grid, no discount.
    *Not this branch:* **local** radio/TV or capped non-broadcast is legit low-budget work — price it in Step 2.
-   *Also not this branch:* a Voices.com **"Non-Broadcast License • In-Perpetuity" on its own** (no ad/broadcast line) is a normal non-ad buyout: price it by runtime from the Explainer / Corporate rows, never as a PASS and never at the Non-Paid Web 5-yr rate (Spencer, 2026-11-02, HexClad).
 2. **Budget at or above fair-market mid** (midpoint of the grid range for that cell) → **max out the budget.** Quote the ceiling, show the grid range so he sees the headroom.
 3. **Everything else** → grid lookup, Step 2.
 
