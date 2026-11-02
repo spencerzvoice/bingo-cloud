@@ -21,7 +21,7 @@ Spencer says "full". Target: one response, no tool calls, no hedge round.
 
 ## STEP 1 — decision tree (most jobs stop here)
 
-1. **Budget under $1,000 AND (national scope OR in-perpetuity/worldwide OR broadcast with no client named)** → **PASS.**
+1. **Budget under $1,000 AND (national scope OR in-perpetuity/worldwide AD or BROADCAST usage OR broadcast with no client named)** → **PASS.** (A non-broadcast in-perp license never triggers this; it is a $350 add-on beside paid usage or a runtime buyout on its own. Same license = same logic in every quote.)
    Say so in one line. Only price it if Spencer says "quote straight" — then use the grid, no discount.
    *Not this branch:* **local** radio/TV or capped non-broadcast is legit low-budget work — price it in Step 2.
    *Also not this branch:* a Voices.com **"Non-Broadcast License • In-Perpetuity" on its own** (no ad/broadcast line) is a normal non-ad buyout: price it by runtime from the Explainer / Corporate rows, never as a PASS and never at the Non-Paid Web 5-yr rate (Spencer, 2026-11-02, HexClad).
