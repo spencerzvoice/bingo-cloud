@@ -10,6 +10,17 @@
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
  },
+ "ad@eldddir.com": {
+  "company": "Ridddle",
+  "company_type": "studio",
+  "date": "2026-11-02",
+  "name": "Ridddle team",
+  "practice": "unknown",
+  "source": "2024 address on file (contacts/2026-10-28-funnel-s2.md); Apollo validated 10-29",
+  "title": "channel business inbox, reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Inbox Spencer pitched in 2024, no bounce. Ridddle is a narrated faceless channel (5.74M). Spencer 10-28: use the 2024 emails on file for Funnel S2; channel inboxes are the way to reach YouTube channels (Spencer 10-26)."
+ },
  "airevolutionofficial@gmail.com": {
   "company": "AI Revolution",
   "company_type": "studio",
@@ -141,6 +152,17 @@
   "title": "Video Producer",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "brancheducation@nebula.tv": {
+  "company": "Branch Education",
+  "company_type": "studio",
+  "date": "2026-11-02",
+  "name": "Branch Education team",
+  "practice": "in-house-vo",
+  "source": "2024 address on file; Apollo validated 10-29",
+  "title": "channel business inbox (CC), reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: CC to the 2024 inbox on file; Branch credits a hired narrator (Phil Lee). Spencer 10-28: use the 2024 emails on file for Funnel S2; channel inboxes are the way to reach YouTube channels (Spencer 10-26)."
  },
  "bryan.sarmiento@huntresslabs.com": {
   "company": "Huntress",
@@ -460,6 +482,17 @@
   "title": "Executive Producer",
   "verdict": "PASS",
   "why": "decision-maker title (executive producer)"
+ },
+ "infoknowledgia@gmail.com": {
+  "company": "Knowledgia",
+  "company_type": "studio",
+  "date": "2026-11-02",
+  "name": "Knowledgia team",
+  "practice": "unknown",
+  "source": "YouTube About = 2024 address (contacts/2026-10-28-funnel-s2.md)",
+  "title": "channel business inbox, reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Channel About inbox, same as 2024; narrated history channel (2.20M). Spencer 10-28: use the 2024 emails on file for Funnel S2; channel inboxes are the way to reach YouTube channels (Spencer 10-26)."
  },
  "insanecuriositybusiness@gmail.com": {
   "company": "Insane Curiosity",
@@ -956,6 +989,17 @@
   "verdict": "PASS-EVIDENCE",
   "why": "title doesn't match a known pattern: needs --evidence. Evidence: Manager-level owner of SANS media production since 2024-07 (Apollo employment history); staged Video Production Manager Vincent Sarageno could not be confirmed today (Apollo low-confidence match, no title)"
  },
+ "oddcompasshistory@gmail.com": {
+  "company": "Odd Compass",
+  "company_type": "studio",
+  "date": "2026-11-02",
+  "name": "Tarun",
+  "practice": "unknown",
+  "source": "YouTube About = 2024 address (contacts/2026-10-28-funnel-s2.md)",
+  "title": "channel business inbox (Tarun), role unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Channel About inbox, same as 2024; channel says its voiceover is human-made (412K). Spencer 10-28: use the 2024 emails on file for Funnel S2; channel inboxes are the way to reach YouTube channels (Spencer 10-26)."
+ },
  "olivia.mitchell@go1.com": {
   "company": "Go1",
   "company_type": "inhouse",
@@ -1099,6 +1143,17 @@
   "verdict": "PASS",
   "why": "decision-maker title (director)"
  },
+ "sabin@lesics.com": {
+  "company": "Sabin Civil Engineering",
+  "company_type": "studio",
+  "date": "2026-11-02",
+  "name": "Sabin",
+  "practice": "unknown",
+  "source": "2024 address on file; Apollo validated 10-29",
+  "title": "channel inbox (Sabin, channel namesake), role unconfirmed",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Personal inbox of the channel's namesake Sabin, pitched 2024 with no bounce. Spencer 10-28: use the 2024 emails on file for Funnel S2; channel inboxes are the way to reach YouTube channels (Spencer 10-26)."
+ },
  "samuel.poulter@maersk.com": {
   "company": "Maersk",
   "company_type": "inhouse",
@@ -1120,6 +1175,17 @@
   "title": "Creative Producer",
   "verdict": "REVIEW",
   "why": "IC producer/marketing title (producer). Passes only with --evidence: VO they've booked, or they're the senior-most video owner (name who you checked)"
+ },
+ "sciencetime24@gmail.com": {
+  "company": "Science Time",
+  "company_type": "studio",
+  "date": "2026-11-02",
+  "name": "Science Time team",
+  "practice": "unknown",
+  "source": "YouTube About (2024); Apollo validated 10-29",
+  "title": "channel business inbox, reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Channel's own inbox, pitched 2024 with no bounce; narrated science channel (1.17M). Spencer 10-28: use the 2024 emails on file for Funnel S2; channel inboxes are the way to reach YouTube channels (Spencer 10-26)."
  },
  "sdevlin@tenable.com": {
   "company": "Tenable",
@@ -1231,6 +1297,17 @@
   "verdict": "PASS",
   "why": "decision-maker title (head of)"
  },
+ "teddy@branch.education": {
+  "company": "Branch Education",
+  "company_type": "studio",
+  "date": "2026-11-02",
+  "name": "Teddy Tablante",
+  "practice": "in-house-vo",
+  "source": "branch.education own site per contacts/2026-10-29-email-confirm-C.md (10-29, not reopened 11-02); Apollo validated 10-29",
+  "title": "Founder",
+  "verdict": "PASS",
+  "why": "decision-maker title (founder)"
+ },
  "thao.ngo@litmos.com": {
   "company": "Litmos",
   "company_type": "inhouse",
@@ -1241,6 +1318,17 @@
   "title": "Head of Brand and Marketing Activation",
   "verdict": "PASS",
   "why": "decision-maker title (head of)"
+ },
+ "theoperationsroom@gmail.com": {
+  "company": "The Operations Room",
+  "company_type": "studio",
+  "date": "2026-11-02",
+  "name": "The Operations Room team",
+  "practice": "unknown",
+  "source": "2024 address on file (sent as The Intel Report, same team); Apollo validated 10-29",
+  "title": "channel business inbox, reader unknown",
+  "verdict": "PASS-EVIDENCE",
+  "why": "title doesn't match a known pattern: needs --evidence. Evidence: Team inbox pitched in 2024, no bounce; narrated animated military-history channel (1.45M). Spencer 10-28: use the 2024 emails on file for Funnel S2; channel inboxes are the way to reach YouTube channels (Spencer 10-26)."
  },
  "tristan.cimini@patagonia.com": {
   "company": "Patagonia",
