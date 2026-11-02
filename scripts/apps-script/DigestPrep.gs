@@ -296,7 +296,9 @@ function getAll_(paths) {
 /**
  * Watchdog (2026-10-29, replaces the Morning Build 13:05 UTC cloud run; plan step 2). Hourly, weekdays
  * 08-18 UTC, from this separate project so it still fires when the Follow-up Sender itself is down.
- * Read-only; emails Spencer once a day per problem:
+ * Read-only on Gmail. NO EMAIL (Spencer, 2026-11-02: "Everything should be in the digest ... Nothing else"):
+ * each problem is appended once a day to tab Watchdog_Log of the Queue Sheet, and the 07:15 UTC digest reports it.
+ * Checks:
  *  1. Sender heartbeat (Queue Sheet Log!F1) older than 15 min.
  *  2. A QUEUED row more than 30 min past its local send time.
  *  3. A cold touch 2/3 reply sitting in Gmail Drafts (thread has only Spencer's 1-2 sent messages,
@@ -312,10 +314,10 @@ function watchdog() {
   const day = Utilities.formatDate(now, 'Etc/UTC', 'yyyy-MM-dd');
   const fresh = issues.filter(function (i) { return props.getProperty('wd_' + day + '_' + i[0]) === null; });
   if (!fresh.length) return;
-  MailApp.sendEmail(ME, '[Bingo] Watchdog: ' + fresh.length + ' follow-up problem' + (fresh.length > 1 ? 's' : ''),
-      fresh.map(function (i) { return '- ' + i[1]; }).join('\n') +
-      '\n\nQueue: https://docs.google.com/spreadsheets/d/' + PREP_SHEET_ID +
-      '\n(Bingo Digest Prep watchdog; one email per problem per day.)', {name: 'Bingo watchdog'});
+  const ss = SpreadsheetApp.openById(PREP_SHEET_ID);
+  const sh = ss.getSheetByName('Watchdog_Log') || ss.insertSheet('Watchdog_Log');
+  if (sh.getLastRow() === 0) sh.appendRow(['logged_utc', 'key', 'issue']);
+  fresh.forEach(function (i) { sh.appendRow([iso_(now), i[0], i[1]]); });
   fresh.forEach(function (i) { props.setProperty('wd_' + day + '_' + i[0], '1'); });
 }
 

@@ -4,26 +4,26 @@
  * The cloud routines never make touch 2/3 drafts: they append a row to the queue Sheet.
  * Every minute tick() sends each QUEUED row at its local send time (touch 2 = 09:04,
  * touch 3 = 10:13 contact-local) as a reply in the original thread, after a last
- * no-contact check. Anything held or failed = instant alert email.
+ * no-contact check. Anything held or failed = status HELD/ERROR in the Queue row + a Log line.
+ * NO EMAILS TO SPENCER (Spencer, 2026-11-02: "Everything should be in the digest ... Nothing else"):
+ * the 19:00 preview and the instant HELD/ERROR alert emails are retired; the daily VO Pipeline Digest reads
+ * the Queue + Log tabs and reports queued / sent / held / errored rows once a day.
  * Source of truth: scripts/apps-script/FollowupSender.gs in the bingo repo.
  */
 const SHEET_ID = '1YVJbPnETd3gkX8dAwdHsiqijojgMlyCL_4Jaskk9aao';
 const ME = 'spencer@spencerzvoice.com';
 const FROM = 'Spencer Pearman <spencer@spencerzvoice.com>';
-const ALERT_TO = 'spencer@spencerzvoice.com';
 const WINDOW_START = '08:32';
 const WINDOW_END = '15:00';
 const C = {status: 0, touch: 1, name: 2, company: 3, to: 4, tz: 5, date: 6, time: 7,
            thread: 8, draft: 9, body: 10, lastTouch: 11, queuedBy: 12, sentAt: 13,
            sentId: 14, note: 15};
 
-/** Run once from the editor: installs the every-minute sender and the evening preview. */
+/** Run once from the editor: installs the every-minute sender (and removes the retired 19:00 eveningPreview trigger). */
 function setup() {
   ScriptApp.getProjectTriggers().forEach(function (t) { ScriptApp.deleteTrigger(t); });
   ScriptApp.newTrigger('tick').timeBased().everyMinutes(1).create();
-  ScriptApp.newTrigger('eveningPreview').timeBased().atHour(19).nearMinute(0)
-      .everyDays(1).inTimezone('Europe/Lisbon').create();
-  log_('setup', 'triggers installed: tick every 1 min, eveningPreview 19:00 Lisbon');
+  log_('setup', 'triggers installed: tick every 1 min (no evening preview email since 2026-11-02)');
   return ScriptApp.getProjectTriggers().map(function (t) { return t.getHandlerFunction(); });
 }
 
@@ -211,17 +211,10 @@ function plainWrapped_(text) {
   }).join('\r\n');
 }
 
-/** 19:00 Lisbon: email Spencer who gets followed up next (his alert, works with the PC off). */
+/** RETIRED 2026-11-02 (Spencer: one email a day, the digest). Kept as a no-op so an old 19:00 trigger that
+ *  setup() has not removed yet fails silently instead of erroring. The digest lists every QUEUED row instead. */
 function eveningPreview() {
-  const rows = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Queue').getDataRange().getDisplayValues().slice(1)
-      .filter(function (r) { return String(r[C.status]).trim().toUpperCase() === 'QUEUED'; });
-  if (!rows.length) return;
-  const lines = rows.map(function (r) {
-    return '- ' + r[C.name] + ' (' + r[C.company] + '), touch ' + r[C.touch] + ', ' + r[C.date] + ' ' + hhmm_(r[C.time]) + ' ' + r[C.tz];
-  });
-  alert_(rows.length + ' follow-up' + (rows.length === 1 ? '' : 's') + ' queued to send automatically',
-         'These go out at their local send time. Nothing for you to do.\n\n' + lines.join('\n') +
-         '\n\nQueue: https://docs.google.com/spreadsheets/d/' + SHEET_ID);
+  log_('preview', 'eveningPreview retired 2026-11-02; run setup() to remove its trigger');
 }
 
 /** Self-test: starts a thread to Spencer's own address, then sends a threaded reply through sendReply_. Logs both ids. */
@@ -283,6 +276,8 @@ function set_(sh, r, f) {
 function log_(event, detail) {
   SpreadsheetApp.openById(SHEET_ID).getSheetByName('Log').appendRow([iso_(new Date()), event, detail]);
 }
+/** No email (Spencer, 2026-11-02). HELD/ERROR already sit in the Queue row's status + note; this adds a Log line
+ *  so the daily digest can list everything that happened since the last digest. */
 function alert_(subject, body) {
-  GmailApp.sendEmail(ALERT_TO, '[Bingo] ' + subject, body, {name: 'Bingo follow-ups'});
+  log_('alert', subject + ' | ' + String(body).replace(/\s+/g, ' ').slice(0, 400));
 }
