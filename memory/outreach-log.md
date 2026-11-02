@@ -570,3 +570,5 @@ Bingo, in Spencer's Chrome, no note; top card checked (name + company) before ea
 - 2026-10-29: micro1/Daniel Warner touch 3 (Spencer's wording) SCHEDULED Thu 10-29 08:32 PT, msg 1a1884a18341b1b2.
 
 - 2026-10-30 (cloud Follow-up Prep): queued Mon 11-02 touch 2 for Elastic, GitLab, MongoDB, Twilio, Harness, LaunchDarkly, Postman, New Relic; touch 3 Siemens Energy (Natascha). Drafted warm follow-up to Sam Poulter/Maersk (Spencer sends).
+
+- 2026-11-02: Ivana Milovanovic (Tripadvisor, Funnel Q) accepted LinkedIn connect. Gmail-verified: pitch 10/13 + touch 2 10/20 (thread 1a1328714df80a06), no reply. Voice note suggested; touch 3 auto-queued Tue 11/03 10:13 NY. Tracker row 209 Notes updated.
