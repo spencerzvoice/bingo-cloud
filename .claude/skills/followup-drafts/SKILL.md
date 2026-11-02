@@ -73,13 +73,11 @@ Reminders fire **only when a follow-up is due by the cadence rules**, not every 
   spencerzvoice.com
   ```
 - **Never offer free work (Spencer, 2026-10-14: "That's offering free work").** No "free", "custom read", "no obligation", "no strings" in any follow-up. The offer is an audition: touch 2 = one paragraph, Spencer's exact wording above (the audition offer joined to the go-to line with ", and", never a stand-alone line); touch 3 = Spencer's sent Funnel B final (below). `pitch_draft_qc.py` blocks any reply draft that offers free work.
-- 3rd touch = this text word for word (Spencer's Funnel B finals, sent 2026-10-14):
+- 3rd touch = this text word for word (Spencer, 2026-11-02: cut "Last note from me for now." and "I'll leave it here and check back later in the year." from all touch 3s; opener is now "Just reaching out again to see how things are looking on your end."):
   ```
   Hey <First>,   (Hello <First>, for women / older men)
 
-  Last note from me for now. I'm happy to offer an audition for any of the videos you have coming up. Hope to hear from you soon.
-
-  I'll leave it here and check back later in the year.
+  Just reaching out again to see how things are looking on your end. I'm happy to offer an audition for any of the videos you have coming up. Hope to hear from you soon.
 
   Best,
   Spencer
