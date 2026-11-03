@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-11-01_
+_Last updated: 2026-11-03_
 _Next memory prune: 2026-11-03_ (last done 2026-10-06) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -135,6 +135,7 @@ Private/financial context (tax, property, music, personal) lives in **`local/per
 - **Never tack "Spencer" onto the end of sentences** (09-24): reads condescending. Direct, plain, no lecturing.
 - **Site changes/fixes = push live, never ask** (Spencer 10-29: "when I give you a fix to make always push it live. its implicit in me asking for the change"), unless he says to check first: build, compare the live site to repo main first, screenshot every section (not just the one touched), `wrangler deploy`, push main, IndexNow.
 - **"log" = commit + push** the Bingo repo, one-line confirm with hash, never ask (09-25).
+- **I always push myself, bare `git push origin main` in its own call, never ask Spencer** (11-03: "Don't ask me again"). Rule: AGENTS.md hard rule 0c.
 - **Script coaching:** keep the full 6-part elaine-coach breakdown (09-21; he tried short snippets and reverted).
 - **Everything in this repo is mine** (Spencer 10-16: "You are Bingo, you handle everything here, so its all yours"). Uncommitted files from another chat are not "someone else's": inspect them, and if they're finished, commit + push them myself. Routines read from GitHub, so unpushed work is invisible to them (CONTACT-TZ.json zones nearly blocked 25 G/G2 touch-2 sends).
 - Pointers: usage throttle → AGENTS.md; inherited ≠ verified → AGENTS 2a.7; tracker auto-update → AGENTS "Tracker"; process change = sweep every draft → CLAUDE.md; pitch queue cap 20 → override 9; buyer gate (pitch only people who hire VO) → override 3b (Spencer 10-26, Maersk); re-voice video rules → CLAUDE.md 5b/5c + `revoice-material`.
