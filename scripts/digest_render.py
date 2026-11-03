@@ -27,6 +27,13 @@ Input JSON (every list optional; empty lists hide their section):
   "reach_out": [{"who": "Funnel I", "count": "10 drafts", "when": "Send now", "why": "..."}],
   "coverage": {"checked": 202, "active": 202, "as_of": "06:30 UTC", "unchecked": []},
   "bingo_call": "One plain sentence: the first thing to do today.",
+  "opportunities": [{"company": "DataOcean AI", "who": "Han Bing", "thread": "<gmail threadId>",
+                     "verdict": "PASS",            # TAKE | QUOTE | NEEDS INFO | PASS
+                     "what": "2-3 plain sentences: who, what they want, scope, deadline, rights.",
+                     "quote": "What to charge and the basis (or why no number yet).",
+                     "issues": ["perpetual exclusive voice licence", "no male US-English slot"],
+                     "ask": ["Is there a male US-English slot?"],
+                     "draft_thread": "<gmail threadId of the reply draft, if one was created>"}],  # Step 0d; above follow-ups
   "visitors": [{"company": "Calm", "who": "Daniel Szeto", "visits": 3, "unique": 1,
                 "pages": ["/", "/#reels"], "last_visit": "2026-10-14",
                 "next": "Touch 2 Mon 10/20 - priority", "thread": "<gmail threadId>"}],  # Step 3f; top of the digest
@@ -115,6 +122,7 @@ GMAIL = "https://mail.google.com/mail/u/?authuser=spencer@spencerzvoice.com#all/
 LEVEL = {"overdue": ("Overdue", "b-red"), "fix": ("Fix + resend", "b-red"),
          "final": ("Final touch", "b-nav"), "due": ("Due today", "b-org")}
 TAG = {"OOO": "b-sl", "Bounce": "b-red", "Unverified": "b-org", "System": "b-ms"}
+VERDICT = {"TAKE": "b-grn", "QUOTE": "b-nav", "NEEDS INFO": "b-org", "PASS": "b-red"}
 
 
 def e(s):
@@ -189,6 +197,31 @@ def visitors_block(vs):
             line += f'<br><b class="ac">Next:</b> {e(v["next"])}'
         rows.append((title, v.get("who", ""), badge("Priority", "b-red"), line))
     return section("Visited your site", items(rows, raw_title=True))
+
+
+def opportunities_block(ops):
+    """Inbound work Bingo reviewed before Spencer (Step 0d). Shown right under site visitors, above follow-ups."""
+    if not ops:
+        return ""
+    rows = []
+    for o in ops:
+        link = GMAIL + o["thread"] if o.get("thread") else ""
+        who = e(o.get("company", ""))
+        title = f'<a class="lk" href="{e(link)}">{who}</a>' if link else who
+        verdict = (o.get("verdict") or "NEEDS INFO").upper()
+        right = badge(verdict, VERDICT.get(verdict, "b-org"))
+        if o.get("draft_thread"):
+            right += ('<div style="height:5px"></div>'
+                      f'<a class="ob" href="{e(GMAIL + o["draft_thread"])}">Open reply &rsaquo;</a>')
+        line = e(o.get("what", ""))
+        if o.get("quote"):
+            line += f'<br><b class="ac">Charge:</b> {e(o["quote"])}'
+        if o.get("issues"):
+            line += f'<br><b class="ac">Watch:</b> {e("; ".join(o["issues"]))}'
+        if o.get("ask"):
+            line += f'<br><b class="ac">Ask them:</b> {e(" ".join(o["ask"]))}'
+        rows.append((title, o.get("who", ""), right, line))
+    return section("New work in your inbox", items(rows, raw_title=True))
 
 
 def pipeline_block(pp):
@@ -280,7 +313,7 @@ def build_html(d):
         call = (f'<tr><td style="padding:16px 24px 0"><div class="cl">'
                 f'<div class="ck">Priority today</div><div class="cb">{e(d["bingo_call"])}</div></div></td></tr>')
 
-    body = [visitors_block(d.get("visitors"))]
+    body = [visitors_block(d.get("visitors")), opportunities_block(d.get("opportunities"))]
     if d.get("due"):
         body.append(section("Follow-ups due today", due_rows(d["due"], True)))
     else:
@@ -330,6 +363,12 @@ def build_text(d):
             f'- {v.get("company")} ({v.get("who", "")}): {v.get("visits", 0)} visits'
             + (f', pages {", ".join(v["pages"])}' if v.get("pages") else "")
             + (f'. Next: {v["next"]}' if v.get("next") else "") for v in d["visitors"]]
+
+    if d.get("opportunities"):
+        L += ["", "NEW WORK IN YOUR INBOX"] + [
+            f'- {o.get("company")} ({o.get("who", "")}): {o.get("verdict")}. {o.get("what", "")}'
+            + (f' Charge: {o["quote"]}' if o.get("quote") else "")
+            + (f' Watch: {"; ".join(o["issues"])}' if o.get("issues") else "") for o in d["opportunities"]]
 
     def due_txt(lst):
         return [f'- {x.get("who")}, {x.get("company")} - {x.get("action")}'
