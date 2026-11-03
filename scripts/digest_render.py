@@ -41,6 +41,15 @@ Input JSON (every list optional; empty lists hide their section):
            "detail": "Thread reply. OOO since 10/7.", "days": 7,
            "draft": true, "level": "due", "thread": "<gmail threadId>"}],  # level: overdue|due|final|fix; thread -> name links to the draft
   "due_no_draft": [ same shape ],
+  "autosend": {                                   # Follow-up Queue Sheet; the ONLY place this info reaches Spencer
+    "sender": "OK, last tick 08:14 UTC",           # Log!F1 heartbeat; anything not starting "OK" shows red
+    "check": "Follow-up queue check: drafts 0, due 10, queued 10, sent 0, missing 0",
+    "problems": [{"who": "...", "company": "...", "touch": 3, "status": "HELD",   # HELD | ERROR | WATCHDOG | DOWN
+                  "reason": "..."}],
+    "sent": [{"who": "...", "company": "...", "touch": 2, "when": "Mon 11/2 09:04 Chicago"}],   # since last digest
+    "today": [{"who": "...", "company": "...", "touch": 2, "when": "09:04 New York"}],           # still QUEUED for today
+    "upcoming": [{"who": "...", "company": "...", "touch": 2, "when": "Thu 11/5 09:04 Rome"}]    # every later QUEUED row
+  },
   "coming_up": ["Funnel D / Airtable touch 3 - Thu 10/15"],
   "this_week": [{"when": "Thu 10/15", "text": "Funnel D touch 3 (6)"}],   # Mondays
   "replies": [{"who": "...", "company": "...", "gist": "...", "next": "..."}],
@@ -285,6 +294,42 @@ def reach_block(rs):
     return section("Who to contact next", items(rows))
 
 
+AUTO_TAG = {"HELD": "b-red", "ERROR": "b-red", "DOWN": "b-red", "WATCHDOG": "b-org"}
+
+
+def autosend_block(a):
+    """Automatic follow-ups (Spencer, 2026-11-02: "Everything should be in the digest"). Replaces the sender's
+    19:00 preview, its instant HELD/ERROR alerts, the watchdog emails and Follow-up Prep's "Tomorrow:" email."""
+    if not a:
+        return ""
+    def who(x):
+        return (x.get("who", ""), x.get("company", ""))
+    rows = []
+    sender = a.get("sender", "")
+    if sender:
+        ok = sender.upper().startswith("OK")
+        rows.append(("Sender", "", badge("Running" if ok else "Down", "b-grn" if ok else "b-red"), e(sender)))
+    for x in a.get("problems", []):
+        st = str(x.get("status", "HELD")).upper()
+        rows.append(who(x) + (badge(st, AUTO_TAG.get(st, "b-red")),
+                              (f'Touch {e(x["touch"])}. ' if x.get("touch") else "") + e(x.get("reason", ""))))
+    groups = [("sent", "Sent", "b-grn", "Sent since the last digest"),
+              ("today", "Today", "b-nav", "Going out automatically today"),
+              ("upcoming", "Queued", "b-sl", "Queued for later")]
+    for key, tag, cls, lead in groups:
+        lst = a.get(key, [])
+        if not lst:
+            continue
+        line = "<br>".join(f'<b class="ac">{e(x.get("who", ""))}</b> ({e(x.get("company", ""))}), touch {e(x.get("touch", ""))}'
+                           + (f' &middot; {e(x["when"])}' if x.get("when") else "") for x in lst)
+        rows.append((f"{lead} ({len(lst)})", "", badge(tag, cls), line))
+    if a.get("check"):
+        rows.append(("", "", "", e(a["check"])))
+    if not rows:
+        return ""
+    return section("Automatic follow-ups", items(rows, raw_title=False), "a-m")
+
+
 def stat(label, value, hot=False):
     return (f'<td width="25%" class="st"><div class="sn{" sh" if hot else ""}">{e(value)}</div>'
             f'<div class="sl">{e(label)}</div></td>')
@@ -318,6 +363,7 @@ def build_html(d):
         body.append(section("Follow-ups due today", due_rows(d["due"], True)))
     else:
         body.append(section("Follow-ups due today", '<div class="ok">No follow-ups due today.</div>', "a-g"))
+    body.append(autosend_block(d.get("autosend")))
     body += [reach_block(d.get("reach_out")), funnels_block(d.get("funnels")), season_block(d.get("season"))]
     if d.get("due_no_draft"):
         body.append(section("Due, no draft yet", due_rows(d["due_no_draft"], False), "a-m"))
@@ -388,6 +434,18 @@ def build_text(d):
                                      for n in d["new_contacts"]]
     if d.get("heads_up"):
         L += ["", "HEADS UP"] + [f'- [{h.get("tag")}] {h.get("text")}' for h in d["heads_up"]]
+    a = d.get("autosend") or {}
+    if a:
+        L += ["", "AUTOMATIC FOLLOW-UPS"]
+        if a.get("sender"):
+            L.append(f'- Sender: {a["sender"]}')
+        L += [f'- {str(x.get("status", "")).upper()}: {x.get("who", "")} ({x.get("company", "")}), touch {x.get("touch", "")}: {x.get("reason", "")}'
+              for x in a.get("problems", [])]
+        for key, lead in (("sent", "Sent"), ("today", "Today"), ("upcoming", "Queued")):
+            L += [f'- {lead}: {x.get("who", "")} ({x.get("company", "")}), touch {x.get("touch", "")} {x.get("when", "")}'.rstrip()
+                  for x in a.get(key, [])]
+        if a.get("check"):
+            L.append(f'- {a["check"]}')
     if d.get("coming_up"):
         L += ["", "COMING UP"] + [f"- {x}" for x in d["coming_up"]]
     L += ["", d.get("tracker_url", "")]
