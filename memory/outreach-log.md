@@ -573,3 +573,4 @@ Bingo, in Spencer's Chrome, no note; top card checked (name + company) before ea
 
 - 2026-11-02: Ivana Milovanovic (Tripadvisor, Funnel Q) accepted LinkedIn connect. Gmail-verified: pitch 10/13 + touch 2 10/20 (thread 1a1328714df80a06), no reply. Voice note suggested; touch 3 auto-queued Tue 11/03 10:13 NY. Tracker row 209 Notes updated.
 - 2026-11-02: Voice note SENT to Ivana Milovanovic (Tripadvisor). Tracker row 209 Last Contact 11/02.
+- 2026-11-03 | Tyler Gorky (Altra/VF) | Altra BC quote SENT by Spencer: $6,000 :30+:15, :06 +$1,000 (msg 1a1a3202c92d7664). Awaiting reply.
