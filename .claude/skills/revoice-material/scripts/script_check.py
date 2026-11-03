@@ -61,8 +61,8 @@ def transcribe(src, model):
     if os.path.exists(cf):
         r = json.load(open(cf, encoding="utf-8"))
     else:
-        import whisper
-        r = whisper.load_model(model).transcribe(src, fp16=False, language="en", condition_on_previous_text=False,
+        import torch, whisper  # load_model picks the GPU itself when torch has CUDA
+        r = whisper.load_model(model).transcribe(src, fp16=torch.cuda.is_available(), language="en", condition_on_previous_text=False,
                                                  word_timestamps=True)
         r = {"segments": [{"words": [{"word": w["word"], "start": w["start"]} for w in s.get("words", [])]}
                           for s in r["segments"]]}

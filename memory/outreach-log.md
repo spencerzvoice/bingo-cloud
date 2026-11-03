@@ -568,3 +568,10 @@ Bingo, in Spencer's Chrome, no note; top card checked (name + company) before ea
 - 2026-10-28 Funnel S Yarnhub / David Webb (david@yarnhub.org): take linked (Drive 17WTDS2c0ZnxtFyjuKbam1cn2Hq88N-2N, 49,291,615 B = local) into "When Ha-Go Tanks Ambushed M3 Stuarts" (latest public film; newest upload is members-only). Scheduled Wed 10-28 17:48 UTC (13:48 New York). Tracker row 294. Follow up on 11/04.
 - 2026-10-28 Funnel S Yarnhub / David (david@yarnhub.org): take linked (Drive 17WTDS2c0ZnxtFyjuKbam1cn2Hq88N-2N, 49,291,615 B; link already PUT 17:39Z by another session) into "When Ha-Go Tanks Ambushed M3 Stuarts" ("one of your latest"). Scheduled TODAY 17:48 UTC (13:48 NY). Tracker row 294. Follow up on 11/04. FUNNEL S COMPLETE: all 10 sent or scheduled.
 - 2026-10-29: micro1/Daniel Warner touch 3 (Spencer's wording) SCHEDULED Thu 10-29 08:32 PT, msg 1a1884a18341b1b2.
+
+- 2026-10-30 (cloud Follow-up Prep): queued Mon 11-02 touch 2 for Elastic, GitLab, MongoDB, Twilio, Harness, LaunchDarkly, Postman, New Relic; touch 3 Siemens Energy (Natascha). Drafted warm follow-up to Sam Poulter/Maersk (Spencer sends).
+
+- 2026-11-02: Ivana Milovanovic (Tripadvisor, Funnel Q) accepted LinkedIn connect. Gmail-verified: pitch 10/13 + touch 2 10/20 (thread 1a1328714df80a06), no reply. Voice note suggested; touch 3 auto-queued Tue 11/03 10:13 NY. Tracker row 209 Notes updated.
+- 2026-11-02: Voice note SENT to Ivana Milovanovic (Tripadvisor). Tracker row 209 Last Contact 11/02.
+- 2026-11-03 | Tyler Gorky (Altra/VF) | Altra BC quote SENT by Spencer: $6,000 :30+:15, :06 +$1,000 (msg 1a1a3202c92d7664). Awaiting reply.
+- 2026-11-03 | Tyler Gorky (Altra/VF) | Altra BC: Tyler ceiling $2,500 (email); Spencer countered $3,500 full scope 12 mo or $2,500 rescoped (msg 1a1a338e1bdddb39). Awaiting reply.

@@ -97,8 +97,8 @@ def timed_words(audio, video, model=DEFAULT_MODEL):
         os.makedirs(CACHE, exist_ok=True)
         json.dump(segs, open(cf, "w", encoding="utf-8"))
     else:
-        import whisper
-        r = whisper.load_model(model).transcribe(audio, fp16=False, language="en",
+        import torch, whisper  # load_model picks the GPU itself when torch has CUDA
+        r = whisper.load_model(model).transcribe(audio, fp16=torch.cuda.is_available(), language="en",
                                                  condition_on_previous_text=False, word_timestamps=True)
         segs = [[{"w": w["word"], "s": w["start"], "e": w["end"]} for w in s.get("words", [])] for s in r["segments"]]
         os.makedirs(CACHE, exist_ok=True)

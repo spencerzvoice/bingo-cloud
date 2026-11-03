@@ -1,0 +1,29 @@
+{
+  "number": "NL-2026-008",
+  "job": "Altra BC",
+  "date": "11/03/2026",
+  "due_date": "11/03/2026",
+  "terms": "Due on Receipt",
+  "bill_to": [
+    "Tyler Gorky",
+    "Global Creative Producer",
+    "Altra Running",
+    "1551 Wewatta Street",
+    "Denver, CO 80202",
+    "(303) 916-0948",
+    "Tyler_Gorky@vfc.com"
+  ],
+  "lines": [
+    {
+      "qty": 1,
+      "description": "Voice over services, Altra BC: one :30 spot plus a :15 and a :06 cutdown from the same recording. 12-month worldwide license, all media excluding broadcast, recording exclusive (terms below), credit card payment option",
+      "unit_price": 3500
+    }
+  ],
+  "notes": [
+    "License: 12 months from first publication, worldwide, all media excluding broadcast (OOH, industrial, internal, web and social paid and organic, OTT and pre-roll). The recording is exclusive to Altra / VF for the term; talent is non-exclusive.",
+    "Any additional versions or cutdowns beyond the :30, :15 and :06 are quoted separately. The recordings may not be used for AI, synthetic voice or voice-model training. Use beyond 12 months by renewal agreement."
+  ],
+  "payment_link": "https://buy.stripe.com/bJeeVe0ktaMOaft0a648001",
+  "payment_link_label": "PAYMENT LINK (CARD)"
+}

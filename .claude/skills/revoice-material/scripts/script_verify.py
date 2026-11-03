@@ -85,8 +85,15 @@ def pcm16k(path):
 def large_words(path, model="large-v3"):
     """[[(word, start, end)] per segment] from faster-whisper, condition_on_previous_text off, no VAD (VAD clips
     soft words)."""
+    # GPU when there is one (Spencer, 2026-11-01). torch first: its CUDA build carries the cuBLAS/cuDNN DLLs
+    # CTranslate2 needs on Windows.
+    try:
+        import torch
+        gpu = torch.cuda.is_available()
+    except ImportError:
+        gpu = False
     from faster_whisper import WhisperModel
-    m = WhisperModel(model, device="cpu", compute_type="int8")
+    m = WhisperModel(model, device="cuda" if gpu else "cpu", compute_type="float16" if gpu else "int8")
     segs, _ = m.transcribe(pcm16k(path), language="en", beam_size=5, word_timestamps=True,
                            condition_on_previous_text=False, vad_filter=False)
     return [[(w.word, w.start, w.end) for w in (s.words or [])] for s in segs]
@@ -244,7 +251,7 @@ def strip_hallu(ear, script):
     return [e for e, k in zip(ear, keep) if k]
 
 
-def vote(ears, script, notes, named=frozenset()):
+def vote(ears, script, notes, named=frozenset(), trusted=None):
     """ears = {name: [(tok, t)]}; named = tokens of the video's own title + description (names spelled the
     channel's way). Returns issues [(level, kind, t, text)] sorted by time."""
     per = {n: [d for d in diffs(e, script)] for n, e in ears.items()}
@@ -290,6 +297,11 @@ def vote(ears, script, notes, named=frozenset()):
                 # two ears that hear the SAME other word ("company" for "companies'") = a wrong word; ears that
                 # spell it differently from each other ("kimikey"/"kimiki") = a name: check the spelling by hand
                 level = "CONFIRMED" if len(agree) >= 2 and same else "SPELLING"
+            elif kind == "DIFFERENT" and trusted in ears and trusted not in agree and sw and                     all(joined_sim(v, sw) >= 0.6 for v in heard_by.values()):
+                # Spencer, 2026-11-02 ("Don't wait on my call, make a call"): the channel's own human captions
+                # match the script and the Whisper ears only hear a sound-alike ("rowed"/"road", "on the Raba"/
+                # "naraba"). Look at it, don't fail it. A real miss still fails: the captions disagree there too.
+                level, kind = "SPELLING", "SOUNDALIKE"
             else:
                 level = "CONFIRMED" if len(agree) >= 2 else "REVIEW"
             ears_txt = "; ".join(f"{m}: {' '.join(v) or '-'}" for m, v in heard_by.items())
@@ -308,15 +320,17 @@ def strict(src, text_file_or_text, url=None, start=0.0):
     ears, info = {}, []
     ears["large-v3"] = timed_toks(ear_large(src))
     ears["medium"] = timed_toks(ear_medium(src))
+    trusted = None
     if url:
         caps, msg = ear_captions(url, start, dur)
         info.append(msg)
         if caps:
             ears["captions"] = timed_toks(caps)
+            trusted = "captions" if msg.startswith("human") else None
     else:
         info.append("no URL, captions not used")
     ears = {n: strip_hallu(e, script) for n, e in ears.items()}
-    issues = vote(ears, script, notes, video_names(url))
+    issues = vote(ears, script, notes, video_names(url), trusted)
     bad = [i for i in issues if i[0] == "CONFIRMED"]
     ok = not bad and bool(script)
     head = (f"STRICT CHECK {'OK' if ok else 'FAILED'}  {len(bad)} confirmed / "

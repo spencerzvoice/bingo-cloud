@@ -19,9 +19,18 @@ Spencer says "full". Target: one response, no tool calls, no hedge round.
 
 ---
 
+## READ FIRST — two different "in-perpetuity" licenses (Spencer, 2026-11-02)
+| | **Paid / broadcast in-perpetuity** | **Non-broadcast in-perpetuity** |
+|---|---|---|
+| Voices.com line | Online Ad / TV / Radio / Paid Social • ... • **In-Perpetuity** | **Non-Broadcast License • In-Perpetuity** |
+| What it is | paid media running forever | organic / owned channels, corporate, explainer, internal, archive. No paid placement, no airtime |
+| Guide | publishes no rate | normal buyout |
+| Price | under $1k = PASS (Step 1); otherwise push for a term | beside a paid line = **$350 add-on**; on its own = **runtime buyout** (Explainer / Corporate rows) |
+| Never | price it from the grid as if it had a term | PASS it, or price it at the Non-Paid Web 5-yr rate |
+
 ## STEP 1 — decision tree (most jobs stop here)
 
-1. **Budget under $1,000 AND (national scope OR in-perpetuity/worldwide OR broadcast with no client named)** → **PASS.**
+1. **Budget under $1,000 AND (national scope OR PAID/BROADCAST in-perpetuity OR worldwide OR broadcast with no client named)** → **PASS.** Non-broadcast in-perp never triggers this (box above).
    Say so in one line. Only price it if Spencer says "quote straight" — then use the grid, no discount.
    *Not this branch:* **local** radio/TV or capped non-broadcast is legit low-budget work — price it in Step 2.
 2. **Budget at or above fair-market mid** (midpoint of the grid range for that cell) → **max out the budget.** Quote the ceiling, show the grid range so he sees the headroom.
@@ -230,3 +239,8 @@ Why it works: findings in one run-on sentence (stacked licences + exclusivity no
 | 10-21 | Regional radio :30 + online (client unnamed) | radio :30 75w | Radio Regional 2wk + Online WW 2wk + non-bcast in-perp | $500 | 2wk priced as 1mo 🟡. As briefed $1,525 (radio L-R 1mo $275 + Paid Social 1mo $300 ×3 WW 🟡 + $350) / rescoped regional $925 (radio $275 + social $300 + $350); if online = streaming audio: Value Menu radio L-R 1mo $400 + $350 = $750 / budget buys radio + online regional run | $500 (no non-bcast) | counter $925 |
 | 10-26 | AIV Voice Cloning - AI customer support bots (Voices #877862) | AI clone, ~1 hr / 9,000w; audition = free-flow support call | Perpetual, irrevocable, sublicensable synthetic-voice license, any media, no residuals; Usage says "nonexclusive" but Exclusivity says "Exclusive rights included" (CONFLICT) | $75,000 licensing (total; per-voice split unknown; 1-2 voices, may scale to ~10) | no GVAA cell for AI clone buyouts; budget > anything on card -> quote at budget | n/a | AUDITIONING: Bingo wrote 3-call agent-side script; quote $75,000 assuming nonexclusive, clarify exclusivity in writing before signing; brief wants contact-center experience (Spencer's: unknown); samples wanted 10-27, response deadline 10-28 |
 | 10-27 | SlimFast 3x:15 + 6x:06 | online ad 202w / 1:21 total | Paid digital WW 2yr + organic in-perp | $2,500 | as briefed $36,350 (:15 = Paid Social 1yr mid $1,250 ×3 WW 🟡 ×2 yrs = $7,500 each ×3; :06 lift 30% $2,250 ×6; + $350) / rescoped US 2yr $12,350 / US 1yr $6,350 / budget buys all 9 US paid 3mo + organic ($2,270–3,110 range) | $6,350 | counter $12,350 — :06 unique VO = 6 more full spots; Tier 2 excl not incl |
+| 11-02 | BLACKROLL hero film | online ad 125w / :50 (brief says ~:30 read) | Online Ad WW 13wk + non-broadcast in-perp | $250-499 | as briefed $2,075 (Paid Social 3mo mid $575 x3 WW 🟡 + $350) / rescoped single-market 13wk + in-perp $925 / budget buys 13wk single-market paid only | $499 | counter $925; 3 takes + 3 alt tags = normal session; pre-roll would cost more; Tier 2 excl not incl |
+| 11-02 | Purdue University :30 | radio :30 75w | Radio Natl 3mo + non-bcast in-perp | $750 | as briefed $1,225 (Radio Natl 3mo mid $875 + $350) / rescoped regional $825 (Radio L-R 3mo mid $475 + $350) / budget buys Natl radio 3mo at low end, non-bcast on top; if terrestrial+digital: Value Menu Natl 3mo $1,250-1,500 | $750 | counter $1,225; KU credit fits; edu = no excl tier |
+| 11-02 | HexClad Wine Chiller | animation (product video) :28 70w | Non-bcast in-perp only (no paid/broadcast) | $500-749 | CORRECTED: Explainer <=90s row $350-525 (non-bcast = buyout by runtime, no term); budget above card ceiling -> max out at $749 | $525 | quote $749, take it. (First pass wrongly ran Step 1 PASS + Non-Paid Web 5yr $1,400; Spencer caught it 11-02) |
+| 11-03 | HaloCollar :30 | TV :30 75w | TV Natl 1yr + Online WW 1yr + non-bcast in-perp | $2,000 | as briefed $10,100 (TV Natl 1yr mid $6,000 + Paid Social 1yr mid $1,250 x3 WW 🟡 + $350) / rescoped US 1yr $5,790 (Value Menu Social+TV Natl 1yr mid $5,440 + $350) / budget buys Value Menu Natl 3mo (mid $2,025), non-bcast on top | $2,000 (3mo bundle) | counter $5,790; if online = pre-roll: Value Menu Pre-Roll+TV Natl 1yr $4,700-8,250 |
+| 11-03 | University of Phoenix FY27 BFRL 2x:30 + 1x:15 | streaming audio 250w / 1:40 | labelled Online Ad WW 2yr (= digital radio) + non-bcast in-perp | $1,000 | as briefed $36,350 (Radio Natl digital 1yr mid $2,000 per spot x3 WW 🟡 x2 yrs 🟡 = $12,000 x3 spots + $350; :15 as own script) / rescoped US 2yr $12,350 / US 1yr $6,350 / budget buys all 3 regional streaming 1mo (L-R $275-400 each) | $6,350 | counter $12,350; at $1,000 effectively a pass; :15 lift = 75% ($9,000 WW) |

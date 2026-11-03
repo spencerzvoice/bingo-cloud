@@ -52,3 +52,19 @@ Full table + sources: `2026-10-29-email-confirm-B.md` (S1) and `-A.md` (Kings an
 - **New backups:** contact@secretsofuniverse.in · info@static.com · sales@ranker.com (+ arodriguez@ranker.com, 2021 media contact, may be stale) · press@electrify.video (Simple History's investor) · Kings and Generals: nolan.karimov@gmail.com, the podcast feed owner (🟡 name match to founder Nurlan Karimov). Dark Matter Design has a VO job form (2022).
 - **Dead:** contact@simplehistories.com (printed on simplehistory.co.uk, domain doesn't exist). sciencephiletheai.com has no mail records.
 - **Apollo validation 10-29 (11-credit batch, APOLLO-LEDGER):** business@historymarche.com validated · sponsorsimplehistory@gmail.com validated.
+
+## DRAFTED 2026-11-02 (desktop Bingo, all 10)
+Creator variant (PITCH-TEMPLATE v6 CREATOR), no hook, sample link = `https://drive.google.com/REPLACE-WITH-SAMPLE-LINK` until Spencer records. Label Funnel S1 (Label_16) on every draft. Engineering line on Secrets of the Universe + Sciencephile only. Spencer, 2026-11-02: "Build all of S1 the 20 drafts doesn't matter." So the queue went past 20 (3 one-off CAP_EXCEPTIONS, removed after use). Employment re-checked today: Apollo bulk match request -6142796505881992078 (Branden, Andrej, Kyle, Toby, Rishabh all current) + live LinkedIn for Rishabh and Branden.
+
+| Channel | To | Draft id | Message id |
+|---|---|---|---|
+| Kings and Generals | info@kingsandgenerals.net | r5416763050632087464 | 1a19d027d6514ae6 |
+| HistoryMarche | business@historymarche.com | r-6537633807957896156 | 1a19d053aa3eeb5e |
+| Static Media (Mashed sample) | branden@static.com | r8154835408455092327 | 1a19d05474302e07 |
+| The Secrets of the Universe | rishabhnakra@secretsofuniverse.in | r-1392293962879466680 | 1a19d05511b181f2 |
+| Simple History | sponsorsimplehistory@gmail.com | r-8902825068221290943 | 1a19d055bf87a57c |
+| The Infographics Show | andrej@darkmatterdesign.com | r8283058470767641049 | 1a19d0566cc41e14 |
+| Weird History | ksegal@ranker.com | r-8691515896678405123 | 1a19d05717d666f5 |
+| Epic History | toby@epichistory.tv | r-962822786971150849 | 1a19d0afa1bb5411 |
+| HealthNormal | hello@healthnormal.com | r242260362673454294 | 1a19d0b05f950bb4 |
+| Sciencephile the AI | the Facebook-listed gmail; CC SciencephileTheAI@lighthouseagents.com | r7128631304868538901 | 1a19d0b0e411defc |
