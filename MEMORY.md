@@ -93,6 +93,7 @@ Get Spencer out of the low-rate bracket and into higher-paying, longer, **repeat
 - **Employment gate + LinkedIn final check:** CLAUDE.md overrides 2–3 + step 5b, `outreach-email` Step 0b, `linkedin-final-check` skill (in Spencer's Chrome). Log: `LINKEDIN-CHECKS.md`. First-hand sources only, never social media / aggregators.
 - **Lead-finding:** LinkedIn "People" tab, title-specific passes → theorg.com → trade press → cross-check. Apollo rules: override 4.
 - **Pricing:** `vo-pricing` skill (direct/agency) or `reference/quick-quote.md` (marketplace). USD → GVAA, EUR → GFTB, never cross-apply. Fair market first, flags before numbers, never fabricate a rate. GVAA card rebuilt from the live guide 09-19, cross-checked 10-01; old grid retired.
+- **Card fee is baked into every quote (Spencer 11-03):** Stripe takes 2.9% + $0.30, so the quoted number = net ÷ 0.971 (+3.0% US card, +4.6% non-US), rounded; or write "card +3%, ACH free" before they agree. Never reopen a closed number for it (Altra BC kept at $3,500, nets $3,398).
 - **House pricing conventions (🟡 Spencer's, not the guide's):** live directed session = its own line on top of usage, default $250, even radio (09-24); lifts/cutdowns by length vs the :30 parent: :15 = 75%, :06 = 30%, tag = 20%, cap the count in writing (09-26); Worldwide ≈ 3× national (09-22).
 
 ---
