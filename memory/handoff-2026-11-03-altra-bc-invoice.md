@@ -30,3 +30,4 @@
 **Already done in the cloud (don't redo):** tracker row 155 Status / Last Contact 11/03 / Next Action updated (J/K formulas checked intact); `reference/outreach-pipeline.md`, `memory/2026-11-03.md`, `memory/outreach-log.md` logged. All of it is on branch `ccr-6f63d2c9-7idvrf` (pushed); merge it into main on the desktop (`git fetch origin ccr-6f63d2c9-7idvrf`, then merge).
 
 **Report back:** invoice PDF + Stripe link ready for Spencer's OK.
+DONE 2026-11-03 22:58 Lisbon (desktop): invoice built, Stripe link live, held until Tyler confirms. See memory/2026-11-03.md 'Altra BC invoice'.

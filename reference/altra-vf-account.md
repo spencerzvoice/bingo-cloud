@@ -15,6 +15,7 @@ EUR5k = ~$5,589/mo (ECB 1.1177, 10-07) = ~$67k/yr, roughly 12x observed Altra sp
 - #0001 08-29-2025 $2,200 Run Spot (Lilah)
 - #0002 09-08-2025 $100 Run Spot alt line
 - #0003 04-06-2026 $3,200 + $6 transaction fee = $3,206 Torin 9 (Lilah, Paid in Full)
-- NL-2026-007 10-05-2026 $900 Sizzle (Tyler, Due on Receipt, not marked paid)
+- NL-2026-007 10-05-2026 $900 Sizzle (Tyler, Due on Receipt; PAID 10-26 via Stripe)
+- NL-2026-008 11-03-2026 $3,500 Altra BC (:30 + :15 + :06, 12 mo WW all media ex-broadcast, recording exclusive; Tyler, Due on Receipt, Stripe link buy.stripe.com/bJeeVe0ktaMOaft0a648001; built on the desktop 11-03, HELD until Tyler confirms the budget, goes out with the delivered takes). Highest Altra fee to date.
 
 Total billed $6,406 ($6,400 VO) since Aug 2025 (~13 mo, ~$480/mo); strict last 12 months (from 10-08-2025) = $4,106 (~$340/mo). This corrects an earlier ">= ~$6,300 over ~14 mo (~$450/mo)" figure. No invoice labeled "Brand Campaign".
