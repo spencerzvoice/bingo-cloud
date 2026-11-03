@@ -1,3 +1,5 @@
+> **DONE 2026-11-03 23:46 UTC (desktop):** both scripts updated in Chrome, Sender `setup()` run, 1 trigger (`tick`), Digest Prep triggers untouched (run/runThreads/watchdog), `watchdogDryRun` clean. Nothing left to do here.
+
 # Handoff: stop the "[Bingo]" follow-up emails (2026-11-03, cloud chat → desktop)
 
 **Why desktop:** the two Apps Scripts live in spencer@spencerzvoice.com's Google account. Updating them means pasting code into the Apps Script editor in Spencer's Chrome. Cloud sessions have no browser, and FGAC can't write Apps Script projects.
