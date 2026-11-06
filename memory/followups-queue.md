@@ -772,3 +772,4 @@ NO-CONTACT CHECK (live Gmail via FGAC 11-05): each thread = touch 1 + touch 2 on
 - 2026-11-06 | Funnel S1 | HistoryMarche | business@historymarche.com | thread 1a1b203f13df5c03 | touch 1 sent 11-06 ~18:55 UTC | touch 2 due Fri 2026-11-13 (queue row, 09:04 local)
 - 2026-11-06 | Funnel S1 | Kings and Generals | info@kingsandgenerals.net | thread 1a1b21799fe84b8f | touch 1 sent 11-06 ~18:55 UTC | touch 2 due Fri 2026-11-13 (queue row, 09:04 local)
 - 2026-11-06 | Funnel S1 | Simple History | sponsorsimplehistory@gmail.com | thread 1a1b22c9814842fb | touch 1 sent 11-06 ~18:55 UTC | touch 2 due Fri 2026-11-13 (queue row, 09:04 local)
+- 2026-11-06 | Funnel S1 | Static Media (Branden Stall) | branden@static.com | thread 1a1b23bb826a5fd7 | touch 1 sent 11-06 ~19:03 UTC | touch 2 due Fri 2026-11-13 (queue row, 09:04 local)
