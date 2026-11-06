@@ -327,7 +327,7 @@ Spencer: "another funnel S1 created for more YouTube channels, tech stuff like t
 | Channel | Subs | Cadence | Narrator | To | Zone | Status |
 |---|---|---|---|---|---|---|
 | Kings and Generals | 4.22M | ~3/wk | 2 credited narrators (rotation) | info@kingsandgenerals.net (About panel inbox, Spencer 10-28: "Use the inboxes"); founder Nurlan Karimov, Toronto | America/Toronto | DRAFTED 2026-11-02, package OK (STRICT + FORMAT 11-02), take pending |
-| HistoryMarche | 1.34M | biweekly, 30-45 min | hired (David McCallion) | business@historymarche.com (About panel) | US | DRAFTED 2026-11-02, package OK (STRICT + FORMAT 11-02), take pending |
+| HistoryMarche | 1.34M | biweekly, 30-45 min | hired (David McCallion) | business@historymarche.com (About panel) | US | DRAFTED 2026-11-02, package OK (STRICT + FORMAT 11-02), take linked 11-06 (Drive 1gyDPDZ7YyuglnzfDNB0ItyWdB6MJIlZh), read back OK, NOT scheduled (Spencer: link only) |
 | Static Media (Looper, Nicki Swift, Grunge, Mashed) | 5.7M / 3.2M / 2.5M / 1.4M | daily | rotating freelance roster | Branden Stall, SVP Video, branden@static.com Apollo Verified | America/Indiana/Indianapolis | DRAFTED 2026-11-02, package OK (STRICT + FORMAT 11-02), take pending |
 | The Secrets of the Universe | 1.79M | weekly | hired (Jeffrey Smith) | Rishabh Nakra, Founder, rishabhnakra@secretsofuniverse.in Apollo Verified | Asia/Kolkata | DRAFTED 2026-11-02, package OK (STRICT + FORMAT 11-02), take pending |
 | Simple History | 5.12M | 2/wk | hired (Chris Kane), second-voice pitch | the sponsorship inbox on the About panel (Spencer 10-28: "Use the inboxes"); creator Daniel Turner | US | DRAFTED 2026-11-02, package OK (STRICT + FORMAT 11-02), take pending |
