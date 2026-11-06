@@ -765,3 +765,6 @@ NO-CONTACT CHECK (live Gmail via FGAC 11-05): each thread = touch 1 + touch 2 on
 **No new touch 2 due Mon 11-09:** no new cold touch 1 sent since 10-29 (S1/S2 pitch drafts still unsent). Touch 3 for Calm/Ramp (touch 2 10-27) reminder Tue 11-10; Mon's prep queues them. Warm Maersk/Sam Poulter draft overdue Mon 11-09 (Spencer sends).
 **Today's t3 rows:** Tripadvisor, Premier Padel, Cloudflare, 360Learning SENT; Columbia, Wilson, Docebo QUEUED pending US send times.
 **Follow-up queue check: drafts D 0 cold, due N 2 (Mon), queued Q 2 (+3 pending today), sent S 4 today so far, missing M 0** (Pelle flagged, not missing). Heartbeat Log!F1 2026-11-06T16:46:39Z fresh. HELD: micro1, Nadjarians (known).
+
+## 2026-11-06 ~17:35 UTC (desktop) - Funnel S1 Epic History touch 1 scheduled
+- Epic History / Toby Groom (toby@epichistory.tv, Europe/London) | thread 1a1b1e866765baed | touch 1 SCHEDULED Mon 11-09 08:32 London (msg 1a1bf6f895a7f872, verified in Gmail Scheduled) | touch 2 Mon 11-16, overdue Fri 11-20 (last day Thu 11-19).
