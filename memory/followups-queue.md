@@ -774,3 +774,4 @@ NO-CONTACT CHECK (live Gmail via FGAC 11-05): each thread = touch 1 + touch 2 on
 - 2026-11-06 | Funnel S1 | Simple History | sponsorsimplehistory@gmail.com | thread 1a1b22c9814842fb | touch 1 sent 11-06 ~18:55 UTC | touch 2 due Fri 2026-11-13 (queue row, 09:04 local)
 - 2026-11-06 | Funnel S1 | Static Media (Branden Stall) | branden@static.com | thread 1a1b23bb826a5fd7 | touch 1 sent 11-06 ~19:03 UTC | touch 2 due Fri 2026-11-13 (queue row, 09:04 local)
 - 2026-11-06 | Funnel S1 | The Infographics Show (Andrej Preston) | andrej@darkmatterdesign.com | thread 1a1b24453161f881 | touch 1 sent 11-06 ~19:12 UTC | touch 2 due Fri 2026-11-13 (queue row, 09:04 local)
+- 2026-11-06 | Funnel S1 | The Secrets of the Universe (Rishabh Nakra) | rishabhnakra@secretsofuniverse.in | thread 1a1b250f8ff53cdb | touch 1 SCHEDULED Sat 11-07 06:30 UTC (12:00 IST) | touch 2 due Mon 2026-11-16 (queue row, 09:04 local)
