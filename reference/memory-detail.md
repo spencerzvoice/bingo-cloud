@@ -20,7 +20,15 @@ Moved verbatim out of MEMORY.md in the 2026-11-03 prune to keep the always-loade
 
 ## Rank runs
 
-**Rank runs = every engine, every time** (Spencer 10-31: "Claude always needs to be in every run"): ChatGPT, Claude (claude.ai incognito), Perplexity, Gemini, Copilot, Google AI Mode + Google, Bing, Brave; signed out/incognito only, login state labelled per row. 10-31: Claude still names him nowhere; name prompt cites only the dead Carrd page (`memory/2026-10-31.md`).
+**Rank runs = every engine, every time** (Spencer 10-31: "Claude always needs to be in every run"): ChatGPT, Claude (claude.ai incognito), Perplexity, Gemini, Copilot, Google AI Mode + Google, Bing, Brave; signed out/incognito only, login state labelled per row.
+**No ❓ allowed (Spencer 11-07: "we find a way ... We cant leave these unresolved").** Before the run: set `openseo@openseo: true` in `.claude/settings.json` (back to false after). A blocked engine = next route, labelled with route + login state; never solve or push past a CAPTCHA:
+- Google: built-in signed out → 429 = OpenSEO `get_serp_results` (us/gb/pt) → Spencer's Chrome `google.com/search?...&pws=0` (label "signed in, pws=0") → Search Console avg position as cross-check.
+- Google AI Mode: built-in `udm=50` → Spencer's Chrome `udm=50`.
+- Gemini: built-in → Spencer's Chrome gemini.google.com (signed in, new chat, labelled) → retry after 20 min.
+- Perplexity: built-in signed out → Spencer's Chrome (signed in if he is; labelled).
+- Copilot: built-in → Spencer's Chrome copilot.microsoft.com (MS sign-in if present) → Bing "Copilot" tab in Chrome.
+- Claude: one new Chrome tab per prompt. ChatGPT: built-in logged out works.
+- Only if every route fails: name the routes tried, never a bare ❓. 10-31: Claude still names him nowhere; name prompt cites only the dead Carrd page (`memory/2026-10-31.md`).
 
 ## AI/search visibility (10-26 run)
 
