@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "mcp__FGAC_ai",
       "Bash(git push:*)",
       "Bash(git pull:*)",
       "Bash(git fetch:*)",
