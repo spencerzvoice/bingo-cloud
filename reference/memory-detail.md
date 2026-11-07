@@ -25,7 +25,7 @@ Moved verbatim out of MEMORY.md in the 2026-11-03 prune to keep the always-loade
 - Google / AI Mode: built-in signed out (`udm=14` / `udm=50`) → 429 = OpenSEO `get_serp_results` (set `openseo@openseo: true` in `.claude/settings.json`, fresh chat, back to false after) → Chrome incognito window.
 - Gemini / Perplexity / Copilot: built-in signed out → Chrome incognito window.
 - Claude: Chrome incognito (claude.ai `?incognito=true`), one new tab per prompt. ChatGPT: built-in logged out.
-- Chrome incognito needs the Claude extension's "Allow in Incognito" toggle (Spencer's call, asked 11-07).
+- Incognito runner (11-07): `scripts/rank_incognito_search.py` (bing/google/aimode) + `scripts/rank_incognito_ai.py` (brave/chatgpt/gemini/perplexity/copilot), fresh throwaway Chrome profile per prompt. Works: Bing, Brave (bot check after ~4 queries), ChatGPT, Gemini. Google/AI Mode CAPTCHA every signed-out route; Copilot needs sign-in; Perplexity walls most prompts; Claude has no signed-out mode → all four need OpenSEO credits (`scripts/openseo_mcp.py`: get_serp_results, explore_prompt; 0 credits on 11-07).
 - Only if every route fails: name the routes tried, never a bare ❓. 10-31: Claude still names him nowhere; name prompt cites only the dead Carrd page (`memory/2026-10-31.md`).
 
 ## AI/search visibility (10-26 run)
