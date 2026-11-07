@@ -3,10 +3,15 @@
 Rebuilt 2026-11-03 from the layout of NL-2026-007 (the original script was never
 saved). Layout, fonts, colours and positions match the 007 PDF.
 
-Usage: python scripts/invoice_pdf.py <spec.json> <out.pdf>
-spec.json keys: number, job, date, due_date, terms, bill_to (list of lines),
+Usage: python scripts/invoice_pdf.py <spec.json> <out_dir_or_out.pdf>
+Pass a folder and the file is named by Spencer's convention (his invoice folder
+"Nomadic Light LLC Invoices Since Aug2025"): NN_Client_Job_MM-DD-YYYY.pdf,
+e.g. 44_Altra_Running_Altra_BC_11-03-2026.pdf. NN = running file count across ALL
+his invoices (not the NL number); spaces become underscores.
+spec.json keys: number, file_seq (NN), client (company name for the filename),
+job, date, due_date, terms, bill_to (list of lines),
 lines (list of {qty, description, unit_price}), notes (list of lines, optional),
-payment_link, payment_link_label (optional), logo (path, optional).
+payment_link + payment_link_label (both optional), logo (path, optional).
 """
 import json
 import sys
@@ -201,18 +206,33 @@ def build(spec, out):
         for j, v in enumerate(vals):
             body(c, x, row + 10 + 10 * j, v, 8.5)
 
-    # Payment link
-    pt = nt + 40 + 2 * 34 + 2
-    rule(c, pt, NAVY, 1)
-    label(c, LM, pt + 19, spec.get("payment_link_label", "PAYMENT LINK"), 10)
-    body(c, LM, pt + 38, spec["payment_link"], 9, LINK)
-    c.linkURL(spec["payment_link"], (LM, y(pt + 46), RM, y(pt + 28)), relative=0)
+    # Payment link (optional: omit for bank-transfer-only invoices)
+    if spec.get("payment_link"):
+        pt = nt + 40 + 2 * 34 + 2
+        rule(c, pt, NAVY, 1)
+        label(c, LM, pt + 19, spec.get("payment_link_label", "PAYMENT LINK"), 10)
+        body(c, LM, pt + 38, spec["payment_link"], 9, LINK)
+        c.linkURL(spec["payment_link"], (LM, y(pt + 46), RM, y(pt + 28)), relative=0)
 
     c.showPage()
     c.save()
 
 
+def file_name(spec):
+    """Spencer's invoice filename: NN_Client_Job_MM-DD-YYYY.pdf (spaces -> underscores)."""
+    import re
+    def part(v):
+        return re.sub(r"_+", "_", re.sub(r"[^A-Za-z0-9._-]+", "_", str(v).strip())).strip("_")
+    seq = "{:02d}".format(int(spec["file_seq"]))
+    date = spec["date"].replace("/", "-")
+    return f"{seq}_{part(spec['client'])}_{part(spec['job'])}_{date}.pdf"
+
+
 if __name__ == "__main__":
     spec = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
-    build(spec, Path(sys.argv[2]))
-    print("wrote", sys.argv[2])
+    out = Path(sys.argv[2])
+    if out.suffix.lower() != ".pdf":
+        out.mkdir(parents=True, exist_ok=True)
+        out = out / file_name(spec)
+    build(spec, out)
+    print("wrote", out)

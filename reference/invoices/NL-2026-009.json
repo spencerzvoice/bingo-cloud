@@ -1,0 +1,28 @@
+{
+  "number": "NL-2026-009",
+  "file_seq": 45,
+  "client": "Highlanders Creative",
+  "job": "US Army Gala VO",
+  "date": "11/07/2026",
+  "due_date": "11/07/2026",
+  "terms": "Due on Receipt",
+  "bill_to": [
+    "Ed McCulloch",
+    "Founder, CEO",
+    "Highlanders Creative",
+    "Park City, UT",
+    "+1 (385) 251-6771",
+    "ed@highlanderscreative.com"
+  ],
+  "lines": [
+    {
+      "qty": 1,
+      "description": "Voice over services, US Army signal, cyber and space gala videos: 2:05 main video and 0:43 shorter version, recorded in one live directed session (up to 1 hour). Non-broadcast, internal use (terms below)",
+      "unit_price": 800
+    }
+  ],
+  "notes": [
+    "License: non-broadcast, internal use in perpetuity: screening at the US Army ball/gala and the client's internal archive. Public posting (unit pages, DVIDS, YouTube, social), paid media or broadcast are licensed separately.",
+    "Script changes after the session are quoted separately. The recordings may not be used for AI, synthetic voice or voice-model training. Card payment available on request by Stripe link (+3% processing); bank transfer (ACH) has no fee."
+  ]
+}
