@@ -6,7 +6,7 @@ saved). Layout, fonts, colours and positions match the 007 PDF.
 Usage: python scripts/invoice_pdf.py <spec.json> <out.pdf>
 spec.json keys: number, job, date, due_date, terms, bill_to (list of lines),
 lines (list of {qty, description, unit_price}), notes (list of lines, optional),
-payment_link, payment_link_label (optional), logo (path, optional).
+payment_link + payment_link_label (both optional), logo (path, optional).
 """
 import json
 import sys
@@ -201,12 +201,13 @@ def build(spec, out):
         for j, v in enumerate(vals):
             body(c, x, row + 10 + 10 * j, v, 8.5)
 
-    # Payment link
-    pt = nt + 40 + 2 * 34 + 2
-    rule(c, pt, NAVY, 1)
-    label(c, LM, pt + 19, spec.get("payment_link_label", "PAYMENT LINK"), 10)
-    body(c, LM, pt + 38, spec["payment_link"], 9, LINK)
-    c.linkURL(spec["payment_link"], (LM, y(pt + 46), RM, y(pt + 28)), relative=0)
+    # Payment link (optional: omit for bank-transfer-only invoices)
+    if spec.get("payment_link"):
+        pt = nt + 40 + 2 * 34 + 2
+        rule(c, pt, NAVY, 1)
+        label(c, LM, pt + 19, spec.get("payment_link_label", "PAYMENT LINK"), 10)
+        body(c, LM, pt + 38, spec["payment_link"], 9, LINK)
+        c.linkURL(spec["payment_link"], (LM, y(pt + 46), RM, y(pt + 28)), relative=0)
 
     c.showPage()
     c.save()

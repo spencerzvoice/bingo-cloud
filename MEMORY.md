@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-11-06_
+_Last updated: 2026-11-07_
 _Next memory prune: 2026-12-01_ (last done 2026-11-03) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -103,7 +103,7 @@ Get Spencer out of the low-rate bracket and into higher-paying, longer, **repeat
 
 Private/financial context (tax, property, music, personal) lives in **`local/personal-context.md`**, desktop only, never synced. Pull it in only when he raises one of those.
 
-- **Invoicing:** sequential `NL-YYYY-###`, next = **NL-2026-009** (008 = Altra BC $3,500, built 11-03, held until Tyler confirms). Template = `scripts/invoice_pdf.py` + a spec JSON in `reference/invoices/` (rebuilt 11-03; the old script was never saved). **Card payments from companies = Stripe link, not Wise** (Wise cost ~9 days with Altra/VF, 10-14). Stripe (Nomadic Light LLC) pays out daily straight to Wise (CFSB ••••8583, default USD); destination switched off the Stripe Treasury account 10-29.
+- **Invoicing:** sequential `NL-YYYY-###`, next = **NL-2026-010** (008 = Altra BC $3,500, built 11-03, held until Tyler confirms; 009 = Highlanders Creative / Ed McCulloch US Army gala $800, built 11-07, Drive Client Outreach/Highlanders Creative - US Army Gala). Template = `scripts/invoice_pdf.py` + a spec JSON in `reference/invoices/` (rebuilt 11-03; the old script was never saved). **Card payments from companies = Stripe link, not Wise** (Wise cost ~9 days with Altra/VF, 10-14). Stripe (Nomadic Light LLC) pays out daily straight to Wise (CFSB ••••8583, default USD); destination switched off the Stripe Treasury account 10-29.
 - **Website, logo, brand, IG/LinkedIn posting, HyperFrames, file storage:** [[website-and-brand]]. IMDb nm19018155 + Wikidata Q141791064 (10-20) are listed there too. Key rules: site deploy = build + wrangler + commit to `spencerzvoice/spencerzvoice-site`; profile photos stay his FACE, logo only on banners (10-07); @spearman13 is his personal channel, never brand it; LinkedIn About is first person; Intch = scam.
 - **AI-search listings: free profiles only** (Spencer 10-20); no paid directories, **no Upwork** (10-23). Only exception: Gravy for the Brain, his own choice (10-27). Detail: `reference/memory-detail.md`.
 - **Rank runs = every engine, every time, signed out** (Spencer 10-31), Claude included. Engine list + latest results: `reference/memory-detail.md`.
