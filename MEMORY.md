@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-11-06_
+_Last updated: 2026-11-07_
 _Next memory prune: 2026-12-01_ (last done 2026-11-03) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -68,6 +68,7 @@ Get Spencer out of the low-rate bracket and into higher-paying, longer, **repeat
 - **Past clients are never put in a pitch funnel** (Spencer 10-28, Funnel S2: "We're dropping these"): Primal Space, Business Basics, Psych2Go, Creator Mill (Tesla Space/Space Race), Volksgeist = dead ends for re-approach.
 - Lessons kept: never pitch Drew Jaz (Miro); a "drop this contact" decision must be enacted in Gmail itself, not just in memory (Kyle Osher, 09-23).
 - Build pipeline: `.claude/skills/revoice-material/SKILL.md`. Video-pick verdicts: `reference/client-acquisition/VIDEO-PICKS.md`.
+- **NOVOX bed v3 = NEW builds only; never rebuild a finished package unless Spencer says** (11-07: "Save this for the future NEW builds. Don't go back and build anything unless I say"): Opus source + 3-model RoFormer blend + ducked sources leveled flat ("D") + AAC 320k. Detail: `revoice-material` Step 3.
 - Every researched company gets a row in `reference/client-acquisition/BUDGET-CALENDAR.md` (FY end, new-money month, pitch windows); informs timing, never blocks a draft (Spencer 10-05).
 
 ### Outreach pipeline

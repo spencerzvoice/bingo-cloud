@@ -2,7 +2,8 @@
 Usage: python revoice_build.py "<Funnel dir>" [Client ...]
        python revoice_build.py --all      (desktop relay: every Funnel folder under Client Outreach)
 Per client with a sources.txt: download source if missing (as "<Client> - SOURCE - <title>.mp4"),
-NOVOX (BS-RoFormer on the GPU, Demucs fallback) if missing, Whisper script .docx if no script exists, Ableton project from template
+NOVOX (3-model RoFormer blend on the GPU from YouTube's Opus audio, ducked sources leveled flat; Demucs
+fallback) if missing, Whisper script .docx if no script exists, Ableton project from template
 if missing, MAKE VIDEO button in Ready to Link. Idempotent: only fills gaps; complete packages are
 skipped without touching the network.
 Desktop relay (Spencer, 2026-10-06): YouTube blocks the cloud's IP, not this PC's. When a cloud run
@@ -119,20 +120,135 @@ def age_gate(url, opt=None):
 SEP = r"C:\Users\spenc\sepenv\Scripts\audio-separator.exe"
 SEP_MODEL = "model_bs_roformer_ep_317_sdr_12.9755.ckpt"
 SEP_MODELS = r"C:\Users\spenc\sepenv\models"
+# Bed v3 (Spencer, 2026-11-07, Epic History A/B: "D wins"): instrumental = average of these three models' beds
+# (ep_317 also gives the vocal stem); a model missing from SEP_MODELS is skipped, ep_317 alone still works.
+SEP_BLEND = [SEP_MODEL, "bs_roformer_instrumental_resurrection_unwa.ckpt", "mel_band_roformer_instrumental_fv7z_gabox.ckpt"]
+DUCK_DB = -6.0  # bed this much lower under the old narrator than in his pauses = the source mix ducks its music
 
 
-def separate(src, tmp):
-    """(no_vocals.wav, vocals.wav) of the source's audio, written inside tmp."""
+def best_audio(cdir, src, tmp):
+    """Source audio for separation. YouTube's Opus track (~140k) cut to the excerpt and sample-aligned to the source
+    beats the 128k AAC in the mp4 (Epic History: +6 dB fidelity in the pauses, 11-06). Any problem -> the mp4's audio."""
     wav = os.path.join(tmp, "audio.wav")
     run(["ffmpeg", "-y", "-i", src, "-vn", "-ac", "2", "-ar", "44100", wav])
-    stems = os.path.join(tmp, "stems")
+    try:
+        import numpy as np, soundfile as sfile
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from script_verify import excerpt_start
+        url, start = excerpt_start(cdir) if cdir else (None, 0.0)
+        if not url or not re.search(r"youtu\.?be", url):
+            return wav
+        dur, _ = probe(src)
+        a, b = max(0.0, start - 3), start + dur + 3
+        run([sys.executable, "-m", "yt_dlp", "-f", "bestaudio[acodec=opus]", "--download-sections", f"*{a:.2f}-{b:.2f}",
+             "--force-keyframes-at-cuts", "--ffmpeg-location", FF, "-o", os.path.join(tmp, "opus.%(ext)s"), url])
+        op = next(os.path.join(tmp, f) for f in os.listdir(tmp) if f.startswith("opus."))
+        owav = os.path.join(tmp, "opus_raw.wav")
+        run(["ffmpeg", "-y", "-i", op, "-vn", "-ac", "2", "-ar", "44100", owav])
+        s, sr = sfile.read(wav, always_2d=True); o, _ = sfile.read(owav, always_2d=True)
+        # Align on 5 ms loudness envelopes: YouTube's AAC and Opus encodes don't match sample by sample (waveform
+        # corr ~0.05 on Epic History), but their envelopes do (0.999). The Opus track can sit either side of the
+        # mp4 (Epic History: 36 ms early), so pad 2 s in front and search both ways. Skip the quiet intro.
+        pad = 2 * sr
+        o = np.pad(o, ((pad, 0), (0, 0)))
+        hop = sr // 200
+        def env(z):
+            z = z.mean(1); k = len(z) // hop
+            return np.log(np.sqrt((z[:k * hop].reshape(k, hop) ** 2).mean(1)) + 1e-6)
+        t0 = min(5 * sr, len(s) // 4) // hop * hop
+        ex = env(s[t0: t0 + min(20 * sr, len(s) - t0)])
+        ey = env(o)
+        cs = [np.corrcoef(ey[k:k + len(ex)], ex)[0, 1] for k in range(0, len(ey) - len(ex))]
+        k = int(np.argmax(cs)); r = cs[k]
+        lag = k * hop - t0
+        if lag < 0:
+            raise RuntimeError(f"Opus clip starts too late (lag {lag / sr:.2f}s)")
+        o = o[lag: lag + len(s)]
+        if len(o) < len(s) - sr // 10:
+            raise RuntimeError(f"Opus clip short ({len(o) / sr:.1f}s vs {len(s) / sr:.1f}s)")
+        o = np.pad(o, ((0, len(s) - len(o)), (0, 0)))
+        if r < 0.95:  # dubbed track, wrong cut or different video: don't trust it
+            raise RuntimeError(f"Opus track doesn't match the source (corr {r:.2f})")
+        out = os.path.join(tmp, "audio_opus.wav")
+        sfile.write(out, o, sr, subtype="FLOAT")
+        log(f"  separating from YouTube Opus audio (aligned, corr {r:.2f})")
+        return out
+    except Exception as e:
+        log(f"  Opus audio not used ({str(e).splitlines()[-1][:140]}); separating the mp4's own audio")
+        return wav
+
+
+def separate(src, tmp, cdir=None):
+    """(no_vocals.wav, vocals.wav) of the source's audio, written inside tmp."""
+    wav = best_audio(cdir, src, tmp)
     if os.path.exists(SEP):
-        run([SEP, wav, "-m", SEP_MODEL, "--model_file_dir", SEP_MODELS, "--output_dir", stems, "--output_format", "WAV"])
-        pick = lambda tag: next(os.path.join(stems, f) for f in os.listdir(stems) if f"({tag})" in f)
-        return pick("Instrumental"), pick("Vocals")
+        beds, vox = [], None
+        for m in SEP_BLEND:
+            if not os.path.exists(os.path.join(SEP_MODELS, m)):
+                if m == SEP_MODEL:
+                    raise RuntimeError(f"{m} missing from {SEP_MODELS}")
+                log(f"  blend: {m} not installed, skipped")
+                continue
+            d = os.path.join(tmp, "stems_" + m.split(".")[0])
+            run([SEP, wav, "-m", m, "--model_file_dir", SEP_MODELS, "--output_dir", d, "--output_format", "WAV"])
+            fs = os.listdir(d)
+            beds.append(os.path.join(d, next(f for f in fs if "(instrumental)" in f.lower() or "(other)" in f.lower())))
+            if m == SEP_MODEL:
+                vox = os.path.join(d, next(f for f in fs if "(vocals)" in f.lower()))
+        bed = beds[0]
+        if len(beds) > 1:
+            import numpy as np, soundfile as sfile
+            xs = [sfile.read(p, always_2d=True) for p in beds]
+            n = min(len(x) for x, _ in xs)
+            bed = os.path.join(tmp, "bed_blend.wav")
+            sfile.write(bed, np.mean([x[:n] for x, _ in xs], axis=0), xs[0][1], subtype="FLOAT")
+        return bed, vox
+    stems = os.path.join(tmp, "stems")
     run([sys.executable, "-m", "demucs", "--two-stems=vocals", "-o", stems, wav])
     d = os.path.join(stems, "htdemucs", "audio")
     return os.path.join(d, "no_vocals.wav"), os.path.join(d, "vocals.wav")
+
+
+def level_bed(bed, vox, tmp):
+    """Undo a source mix that ducks its music under the old narrator (Spencer, 2026-11-07, Epic History: the bed
+    pumped 15-25 dB against his read; picked the fully flat bed "D"). Measures the duck; if the bed sits more than
+    DUCK_DB lower under the narration than in the pauses, rides it flat (two-way: lifts the ducked lines up to
+    20 dB, pulls the swells down up to 10 dB) at 3 dB under the pause level. The Ableton template's sidechain
+    under Spencer's voice then does the only ducking. Undo-able: scripts/separator_ab/ has the A/B tools."""
+    try:
+        import numpy as np, soundfile as sfile
+        from scipy.ndimage import uniform_filter1d, minimum_filter1d
+    except ImportError as e:
+        log(f"  leveler skipped ({e})")
+        return bed, "duck not checked"
+    x, sr = sfile.read(bed, always_2d=True); v, _ = sfile.read(vox, always_2d=True)
+    hop = sr // 200
+    def lev(y, win):
+        y = y.mean(1); k = len(y) // hop
+        return 10 * np.log10(uniform_filter1d((y[:k * hop].reshape(k, hop) ** 2).mean(1), win) + 1e-12)
+    bl, vl = lev(x, 40), lev(v, 20)
+    n = min(len(bl), len(vl)); bl, vl = bl[:n], vl[:n]
+    talk = vl > vl.max() - 25
+    if talk.sum() < 200 or (~talk).sum() < 100:
+        return bed, "duck not measurable"
+    first = int(np.argmax(talk))
+    body = np.arange(n) >= first
+    dip = np.median(bl[body & talk]) - np.median(bl[body & ~talk])
+    if dip > DUCK_DB:
+        return bed, f"no duck ({dip:+.1f} dB), bed as separated"
+    target = np.median(bl[~talk]) - 3
+    gain = np.clip(target - bl, -10, 20)
+    gain = np.where(bl < target - 40, 0, gain)  # never pump up true silence
+    gain = uniform_filter1d(minimum_filter1d(gain, 30), 50)
+    g = np.repeat(10 ** (gain / 20), hop)
+    g = np.pad(g, (0, max(0, len(x) - len(g))), mode="edge")[:len(x)]
+    y = x * g[:, None]
+    pk = np.abs(y).max()
+    if pk > 0.89:
+        y *= 0.89 / pk
+    out = os.path.join(tmp, "bed_leveled.wav")
+    sfile.write(out, y, sr, subtype="FLOAT")
+    return out, f"DUCKED SOURCE ({dip:+.1f} dB under the narrator) -> bed leveled flat"
 
 
 def novox(client, cdir, src):
@@ -140,11 +256,33 @@ def novox(client, cdir, src):
     if os.path.exists(out):
         return out
     tmp = tempfile.mkdtemp(dir=WORK)
-    nv, vox = separate(src, tmp)
-    run(["ffmpeg", "-y", "-i", src, "-i", nv, "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy", "-c:a", "aac", "-shortest", out])
+    nv, vox = separate(src, tmp, cdir)
+    nv, note = level_bed(nv, vox, tmp)
+    log(f"  {client}: {note}")
+    run(["ffmpeg", "-y", "-i", src, "-i", nv, "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy",
+         "-c:a", "aac", "-b:a", "320k", "-shortest", out])
     shutil.move(vox, vocals_path(client))  # for whisper_script
     shutil.rmtree(tmp, ignore_errors=True)
     return out
+
+
+def rebed(fdir, clients):
+    """--rebed: rebuild only the NOVOX bed of finished packages (old bed + Ableton's .asd cache kept in
+    '_old - bed <date>/'). Same file name and length, so the recorded Ableton project picks it up on reopen."""
+    import datetime
+    stamp = datetime.date.today().isoformat()
+    for client in clients:
+        cdir = os.path.join(fdir, client)
+        nv = os.path.join(cdir, f"{client}_NOVOX.mp4")
+        old = os.path.join(cdir, f"_old - bed {stamp}")
+        os.makedirs(old, exist_ok=True)
+        for f in (nv, nv + ".asd"):
+            if os.path.exists(f):
+                shutil.move(f, os.path.join(old, os.path.basename(f)))
+        src = os.path.join(cdir, videos(cdir)[0])
+        novox(client, cdir, src)
+        ok, msgs = novox_gate(client, cdir)
+        log(f"{client}: {'OK' if ok else 'FAIL'} | " + " / ".join(msgs))
 
 
 def vocals_path(client):
@@ -493,6 +631,8 @@ def build_funnel(fdir, only, results):
 
 def main():
     os.makedirs(WORK, exist_ok=True)
+    if sys.argv[1] == "--rebed":  # python revoice_build.py --rebed "<Funnel dir>" Client [Client ...]
+        return rebed(sys.argv[2], sys.argv[3:])
     if sys.argv[1] == "--all":
         root = os.path.dirname(TEMPLATE)
         # Funnel H onward only: A-G2 are sent or desktop-owned and use older file names
