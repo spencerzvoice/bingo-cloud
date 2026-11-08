@@ -84,13 +84,19 @@ td.q small{display:block;color:var(--muted);font-size:13px}
 .pill.queued{background:var(--mid-bg);color:var(--mid)}
 .pill.todo{background:var(--none-bg);color:var(--none)}
 .pill.done{background:var(--good-bg);color:var(--good)}
+.status{display:grid;gap:4px;justify-items:end}
+.go{font:inherit;font-family:var(--display);font-size:13.5px;font-weight:600;cursor:pointer;border:0;border-radius:999px;padding:7px 14px;background:var(--accent);color:#1b1404;white-space:nowrap}
+.go:hover{filter:brightness(1.08)}
+.go:disabled{opacity:.6;cursor:progress}
+.status small{color:var(--muted);font-size:12px;max-width:190px;text-align:right}
+@media (max-width:480px){.status{justify-items:start}.status small{text-align:left}}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 @media (max-width:480px){
   .wrap{padding:22px 16px 48px}
   h1{font-size:25px}
   section{padding:16px}
   .step{grid-template-columns:24px 1fr}
-  .step .pill{grid-column:2;justify-self:start}
+  .step .pill,.step .status{grid-column:2;justify-self:start}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -210,12 +216,12 @@ td.q small{display:block;color:var(--muted);font-size:13px}
 
   <h3>The six moves, in order</h3>
   <div class="plan">
-    <div class="step"><div><h3>A. Get onto European agency rosters and UK voice directories</h3><p>The biggest move, and it's also lane 2 (representation) for Europe, separate from DDO in the US. Every gap above except your name is won by a roster page. Bingo researches each site (free listing, paid listing, or agency submission, and what they ask for), then drafts submissions for your OK. Targets: The Voice Realm, Voice Squad, QVoice, Voice Fox, Great British Voices, The Voiceover Gallery, London Voiceover, Nordling's Talent, Damn Good Voices, Soho Voices, Speaker-Search, Voicfy, Native Voiceover. Free listings and agency submissions only; anything paid comes to you as a yes/no.</p></div><span class="pill todo">Not started</span></div>
-    <div class="step"><div><h3>B. Third-party proof the "best" answers look for</h3><p>Fuller wins "best" on a One Voice Award and an agency CV. Your counter: reviews on Google Business Profile, Voices.com, Voice123, Bodalgo and VoiceBros (asked by email, drafted for you), and a decision on entering the One Voice Awards 2027 (paid entry, so your call; dates to be checked).</p></div><span class="pill todo">Not started</span></div>
-    <div class="step"><div><h3>C. Earned links: press, podcasts, client credit pages</h3><p>Raises Google's trust in the whole domain, which every Google gap needs. Qwoted pitches on the working-traveller story (2–3 a week), podcast guest spots, and credit links from Noah Media (FIFA) and clients with portfolio pages. Each one goes out only with your OK.</p></div><span class="pill todo">Not started</span></div>
-    <div class="step"><div><h3>D. Site fixes (Bingo, live on the site)</h3><p>1. Find out in Search Console why Google shows /es/ and /e-learning/ for your name (the language tags are correct), then strengthen the homepage as the page about you. 2. Add UK-facing proof to /american-voice-over-europe/: Lisbon runs on London time, so live sessions happen during UK office hours. Credits on it only where the client is verified as UK-based. 3. Link your GFTB page from the site so Brave finds it.</p></div><span class="pill wait">Waiting on your go-ahead</span></div>
-    <div class="step"><div><h3>E. Profiles as ranking pages</h3><p>Perplexity and Gemini pull from Voices.com and Voice123 profiles. Check that every profile links to spencerzvoice.com and that its headline says "American male voice over, Lisbon, Europe". Bingo does the audit; edits to marketplace profiles get your OK first.</p></div><span class="pill wait">Waiting on your go-ahead</span></div>
-    <div class="step"><div><h3>F. Hip Hop Madness credits + Google Analytics</h3><p>The "Narrated by Spencer Pearman · spencerzvoice.com" line on every video you voice: a name signal for the AI tools, though YouTube links don't lift Google rankings. Plus a Google Analytics property for spencerzvoice.com, so we can see what traffic the rankings bring.</p></div><span class="pill queued">HHM queued until Nate agrees · GA not started</span></div>
+    <div class="step"><div><h3>A. Get onto European agency rosters and UK voice directories</h3><p>The biggest move, and it's also lane 2 (representation) for Europe, separate from DDO in the US. Every gap above except your name is won by a roster page. Bingo researches each site (free listing, paid listing, or agency submission, and what they ask for), then drafts submissions for your OK. Targets: The Voice Realm, Voice Squad, QVoice, Voice Fox, Great British Voices, The Voiceover Gallery, London Voiceover, Nordling's Talent, Damn Good Voices, Soho Voices, Speaker-Search, Voicfy, Native Voiceover. Free listings and agency submissions only; anything paid comes to you as a yes/no.</p></div><span class="status" data-move="A"></span></div>
+    <div class="step"><div><h3>B. Third-party proof the "best" answers look for</h3><p>Fuller wins "best" on a One Voice Award and an agency CV. Your counter: reviews on Google Business Profile, Voices.com, Voice123, Bodalgo and VoiceBros (asked by email, drafted for you), and a decision on entering the One Voice Awards 2027 (paid entry, so your call; dates to be checked).</p></div><span class="status" data-move="B"></span></div>
+    <div class="step"><div><h3>C. Earned links: press, podcasts, client credit pages</h3><p>Raises Google's trust in the whole domain, which every Google gap needs. Qwoted pitches on the working-traveller story (2–3 a week), podcast guest spots, and credit links from Noah Media (FIFA) and clients with portfolio pages. Each one goes out only with your OK.</p></div><span class="status" data-move="C"></span></div>
+    <div class="step"><div><h3>D. Site fixes (Bingo, live on the site)</h3><p>1. Find out in Search Console why Google shows /es/ and /e-learning/ for your name (the language tags are correct), then strengthen the homepage as the page about you. 2. Add UK-facing proof to /american-voice-over-europe/: Lisbon runs on London time, so live sessions happen during UK office hours. Credits on it only where the client is verified as UK-based. 3. Link your GFTB page from the site so Brave finds it.</p></div><span class="status" data-move="D"></span></div>
+    <div class="step"><div><h3>E. Profiles as ranking pages</h3><p>Perplexity and Gemini pull from Voices.com and Voice123 profiles. Check that every profile links to spencerzvoice.com and that its headline says "American male voice over, Lisbon, Europe". Bingo does the audit; edits to marketplace profiles get your OK first.</p></div><span class="status" data-move="E"></span></div>
+    <div class="step"><div><h3>F. Hip Hop Madness credits + Google Analytics</h3><p>The "Narrated by Spencer Pearman · spencerzvoice.com" line on every video you voice: a name signal for the AI tools, though YouTube links don't lift Google rankings. Plus a Google Analytics property for spencerzvoice.com, so we can see what traffic the rankings bring.</p></div><span class="status" data-move="F"></span></div>
   </div>
 
   <h3>How we'll know it worked</h3>
@@ -331,6 +337,64 @@ document.getElementById("updated").textContent = "Last updated " + UPDATED + " �
   let h = "<thead><tr><th>Run</th><th>Surfaces read</th><th>What changed</th></tr></thead><tbody>";
   LOG.slice().reverse().forEach(([d, s, w]) => h += `<tr><td style="white-space:nowrap"><strong>${esc(d)}</strong></td><td>${esc(s)}</td><td>${esc(w)}</td></tr>`);
   document.getElementById("t-log").innerHTML = h + "</tbody>";
+})();
+
+/* ===== GO-AHEAD BUTTONS: a click writes goahead/<move>; the "Bingo go-ahead pickup" task reads it and starts the work ===== */
+const MOVES = {
+  A:{title:"Agency rosters + UK directories", base:"todo"},
+  B:{title:"Reviews + awards decision", base:"todo"},
+  C:{title:"Earned links: press, podcasts, client credits", base:"todo"},
+  D:{title:"Site fixes", base:"wait"},
+  E:{title:"Profile audit + headlines", base:"wait"},
+  F:{title:"Google Analytics for spencerzvoice.com (HHM credits stay queued until Nate agrees)", base:"queued"}
+};
+const LABEL = {
+  requested:["pill queued","Go-ahead sent","Bingo picks it up within 2 hours"],
+  started:["pill wait","In progress",""],
+  done:["pill done","Done",""],
+  blocked:["pill wait","Needs you",""]
+};
+const STATIC = {todo:'<span class="pill todo">Not started</span>', wait:'<span class="pill wait">Waiting on your go-ahead</span>', queued:'<span class="pill queued">HHM queued until Nate agrees · GA not started</span>'};
+let STATE = {};
+let DB = null;
+function paint(){
+  document.querySelectorAll(".status[data-move]").forEach(el => {
+    const m = el.dataset.move, s = STATE[m];
+    if (s && LABEL[s.status]) {
+      const [cls, txt, sub] = LABEL[s.status];
+      const note = s.note || sub;
+      el.innerHTML = `<span class="${cls}">${txt}</span>` + (note ? `<small>${esc(note)}</small>` : "");
+    } else if (DB) {
+      el.innerHTML = `<button class="go" type="button" id="go-${m}" data-move="${m}">Go ahead</button>` + (MOVES[m].base === "queued" ? "<small>Starts Google Analytics now; HHM stays queued</small>" : "");
+    } else {
+      el.innerHTML = STATIC[MOVES[m].base];
+    }
+  });
+}
+paint();
+document.addEventListener("click", async e => {
+  const b = e.target.closest("button.go"); if (!b || !DB) return;
+  const m = b.dataset.move; b.disabled = true; b.textContent = "Sending…";
+  try {
+    await DB.doc("goahead/" + m).set({move:m, title:MOVES[m].title, status:"requested", requestedAt:new Date().toISOString()});
+    STATE[m] = {status:"requested"}; paint();
+  } catch (err) {
+    b.disabled = false; b.textContent = "Go ahead";
+    const s = b.parentElement.querySelector("small") || b.parentElement.appendChild(document.createElement("small"));
+    s.textContent = "Couldn't send. Try again, or tell Bingo in chat.";
+  }
+});
+(async () => {
+  try {
+    const db = await claude.use("db"); if (!db) return;
+    DB = db; paint();
+    const t = setTimeout(() => {}, 10000);
+    db.collection("goahead").onSnapshot(snap => {
+      clearTimeout(t); STATE = {};
+      snap.docs.forEach(d => { const v = d.data(); if (v && v.move) STATE[v.move] = v; });
+      paint();
+    }, () => clearTimeout(t));
+  } catch (_) { /* static view */ }
 })();
 </script>
 </body>
