@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search Visibility Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: one reading column; summary first, then one section per surface (AI, Google, Bing/Brave, site health), plan, method, run log.
+   Running report: add each new run to the DATA block in the script and republish. */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --ink:#18212f; --muted:#5d6878; --line:#dde1e7;
+  --accent:#d9900f; --accent-ink:#8a5a00;
+  --good:#1f8a5b; --good-bg:#e3f4ec; --mid:#2f6db5; --mid-bg:#e5eefa; --low:#a26b00; --low-bg:#fbf1dc;
+  --none:#7a8494; --none-bg:#eef0f3; --bad:#b3372e; --bad-bg:#fbe9e7;
+  --display:"Lexend", "Segoe UI", system-ui, sans-serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#11161e; --surface:#19202b; --ink:#e7ebf1; --muted:#9aa5b5; --line:#2b3442;
+    --accent:#f0a830; --accent-ink:#f5c46b;
+    --good:#5fd19c; --good-bg:#173a2b; --mid:#7fb0f0; --mid-bg:#1b2c45; --low:#e9b553; --low-bg:#3a2e15;
+    --none:#8d97a6; --none-bg:#242c38; --bad:#f08a80; --bad-bg:#3d1f1c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#11161e; --surface:#19202b; --ink:#e7ebf1; --muted:#9aa5b5; --line:#2b3442;
+  --accent:#f0a830; --accent-ink:#f5c46b;
+  --good:#5fd19c; --good-bg:#173a2b; --mid:#7fb0f0; --mid-bg:#1b2c45; --low:#e9b553; --low-bg:#3a2e15;
+  --none:#8d97a6; --none-bg:#242c38; --bad:#f08a80; --bad-bg:#3d1f1c;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16.5px;line-height:1.55}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 20px 64px;display:grid;gap:28px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:30px;font-weight:700}
+h2{font-size:21px;font-weight:600}
+h3{font-size:16px;font-weight:600}
+p{margin:0;max-width:68ch}
+a{color:var(--accent-ink)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+header{display:grid;gap:8px;border-bottom:3px solid var(--accent);padding-bottom:18px}
+.eyebrow{font-family:var(--display);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.meta{color:var(--muted);font-size:14.5px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px;display:grid;gap:14px}
+.verdict{display:grid;gap:10px}
+.verdict li{max-width:72ch}
+ul{margin:0;padding-left:20px;display:grid;gap:6px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.tile{border:1px solid var(--line);border-radius:8px;padding:14px;display:grid;gap:4px;background:var(--bg)}
+.tile b{font-family:var(--display);font-size:24px;font-variant-numeric:tabular-nums}
+.tile span{color:var(--muted);font-size:14px}
+.tablebox{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:15px;font-variant-numeric:tabular-nums}
+th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+thead th{font-family:var(--display);font-weight:600;font-size:13px;color:var(--muted);background:var(--bg);white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td.q{min-width:210px}
+td.q small{display:block;color:var(--muted);font-size:13px}
+.c{display:inline-flex;align-items:center;justify-content:center;min-width:34px;padding:2px 8px;border-radius:999px;font-weight:700;font-size:14px;white-space:nowrap}
+.c.p1{background:var(--good-bg);color:var(--good)}
+.c.p2{background:var(--mid-bg);color:var(--mid)}
+.c.p3{background:var(--low-bg);color:var(--low)}
+.c.no{background:var(--none-bg);color:var(--none);font-weight:600}
+.c.ok{background:var(--good-bg);color:var(--good)}
+.c.un{background:transparent;color:var(--none);border:1px dashed var(--none);font-weight:600}
+.hist{display:block;margin-top:4px;color:var(--muted);font-size:12.5px;white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:13.5px;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;gap:6px;align-items:center}
+.note{font-size:14.5px;color:var(--muted)}
+.plan{display:grid;gap:10px;counter-reset:n}
+.step{display:grid;grid-template-columns:30px 1fr auto;gap:12px;align-items:start;border:1px solid var(--line);border-radius:8px;padding:12px;background:var(--bg)}
+.step::before{counter-increment:n;content:counter(n);font-family:var(--display);font-weight:700;color:var(--accent-ink);font-size:18px}
+.step p{font-size:15px;color:var(--muted)}
+.pill{font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.pill.wait{background:var(--low-bg);color:var(--low)}
+.pill.queued{background:var(--mid-bg);color:var(--mid)}
+.pill.todo{background:var(--none-bg);color:var(--none)}
+.pill.done{background:var(--good-bg);color:var(--good)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+@media (max-width:480px){
+  .wrap{padding:22px 16px 48px}
+  h1{font-size:25px}
+  section{padding:16px}
+  .step{grid-template-columns:24px 1fr}
+  .step .pill{grid-column:2;justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header>
+  <div class="eyebrow">spencerzvoice.com · search &amp; AI visibility</div>
+  <h1>Search Visibility Report</h1>
+  <p class="meta" id="updated"></p>
+</header>
+
+<section aria-labelledby="s-week">
+  <h2 id="s-week">Week of 2–8 Nov 2026: the short version</h2>
+  <ul class="verdict">
+    <li><strong>AI answer engines recommend you first almost everywhere.</strong> ChatGPT, Claude, Gemini and Google AI Mode name you #1 for the Lisbon and "hire for a commercial" prompts, and all of them describe you correctly when asked who you are. No engine cited the dead Carrd site.</li>
+    <li><strong>Google search results lag behind.</strong> You own page 1 for "american male voice over lisbon" and you're #1 in the US and Portugal for the commercial phrase. You're off page 1 for the broad "in europe" phrases, and the UK is weak.</li>
+    <li><strong>The cause is authority.</strong> All 5 main pages are indexed. Google rates the domain 0 because almost no trusted sites link to it. Bing and Brave rank you #1 because they lean on page wording.</li>
+    <li><strong>The fix is earned links:</strong> press, client credit pages and profile links, starting with a profile link audit and a homepage fix for your name.</li>
+  </ul>
+  <div class="tiles">
+    <div class="tile"><b>5 of 5</b><span>AI engines read this week that rank you #1 for "hire one in Lisbon" (Copilot couldn't be read)</span></div>
+    <div class="tile"><b>#1</b><span>Google US + PT, "american voice actor based in europe for a commercial"</span></div>
+    <div class="tile"><b>0</b><span>Google domain rank today (75 linking sites, most of them spam)</span></div>
+    <div class="tile"><b>5 / 5</b><span>main pages indexed by Google</span></div>
+  </div>
+</section>
+
+<section aria-labelledby="s-ai">
+  <h2 id="s-ai">AI answer engines</h2>
+  <p class="note">Each cell is your latest reading, with the earlier runs from this week underneath. ChatGPT, Gemini, Perplexity and AI Mode were also read signed out in an incognito browser; the 8 Nov reading for ChatGPT, Claude, Gemini and Perplexity came from their APIs through OpenSEO.</p>
+  <div class="legend" aria-hidden="true">
+    <span><i class="c p1">1</i> named first</span>
+    <span><i class="c p2">2</i> top 3</span>
+    <span><i class="c p3">4</i> named lower</span>
+    <span><i class="c no">—</i> not named</span>
+    <span><i class="c no">none</i> named no artists</span>
+    <span><i class="c ok">✓</i> correct bio</span>
+    <span><i class="c un">?</i> couldn't read</span>
+  </div>
+  <div class="tablebox"><table id="t-ai"></table></div>
+  <p class="note">Copilot now sends signed-out visitors to a Microsoft sign-in page, so there's no clean way to read it. The Claude readings from 2 and 7 Nov were voided because they ran inside your signed-in account.</p>
+</section>
+
+<section aria-labelledby="s-google">
+  <h2 id="s-google">Google search results</h2>
+  <p class="note">Rank trackers via OpenSEO (DataForSEO): desktop, English, a neutral searcher with no account or history, top 40. These count spencerzvoice.com only, not your profiles.</p>
+  <div class="tablebox"><table id="t-google"></table></div>
+  <h3>Page 1 including your profiles (8 Nov)</h3>
+  <ul>
+    <li><strong>"american male voice over lisbon", US:</strong> you hold #1–#5 (Malt #1, your site #2, GFTB #4, Voice123 #5).</li>
+    <li><strong>Same phrase, Portugal:</strong> your pages hold #1–#3, #5 and #7, but the site itself isn't in the top 40.</li>
+    <li><strong>"spencer pearman":</strong> UK, your site #1 and Voices.com #2. US, Bodalgo #1 and your site #4. Portugal, Instagram #1 and your site #2.</li>
+    <li><strong>Google's AI Overviews</strong> appear on several of these phrases and name nobody useful yet.</li>
+  </ul>
+</section>
+
+<section aria-labelledby="s-other">
+  <h2 id="s-other">Bing and Brave</h2>
+  <p class="note">Read in a fresh incognito window with no account. Bing readings from your own Chrome profile (2 Nov and the morning of 7 Nov) are voided.</p>
+  <div class="tablebox"><table id="t-other"></table></div>
+  <p class="note">Brave still hadn't indexed your Gravy for the Brain page on 7 Nov, 10 days after it went live. Brave's index feeds Claude's web search, so this is the main thing holding back Claude's own app.</p>
+</section>
+
+<section aria-labelledby="s-health">
+  <h2 id="s-health">Site health (8 Nov)</h2>
+  <div class="cols">
+    <div>
+      <h3>Search Console, last 28 days</h3>
+      <ul>
+        <li>"spencer pearman": 38 impressions, average position 4.2, 0 clicks</li>
+        <li>8 search queries in total sent anyone to the site</li>
+        <li>All 5 main pages "Submitted and indexed", crawled 3–6 Nov</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Links pointing at the site</h3>
+      <ul>
+        <li>75 linking domains, spam score 58: mostly junk *.pages.dev and .ga sites, with a September spike to 248 that then disappeared</li>
+        <li>Real links: gravyforthebrain.com (29 Oct), bodalgo.com (8 Aug)</li>
+        <li>Domain rank: 0</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Gaps</h3>
+      <ul>
+        <li>No Google Analytics property for spencerzvoice.com (the only one is for the dead Carrd site)</li>
+        <li>For your name, Google shows /es/ (US) and /e-learning/ (UK) instead of the homepage</li>
+        <li>OpenSEO balance: 8,892 credits (≈ $8.89)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="s-plan">
+  <h2 id="s-plan">Plan to rank on Google</h2>
+  <div class="plan">
+    <div class="step"><div><h3>Profile link audit + homepage name fix</h3><p>Check signed out that Voices.com, Voice123, Malt, Bodalgo, GFTB, VoiceBros, IMDb, LinkedIn and YouTube all link to spencerzvoice.com, and fix any that don't. Tighten the homepage title and wording so Google shows it for your name.</p></div><span class="pill wait">Waiting on your go-ahead</span></div>
+    <div class="step"><div><h3>Press through Qwoted + podcast guest spots</h3><p>2–3 pitches a week on the working-traveller story. One real article that links to the site outweighs everything else on this list.</p></div><span class="pill todo">Not started</span></div>
+    <div class="step"><div><h3>Credit links from past clients</h3><p>Ask Noah Media (FIFA) and any client with a credits or portfolio page to link your name to the site. One email each, drafted for you to send.</p></div><span class="pill todo">Not started</span></div>
+    <div class="step"><div><h3>Hip Hop Madness description credit</h3><p>"Narrated by Spencer Pearman · spencerzvoice.com" on every video you voice. YouTube links carry little ranking weight, but the credit reaches a big audience and AI tools read it.</p></div><span class="pill queued">Queued until Nate agrees the terms</span></div>
+    <div class="step"><div><h3>Google Business Profile reviews</h3><p>3–5 reviews from past clients, asked for by email. These feed the Lisbon local results and the profile card AI Mode already shows.</p></div><span class="pill todo">Not started</span></div>
+    <div class="step"><div><h3>Google Analytics for spencerzvoice.com</h3><p>So we can see what traffic the rankings actually bring.</p></div><span class="pill todo">Not started</span></div>
+  </div>
+  <p class="note">Left alone on purpose: "american male voice over" (Voices.com and The Voice Realm own it), cleaning up spam links (Google already ignores them), and paid directories.</p>
+</section>
+
+<section aria-labelledby="s-log">
+  <h2 id="s-log">Run log</h2>
+  <div class="tablebox"><table id="t-log"></table></div>
+  <p class="note">Phrases: K1 "american male voice over in europe" · K2 "american voice actor based in europe" · K3 "american male voice over lisbon" · K4 "american voice actor based in europe for a commercial" · K5 "spencer pearman" · K6 "american male voice over". Every reading is incognito or signed out; signed-in readings are voided and left out. No CAPTCHA was ever solved or bypassed.</p>
+</section>
+
+</main>
+<script>
+/* ===== DATA: append each new run here, then republish ===== */
+const UPDATED = "8 Nov 2026, 19:30 UTC";
+const PROMPTS = [
+  ["P1","Who is the best American male voice over artist based in Europe?"],
+  ["P2","american male voice over in europe"],
+  ["P3","Hire one based in Europe for a commercial"],
+  ["P4","Hire one in Lisbon"],
+  ["P5","Who is Spencer Pearman, the voice over artist?"]
+];
+/* value: number = position · "-" not named · "none" named no artists · "ok" correct bio · "?" unread */
+const AI = {
+  "ChatGPT":    {"2 Nov":[1,1,1,1,"ok"], "7 Nov am":[4,1,1,1,"ok"], "7 Nov pm":[1,1,1,1,"ok"], "8 Nov":[3,1,1,1,"ok"]},
+  "Claude":     {"8 Nov":[1,1,1,1,"ok"]},
+  "Gemini":     {"2 Nov":[2,"?","?",1,"ok"], "7 Nov pm":[1,"none",1,1,"ok"], "8 Nov":[1,"none",1,1,"ok"]},
+  "Perplexity": {"7 Nov pm":["?","-","?","?","?"], "8 Nov":["-",1,"-",1,"ok"]},
+  "Google AI Mode": {"8 Nov":[1,"none",1,1,"ok"]},
+  "Copilot":    {"8 Nov":["?","?","?","?","?"]}
+};
+const PHRASES = ["american male voice over","american male voice over in europe","american male voice over lisbon","american voice actor based in europe","american voice actor based in europe for a commercial","spencer pearman"];
+/* Google trackers: run date -> {US:[...],UK:[...],PT:[...]} in PHRASES order; "-" = not in top 40 */
+const GOOGLE = {
+  "8 Nov": {US:["-","-",2,6,1,4], UK:["-","-",4,"-","-",1], PT:["-",3,"-","-",1,2]}
+};
+const OTHER_ROWS = ["K1","K2","K3","K4","K5","K6"];
+const OTHER = {
+  "Bing US (7 Nov)":   ["?",1,1,1,1,"-"],
+  "Bing UK (7 Nov)":   [1,1,1,1,1,"-"],
+  "Brave (2 Nov)":     [1,2,1,1,"-","?"],
+  "Brave (7 Nov am)":  [1,1,1,1,11,"?"],
+  "Brave (7 Nov pm)":  [1,1,1,4,"?","?"]
+};
+const LOG = [
+  ["2 Nov","Brave, ChatGPT, Gemini (signed out)","ChatGPT #1 on all 5. Gemini answered signed out for the first time: #2 Europe, #1 Lisbon. Perplexity, Copilot and Google blocked or walled."],
+  ["7 Nov am","Brave, ChatGPT (signed out)","ChatGPT slipped to #4 on the 'best in Europe' prompt; everything else held."],
+  ["7 Nov pm","Incognito: Bing, Brave, ChatGPT, Gemini, Perplexity","Bing and Brave #1 on the target phrases. ChatGPT back to #1 everywhere. Google blocked every signed-out route."],
+  ["8 Nov","OpenSEO: Google US/UK/PT, 4 AI engines, Search Console, backlinks; incognito AI Mode","First clean Google read. 3 rank trackers set up (manual, ≈90 credits per run). AI Mode got through on the second retry: #1 on 3 prompts plus a correct bio."]
+];
+/* ===== RENDER ===== */
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function chip(v){
+  if (v === "ok") return '<span class="c ok" title="correct bio">✓</span>';
+  if (v === "?")  return '<span class="c un" title="couldn\'t read">?</span>';
+  if (v === "-")  return '<span class="c no" title="not named / not ranked">—</span>';
+  if (v === "none") return '<span class="c no" title="named no artists">none</span>';
+  const n = Number(v);
+  const cls = n === 1 ? "p1" : n <= 3 ? "p2" : "p3";
+  return `<span class="c ${cls}">${n}</span>`;
+}
+const short = v => v === "ok" ? "✓" : v === "-" ? "—" : v;
+document.getElementById("updated").textContent = "Last updated " + UPDATED + " · readings are incognito or signed out only";
+
+(function(){
+  const engines = Object.keys(AI);
+  let h = "<thead><tr><th>Prompt</th>" + engines.map(e => `<th>${esc(e)}</th>`).join("") + "</tr></thead><tbody>";
+  PROMPTS.forEach(([id, text], i) => {
+    h += `<tr><td class="q"><strong>${id}</strong><small>${esc(text)}</small></td>`;
+    engines.forEach(e => {
+      const runs = Object.entries(AI[e]);
+      const [, last] = runs[runs.length - 1];
+      const earlier = runs.slice(0, -1).map(([d, a]) => `${d}: ${short(a[i])}`).join(" · ");
+      h += `<td>${chip(last[i])}${earlier ? `<span class="hist">${esc(earlier)}</span>` : ""}</td>`;
+    });
+    h += "</tr>";
+  });
+  document.getElementById("t-ai").innerHTML = h + "</tbody>";
+})();
+
+(function(){
+  const runs = Object.keys(GOOGLE);
+  const markets = ["US","UK","PT"];
+  let h = "<thead><tr><th>Phrase</th>";
+  runs.forEach(r => markets.forEach(m => h += `<th>${m} · ${esc(r)}</th>`));
+  h += "</tr></thead><tbody>";
+  PHRASES.forEach((p, i) => {
+    h += `<tr><td class="q">${esc(p)}</td>`;
+    runs.forEach(r => markets.forEach(m => h += `<td>${chip(GOOGLE[r][m][i])}</td>`));
+    h += "</tr>";
+  });
+  document.getElementById("t-google").innerHTML = h + "</tbody>";
+})();
+
+(function(){
+  const cols = Object.keys(OTHER);
+  let h = "<thead><tr><th>Phrase</th>" + cols.map(c => `<th>${esc(c)}</th>`).join("") + "</tr></thead><tbody>";
+  OTHER_ROWS.forEach((k, i) => {
+    h += `<tr><td class="q"><strong>${k}</strong><small>${esc(PHRASES[[1,3,2,4,5,0][i]])}</small></td>`;
+    cols.forEach(c => h += `<td>${chip(OTHER[c][i])}</td>`);
+    h += "</tr>";
+  });
+  document.getElementById("t-other").innerHTML = h + "</tbody>";
+})();
+
+(function(){
+  let h = "<thead><tr><th>Run</th><th>Surfaces read</th><th>What changed</th></tr></thead><tbody>";
+  LOG.slice().reverse().forEach(([d, s, w]) => h += `<tr><td style="white-space:nowrap"><strong>${esc(d)}</strong></td><td>${esc(s)}</td><td>${esc(w)}</td></tr>`);
+  document.getElementById("t-log").innerHTML = h + "</tbody>";
+})();
+</script>
+</body>
+</html>
