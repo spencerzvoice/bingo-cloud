@@ -64,6 +64,15 @@
       "port": 3001
     },
     {
+      "name": "portio-bank-today",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/c",
+        "cd /d C:\\Users\\spenc\\Paige-portio-bank\\projects\\portio\\app && npx vite --port 5199 --strictPort"
+      ],
+      "port": 5199
+    },
+    {
       "name": "reginald-site",
       "runtimeExecutable": "node",
       "runtimeArgs": [
