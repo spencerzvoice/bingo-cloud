@@ -776,3 +776,11 @@ NO-CONTACT CHECK (live Gmail via FGAC 11-05): each thread = touch 1 + touch 2 on
 - 2026-11-06 | Funnel S1 | The Infographics Show (Andrej Preston) | andrej@darkmatterdesign.com | thread 1a1b24453161f881 | touch 1 sent 11-06 ~19:12 UTC | touch 2 due Fri 2026-11-13 (queue row, 09:04 local)
 - 2026-11-06 | Funnel S1 | The Secrets of the Universe (Rishabh Nakra) | rishabhnakra@secretsofuniverse.in | thread 1a1b250f8ff53cdb | touch 1 SCHEDULED Sat 11-07 06:30 UTC (12:00 IST) | touch 2 due Mon 2026-11-16 (queue row, 09:04 local)
 - 2026-11-06 | Funnel S1 | Weird History (Kyle Segal, Ranker) | ksegal@ranker.com | thread 1a1b26ea5129a6aa | touch 1 sent 11-06 ~19:57 UTC | touch 2 due Fri 2026-11-13 (queue row, 09:04 local)
+
+## 2026-11-09 ~16:40 UTC (cloud, Follow-up Prep, for Tue 2026-11-10)
+**Ledger coverage: 163 outbound threads, 142+ in ledger, 22 exempt, 0 missing** (script: 163 candidates, 2 not matched on thread id/address, both now EXEMPT below).
+EXEMPT: spencerzpearman@gmail com (typo address, own account) | thread 1a19e139dcfcf14f | personal/self-send, no recipient | 2026-11-09
+EXEMPT: wyeth@wyethco.com | thread 1a1b3b6f8b121c0d | Voices.com client Wyeth Collins (#878888), review-ask email sent 11-07, warm client, own cadence (memory/2026-11-07.md) | 2026-11-09
+**QUEUED Tue 2026-11-10 touch 3 (final), 10:13 America/New_York (Queue row 125):** Paul Jun/Ramp (paul.jun@ramp.com, thread 1a1328155d95aa0b; touch 1 10-13, touch 2 10-27 day 14). Buyer gate PASS (Creative Director, Brand). NO-CONTACT CHECK (live Gmail via FGAC 11-09): thread = touch 1, his OOO auto-reply 10-13 (ended 10-23) and touch 2 only; nothing in Scheduled or Drafts for ramp.com/calm.com; no LinkedIn mail naming him; repo grep clean. Text = skill Step 2 touch 3, "Hello Paul". After final: LT1 day 90 from 11-10 = early Feb 2027 window.
+**NOT queued, needs Spencer's call:** Casey Daigle/Calm touch 3 (reminder Tue 11-10, touch 2 10-27, thread 1a15af0ac8ffd779): buyer gate REVIEW (Senior Creative Producer), no written evidence on file. Window to ~Tue 11-17. Pelle Iversen/Orsted touch 3 still flagged (REVIEW). Warm Maersk/Sam Poulter draft still Spencer's to send.
+**Follow-up queue check: drafts D 0, due N 1 (+Casey flagged), queued Q 1, sent S 2 today (THE LINE, Lambda), missing M 0.** Heartbeat Log!F1 2026-11-09T16:17:35Z fresh. HELD: micro1, Nadjarians (known).
