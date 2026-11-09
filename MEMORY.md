@@ -1,5 +1,5 @@
 # MEMORY — Bingo's long-term brain
-_Last updated: 2026-11-08_
+_Last updated: 2026-11-09_
 _Next memory prune: 2026-12-01_ (last done 2026-11-03) — condense resolved/cold leads in `reference/outreach-pipeline.md` to one-liners, keep only live items + useful data points, then reset this date ~4 weeks out.
 
 Ground rule: this file plus `@`-imports and `reference/` is what I carry between sessions. When Spencer tells me something durable, it goes here immediately (`🧠 remembered: <thing>`). Curated core only: **one fact per line, no paragraphs.** Bulky detail goes to `reference/` with a one-line pointer here. Don't repeat what CLAUDE.md / AGENTS.md / a skill already says; point to it. (Trimmed 2026-10-16 from 52 KB.)
@@ -14,6 +14,7 @@ Spencer Z. Pearman — professional non-union American voiceover artist **and** 
 
 - Business: **Nomadic Light LLC** (California single-member LLC). Business email **spencer@spencerzvoice.com** (the only email Bingo works from). PT phone **+351 912 081 764** (Spencer 10-21; ChatGPT already lists it); US/WhatsApp +1 (510) 316-9382 (Resume 2026).
 - Website: spencerzvoice.com (detail: [[website-and-brand]]). Old Carrd résumé site is DEAD on purpose (trashed 10-06, Spencer 10-29: "Carrd is dead"; spencerzvoice.carrd.co = 404, caard.co doesn't resolve); never share or "fix" it. ChatGPT + Claude still cite cached carrd copies (10-29); spencerzvoice.com links to it nowhere.
+- **No in-person studio hire** (Spencer 11-09): he won't have strangers recording in his home; studio-hire requests get a polite "studio under renovation" decline (Rui Henriques, 11-09).
 - Treated home studio, **Pro Tools certified** (ProMedia Training, Sept 2025). 24h standard turnaround, same-day rush.
 - **Source Connect: NO subscription** — buys a Talent 2-day license ($25) per session, ~3 uses in 7 years (told Laundry so, 09-16). Never assert he has it live.
 - 12+ years audio engineering (Ableton, Pro Tools, Audition, iZotope RX) across music, documentary, podcast, commercial VO. AI/TTS dataset work (micro1, Dec 2025–Jun 2026; VoiceOver LA TTS singing project 2023).
