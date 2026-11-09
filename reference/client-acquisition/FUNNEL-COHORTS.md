@@ -251,7 +251,7 @@ Order: **H = the 10 with time-sensitive or strongest hooks** (draft first before
 | Monzo | Fintech and payments | Chris Mucklow-Norell | Maja Bayyoud | BANKED |
 | Brex | Fintech and payments | Anna Graney | Iris Hung | BANKED — verify Graney's current employer before drafting |
 | Marqeta | Fintech and payments | Greer Burton | Amy McWilliams | BANKED |
-| Affirm | Fintech and payments | Andrew McIntyre | Kat Green | BANKED — HOOK NEEDED |
+| Affirm | Fintech and payments | Andrew McIntyre | Kat Green | BANKED — HOOK NEEDED. **NO GOOD MATCH verdict 2026-11-09 (Re-Voicing):** @AffirmInc channel's only off-screen-narrator product spots are 2021-01-22 (5+yr AGE GATE reject); nothing newer fits. No package built; pitch with the commercial-reel + past-work variant, no re-voice line. Detail: Funnel O `_candidates` doc |
 
 ### Funnel P
 | Company | Segment | Primary | Backup | Roster note |
