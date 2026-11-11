@@ -790,3 +790,11 @@ EXEMPT: wyeth@wyethco.com | thread 1a1b3b6f8b121c0d | Voices.com client Wyeth Co
 **Nothing due Wed 11-11:** no cold touch 2/3 reminder dates on the ledger. Paul Jun/Ramp touch 3 SENT 11-10 10:13 NY (Queue row 125, msg 1a1c6059e9b9a45b). Next: S1 touch 2s Fri 11-13 (queue rows via Prep Thu 11-12).
 **Still needing Spencer's call (in Digest):** Casey Daigle/Calm touch 3 (REVIEW gate, window to ~11-17), Pelle Iversen/Orsted touch 3 (REVIEW), Maersk/Sam Poulter warm draft.
 **Follow-up queue check: drafts D 0, due N 0, queued Q 0, sent S 1 today (Ramp), missing M 0.** Heartbeat Log!F1 2026-11-10T16:40:36Z fresh.
+EXEMPT: email-5ff160c9-688a-4a8f-a9a2-da0fa7ad854e@test.mailpool.io | thread 1a1c4b0d3e1da137 | admin/vendor: mailpool.io "Blocklist Check Test" deliverability test, not client outreach | 2026-11-11
+
+## 2026-11-11 ~17:00 UTC (cloud, Follow-up Prep, for Thu 2026-11-12)
+**Ledger coverage: 139 outbound threads, 124 in ledger, 15 exempt (after the line above), 0 missing** (+74 tracker-only rows = the usual carry). The one miss was another mailpool.io "Blocklist Check Test" (thread 1a1c4b0d3e1da137), now EXEMPT.
+**Nothing due Thu 11-12:** no cold touch 2/3 reminder dates on the ledger. Next: S1 touch 2s (HistoryMarche, Kings and Generals, Simple History, Static, Infographics Show, Weird History, HealthNormal) Fri 11-13; Prep Thu 11-12 queues them. Epic History + Secrets of the Universe touch 2 Mon 11-16.
+**Still needing Spencer's call (Digest):** Casey Daigle/Calm touch 3 (REVIEW gate, window to ~11-17), Pelle Iversen/Orsted touch 3 (REVIEW), Maersk/Sam Poulter warm draft.
+**Queue Sheet (live):** last rows 123-125 SENT (THE LINE, Lambda, Ramp); no new QUEUED/HELD/ERROR. Heartbeat Log!F1 2026-11-11T16:43:35Z fresh.
+**Follow-up queue check: drafts D 0, due N 0, queued Q 0, sent S 0 new since last run, missing M 0.**
