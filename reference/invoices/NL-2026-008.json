@@ -4,8 +4,8 @@
   "client": "Altra Running",
   "job": "Altra BC",
   "date": "11/03/2026",
-  "due_date": "11/03/2026",
-  "terms": "Due on Receipt",
+  "due_date": "Per VF vendor terms",
+  "terms": "Per VF vendor terms",
   "bill_to": [
     "Tyler Gorky",
     "Global Creative Producer",
@@ -18,7 +18,7 @@
   "lines": [
     {
       "qty": 1,
-      "description": "Voice over services, Altra BC: one :30 spot plus a :15 and a :06 cutdown from the same recording. 12-month worldwide license, all media excluding broadcast, recording exclusive (terms below), credit card payment option",
+      "description": "Voice over services, Altra BC: one :30 spot plus a :15 and a :06 cutdown from the same recording. 12-month worldwide license, all media excluding broadcast, recording exclusive (terms below)",
       "unit_price": 3500
     }
   ],
@@ -26,6 +26,8 @@
     "License: 12 months from first publication, worldwide, all media excluding broadcast (OOH, industrial, internal, web and social paid and organic, OTT and pre-roll). The recording is exclusive to Altra / VF for the term; talent is non-exclusive.",
     "Any additional versions or cutdowns beyond the :30, :15 and :06 are quoted separately. The recordings may not be used for AI, synthetic voice or voice-model training. Use beyond 12 months by renewal agreement."
   ],
-  "payment_link": "https://buy.stripe.com/bJeeVe0ktaMOaft0a648001",
-  "payment_link_label": "PAYMENT LINK (CARD)"
+  "payment_note": [
+    "Payable through VF Corporation's vendor payment system, by electronic deposit per the signed",
+    "Electronic Deposit Authorization and W-9 on file (sent 11/11/2026)."
+  ]
 }

@@ -197,9 +197,15 @@ def build(spec, out):
 
     # Banking
     rule(c, nt, NAVY, 1)
-    label(c, LM, nt + 19, "BANKING INFORMATION — USD", 10)
+    if spec.get("payment_note"):
+        # Client pays through its own vendor system (e.g. electronic deposit on file): no bank block, no payment link.
+        label(c, LM, nt + 19, "PAYMENT", 10)
+        for k, line in enumerate(spec["payment_note"]):
+            body(c, LM, nt + 40 + 13 * k, line, 9)
+    else:
+      label(c, LM, nt + 19, "BANKING INFORMATION — USD", 10)
     cols = [LM, 220, 392]
-    for i, (lab, vals) in enumerate(BANK):
+    for i, (lab, vals) in enumerate([] if spec.get("payment_note") else BANK):
         x = cols[i % 3]
         row = nt + 40 + (i // 3) * 34
         label(c, x, row, lab)
