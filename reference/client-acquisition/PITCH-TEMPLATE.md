@@ -197,6 +197,7 @@ No hook = no callback: the sentence ends at "<Company>." and the quality line st
 | Company type | Credits |
 |---|---|
 | Software, SaaS, AI, cyber, cloud, B2B, industrial, energy, corporate | Dell Technologies, Cisco, and Amazon AWS (Brave Browser for browser/privacy/AI tools) |
+| **Government, defense, aerospace, military-tech, public sector, govcon (GDIT-type), and the agencies that make their films** (Spencer, 2026-11-12: U.S. Army booked via Highlanders Creative) | the U.S. Army, Cisco, and Amazon AWS |
 | Fintech, payments, banking | Venmo, Amazon AWS, and Dell Technologies |
 | **Sports organisations: leagues, tours, teams, federations, sports media and sports events** (Spencer, 2026-10-12: "make it the default for sports clients") | v4 (Spencer's Premier Padel draft, 10-13): "My recent work includes the 2026 FIFA World Cup Preview Series and the Preview of the Season for EuroLeague Basketball, NordicTrack and Altra Running among others." (v3 had FIFA and EuroLeague only) |
 | Fitness, sporting goods, apparel, outdoor, wearables (brands) | NordicTrack, Fabletics, and FootJoy |
