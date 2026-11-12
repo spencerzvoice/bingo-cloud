@@ -39,6 +39,7 @@ Compiled from Spencer's memory exports (2026-08-27). The live outreach pipeline 
 | Xpedition Media | Rebekah Bell (current primary); Mary Chaplin (billing, kept deliberately); Nandi Smythe; Becca Winkler (superseded) | rebekah.bell@xpedition.com | YouTube / C-SPAN campaign (monthly recording gig; invoice #0002 5/28/2026, $3,000) |
 | iFIT / NordicTrack | Michael Hamblin (VP Content); Ryan Humpherys (Head of Post — note spelling) | michael.hamblin@ifit.com; ryan.humpherys@ifit.com | NordicTrack. Radio ads Aug–Nov 2024 ($3,000/1-yr usage). Hook: Ultra 1 Red Dot Award (won Jul 7 2026). |
 | Narwal Creative | Justin van der Velden | justin@narwalcreative.com | Ongoing spot work since Jun 2024 |
+| Highlanders Creative (Park City, UT) | Ed McCulloch (Founder-CEO); Michael Mendieta (partner, billing); George Abraham (editor) | ed@highlanderscreative.com; michael@highlanderscreative.com | U.S. Army: 2 gala films (2:02 client cut + 0:41 "Be All You Can Be" agency cut), Nov 2026, $800, non-broadcast. Came direct after a Voices.com audition. |
 | Rhymesayers | Tanner Groehler (VP Creative); Jordon Daley | tanner@rhymesayers.com | Yasiin Bey (Mos Def) *The Ecstatic* reissue — animated narrative VO. Fell through Jun 2026 (budget). Free audition offered as re-engagement. |
 
 ### Agencies approached for representation (not clients)
@@ -77,6 +78,7 @@ Primal Space & Hip Hop Madness (recurring direct YouTube-channel clients — tra
 | Climb High | Nov 10 2025 ($300 budget) |
 | Noah Media Group | FIFA inquiry Mar 4 2026; Ep 11 completed/invoiced May 20–22 2026 |
 | Xpedition Media | Monthly; invoice #0002 May 28 2026 ($3,000); re-engaged Jul 31 2026 |
+| Highlanders Creative | Nov 7-9 2026 — U.S. Army gala VO (directed, revised reads 11-09); finals 11-11 (Frame.io); invoice NL-2026-009 $800, paid 11-11 (Michael Mendieta). Finals on F: Final Spots/US Army (Highlanders Creative); 0:41 agency cut on spencerzvoice.com from 2026-11-12. Google review asked by Spencer 11-11. |
 | Zulubot Bravo Inc | Job #861714 awarded Aug 24 2025, deposit + payment Aug 25 |
 | Harry Cartwright | Oct 27 2026 — "O Caminho" short film: mixed audio delivered (SwissTransfer link, Gmail Sent "O Caminho Mixed Audio"); fee ❓ |
 - **CrowdReply** (direct, co-founder Jim): came on board after the 08-28 re-voice samples; Spencer voiced a job for them in September 2026: one :30 VO, $250 (Spencer, 2026-10-06). Usage: web only (non-paid), in perpetuity (Spencer, 2026-10-07). Any paid media/ads use = new usage fee. Retainer plan in `reference/outreach-pipeline.md`.
