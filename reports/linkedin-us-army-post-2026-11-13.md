@@ -1,4 +1,4 @@
-# LinkedIn post: U.S. Army films for Highlanders Creative (DRAFT v2, 2026-11-13, Spencer edits applied, not posted)
+# LinkedIn post: U.S. Army films for Highlanders Creative (DRAFT v3, 2026-11-13, Spencer edits applied, not posted)
 
 Video to attach: `C:\Users\spenc\spencerzvoice-site\builds\spencerzvoice\assets\spots\army-1.mp4` (0:41, 9.5 MB, the same web encode that's on spencerzvoice.com). Tag (Spencer 11-13, must): Highlanders Creative (company page) + Ed McCulloch. George Abraham named in the text, not tagged.
 
@@ -11,6 +11,8 @@ I got to voice two films for the U.S. Army with Highlanders Creative this month.
 Big thanks to Ed McCulloch for bringing me on and pushing the read to exactly the right place, and to George Abraham for a great edit. Ed's notes came in one evening and the new reads were back to him the same night, all recorded from my studio here in Lisbon.
 
 If you're making films for defense, aerospace or government clients and need an American voice (and one based in Europe, for my non-US clients), I'd love to hear what you're working on.
+
+Also, go check out Ed McCulloch's video work on his website. It's incredible. I was blown away, and I'm super stoked to have had the opportunity to work with him. To many more!
 
 More of my work: spencerzvoice.com
 
