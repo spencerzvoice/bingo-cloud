@@ -78,7 +78,7 @@ Primal Space & Hip Hop Madness (recurring direct YouTube-channel clients — tra
 | Climb High | Nov 10 2025 ($300 budget) |
 | Noah Media Group | FIFA inquiry Mar 4 2026; Ep 11 completed/invoiced May 20–22 2026 |
 | Xpedition Media | Monthly; invoice #0002 May 28 2026 ($3,000); re-engaged Jul 31 2026 |
-| Highlanders Creative | Nov 7-9 2026 — U.S. Army gala VO (directed, revised reads 11-09); finals 11-11 (Frame.io); invoice NL-2026-009 $800, paid 11-11 (Michael Mendieta). Finals on F: Final Spots/US Army (Highlanders Creative); 0:41 agency cut on spencerzvoice.com from 2026-11-12. Google review asked by Spencer 11-11. |
+| Highlanders Creative | Nov 7-9 2026 — U.S. Army gala VO (directed, revised reads 11-09); finals 11-11 (Frame.io); invoice NL-2026-009 $800, paid 11-11 (Michael Mendieta). Finals on F: Final Spots/US Army (Highlanders Creative); 0:41 agency cut on spencerzvoice.com from 2026-11-12. Ed cleared promo use 11-13 ("to get more work"). Google review asked by Spencer 11-11. |
 | Zulubot Bravo Inc | Job #861714 awarded Aug 24 2025, deposit + payment Aug 25 |
 | Harry Cartwright | Oct 27 2026 — "O Caminho" short film: mixed audio delivered (SwissTransfer link, Gmail Sent "O Caminho Mixed Audio"); fee ❓ |
 - **CrowdReply** (direct, co-founder Jim): came on board after the 08-28 re-voice samples; Spencer voiced a job for them in September 2026: one :30 VO, $250 (Spencer, 2026-10-06). Usage: web only (non-paid), in perpetuity (Spencer, 2026-10-07). Any paid media/ads use = new usage fee. Retainer plan in `reference/outreach-pipeline.md`.
