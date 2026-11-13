@@ -1,4 +1,4 @@
-# LinkedIn post: U.S. Army films for Highlanders Creative (DRAFT v5, 2026-11-13, Spencer edits applied, not posted)
+# LinkedIn post: U.S. Army films for Highlanders Creative (POSTED 2026-11-13 on Spencer's "Post it": https://www.linkedin.com/feed/update/urn:li:activity:7527027430843166720/)
 
 Video to attach: `C:\Users\spenc\spencerzvoice-site\builds\spencerzvoice\assets\spots\army-1.mp4` (0:41, 9.5 MB, the same web encode that's on spencerzvoice.com). Tag (Spencer 11-13, must): Highlanders Creative (company page) + Ed McCulloch. George Abraham named in the text, not tagged.
 
